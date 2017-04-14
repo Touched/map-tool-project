@@ -4,6 +4,7 @@ import {
   BitfieldSchema,
   BooleanSchema,
   Byte,
+  CaseSchema,
   CompressionSchema,
   EnumSchema,
   HalfWord,
@@ -91,9 +92,119 @@ const ConnectionTable = new StructureSchema([
   ['connections', new PointerSchema(new ArraySchema(Connection, 'count'))]
 ]);
 
+const NpcEntity = new StructureSchema([
+  ['id', Byte],
+  ['sprite', Byte],
+  ['replacement', Byte],
+  [null, Byte],
+  ['x', HalfWord],
+  ['y', HalfWord],
+  ['height', Byte],
+  ['behavior', Byte], // TODO: Enum
+  ['boundary', new BitfieldSchema([
+    ['x', 4],
+    ['y', 4],
+  ])],
+  [null, Byte],
+  ['property', Byte],
+  [null, Byte],
+  ['view_radius', HalfWord],
+  ['script', Word],
+  ['flag', HalfWord],
+  [null, new PaddingSchema(2)],
+]);
+
+const WarpEntity = new StructureSchema([
+  ['x', HalfWord],
+  ['y', HalfWord],
+  ['height', Byte],
+  ['warp', Byte],
+  ['map', Byte],
+  ['bank', Byte],
+]);
+
+const TriggerEntity = new StructureSchema([
+  ['x', HalfWord],
+  ['y', HalfWord],
+  ['height', Byte],
+  [null, Byte],
+  ['variable', HalfWord],
+  ['value', HalfWord],
+  [null, Byte],
+  [null, Byte],
+  ['script', Word],
+]);
+
+const SignEntity = new StructureSchema([
+  ['x', HalfWord],
+  ['y', HalfWord],
+  ['height', Byte],
+  ['type', new NamedValueSchema('type', new EnumSchema(new Map([
+    [0, 'script'],
+    [1, 'script_up'],
+    [2, 'script_down'],
+    [3, 'script_right'],
+    [4, 'script_left'],
+    [5, 'hidden_item'],
+    [6, 'hidden_item1'],
+    [7, 'hidden_item2'],
+    [8, 'secret_base'],
+  ]), Byte, true))],
+  [null, new PaddingSchema(2)],
+  ['data', new CaseSchema([{
+    name: 'type',
+    condition: {
+      any: [
+        { eq: 'script' },
+        { eq: 'script_up' },
+        { eq: 'script_down' },
+        { eq: 'script_right' },
+        { eq: 'script_left' },
+      ],
+    },
+    schema: new StructureSchema([
+      ['script', Word],
+    ]),
+  }, {
+    name: 'type',
+    condition: {
+      any: [
+        { eq: 'hidden_item' },
+        { eq: 'hidden_item1' },
+        { eq: 'hidden_item2' },
+      ],
+    },
+    schema: new StructureSchema([
+      ['item', HalfWord],
+      ['id', Byte],
+      ['data', new BitfieldSchema([
+        ['amount', 7],
+        ['exact_required', 1],
+      ])],
+    ]),
+  }, {
+    name: 'type',
+    condition: { eq: 'secret_base' },
+    schema: new StructureSchema([
+      ['id', Word],
+    ]),
+  }])],
+]);
+
+const EntityTable = new StructureSchema([
+  [null, new NamedValueSchema('npc_count', Byte)],
+  [null, new NamedValueSchema('warp_count', Byte)],
+  [null, new NamedValueSchema('trigger_count', Byte)],
+  [null, new NamedValueSchema('sign_count', Byte)],
+  ['npcs', new PointerSchema(new ArraySchema(NpcEntity, 'npc_count'))],
+  ['warps', new PointerSchema(new ArraySchema(WarpEntity, 'warp_count'))],
+  ['triggers', new PointerSchema(new ArraySchema(TriggerEntity, 'trigger_count'))],
+  ['signs', new PointerSchema(new ArraySchema(SignEntity, 'sign_count'))],
+]);
+
 const MapHeader = new StructureSchema([
   ['data', new PointerSchema(MapData)],
-  ['events', Word],
+  ['entities', new PointerSchema(EntityTable)],
   ['scripts', Word],
   ['connections', new PointerSchema(ConnectionTable)],
   ['music', HalfWord],

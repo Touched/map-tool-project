@@ -8,6 +8,7 @@ const png = require('@Touched/indexed-png');
 const map = require('../lib/rom/map.js');
 
 const idLookup = {
+  banks: {},
   maps: {},
   blocksets: {},
 };
@@ -20,12 +21,22 @@ function lookupMap(bank, map) {
   return idLookup.maps[bank][map];
 }
 
-function lookupOrCreateBlockset(address) {
-  if (!idLookup.blocksets[address]) {
-    idLookup.blocksets[address] = uuid();
+function lookupBank(bank) {
+  if (!idLookup.banks[bank]) {
+    throw new Error(`Invalid bank ${bank}`);
   }
 
-  return idLookup.blocksets[address];
+  return idLookup.banks[bank];
+}
+
+function lookupOrCreateBlockset(address) {
+  if (!idLookup.blocksets[address]) {
+    const id = uuid();
+    idLookup.blocksets[address] = id;
+    return [false, id];
+  }
+
+  return [true, idLookup.blocksets[address]];
 }
 
 if (process.argv.length !== 4) {
@@ -69,7 +80,7 @@ function writeJSON(filePath, data) {
 }
 
 function processBlockset(address, blockset) {
-  const id = lookupOrCreateBlockset(address);
+  const [_, id] = lookupOrCreateBlockset(address);
   const blocksetPath = path.join('blocksets', id.toString(16), 'blockset.json');
   const tilesPath = path.join('blocksets', id.toString(16), 'tiles.png');
   const o = path.join(outputDirectory, blocksetPath);
@@ -125,6 +136,40 @@ function processConnection({ direction, offset, bank, map }) {
   };
 }
 
+function processNpcEntity(npcData) {
+  return npcData;
+}
+
+function processWarpEntity(warpData) {
+  return warpData;
+}
+
+function processSignEntity(signData) {
+  const { x, y, height, type, data: { value } } = signData;
+  return Object.assign({ x, y, height, type }, value);
+}
+
+function processTriggerEntity(triggerData) {
+  return triggerData;
+}
+
+function pointerToMaybeArray(pointer) {
+  return pointer.target === null ? [] : pointer.target;
+}
+
+function processEntities(entityData) {
+  const entities = {
+    npc: pointerToMaybeArray(entityData.npcs).map(processNpcEntity),
+    warp: pointerToMaybeArray(entityData.warps).map(processWarpEntity),
+    sign: pointerToMaybeArray(entityData.signs).map(processSignEntity),
+    trigger: pointerToMaybeArray(entityData.triggers).map(processTriggerEntity),
+  };
+
+  const result = Object.keys(entities).map(type => entities[type].map(data => ({ type, data })));
+
+  return flatten(result);
+}
+
 if (fs.existsSync(outputDirectory)) {
   console.log('Output directory already exists');
   process.exit(0);
@@ -157,6 +202,7 @@ const maps = flatten(mapBankTable.map((bank, n) => {
 maps.forEach(({ map, bank }) => {
   if (idLookup.maps[bank] === undefined) {
     idLookup.maps[bank] = {};
+    idLookup.banks[bank] = uuid();
   }
 
   idLookup.maps[bank][map] = uuid();
@@ -166,6 +212,14 @@ maps.forEach(({ map, bank }) => {
 maps.slice(185, 190).forEach((info, i) => {
   console.log(`Processing map ${info.bank}.${info.map} (${i + 1}/${maps.length})`);
   const data = map.readMap(rom, info.address);
+
+  const [primaryBlocksetExists, primaryBlocksetId] = lookupOrCreateBlockset(
+    data.data.target.blockset1.address
+  );
+
+  const [secondaryBlocksetExists, secondaryBlocksetId] = lookupOrCreateBlockset(
+    data.data.target.blockset2.address
+  );
 
   const mapData = {
     meta: {
@@ -186,27 +240,39 @@ maps.slice(185, 190).forEach((info, i) => {
       map: {
         width: data.data.target.width,
         height: data.data.target.height,
-        data: null, //simplifyObjectArray(flatten(data.data.target.data.target)),
+        data: simplifyObjectArray(flatten(data.data.target.data.target)),
       },
       blocksets: {
         primary: {
-          id: lookupOrCreateBlockset(data.data.target.blockset1.address),
+          id: primaryBlocksetId
         },
         secondary: {
-          id: lookupOrCreateBlockset(data.data.target.blockset2.address),
+          id: secondaryBlocksetId,
         },
       },
       scripts: null,
       connections: data.connections.target ?
         data.connections.target.connections.target.map(processConnection) : [],
-      entities: null,
+      entities: processEntities(data.entities.target),
     }
   };
 
-  const mapFile = path.join('banks', `${info.bank}`, `${info.map}`, 'map.json');
+  const mapFile = path.join(
+    'banks',
+    lookupBank(info.bank),
+    lookupMap(info.bank, info.map),
+    'map.json'
+  );
 
   writeJSON(mapFile, mapData);
 
-  processBlockset(data.data.target.blockset1.address, data.data.target.blockset1.target);
-  processBlockset(data.data.target.blockset2.address, data.data.target.blockset2.target);
+  if (!primaryBlocksetExists) {
+    console.log('Processing primary blockset');
+    processBlockset(data.data.target.blockset1.address, data.data.target.blockset1.target);
+  }
+
+  if (!secondaryBlocksetExists) {
+    console.log('Processing secondary blockset');
+    processBlockset(data.data.target.blockset2.address, data.data.target.blockset2.target);
+  }
 });
