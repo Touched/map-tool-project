@@ -1,8 +1,5 @@
 #!/usr/bin/env node
 
-// TODO: Scripts and level scripts
-// TODO: Map names
-
 const fs = require('fs');
 const path = require('path');
 const mkdirp = require('mkdirp');
@@ -139,11 +136,25 @@ function processConnection({ direction, offset, bank, map }) {
   };
 }
 
-function processNpcEntity(scriptPath, npcData) {
-  return npcData;
+function decompileScript(symbol, mapPath, scriptPath, address) {
+  // TODO: Actually decompile
+  const filePath = path.join(mapPath, scriptPath);
+  mkdirp.sync(path.dirname(filePath));
+  fs.writeFileSync(filePath, '', 'utf8');
+
+  return {
+    symbol: `${symbol}Main`,
+    path: scriptPath,
+  };
 }
 
-function processWarpEntity(scriptPath, { x, y, height, warp, map, bank }) {
+function processNpcEntity(symbol, mapPath, scriptPath, npcData) {
+  return Object.assign(npcData, {
+    script: decompileScript(symbol, mapPath, scriptPath, npcData.script),
+  });
+}
+
+function processWarpEntity(symbol, mapPath, scriptPath, { x, y, height, warp, map, bank }) {
   return {
     x,
     y,
@@ -157,25 +168,40 @@ function processWarpEntity(scriptPath, { x, y, height, warp, map, bank }) {
   };
 }
 
-function processSignEntity(scriptPath, signData) {
+function processSignEntity(symbol, mapPath, scriptPath, signData) {
   const { x, y, height, type, data: { value } } = signData;
-  return Object.assign({ x, y, height, type }, value);
+  return Object.assign({ x, y, height, type }, value, value.script ? {
+    script: decompileScript(symbol, mapPath, scriptPath, value.script),
+  }: {});
 }
 
-function processTriggerEntity(scriptPath, triggerData) {
-  return triggerData;
+function processTriggerEntity(symbol, mapPath, scriptPath, triggerData) {
+  return Object.assign(triggerData, {
+    script: decompileScript(symbol, mapPath, scriptPath, triggerData.script),
+  });
 }
 
 function pointerToMaybeArray(pointer) {
   return pointer.target === null ? [] : pointer.target;
 }
 
-function processEntities(scriptPath, entityData) {
+function processEntities(symbol, mapPath, scriptPath, entityData) {
+  function process(fn, key, symbolBase) {
+    return pointerToMaybeArray(entityData[key]).map((entity, n) => {
+      return fn(
+        `${symbol}${symbolBase}${n}`,
+        mapPath,
+        path.join(scriptPath, symbolBase.toLowerCase(), `${n}.s`),
+        entity
+      );
+    });
+  }
+
   const entities = {
-    npc: pointerToMaybeArray(entityData.npcs).map(e => processNpcEntity(scriptPath, e)),
-    warp: pointerToMaybeArray(entityData.warps).map(e => processWarpEntity(scriptPath, e)),
-    sign: pointerToMaybeArray(entityData.signs).map(e => processSignEntity(scriptPath, e)),
-    trigger: pointerToMaybeArray(entityData.triggers).map(e => processTriggerEntity(scriptPath, e)),
+    npc: process(processNpcEntity, 'npcs', 'Npc'),
+    warp: process(processWarpEntity, 'warps', 'Warp'),
+    sign: process(processSignEntity, 'signs', 'Sign'),
+    trigger: process(processTriggerEntity, 'triggers', 'Trigger'),
   };
 
   const result = Object.keys(entities).map(type => entities[type].map(data => ({ type, data })));
@@ -183,21 +209,31 @@ function processEntities(scriptPath, entityData) {
   return flatten(result);
 }
 
-function processMapScript(scriptPath, { type, data: { value: data } }) {
+function processMapScript(symbol, n, mapPath, scriptPath, { type, data: { value: data } }) {
   if (type === 'handler_env1' || type === 'handler_env2') {
     return {
       type,
-      scripts: data.target.map(({ variable, data: { value: { value, script } } }) => ({
+      scripts: data.target.map(({ variable, data: { value: { value, script } } }, m) => ({
         variable,
         value,
-        script,
+        script: decompileScript(
+          `${symbol}Map${n}Auto${m}`,
+          mapPath,
+          path.join(scriptPath, 'map', `${n}`, `${m}.s`),
+          script
+        ),
       })),
     };
   }
 
   return {
     type,
-    script: data,
+    script: decompileScript(
+      `${symbol}Map${n}`,
+      mapPath,
+      path.join(scriptPath, 'map', `${n}.s`),
+      data
+    ),
   };
 }
 
@@ -239,6 +275,9 @@ maps.forEach(({ map, bank }) => {
   idLookup.maps[bank][map] = uuid();
 });
 
+// Keep track of how many times a symbol was used
+const symbolCounter = {};
+
 // TODO: Do all of them
 maps.slice(185, 190).forEach((info, i) => {
   console.log(`Processing map ${info.bank}.${info.map} (${i + 1}/${maps.length})`);
@@ -252,6 +291,9 @@ maps.slice(185, 190).forEach((info, i) => {
     data.data.target.blockset2.address
   );
 
+  const mapName = mapNames[data.name - 0x58];
+  const mapNameSymbol = mapName.toLowerCase().replace(/\s(.)|\s^/g, s => s.toUpperCase().trim());
+
   const mapPath = path.join(
     outputDirectory,
     'banks',
@@ -259,8 +301,12 @@ maps.slice(185, 190).forEach((info, i) => {
     lookupMap(info.bank, info.map)
   );
 
-  const scriptPath = path.join(mapPath, 'scripts');
-  mkdirp.sync(scriptPath);
+  if (!symbolCounter[mapNameSymbol]) {
+    symbolCounter[mapNameSymbol] = 0;
+  }
+
+  const scriptSymbolPrefix = `${mapNameSymbol}${symbolCounter[mapNameSymbol] || ''}`;
+  symbolCounter[mapNameSymbol]++;
 
   const mapData = {
     meta: {
@@ -269,7 +315,7 @@ maps.slice(185, 190).forEach((info, i) => {
         version: '0.1.0',
       },
       id: lookupMap(info.bank, info.map),
-      name: `Map ${info.bank}.${info.map} - ${mapNames[data.name - 0x58]}`,
+      name: `Map ${info.bank}.${info.map} - ${mapName}`,
       description,
     },
     data: {
@@ -291,10 +337,16 @@ maps.slice(185, 190).forEach((info, i) => {
           id: secondaryBlocksetId,
         },
       },
-      scripts: pointerToMaybeArray(data.scripts).map(script => processMapScript(scriptPath, script)),
+      scripts: pointerToMaybeArray(data.scripts).map((script, n) => processMapScript(
+        scriptSymbolPrefix,
+        n,
+        mapPath,
+        'scripts',
+        script
+      )),
       connections: data.connections.target ?
         pointerToMaybeArray(data.connections).connections.target.map(processConnection) : [],
-      entities: processEntities(mapPath, data.entities.target),
+      entities: processEntities(scriptSymbolPrefix, mapPath, 'scripts', data.entities.target),
     }
   };
 
