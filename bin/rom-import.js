@@ -74,11 +74,8 @@ function flatten(array) {
 }
 
 function writeJSON(filePath, data) {
-  const p = path.join(outputDirectory, filePath);
-  const dir = path.dirname(p);
-
-  mkdirp.sync(dir);
-  fs.writeFileSync(p, JSON.stringify(data, null, 2));
+  mkdirp.sync( path.dirname(filePath));
+  fs.writeFileSync(filePath, JSON.stringify(data, null, 2));
 }
 
 function processBlockset(address, blockset) {
@@ -125,7 +122,7 @@ function processBlockset(address, blockset) {
     }
   };
 
-  writeJSON(blocksetPath, blocksetData);
+  writeJSON(path.join(outputDirectory, blocksetPath), blocksetData);
 }
 
 function processConnection({ direction, offset, bank, map }) {
@@ -138,11 +135,11 @@ function processConnection({ direction, offset, bank, map }) {
   };
 }
 
-function processNpcEntity(npcData) {
+function processNpcEntity(scriptPath, npcData) {
   return npcData;
 }
 
-function processWarpEntity({ x, y, height, warp, map, bank }) {
+function processWarpEntity(scriptPath, { x, y, height, warp, map, bank }) {
   return {
     x,
     y,
@@ -156,12 +153,12 @@ function processWarpEntity({ x, y, height, warp, map, bank }) {
   };
 }
 
-function processSignEntity(signData) {
+function processSignEntity(scriptPath, signData) {
   const { x, y, height, type, data: { value } } = signData;
   return Object.assign({ x, y, height, type }, value);
 }
 
-function processTriggerEntity(triggerData) {
+function processTriggerEntity(scriptPath, triggerData) {
   return triggerData;
 }
 
@@ -169,12 +166,12 @@ function pointerToMaybeArray(pointer) {
   return pointer.target === null ? [] : pointer.target;
 }
 
-function processEntities(entityData) {
+function processEntities(scriptPath, entityData) {
   const entities = {
-    npc: pointerToMaybeArray(entityData.npcs).map(processNpcEntity),
-    warp: pointerToMaybeArray(entityData.warps).map(processWarpEntity),
-    sign: pointerToMaybeArray(entityData.signs).map(processSignEntity),
-    trigger: pointerToMaybeArray(entityData.triggers).map(processTriggerEntity),
+    npc: pointerToMaybeArray(entityData.npcs).map(e => processNpcEntity(scriptPath, e)),
+    warp: pointerToMaybeArray(entityData.warps).map(e => processWarpEntity(scriptPath, e)),
+    sign: pointerToMaybeArray(entityData.signs).map(e => processSignEntity(scriptPath, e)),
+    trigger: pointerToMaybeArray(entityData.triggers).map(e => processTriggerEntity(scriptPath, e)),
   };
 
   const result = Object.keys(entities).map(type => entities[type].map(data => ({ type, data })));
@@ -182,7 +179,7 @@ function processEntities(entityData) {
   return flatten(result);
 }
 
-function processMapScript({ type, data: { value: data } }) {
+function processMapScript(scriptPath, { type, data: { value: data } }) {
   if (type === 'handler_env1' || type === 'handler_env2') {
     return {
       type,
@@ -251,6 +248,16 @@ maps.slice(185, 190).forEach((info, i) => {
     data.data.target.blockset2.address
   );
 
+  const mapPath = path.join(
+    outputDirectory,
+    'banks',
+    lookupBank(info.bank),
+    lookupMap(info.bank, info.map)
+  );
+
+  const scriptPath = path.join(mapPath, 'scripts');
+  mkdirp.sync(scriptPath);
+
   const mapData = {
     meta: {
       format: {
@@ -280,19 +287,14 @@ maps.slice(185, 190).forEach((info, i) => {
           id: secondaryBlocksetId,
         },
       },
-      scripts: pointerToMaybeArray(data.scripts).map(processMapScript),
+      scripts: pointerToMaybeArray(data.scripts).map(script => processMapScript(scriptPath, script)),
       connections: data.connections.target ?
         pointerToMaybeArray(data.connections).connections.target.map(processConnection) : [],
-      entities: processEntities(data.entities.target),
+      entities: processEntities(mapPath, data.entities.target),
     }
   };
 
-  const mapFile = path.join(
-    'banks',
-    lookupBank(info.bank),
-    lookupMap(info.bank, info.map),
-    'map.json'
-  );
+  const mapFile = path.join(mapPath, 'map.json');
 
   writeJSON(mapFile, mapData);
 
