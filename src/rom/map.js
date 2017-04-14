@@ -9,6 +9,7 @@ import {
   EnumSchema,
   HalfWord,
   ImageSchema,
+  ListSchema,
   NamedValueSchema,
   PaddingSchema,
   PaletteSchema,
@@ -202,10 +203,68 @@ const EntityTable = new StructureSchema([
   ['signs', new PointerSchema(new ArraySchema(SignEntity, 'sign_count'))],
 ]);
 
+const ScriptTableEntry = new StructureSchema([
+  ['type', new NamedValueSchema('type', new EnumSchema(new Map([
+    [0, 'sentinel'],
+    [1, 'setmaptile'],
+    [2, 'handler_env1'],
+    [3, 'onmapenter'],
+    [4, 'handler_env2'],
+    [5, 'closemenu1'],
+    [6, 'unknown'],
+    [7, 'closemenu2'],
+  ]), Byte, true))],
+  ['data', new CaseSchema([{
+    name: 'type',
+    condition: { eq: 'sentinel' },
+    schema: null,
+  }, {
+    name: 'type',
+    condition: {
+      any: [
+        { eq: 'setmaptile' },
+        { eq: 'onmapenter' },
+        { eq: 'closemenu1' },
+        { eq: 'unknown' },
+        { eq: 'closemenu2' },
+      ],
+    },
+    schema: Word,
+  }, {
+    name: 'type',
+    condition: {
+      any: [
+        { eq: 'handler_env1' },
+        { eq: 'handler_env2' },
+      ],
+    },
+    schema: new PointerSchema(new ListSchema(new StructureSchema([
+      ['variable', new NamedValueSchema('variable', HalfWord)],
+      ['data', new CaseSchema([{
+        name: 'variable',
+        condition: { eq: 0 },
+        schema: null,
+      }, {
+        name: 'variable',
+        condition: {},
+        schema: new StructureSchema([
+          ['value', HalfWord],
+          ['script', Word],
+        ]),
+      }])],
+    ]), { variable: 0, data: null })),
+  }])],
+]);
+
+const ScriptTable = new ListSchema(ScriptTableEntry, {
+  type: 'sentinel',
+  data: null,
+});
+
 const MapHeader = new StructureSchema([
   ['data', new PointerSchema(MapData)],
   ['entities', new PointerSchema(EntityTable)],
-  ['scripts', Word],
+  ['scripts', new PointerSchema(ScriptTable)],
   ['connections', new PointerSchema(ConnectionTable)],
   ['music', HalfWord],
   ['mapindex', HalfWord],

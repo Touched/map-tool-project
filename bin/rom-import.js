@@ -182,6 +182,24 @@ function processEntities(entityData) {
   return flatten(result);
 }
 
+function processMapScript({ type, data: { value: data } }) {
+  if (type === 'handler_env1' || type === 'handler_env2') {
+    return {
+      type,
+      scripts: data.target.map(({ variable, data: { value: { value, script } } }) => ({
+        variable,
+        value,
+        script,
+      })),
+    };
+  }
+
+  return {
+    type,
+    script: data,
+  };
+}
+
 if (fs.existsSync(outputDirectory)) {
   console.log('Output directory already exists');
   process.exit(0);
@@ -262,9 +280,9 @@ maps.slice(185, 190).forEach((info, i) => {
           id: secondaryBlocksetId,
         },
       },
-      scripts: null,
+      scripts: pointerToMaybeArray(data.scripts).map(processMapScript),
       connections: data.connections.target ?
-        data.connections.target.connections.target.map(processConnection) : [],
+        pointerToMaybeArray(data.connections).connections.target.map(processConnection) : [],
       entities: processEntities(data.entities.target),
     }
   };
