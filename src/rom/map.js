@@ -5,6 +5,7 @@ import {
   BooleanSchema,
   Byte,
   CaseSchema,
+  Charmap,
   CompressionSchema,
   EnumSchema,
   HalfWord,
@@ -15,6 +16,7 @@ import {
   PaletteSchema,
   PointerSchema,
   SignedWord,
+  StringSchema,
   StructureSchema,
   TupleSchema,
   Word,
@@ -294,4 +296,21 @@ export function readMapsTable(
 
 export function readMap(rom: Buffer, address: number) {
   return MapHeader.unpack(rom, addressToOffset(address));
+}
+
+export function readMapNamesTable(
+  rom: Buffer,
+  address: number,
+  count: number,
+  charmapSource: string,
+): Array<string> {
+  const charmap = Charmap.parse(charmapSource);
+
+  const MapNamesTable = new PointerSchema(new ArraySchema(new PointerSchema(
+    new StringSchema(charmap),
+  ), count));
+
+  return MapNamesTable.unpack(rom, addressToOffset(address)).target.map(
+    ({ target: { value } }) => value,
+  );
 }

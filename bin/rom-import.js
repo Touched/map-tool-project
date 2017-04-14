@@ -1,6 +1,7 @@
 #!/usr/bin/env node
 
 // TODO: Scripts and level scripts
+// TODO: Map names
 
 const fs = require('fs');
 const path = require('path');
@@ -41,13 +42,16 @@ function lookupOrCreateBlockset(address) {
   return [true, idLookup.blocksets[address]];
 }
 
-if (process.argv.length !== 4) {
-  console.log(`Usage: ${process.argv[0]} ${process.argv[1]} [rom] [outdir]`);
+if (process.argv.length !== 5) {
+  console.log(`Usage: ${process.argv[0]} ${process.argv[1]} [rom] [charmap] [outdir]`);
   process.exit(1);
 }
 
 const rom = fs.readFileSync(process.argv[2]);
-const outputDirectory = process.argv[3];
+const outputDirectory = process.argv[4];
+const charmap = fs.readFileSync(process.argv[3], 'utf8');
+
+const mapNames = map.readMapNamesTable(rom, 0x080c0c94, 0x6c, charmap);
 
 const romHeader = rom.slice(0xac, 0xac + 4).toString('ascii');
 const romVersion = rom[0xbc];
@@ -265,7 +269,7 @@ maps.slice(185, 190).forEach((info, i) => {
         version: '0.1.0',
       },
       id: lookupMap(info.bank, info.map),
-      name: `Map ${info.map}`,
+      name: `Map ${info.bank}.${info.map} - ${mapNames[data.name - 0x58]}`,
       description,
     },
     data: {
