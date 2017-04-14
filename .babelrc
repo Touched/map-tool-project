@@ -1,0 +1,13 @@
+{
+  "presets": ["latest"],
+  "plugins": ["object-rest-spread"],
+  "plugins": [
+    "transform-object-rest-spread",
+    "transform-class-properties",
+    "transform-flow-strip-types",
+    "transform-flow-strip-types",
+    ["transform-builtin-extend", {
+      "globals": ["Error"]
+    }]
+  ],
+}

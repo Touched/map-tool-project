@@ -1,0 +1,50 @@
+{
+  "name": "@Touched/gba-serialize",
+  "version": "0.0.1",
+  "description": "",
+  "main": "lib/index.js",
+  "scripts": {
+    "lint": "eslint 'src/**/*.js' 'test/**/*.js'",
+    "check": "flow check",
+    "testonly": "mocha 'src/**/__tests__/**/*-test.js' --compilers js:babel-register --require ./scripts/mocha-bootload --require babel-polyfill",
+    "test": "npm run lint && npm run check && npm run testonly",
+    "watch": "babel-node ./scripts/watch.js",
+    "genfixture": "babel-node ./test/runFixtureTests.js generate",
+    "build": "babel src/ --out-dir lib/ --ignore __tests__,__mocks__",
+    "prepublish": "npm run clean && npm run build"
+  },
+  "author": "Touched",
+  "license": "GPL-3.0",
+  "private": true,
+  "devDependencies": {
+    "babel-cli": "^6.18.0",
+    "babel-eslint": "^7.1.1",
+    "babel-plugin-transform-builtin-extend": "^1.1.0",
+    "babel-plugin-transform-class-properties": "^6.19.0",
+    "babel-plugin-transform-flow-strip-types": "^6.21.0",
+    "babel-plugin-transform-object-rest-spread": "^6.20.2",
+    "babel-preset-latest": "^6.16.0",
+    "babel-register": "^6.18.0",
+    "chai": "^3.5.0",
+    "chai-like": "^0.1.10",
+    "chai-subset": "^1.4.0",
+    "dirty-chai": "^1.2.2",
+    "eslint": "^3.9.1",
+    "eslint-config-airbnb": "^13.0.0",
+    "eslint-plugin-flowtype": "^2.29.1",
+    "eslint-plugin-import": "^2.1.0",
+    "eslint-plugin-jsx-a11y": "^2.2.3",
+    "eslint-plugin-react": "^6.6.0",
+    "flow-bin": "^0.37.4",
+    "json5": "^0.5.1",
+    "mocha": "^3.2.0",
+    "pngjs2": "^2.0.0",
+    "sane": "^1.5.0",
+    "sinon": "^1.17.7",
+    "sinon-chai": "^2.8.0"
+  },
+  "dependencies": {
+    "babel-polyfill": "^6.22.0",
+    "uuid": "^3.0.1"
+  }
+}
