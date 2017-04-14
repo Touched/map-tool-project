@@ -1,5 +1,7 @@
 #!/usr/bin/env node
 
+// TODO: Scripts and level scripts
+
 const fs = require('fs');
 const path = require('path');
 const mkdirp = require('mkdirp');
@@ -130,7 +132,7 @@ function processConnection({ direction, offset, bank, map }) {
   return {
     direction,
     offset,
-    target: {
+    map: {
       id: lookupMap(bank, map)
     },
   };
@@ -140,8 +142,18 @@ function processNpcEntity(npcData) {
   return npcData;
 }
 
-function processWarpEntity(warpData) {
-  return warpData;
+function processWarpEntity({ x, y, height, warp, map, bank }) {
+  return {
+    x,
+    y,
+    height,
+    target: {
+      warp,
+      map: {
+        id: lookupMap(bank, map),
+      }
+    }
+  };
 }
 
 function processSignEntity(signData) {
