@@ -42,11 +42,19 @@ const BlockBehavior = new StructureSchema([
 ]);
 
 const Blockset = new PointerSchema(new StructureSchema([
-  ['compressed', new BooleanSchema(Byte)],
+  ['compressed', new NamedValueSchema('compressed', new BooleanSchema(Byte))],
   ['secondary', new BooleanSchema(Byte)],
   [null, HalfWord],
   // FIXME: Allow for uncompressed tiles (using a conditional schema)
-  ['tiles', new PointerSchema(new CompressionSchema(new ImageSchema(128, 320, { bpp: 4 })))],
+  ['tiles', new PointerSchema(new CaseSchema([{
+    name: 'compressed',
+    condition: { eq: true },
+    schema: new CompressionSchema(new ImageSchema(128, 320, { bpp: 4 })),
+  }, {
+    name: 'compressed',
+    condition: { eq: false },
+    schema: new ImageSchema(128, 320, { bpp: 4 }),
+  }]))],
 
   // FIXME: Figure out the correct number of palettes
   ['palette', new PointerSchema(new ArraySchema(new PaletteSchema(16), 16))],
@@ -207,13 +215,28 @@ const EntityTable = new StructureSchema([
 
 const ScriptTableEntry = new StructureSchema([
   ['type', new NamedValueSchema('type', new EnumSchema(new Map([
+    // Terminates the list of map scripts
     [0, 'sentinel'],
+
+    // ???
     [1, 'setmaptile'],
+
+    // ???
     [2, 'handler_env1'],
+
+    // ???
     [3, 'onmapenter'],
+
+    // ???
     [4, 'handler_env2'],
+
+    // ???
     [5, 'closemenu1'],
+
+    // ???
     [6, 'unknown'],
+
+    // ???
     [7, 'closemenu2'],
   ]), Byte, true))],
   ['data', new CaseSchema([{

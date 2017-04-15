@@ -48,7 +48,7 @@ const rom = fs.readFileSync(process.argv[2]);
 const outputDirectory = process.argv[4];
 const charmap = fs.readFileSync(process.argv[3], 'utf8');
 
-const mapNames = map.readMapNamesTable(rom, 0x080c0c94, 0x6c, charmap);
+const mapNames = map.readMapNamesTable(rom, 0x080c0c94, 0x6D, charmap);
 
 const romHeader = rom.slice(0xac, 0xac + 4).toString('ascii');
 const romVersion = rom[0xbc];
@@ -91,16 +91,12 @@ function processBlockset(address, blockset) {
     return Object.assign({ tiles }, blockset.behaviors.target[i]);
   });
 
-  try {
-    fs.writeFileSync(path.join(outputDirectory, tilesPath), png.encode({
-      pixels: blockset.tiles.target.data,
-      width: 128,
-      height: 320,
-      palette: [...Array(16)].map((_, i) => [i * 15, i * 15, i * 15, 255]),
-    }));
-  } catch (e) {
-    // FIXME: Handle uncompressed tilesets
-  }
+  fs.writeFileSync(path.join(outputDirectory, tilesPath), png.encode({
+    pixels: blockset.compressed ? blockset.tiles.target.value.data : blockset.tiles.target.value,
+    width: 128,
+    height: 320,
+    palette: [...Array(16)].map((_, i) => [i * 15, i * 15, i * 15, 255]),
+  }));
 
   const blocksetData = {
     meta: {
@@ -161,7 +157,14 @@ function processWarpEntity(symbol, mapPath, scriptPath, { x, y, height, warp, ma
     height,
     target: {
       warp,
-      map: {
+
+      // You should be able to specify either a target map ID or just the map and bank
+      // directly. 127.127 is special-cased to allow redirecting the warp target so
+      // it cannot map to a specific map ID.
+      map: (map === 127 && bank === 127) ? {
+        map,
+        bank,
+      } : {
         id: lookupMap(bank, map),
       }
     }
@@ -279,7 +282,8 @@ maps.forEach(({ map, bank }) => {
 const symbolCounter = {};
 
 // TODO: Do all of them
-maps.slice(185, 190).forEach((info, i) => {
+maps// .slice(185, 190)
+  .forEach((info, i) => {
   console.log(`Processing map ${info.bank}.${info.map} (${i + 1}/${maps.length})`);
   const data = map.readMap(rom, info.address);
 
@@ -291,8 +295,8 @@ maps.slice(185, 190).forEach((info, i) => {
     data.data.target.blockset2.address
   );
 
-  const mapName = mapNames[data.name - 0x58];
-  const mapNameSymbol = mapName.toLowerCase().replace(/\s(.)|\s^/g, s => s.toUpperCase().trim());
+    const mapName = mapNames[data.name - 0x58];
+    const mapNameSymbol = mapName.toLowerCase().replace(/\s(.)|\s^/g, s => s.toUpperCase().trim());
 
   const mapPath = path.join(
     outputDirectory,
