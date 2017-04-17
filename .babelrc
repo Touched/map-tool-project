@@ -1,5 +1,11 @@
 {
-  "presets": ["latest"],
+  "presets": [
+    ["env", {
+      "targets": {
+        "node": "current"
+      }
+    }]
+  ],
   "plugins": ["object-rest-spread"],
   "plugins": [
     "transform-object-rest-spread",
@@ -9,5 +15,5 @@
     ["transform-builtin-extend", {
       "globals": ["Error"]
     }]
-  ],
+  ]
 }

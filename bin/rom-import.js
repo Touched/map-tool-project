@@ -5,7 +5,10 @@ const path = require('path');
 const mkdirp = require('mkdirp');
 const uuid = require('uuid/v4');
 const png = require('@Touched/indexed-png');
-const map = require('../lib/rom/map.js');
+const map = require('../lib/rom/map');
+const Logger = require('../lib/logging').default;
+
+const logger = new Logger();
 
 const idLookup = {
   banks: {},
@@ -281,10 +284,18 @@ maps.forEach(({ map, bank }) => {
 // Keep track of how many times a symbol was used
 const symbolCounter = {};
 
+logger.pushTask({
+  task: 'Dumping maps',
+  subtask: 'Processing map',
+  progress: 0,
+  total: maps.length,
+  completed: false,
+});
+
 // TODO: Do all of them
-maps// .slice(185, 190)
-  .forEach((info, i) => {
-  console.log(`Processing map ${info.bank}.${info.map} (${i + 1}/${maps.length})`);
+maps/*.slice(185, 190)*/.forEach((info, i) => {
+  logger.updateSubtask(i, `${info.bank}.${info.map}`);
+
   const data = map.readMap(rom, info.address);
 
   const [primaryBlocksetExists, primaryBlocksetId] = lookupOrCreateBlockset(
@@ -359,12 +370,10 @@ maps// .slice(185, 190)
   writeJSON(mapFile, mapData);
 
   if (!primaryBlocksetExists) {
-    console.log('Processing primary blockset');
     processBlockset(data.data.target.blockset1.address, data.data.target.blockset1.target);
   }
 
   if (!secondaryBlocksetExists) {
-    console.log('Processing secondary blockset');
     processBlockset(data.data.target.blockset2.address, data.data.target.blockset2.target);
   }
 });
