@@ -5,7 +5,8 @@ import path from 'path';
 import mkdirp from 'mkdirp';
 import uuid from 'uuid/v4';
 import Promise from 'bluebird';
-import png from '@Touched/indexed-png';
+import png from '@touched/indexed-png';
+import jsonStringify from '@touched/json-stringify-dense-pretty';
 import * as map from '../rom/map';
 import TaskRunner from '../taskRunner';
 
@@ -69,7 +70,7 @@ function flatten(array) {
 
 async function writeJSON(filePath, data) {
   await mkdirpPromise(path.dirname(filePath));
-  return await fsPromise.writeFileAsync(filePath, JSON.stringify(data, null, 2));
+  return await fsPromise.writeFileAsync(filePath, jsonStringify(data));
 }
 
 async function processBlockset(meta, address, blockset) {

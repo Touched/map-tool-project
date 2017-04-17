@@ -11,6 +11,7 @@
     "watch": "babel-node ./scripts/watch.js",
     "genfixture": "babel-node ./test/runFixtureTests.js generate",
     "build": "babel src/ --out-dir lib/ --ignore __tests__,__mocks__",
+    "clean": "rimraf lib",
     "prepublish": "npm run clean && npm run build"
   },
   "author": "Touched",
@@ -39,17 +40,18 @@
     "flow-bin": "^0.37.4",
     "json5": "^0.5.1",
     "mocha": "^3.2.0",
-    "pngjs2": "^2.0.0",
+    "rimraf": "^2.6.1",
     "sane": "^1.5.0",
     "sinon": "^1.17.7",
     "sinon-chai": "^2.8.0"
   },
   "dependencies": {
+    "@touched/indexed-png": "^0.1.0",
+    "@touched/json-stringify-dense-pretty": "^0.1.0",
     "babel-polyfill": "^6.22.0",
     "bluebird": "^3.5.0",
     "chalk": "^1.1.3",
     "log-update": "^1.0.2",
-    "save": "^2.3.0",
     "uuid": "^3.0.1"
   }
 }
