@@ -414,7 +414,7 @@ function main(argv) {
     dumpMapsTask,
   ]);
 
-  runner.run();
+  runner.run().catch(() => process.exit(1));
 }
 
 main(process.argv);

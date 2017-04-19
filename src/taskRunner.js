@@ -70,7 +70,16 @@ export default class TaskRunner {
     let n = 0;
     const total = this.tasks.length;
     for (const task of this.tasks) {
-      await runTask(task, n, this.tasks.length);
+      try {
+        await runTask(task, n, this.tasks.length);
+      } catch (e) {
+        logUpdate(
+          `${chalk.red.bold('x')} ${progress(n, total)} ${chalk.bold(task.name)}: ${e.message}`,
+        );
+
+        throw e;
+      }
+
       logUpdate(`${chalk.green.bold('✓')} ${progress(n, total)} ${chalk.bold(task.name)}`);
       console.log();
       n++;
