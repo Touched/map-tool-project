@@ -20,6 +20,7 @@ const idLookup = {
   banks: {},
   maps: {},
   blocksets: {},
+  mapDataHeaders: {},
 };
 
 function lookupMap(bank, map) {
@@ -46,6 +47,15 @@ function lookupOrCreateBlockset(address) {
   }
 
   return [true, idLookup.blocksets[address]];
+}
+
+function lookupLinkedMap(dataHeaderId, uuid) {
+  if (!idLookup.mapDataHeaders[dataHeaderId]) {
+    idLookup.mapDataHeaders[dataHeaderId] = uuid;
+    return null;
+  }
+
+  return idLookup.mapDataHeaders[dataHeaderId];
 }
 
 function simplifyObjectArray(array) {
@@ -263,27 +273,43 @@ async function dumpMap(meta, info) {
   const scriptSymbolPrefix = `${mapNameSymbol}${symbolCounter[mapNameSymbol] || ''}`;
   symbolCounter[mapNameSymbol]++;
 
+  invariant(
+    meta.mapDataHeaders[data.mapindex - 1].address === data.data.address,
+    'Map footers do not match',
+  );
+
+  const uuid = lookupMap(info.bank, info.map);
+  const linkedId = lookupLinkedMap(data.mapindex, uuid);
+
+  const mapBlockData = linkedId === null ? {
+    border: {
+      width: data.data.target.bb_width,
+      height: data.data.target.bb_height,
+      data: simplifyObjectArray(flatten(data.data.target.borderblock.target)),
+    },
+    map: {
+      width: data.data.target.width,
+      height: data.data.target.height,
+      data: simplifyObjectArray(flatten(data.data.target.data.target)),
+    },
+  } : {
+    linked: {
+      id: linkedId
+    },
+  };
+
   const mapData = {
     meta: {
       format: {
         type: 'map',
         version: '0.1.0',
       },
-      id: lookupMap(info.bank, info.map),
+      id: uuid,
       name: `Map ${info.bank}.${info.map} - ${mapName}`,
       description: meta.description,
     },
     data: {
-      border: {
-        width: data.data.target.bb_width,
-        height: data.data.target.bb_height,
-        data: simplifyObjectArray(flatten(data.data.target.borderblock.target)),
-      },
-      map: {
-        width: data.data.target.width,
-        height: data.data.target.height,
-        data: simplifyObjectArray(flatten(data.data.target.data.target)),
-      },
+      ...mapBlockData,
       blocksets: {
         primary: {
           id: primaryBlocksetId
@@ -305,15 +331,8 @@ async function dumpMap(meta, info) {
         processConnection,
       ) : [],
       entities: await processEntities(scriptSymbolPrefix, mapPath, 'scripts', data.entities.target),
-      // current_mapheader.mapdata_header is set from sav1_get_mapdata_header. Can be NULL
-      id: data.mapindex,
-    }
+    },
   };
-
-  invariant(
-    meta.mapDataHeaders[data.mapindex - 1].address === data.data.address,
-    'Map footers do not match',
-  );
 
   const mapFile = path.join(mapPath, 'map.json');
 
