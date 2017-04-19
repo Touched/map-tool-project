@@ -6,9 +6,9 @@ import mkdirp from 'mkdirp';
 import uuid from 'uuid/v4';
 import Promise from 'bluebird';
 import png from '@touched/indexed-png';
-import jsonStringify from '@touched/json-stringify-dense-pretty';
 import * as map from '../rom/map';
 import TaskRunner from '../taskRunner';
+import invariant from '../util/invariant';
 
 const fsPromise = Promise.promisifyAll(fs);
 const mkdirpPromise = Promise.promisify(mkdirp);
@@ -70,7 +70,7 @@ function flatten(array) {
 
 async function writeJSON(filePath, data) {
   await mkdirpPromise(path.dirname(filePath));
-  return await fsPromise.writeFileAsync(filePath, jsonStringify(data));
+  return await fsPromise.writeFileAsync(filePath, JSON.stringify(data, null, 2));
 }
 
 async function processBlockset(meta, address, blockset) {
@@ -305,8 +305,15 @@ async function dumpMap(meta, info) {
         processConnection,
       ) : [],
       entities: await processEntities(scriptSymbolPrefix, mapPath, 'scripts', data.entities.target),
+      // current_mapheader.mapdata_header is set from sav1_get_mapdata_header. Can be NULL
+      id: data.mapindex,
     }
   };
+
+  invariant(
+    meta.mapDataHeaders[data.mapindex - 1].address === data.data.address,
+    'Map footers do not match',
+  );
 
   const mapFile = path.join(mapPath, 'map.json');
 
@@ -385,7 +392,10 @@ function main(argv) {
     idLookup.maps[bank][map] = uuid();
   });
 
+  const mapDataHeaders = map.readMapsDataHeadersTable(rom, 0x08055194, 384);
+
   const meta = {
+    mapDataHeaders,
     mapNames,
     description,
     outputDirectory,

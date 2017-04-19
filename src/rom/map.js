@@ -337,3 +337,12 @@ export function readMapNamesTable(
     ({ target: { value } }) => value,
   );
 }
+
+export function readMapsDataHeadersTable(
+  rom: Buffer,
+  address: number,
+  count: number,
+) {
+  const MapDataHeadersTable = new PointerSchema(new ArraySchema(new PointerSchema(MapData), count));
+  return MapDataHeadersTable.unpack(rom, addressToOffset(address)).target;
+}

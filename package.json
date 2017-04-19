@@ -47,7 +47,6 @@
   },
   "dependencies": {
     "@touched/indexed-png": "^0.1.0",
-    "@touched/json-stringify-dense-pretty": "^0.1.0",
     "babel-polyfill": "^6.22.0",
     "bluebird": "^3.5.0",
     "chalk": "^1.1.3",
