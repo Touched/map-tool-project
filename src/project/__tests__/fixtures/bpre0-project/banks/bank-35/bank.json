@@ -1,0 +1,39 @@
+{
+  "meta": {
+    "format": {
+      "type": "bank",
+      "version": "1.0.0"
+    },
+    "id": "bank-35",
+    "name": "Bank 35",
+    "description": "Imported from BPRE version 1.0"
+  },
+  "data": {
+    "maps": [
+      {
+        "path": "map-35-0/map.json"
+      },
+      {
+        "path": "map-35-1/map.json"
+      },
+      {
+        "path": "map-35-2/map.json"
+      },
+      {
+        "path": "map-35-3/map.json"
+      },
+      {
+        "path": "map-35-4/map.json"
+      },
+      {
+        "path": "map-35-5/map.json"
+      },
+      {
+        "path": "map-35-6/map.json"
+      },
+      {
+        "path": "map-35-7/map.json"
+      }
+    ]
+  }
+}

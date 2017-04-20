@@ -40,6 +40,7 @@
     "flow-bin": "^0.37.4",
     "json5": "^0.5.1",
     "mocha": "^3.2.0",
+    "object-path-immutable": "^0.5.1",
     "rimraf": "^2.6.1",
     "sane": "^1.5.0",
     "sinon": "^1.17.7",
@@ -47,6 +48,7 @@
   },
   "dependencies": {
     "@touched/indexed-png": "^0.1.0",
+    "ajv": "^5.0.0",
     "babel-polyfill": "^6.22.0",
     "bluebird": "^3.5.0",
     "chalk": "^1.1.3",

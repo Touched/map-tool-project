@@ -1,0 +1,75 @@
+{
+  "meta": {
+    "format": {
+      "type": "bank",
+      "version": "1.0.0"
+    },
+    "id": "bank-10",
+    "name": "Bank 10",
+    "description": "Imported from BPRE version 1.0"
+  },
+  "data": {
+    "maps": [
+      {
+        "path": "map-10-0/map.json"
+      },
+      {
+        "path": "map-10-1/map.json"
+      },
+      {
+        "path": "map-10-2/map.json"
+      },
+      {
+        "path": "map-10-3/map.json"
+      },
+      {
+        "path": "map-10-4/map.json"
+      },
+      {
+        "path": "map-10-5/map.json"
+      },
+      {
+        "path": "map-10-6/map.json"
+      },
+      {
+        "path": "map-10-7/map.json"
+      },
+      {
+        "path": "map-10-8/map.json"
+      },
+      {
+        "path": "map-10-9/map.json"
+      },
+      {
+        "path": "map-10-10/map.json"
+      },
+      {
+        "path": "map-10-11/map.json"
+      },
+      {
+        "path": "map-10-12/map.json"
+      },
+      {
+        "path": "map-10-13/map.json"
+      },
+      {
+        "path": "map-10-14/map.json"
+      },
+      {
+        "path": "map-10-15/map.json"
+      },
+      {
+        "path": "map-10-16/map.json"
+      },
+      {
+        "path": "map-10-17/map.json"
+      },
+      {
+        "path": "map-10-18/map.json"
+      },
+      {
+        "path": "map-10-19/map.json"
+      }
+    ]
+  }
+}

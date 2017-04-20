@@ -1,0 +1,65 @@
+{
+  "meta": {
+    "format": {
+      "type": "map",
+      "version": "1.0.0"
+    },
+    "id": "map-34-7",
+    "name": "Map 34.7 - THREE　ISLAND",
+    "description": "Imported from BPRE version 1.0"
+  },
+  "data": {
+    "linked": {
+      "id": "map-32-2"
+    },
+    "blocksets": {
+      "primary": {
+        "id": "blockset-0"
+      },
+      "secondary": {
+        "id": "blockset-8"
+      }
+    },
+    "scripts": [],
+    "connections": [],
+    "entities": [
+      {
+        "type": "npc",
+        "data": {
+          "id": 1,
+          "sprite": 17,
+          "replacement": 0,
+          "x": 2,
+          "y": 5,
+          "height": 3,
+          "behavior": 2,
+          "boundary": {
+            "x": 1,
+            "y": 1
+          },
+          "property": 0,
+          "view_radius": 0,
+          "script": {
+            "symbol": "threeIsland8Npc0Main",
+            "path": "scripts/npc/0.s"
+          },
+          "flag": 0
+        }
+      },
+      {
+        "type": "warp",
+        "data": {
+          "x": 4,
+          "y": 7,
+          "height": 3,
+          "target": {
+            "warp": 6,
+            "map": {
+              "id": "map-3-14"
+            }
+          }
+        }
+      }
+    ]
+  }
+}

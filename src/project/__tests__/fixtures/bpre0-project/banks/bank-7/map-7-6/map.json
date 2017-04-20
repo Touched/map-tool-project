@@ -1,0 +1,606 @@
+{
+  "meta": {
+    "format": {
+      "type": "map",
+      "version": "1.0.0"
+    },
+    "id": "map-7-6",
+    "name": "Map 7.6 - CERULEAN　CITY",
+    "description": "Imported from BPRE version 1.0"
+  },
+  "data": {
+    "border": {
+      "width": 2,
+      "height": 2,
+      "data": {
+        "block": [
+          8,
+          8,
+          8,
+          8
+        ],
+        "collision": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "height": [
+          0,
+          0,
+          0,
+          0
+        ]
+      }
+    },
+    "map": {
+      "width": 11,
+      "height": 10,
+      "data": {
+        "block": [
+          645,
+          646,
+          646,
+          646,
+          646,
+          646,
+          646,
+          646,
+          646,
+          646,
+          647,
+          653,
+          672,
+          673,
+          672,
+          673,
+          654,
+          667,
+          676,
+          654,
+          654,
+          655,
+          661,
+          680,
+          681,
+          680,
+          681,
+          660,
+          662,
+          662,
+          656,
+          662,
+          663,
+          669,
+          643,
+          644,
+          643,
+          644,
+          668,
+          670,
+          670,
+          664,
+          657,
+          658,
+          641,
+          642,
+          652,
+          674,
+          642,
+          670,
+          670,
+          670,
+          659,
+          665,
+          666,
+          675,
+          674,
+          642,
+          674,
+          642,
+          670,
+          670,
+          670,
+          670,
+          670,
+          648,
+          675,
+          670,
+          670,
+          670,
+          670,
+          670,
+          670,
+          670,
+          651,
+          652,
+          670,
+          675,
+          674,
+          642,
+          670,
+          670,
+          670,
+          670,
+          670,
+          670,
+          670,
+          670,
+          675,
+          674,
+          642,
+          670,
+          677,
+          678,
+          679,
+          670,
+          670,
+          651,
+          670,
+          8,
+          8,
+          8,
+          8,
+          26,
+          27,
+          28,
+          8,
+          8,
+          8,
+          8
+        ],
+        "collision": [
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          0,
+          1,
+          1,
+          1,
+          1,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          1,
+          1,
+          0,
+          0,
+          1,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          1,
+          0,
+          0,
+          0,
+          1,
+          1,
+          1,
+          0,
+          0,
+          1,
+          0,
+          1,
+          0,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1
+        ],
+        "height": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          3,
+          0,
+          0,
+          0,
+          0,
+          3,
+          3,
+          3,
+          0,
+          3,
+          3,
+          3,
+          3,
+          0,
+          3,
+          0,
+          0,
+          3,
+          3,
+          0,
+          3,
+          3,
+          3,
+          0,
+          3,
+          3,
+          0,
+          3,
+          3,
+          3,
+          0,
+          0,
+          0,
+          3,
+          3,
+          0,
+          3,
+          0,
+          3,
+          3,
+          3,
+          3,
+          3,
+          0,
+          3,
+          3,
+          3,
+          3,
+          3,
+          3,
+          3,
+          3,
+          0,
+          3,
+          3,
+          3,
+          3,
+          0,
+          3,
+          3,
+          3,
+          3,
+          3,
+          3,
+          3,
+          3,
+          3,
+          3,
+          0,
+          3,
+          3,
+          3,
+          3,
+          3,
+          3,
+          0,
+          3,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ]
+      }
+    },
+    "blocksets": {
+      "primary": {
+        "id": "blockset-0"
+      },
+      "secondary": {
+        "id": "blockset-49"
+      }
+    },
+    "scripts": [],
+    "connections": [],
+    "entities": [
+      {
+        "type": "npc",
+        "data": {
+          "id": 1,
+          "sprite": 25,
+          "replacement": 0,
+          "x": 9,
+          "y": 3,
+          "height": 3,
+          "behavior": 9,
+          "boundary": {
+            "x": 1,
+            "y": 1
+          },
+          "property": 0,
+          "view_radius": 0,
+          "script": {
+            "symbol": "ceruleanCity7Npc0Main",
+            "path": "scripts/npc/0.s"
+          },
+          "flag": 0
+        }
+      },
+      {
+        "type": "npc",
+        "data": {
+          "id": 2,
+          "sprite": 18,
+          "replacement": 0,
+          "x": 9,
+          "y": 7,
+          "height": 3,
+          "behavior": 2,
+          "boundary": {
+            "x": 1,
+            "y": 1
+          },
+          "property": 0,
+          "view_radius": 0,
+          "script": {
+            "symbol": "ceruleanCity7Npc1Main",
+            "path": "scripts/npc/1.s"
+          },
+          "flag": 0
+        }
+      },
+      {
+        "type": "npc",
+        "data": {
+          "id": 3,
+          "sprite": 28,
+          "replacement": 0,
+          "x": 5,
+          "y": 5,
+          "height": 3,
+          "behavior": 1,
+          "boundary": {
+            "x": 1,
+            "y": 1
+          },
+          "property": 0,
+          "view_radius": 0,
+          "script": {
+            "symbol": "ceruleanCity7Npc2Main",
+            "path": "scripts/npc/2.s"
+          },
+          "flag": 0
+        }
+      },
+      {
+        "type": "warp",
+        "data": {
+          "x": 4,
+          "y": 9,
+          "height": 0,
+          "target": {
+            "warp": 5,
+            "map": {
+              "id": "map-3-3"
+            }
+          }
+        }
+      },
+      {
+        "type": "warp",
+        "data": {
+          "x": 5,
+          "y": 8,
+          "height": 3,
+          "target": {
+            "warp": 5,
+            "map": {
+              "id": "map-3-3"
+            }
+          }
+        }
+      },
+      {
+        "type": "warp",
+        "data": {
+          "x": 6,
+          "y": 9,
+          "height": 0,
+          "target": {
+            "warp": 5,
+            "map": {
+              "id": "map-3-3"
+            }
+          }
+        }
+      },
+      {
+        "type": "sign",
+        "data": {
+          "x": 4,
+          "y": 3,
+          "height": 0,
+          "type": "script",
+          "script": {
+            "symbol": "ceruleanCity7Sign0Main",
+            "path": "scripts/sign/0.s"
+          }
+        }
+      },
+      {
+        "type": "sign",
+        "data": {
+          "x": 4,
+          "y": 4,
+          "height": 0,
+          "type": "script",
+          "script": {
+            "symbol": "ceruleanCity7Sign1Main",
+            "path": "scripts/sign/1.s"
+          }
+        }
+      },
+      {
+        "type": "sign",
+        "data": {
+          "x": 4,
+          "y": 5,
+          "height": 0,
+          "type": "script",
+          "script": {
+            "symbol": "ceruleanCity7Sign2Main",
+            "path": "scripts/sign/2.s"
+          }
+        }
+      },
+      {
+        "type": "sign",
+        "data": {
+          "x": 2,
+          "y": 3,
+          "height": 0,
+          "type": "script",
+          "script": {
+            "symbol": "ceruleanCity7Sign3Main",
+            "path": "scripts/sign/3.s"
+          }
+        }
+      },
+      {
+        "type": "sign",
+        "data": {
+          "x": 1,
+          "y": 4,
+          "height": 0,
+          "type": "script",
+          "script": {
+            "symbol": "ceruleanCity7Sign4Main",
+            "path": "scripts/sign/4.s"
+          }
+        }
+      },
+      {
+        "type": "sign",
+        "data": {
+          "x": 2,
+          "y": 5,
+          "height": 0,
+          "type": "script",
+          "script": {
+            "symbol": "ceruleanCity7Sign5Main",
+            "path": "scripts/sign/5.s"
+          }
+        }
+      },
+      {
+        "type": "sign",
+        "data": {
+          "x": 2,
+          "y": 7,
+          "height": 0,
+          "type": "script",
+          "script": {
+            "symbol": "ceruleanCity7Sign6Main",
+            "path": "scripts/sign/6.s"
+          }
+        }
+      },
+      {
+        "type": "sign",
+        "data": {
+          "x": 2,
+          "y": 8,
+          "height": 0,
+          "type": "script",
+          "script": {
+            "symbol": "ceruleanCity7Sign7Main",
+            "path": "scripts/sign/7.s"
+          }
+        }
+      }
+    ]
+  }
+}

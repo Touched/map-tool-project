@@ -1,0 +1,329 @@
+{
+  "meta": {
+    "format": {
+      "type": "project",
+      "version": "1.0.0"
+    },
+    "id": "project",
+    "name": "Project",
+    "description": "Imported from BPRE version 1.0"
+  },
+  "data": {
+    "blocksets": [
+      {
+        "path": "blocksets/blockset-3/blockset.json"
+      },
+      {
+        "path": "blocksets/blockset-29/blockset.json"
+      },
+      {
+        "path": "blocksets/blockset-30/blockset.json"
+      },
+      {
+        "path": "blocksets/blockset-31/blockset.json"
+      },
+      {
+        "path": "blocksets/blockset-32/blockset.json"
+      },
+      {
+        "path": "blocksets/blockset-33/blockset.json"
+      },
+      {
+        "path": "blocksets/blockset-6/blockset.json"
+      },
+      {
+        "path": "blocksets/blockset-34/blockset.json"
+      },
+      {
+        "path": "blocksets/blockset-13/blockset.json"
+      },
+      {
+        "path": "blocksets/blockset-35/blockset.json"
+      },
+      {
+        "path": "blocksets/blockset-36/blockset.json"
+      },
+      {
+        "path": "blocksets/blockset-37/blockset.json"
+      },
+      {
+        "path": "blocksets/blockset-0/blockset.json"
+      },
+      {
+        "path": "blocksets/blockset-43/blockset.json"
+      },
+      {
+        "path": "blocksets/blockset-44/blockset.json"
+      },
+      {
+        "path": "blocksets/blockset-5/blockset.json"
+      },
+      {
+        "path": "blocksets/blockset-45/blockset.json"
+      },
+      {
+        "path": "blocksets/blockset-1/blockset.json"
+      },
+      {
+        "path": "blocksets/blockset-49/blockset.json"
+      },
+      {
+        "path": "blocksets/blockset-39/blockset.json"
+      },
+      {
+        "path": "blocksets/blockset-40/blockset.json"
+      },
+      {
+        "path": "blocksets/blockset-57/blockset.json"
+      },
+      {
+        "path": "blocksets/blockset-41/blockset.json"
+      },
+      {
+        "path": "blocksets/blockset-54/blockset.json"
+      },
+      {
+        "path": "blocksets/blockset-46/blockset.json"
+      },
+      {
+        "path": "blocksets/blockset-48/blockset.json"
+      },
+      {
+        "path": "blocksets/blockset-51/blockset.json"
+      },
+      {
+        "path": "blocksets/blockset-55/blockset.json"
+      },
+      {
+        "path": "blocksets/blockset-59/blockset.json"
+      },
+      {
+        "path": "blocksets/blockset-58/blockset.json"
+      },
+      {
+        "path": "blocksets/blockset-7/blockset.json"
+      },
+      {
+        "path": "blocksets/blockset-4/blockset.json"
+      },
+      {
+        "path": "blocksets/blockset-17/blockset.json"
+      },
+      {
+        "path": "blocksets/blockset-10/blockset.json"
+      },
+      {
+        "path": "blocksets/blockset-18/blockset.json"
+      },
+      {
+        "path": "blocksets/blockset-15/blockset.json"
+      },
+      {
+        "path": "blocksets/blockset-52/blockset.json"
+      },
+      {
+        "path": "blocksets/blockset-8/blockset.json"
+      },
+      {
+        "path": "blocksets/blockset-20/blockset.json"
+      },
+      {
+        "path": "blocksets/blockset-60/blockset.json"
+      },
+      {
+        "path": "blocksets/blockset-11/blockset.json"
+      },
+      {
+        "path": "blocksets/blockset-9/blockset.json"
+      },
+      {
+        "path": "blocksets/blockset-19/blockset.json"
+      },
+      {
+        "path": "blocksets/blockset-14/blockset.json"
+      },
+      {
+        "path": "blocksets/blockset-12/blockset.json"
+      },
+      {
+        "path": "blocksets/blockset-56/blockset.json"
+      },
+      {
+        "path": "blocksets/blockset-42/blockset.json"
+      },
+      {
+        "path": "blocksets/blockset-50/blockset.json"
+      },
+      {
+        "path": "blocksets/blockset-53/blockset.json"
+      },
+      {
+        "path": "blocksets/blockset-47/blockset.json"
+      },
+      {
+        "path": "blocksets/blockset-21/blockset.json"
+      },
+      {
+        "path": "blocksets/blockset-23/blockset.json"
+      },
+      {
+        "path": "blocksets/blockset-24/blockset.json"
+      },
+      {
+        "path": "blocksets/blockset-26/blockset.json"
+      },
+      {
+        "path": "blocksets/blockset-22/blockset.json"
+      },
+      {
+        "path": "blocksets/blockset-38/blockset.json"
+      },
+      {
+        "path": "blocksets/blockset-27/blockset.json"
+      },
+      {
+        "path": "blocksets/blockset-25/blockset.json"
+      },
+      {
+        "path": "blocksets/blockset-28/blockset.json"
+      },
+      {
+        "path": "blocksets/blockset-16/blockset.json"
+      },
+      {
+        "path": "blocksets/blockset-2/blockset.json"
+      }
+    ],
+    "banks": [
+      {
+        "path": "banks/bank-0/bank.json"
+      },
+      {
+        "path": "banks/bank-1/bank.json"
+      },
+      {
+        "path": "banks/bank-2/bank.json"
+      },
+      {
+        "path": "banks/bank-3/bank.json"
+      },
+      {
+        "path": "banks/bank-4/bank.json"
+      },
+      {
+        "path": "banks/bank-5/bank.json"
+      },
+      {
+        "path": "banks/bank-6/bank.json"
+      },
+      {
+        "path": "banks/bank-7/bank.json"
+      },
+      {
+        "path": "banks/bank-8/bank.json"
+      },
+      {
+        "path": "banks/bank-9/bank.json"
+      },
+      {
+        "path": "banks/bank-10/bank.json"
+      },
+      {
+        "path": "banks/bank-11/bank.json"
+      },
+      {
+        "path": "banks/bank-12/bank.json"
+      },
+      {
+        "path": "banks/bank-13/bank.json"
+      },
+      {
+        "path": "banks/bank-14/bank.json"
+      },
+      {
+        "path": "banks/bank-15/bank.json"
+      },
+      {
+        "path": "banks/bank-16/bank.json"
+      },
+      {
+        "path": "banks/bank-17/bank.json"
+      },
+      {
+        "path": "banks/bank-18/bank.json"
+      },
+      {
+        "path": "banks/bank-19/bank.json"
+      },
+      {
+        "path": "banks/bank-20/bank.json"
+      },
+      {
+        "path": "banks/bank-21/bank.json"
+      },
+      {
+        "path": "banks/bank-22/bank.json"
+      },
+      {
+        "path": "banks/bank-23/bank.json"
+      },
+      {
+        "path": "banks/bank-24/bank.json"
+      },
+      {
+        "path": "banks/bank-25/bank.json"
+      },
+      {
+        "path": "banks/bank-26/bank.json"
+      },
+      {
+        "path": "banks/bank-27/bank.json"
+      },
+      {
+        "path": "banks/bank-28/bank.json"
+      },
+      {
+        "path": "banks/bank-29/bank.json"
+      },
+      {
+        "path": "banks/bank-30/bank.json"
+      },
+      {
+        "path": "banks/bank-31/bank.json"
+      },
+      {
+        "path": "banks/bank-32/bank.json"
+      },
+      {
+        "path": "banks/bank-33/bank.json"
+      },
+      {
+        "path": "banks/bank-34/bank.json"
+      },
+      {
+        "path": "banks/bank-35/bank.json"
+      },
+      {
+        "path": "banks/bank-36/bank.json"
+      },
+      {
+        "path": "banks/bank-37/bank.json"
+      },
+      {
+        "path": "banks/bank-38/bank.json"
+      },
+      {
+        "path": "banks/bank-39/bank.json"
+      },
+      {
+        "path": "banks/bank-40/bank.json"
+      },
+      {
+        "path": "banks/bank-41/bank.json"
+      },
+      {
+        "path": "banks/bank-42/bank.json"
+      }
+    ]
+  }
+}

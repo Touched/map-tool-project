@@ -1,0 +1,790 @@
+{
+  "meta": {
+    "format": {
+      "type": "map",
+      "version": "1.0.0"
+    },
+    "id": "map-5-5",
+    "name": "Map 5.5 - VIRIDIAN　CITY",
+    "description": "Imported from BPRE version 1.0"
+  },
+  "data": {
+    "border": {
+      "width": 2,
+      "height": 2,
+      "data": {
+        "block": [
+          8,
+          8,
+          8,
+          8
+        ],
+        "collision": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "height": [
+          0,
+          0,
+          0,
+          0
+        ]
+      }
+    },
+    "map": {
+      "width": 15,
+      "height": 10,
+      "data": {
+        "block": [
+          672,
+          644,
+          644,
+          727,
+          644,
+          726,
+          644,
+          644,
+          644,
+          726,
+          644,
+          644,
+          644,
+          727,
+          678,
+          680,
+          652,
+          652,
+          735,
+          652,
+          734,
+          652,
+          652,
+          766,
+          734,
+          652,
+          652,
+          766,
+          735,
+          686,
+          730,
+          808,
+          807,
+          806,
+          886,
+          695,
+          770,
+          867,
+          869,
+          710,
+          770,
+          867,
+          869,
+          743,
+          800,
+          745,
+          745,
+          760,
+          98,
+          894,
+          761,
+          771,
+          745,
+          870,
+          761,
+          771,
+          745,
+          871,
+          751,
+          801,
+          642,
+          695,
+          695,
+          758,
+          872,
+          873,
+          874,
+          695,
+          875,
+          876,
+          877,
+          695,
+          879,
+          695,
+          703,
+          731,
+          732,
+          641,
+          641,
+          880,
+          881,
+          882,
+          641,
+          883,
+          884,
+          885,
+          641,
+          641,
+          641,
+          679,
+          739,
+          740,
+          641,
+          641,
+          888,
+          889,
+          890,
+          641,
+          891,
+          892,
+          893,
+          641,
+          641,
+          641,
+          687,
+          747,
+          748,
+          641,
+          768,
+          641,
+          765,
+          757,
+          765,
+          641,
+          757,
+          765,
+          757,
+          641,
+          768,
+          675,
+          673,
+          641,
+          641,
+          769,
+          641,
+          641,
+          641,
+          641,
+          641,
+          641,
+          641,
+          641,
+          641,
+          769,
+          674,
+          8,
+          8,
+          8,
+          8,
+          8,
+          8,
+          8,
+          8,
+          8,
+          8,
+          8,
+          8,
+          8,
+          8,
+          8
+        ],
+        "collision": [
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          0,
+          1,
+          1,
+          0,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1
+        ],
+        "height": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          3,
+          3,
+          3,
+          0,
+          3,
+          3,
+          3,
+          3,
+          0,
+          3,
+          3,
+          3,
+          0,
+          0,
+          3,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          3,
+          3,
+          3,
+          3,
+          3,
+          3,
+          3,
+          3,
+          3,
+          3,
+          3,
+          3,
+          3,
+          3,
+          3,
+          3,
+          3,
+          3,
+          0,
+          3,
+          3,
+          3,
+          3,
+          3,
+          3,
+          3,
+          3,
+          3,
+          3,
+          3,
+          3,
+          0,
+          4,
+          4,
+          0,
+          3,
+          3,
+          3,
+          3,
+          3,
+          3,
+          3,
+          3,
+          3,
+          3,
+          3,
+          3,
+          3,
+          0,
+          3,
+          3,
+          3,
+          3,
+          3,
+          3,
+          3,
+          3,
+          3,
+          3,
+          3,
+          3,
+          3,
+          3,
+          3,
+          0,
+          3,
+          3,
+          3,
+          3,
+          3,
+          3,
+          3,
+          3,
+          3,
+          0,
+          3,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ]
+      }
+    },
+    "blocksets": {
+      "primary": {
+        "id": "blockset-0"
+      },
+      "secondary": {
+        "id": "blockset-44"
+      }
+    },
+    "scripts": [
+      {
+        "type": "handler_env1",
+        "scripts": [
+          {
+            "variable": 16508,
+            "value": 1,
+            "script": {
+              "symbol": "viridianCity6Map0Auto0Main",
+              "path": "scripts/map/0/0.s"
+            }
+          },
+          {
+            "variable": 16495,
+            "value": 1,
+            "script": {
+              "symbol": "viridianCity6Map0Auto1Main",
+              "path": "scripts/map/0/1.s"
+            }
+          },
+          {
+            "variable": 16495,
+            "value": 2,
+            "script": {
+              "symbol": "viridianCity6Map0Auto2Main",
+              "path": "scripts/map/0/2.s"
+            }
+          },
+          {
+            "variable": 16495,
+            "value": 5,
+            "script": {
+              "symbol": "viridianCity6Map0Auto3Main",
+              "path": "scripts/map/0/3.s"
+            }
+          },
+          {
+            "variable": 16495,
+            "value": 3,
+            "script": {
+              "symbol": "viridianCity6Map0Auto4Main",
+              "path": "scripts/map/0/4.s"
+            }
+          },
+          {
+            "variable": 16495,
+            "value": 6,
+            "script": {
+              "symbol": "viridianCity6Map0Auto5Main",
+              "path": "scripts/map/0/5.s"
+            }
+          },
+          {
+            "variable": 16495,
+            "value": 7,
+            "script": {
+              "symbol": "viridianCity6Map0Auto6Main",
+              "path": "scripts/map/0/6.s"
+            }
+          },
+          {
+            "variable": 16495,
+            "value": 8,
+            "script": {
+              "symbol": "viridianCity6Map0Auto7Main",
+              "path": "scripts/map/0/7.s"
+            }
+          }
+        ]
+      },
+      {
+        "type": "handler_env2",
+        "scripts": [
+          {
+            "variable": 16495,
+            "value": 1,
+            "script": {
+              "symbol": "viridianCity6Map1Auto0Main",
+              "path": "scripts/map/1/0.s"
+            }
+          },
+          {
+            "variable": 16495,
+            "value": 2,
+            "script": {
+              "symbol": "viridianCity6Map1Auto1Main",
+              "path": "scripts/map/1/1.s"
+            }
+          },
+          {
+            "variable": 16495,
+            "value": 5,
+            "script": {
+              "symbol": "viridianCity6Map1Auto2Main",
+              "path": "scripts/map/1/2.s"
+            }
+          },
+          {
+            "variable": 16495,
+            "value": 3,
+            "script": {
+              "symbol": "viridianCity6Map1Auto3Main",
+              "path": "scripts/map/1/3.s"
+            }
+          },
+          {
+            "variable": 16495,
+            "value": 6,
+            "script": {
+              "symbol": "viridianCity6Map1Auto4Main",
+              "path": "scripts/map/1/4.s"
+            }
+          },
+          {
+            "variable": 16495,
+            "value": 7,
+            "script": {
+              "symbol": "viridianCity6Map1Auto5Main",
+              "path": "scripts/map/1/5.s"
+            }
+          },
+          {
+            "variable": 16495,
+            "value": 8,
+            "script": {
+              "symbol": "viridianCity6Map1Auto6Main",
+              "path": "scripts/map/1/6.s"
+            }
+          }
+        ]
+      },
+      {
+        "type": "setmaptile",
+        "script": {
+          "symbol": "viridianCity6Map2Main",
+          "path": "scripts/map/2.s"
+        }
+      },
+      {
+        "type": "onmapenter",
+        "script": {
+          "symbol": "viridianCity6Map3Main",
+          "path": "scripts/map/3.s"
+        }
+      }
+    ],
+    "connections": [],
+    "entities": [
+      {
+        "type": "npc",
+        "data": {
+          "id": 1,
+          "sprite": 65,
+          "replacement": 0,
+          "x": 6,
+          "y": 2,
+          "height": 3,
+          "behavior": 8,
+          "boundary": {
+            "x": 0,
+            "y": 0
+          },
+          "property": 0,
+          "view_radius": 0,
+          "script": {
+            "symbol": "viridianCity6Npc0Main",
+            "path": "scripts/npc/0.s"
+          },
+          "flag": 0
+        }
+      },
+      {
+        "type": "npc",
+        "data": {
+          "id": 2,
+          "sprite": 65,
+          "replacement": 0,
+          "x": 2,
+          "y": 2,
+          "height": 3,
+          "behavior": 8,
+          "boundary": {
+            "x": 0,
+            "y": 0
+          },
+          "property": 0,
+          "view_radius": 0,
+          "script": {
+            "symbol": "viridianCity6Npc1Main",
+            "path": "scripts/npc/1.s"
+          },
+          "flag": 0
+        }
+      },
+      {
+        "type": "npc",
+        "data": {
+          "id": 3,
+          "sprite": 65,
+          "replacement": 0,
+          "x": 10,
+          "y": 2,
+          "height": 3,
+          "behavior": 8,
+          "boundary": {
+            "x": 0,
+            "y": 0
+          },
+          "property": 0,
+          "view_radius": 0,
+          "script": {
+            "symbol": "viridianCity6Npc2Main",
+            "path": "scripts/npc/2.s"
+          },
+          "flag": 0
+        }
+      },
+      {
+        "type": "npc",
+        "data": {
+          "id": 4,
+          "sprite": 69,
+          "replacement": 0,
+          "x": 1,
+          "y": 2,
+          "height": 3,
+          "behavior": 8,
+          "boundary": {
+            "x": 1,
+            "y": 1
+          },
+          "property": 0,
+          "view_radius": 0,
+          "script": {
+            "symbol": "viridianCity6Npc3Main",
+            "path": "scripts/npc/3.s"
+          },
+          "flag": 112
+        }
+      },
+      {
+        "type": "warp",
+        "data": {
+          "x": 1,
+          "y": 6,
+          "height": 4,
+          "target": {
+            "warp": 3,
+            "map": {
+              "id": "map-5-4"
+            }
+          }
+        }
+      },
+      {
+        "type": "warp",
+        "data": {
+          "x": 5,
+          "y": 1,
+          "height": 0,
+          "target": {
+            "warp": 0,
+            "map": {
+              "id": "map-0-4"
+            }
+          }
+        }
+      },
+      {
+        "type": "warp",
+        "data": {
+          "x": 9,
+          "y": 1,
+          "height": 0,
+          "target": {
+            "warp": 0,
+            "map": {
+              "id": "map-0-1"
+            }
+          }
+        }
+      }
+    ]
+  }
+}

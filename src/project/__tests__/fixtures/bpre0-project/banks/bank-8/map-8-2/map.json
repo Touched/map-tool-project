@@ -1,0 +1,604 @@
+{
+  "meta": {
+    "format": {
+      "type": "map",
+      "version": "1.0.0"
+    },
+    "id": "map-8-2",
+    "name": "Map 8.2 - LAVENDER　TOWN",
+    "description": "Imported from BPRE version 1.0"
+  },
+  "data": {
+    "border": {
+      "width": 2,
+      "height": 2,
+      "data": {
+        "block": [
+          8,
+          8,
+          8,
+          8
+        ],
+        "collision": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "height": [
+          0,
+          0,
+          0,
+          0
+        ]
+      }
+    },
+    "map": {
+      "width": 12,
+      "height": 9,
+      "data": {
+        "block": [
+          644,
+          691,
+          691,
+          803,
+          804,
+          727,
+          645,
+          645,
+          691,
+          691,
+          691,
+          646,
+          652,
+          723,
+          724,
+          805,
+          806,
+          53,
+          653,
+          653,
+          759,
+          699,
+          699,
+          654,
+          660,
+          731,
+          732,
+          808,
+          809,
+          743,
+          781,
+          661,
+          758,
+          750,
+          750,
+          753,
+          655,
+          647,
+          647,
+          647,
+          647,
+          647,
+          647,
+          647,
+          754,
+          755,
+          756,
+          757,
+          782,
+          647,
+          647,
+          647,
+          775,
+          695,
+          761,
+          775,
+          647,
+          647,
+          647,
+          737,
+          745,
+          647,
+          647,
+          647,
+          775,
+          677,
+          679,
+          775,
+          647,
+          647,
+          647,
+          745,
+          722,
+          647,
+          647,
+          647,
+          647,
+          647,
+          647,
+          647,
+          647,
+          647,
+          647,
+          721,
+          730,
+          647,
+          647,
+          738,
+          739,
+          740,
+          647,
+          647,
+          647,
+          647,
+          647,
+          729,
+          8,
+          8,
+          8,
+          26,
+          27,
+          28,
+          8,
+          8,
+          8,
+          8,
+          8,
+          8
+        ],
+        "collision": [
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          1,
+          1,
+          0,
+          0,
+          0,
+          0,
+          1,
+          1,
+          0,
+          0,
+          0,
+          0,
+          1,
+          1,
+          0,
+          0,
+          0,
+          0,
+          1,
+          1,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1
+        ],
+        "height": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          3,
+          3,
+          3,
+          3,
+          3,
+          3,
+          3,
+          3,
+          0,
+          3,
+          3,
+          3,
+          3,
+          3,
+          3,
+          3,
+          3,
+          3,
+          3,
+          3,
+          0,
+          3,
+          3,
+          0,
+          0,
+          3,
+          3,
+          3,
+          3,
+          0,
+          0,
+          3,
+          3,
+          3,
+          3,
+          0,
+          0,
+          3,
+          3,
+          3,
+          3,
+          0,
+          0,
+          3,
+          3,
+          3,
+          3,
+          0,
+          3,
+          3,
+          3,
+          3,
+          3,
+          3,
+          3,
+          3,
+          3,
+          3,
+          3,
+          3,
+          0,
+          3,
+          3,
+          3,
+          3,
+          3,
+          3,
+          3,
+          3,
+          3,
+          3,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ]
+      }
+    },
+    "blocksets": {
+      "primary": {
+        "id": "blockset-0"
+      },
+      "secondary": {
+        "id": "blockset-50"
+      }
+    },
+    "scripts": [],
+    "connections": [],
+    "entities": [
+      {
+        "type": "npc",
+        "data": {
+          "id": 1,
+          "sprite": 78,
+          "replacement": 0,
+          "x": 3,
+          "y": 3,
+          "height": 3,
+          "behavior": 8,
+          "boundary": {
+            "x": 1,
+            "y": 1
+          },
+          "property": 0,
+          "view_radius": 0,
+          "script": {
+            "symbol": "lavenderTown3Npc0Main",
+            "path": "scripts/npc/0.s"
+          },
+          "flag": 53
+        }
+      },
+      {
+        "type": "npc",
+        "data": {
+          "id": 2,
+          "sprite": 124,
+          "replacement": 0,
+          "x": 1,
+          "y": 4,
+          "height": 3,
+          "behavior": 1,
+          "boundary": {
+            "x": 1,
+            "y": 1
+          },
+          "property": 0,
+          "view_radius": 0,
+          "script": {
+            "symbol": "lavenderTown3Npc1Main",
+            "path": "scripts/npc/1.s"
+          },
+          "flag": 0
+        }
+      },
+      {
+        "type": "npc",
+        "data": {
+          "id": 3,
+          "sprite": 121,
+          "replacement": 0,
+          "x": 9,
+          "y": 6,
+          "height": 3,
+          "behavior": 7,
+          "boundary": {
+            "x": 1,
+            "y": 1
+          },
+          "property": 0,
+          "view_radius": 0,
+          "script": {
+            "symbol": "lavenderTown3Npc2Main",
+            "path": "scripts/npc/2.s"
+          },
+          "flag": 0
+        }
+      },
+      {
+        "type": "npc",
+        "data": {
+          "id": 4,
+          "sprite": 16,
+          "replacement": 0,
+          "x": 9,
+          "y": 5,
+          "height": 3,
+          "behavior": 8,
+          "boundary": {
+            "x": 1,
+            "y": 1
+          },
+          "property": 0,
+          "view_radius": 0,
+          "script": {
+            "symbol": "lavenderTown3Npc3Main",
+            "path": "scripts/npc/3.s"
+          },
+          "flag": 0
+        }
+      },
+      {
+        "type": "npc",
+        "data": {
+          "id": 5,
+          "sprite": 18,
+          "replacement": 0,
+          "x": 3,
+          "y": 5,
+          "height": 3,
+          "behavior": 1,
+          "boundary": {
+            "x": 1,
+            "y": 1
+          },
+          "property": 0,
+          "view_radius": 0,
+          "script": {
+            "symbol": "lavenderTown3Npc4Main",
+            "path": "scripts/npc/4.s"
+          },
+          "flag": 0
+        }
+      },
+      {
+        "type": "npc",
+        "data": {
+          "id": 6,
+          "sprite": 17,
+          "replacement": 0,
+          "x": 7,
+          "y": 2,
+          "height": 3,
+          "behavior": 1,
+          "boundary": {
+            "x": 1,
+            "y": 1
+          },
+          "property": 0,
+          "view_radius": 0,
+          "script": {
+            "symbol": "lavenderTown3Npc5Main",
+            "path": "scripts/npc/5.s"
+          },
+          "flag": 0
+        }
+      },
+      {
+        "type": "warp",
+        "data": {
+          "x": 3,
+          "y": 7,
+          "height": 3,
+          "target": {
+            "warp": 2,
+            "map": {
+              "id": "map-3-4"
+            }
+          }
+        }
+      },
+      {
+        "type": "warp",
+        "data": {
+          "x": 4,
+          "y": 7,
+          "height": 3,
+          "target": {
+            "warp": 2,
+            "map": {
+              "id": "map-3-4"
+            }
+          }
+        }
+      },
+      {
+        "type": "warp",
+        "data": {
+          "x": 5,
+          "y": 7,
+          "height": 3,
+          "target": {
+            "warp": 2,
+            "map": {
+              "id": "map-3-4"
+            }
+          }
+        }
+      },
+      {
+        "type": "sign",
+        "data": {
+          "x": 5,
+          "y": 4,
+          "height": 0,
+          "type": "script",
+          "script": {
+            "symbol": "lavenderTown3Sign0Main",
+            "path": "scripts/sign/0.s"
+          }
+        }
+      },
+      {
+        "type": "sign",
+        "data": {
+          "x": 3,
+          "y": 1,
+          "height": 0,
+          "type": "script",
+          "script": {
+            "symbol": "lavenderTown3Sign1Main",
+            "path": "scripts/sign/1.s"
+          }
+        }
+      },
+      {
+        "type": "sign",
+        "data": {
+          "x": 4,
+          "y": 1,
+          "height": 0,
+          "type": "script",
+          "script": {
+            "symbol": "lavenderTown3Sign2Main",
+            "path": "scripts/sign/2.s"
+          }
+        }
+      }
+    ]
+  }
+}

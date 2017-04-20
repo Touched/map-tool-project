@@ -1,0 +1,27 @@
+{
+  "meta": {
+    "format": {
+      "type": "map",
+      "version": "1.0.0"
+    },
+    "id": "map-31-5",
+    "name": "Map 31.5 - SEVEN　ISLAND",
+    "description": "Imported from BPRE version 1.0"
+  },
+  "data": {
+    "linked": {
+      "id": "map-23-2"
+    },
+    "blocksets": {
+      "primary": {
+        "id": "blockset-0"
+      },
+      "secondary": {
+        "id": "blockset-8"
+      }
+    },
+    "scripts": [],
+    "connections": [],
+    "entities": []
+  }
+}

@@ -1,0 +1,1057 @@
+{
+  "meta": {
+    "format": {
+      "type": "map",
+      "version": "1.0.0"
+    },
+    "id": "map-4-3",
+    "name": "Map 4.3 - PALLET　TOWN",
+    "description": "Imported from BPRE version 1.0"
+  },
+  "data": {
+    "border": {
+      "width": 2,
+      "height": 2,
+      "data": {
+        "block": [
+          8,
+          8,
+          8,
+          8
+        ],
+        "collision": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "height": [
+          0,
+          0,
+          0,
+          0
+        ]
+      }
+    },
+    "map": {
+      "width": 13,
+      "height": 14,
+      "data": {
+        "block": [
+          669,
+          109,
+          109,
+          110,
+          105,
+          105,
+          653,
+          653,
+          152,
+          107,
+          108,
+          107,
+          108,
+          685,
+          678,
+          117,
+          118,
+          133,
+          134,
+          661,
+          661,
+          160,
+          115,
+          116,
+          115,
+          116,
+          693,
+          694,
+          645,
+          646,
+          645,
+          646,
+          641,
+          641,
+          641,
+          643,
+          644,
+          643,
+          644,
+          671,
+          675,
+          676,
+          649,
+          649,
+          649,
+          649,
+          649,
+          649,
+          649,
+          649,
+          649,
+          649,
+          671,
+          683,
+          684,
+          649,
+          649,
+          649,
+          649,
+          649,
+          680,
+          681,
+          682,
+          649,
+          649,
+          648,
+          691,
+          692,
+          649,
+          649,
+          649,
+          649,
+          649,
+          688,
+          689,
+          690,
+          649,
+          649,
+          648,
+          649,
+          649,
+          649,
+          649,
+          649,
+          649,
+          649,
+          649,
+          649,
+          649,
+          649,
+          649,
+          698,
+          651,
+          652,
+          651,
+          652,
+          649,
+          649,
+          649,
+          651,
+          652,
+          651,
+          652,
+          652,
+          115,
+          115,
+          116,
+          115,
+          116,
+          649,
+          649,
+          649,
+          115,
+          116,
+          115,
+          116,
+          116,
+          647,
+          643,
+          644,
+          643,
+          644,
+          649,
+          649,
+          649,
+          643,
+          644,
+          643,
+          644,
+          644,
+          648,
+          649,
+          649,
+          649,
+          649,
+          649,
+          649,
+          649,
+          649,
+          649,
+          649,
+          649,
+          649,
+          659,
+          649,
+          649,
+          649,
+          649,
+          649,
+          649,
+          649,
+          649,
+          649,
+          649,
+          649,
+          660,
+          667,
+          649,
+          649,
+          649,
+          649,
+          656,
+          657,
+          658,
+          649,
+          649,
+          649,
+          649,
+          668,
+          8,
+          8,
+          8,
+          8,
+          8,
+          664,
+          665,
+          666,
+          8,
+          8,
+          8,
+          8,
+          8
+        ],
+        "collision": [
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          1,
+          1,
+          1,
+          0,
+          0,
+          0,
+          0,
+          0,
+          1,
+          1,
+          1,
+          0,
+          0,
+          0,
+          1,
+          1,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          1,
+          1,
+          1,
+          1,
+          1,
+          0,
+          0,
+          0,
+          1,
+          1,
+          1,
+          1,
+          1,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1
+        ],
+        "height": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          3,
+          3,
+          3,
+          3,
+          3,
+          3,
+          3,
+          3,
+          3,
+          3,
+          3,
+          3,
+          3,
+          0,
+          3,
+          3,
+          3,
+          3,
+          3,
+          3,
+          3,
+          3,
+          3,
+          3,
+          3,
+          3,
+          0,
+          0,
+          0,
+          3,
+          3,
+          3,
+          3,
+          3,
+          0,
+          0,
+          0,
+          3,
+          3,
+          3,
+          0,
+          0,
+          3,
+          3,
+          3,
+          3,
+          3,
+          3,
+          3,
+          3,
+          3,
+          3,
+          3,
+          3,
+          3,
+          3,
+          3,
+          3,
+          3,
+          3,
+          3,
+          3,
+          3,
+          3,
+          3,
+          3,
+          3,
+          3,
+          3,
+          3,
+          3,
+          3,
+          3,
+          3,
+          3,
+          3,
+          3,
+          3,
+          0,
+          0,
+          0,
+          0,
+          0,
+          3,
+          3,
+          3,
+          0,
+          0,
+          0,
+          0,
+          0,
+          3,
+          3,
+          3,
+          3,
+          3,
+          3,
+          3,
+          3,
+          3,
+          3,
+          3,
+          3,
+          3,
+          3,
+          3,
+          3,
+          3,
+          3,
+          3,
+          3,
+          3,
+          3,
+          3,
+          3,
+          3,
+          3,
+          3,
+          3,
+          3,
+          3,
+          3,
+          3,
+          3,
+          3,
+          3,
+          3,
+          3,
+          3,
+          3,
+          0,
+          3,
+          3,
+          3,
+          3,
+          3,
+          3,
+          3,
+          3,
+          3,
+          3,
+          3,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ]
+      }
+    },
+    "blocksets": {
+      "primary": {
+        "id": "blockset-0"
+      },
+      "secondary": {
+        "id": "blockset-40"
+      }
+    },
+    "scripts": [
+      {
+        "type": "onmapenter",
+        "script": {
+          "symbol": "palletTown4Map0Main",
+          "path": "scripts/map/0.s"
+        }
+      },
+      {
+        "type": "handler_env2",
+        "scripts": [
+          {
+            "variable": 16469,
+            "value": 1,
+            "script": {
+              "symbol": "palletTown4Map1Auto0Main",
+              "path": "scripts/map/1/0.s"
+            }
+          }
+        ]
+      },
+      {
+        "type": "handler_env1",
+        "scripts": [
+          {
+            "variable": 16469,
+            "value": 1,
+            "script": {
+              "symbol": "palletTown4Map2Auto0Main",
+              "path": "scripts/map/2/0.s"
+            }
+          },
+          {
+            "variable": 16469,
+            "value": 7,
+            "script": {
+              "symbol": "palletTown4Map2Auto1Main",
+              "path": "scripts/map/2/1.s"
+            }
+          }
+        ]
+      }
+    ],
+    "connections": [],
+    "entities": [
+      {
+        "type": "npc",
+        "data": {
+          "id": 1,
+          "sprite": 55,
+          "replacement": 0,
+          "x": 3,
+          "y": 11,
+          "height": 3,
+          "behavior": 1,
+          "boundary": {
+            "x": 0,
+            "y": 0
+          },
+          "property": 0,
+          "view_radius": 0,
+          "script": {
+            "symbol": "palletTown4Npc0Main",
+            "path": "scripts/npc/0.s"
+          },
+          "flag": 0
+        }
+      },
+      {
+        "type": "npc",
+        "data": {
+          "id": 2,
+          "sprite": 48,
+          "replacement": 0,
+          "x": 2,
+          "y": 10,
+          "height": 3,
+          "behavior": 3,
+          "boundary": {
+            "x": 0,
+            "y": 4
+          },
+          "property": 0,
+          "view_radius": 0,
+          "script": {
+            "symbol": "palletTown4Npc1Main",
+            "path": "scripts/npc/1.s"
+          },
+          "flag": 0
+        }
+      },
+      {
+        "type": "npc",
+        "data": {
+          "id": 3,
+          "sprite": 55,
+          "replacement": 0,
+          "x": 11,
+          "y": 10,
+          "height": 3,
+          "behavior": 1,
+          "boundary": {
+            "x": 0,
+            "y": 0
+          },
+          "property": 0,
+          "view_radius": 0,
+          "script": {
+            "symbol": "palletTown4Npc2Main",
+            "path": "scripts/npc/2.s"
+          },
+          "flag": 0
+        }
+      },
+      {
+        "type": "npc",
+        "data": {
+          "id": 4,
+          "sprite": 71,
+          "replacement": 0,
+          "x": 6,
+          "y": 3,
+          "height": 3,
+          "behavior": 8,
+          "boundary": {
+            "x": 1,
+            "y": 1
+          },
+          "property": 0,
+          "view_radius": 0,
+          "script": {
+            "symbol": "palletTown4Npc3Main",
+            "path": "scripts/npc/3.s"
+          },
+          "flag": 43
+        }
+      },
+      {
+        "type": "npc",
+        "data": {
+          "id": 5,
+          "sprite": 92,
+          "replacement": 0,
+          "x": 8,
+          "y": 4,
+          "height": 0,
+          "behavior": 8,
+          "boundary": {
+            "x": 1,
+            "y": 1
+          },
+          "property": 0,
+          "view_radius": 0,
+          "script": {
+            "symbol": "palletTown4Npc4Main",
+            "path": "scripts/npc/4.s"
+          },
+          "flag": 40
+        }
+      },
+      {
+        "type": "npc",
+        "data": {
+          "id": 6,
+          "sprite": 92,
+          "replacement": 0,
+          "x": 9,
+          "y": 4,
+          "height": 0,
+          "behavior": 8,
+          "boundary": {
+            "x": 1,
+            "y": 1
+          },
+          "property": 0,
+          "view_radius": 0,
+          "script": {
+            "symbol": "palletTown4Npc5Main",
+            "path": "scripts/npc/5.s"
+          },
+          "flag": 41
+        }
+      },
+      {
+        "type": "npc",
+        "data": {
+          "id": 7,
+          "sprite": 92,
+          "replacement": 0,
+          "x": 10,
+          "y": 4,
+          "height": 0,
+          "behavior": 8,
+          "boundary": {
+            "x": 1,
+            "y": 1
+          },
+          "property": 0,
+          "view_radius": 0,
+          "script": {
+            "symbol": "palletTown4Npc6Main",
+            "path": "scripts/npc/6.s"
+          },
+          "flag": 42
+        }
+      },
+      {
+        "type": "npc",
+        "data": {
+          "id": 8,
+          "sprite": 72,
+          "replacement": 0,
+          "x": 5,
+          "y": 4,
+          "height": 3,
+          "behavior": 8,
+          "boundary": {
+            "x": 1,
+            "y": 1
+          },
+          "property": 0,
+          "view_radius": 0,
+          "script": {
+            "symbol": "palletTown4Npc7Main",
+            "path": "scripts/npc/7.s"
+          },
+          "flag": 45
+        }
+      },
+      {
+        "type": "npc",
+        "data": {
+          "id": 9,
+          "sprite": 94,
+          "replacement": 0,
+          "x": 4,
+          "y": 1,
+          "height": 0,
+          "behavior": 8,
+          "boundary": {
+            "x": 1,
+            "y": 1
+          },
+          "property": 0,
+          "view_radius": 0,
+          "script": {
+            "symbol": "palletTown4Npc8Main",
+            "path": "scripts/npc/8.s"
+          },
+          "flag": 58
+        }
+      },
+      {
+        "type": "npc",
+        "data": {
+          "id": 10,
+          "sprite": 94,
+          "replacement": 0,
+          "x": 5,
+          "y": 1,
+          "height": 0,
+          "behavior": 8,
+          "boundary": {
+            "x": 1,
+            "y": 1
+          },
+          "property": 0,
+          "view_radius": 0,
+          "script": {
+            "symbol": "palletTown4Npc9Main",
+            "path": "scripts/npc/9.s"
+          },
+          "flag": 58
+        }
+      },
+      {
+        "type": "warp",
+        "data": {
+          "x": 6,
+          "y": 12,
+          "height": 3,
+          "target": {
+            "warp": 2,
+            "map": {
+              "id": "map-3-0"
+            }
+          }
+        }
+      },
+      {
+        "type": "warp",
+        "data": {
+          "x": 7,
+          "y": 12,
+          "height": 3,
+          "target": {
+            "warp": 2,
+            "map": {
+              "id": "map-3-0"
+            }
+          }
+        }
+      },
+      {
+        "type": "warp",
+        "data": {
+          "x": 5,
+          "y": 12,
+          "height": 3,
+          "target": {
+            "warp": 2,
+            "map": {
+              "id": "map-3-0"
+            }
+          }
+        }
+      },
+      {
+        "type": "sign",
+        "data": {
+          "x": 2,
+          "y": 1,
+          "height": 0,
+          "type": "script",
+          "script": {
+            "symbol": "palletTown4Sign0Main",
+            "path": "scripts/sign/0.s"
+          }
+        }
+      },
+      {
+        "type": "sign",
+        "data": {
+          "x": 3,
+          "y": 1,
+          "height": 0,
+          "type": "script",
+          "script": {
+            "symbol": "palletTown4Sign1Main",
+            "path": "scripts/sign/1.s"
+          }
+        }
+      },
+      {
+        "type": "sign",
+        "data": {
+          "x": 6,
+          "y": 1,
+          "height": 0,
+          "type": "script",
+          "script": {
+            "symbol": "palletTown4Sign2Main",
+            "path": "scripts/sign/2.s"
+          }
+        }
+      },
+      {
+        "type": "sign",
+        "data": {
+          "x": 7,
+          "y": 1,
+          "height": 0,
+          "type": "script",
+          "script": {
+            "symbol": "palletTown4Sign3Main",
+            "path": "scripts/sign/3.s"
+          }
+        }
+      },
+      {
+        "type": "trigger",
+        "data": {
+          "x": 5,
+          "y": 8,
+          "height": 3,
+          "variable": 16469,
+          "value": 2,
+          "script": {
+            "symbol": "palletTown4Trigger0Main",
+            "path": "scripts/trigger/0.s"
+          }
+        }
+      },
+      {
+        "type": "trigger",
+        "data": {
+          "x": 6,
+          "y": 8,
+          "height": 3,
+          "variable": 16469,
+          "value": 2,
+          "script": {
+            "symbol": "palletTown4Trigger1Main",
+            "path": "scripts/trigger/1.s"
+          }
+        }
+      },
+      {
+        "type": "trigger",
+        "data": {
+          "x": 7,
+          "y": 8,
+          "height": 3,
+          "variable": 16469,
+          "value": 2,
+          "script": {
+            "symbol": "palletTown4Trigger2Main",
+            "path": "scripts/trigger/2.s"
+          }
+        }
+      },
+      {
+        "type": "trigger",
+        "data": {
+          "x": 5,
+          "y": 8,
+          "height": 3,
+          "variable": 16469,
+          "value": 3,
+          "script": {
+            "symbol": "palletTown4Trigger3Main",
+            "path": "scripts/trigger/3.s"
+          }
+        }
+      },
+      {
+        "type": "trigger",
+        "data": {
+          "x": 6,
+          "y": 8,
+          "height": 3,
+          "variable": 16469,
+          "value": 3,
+          "script": {
+            "symbol": "palletTown4Trigger4Main",
+            "path": "scripts/trigger/4.s"
+          }
+        }
+      },
+      {
+        "type": "trigger",
+        "data": {
+          "x": 7,
+          "y": 8,
+          "height": 3,
+          "variable": 16469,
+          "value": 3,
+          "script": {
+            "symbol": "palletTown4Trigger5Main",
+            "path": "scripts/trigger/5.s"
+          }
+        }
+      }
+    ]
+  }
+}

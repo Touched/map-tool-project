@@ -1,0 +1,478 @@
+{
+  "meta": {
+    "format": {
+      "type": "map",
+      "version": "1.0.0"
+    },
+    "id": "map-11-0",
+    "name": "Map 11.0 - FUCHSIA　CITY",
+    "description": "Imported from BPRE version 1.0"
+  },
+  "data": {
+    "border": {
+      "width": 2,
+      "height": 2,
+      "data": {
+        "block": [
+          8,
+          8,
+          8,
+          8
+        ],
+        "collision": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "height": [
+          0,
+          0,
+          0,
+          0
+        ]
+      }
+    },
+    "map": {
+      "width": 9,
+      "height": 9,
+      "data": {
+        "block": [
+          642,
+          642,
+          642,
+          643,
+          644,
+          645,
+          642,
+          642,
+          642,
+          655,
+          655,
+          660,
+          651,
+          652,
+          653,
+          660,
+          655,
+          655,
+          663,
+          663,
+          668,
+          665,
+          667,
+          666,
+          668,
+          663,
+          663,
+          675,
+          672,
+          668,
+          673,
+          659,
+          658,
+          668,
+          672,
+          670,
+          679,
+          674,
+          668,
+          673,
+          648,
+          658,
+          668,
+          674,
+          678,
+          687,
+          674,
+          668,
+          673,
+          659,
+          658,
+          668,
+          674,
+          647,
+          671,
+          672,
+          668,
+          673,
+          659,
+          658,
+          668,
+          672,
+          670,
+          678,
+          674,
+          676,
+          700,
+          701,
+          702,
+          676,
+          674,
+          678,
+          8,
+          8,
+          8,
+          26,
+          27,
+          28,
+          8,
+          8,
+          8
+        ],
+        "collision": [
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          0,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          0,
+          0,
+          0,
+          1,
+          1,
+          1,
+          1,
+          0,
+          1,
+          0,
+          0,
+          0,
+          1,
+          0,
+          1,
+          1,
+          0,
+          1,
+          0,
+          0,
+          0,
+          1,
+          0,
+          1,
+          1,
+          0,
+          1,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          1,
+          0,
+          1,
+          0,
+          0,
+          0,
+          1,
+          0,
+          1,
+          1,
+          0,
+          1,
+          0,
+          0,
+          0,
+          1,
+          0,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1
+        ],
+        "height": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          3,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          3,
+          3,
+          3,
+          0,
+          0,
+          0,
+          0,
+          3,
+          0,
+          3,
+          3,
+          3,
+          0,
+          3,
+          0,
+          0,
+          3,
+          0,
+          3,
+          3,
+          3,
+          0,
+          3,
+          0,
+          0,
+          3,
+          0,
+          3,
+          3,
+          3,
+          0,
+          3,
+          3,
+          0,
+          3,
+          0,
+          3,
+          3,
+          3,
+          0,
+          3,
+          0,
+          0,
+          3,
+          0,
+          3,
+          3,
+          3,
+          0,
+          3,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ]
+      }
+    },
+    "blocksets": {
+      "primary": {
+        "id": "blockset-0"
+      },
+      "secondary": {
+        "id": "blockset-14"
+      }
+    },
+    "scripts": [
+      {
+        "type": "handler_env1",
+        "scripts": [
+          {
+            "variable": 16494,
+            "value": 1,
+            "script": {
+              "symbol": "fuchsiaCity1Map0Auto0Main",
+              "path": "scripts/map/0/0.s"
+            }
+          },
+          {
+            "variable": 16494,
+            "value": 2,
+            "script": {
+              "symbol": "fuchsiaCity1Map0Auto1Main",
+              "path": "scripts/map/0/1.s"
+            }
+          },
+          {
+            "variable": 16494,
+            "value": 3,
+            "script": {
+              "symbol": "fuchsiaCity1Map0Auto2Main",
+              "path": "scripts/map/0/2.s"
+            }
+          }
+        ]
+      }
+    ],
+    "connections": [],
+    "entities": [
+      {
+        "type": "npc",
+        "data": {
+          "id": 1,
+          "sprite": 47,
+          "replacement": 0,
+          "x": 7,
+          "y": 3,
+          "height": 3,
+          "behavior": 9,
+          "boundary": {
+            "x": 1,
+            "y": 1
+          },
+          "property": 0,
+          "view_radius": 0,
+          "script": {
+            "symbol": "fuchsiaCity1Npc0Main",
+            "path": "scripts/npc/0.s"
+          },
+          "flag": 0
+        }
+      },
+      {
+        "type": "npc",
+        "data": {
+          "id": 2,
+          "sprite": 47,
+          "replacement": 0,
+          "x": 1,
+          "y": 6,
+          "height": 3,
+          "behavior": 10,
+          "boundary": {
+            "x": 1,
+            "y": 1
+          },
+          "property": 0,
+          "view_radius": 0,
+          "script": {
+            "symbol": "fuchsiaCity1Npc1Main",
+            "path": "scripts/npc/1.s"
+          },
+          "flag": 0
+        }
+      },
+      {
+        "type": "warp",
+        "data": {
+          "x": 4,
+          "y": 1,
+          "height": 3,
+          "target": {
+            "warp": 1,
+            "map": {
+              "id": "map-1-63"
+            }
+          }
+        }
+      },
+      {
+        "type": "warp",
+        "data": {
+          "x": 5,
+          "y": 7,
+          "height": 3,
+          "target": {
+            "warp": 0,
+            "map": {
+              "id": "map-3-7"
+            }
+          }
+        }
+      },
+      {
+        "type": "warp",
+        "data": {
+          "x": 4,
+          "y": 7,
+          "height": 3,
+          "target": {
+            "warp": 0,
+            "map": {
+              "id": "map-3-7"
+            }
+          }
+        }
+      },
+      {
+        "type": "warp",
+        "data": {
+          "x": 3,
+          "y": 7,
+          "height": 3,
+          "target": {
+            "warp": 0,
+            "map": {
+              "id": "map-3-7"
+            }
+          }
+        }
+      },
+      {
+        "type": "trigger",
+        "data": {
+          "x": 4,
+          "y": 3,
+          "height": 3,
+          "variable": 16385,
+          "value": 0,
+          "script": {
+            "symbol": "fuchsiaCity1Trigger0Main",
+            "path": "scripts/trigger/0.s"
+          }
+        }
+      },
+      {
+        "type": "trigger",
+        "data": {
+          "x": 5,
+          "y": 3,
+          "height": 3,
+          "variable": 16385,
+          "value": 0,
+          "script": {
+            "symbol": "fuchsiaCity1Trigger1Main",
+            "path": "scripts/trigger/1.s"
+          }
+        }
+      },
+      {
+        "type": "trigger",
+        "data": {
+          "x": 3,
+          "y": 3,
+          "height": 3,
+          "variable": 16385,
+          "value": 0,
+          "script": {
+            "symbol": "fuchsiaCity1Trigger2Main",
+            "path": "scripts/trigger/2.s"
+          }
+        }
+      }
+    ]
+  }
+}

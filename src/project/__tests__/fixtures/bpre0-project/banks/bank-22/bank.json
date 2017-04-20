@@ -1,0 +1,21 @@
+{
+  "meta": {
+    "format": {
+      "type": "bank",
+      "version": "1.0.0"
+    },
+    "id": "bank-22",
+    "name": "Bank 22",
+    "description": "Imported from BPRE version 1.0"
+  },
+  "data": {
+    "maps": [
+      {
+        "path": "map-22-0/map.json"
+      },
+      {
+        "path": "map-22-1/map.json"
+      }
+    ]
+  }
+}

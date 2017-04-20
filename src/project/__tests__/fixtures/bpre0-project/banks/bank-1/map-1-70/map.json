@@ -1,0 +1,139 @@
+{
+  "meta": {
+    "format": {
+      "type": "map",
+      "version": "1.0.0"
+    },
+    "id": "map-1-70",
+    "name": "Map 1.70 - SAFARI　ZONE",
+    "description": "Imported from BPRE version 1.0"
+  },
+  "data": {
+    "linked": {
+      "id": "map-1-67"
+    },
+    "blocksets": {
+      "primary": {
+        "id": "blockset-0"
+      },
+      "secondary": {
+        "id": "blockset-14"
+      }
+    },
+    "scripts": [],
+    "connections": [],
+    "entities": [
+      {
+        "type": "npc",
+        "data": {
+          "id": 1,
+          "sprite": 55,
+          "replacement": 0,
+          "x": 3,
+          "y": 4,
+          "height": 3,
+          "behavior": 2,
+          "boundary": {
+            "x": 1,
+            "y": 1
+          },
+          "property": 0,
+          "view_radius": 0,
+          "script": {
+            "symbol": "safariZone7Npc0Main",
+            "path": "scripts/npc/0.s"
+          },
+          "flag": 0
+        }
+      },
+      {
+        "type": "npc",
+        "data": {
+          "id": 2,
+          "sprite": 25,
+          "replacement": 0,
+          "x": 2,
+          "y": 2,
+          "height": 0,
+          "behavior": 1,
+          "boundary": {
+            "x": 1,
+            "y": 1
+          },
+          "property": 0,
+          "view_radius": 0,
+          "script": {
+            "symbol": "safariZone7Npc1Main",
+            "path": "scripts/npc/1.s"
+          },
+          "flag": 0
+        }
+      },
+      {
+        "type": "npc",
+        "data": {
+          "id": 3,
+          "sprite": 42,
+          "replacement": 0,
+          "x": 7,
+          "y": 3,
+          "height": 3,
+          "behavior": 1,
+          "boundary": {
+            "x": 1,
+            "y": 1
+          },
+          "property": 0,
+          "view_radius": 0,
+          "script": {
+            "symbol": "safariZone7Npc2Main",
+            "path": "scripts/npc/2.s"
+          },
+          "flag": 0
+        }
+      },
+      {
+        "type": "warp",
+        "data": {
+          "x": 3,
+          "y": 9,
+          "height": 3,
+          "target": {
+            "warp": 10,
+            "map": {
+              "id": "map-1-66"
+            }
+          }
+        }
+      },
+      {
+        "type": "warp",
+        "data": {
+          "x": 4,
+          "y": 9,
+          "height": 3,
+          "target": {
+            "warp": 10,
+            "map": {
+              "id": "map-1-66"
+            }
+          }
+        }
+      },
+      {
+        "type": "warp",
+        "data": {
+          "x": 5,
+          "y": 9,
+          "height": 3,
+          "target": {
+            "warp": 10,
+            "map": {
+              "id": "map-1-66"
+            }
+          }
+        }
+      }
+    ]
+  }
+}

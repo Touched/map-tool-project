@@ -1,0 +1,488 @@
+{
+  "meta": {
+    "format": {
+      "type": "map",
+      "version": "1.0.0"
+    },
+    "id": "map-10-15",
+    "name": "Map 10.15 - CELADON　CITY",
+    "description": "Imported from BPRE version 1.0"
+  },
+  "data": {
+    "border": {
+      "width": 2,
+      "height": 2,
+      "data": {
+        "block": [
+          8,
+          8,
+          8,
+          8
+        ],
+        "collision": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "height": [
+          0,
+          0,
+          0,
+          0
+        ]
+      }
+    },
+    "map": {
+      "width": 9,
+      "height": 10,
+      "data": {
+        "block": [
+          641,
+          645,
+          646,
+          642,
+          643,
+          644,
+          645,
+          646,
+          641,
+          647,
+          653,
+          654,
+          650,
+          651,
+          652,
+          653,
+          654,
+          647,
+          663,
+          708,
+          732,
+          665,
+          668,
+          665,
+          731,
+          788,
+          655,
+          667,
+          673,
+          676,
+          673,
+          676,
+          673,
+          676,
+          673,
+          675,
+          658,
+          656,
+          656,
+          656,
+          656,
+          656,
+          656,
+          656,
+          656,
+          730,
+          715,
+          657,
+          657,
+          657,
+          657,
+          657,
+          714,
+          715,
+          716,
+          717,
+          659,
+          657,
+          657,
+          657,
+          657,
+          716,
+          717,
+          661,
+          662,
+          659,
+          657,
+          657,
+          657,
+          657,
+          787,
+          662,
+          658,
+          657,
+          657,
+          720,
+          721,
+          722,
+          657,
+          657,
+          657,
+          8,
+          8,
+          8,
+          26,
+          27,
+          28,
+          8,
+          8,
+          8
+        ],
+        "collision": [
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          1,
+          1,
+          0,
+          0,
+          0,
+          0,
+          0,
+          1,
+          1,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1
+        ],
+        "height": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          3,
+          3,
+          3,
+          3,
+          3,
+          3,
+          3,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          3,
+          3,
+          3,
+          3,
+          3,
+          3,
+          3,
+          3,
+          3,
+          3,
+          3,
+          3,
+          3,
+          3,
+          3,
+          3,
+          3,
+          3,
+          0,
+          0,
+          3,
+          3,
+          3,
+          3,
+          3,
+          0,
+          0,
+          3,
+          3,
+          3,
+          3,
+          3,
+          3,
+          3,
+          3,
+          3,
+          3,
+          3,
+          3,
+          3,
+          3,
+          3,
+          3,
+          3,
+          3,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ]
+      }
+    },
+    "blocksets": {
+      "primary": {
+        "id": "blockset-0"
+      },
+      "secondary": {
+        "id": "blockset-54"
+      }
+    },
+    "scripts": [],
+    "connections": [],
+    "entities": [
+      {
+        "type": "npc",
+        "data": {
+          "id": 1,
+          "sprite": 30,
+          "replacement": 0,
+          "x": 2,
+          "y": 6,
+          "height": 3,
+          "behavior": 2,
+          "boundary": {
+            "x": 1,
+            "y": 1
+          },
+          "property": 0,
+          "view_radius": 0,
+          "script": {
+            "symbol": "celadonCity16Npc0Main",
+            "path": "scripts/npc/0.s"
+          },
+          "flag": 0
+        }
+      },
+      {
+        "type": "npc",
+        "data": {
+          "id": 2,
+          "sprite": 33,
+          "replacement": 0,
+          "x": 6,
+          "y": 7,
+          "height": 3,
+          "behavior": 1,
+          "boundary": {
+            "x": 1,
+            "y": 1
+          },
+          "property": 0,
+          "view_radius": 0,
+          "script": {
+            "symbol": "celadonCity16Npc1Main",
+            "path": "scripts/npc/1.s"
+          },
+          "flag": 0
+        }
+      },
+      {
+        "type": "npc",
+        "data": {
+          "id": 3,
+          "sprite": 47,
+          "replacement": 0,
+          "x": 4,
+          "y": 2,
+          "height": 3,
+          "behavior": 8,
+          "boundary": {
+            "x": 1,
+            "y": 1
+          },
+          "property": 0,
+          "view_radius": 0,
+          "script": {
+            "symbol": "celadonCity16Npc2Main",
+            "path": "scripts/npc/2.s"
+          },
+          "flag": 0
+        }
+      },
+      {
+        "type": "npc",
+        "data": {
+          "id": 4,
+          "sprite": 47,
+          "replacement": 0,
+          "x": 6,
+          "y": 2,
+          "height": 3,
+          "behavior": 8,
+          "boundary": {
+            "x": 1,
+            "y": 1
+          },
+          "property": 0,
+          "view_radius": 0,
+          "script": {
+            "symbol": "celadonCity16Npc3Main",
+            "path": "scripts/npc/3.s"
+          },
+          "flag": 0
+        }
+      },
+      {
+        "type": "npc",
+        "data": {
+          "id": 5,
+          "sprite": 47,
+          "replacement": 0,
+          "x": 2,
+          "y": 2,
+          "height": 3,
+          "behavior": 8,
+          "boundary": {
+            "x": 1,
+            "y": 1
+          },
+          "property": 0,
+          "view_radius": 0,
+          "script": {
+            "symbol": "celadonCity16Npc4Main",
+            "path": "scripts/npc/4.s"
+          },
+          "flag": 0
+        }
+      },
+      {
+        "type": "warp",
+        "data": {
+          "x": 3,
+          "y": 9,
+          "height": 0,
+          "target": {
+            "warp": 5,
+            "map": {
+              "id": "map-3-6"
+            }
+          }
+        }
+      },
+      {
+        "type": "warp",
+        "data": {
+          "x": 4,
+          "y": 8,
+          "height": 3,
+          "target": {
+            "warp": 5,
+            "map": {
+              "id": "map-3-6"
+            }
+          }
+        }
+      },
+      {
+        "type": "warp",
+        "data": {
+          "x": 5,
+          "y": 9,
+          "height": 0,
+          "target": {
+            "warp": 5,
+            "map": {
+              "id": "map-3-6"
+            }
+          }
+        }
+      }
+    ]
+  }
+}

@@ -1,0 +1,215 @@
+{
+  "meta": {
+    "format": {
+      "type": "map",
+      "version": "1.0.0"
+    },
+    "id": "map-2-11",
+    "name": "Map 2.11 - TRAINER　TOWER",
+    "description": "Imported from BPRE version 1.0"
+  },
+  "data": {
+    "border": {
+      "width": 2,
+      "height": 2,
+      "data": {
+        "block": [
+          8,
+          8,
+          8,
+          8
+        ],
+        "collision": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "height": [
+          0,
+          0,
+          0,
+          0
+        ]
+      }
+    },
+    "map": {
+      "width": 5,
+      "height": 7,
+      "data": {
+        "block": [
+          747,
+          744,
+          744,
+          744,
+          748,
+          755,
+          752,
+          752,
+          752,
+          756,
+          763,
+          760,
+          760,
+          760,
+          764,
+          749,
+          750,
+          750,
+          750,
+          750,
+          757,
+          758,
+          758,
+          758,
+          751,
+          757,
+          765,
+          766,
+          759,
+          751,
+          8,
+          26,
+          27,
+          28,
+          8
+        ],
+        "collision": [
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          1,
+          1,
+          1,
+          1,
+          1
+        ],
+        "height": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          3,
+          3,
+          3,
+          3,
+          3,
+          3,
+          3,
+          3,
+          3,
+          3,
+          3,
+          3,
+          3,
+          3,
+          3,
+          0,
+          0,
+          0,
+          0,
+          0
+        ]
+      }
+    },
+    "blocksets": {
+      "primary": {
+        "id": "blockset-0"
+      },
+      "secondary": {
+        "id": "blockset-11"
+      }
+    },
+    "scripts": [
+      {
+        "type": "closemenu1",
+        "script": {
+          "symbol": "trainerTower10Map0Main",
+          "path": "scripts/map/0.s"
+        }
+      },
+      {
+        "type": "handler_env1",
+        "scripts": [
+          {
+            "variable": 16386,
+            "value": 0,
+            "script": {
+              "symbol": "trainerTower10Map1Auto0Main",
+              "path": "scripts/map/1/0.s"
+            }
+          }
+        ]
+      }
+    ],
+    "connections": [],
+    "entities": [
+      {
+        "type": "warp",
+        "data": {
+          "x": 2,
+          "y": 5,
+          "height": 3,
+          "target": {
+            "warp": 127,
+            "map": {
+              "map": 127,
+              "bank": 127
+            }
+          }
+        }
+      },
+      {
+        "type": "sign",
+        "data": {
+          "x": 0,
+          "y": 2,
+          "height": 0,
+          "type": "script",
+          "script": {
+            "symbol": "trainerTower10Sign0Main",
+            "path": "scripts/sign/0.s"
+          }
+        }
+      }
+    ]
+  }
+}

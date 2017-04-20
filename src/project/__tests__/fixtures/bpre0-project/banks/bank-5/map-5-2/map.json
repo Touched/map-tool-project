@@ -1,0 +1,484 @@
+{
+  "meta": {
+    "format": {
+      "type": "map",
+      "version": "1.0.0"
+    },
+    "id": "map-5-2",
+    "name": "Map 5.2 - VIRIDIAN　CITY",
+    "description": "Imported from BPRE version 1.0"
+  },
+  "data": {
+    "border": {
+      "width": 2,
+      "height": 2,
+      "data": {
+        "block": [
+          8,
+          8,
+          8,
+          8
+        ],
+        "collision": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "height": [
+          0,
+          0,
+          0,
+          0
+        ]
+      }
+    },
+    "map": {
+      "width": 10,
+      "height": 9,
+      "data": {
+        "block": [
+          645,
+          646,
+          646,
+          647,
+          643,
+          644,
+          672,
+          673,
+          673,
+          673,
+          653,
+          654,
+          654,
+          655,
+          651,
+          652,
+          680,
+          681,
+          667,
+          668,
+          661,
+          662,
+          662,
+          663,
+          659,
+          660,
+          661,
+          662,
+          675,
+          676,
+          669,
+          670,
+          670,
+          670,
+          657,
+          658,
+          670,
+          670,
+          662,
+          662,
+          669,
+          670,
+          670,
+          670,
+          665,
+          666,
+          670,
+          670,
+          670,
+          670,
+          669,
+          670,
+          670,
+          670,
+          648,
+          648,
+          670,
+          670,
+          670,
+          670,
+          641,
+          670,
+          670,
+          670,
+          656,
+          656,
+          670,
+          670,
+          670,
+          642,
+          649,
+          670,
+          670,
+          677,
+          678,
+          679,
+          670,
+          670,
+          670,
+          650,
+          8,
+          8,
+          8,
+          26,
+          27,
+          28,
+          8,
+          8,
+          8,
+          8
+        ],
+        "collision": [
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          1,
+          1,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          1,
+          1,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1
+        ],
+        "height": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          3,
+          3,
+          3,
+          3,
+          3,
+          3,
+          3,
+          3,
+          0,
+          0,
+          3,
+          3,
+          3,
+          3,
+          3,
+          3,
+          3,
+          3,
+          3,
+          3,
+          3,
+          3,
+          3,
+          3,
+          0,
+          0,
+          3,
+          3,
+          3,
+          3,
+          3,
+          3,
+          3,
+          3,
+          3,
+          3,
+          3,
+          3,
+          3,
+          3,
+          3,
+          3,
+          3,
+          3,
+          3,
+          3,
+          3,
+          3,
+          3,
+          3,
+          0,
+          3,
+          3,
+          3,
+          3,
+          3,
+          3,
+          3,
+          3,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ]
+      }
+    },
+    "blocksets": {
+      "primary": {
+        "id": "blockset-0"
+      },
+      "secondary": {
+        "id": "blockset-42"
+      }
+    },
+    "scripts": [],
+    "connections": [],
+    "entities": [
+      {
+        "type": "npc",
+        "data": {
+          "id": 1,
+          "sprite": 28,
+          "replacement": 0,
+          "x": 6,
+          "y": 2,
+          "height": 3,
+          "behavior": 8,
+          "boundary": {
+            "x": 1,
+            "y": 1
+          },
+          "property": 0,
+          "view_radius": 0,
+          "script": {
+            "symbol": "viridianCity3Npc0Main",
+            "path": "scripts/npc/0.s"
+          },
+          "flag": 0
+        }
+      },
+      {
+        "type": "npc",
+        "data": {
+          "id": 2,
+          "sprite": 22,
+          "replacement": 0,
+          "x": 4,
+          "y": 5,
+          "height": 3,
+          "behavior": 7,
+          "boundary": {
+            "x": 1,
+            "y": 1
+          },
+          "property": 0,
+          "view_radius": 0,
+          "script": {
+            "symbol": "viridianCity3Npc1Main",
+            "path": "scripts/npc/1.s"
+          },
+          "flag": 0
+        }
+      },
+      {
+        "type": "warp",
+        "data": {
+          "x": 3,
+          "y": 7,
+          "height": 0,
+          "target": {
+            "warp": 3,
+            "map": {
+              "id": "map-3-1"
+            }
+          }
+        }
+      },
+      {
+        "type": "warp",
+        "data": {
+          "x": 4,
+          "y": 7,
+          "height": 0,
+          "target": {
+            "warp": 3,
+            "map": {
+              "id": "map-3-1"
+            }
+          }
+        }
+      },
+      {
+        "type": "warp",
+        "data": {
+          "x": 5,
+          "y": 7,
+          "height": 3,
+          "target": {
+            "warp": 3,
+            "map": {
+              "id": "map-3-1"
+            }
+          }
+        }
+      },
+      {
+        "type": "sign",
+        "data": {
+          "x": 4,
+          "y": 4,
+          "height": 0,
+          "type": "script",
+          "script": {
+            "symbol": "viridianCity3Sign0Main",
+            "path": "scripts/sign/0.s"
+          }
+        }
+      },
+      {
+        "type": "sign",
+        "data": {
+          "x": 5,
+          "y": 1,
+          "height": 0,
+          "type": "script",
+          "script": {
+            "symbol": "viridianCity3Sign1Main",
+            "path": "scripts/sign/1.s"
+          }
+        }
+      },
+      {
+        "type": "sign",
+        "data": {
+          "x": 4,
+          "y": 1,
+          "height": 0,
+          "type": "script",
+          "script": {
+            "symbol": "viridianCity3Sign2Main",
+            "path": "scripts/sign/2.s"
+          }
+        }
+      },
+      {
+        "type": "sign",
+        "data": {
+          "x": 9,
+          "y": 2,
+          "height": 0,
+          "type": "script_up",
+          "script": {
+            "symbol": "viridianCity3Sign3Main",
+            "path": "scripts/sign/3.s"
+          }
+        }
+      },
+      {
+        "type": "sign",
+        "data": {
+          "x": 8,
+          "y": 2,
+          "height": 0,
+          "type": "script_up",
+          "script": {
+            "symbol": "viridianCity3Sign4Main",
+            "path": "scripts/sign/4.s"
+          }
+        }
+      }
+    ]
+  }
+}

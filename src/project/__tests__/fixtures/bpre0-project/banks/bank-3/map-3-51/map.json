@@ -1,0 +1,71 @@
+{
+  "meta": {
+    "format": {
+      "type": "map",
+      "version": "1.0.0"
+    },
+    "id": "map-3-51",
+    "name": "Map 3.51 - SEVII　ISLE　7",
+    "description": "Imported from BPRE version 1.0"
+  },
+  "data": {
+    "border": {
+      "width": 2,
+      "height": 2,
+      "data": {
+        "block": [
+          299,
+          299,
+          299,
+          299
+        ],
+        "collision": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "height": [
+          0,
+          0,
+          0,
+          0
+        ]
+      }
+    },
+    "map": {
+      "width": 1,
+      "height": 1,
+      "data": {
+        "block": [
+          272
+        ],
+        "collision": [
+          1
+        ],
+        "height": [
+          0
+        ]
+      }
+    },
+    "blocksets": {
+      "primary": {
+        "id": "blockset-3"
+      },
+      "secondary": {
+        "id": "blockset-34"
+      }
+    },
+    "scripts": [],
+    "connections": [
+      {
+        "direction": "up",
+        "offset": 0,
+        "map": {
+          "id": "map-3-14"
+        }
+      }
+    ],
+    "entities": []
+  }
+}

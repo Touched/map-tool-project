@@ -1,0 +1,39 @@
+{
+  "meta": {
+    "format": {
+      "type": "bank",
+      "version": "1.0.0"
+    },
+    "id": "bank-9",
+    "name": "Bank 9",
+    "description": "Imported from BPRE version 1.0"
+  },
+  "data": {
+    "maps": [
+      {
+        "path": "map-9-0/map.json"
+      },
+      {
+        "path": "map-9-1/map.json"
+      },
+      {
+        "path": "map-9-2/map.json"
+      },
+      {
+        "path": "map-9-3/map.json"
+      },
+      {
+        "path": "map-9-4/map.json"
+      },
+      {
+        "path": "map-9-5/map.json"
+      },
+      {
+        "path": "map-9-6/map.json"
+      },
+      {
+        "path": "map-9-7/map.json"
+      }
+    ]
+  }
+}

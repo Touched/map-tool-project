@@ -1,0 +1,618 @@
+{
+  "meta": {
+    "format": {
+      "type": "map",
+      "version": "1.0.0"
+    },
+    "id": "map-33-0",
+    "name": "Map 33.0 - TWO　ISLAND",
+    "description": "Imported from BPRE version 1.0"
+  },
+  "data": {
+    "border": {
+      "width": 2,
+      "height": 2,
+      "data": {
+        "block": [
+          8,
+          8,
+          8,
+          8
+        ],
+        "collision": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "height": [
+          0,
+          0,
+          0,
+          0
+        ]
+      }
+    },
+    "map": {
+      "width": 12,
+      "height": 10,
+      "data": {
+        "block": [
+          765,
+          765,
+          747,
+          777,
+          766,
+          767,
+          776,
+          777,
+          763,
+          742,
+          764,
+          742,
+          773,
+          773,
+          755,
+          785,
+          774,
+          775,
+          784,
+          785,
+          771,
+          743,
+          98,
+          744,
+          751,
+          751,
+          748,
+          749,
+          750,
+          751,
+          760,
+          749,
+          762,
+          751,
+          772,
+          752,
+          751,
+          736,
+          756,
+          757,
+          758,
+          761,
+          768,
+          769,
+          770,
+          739,
+          786,
+          740,
+          751,
+          736,
+          786,
+          738,
+          738,
+          740,
+          786,
+          738,
+          738,
+          740,
+          736,
+          736,
+          751,
+          736,
+          736,
+          736,
+          736,
+          736,
+          736,
+          736,
+          781,
+          782,
+          736,
+          783,
+          751,
+          736,
+          736,
+          736,
+          736,
+          736,
+          736,
+          736,
+          789,
+          790,
+          736,
+          791,
+          745,
+          736,
+          736,
+          736,
+          736,
+          736,
+          736,
+          736,
+          736,
+          736,
+          736,
+          746,
+          753,
+          736,
+          736,
+          736,
+          778,
+          779,
+          780,
+          736,
+          736,
+          736,
+          736,
+          754,
+          8,
+          8,
+          8,
+          8,
+          26,
+          27,
+          28,
+          8,
+          8,
+          8,
+          8,
+          8
+        ],
+        "collision": [
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          0,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          0,
+          0,
+          1,
+          0,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          1,
+          0,
+          0,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          1,
+          1,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          1,
+          1,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1
+        ],
+        "height": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          3,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          3,
+          3,
+          0,
+          3,
+          3,
+          0,
+          0,
+          3,
+          0,
+          0,
+          3,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          3,
+          3,
+          3,
+          0,
+          3,
+          3,
+          3,
+          3,
+          3,
+          3,
+          3,
+          3,
+          3,
+          3,
+          3,
+          0,
+          3,
+          3,
+          3,
+          3,
+          3,
+          3,
+          3,
+          0,
+          0,
+          3,
+          3,
+          0,
+          3,
+          3,
+          3,
+          3,
+          3,
+          3,
+          3,
+          0,
+          0,
+          3,
+          3,
+          3,
+          3,
+          3,
+          3,
+          3,
+          3,
+          3,
+          3,
+          3,
+          3,
+          3,
+          3,
+          0,
+          3,
+          3,
+          3,
+          3,
+          3,
+          3,
+          3,
+          3,
+          3,
+          3,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ]
+      }
+    },
+    "blocksets": {
+      "primary": {
+        "id": "blockset-0"
+      },
+      "secondary": {
+        "id": "blockset-54"
+      }
+    },
+    "scripts": [
+      {
+        "type": "onmapenter",
+        "script": {
+          "symbol": "twoIsland1Map0Main",
+          "path": "scripts/map/0.s"
+        }
+      },
+      {
+        "type": "handler_env2",
+        "scripts": [
+          {
+            "variable": 16505,
+            "value": 2,
+            "script": {
+              "symbol": "twoIsland1Map1Auto0Main",
+              "path": "scripts/map/1/0.s"
+            }
+          },
+          {
+            "variable": 16495,
+            "value": 8,
+            "script": {
+              "symbol": "twoIsland1Map1Auto1Main",
+              "path": "scripts/map/1/1.s"
+            }
+          }
+        ]
+      },
+      {
+        "type": "handler_env1",
+        "scripts": [
+          {
+            "variable": 16505,
+            "value": 0,
+            "script": {
+              "symbol": "twoIsland1Map2Auto0Main",
+              "path": "scripts/map/2/0.s"
+            }
+          },
+          {
+            "variable": 16505,
+            "value": 2,
+            "script": {
+              "symbol": "twoIsland1Map2Auto1Main",
+              "path": "scripts/map/2/1.s"
+            }
+          },
+          {
+            "variable": 16495,
+            "value": 8,
+            "script": {
+              "symbol": "twoIsland1Map2Auto2Main",
+              "path": "scripts/map/2/2.s"
+            }
+          }
+        ]
+      },
+      {
+        "type": "setmaptile",
+        "script": {
+          "symbol": "twoIsland1Map3Main",
+          "path": "scripts/map/3.s"
+        }
+      }
+    ],
+    "connections": [],
+    "entities": [
+      {
+        "type": "npc",
+        "data": {
+          "id": 1,
+          "sprite": 30,
+          "replacement": 0,
+          "x": 5,
+          "y": 5,
+          "height": 1,
+          "behavior": 10,
+          "boundary": {
+            "x": 1,
+            "y": 1
+          },
+          "property": 0,
+          "view_radius": 0,
+          "script": {
+            "symbol": "twoIsland1Npc0Main",
+            "path": "scripts/npc/0.s"
+          },
+          "flag": 0
+        }
+      },
+      {
+        "type": "npc",
+        "data": {
+          "id": 2,
+          "sprite": 53,
+          "replacement": 0,
+          "x": 5,
+          "y": 8,
+          "height": 3,
+          "behavior": 7,
+          "boundary": {
+            "x": 1,
+            "y": 1
+          },
+          "property": 0,
+          "view_radius": 0,
+          "script": {
+            "symbol": "twoIsland1Npc1Main",
+            "path": "scripts/npc/1.s"
+          },
+          "flag": 116
+        }
+      },
+      {
+        "type": "npc",
+        "data": {
+          "id": 3,
+          "sprite": 17,
+          "replacement": 0,
+          "x": 6,
+          "y": 5,
+          "height": 1,
+          "behavior": 9,
+          "boundary": {
+            "x": 1,
+            "y": 1
+          },
+          "property": 0,
+          "view_radius": 0,
+          "script": {
+            "symbol": "twoIsland1Npc2Main",
+            "path": "scripts/npc/2.s"
+          },
+          "flag": 117
+        }
+      },
+      {
+        "type": "npc",
+        "data": {
+          "id": 4,
+          "sprite": 25,
+          "replacement": 0,
+          "x": 4,
+          "y": 2,
+          "height": 3,
+          "behavior": 8,
+          "boundary": {
+            "x": 1,
+            "y": 1
+          },
+          "property": 0,
+          "view_radius": 0,
+          "script": {
+            "symbol": "twoIsland1Npc3Main",
+            "path": "scripts/npc/3.s"
+          },
+          "flag": 0
+        }
+      },
+      {
+        "type": "warp",
+        "data": {
+          "x": 5,
+          "y": 8,
+          "height": 3,
+          "target": {
+            "warp": 0,
+            "map": {
+              "id": "map-3-13"
+            }
+          }
+        }
+      },
+      {
+        "type": "sign",
+        "data": {
+          "x": 1,
+          "y": 1,
+          "height": 0,
+          "type": "script",
+          "script": {
+            "symbol": "twoIsland1Sign0Main",
+            "path": "scripts/sign/0.s"
+          }
+        }
+      },
+      {
+        "type": "sign",
+        "data": {
+          "x": 0,
+          "y": 1,
+          "height": 0,
+          "type": "script",
+          "script": {
+            "symbol": "twoIsland1Sign1Main",
+            "path": "scripts/sign/1.s"
+          }
+        }
+      }
+    ]
+  }
+}

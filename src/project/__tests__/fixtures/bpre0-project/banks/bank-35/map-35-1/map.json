@@ -1,0 +1,189 @@
+{
+  "meta": {
+    "format": {
+      "type": "map",
+      "version": "1.0.0"
+    },
+    "id": "map-35-1",
+    "name": "Map 35.1 - FOUR　ISLAND",
+    "description": "Imported from BPRE version 1.0"
+  },
+  "data": {
+    "linked": {
+      "id": "map-5-4"
+    },
+    "blocksets": {
+      "primary": {
+        "id": "blockset-0"
+      },
+      "secondary": {
+        "id": "blockset-44"
+      }
+    },
+    "scripts": [
+      {
+        "type": "onmapenter",
+        "script": {
+          "symbol": "fourIsland2Map0Main",
+          "path": "scripts/map/0.s"
+        }
+      },
+      {
+        "type": "closemenu1",
+        "script": {
+          "symbol": "fourIsland2Map1Main",
+          "path": "scripts/map/1.s"
+        }
+      }
+    ],
+    "connections": [],
+    "entities": [
+      {
+        "type": "npc",
+        "data": {
+          "id": 1,
+          "sprite": 64,
+          "replacement": 0,
+          "x": 7,
+          "y": 2,
+          "height": 3,
+          "behavior": 8,
+          "boundary": {
+            "x": 1,
+            "y": 1
+          },
+          "property": 0,
+          "view_radius": 0,
+          "script": {
+            "symbol": "fourIsland2Npc0Main",
+            "path": "scripts/npc/0.s"
+          },
+          "flag": 0
+        }
+      },
+      {
+        "type": "npc",
+        "data": {
+          "id": 2,
+          "sprite": 25,
+          "replacement": 0,
+          "x": 10,
+          "y": 6,
+          "height": 3,
+          "behavior": 2,
+          "boundary": {
+            "x": 1,
+            "y": 1
+          },
+          "property": 0,
+          "view_radius": 0,
+          "script": {
+            "symbol": "fourIsland2Npc1Main",
+            "path": "scripts/npc/1.s"
+          },
+          "flag": 0
+        }
+      },
+      {
+        "type": "npc",
+        "data": {
+          "id": 3,
+          "sprite": 31,
+          "replacement": 0,
+          "x": 5,
+          "y": 5,
+          "height": 3,
+          "behavior": 13,
+          "boundary": {
+            "x": 1,
+            "y": 1
+          },
+          "property": 0,
+          "view_radius": 0,
+          "script": {
+            "symbol": "fourIsland2Npc2Main",
+            "path": "scripts/npc/2.s"
+          },
+          "flag": 0
+        }
+      },
+      {
+        "type": "npc",
+        "data": {
+          "id": 4,
+          "sprite": 61,
+          "replacement": 0,
+          "x": 2,
+          "y": 2,
+          "height": 3,
+          "behavior": 7,
+          "boundary": {
+            "x": 1,
+            "y": 1
+          },
+          "property": 0,
+          "view_radius": 0,
+          "script": {
+            "symbol": "fourIsland2Npc3Main",
+            "path": "scripts/npc/3.s"
+          },
+          "flag": 0
+        }
+      },
+      {
+        "type": "warp",
+        "data": {
+          "x": 7,
+          "y": 8,
+          "height": 3,
+          "target": {
+            "warp": 0,
+            "map": {
+              "id": "map-3-15"
+            }
+          }
+        }
+      },
+      {
+        "type": "warp",
+        "data": {
+          "x": 1,
+          "y": 6,
+          "height": 4,
+          "target": {
+            "warp": 0,
+            "map": {
+              "id": "map-35-2"
+            }
+          }
+        }
+      },
+      {
+        "type": "sign",
+        "data": {
+          "x": 3,
+          "y": 1,
+          "height": 0,
+          "type": "script_up",
+          "script": {
+            "symbol": "fourIsland2Sign0Main",
+            "path": "scripts/sign/0.s"
+          }
+        }
+      },
+      {
+        "type": "sign",
+        "data": {
+          "x": 2,
+          "y": 1,
+          "height": 0,
+          "type": "script_up",
+          "script": {
+            "symbol": "fourIsland2Sign1Main",
+            "path": "scripts/sign/1.s"
+          }
+        }
+      }
+    ]
+  }
+}

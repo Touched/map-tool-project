@@ -1,0 +1,139 @@
+{
+  "meta": {
+    "format": {
+      "type": "map",
+      "version": "1.0.0"
+    },
+    "id": "map-6-3",
+    "name": "Map 6.3 - PEWTER　CITY",
+    "description": "Imported from BPRE version 1.0"
+  },
+  "data": {
+    "linked": {
+      "id": "map-5-3"
+    },
+    "blocksets": {
+      "primary": {
+        "id": "blockset-0"
+      },
+      "secondary": {
+        "id": "blockset-43"
+      }
+    },
+    "scripts": [],
+    "connections": [],
+    "entities": [
+      {
+        "type": "npc",
+        "data": {
+          "id": 1,
+          "sprite": 18,
+          "replacement": 0,
+          "x": 8,
+          "y": 2,
+          "height": 3,
+          "behavior": 1,
+          "boundary": {
+            "x": 1,
+            "y": 1
+          },
+          "property": 0,
+          "view_radius": 0,
+          "script": {
+            "symbol": "pewterCity4Npc0Main",
+            "path": "scripts/npc/0.s"
+          },
+          "flag": 0
+        }
+      },
+      {
+        "type": "npc",
+        "data": {
+          "id": 2,
+          "sprite": 19,
+          "replacement": 0,
+          "x": 6,
+          "y": 4,
+          "height": 3,
+          "behavior": 1,
+          "boundary": {
+            "x": 1,
+            "y": 1
+          },
+          "property": 0,
+          "view_radius": 0,
+          "script": {
+            "symbol": "pewterCity4Npc1Main",
+            "path": "scripts/npc/1.s"
+          },
+          "flag": 0
+        }
+      },
+      {
+        "type": "npc",
+        "data": {
+          "id": 3,
+          "sprite": 68,
+          "replacement": 0,
+          "x": 2,
+          "y": 3,
+          "height": 0,
+          "behavior": 10,
+          "boundary": {
+            "x": 1,
+            "y": 1
+          },
+          "property": 0,
+          "view_radius": 0,
+          "script": {
+            "symbol": "pewterCity4Npc2Main",
+            "path": "scripts/npc/2.s"
+          },
+          "flag": 0
+        }
+      },
+      {
+        "type": "warp",
+        "data": {
+          "x": 3,
+          "y": 7,
+          "height": 3,
+          "target": {
+            "warp": 3,
+            "map": {
+              "id": "map-3-2"
+            }
+          }
+        }
+      },
+      {
+        "type": "warp",
+        "data": {
+          "x": 4,
+          "y": 7,
+          "height": 3,
+          "target": {
+            "warp": 3,
+            "map": {
+              "id": "map-3-2"
+            }
+          }
+        }
+      },
+      {
+        "type": "warp",
+        "data": {
+          "x": 5,
+          "y": 7,
+          "height": 3,
+          "target": {
+            "warp": 3,
+            "map": {
+              "id": "map-3-2"
+            }
+          }
+        }
+      }
+    ]
+  }
+}
