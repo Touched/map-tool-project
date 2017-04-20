@@ -3,7 +3,6 @@
 import fs from 'fs';
 import path from 'path';
 import mkdirp from 'mkdirp';
-import uuid from 'uuid/v4';
 import Promise from 'bluebird';
 import png from '@touched/indexed-png';
 import * as map from '../rom/map';
@@ -45,9 +44,10 @@ function lookupBank(bank) {
   return idLookup.banks[bank];
 }
 
+let blocksetId = 0;
 function lookupOrCreateBlockset(address) {
   if (!idLookup.blocksets[address]) {
-    const id = uuid();
+    const id = `blockset-${blocksetId++}`;
     idLookup.blocksets[address] = id;
     return [false, id];
   }
@@ -55,9 +55,9 @@ function lookupOrCreateBlockset(address) {
   return [true, idLookup.blocksets[address]];
 }
 
-function lookupLinkedMap(dataHeaderId, uuid) {
+function lookupLinkedMap(dataHeaderId, id) {
   if (!idLookup.mapDataHeaders[dataHeaderId]) {
-    idLookup.mapDataHeaders[dataHeaderId] = uuid;
+    idLookup.mapDataHeaders[dataHeaderId] = id;
     return null;
   }
 
@@ -112,7 +112,7 @@ async function processBlockset(meta, address, blockset) {
     meta: {
       format: {
         type: 'blockset',
-        version: '0.1.0',
+        version: '1.0.0',
       },
       id,
       name: `Blockset ${id.toString(16)}`,
@@ -284,8 +284,8 @@ async function dumpMap(meta, info) {
     'Map footers do not match',
   );
 
-  const uuid = lookupMap(info.bank, info.map);
-  const linkedId = lookupLinkedMap(data.mapindex, uuid);
+  const mapId = lookupMap(info.bank, info.map);
+  const linkedId = lookupLinkedMap(data.mapindex, mapId);
 
   const mapBlockData = linkedId === null ? {
     border: {
@@ -308,9 +308,9 @@ async function dumpMap(meta, info) {
     meta: {
       format: {
         type: 'map',
-        version: '0.1.0',
+        version: '1.0.0',
       },
-      id: uuid,
+      id: mapId,
       name: `Map ${info.bank}.${info.map} - ${mapName}`,
       description: meta.description,
     },
@@ -342,24 +342,24 @@ async function dumpMap(meta, info) {
 
   const mapFile = path.join(mapPath, 'map.json');
 
-  const bankUuid = lookupBank(info.bank);
-  const bankFile = path.join(meta.outputDirectory, 'banks', bankUuid, 'bank.json');
+  const bankId = lookupBank(info.bank);
+  const bankFile = path.join(meta.outputDirectory, 'banks', bankId, 'bank.json');
 
   if (!fs.existsSync(bankFile)) {
     if (!idLookup.maps[info.bank]) {
       throw new Error(`Invalid bank ${info.bank}`);
     }
 
-    // Get a list of map UUIDs sorted by their index in the bank
+    // Get a list of map IDs sorted by their index in the bank
     const mapsForBank = objectValuesOrderedByKey(idLookup.maps[info.bank]);
 
     const bankData = {
       meta: {
         format: {
           type: 'bank',
-          version: '0.1.0',
+          version: '1.0.0',
         },
-        id: bankUuid,
+        id: bankId,
         name: `Bank ${info.bank}`,
         description: meta.description,
       },
@@ -400,9 +400,9 @@ async function buildProjectManifest({ description, outputDirectory }) {
     meta: {
       format: {
         type: 'project',
-        version: '0.1.0',
+        version: '1.0.0',
       },
-      id: uuid(),
+      id: 'project',
       name: 'Project',
       description,
     },
@@ -471,10 +471,10 @@ function main(argv) {
   maps.forEach(({ map, bank }) => {
     if (idLookup.maps[bank] === undefined) {
       idLookup.maps[bank] = {};
-      idLookup.banks[bank] = uuid();
+      idLookup.banks[bank] = `bank-${bank}`;
     }
 
-    idLookup.maps[bank][map] = uuid();
+    idLookup.maps[bank][map] = `map-${bank}-${map}`;
   });
 
   const mapDataHeaders = map.readMapsDataHeadersTable(rom, 0x08055194, 384);
