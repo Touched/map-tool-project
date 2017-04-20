@@ -1,13 +1,14 @@
 /* @flow */
+/* eslint-disable no-restricted-syntax, no-plusplus, no-console */
 
 import logUpdate from 'log-update';
 import chalk from 'chalk';
 
 type Task = {
   name: string,
-  thunk?: () => Promise,
+  thunk?: () => Promise<*>,
   subtasks?: Array<Task>,
-}
+};
 
 export default class TaskRunner {
   tasks: Array<Task>;
@@ -19,16 +20,16 @@ export default class TaskRunner {
   async run() {
     const taskStatuses = [];
 
-    const spinner = function () {
+    const spinner = (function spinnerFunction() {
       let frame = 0;
       const frames = ['⣾', '⣽', '⣻', '⢿', '⡿', '⣟', '⣯', '⣷'];
 
-      return function spinner() {
+      return function getFrame() {
         const currentFrame = frames[frame];
         frame = (frame + 1) % frames.length;
         return currentFrame;
-      }
-    }();
+      };
+    }());
 
     function progress(n, total) {
       const text = `[${n + 1}/${total}]`;
@@ -45,8 +46,6 @@ export default class TaskRunner {
     }, 100);
 
     async function runTask(task: Task, index, total, parentTasks: Array<Task> = []) {
-      const status = 'Whatever';
-
       taskStatuses.push({
         index,
         total,
