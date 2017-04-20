@@ -109,7 +109,7 @@ async function processBlockset(meta, address, blockset) {
         version: '0.1.0',
       },
       id,
-      name: `Blockset id.toString(16)`,
+      name: `Blockset ${id.toString(16)}`,
       description: meta.description,
     },
     data: {
