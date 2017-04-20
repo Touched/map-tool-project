@@ -13,6 +13,12 @@ import invariant from '../util/invariant';
 const fsPromise = Promise.promisifyAll(fs);
 const mkdirpPromise = Promise.promisify(mkdirp);
 
+function objectValuesOrderedByKey(obj) {
+   return Array.from(Object.entries(obj)).sort(([a], [b]) => {
+     return a - b;
+   }).map(pair => pair[1]);
+}
+
 // Keep track of how many times a symbol was used
 const symbolCounter = {};
 
@@ -336,6 +342,37 @@ async function dumpMap(meta, info) {
 
   const mapFile = path.join(mapPath, 'map.json');
 
+  const bankUuid = lookupBank(info.bank);
+  const bankFile = path.join(meta.outputDirectory, 'banks', bankUuid, 'bank.json');
+
+  if (!fs.existsSync(bankFile)) {
+    if (!idLookup.maps[info.bank]) {
+      throw new Error(`Invalid bank ${info.bank}`);
+    }
+
+    // Get a list of map UUIDs sorted by their index in the bank
+    const mapsForBank = objectValuesOrderedByKey(idLookup.maps[info.bank]);
+
+    const bankData = {
+      meta: {
+        format: {
+          type: 'bank',
+          version: '0.1.0',
+        },
+        id: bankUuid,
+        name: `Bank ${info.bank}`,
+        description: meta.description,
+      },
+      data: {
+        maps: mapsForBank.map(id => ({
+          path: `${id}/map.json`,
+        })),
+      },
+    };
+
+    await writeJSON(bankFile, bankData);
+  }
+
   await writeJSON(mapFile, mapData);
 
   if (!primaryBlocksetExists) {
@@ -353,6 +390,35 @@ async function dumpMap(meta, info) {
       data.data.target.blockset2.target,
     );
   }
+}
+
+async function buildProjectManifest({ description, outputDirectory }) {
+  const banks = objectValuesOrderedByKey(idLookup.banks);
+  const blocksets = objectValuesOrderedByKey(idLookup.blocksets);
+
+  const projectData = {
+    meta: {
+      format: {
+        type: 'project',
+        version: '0.1.0',
+      },
+      id: uuid(),
+      name: 'Project',
+      description,
+    },
+    data: {
+      blocksets: blocksets.map(blocksetId => ({
+        path: `blocksets/${blocksetId}/blockset.json`,
+      })),
+      banks: banks.map(bankId => ({
+        path: `banks/${bankId}/bank.json`,
+      })),
+    },
+  };
+
+  const projectFile = path.join(outputDirectory, 'project.json');
+
+  await writeJSON(projectFile, projectData);
 }
 
 // MAIN:
@@ -429,8 +495,14 @@ function main(argv) {
     })),
   };
 
+  const buildProjectManifestTask = {
+    name: 'Building Project Manifest',
+    thunk: () => buildProjectManifest(meta),
+  };
+
   const runner = new TaskRunner([
     dumpMapsTask,
+    buildProjectManifestTask,
   ]);
 
   runner.run().catch(() => process.exit(1));
