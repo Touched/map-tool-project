@@ -48,4 +48,8 @@ export class ChildEntity<T> extends AbstractEntity<T> {
     super(entityPath, data);
     this.project = project;
   }
+
+  lookupPath(pathObject: { path: string }): string {
+    return this.project.lookupPath(this.path, pathObject);
+  }
 }

@@ -82,4 +82,26 @@ describe('Project', () => {
       expect(project.lookupEntity({ type: 'bank', id: 'bank-3' }).data.meta.id).to.equal('bank-3');
     });
   });
+
+  describe('lookupPath', () => {
+    const project = Project.load(manifestPath);
+    invariant(project);
+
+    const projectPath = p => path.join(path.dirname(manifestPath), p);
+
+    it('looks up a relative path relative to the given file', () => {
+      expect(project.lookupPath('a/b.json', { path: 'b/c' })).to.equal(projectPath('a/b/c'));
+      expect(project.lookupPath('b.json', { path: 'b/c' })).to.equal(projectPath('b/c'));
+    });
+
+    it('looks up an absolute path relative to the project root', () => {
+      expect(project.lookupPath('a/b.json', { path: '/b/c' })).to.equal(projectPath('b/c'));
+      expect(project.lookupPath('a/b/c.json', { path: '/d/e' })).to.equal(projectPath('d/e'));
+    });
+
+    it('chroots relative paths to the project directory', () => {
+      expect(project.lookupPath('a/b.json', { path: '../../../b/c' })).to.equal(projectPath('/b/c'));
+      expect(project.lookupPath('a/b.json', { path: '/../../b/c' })).to.equal(projectPath('/b/c'));
+    });
+  });
 });

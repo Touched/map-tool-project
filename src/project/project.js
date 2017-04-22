@@ -5,8 +5,8 @@ import path from 'path';
 import { ParentEntity, ChildEntity } from './entity';
 import Map from './map';
 import Bank from './bank';
-import validateEntity from './helpers/validator';
 import invariant from '../util/invariant';
+import chrootPath from '../util/chrootPath';
 import type { EntityType, Entity } from './entity';
 
 type ProjectData = {
@@ -65,5 +65,13 @@ export default class Project extends ParentEntity<ProjectEntity> {
     invariant(EntityClass, `No entity class exists for entity type '${type}'.`);
 
     return new EntityClass(entityPath, data, this);
+  }
+
+  lookupPath(inputPath: string, pathObject: { path: string }): string {
+    const directory = path.dirname(inputPath);
+
+    const resolved = path.relative(this.projectRoot, path.resolve(directory, pathObject.path));
+
+    return chrootPath(this.projectRoot, resolved);
   }
 }
