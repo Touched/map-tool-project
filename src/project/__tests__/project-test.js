@@ -51,7 +51,7 @@ describe('Project', () => {
 
       invariant(project);
       expect(project).to.be.an.instanceOf(Project);
-      expect(project.manifestPath).to.equal(manifestPath);
+      expect(project.path).to.equal(manifestPath);
       expect(project.data.meta.name).to.equal('Project');
     });
 
@@ -76,7 +76,6 @@ describe('Project', () => {
       },
       data: {
         banks: [],
-        blocksets: [],
       },
     };
 
@@ -110,11 +109,12 @@ describe('Project', () => {
   });
 
   describe('lookupEntity', () => {
-    it('builds a list of entity ids', () => {
+    it('looks up the entity in the filesystem', () => {
       const project = Project.load(manifestPath);
       invariant(project);
 
-      expect(project.lookupEntity('map', 'map-3-0').meta.id).to.equal('map-3-0');
+      expect(project.lookupEntity('map', 'map-3-0').data.meta.id).to.equal('map-3-0');
+      expect(project.lookupEntity('bank', 'bank-3').data.meta.id).to.equal('bank-3');
     });
   });
 });

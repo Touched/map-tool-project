@@ -11,10 +11,10 @@
   "data": {
     "maps": [
       {
-        "path": "map-41-0/map.json"
+        "id": "map-41-0"
       },
       {
-        "path": "map-41-1/map.json"
+        "id": "map-41-1"
       }
     ]
   }

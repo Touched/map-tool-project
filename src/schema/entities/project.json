@@ -1,19 +1,13 @@
 {
   "id": "http://example.com/schema/entity/project",
   "type": "object",
-  "required": ["blocksets", "banks"],
+  "required": ["banks"],
   "additionalProperties": false,
   "properties": {
-    "blocksets": {
-      "type": "array",
-      "items": {
-        "$ref": "http://example.com/schema/entity/types/reference/path"
-      }
-    },
     "banks": {
       "type": "array",
       "items": {
-        "$ref": "http://example.com/schema/entity/types/reference/path"
+        "$ref": "http://example.com/schema/entity/types/reference/id"
       }
     }
   }

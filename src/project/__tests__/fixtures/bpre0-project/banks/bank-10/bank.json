@@ -11,64 +11,64 @@
   "data": {
     "maps": [
       {
-        "path": "map-10-0/map.json"
+        "id": "map-10-0"
       },
       {
-        "path": "map-10-1/map.json"
+        "id": "map-10-1"
       },
       {
-        "path": "map-10-2/map.json"
+        "id": "map-10-2"
       },
       {
-        "path": "map-10-3/map.json"
+        "id": "map-10-3"
       },
       {
-        "path": "map-10-4/map.json"
+        "id": "map-10-4"
       },
       {
-        "path": "map-10-5/map.json"
+        "id": "map-10-5"
       },
       {
-        "path": "map-10-6/map.json"
+        "id": "map-10-6"
       },
       {
-        "path": "map-10-7/map.json"
+        "id": "map-10-7"
       },
       {
-        "path": "map-10-8/map.json"
+        "id": "map-10-8"
       },
       {
-        "path": "map-10-9/map.json"
+        "id": "map-10-9"
       },
       {
-        "path": "map-10-10/map.json"
+        "id": "map-10-10"
       },
       {
-        "path": "map-10-11/map.json"
+        "id": "map-10-11"
       },
       {
-        "path": "map-10-12/map.json"
+        "id": "map-10-12"
       },
       {
-        "path": "map-10-13/map.json"
+        "id": "map-10-13"
       },
       {
-        "path": "map-10-14/map.json"
+        "id": "map-10-14"
       },
       {
-        "path": "map-10-15/map.json"
+        "id": "map-10-15"
       },
       {
-        "path": "map-10-16/map.json"
+        "id": "map-10-16"
       },
       {
-        "path": "map-10-17/map.json"
+        "id": "map-10-17"
       },
       {
-        "path": "map-10-18/map.json"
+        "id": "map-10-18"
       },
       {
-        "path": "map-10-19/map.json"
+        "id": "map-10-19"
       }
     ]
   }

@@ -2,161 +2,40 @@
 
 import fs from 'fs';
 import path from 'path';
-import Ajv from 'ajv';
-import ajvKeywords from 'ajv-keywords';
-import R from 'ramda';
-import entityContainerSchemaDefinition from '../schema/entity.json';
-import * as entitySchemas from '../schema/entities';
-import * as entityTypes from '../schema/types';
+import { ParentEntity, ChildEntity } from './entity';
+import Map from './map';
+import Bank from './bank';
+import validateEntity from './helpers/validator';
 import invariant from '../util/invariant';
-
-type EntityPathReference = {
-  path: string,
-};
-
-type EntityMeta<Type: string> = {
-  format: {
-    type: Type,
-    version: string,
-  },
-  id: string,
-  name?: string,
-  description?: string,
-};
-
-type Entity<Type: string, Data> = {
-  meta: EntityMeta<Type>,
-  data: Data,
-};
+import type { EntityType, Entity } from './entity';
 
 type ProjectData = {
-  blocksets: Array<EntityPathReference>,
-  banks: Array<EntityPathReference>,
+  blocksets: Array<{}>,
+  banks: Array<{}>,
 };
 
-type MapData = {
+type ProjectEntity = Entity<ProjectData>;
 
+const entityClassByType: { [EntityType]: Class<ChildEntity<*>> } = {
+  map: Map,
+  bank: Bank,
 };
 
-type BankData = {
-  maps: Array<EntityPathReference>,
-};
-
-type EntityDataTypes = {
-  project: ProjectData,
-  bank: BankData,
-  map: MapData,
-};
-
-type CollectedEntity = {
-  type: $Enum<EntityDataTypes>,
-  path: string,
-  entity: AnyEntity,
-};
-
-// Hopefully when https://github.com/facebook/flow/pull/2952 is merged this can be made generic
-type ProjectEntity = Entity<'project', $PropertyType<EntityDataTypes, 'project'>>;
-type MapEntity = Entity<'map', $PropertyType<EntityDataTypes, 'map'>>;
-type BankEntity = Entity<'bank', $PropertyType<EntityDataTypes, 'bank'>>;
-
-type AnyEntity = ProjectEntity | BankEntity | MapEntity;
-
-export default class Project {
+export default class Project extends ParentEntity<ProjectEntity> {
   manifestPath: string;
   projectRoot: string;
   data: ProjectEntity;
-  entityValidator: (type: $Enum<EntityDataTypes>, entity: AnyEntity) => true;
-  entities: { [string]: CollectedEntity };
+  entityDirectories: { [type: EntityType]: string };
 
-  constructor(manifestPath: string, data: ProjectEntity) {
-    this.manifestPath = manifestPath;
-    this.data = data;
-    this.projectRoot = path.dirname(manifestPath);
-
-    const ajv = new Ajv({
-      $data: true,
-      schemas: entityTypes,
-    });
-
-    ajvKeywords(ajv);
-
-    const entityContainerValidate = ajv.compile(entityContainerSchemaDefinition);
-
-    const entityValidators = Object.keys(entitySchemas).reduce((validators, type) => ({
-      ...validators,
-      [type]: ajv.compile(entitySchemas[type]),
-    }), {});
-
-    this.entityValidator = (type, entityData) => {
-      if (!entityContainerValidate(entityData)) {
-        throw new Error(entityContainerValidate.errors[0].message);
-      }
-
-      if (entityData.meta.format.type !== type) {
-        throw new Error(`Entity is not of type '${type}'`);
-      }
-
-      if (!entityValidators[type](entityData.data)) {
-        console.log(entityValidators[type].errors);
-        throw new Error(entityValidators[type].errors[0].message);
-      }
-
-      return true;
+  constructor(entityPath: string, data: ProjectEntity) {
+    super(entityPath, data);
+    this.projectRoot = path.dirname(entityPath);
+    this.entityDirectories = {
+      map: path.join(this.projectRoot, 'maps'),
+      bank: path.join(this.projectRoot, 'banks'),
     };
 
-    this.entityValidator('project', data);
-
-    const { entityValidator, projectRoot } = this;
-
-    // Build lists of all the entity IDs and their types
-    function loadEntity<T: AnyEntity>(type: $Enum<EntityDataTypes>, entityPath: string): T {
-      // TODO: Replace path.join with a resolve relative to project root
-      // (allow both absolute paths and relative paths with '/' being the project root)
-      const absolutePath = path.join(projectRoot, entityPath);
-
-      const json = JSON.parse(fs.readFileSync(absolutePath, 'utf8'));
-      try {
-        entityValidator(type, json);
-      } catch (e) {
-        throw new Error(`${absolutePath}: ${e.message}`);
-      }
-      return json;
-    }
-
-    /**
-     * Collect all the entities that the bank manifest defines (maps)
-     */
-    function collectBankEntities(paths: Array<string>): Array<CollectedEntity> {
-      const bankEntities = paths.map(p => ({
-        path: p,
-        type: 'bank',
-        entity: loadEntity('bank', p),
-      }));
-
-      const mapEntities = R.flatten(bankEntities.map(({ path: bankPath, entity: bank }) =>
-        bank.data.maps.map((mapReference) => {
-          const mapPath = path.join(path.dirname(bankPath), mapReference.path);
-
-          return {
-            path: mapPath,
-            type: 'map',
-            entity: loadEntity('map', mapPath),
-          };
-        }),
-      ));
-
-      return [
-        ...bankEntities,
-        ...mapEntities,
-      ];
-    }
-
-    const collectedEntities = [
-      ...collectBankEntities(data.data.banks.map(({ path: p }) => p)),
-    ];
-
-    // TODO: Ensure there are no duplicated IDs
-    this.entities = R.indexBy(R.path(['entity', 'meta', 'id']), collectedEntities);
+    validateEntity('project', data);
   }
 
   static load(manifestPath: string): ?Project {
@@ -168,13 +47,23 @@ export default class Project {
     return new Project(manifestPath, data);
   }
 
-  lookupEntity(type: $Enum<EntityDataTypes>, id: string): AnyEntity {
-    invariant(this.entities[id], `Entity '${id}' does not exist.`);
+  lookupEntity(type: EntityType, id: string): ChildEntity<*> {
+    const directory = this.entityDirectories[type];
 
-    const { entity, type: actualType } = this.entities[id];
+    invariant(directory, `No directory configured for entity type '${type}'.`);
 
-    invariant(actualType === type, `Entity '${id}' is not of type '${type}'.`);
+    const entityPath = path.join(directory, id, `${type}.json`);
 
-    return entity;
+    if (!fs.existsSync(entityPath)) {
+      throw new Error(`Entity '${id}' of type ${type} does not exist.`);
+    }
+
+    const data = JSON.parse(fs.readFileSync(entityPath, 'utf8'));
+
+    const EntityClass = entityClassByType[type];
+
+    invariant(EntityClass, `No entity class exists for entity type '${type}'.`);
+
+    return new EntityClass(entityPath, data, this);
   }
 }

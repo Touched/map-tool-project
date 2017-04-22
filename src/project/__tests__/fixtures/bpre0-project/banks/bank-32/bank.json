@@ -11,19 +11,19 @@
   "data": {
     "maps": [
       {
-        "path": "map-32-0/map.json"
+        "id": "map-32-0"
       },
       {
-        "path": "map-32-1/map.json"
+        "id": "map-32-1"
       },
       {
-        "path": "map-32-2/map.json"
+        "id": "map-32-2"
       },
       {
-        "path": "map-32-3/map.json"
+        "id": "map-32-3"
       },
       {
-        "path": "map-32-4/map.json"
+        "id": "map-32-4"
       }
     ]
   }

@@ -11,373 +11,373 @@
   "data": {
     "maps": [
       {
-        "path": "map-1-0/map.json"
+        "id": "map-1-0"
       },
       {
-        "path": "map-1-1/map.json"
+        "id": "map-1-1"
       },
       {
-        "path": "map-1-2/map.json"
+        "id": "map-1-2"
       },
       {
-        "path": "map-1-3/map.json"
+        "id": "map-1-3"
       },
       {
-        "path": "map-1-4/map.json"
+        "id": "map-1-4"
       },
       {
-        "path": "map-1-5/map.json"
+        "id": "map-1-5"
       },
       {
-        "path": "map-1-6/map.json"
+        "id": "map-1-6"
       },
       {
-        "path": "map-1-7/map.json"
+        "id": "map-1-7"
       },
       {
-        "path": "map-1-8/map.json"
+        "id": "map-1-8"
       },
       {
-        "path": "map-1-9/map.json"
+        "id": "map-1-9"
       },
       {
-        "path": "map-1-10/map.json"
+        "id": "map-1-10"
       },
       {
-        "path": "map-1-11/map.json"
+        "id": "map-1-11"
       },
       {
-        "path": "map-1-12/map.json"
+        "id": "map-1-12"
       },
       {
-        "path": "map-1-13/map.json"
+        "id": "map-1-13"
       },
       {
-        "path": "map-1-14/map.json"
+        "id": "map-1-14"
       },
       {
-        "path": "map-1-15/map.json"
+        "id": "map-1-15"
       },
       {
-        "path": "map-1-16/map.json"
+        "id": "map-1-16"
       },
       {
-        "path": "map-1-17/map.json"
+        "id": "map-1-17"
       },
       {
-        "path": "map-1-18/map.json"
+        "id": "map-1-18"
       },
       {
-        "path": "map-1-19/map.json"
+        "id": "map-1-19"
       },
       {
-        "path": "map-1-20/map.json"
+        "id": "map-1-20"
       },
       {
-        "path": "map-1-21/map.json"
+        "id": "map-1-21"
       },
       {
-        "path": "map-1-22/map.json"
+        "id": "map-1-22"
       },
       {
-        "path": "map-1-23/map.json"
+        "id": "map-1-23"
       },
       {
-        "path": "map-1-24/map.json"
+        "id": "map-1-24"
       },
       {
-        "path": "map-1-25/map.json"
+        "id": "map-1-25"
       },
       {
-        "path": "map-1-26/map.json"
+        "id": "map-1-26"
       },
       {
-        "path": "map-1-27/map.json"
+        "id": "map-1-27"
       },
       {
-        "path": "map-1-28/map.json"
+        "id": "map-1-28"
       },
       {
-        "path": "map-1-29/map.json"
+        "id": "map-1-29"
       },
       {
-        "path": "map-1-30/map.json"
+        "id": "map-1-30"
       },
       {
-        "path": "map-1-31/map.json"
+        "id": "map-1-31"
       },
       {
-        "path": "map-1-32/map.json"
+        "id": "map-1-32"
       },
       {
-        "path": "map-1-33/map.json"
+        "id": "map-1-33"
       },
       {
-        "path": "map-1-34/map.json"
+        "id": "map-1-34"
       },
       {
-        "path": "map-1-35/map.json"
+        "id": "map-1-35"
       },
       {
-        "path": "map-1-36/map.json"
+        "id": "map-1-36"
       },
       {
-        "path": "map-1-37/map.json"
+        "id": "map-1-37"
       },
       {
-        "path": "map-1-38/map.json"
+        "id": "map-1-38"
       },
       {
-        "path": "map-1-39/map.json"
+        "id": "map-1-39"
       },
       {
-        "path": "map-1-40/map.json"
+        "id": "map-1-40"
       },
       {
-        "path": "map-1-41/map.json"
+        "id": "map-1-41"
       },
       {
-        "path": "map-1-42/map.json"
+        "id": "map-1-42"
       },
       {
-        "path": "map-1-43/map.json"
+        "id": "map-1-43"
       },
       {
-        "path": "map-1-44/map.json"
+        "id": "map-1-44"
       },
       {
-        "path": "map-1-45/map.json"
+        "id": "map-1-45"
       },
       {
-        "path": "map-1-46/map.json"
+        "id": "map-1-46"
       },
       {
-        "path": "map-1-47/map.json"
+        "id": "map-1-47"
       },
       {
-        "path": "map-1-48/map.json"
+        "id": "map-1-48"
       },
       {
-        "path": "map-1-49/map.json"
+        "id": "map-1-49"
       },
       {
-        "path": "map-1-50/map.json"
+        "id": "map-1-50"
       },
       {
-        "path": "map-1-51/map.json"
+        "id": "map-1-51"
       },
       {
-        "path": "map-1-52/map.json"
+        "id": "map-1-52"
       },
       {
-        "path": "map-1-53/map.json"
+        "id": "map-1-53"
       },
       {
-        "path": "map-1-54/map.json"
+        "id": "map-1-54"
       },
       {
-        "path": "map-1-55/map.json"
+        "id": "map-1-55"
       },
       {
-        "path": "map-1-56/map.json"
+        "id": "map-1-56"
       },
       {
-        "path": "map-1-57/map.json"
+        "id": "map-1-57"
       },
       {
-        "path": "map-1-58/map.json"
+        "id": "map-1-58"
       },
       {
-        "path": "map-1-59/map.json"
+        "id": "map-1-59"
       },
       {
-        "path": "map-1-60/map.json"
+        "id": "map-1-60"
       },
       {
-        "path": "map-1-61/map.json"
+        "id": "map-1-61"
       },
       {
-        "path": "map-1-62/map.json"
+        "id": "map-1-62"
       },
       {
-        "path": "map-1-63/map.json"
+        "id": "map-1-63"
       },
       {
-        "path": "map-1-64/map.json"
+        "id": "map-1-64"
       },
       {
-        "path": "map-1-65/map.json"
+        "id": "map-1-65"
       },
       {
-        "path": "map-1-66/map.json"
+        "id": "map-1-66"
       },
       {
-        "path": "map-1-67/map.json"
+        "id": "map-1-67"
       },
       {
-        "path": "map-1-68/map.json"
+        "id": "map-1-68"
       },
       {
-        "path": "map-1-69/map.json"
+        "id": "map-1-69"
       },
       {
-        "path": "map-1-70/map.json"
+        "id": "map-1-70"
       },
       {
-        "path": "map-1-71/map.json"
+        "id": "map-1-71"
       },
       {
-        "path": "map-1-72/map.json"
+        "id": "map-1-72"
       },
       {
-        "path": "map-1-73/map.json"
+        "id": "map-1-73"
       },
       {
-        "path": "map-1-74/map.json"
+        "id": "map-1-74"
       },
       {
-        "path": "map-1-75/map.json"
+        "id": "map-1-75"
       },
       {
-        "path": "map-1-76/map.json"
+        "id": "map-1-76"
       },
       {
-        "path": "map-1-77/map.json"
+        "id": "map-1-77"
       },
       {
-        "path": "map-1-78/map.json"
+        "id": "map-1-78"
       },
       {
-        "path": "map-1-79/map.json"
+        "id": "map-1-79"
       },
       {
-        "path": "map-1-80/map.json"
+        "id": "map-1-80"
       },
       {
-        "path": "map-1-81/map.json"
+        "id": "map-1-81"
       },
       {
-        "path": "map-1-82/map.json"
+        "id": "map-1-82"
       },
       {
-        "path": "map-1-83/map.json"
+        "id": "map-1-83"
       },
       {
-        "path": "map-1-84/map.json"
+        "id": "map-1-84"
       },
       {
-        "path": "map-1-85/map.json"
+        "id": "map-1-85"
       },
       {
-        "path": "map-1-86/map.json"
+        "id": "map-1-86"
       },
       {
-        "path": "map-1-87/map.json"
+        "id": "map-1-87"
       },
       {
-        "path": "map-1-88/map.json"
+        "id": "map-1-88"
       },
       {
-        "path": "map-1-89/map.json"
+        "id": "map-1-89"
       },
       {
-        "path": "map-1-90/map.json"
+        "id": "map-1-90"
       },
       {
-        "path": "map-1-91/map.json"
+        "id": "map-1-91"
       },
       {
-        "path": "map-1-92/map.json"
+        "id": "map-1-92"
       },
       {
-        "path": "map-1-93/map.json"
+        "id": "map-1-93"
       },
       {
-        "path": "map-1-94/map.json"
+        "id": "map-1-94"
       },
       {
-        "path": "map-1-95/map.json"
+        "id": "map-1-95"
       },
       {
-        "path": "map-1-96/map.json"
+        "id": "map-1-96"
       },
       {
-        "path": "map-1-97/map.json"
+        "id": "map-1-97"
       },
       {
-        "path": "map-1-98/map.json"
+        "id": "map-1-98"
       },
       {
-        "path": "map-1-99/map.json"
+        "id": "map-1-99"
       },
       {
-        "path": "map-1-100/map.json"
+        "id": "map-1-100"
       },
       {
-        "path": "map-1-101/map.json"
+        "id": "map-1-101"
       },
       {
-        "path": "map-1-102/map.json"
+        "id": "map-1-102"
       },
       {
-        "path": "map-1-103/map.json"
+        "id": "map-1-103"
       },
       {
-        "path": "map-1-104/map.json"
+        "id": "map-1-104"
       },
       {
-        "path": "map-1-105/map.json"
+        "id": "map-1-105"
       },
       {
-        "path": "map-1-106/map.json"
+        "id": "map-1-106"
       },
       {
-        "path": "map-1-107/map.json"
+        "id": "map-1-107"
       },
       {
-        "path": "map-1-108/map.json"
+        "id": "map-1-108"
       },
       {
-        "path": "map-1-109/map.json"
+        "id": "map-1-109"
       },
       {
-        "path": "map-1-110/map.json"
+        "id": "map-1-110"
       },
       {
-        "path": "map-1-111/map.json"
+        "id": "map-1-111"
       },
       {
-        "path": "map-1-112/map.json"
+        "id": "map-1-112"
       },
       {
-        "path": "map-1-113/map.json"
+        "id": "map-1-113"
       },
       {
-        "path": "map-1-114/map.json"
+        "id": "map-1-114"
       },
       {
-        "path": "map-1-115/map.json"
+        "id": "map-1-115"
       },
       {
-        "path": "map-1-116/map.json"
+        "id": "map-1-116"
       },
       {
-        "path": "map-1-117/map.json"
+        "id": "map-1-117"
       },
       {
-        "path": "map-1-118/map.json"
+        "id": "map-1-118"
       },
       {
-        "path": "map-1-119/map.json"
+        "id": "map-1-119"
       },
       {
-        "path": "map-1-120/map.json"
+        "id": "map-1-120"
       },
       {
-        "path": "map-1-121/map.json"
+        "id": "map-1-121"
       },
       {
-        "path": "map-1-122/map.json"
+        "id": "map-1-122"
       }
     ]
   }

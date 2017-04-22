@@ -11,28 +11,28 @@
   "data": {
     "maps": [
       {
-        "path": "map-34-0/map.json"
+        "id": "map-34-0"
       },
       {
-        "path": "map-34-1/map.json"
+        "id": "map-34-1"
       },
       {
-        "path": "map-34-2/map.json"
+        "id": "map-34-2"
       },
       {
-        "path": "map-34-3/map.json"
+        "id": "map-34-3"
       },
       {
-        "path": "map-34-4/map.json"
+        "id": "map-34-4"
       },
       {
-        "path": "map-34-5/map.json"
+        "id": "map-34-5"
       },
       {
-        "path": "map-34-6/map.json"
+        "id": "map-34-6"
       },
       {
-        "path": "map-34-7/map.json"
+        "id": "map-34-7"
       }
     ]
   }

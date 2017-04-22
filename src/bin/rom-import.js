@@ -343,8 +343,7 @@ async function dumpMap(meta, info) {
 
   const mapPath = path.join(
     meta.outputDirectory,
-    'banks',
-    lookupBank(info.bank),
+    'maps',
     lookupMap(info.bank, info.map)
   );
 
@@ -441,7 +440,7 @@ async function dumpMap(meta, info) {
       },
       data: {
         maps: mapsForBank.map(id => ({
-          path: `${id}/map.json`,
+          id,
         })),
       },
     };
@@ -483,11 +482,8 @@ async function buildProjectManifest({ description, outputDirectory }) {
       description,
     },
     data: {
-      blocksets: blocksets.map(blocksetId => ({
-        path: `blocksets/${blocksetId}/blockset.json`,
-      })),
-      banks: banks.map(bankId => ({
-        path: `banks/${bankId}/bank.json`,
+      banks: banks.map(id => ({
+        id,
       })),
     },
   };

@@ -11,34 +11,34 @@
   "data": {
     "maps": [
       {
-        "path": "map-7-0/map.json"
+        "id": "map-7-0"
       },
       {
-        "path": "map-7-1/map.json"
+        "id": "map-7-1"
       },
       {
-        "path": "map-7-2/map.json"
+        "id": "map-7-2"
       },
       {
-        "path": "map-7-3/map.json"
+        "id": "map-7-3"
       },
       {
-        "path": "map-7-4/map.json"
+        "id": "map-7-4"
       },
       {
-        "path": "map-7-5/map.json"
+        "id": "map-7-5"
       },
       {
-        "path": "map-7-6/map.json"
+        "id": "map-7-6"
       },
       {
-        "path": "map-7-7/map.json"
+        "id": "map-7-7"
       },
       {
-        "path": "map-7-8/map.json"
+        "id": "map-7-8"
       },
       {
-        "path": "map-7-9/map.json"
+        "id": "map-7-9"
       }
     ]
   }
