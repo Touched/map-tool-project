@@ -78,8 +78,8 @@ describe('Project', () => {
       const project = Project.load(manifestPath);
       invariant(project);
 
-      expect(project.lookupEntity('map', 'map-3-0').data.meta.id).to.equal('map-3-0');
-      expect(project.lookupEntity('bank', 'bank-3').data.meta.id).to.equal('bank-3');
+      expect(project.lookupEntity({ type: 'map', id: 'map-3-0' }).data.meta.id).to.equal('map-3-0');
+      expect(project.lookupEntity({ type: 'bank', id: 'bank-3' }).data.meta.id).to.equal('bank-3');
     });
   });
 });

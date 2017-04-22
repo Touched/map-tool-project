@@ -47,7 +47,7 @@ export default class Project extends ParentEntity<ProjectEntity> {
     return new Project(manifestPath, data);
   }
 
-  lookupEntity(type: EntityType, id: string): ChildEntity<*> {
+  lookupEntity({ type, id }: { type: EntityType, id: string }): ChildEntity<*> {
     const directory = this.entityDirectories[type];
 
     invariant(directory, `No directory configured for entity type '${type}'.`);
