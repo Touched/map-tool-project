@@ -1326,133 +1326,134 @@
     "connections": [],
     "entities": [
       {
-        "type": "npc",
+        "type": "warp",
+        "x": 9,
+        "y": 15,
+        "z": 0,
         "data": {
-          "id": 1,
+          "target": {
+            "warp": "warp-4",
+            "map": {
+              "id": "map-1-97"
+            }
+          }
+        },
+        "id": "warp-0"
+      },
+      {
+        "type": "object",
+        "x": 9,
+        "y": 6,
+        "z": 3,
+        "data": {
           "sprite": 137,
           "replacement": 0,
-          "x": 9,
-          "y": 6,
-          "height": 3,
           "behavior": 8,
           "boundary": {
             "x": 0,
             "y": 0
           },
           "property": 0,
-          "view_radius": 0,
+          "viewRadius": 0,
           "script": {
-            "symbol": "mt。Ember5Npc0Main",
-            "path": "scripts/npc/0.s"
+            "symbol": "mt。Ember5Object0Main",
+            "path": "scripts/object/0.s"
           },
           "flag": 82
-        }
+        },
+        "id": "object-1"
       },
       {
-        "type": "npc",
+        "type": "object",
+        "x": 10,
+        "y": 12,
+        "z": 3,
         "data": {
-          "id": 2,
           "sprite": 97,
           "replacement": 0,
-          "x": 10,
-          "y": 12,
-          "height": 3,
           "behavior": 1,
           "boundary": {
             "x": 0,
             "y": 0
           },
           "property": 0,
-          "view_radius": 0,
+          "viewRadius": 0,
           "script": {
-            "symbol": "mt。Ember5Npc1Main",
-            "path": "scripts/npc/1.s"
+            "symbol": "mt。Ember5Object1Main",
+            "path": "scripts/object/1.s"
           },
           "flag": 0
-        }
+        },
+        "id": "object-2"
       },
       {
-        "type": "npc",
+        "type": "object",
+        "x": 9,
+        "y": 12,
+        "z": 3,
         "data": {
-          "id": 3,
           "sprite": 97,
           "replacement": 0,
-          "x": 9,
-          "y": 12,
-          "height": 3,
           "behavior": 1,
           "boundary": {
             "x": 0,
             "y": 0
           },
           "property": 0,
-          "view_radius": 0,
+          "viewRadius": 0,
           "script": {
-            "symbol": "mt。Ember5Npc2Main",
-            "path": "scripts/npc/2.s"
+            "symbol": "mt。Ember5Object2Main",
+            "path": "scripts/object/2.s"
           },
           "flag": 0
-        }
+        },
+        "id": "object-3"
       },
       {
-        "type": "npc",
+        "type": "object",
+        "x": 8,
+        "y": 11,
+        "z": 3,
         "data": {
-          "id": 4,
           "sprite": 97,
           "replacement": 0,
-          "x": 8,
-          "y": 11,
-          "height": 3,
           "behavior": 1,
           "boundary": {
             "x": 0,
             "y": 0
           },
           "property": 0,
-          "view_radius": 0,
+          "viewRadius": 0,
           "script": {
-            "symbol": "mt。Ember5Npc3Main",
-            "path": "scripts/npc/3.s"
+            "symbol": "mt。Ember5Object3Main",
+            "path": "scripts/object/3.s"
           },
           "flag": 0
-        }
+        },
+        "id": "object-4"
       },
       {
-        "type": "npc",
+        "type": "object",
+        "x": 8,
+        "y": 10,
+        "z": 3,
         "data": {
-          "id": 5,
           "sprite": 97,
           "replacement": 0,
-          "x": 8,
-          "y": 10,
-          "height": 3,
           "behavior": 1,
           "boundary": {
             "x": 0,
             "y": 0
           },
           "property": 0,
-          "view_radius": 0,
+          "viewRadius": 0,
           "script": {
-            "symbol": "mt。Ember5Npc4Main",
-            "path": "scripts/npc/4.s"
+            "symbol": "mt。Ember5Object4Main",
+            "path": "scripts/object/4.s"
           },
           "flag": 0
-        }
-      },
-      {
-        "type": "warp",
-        "data": {
-          "x": 9,
-          "y": 15,
-          "height": 0,
-          "target": {
-            "warp": 4,
-            "map": {
-              "id": "map-1-97"
-            }
-          }
-        }
+        },
+        "id": "object-5"
       }
     ]
   }

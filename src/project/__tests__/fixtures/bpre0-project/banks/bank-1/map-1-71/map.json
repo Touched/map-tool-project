@@ -486,69 +486,72 @@
     "connections": [],
     "entities": [
       {
-        "type": "npc",
+        "type": "warp",
+        "x": 3,
+        "y": 9,
+        "z": 3,
         "data": {
-          "id": 1,
+          "target": {
+            "warp": "warp-9",
+            "map": {
+              "id": "map-1-66"
+            }
+          }
+        },
+        "id": "warp-0"
+      },
+      {
+        "type": "warp",
+        "x": 4,
+        "y": 9,
+        "z": 3,
+        "data": {
+          "target": {
+            "warp": "warp-9",
+            "map": {
+              "id": "map-1-66"
+            }
+          }
+        },
+        "id": "warp-1"
+      },
+      {
+        "type": "warp",
+        "x": 5,
+        "y": 9,
+        "z": 3,
+        "data": {
+          "target": {
+            "warp": "warp-9",
+            "map": {
+              "id": "map-1-66"
+            }
+          }
+        },
+        "id": "warp-2"
+      },
+      {
+        "type": "object",
+        "x": 6,
+        "y": 5,
+        "z": 3,
+        "data": {
           "sprite": 47,
           "replacement": 0,
-          "x": 6,
-          "y": 5,
-          "height": 3,
           "behavior": 8,
           "boundary": {
             "x": 1,
             "y": 1
           },
           "property": 0,
-          "view_radius": 0,
+          "viewRadius": 0,
           "script": {
-            "symbol": "safariZone8Npc0Main",
-            "path": "scripts/npc/0.s"
+            "symbol": "safariZone8Object0Main",
+            "path": "scripts/object/0.s"
           },
           "flag": 0
-        }
-      },
-      {
-        "type": "warp",
-        "data": {
-          "x": 3,
-          "y": 9,
-          "height": 3,
-          "target": {
-            "warp": 9,
-            "map": {
-              "id": "map-1-66"
-            }
-          }
-        }
-      },
-      {
-        "type": "warp",
-        "data": {
-          "x": 4,
-          "y": 9,
-          "height": 3,
-          "target": {
-            "warp": 9,
-            "map": {
-              "id": "map-1-66"
-            }
-          }
-        }
-      },
-      {
-        "type": "warp",
-        "data": {
-          "x": 5,
-          "y": 9,
-          "height": 3,
-          "target": {
-            "warp": 9,
-            "map": {
-              "id": "map-1-66"
-            }
-          }
-        }
+        },
+        "id": "object-1"
       }
     ]
   }

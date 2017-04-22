@@ -330,148 +330,155 @@
     "connections": [],
     "entities": [
       {
-        "type": "npc",
-        "data": {
-          "id": 1,
-          "sprite": 47,
-          "replacement": 0,
-          "x": 7,
-          "y": 3,
-          "height": 3,
-          "behavior": 9,
-          "boundary": {
-            "x": 1,
-            "y": 1
-          },
-          "property": 0,
-          "view_radius": 0,
-          "script": {
-            "symbol": "fuchsiaCity1Npc0Main",
-            "path": "scripts/npc/0.s"
-          },
-          "flag": 0
-        }
-      },
-      {
-        "type": "npc",
-        "data": {
-          "id": 2,
-          "sprite": 47,
-          "replacement": 0,
-          "x": 1,
-          "y": 6,
-          "height": 3,
-          "behavior": 10,
-          "boundary": {
-            "x": 1,
-            "y": 1
-          },
-          "property": 0,
-          "view_radius": 0,
-          "script": {
-            "symbol": "fuchsiaCity1Npc1Main",
-            "path": "scripts/npc/1.s"
-          },
-          "flag": 0
-        }
-      },
-      {
         "type": "warp",
+        "x": 4,
+        "y": 1,
+        "z": 3,
         "data": {
-          "x": 4,
-          "y": 1,
-          "height": 3,
           "target": {
-            "warp": 1,
+            "warp": "warp-1",
             "map": {
               "id": "map-1-63"
             }
           }
-        }
+        },
+        "id": "warp-0"
       },
       {
         "type": "warp",
+        "x": 5,
+        "y": 7,
+        "z": 3,
         "data": {
-          "x": 5,
-          "y": 7,
-          "height": 3,
           "target": {
-            "warp": 0,
+            "warp": "warp-0",
             "map": {
               "id": "map-3-7"
             }
           }
-        }
+        },
+        "id": "warp-1"
       },
       {
         "type": "warp",
+        "x": 4,
+        "y": 7,
+        "z": 3,
         "data": {
-          "x": 4,
-          "y": 7,
-          "height": 3,
           "target": {
-            "warp": 0,
+            "warp": "warp-0",
             "map": {
               "id": "map-3-7"
             }
           }
-        }
+        },
+        "id": "warp-2"
       },
       {
         "type": "warp",
+        "x": 3,
+        "y": 7,
+        "z": 3,
         "data": {
-          "x": 3,
-          "y": 7,
-          "height": 3,
           "target": {
-            "warp": 0,
+            "warp": "warp-0",
             "map": {
               "id": "map-3-7"
             }
           }
-        }
+        },
+        "id": "warp-3"
       },
       {
         "type": "trigger",
+        "x": 4,
+        "y": 3,
+        "z": 3,
         "data": {
-          "x": 4,
-          "y": 3,
-          "height": 3,
           "variable": 16385,
           "value": 0,
           "script": {
             "symbol": "fuchsiaCity1Trigger0Main",
             "path": "scripts/trigger/0.s"
           }
-        }
+        },
+        "id": "trigger-0"
       },
       {
         "type": "trigger",
+        "x": 5,
+        "y": 3,
+        "z": 3,
         "data": {
-          "x": 5,
-          "y": 3,
-          "height": 3,
           "variable": 16385,
           "value": 0,
           "script": {
             "symbol": "fuchsiaCity1Trigger1Main",
             "path": "scripts/trigger/1.s"
           }
-        }
+        },
+        "id": "trigger-1"
       },
       {
         "type": "trigger",
+        "x": 3,
+        "y": 3,
+        "z": 3,
         "data": {
-          "x": 3,
-          "y": 3,
-          "height": 3,
           "variable": 16385,
           "value": 0,
           "script": {
             "symbol": "fuchsiaCity1Trigger2Main",
             "path": "scripts/trigger/2.s"
           }
-        }
+        },
+        "id": "trigger-2"
+      },
+      {
+        "type": "object",
+        "x": 7,
+        "y": 3,
+        "z": 3,
+        "data": {
+          "sprite": 47,
+          "replacement": 0,
+          "behavior": 9,
+          "boundary": {
+            "x": 1,
+            "y": 1
+          },
+          "property": 0,
+          "viewRadius": 0,
+          "script": {
+            "symbol": "fuchsiaCity1Object0Main",
+            "path": "scripts/object/0.s"
+          },
+          "flag": 0
+        },
+        "id": "object-1"
+      },
+      {
+        "type": "object",
+        "x": 1,
+        "y": 6,
+        "z": 3,
+        "data": {
+          "sprite": 47,
+          "replacement": 0,
+          "behavior": 10,
+          "boundary": {
+            "x": 1,
+            "y": 1
+          },
+          "property": 0,
+          "viewRadius": 0,
+          "script": {
+            "symbol": "fuchsiaCity1Object1Main",
+            "path": "scripts/object/1.s"
+          },
+          "flag": 0
+        },
+        "id": "object-2"
       }
     ]
   }

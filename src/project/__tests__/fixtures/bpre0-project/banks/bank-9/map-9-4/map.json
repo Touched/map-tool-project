@@ -12,81 +12,76 @@
     "linked": {
       "id": "map-7-2"
     },
-    "blocksets": {
-      "primary": {
-        "id": "blockset-0"
-      },
-      "secondary": {
-        "id": "blockset-39"
-      }
-    },
     "scripts": [],
     "connections": [],
     "entities": [
       {
-        "type": "npc",
+        "type": "warp",
+        "x": 3,
+        "y": 7,
+        "z": 3,
         "data": {
-          "id": 1,
+          "target": {
+            "warp": "warp-6",
+            "map": {
+              "id": "map-3-5"
+            }
+          }
+        },
+        "id": "warp-0"
+      },
+      {
+        "type": "warp",
+        "x": 4,
+        "y": 7,
+        "z": 3,
+        "data": {
+          "target": {
+            "warp": "warp-6",
+            "map": {
+              "id": "map-3-5"
+            }
+          }
+        },
+        "id": "warp-1"
+      },
+      {
+        "type": "warp",
+        "x": 5,
+        "y": 7,
+        "z": 3,
+        "data": {
+          "target": {
+            "warp": "warp-6",
+            "map": {
+              "id": "map-3-5"
+            }
+          }
+        },
+        "id": "warp-2"
+      },
+      {
+        "type": "object",
+        "x": 4,
+        "y": 4,
+        "z": 3,
+        "data": {
           "sprite": 17,
           "replacement": 0,
-          "x": 4,
-          "y": 4,
-          "height": 3,
           "behavior": 7,
           "boundary": {
             "x": 1,
             "y": 1
           },
           "property": 0,
-          "view_radius": 0,
+          "viewRadius": 0,
           "script": {
-            "symbol": "vermilionCity5Npc0Main",
-            "path": "scripts/npc/0.s"
+            "symbol": "vermilionCity5Object0Main",
+            "path": "scripts/object/0.s"
           },
           "flag": 0
-        }
-      },
-      {
-        "type": "warp",
-        "data": {
-          "x": 3,
-          "y": 7,
-          "height": 3,
-          "target": {
-            "warp": 6,
-            "map": {
-              "id": "map-3-5"
-            }
-          }
-        }
-      },
-      {
-        "type": "warp",
-        "data": {
-          "x": 4,
-          "y": 7,
-          "height": 3,
-          "target": {
-            "warp": 6,
-            "map": {
-              "id": "map-3-5"
-            }
-          }
-        }
-      },
-      {
-        "type": "warp",
-        "data": {
-          "x": 5,
-          "y": 7,
-          "height": 3,
-          "target": {
-            "warp": 6,
-            "map": {
-              "id": "map-3-5"
-            }
-          }
-        }
+        },
+        "id": "object-1"
       }
     ]
   }

@@ -541,102 +541,106 @@
     "entities": [
       {
         "type": "warp",
+        "x": 19,
+        "y": 3,
+        "z": 3,
         "data": {
-          "x": 19,
-          "y": 3,
-          "height": 3,
           "target": {
-            "warp": 5,
+            "warp": "warp-5",
             "map": {
               "id": "map-1-5"
             }
           }
-        }
+        },
+        "id": "warp-0"
       },
       {
         "type": "warp",
+        "x": 2,
+        "y": 2,
+        "z": 0,
         "data": {
-          "x": 2,
-          "y": 2,
-          "height": 0,
           "target": {
-            "warp": 0,
+            "warp": "warp-0",
             "map": {
               "id": "map-1-24"
             }
           }
-        }
+        },
+        "id": "warp-1"
       },
       {
         "type": "warp",
+        "x": 6,
+        "y": 2,
+        "z": 0,
         "data": {
-          "x": 6,
-          "y": 2,
-          "height": 0,
           "target": {
-            "warp": 0,
+            "warp": "warp-0",
             "map": {
               "id": "map-1-25"
             }
           }
-        }
+        },
+        "id": "warp-2"
       },
       {
         "type": "warp",
+        "x": 10,
+        "y": 2,
+        "z": 0,
         "data": {
-          "x": 10,
-          "y": 2,
-          "height": 0,
           "target": {
-            "warp": 0,
+            "warp": "warp-0",
             "map": {
               "id": "map-1-26"
             }
           }
-        }
+        },
+        "id": "warp-3"
       },
       {
         "type": "warp",
+        "x": 14,
+        "y": 2,
+        "z": 0,
         "data": {
-          "x": 14,
-          "y": 2,
-          "height": 0,
           "target": {
-            "warp": 0,
+            "warp": "warp-0",
             "map": {
               "id": "map-1-27"
             }
           }
-        }
+        },
+        "id": "warp-4"
       },
       {
         "type": "warp",
+        "x": 18,
+        "y": 2,
+        "z": 0,
         "data": {
-          "x": 18,
-          "y": 2,
-          "height": 0,
           "target": {
-            "warp": 0,
+            "warp": "warp-0",
             "map": {
               "id": "map-1-28"
             }
           }
-        }
+        },
+        "id": "warp-5"
       },
       {
-        "type": "sign",
+        "type": "interactable",
+        "x": 21,
+        "y": 5,
+        "z": 3,
         "data": {
-          "x": 21,
-          "y": 5,
-          "height": 3,
-          "type": "hidden_item2",
+          "type": "hiddenItem",
           "item": 21,
-          "id": 8,
-          "data": {
-            "amount": 1,
-            "exact_required": 0
-          }
-        }
+          "hiddenItemId": 8,
+          "quantity": 1
+        },
+        "id": "interactable-0"
       }
     ]
   }

@@ -1533,222 +1533,233 @@
     ],
     "entities": [
       {
-        "type": "npc",
-        "data": {
-          "id": 1,
-          "sprite": 23,
-          "replacement": 0,
-          "x": 3,
-          "y": 10,
-          "height": 3,
-          "behavior": 2,
-          "boundary": {
-            "x": 1,
-            "y": 4
-          },
-          "property": 0,
-          "view_radius": 0,
-          "script": {
-            "symbol": "palletTownNpc0Main",
-            "path": "scripts/npc/0.s"
-          },
-          "flag": 0
-        }
-      },
-      {
-        "type": "npc",
-        "data": {
-          "id": 2,
-          "sprite": 27,
-          "replacement": 0,
-          "x": 13,
-          "y": 17,
-          "height": 3,
-          "behavior": 2,
-          "boundary": {
-            "x": 6,
-            "y": 2
-          },
-          "property": 0,
-          "view_radius": 0,
-          "script": {
-            "symbol": "palletTownNpc1Main",
-            "path": "scripts/npc/1.s"
-          },
-          "flag": 0
-        }
-      },
-      {
-        "type": "npc",
-        "data": {
-          "id": 3,
-          "sprite": 71,
-          "replacement": 0,
-          "x": 10,
-          "y": 8,
-          "height": 3,
-          "behavior": 7,
-          "boundary": {
-            "x": 1,
-            "y": 1
-          },
-          "property": 0,
-          "view_radius": 0,
-          "script": {
-            "symbol": "palletTownNpc2Main",
-            "path": "scripts/npc/2.s"
-          },
-          "flag": 44
-        }
-      },
-      {
         "type": "warp",
+        "x": 6,
+        "y": 7,
+        "z": 0,
         "data": {
-          "x": 6,
-          "y": 7,
-          "height": 0,
           "target": {
-            "warp": 1,
+            "warp": "warp-1",
             "map": {
               "id": "map-4-0"
             }
           }
-        }
+        },
+        "id": "warp-0"
       },
       {
         "type": "warp",
+        "x": 15,
+        "y": 7,
+        "z": 0,
         "data": {
-          "x": 15,
-          "y": 7,
-          "height": 0,
           "target": {
-            "warp": 0,
+            "warp": "warp-0",
             "map": {
               "id": "map-4-2"
             }
           }
-        }
+        },
+        "id": "warp-1"
       },
       {
         "type": "warp",
+        "x": 16,
+        "y": 13,
+        "z": 0,
         "data": {
-          "x": 16,
-          "y": 13,
-          "height": 0,
           "target": {
-            "warp": 0,
+            "warp": "warp-0",
             "map": {
               "id": "map-4-3"
             }
           }
-        }
+        },
+        "id": "warp-2"
       },
       {
-        "type": "sign",
+        "type": "interactable",
+        "x": 16,
+        "y": 16,
+        "z": 0,
         "data": {
-          "x": 16,
-          "y": 16,
-          "height": 0,
           "type": "script",
           "script": {
-            "symbol": "palletTownSign0Main",
-            "path": "scripts/sign/0.s"
+            "symbol": "palletTownInteractable0Main",
+            "path": "scripts/interactable/0.s"
           }
-        }
+        },
+        "id": "interactable-0"
       },
       {
-        "type": "sign",
+        "type": "interactable",
+        "x": 4,
+        "y": 7,
+        "z": 0,
         "data": {
-          "x": 4,
-          "y": 7,
-          "height": 0,
           "type": "script",
           "script": {
-            "symbol": "palletTownSign1Main",
-            "path": "scripts/sign/1.s"
+            "symbol": "palletTownInteractable1Main",
+            "path": "scripts/interactable/1.s"
           }
-        }
+        },
+        "id": "interactable-1"
       },
       {
-        "type": "sign",
+        "type": "interactable",
+        "x": 13,
+        "y": 7,
+        "z": 0,
         "data": {
-          "x": 13,
-          "y": 7,
-          "height": 0,
           "type": "script",
           "script": {
-            "symbol": "palletTownSign2Main",
-            "path": "scripts/sign/2.s"
+            "symbol": "palletTownInteractable2Main",
+            "path": "scripts/interactable/2.s"
           }
-        }
+        },
+        "id": "interactable-2"
       },
       {
-        "type": "sign",
+        "type": "interactable",
+        "x": 9,
+        "y": 11,
+        "z": 0,
         "data": {
-          "x": 9,
-          "y": 11,
-          "height": 0,
           "type": "script",
           "script": {
-            "symbol": "palletTownSign3Main",
-            "path": "scripts/sign/3.s"
+            "symbol": "palletTownInteractable3Main",
+            "path": "scripts/interactable/3.s"
           }
-        }
+        },
+        "id": "interactable-3"
       },
       {
-        "type": "sign",
+        "type": "interactable",
+        "x": 5,
+        "y": 14,
+        "z": 0,
         "data": {
-          "x": 5,
-          "y": 14,
-          "height": 0,
           "type": "script",
           "script": {
-            "symbol": "palletTownSign4Main",
-            "path": "scripts/sign/4.s"
+            "symbol": "palletTownInteractable4Main",
+            "path": "scripts/interactable/4.s"
           }
-        }
+        },
+        "id": "interactable-4"
       },
       {
         "type": "trigger",
+        "x": 12,
+        "y": 1,
+        "z": 3,
         "data": {
-          "x": 12,
-          "y": 1,
-          "height": 3,
           "variable": 16464,
           "value": 0,
           "script": {
             "symbol": "palletTownTrigger0Main",
             "path": "scripts/trigger/0.s"
           }
-        }
+        },
+        "id": "trigger-0"
       },
       {
         "type": "trigger",
+        "x": 13,
+        "y": 1,
+        "z": 3,
         "data": {
-          "x": 13,
-          "y": 1,
-          "height": 3,
           "variable": 16464,
           "value": 0,
           "script": {
             "symbol": "palletTownTrigger1Main",
             "path": "scripts/trigger/1.s"
           }
-        }
+        },
+        "id": "trigger-1"
       },
       {
         "type": "trigger",
+        "x": 13,
+        "y": 2,
+        "z": 3,
         "data": {
-          "x": 13,
-          "y": 2,
-          "height": 3,
           "variable": 16386,
           "value": 1,
           "script": {
             "symbol": "palletTownTrigger2Main",
             "path": "scripts/trigger/2.s"
           }
-        }
+        },
+        "id": "trigger-2"
+      },
+      {
+        "type": "object",
+        "x": 3,
+        "y": 10,
+        "z": 3,
+        "data": {
+          "sprite": 23,
+          "replacement": 0,
+          "behavior": 2,
+          "boundary": {
+            "x": 1,
+            "y": 4
+          },
+          "property": 0,
+          "viewRadius": 0,
+          "script": {
+            "symbol": "palletTownObject0Main",
+            "path": "scripts/object/0.s"
+          },
+          "flag": 0
+        },
+        "id": "object-1"
+      },
+      {
+        "type": "object",
+        "x": 13,
+        "y": 17,
+        "z": 3,
+        "data": {
+          "sprite": 27,
+          "replacement": 0,
+          "behavior": 2,
+          "boundary": {
+            "x": 6,
+            "y": 2
+          },
+          "property": 0,
+          "viewRadius": 0,
+          "script": {
+            "symbol": "palletTownObject1Main",
+            "path": "scripts/object/1.s"
+          },
+          "flag": 0
+        },
+        "id": "object-2"
+      },
+      {
+        "type": "object",
+        "x": 10,
+        "y": 8,
+        "z": 3,
+        "data": {
+          "sprite": 71,
+          "replacement": 0,
+          "behavior": 7,
+          "boundary": {
+            "x": 1,
+            "y": 1
+          },
+          "property": 0,
+          "viewRadius": 0,
+          "script": {
+            "symbol": "palletTownObject2Main",
+            "path": "scripts/object/2.s"
+          },
+          "flag": 44
+        },
+        "id": "object-3"
       }
     ]
   }

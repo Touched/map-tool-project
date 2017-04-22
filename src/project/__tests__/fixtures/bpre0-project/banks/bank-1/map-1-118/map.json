@@ -487,86 +487,93 @@
     "entities": [
       {
         "type": "warp",
+        "x": 6,
+        "y": 7,
+        "z": 3,
         "data": {
-          "x": 6,
-          "y": 7,
-          "height": 3,
           "target": {
-            "warp": 4,
+            "warp": "warp-4",
             "map": {
               "id": "map-1-117"
             }
           }
-        }
+        },
+        "id": "warp-0"
       },
       {
         "type": "warp",
+        "x": 6,
+        "y": 1,
+        "z": 3,
         "data": {
-          "x": 6,
-          "y": 1,
-          "height": 3,
           "target": {
-            "warp": 3,
+            "warp": "warp-3",
             "map": {
               "id": "map-1-115"
             }
           }
-        }
+        },
+        "id": "warp-1"
       },
       {
         "type": "warp",
+        "x": 11,
+        "y": 5,
+        "z": 3,
         "data": {
-          "x": 11,
-          "y": 5,
-          "height": 3,
           "target": {
-            "warp": 0,
+            "warp": "warp-0",
             "map": {
               "id": "map-1-119"
             }
           }
-        }
+        },
+        "id": "warp-2"
       },
       {
         "type": "warp",
+        "x": 6,
+        "y": 9,
+        "z": 3,
         "data": {
-          "x": 6,
-          "y": 9,
-          "height": 3,
           "target": {
-            "warp": 3,
+            "warp": "warp-3",
             "map": {
               "id": "map-1-115"
             }
           }
-        }
+        },
+        "id": "warp-3"
       },
       {
         "type": "warp",
+        "x": 1,
+        "y": 5,
+        "z": 3,
         "data": {
-          "x": 1,
-          "y": 5,
-          "height": 3,
           "target": {
-            "warp": 3,
+            "warp": "warp-3",
             "map": {
               "id": "map-1-115"
             }
           }
-        }
+        },
+        "id": "warp-4"
       },
       {
-        "type": "sign",
+        "type": "interactable",
+        "x": 6,
+        "y": 5,
+        "z": 0,
         "data": {
-          "x": 6,
-          "y": 5,
-          "height": 0,
-          "type": "script_up",
+          "type": "script",
           "script": {
-            "symbol": "dottedHole3Sign0Main",
-            "path": "scripts/sign/0.s"
-          }
-        }
+            "symbol": "dottedHole3Interactable0Main",
+            "path": "scripts/interactable/0.s"
+          },
+          "direction": "up"
+        },
+        "id": "interactable-0"
       }
     ]
   }

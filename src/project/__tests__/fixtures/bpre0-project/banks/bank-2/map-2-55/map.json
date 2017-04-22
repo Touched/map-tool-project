@@ -9058,45 +9058,48 @@
     "entities": [
       {
         "type": "warp",
+        "x": 13,
+        "y": 95,
+        "z": 3,
         "data": {
-          "x": 13,
-          "y": 95,
-          "height": 3,
           "target": {
-            "warp": 1,
+            "warp": "warp-1",
             "map": {
               "id": "map-2-54"
             }
           }
-        }
+        },
+        "id": "warp-0"
       },
       {
         "type": "warp",
+        "x": 3,
+        "y": 1,
+        "z": 3,
         "data": {
-          "x": 3,
-          "y": 1,
-          "height": 3,
           "target": {
-            "warp": 0,
+            "warp": "warp-0",
             "map": {
               "id": "map-2-39"
             }
           }
-        }
+        },
+        "id": "warp-1"
       },
       {
         "type": "warp",
+        "x": 26,
+        "y": 1,
+        "z": 3,
         "data": {
-          "x": 26,
-          "y": 1,
-          "height": 3,
           "target": {
-            "warp": 0,
+            "warp": "warp-0",
             "map": {
               "id": "map-2-43"
             }
           }
-        }
+        },
+        "id": "warp-2"
       }
     ]
   }

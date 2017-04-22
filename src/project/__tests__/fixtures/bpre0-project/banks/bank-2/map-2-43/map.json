@@ -205,31 +205,33 @@
     "entities": [
       {
         "type": "warp",
+        "x": 2,
+        "y": 2,
+        "z": 3,
         "data": {
-          "x": 2,
-          "y": 2,
-          "height": 3,
           "target": {
-            "warp": 2,
+            "warp": "warp-2",
             "map": {
               "id": "map-2-55"
             }
           }
-        }
+        },
+        "id": "warp-0"
       },
       {
         "type": "warp",
+        "x": 4,
+        "y": 4,
+        "z": 3,
         "data": {
-          "x": 4,
-          "y": 4,
-          "height": 3,
           "target": {
-            "warp": 0,
+            "warp": "warp-0",
             "map": {
               "id": "map-2-44"
             }
           }
-        }
+        },
+        "id": "warp-1"
       }
     ]
   }

@@ -4385,192 +4385,186 @@
     ],
     "entities": [
       {
-        "type": "npc",
+        "type": "interactable",
+        "x": 9,
+        "y": 43,
+        "z": 0,
         "data": {
-          "id": 1,
+          "type": "script",
+          "script": {
+            "symbol": "memorialPillarInteractable0Main",
+            "path": "scripts/interactable/0.s"
+          },
+          "direction": "up"
+        },
+        "id": "interactable-0"
+      },
+      {
+        "type": "interactable",
+        "x": 8,
+        "y": 52,
+        "z": 3,
+        "data": {
+          "type": "hiddenItem",
+          "item": 107,
+          "hiddenItemId": 170,
+          "quantity": 1
+        },
+        "id": "interactable-1"
+      },
+      {
+        "type": "interactable",
+        "x": 15,
+        "y": 7,
+        "z": 3,
+        "data": {
+          "type": "hiddenItem",
+          "item": 148,
+          "hiddenItemId": 171,
+          "quantity": 1
+        },
+        "id": "interactable-2"
+      },
+      {
+        "type": "interactable",
+        "x": 17,
+        "y": 22,
+        "z": 3,
+        "data": {
+          "type": "hiddenItem",
+          "item": 142,
+          "hiddenItemId": 172,
+          "quantity": 1
+        },
+        "id": "interactable-3"
+      },
+      {
+        "type": "interactable",
+        "x": 14,
+        "y": 25,
+        "z": 3,
+        "data": {
+          "type": "hiddenItem",
+          "item": 149,
+          "hiddenItemId": 173,
+          "quantity": 1
+        },
+        "id": "interactable-4"
+      },
+      {
+        "type": "object",
+        "x": 8,
+        "y": 44,
+        "z": 4,
+        "data": {
           "sprite": 25,
           "replacement": 0,
-          "x": 8,
-          "y": 44,
-          "height": 4,
           "behavior": 15,
           "boundary": {
             "x": 1,
             "y": 1
           },
           "property": 0,
-          "view_radius": 0,
+          "viewRadius": 0,
           "script": {
-            "symbol": "memorialPillarNpc0Main",
-            "path": "scripts/npc/0.s"
+            "symbol": "memorialPillarObject0Main",
+            "path": "scripts/object/0.s"
           },
           "flag": 0
-        }
+        },
+        "id": "object-1"
       },
       {
-        "type": "npc",
+        "type": "object",
+        "x": 12,
+        "y": 6,
+        "z": 3,
         "data": {
-          "id": 2,
           "sprite": 26,
           "replacement": 0,
-          "x": 12,
-          "y": 6,
-          "height": 3,
           "behavior": 21,
           "boundary": {
             "x": 1,
             "y": 1
           },
           "property": 1,
-          "view_radius": 3,
+          "viewRadius": 3,
           "script": {
-            "symbol": "memorialPillarNpc1Main",
-            "path": "scripts/npc/1.s"
+            "symbol": "memorialPillarObject1Main",
+            "path": "scripts/object/1.s"
           },
           "flag": 0
-        }
+        },
+        "id": "object-2"
       },
       {
-        "type": "npc",
+        "type": "object",
+        "x": 14,
+        "y": 17,
+        "z": 3,
         "data": {
-          "id": 3,
           "sprite": 26,
           "replacement": 0,
-          "x": 14,
-          "y": 17,
-          "height": 3,
           "behavior": 19,
           "boundary": {
             "x": 1,
             "y": 1
           },
           "property": 1,
-          "view_radius": 2,
+          "viewRadius": 2,
           "script": {
-            "symbol": "memorialPillarNpc2Main",
-            "path": "scripts/npc/2.s"
+            "symbol": "memorialPillarObject2Main",
+            "path": "scripts/object/2.s"
           },
           "flag": 0
-        }
+        },
+        "id": "object-3"
       },
       {
-        "type": "npc",
+        "type": "object",
+        "x": 17,
+        "y": 31,
+        "z": 3,
         "data": {
-          "id": 4,
           "sprite": 26,
           "replacement": 0,
-          "x": 17,
-          "y": 31,
-          "height": 3,
           "behavior": 2,
           "boundary": {
             "x": 1,
             "y": 1
           },
           "property": 1,
-          "view_radius": 3,
+          "viewRadius": 3,
           "script": {
-            "symbol": "memorialPillarNpc3Main",
-            "path": "scripts/npc/3.s"
+            "symbol": "memorialPillarObject3Main",
+            "path": "scripts/object/3.s"
           },
           "flag": 0
-        }
+        },
+        "id": "object-4"
       },
       {
-        "type": "npc",
+        "type": "object",
+        "x": 4,
+        "y": 47,
+        "z": 3,
         "data": {
-          "id": 5,
           "sprite": 92,
           "replacement": 0,
-          "x": 4,
-          "y": 47,
-          "height": 3,
           "behavior": 8,
           "boundary": {
             "x": 1,
             "y": 1
           },
           "property": 0,
-          "view_radius": 0,
+          "viewRadius": 0,
           "script": {
-            "symbol": "memorialPillarNpc4Main",
-            "path": "scripts/npc/4.s"
+            "symbol": "memorialPillarObject4Main",
+            "path": "scripts/object/4.s"
           },
           "flag": 480
-        }
-      },
-      {
-        "type": "sign",
-        "data": {
-          "x": 9,
-          "y": 43,
-          "height": 0,
-          "type": "script_up",
-          "script": {
-            "symbol": "memorialPillarSign0Main",
-            "path": "scripts/sign/0.s"
-          }
-        }
-      },
-      {
-        "type": "sign",
-        "data": {
-          "x": 8,
-          "y": 52,
-          "height": 3,
-          "type": "hidden_item2",
-          "item": 107,
-          "id": 170,
-          "data": {
-            "amount": 1,
-            "exact_required": 0
-          }
-        }
-      },
-      {
-        "type": "sign",
-        "data": {
-          "x": 15,
-          "y": 7,
-          "height": 3,
-          "type": "hidden_item2",
-          "item": 148,
-          "id": 171,
-          "data": {
-            "amount": 1,
-            "exact_required": 0
-          }
-        }
-      },
-      {
-        "type": "sign",
-        "data": {
-          "x": 17,
-          "y": 22,
-          "height": 3,
-          "type": "hidden_item2",
-          "item": 142,
-          "id": 172,
-          "data": {
-            "amount": 1,
-            "exact_required": 0
-          }
-        }
-      },
-      {
-        "type": "sign",
-        "data": {
-          "x": 14,
-          "y": 25,
-          "height": 3,
-          "type": "hidden_item2",
-          "item": 149,
-          "id": 173,
-          "data": {
-            "amount": 1,
-            "exact_required": 0
-          }
-        }
+        },
+        "id": "object-5"
       }
     ]
   }

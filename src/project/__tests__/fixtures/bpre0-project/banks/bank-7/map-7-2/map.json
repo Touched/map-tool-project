@@ -354,92 +354,95 @@
     "connections": [],
     "entities": [
       {
-        "type": "npc",
+        "type": "warp",
+        "x": 3,
+        "y": 7,
+        "z": 0,
         "data": {
-          "id": 1,
+          "target": {
+            "warp": "warp-2",
+            "map": {
+              "id": "map-3-3"
+            }
+          }
+        },
+        "id": "warp-0"
+      },
+      {
+        "type": "warp",
+        "x": 4,
+        "y": 7,
+        "z": 0,
+        "data": {
+          "target": {
+            "warp": "warp-2",
+            "map": {
+              "id": "map-3-3"
+            }
+          }
+        },
+        "id": "warp-1"
+      },
+      {
+        "type": "warp",
+        "x": 5,
+        "y": 7,
+        "z": 0,
+        "data": {
+          "target": {
+            "warp": "warp-2",
+            "map": {
+              "id": "map-3-3"
+            }
+          }
+        },
+        "id": "warp-2"
+      },
+      {
+        "type": "object",
+        "x": 2,
+        "y": 2,
+        "z": 3,
+        "data": {
           "sprite": 32,
           "replacement": 0,
-          "x": 2,
-          "y": 2,
-          "height": 3,
           "behavior": 7,
           "boundary": {
             "x": 1,
             "y": 1
           },
           "property": 0,
-          "view_radius": 0,
+          "viewRadius": 0,
           "script": {
-            "symbol": "ceruleanCity3Npc0Main",
-            "path": "scripts/npc/0.s"
+            "symbol": "ceruleanCity3Object0Main",
+            "path": "scripts/object/0.s"
           },
           "flag": 0
-        }
+        },
+        "id": "object-1"
       },
       {
-        "type": "npc",
+        "type": "object",
+        "x": 7,
+        "y": 5,
+        "z": 3,
         "data": {
-          "id": 2,
           "sprite": 35,
           "replacement": 0,
-          "x": 7,
-          "y": 5,
-          "height": 3,
           "behavior": 9,
           "boundary": {
             "x": 1,
             "y": 1
           },
           "property": 0,
-          "view_radius": 0,
+          "viewRadius": 0,
           "script": {
-            "symbol": "ceruleanCity3Npc1Main",
-            "path": "scripts/npc/1.s"
+            "symbol": "ceruleanCity3Object1Main",
+            "path": "scripts/object/1.s"
           },
           "flag": 0
-        }
-      },
-      {
-        "type": "warp",
-        "data": {
-          "x": 3,
-          "y": 7,
-          "height": 0,
-          "target": {
-            "warp": 2,
-            "map": {
-              "id": "map-3-3"
-            }
-          }
-        }
-      },
-      {
-        "type": "warp",
-        "data": {
-          "x": 4,
-          "y": 7,
-          "height": 0,
-          "target": {
-            "warp": 2,
-            "map": {
-              "id": "map-3-3"
-            }
-          }
-        }
-      },
-      {
-        "type": "warp",
-        "data": {
-          "x": 5,
-          "y": 7,
-          "height": 0,
-          "target": {
-            "warp": 2,
-            "map": {
-              "id": "map-3-3"
-            }
-          }
-        }
+        },
+        "id": "object-2"
       }
     ]
   }

@@ -777,54 +777,57 @@
     "connections": [],
     "entities": [
       {
-        "type": "npc",
+        "type": "warp",
+        "x": 11,
+        "y": 7,
+        "z": 3,
         "data": {
-          "id": 1,
+          "target": {
+            "warp": "warp-0",
+            "map": {
+              "id": "map-1-96"
+            }
+          }
+        },
+        "id": "warp-0"
+      },
+      {
+        "type": "interactable",
+        "x": 7,
+        "y": 2,
+        "z": 0,
+        "data": {
+          "type": "script",
+          "script": {
+            "symbol": "mt。Ember6Interactable0Main",
+            "path": "scripts/interactable/0.s"
+          },
+          "direction": "up"
+        },
+        "id": "interactable-0"
+      },
+      {
+        "type": "object",
+        "x": 7,
+        "y": 7,
+        "z": 0,
+        "data": {
           "sprite": 99,
           "replacement": 0,
-          "x": 7,
-          "y": 7,
-          "height": 0,
           "behavior": 8,
           "boundary": {
             "x": 0,
             "y": 0
           },
           "property": 0,
-          "view_radius": 0,
+          "viewRadius": 0,
           "script": {
-            "symbol": "mt。Ember6Npc0Main",
-            "path": "scripts/npc/0.s"
+            "symbol": "mt。Ember6Object0Main",
+            "path": "scripts/object/0.s"
           },
           "flag": 138
-        }
-      },
-      {
-        "type": "warp",
-        "data": {
-          "x": 11,
-          "y": 7,
-          "height": 3,
-          "target": {
-            "warp": 0,
-            "map": {
-              "id": "map-1-96"
-            }
-          }
-        }
-      },
-      {
-        "type": "sign",
-        "data": {
-          "x": 7,
-          "y": 2,
-          "height": 0,
-          "type": "script_up",
-          "script": {
-            "symbol": "mt。Ember6Sign0Main",
-            "path": "scripts/sign/0.s"
-          }
-        }
+        },
+        "id": "object-1"
       }
     ]
   }

@@ -5853,464 +5853,481 @@
     ],
     "entities": [
       {
-        "type": "npc",
-        "data": {
-          "id": 1,
-          "sprite": 23,
-          "replacement": 0,
-          "x": 22,
-          "y": 11,
-          "height": 3,
-          "behavior": 5,
-          "boundary": {
-            "x": 4,
-            "y": 1
-          },
-          "property": 0,
-          "view_radius": 0,
-          "script": {
-            "symbol": "vermilionCityNpc0Main",
-            "path": "scripts/npc/0.s"
-          },
-          "flag": 0
-        }
-      },
-      {
-        "type": "npc",
-        "data": {
-          "id": 2,
-          "sprite": 32,
-          "replacement": 0,
-          "x": 17,
-          "y": 9,
-          "height": 3,
-          "behavior": 1,
-          "boundary": {
-            "x": 1,
-            "y": 1
-          },
-          "property": 0,
-          "view_radius": 0,
-          "script": {
-            "symbol": "vermilionCityNpc1Main",
-            "path": "scripts/npc/1.s"
-          },
-          "flag": 0
-        }
-      },
-      {
-        "type": "npc",
-        "data": {
-          "id": 3,
-          "sprite": 33,
-          "replacement": 0,
-          "x": 36,
-          "y": 10,
-          "height": 0,
-          "behavior": 17,
-          "boundary": {
-            "x": 1,
-            "y": 1
-          },
-          "property": 0,
-          "view_radius": 0,
-          "script": {
-            "symbol": "vermilionCityNpc2Main",
-            "path": "scripts/npc/2.s"
-          },
-          "flag": 0
-        }
-      },
-      {
-        "type": "npc",
-        "data": {
-          "id": 4,
-          "sprite": 130,
-          "replacement": 0,
-          "x": 35,
-          "y": 11,
-          "height": 3,
-          "behavior": 2,
-          "boundary": {
-            "x": 2,
-            "y": 2
-          },
-          "property": 0,
-          "view_radius": 0,
-          "script": {
-            "symbol": "vermilionCityNpc3Main",
-            "path": "scripts/npc/3.s"
-          },
-          "flag": 0
-        }
-      },
-      {
-        "type": "npc",
-        "data": {
-          "id": 5,
-          "sprite": 62,
-          "replacement": 0,
-          "x": 31,
-          "y": 30,
-          "height": 3,
-          "behavior": 5,
-          "boundary": {
-            "x": 4,
-            "y": 1
-          },
-          "property": 0,
-          "view_radius": 0,
-          "script": {
-            "symbol": "vermilionCityNpc4Main",
-            "path": "scripts/npc/4.s"
-          },
-          "flag": 0
-        }
-      },
-      {
-        "type": "npc",
-        "data": {
-          "id": 6,
-          "sprite": 62,
-          "replacement": 0,
-          "x": 24,
-          "y": 33,
-          "height": 3,
-          "behavior": 7,
-          "boundary": {
-            "x": 1,
-            "y": 1
-          },
-          "property": 0,
-          "view_radius": 0,
-          "script": {
-            "symbol": "vermilionCityNpc5Main",
-            "path": "scripts/npc/5.s"
-          },
-          "flag": 0
-        }
-      },
-      {
-        "type": "npc",
-        "data": {
-          "id": 7,
-          "sprite": 95,
-          "replacement": 0,
-          "x": 19,
-          "y": 24,
-          "height": 3,
-          "behavior": 8,
-          "boundary": {
-            "x": 1,
-            "y": 1
-          },
-          "property": 0,
-          "view_radius": 0,
-          "script": {
-            "symbol": "vermilionCityNpc6Main",
-            "path": "scripts/npc/6.s"
-          },
-          "flag": 18
-        }
-      },
-      {
-        "type": "npc",
-        "data": {
-          "id": 8,
-          "sprite": 55,
-          "replacement": 0,
-          "x": 25,
-          "y": 7,
-          "height": 3,
-          "behavior": 1,
-          "boundary": {
-            "x": 4,
-            "y": 1
-          },
-          "property": 0,
-          "view_radius": 0,
-          "script": {
-            "symbol": "vermilionCityNpc7Main",
-            "path": "scripts/npc/7.s"
-          },
-          "flag": 161
-        }
-      },
-      {
         "type": "warp",
+        "x": 22,
+        "y": 34,
+        "z": 3,
         "data": {
-          "x": 22,
-          "y": 34,
-          "height": 3,
           "target": {
-            "warp": 1,
+            "warp": "warp-1",
             "map": {
               "id": "map-1-4"
             }
           }
-        }
+        },
+        "id": "warp-0"
       },
       {
         "type": "warp",
+        "x": 23,
+        "y": 34,
+        "z": 3,
         "data": {
-          "x": 23,
-          "y": 34,
-          "height": 3,
           "target": {
-            "warp": 1,
+            "warp": "warp-1",
             "map": {
               "id": "map-1-4"
             }
           }
-        }
+        },
+        "id": "warp-1"
       },
       {
         "type": "warp",
+        "x": 24,
+        "y": 34,
+        "z": 3,
         "data": {
-          "x": 24,
-          "y": 34,
-          "height": 3,
           "target": {
-            "warp": 1,
+            "warp": "warp-1",
             "map": {
               "id": "map-1-4"
             }
           }
-        }
+        },
+        "id": "warp-2"
       },
       {
         "type": "warp",
+        "x": 9,
+        "y": 6,
+        "z": 0,
         "data": {
-          "x": 9,
-          "y": 6,
-          "height": 0,
           "target": {
-            "warp": 1,
+            "warp": "warp-1",
             "map": {
               "id": "map-9-0"
             }
           }
-        }
+        },
+        "id": "warp-3"
       },
       {
         "type": "warp",
+        "x": 15,
+        "y": 6,
+        "z": 3,
         "data": {
-          "x": 15,
-          "y": 6,
-          "height": 3,
           "target": {
-            "warp": 1,
+            "warp": "warp-1",
             "map": {
               "id": "map-9-1"
             }
           }
-        }
+        },
+        "id": "warp-4"
       },
       {
         "type": "warp",
+        "x": 12,
+        "y": 17,
+        "z": 0,
         "data": {
-          "x": 12,
-          "y": 17,
-          "height": 0,
           "target": {
-            "warp": 1,
+            "warp": "warp-1",
             "map": {
               "id": "map-9-3"
             }
           }
-        }
+        },
+        "id": "warp-5"
       },
       {
         "type": "warp",
+        "x": 19,
+        "y": 17,
+        "z": 0,
         "data": {
-          "x": 19,
-          "y": 17,
-          "height": 0,
           "target": {
-            "warp": 1,
+            "warp": "warp-1",
             "map": {
               "id": "map-9-4"
             }
           }
-        }
+        },
+        "id": "warp-6"
       },
       {
         "type": "warp",
+        "x": 29,
+        "y": 17,
+        "z": 0,
         "data": {
-          "x": 29,
-          "y": 17,
-          "height": 0,
           "target": {
-            "warp": 1,
+            "warp": "warp-1",
             "map": {
               "id": "map-9-5"
             }
           }
-        }
+        },
+        "id": "warp-7"
       },
       {
         "type": "warp",
+        "x": 28,
+        "y": 24,
+        "z": 0,
         "data": {
-          "x": 28,
-          "y": 24,
-          "height": 0,
           "target": {
-            "warp": 1,
+            "warp": "warp-1",
             "map": {
               "id": "map-9-7"
             }
           }
-        }
+        },
+        "id": "warp-8"
       },
       {
         "type": "warp",
+        "x": 14,
+        "y": 25,
+        "z": 0,
         "data": {
-          "x": 14,
-          "y": 25,
-          "height": 0,
           "target": {
-            "warp": 1,
+            "warp": "warp-1",
             "map": {
               "id": "map-9-6"
             }
           }
-        }
+        },
+        "id": "warp-9"
       },
       {
-        "type": "sign",
+        "type": "interactable",
+        "x": 33,
+        "y": 6,
+        "z": 0,
         "data": {
-          "x": 33,
-          "y": 6,
-          "height": 0,
           "type": "script",
           "script": {
-            "symbol": "vermilionCitySign0Main",
-            "path": "scripts/sign/0.s"
+            "symbol": "vermilionCityInteractable0Main",
+            "path": "scripts/interactable/0.s"
           }
-        }
+        },
+        "id": "interactable-0"
       },
       {
-        "type": "sign",
+        "type": "interactable",
+        "x": 10,
+        "y": 17,
+        "z": 3,
         "data": {
-          "x": 10,
-          "y": 17,
-          "height": 3,
           "type": "script",
           "script": {
-            "symbol": "vermilionCitySign1Main",
-            "path": "scripts/sign/1.s"
+            "symbol": "vermilionCityInteractable1Main",
+            "path": "scripts/interactable/1.s"
           }
-        }
+        },
+        "id": "interactable-1"
       },
       {
-        "type": "sign",
+        "type": "interactable",
+        "x": 10,
+        "y": 24,
+        "z": 0,
         "data": {
-          "x": 10,
-          "y": 24,
-          "height": 0,
           "type": "script",
           "script": {
-            "symbol": "vermilionCitySign2Main",
-            "path": "scripts/sign/2.s"
+            "symbol": "vermilionCityInteractable2Main",
+            "path": "scripts/interactable/2.s"
           }
-        }
+        },
+        "id": "interactable-2"
       },
       {
-        "type": "sign",
+        "type": "interactable",
+        "x": 34,
+        "y": 18,
+        "z": 0,
         "data": {
-          "x": 34,
-          "y": 18,
-          "height": 0,
           "type": "script",
           "script": {
-            "symbol": "vermilionCitySign3Main",
-            "path": "scripts/sign/3.s"
+            "symbol": "vermilionCityInteractable3Main",
+            "path": "scripts/interactable/3.s"
           }
-        }
+        },
+        "id": "interactable-3"
       },
       {
-        "type": "sign",
+        "type": "interactable",
+        "x": 45,
+        "y": 17,
+        "z": 3,
         "data": {
-          "x": 45,
-          "y": 17,
-          "height": 3,
           "type": "script",
           "script": {
-            "symbol": "vermilionCitySign4Main",
-            "path": "scripts/sign/4.s"
+            "symbol": "vermilionCityInteractable4Main",
+            "path": "scripts/interactable/4.s"
           }
-        }
+        },
+        "id": "interactable-4"
       },
       {
-        "type": "sign",
+        "type": "interactable",
+        "x": 14,
+        "y": 11,
+        "z": 3,
         "data": {
-          "x": 14,
-          "y": 11,
-          "height": 3,
-          "type": "hidden_item2",
+          "type": "hiddenItem",
           "item": 35,
-          "id": 48,
-          "data": {
-            "amount": 1,
-            "exact_required": 0
-          }
-        }
+          "hiddenItemId": 48,
+          "quantity": 1
+        },
+        "id": "interactable-5"
       },
       {
         "type": "trigger",
+        "x": 22,
+        "y": 33,
+        "z": 0,
         "data": {
-          "x": 22,
-          "y": 33,
-          "height": 0,
           "variable": 16467,
           "value": 0,
           "script": {
             "symbol": "vermilionCityTrigger0Main",
             "path": "scripts/trigger/0.s"
           }
-        }
+        },
+        "id": "trigger-0"
       },
       {
         "type": "trigger",
+        "x": 23,
+        "y": 33,
+        "z": 0,
         "data": {
-          "x": 23,
-          "y": 33,
-          "height": 0,
           "variable": 16467,
           "value": 0,
           "script": {
             "symbol": "vermilionCityTrigger1Main",
             "path": "scripts/trigger/1.s"
           }
-        }
+        },
+        "id": "trigger-1"
       },
       {
         "type": "trigger",
+        "x": 22,
+        "y": 32,
+        "z": 0,
         "data": {
-          "x": 22,
-          "y": 32,
-          "height": 0,
           "variable": 16385,
           "value": 0,
           "script": {
             "symbol": "vermilionCityTrigger2Main",
             "path": "scripts/trigger/2.s"
           }
-        }
+        },
+        "id": "trigger-2"
       },
       {
         "type": "trigger",
+        "x": 23,
+        "y": 32,
+        "z": 0,
         "data": {
-          "x": 23,
-          "y": 32,
-          "height": 0,
           "variable": 16385,
           "value": 0,
           "script": {
             "symbol": "vermilionCityTrigger3Main",
             "path": "scripts/trigger/3.s"
           }
-        }
+        },
+        "id": "trigger-3"
+      },
+      {
+        "type": "object",
+        "x": 22,
+        "y": 11,
+        "z": 3,
+        "data": {
+          "sprite": 23,
+          "replacement": 0,
+          "behavior": 5,
+          "boundary": {
+            "x": 4,
+            "y": 1
+          },
+          "property": 0,
+          "viewRadius": 0,
+          "script": {
+            "symbol": "vermilionCityObject0Main",
+            "path": "scripts/object/0.s"
+          },
+          "flag": 0
+        },
+        "id": "object-1"
+      },
+      {
+        "type": "object",
+        "x": 17,
+        "y": 9,
+        "z": 3,
+        "data": {
+          "sprite": 32,
+          "replacement": 0,
+          "behavior": 1,
+          "boundary": {
+            "x": 1,
+            "y": 1
+          },
+          "property": 0,
+          "viewRadius": 0,
+          "script": {
+            "symbol": "vermilionCityObject1Main",
+            "path": "scripts/object/1.s"
+          },
+          "flag": 0
+        },
+        "id": "object-2"
+      },
+      {
+        "type": "object",
+        "x": 36,
+        "y": 10,
+        "z": 0,
+        "data": {
+          "sprite": 33,
+          "replacement": 0,
+          "behavior": 17,
+          "boundary": {
+            "x": 1,
+            "y": 1
+          },
+          "property": 0,
+          "viewRadius": 0,
+          "script": {
+            "symbol": "vermilionCityObject2Main",
+            "path": "scripts/object/2.s"
+          },
+          "flag": 0
+        },
+        "id": "object-3"
+      },
+      {
+        "type": "object",
+        "x": 35,
+        "y": 11,
+        "z": 3,
+        "data": {
+          "sprite": 130,
+          "replacement": 0,
+          "behavior": 2,
+          "boundary": {
+            "x": 2,
+            "y": 2
+          },
+          "property": 0,
+          "viewRadius": 0,
+          "script": {
+            "symbol": "vermilionCityObject3Main",
+            "path": "scripts/object/3.s"
+          },
+          "flag": 0
+        },
+        "id": "object-4"
+      },
+      {
+        "type": "object",
+        "x": 31,
+        "y": 30,
+        "z": 3,
+        "data": {
+          "sprite": 62,
+          "replacement": 0,
+          "behavior": 5,
+          "boundary": {
+            "x": 4,
+            "y": 1
+          },
+          "property": 0,
+          "viewRadius": 0,
+          "script": {
+            "symbol": "vermilionCityObject4Main",
+            "path": "scripts/object/4.s"
+          },
+          "flag": 0
+        },
+        "id": "object-5"
+      },
+      {
+        "type": "object",
+        "x": 24,
+        "y": 33,
+        "z": 3,
+        "data": {
+          "sprite": 62,
+          "replacement": 0,
+          "behavior": 7,
+          "boundary": {
+            "x": 1,
+            "y": 1
+          },
+          "property": 0,
+          "viewRadius": 0,
+          "script": {
+            "symbol": "vermilionCityObject5Main",
+            "path": "scripts/object/5.s"
+          },
+          "flag": 0
+        },
+        "id": "object-6"
+      },
+      {
+        "type": "object",
+        "x": 19,
+        "y": 24,
+        "z": 3,
+        "data": {
+          "sprite": 95,
+          "replacement": 0,
+          "behavior": 8,
+          "boundary": {
+            "x": 1,
+            "y": 1
+          },
+          "property": 0,
+          "viewRadius": 0,
+          "script": {
+            "symbol": "vermilionCityObject6Main",
+            "path": "scripts/object/6.s"
+          },
+          "flag": 18
+        },
+        "id": "object-7"
+      },
+      {
+        "type": "object",
+        "x": 25,
+        "y": 7,
+        "z": 3,
+        "data": {
+          "sprite": 55,
+          "replacement": 0,
+          "behavior": 1,
+          "boundary": {
+            "x": 4,
+            "y": 1
+          },
+          "property": 0,
+          "viewRadius": 0,
+          "script": {
+            "symbol": "vermilionCityObject7Main",
+            "path": "scripts/object/7.s"
+          },
+          "flag": 161
+        },
+        "id": "object-8"
       }
     ]
   }

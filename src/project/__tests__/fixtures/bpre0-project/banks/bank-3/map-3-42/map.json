@@ -11600,942 +11600,973 @@
     ],
     "entities": [
       {
-        "type": "npc",
-        "data": {
-          "id": 1,
-          "sprite": 60,
-          "replacement": 0,
-          "x": 15,
-          "y": 149,
-          "height": 3,
-          "behavior": 8,
-          "boundary": {
-            "x": 1,
-            "y": 1
-          },
-          "property": 0,
-          "view_radius": 0,
-          "script": {
-            "symbol": "route23Npc0Main",
-            "path": "scripts/npc/0.s"
-          },
-          "flag": 0
-        }
-      },
-      {
-        "type": "npc",
-        "data": {
-          "id": 2,
-          "sprite": 60,
-          "replacement": 0,
-          "x": 8,
-          "y": 140,
-          "height": 3,
-          "behavior": 8,
-          "boundary": {
-            "x": 1,
-            "y": 1
-          },
-          "property": 0,
-          "view_radius": 0,
-          "script": {
-            "symbol": "route23Npc1Main",
-            "path": "scripts/npc/1.s"
-          },
-          "flag": 0
-        }
-      },
-      {
-        "type": "npc",
-        "data": {
-          "id": 3,
-          "sprite": 60,
-          "replacement": 0,
-          "x": 14,
-          "y": 123,
-          "height": 3,
-          "behavior": 8,
-          "boundary": {
-            "x": 1,
-            "y": 1
-          },
-          "property": 0,
-          "view_radius": 0,
-          "script": {
-            "symbol": "route23Npc2Main",
-            "path": "scripts/npc/2.s"
-          },
-          "flag": 0
-        }
-      },
-      {
-        "type": "npc",
-        "data": {
-          "id": 4,
-          "sprite": 60,
-          "replacement": 0,
-          "x": 16,
-          "y": 112,
-          "height": 3,
-          "behavior": 8,
-          "boundary": {
-            "x": 1,
-            "y": 1
-          },
-          "property": 0,
-          "view_radius": 0,
-          "script": {
-            "symbol": "route23Npc3Main",
-            "path": "scripts/npc/3.s"
-          },
-          "flag": 0
-        }
-      },
-      {
-        "type": "npc",
-        "data": {
-          "id": 5,
-          "sprite": 60,
-          "replacement": 0,
-          "x": 10,
-          "y": 94,
-          "height": 3,
-          "behavior": 8,
-          "boundary": {
-            "x": 1,
-            "y": 1
-          },
-          "property": 0,
-          "view_radius": 0,
-          "script": {
-            "symbol": "route23Npc4Main",
-            "path": "scripts/npc/4.s"
-          },
-          "flag": 0
-        }
-      },
-      {
-        "type": "npc",
-        "data": {
-          "id": 6,
-          "sprite": 60,
-          "replacement": 0,
-          "x": 14,
-          "y": 61,
-          "height": 3,
-          "behavior": 8,
-          "boundary": {
-            "x": 1,
-            "y": 1
-          },
-          "property": 0,
-          "view_radius": 0,
-          "script": {
-            "symbol": "route23Npc5Main",
-            "path": "scripts/npc/5.s"
-          },
-          "flag": 0
-        }
-      },
-      {
-        "type": "npc",
-        "data": {
-          "id": 7,
-          "sprite": 60,
-          "replacement": 0,
-          "x": 6,
-          "y": 35,
-          "height": 3,
-          "behavior": 8,
-          "boundary": {
-            "x": 1,
-            "y": 1
-          },
-          "property": 0,
-          "view_radius": 0,
-          "script": {
-            "symbol": "route23Npc6Main",
-            "path": "scripts/npc/6.s"
-          },
-          "flag": 0
-        }
-      },
-      {
         "type": "warp",
+        "x": 5,
+        "y": 28,
+        "z": 3,
         "data": {
-          "x": 5,
-          "y": 28,
-          "height": 3,
           "target": {
-            "warp": 1,
+            "warp": "warp-1",
             "map": {
               "id": "map-1-39"
             }
           }
-        }
+        },
+        "id": "warp-0"
       },
       {
         "type": "warp",
+        "x": 18,
+        "y": 28,
+        "z": 3,
         "data": {
-          "x": 18,
-          "y": 28,
-          "height": 3,
           "target": {
-            "warp": 6,
+            "warp": "warp-6",
             "map": {
               "id": "map-1-40"
             }
           }
-        }
+        },
+        "id": "warp-1"
       },
       {
         "type": "warp",
+        "x": 8,
+        "y": 153,
+        "z": 3,
         "data": {
-          "x": 8,
-          "y": 153,
-          "height": 3,
           "target": {
-            "warp": 0,
+            "warp": "warp-0",
             "map": {
               "id": "map-28-0"
             }
           }
-        }
+        },
+        "id": "warp-2"
       },
       {
         "type": "warp",
+        "x": 9,
+        "y": 154,
+        "z": 0,
         "data": {
-          "x": 9,
-          "y": 154,
-          "height": 0,
           "target": {
-            "warp": 0,
+            "warp": "warp-0",
             "map": {
               "id": "map-28-0"
             }
           }
-        }
+        },
+        "id": "warp-3"
       },
       {
-        "type": "sign",
+        "type": "interactable",
+        "x": 19,
+        "y": 42,
+        "z": 0,
         "data": {
-          "x": 19,
-          "y": 42,
-          "height": 0,
-          "type": "hidden_item2",
+          "type": "hiddenItem",
           "item": 19,
-          "id": 34,
-          "data": {
-            "amount": 1,
-            "exact_required": 0
-          }
-        }
+          "hiddenItemId": 34,
+          "quantity": 1
+        },
+        "id": "interactable-0"
       },
       {
-        "type": "sign",
+        "type": "interactable",
+        "x": 20,
+        "y": 72,
+        "z": 0,
         "data": {
-          "x": 20,
-          "y": 72,
-          "height": 0,
-          "type": "hidden_item2",
+          "type": "hiddenItem",
           "item": 2,
-          "id": 35,
-          "data": {
-            "amount": 1,
-            "exact_required": 0
-          }
-        }
+          "hiddenItemId": 35,
+          "quantity": 1
+        },
+        "id": "interactable-1"
       },
       {
-        "type": "sign",
+        "type": "interactable",
+        "x": 11,
+        "y": 101,
+        "z": 3,
         "data": {
-          "x": 11,
-          "y": 101,
-          "height": 3,
-          "type": "hidden_item2",
+          "type": "hiddenItem",
           "item": 35,
-          "id": 36,
-          "data": {
-            "amount": 1,
-            "exact_required": 0
-          }
-        }
+          "hiddenItemId": 36,
+          "quantity": 1
+        },
+        "id": "interactable-2"
       },
       {
-        "type": "sign",
+        "type": "interactable",
+        "x": 3,
+        "y": 18,
+        "z": 3,
         "data": {
-          "x": 3,
-          "y": 18,
-          "height": 3,
-          "type": "hidden_item2",
+          "type": "hiddenItem",
           "item": 141,
-          "id": 145,
-          "data": {
-            "amount": 1,
-            "exact_required": 0
-          }
-        }
+          "hiddenItemId": 145,
+          "quantity": 1
+        },
+        "id": "interactable-3"
       },
       {
-        "type": "sign",
+        "type": "interactable",
+        "x": 2,
+        "y": 29,
+        "z": 3,
         "data": {
-          "x": 2,
-          "y": 29,
-          "height": 3,
-          "type": "hidden_item2",
+          "type": "hiddenItem",
           "item": 142,
-          "id": 146,
-          "data": {
-            "amount": 1,
-            "exact_required": 0
-          }
-        }
+          "hiddenItemId": 146,
+          "quantity": 1
+        },
+        "id": "interactable-4"
       },
       {
-        "type": "sign",
+        "type": "interactable",
+        "x": 10,
+        "y": 67,
+        "z": 3,
         "data": {
-          "x": 10,
-          "y": 67,
-          "height": 3,
-          "type": "hidden_item2",
+          "type": "hiddenItem",
           "item": 137,
-          "id": 147,
-          "data": {
-            "amount": 1,
-            "exact_required": 0
-          }
-        }
+          "hiddenItemId": 147,
+          "quantity": 1
+        },
+        "id": "interactable-5"
       },
       {
-        "type": "sign",
+        "type": "interactable",
+        "x": 3,
+        "y": 128,
+        "z": 3,
         "data": {
-          "x": 3,
-          "y": 128,
-          "height": 3,
-          "type": "hidden_item2",
+          "type": "hiddenItem",
           "item": 138,
-          "id": 148,
-          "data": {
-            "amount": 1,
-            "exact_required": 0
-          }
-        }
+          "hiddenItemId": 148,
+          "quantity": 1
+        },
+        "id": "interactable-6"
       },
       {
-        "type": "sign",
+        "type": "interactable",
+        "x": 9,
+        "y": 8,
+        "z": 3,
         "data": {
-          "x": 9,
-          "y": 8,
-          "height": 3,
-          "type": "hidden_item2",
+          "type": "hiddenItem",
           "item": 37,
-          "id": 155,
-          "data": {
-            "amount": 1,
-            "exact_required": 0
-          }
-        }
+          "hiddenItemId": 155,
+          "quantity": 1
+        },
+        "id": "interactable-7"
       },
       {
-        "type": "sign",
+        "type": "interactable",
+        "x": 3,
+        "y": 31,
+        "z": 0,
         "data": {
-          "x": 3,
-          "y": 31,
-          "height": 0,
           "type": "script",
           "script": {
-            "symbol": "route23Sign8Main",
-            "path": "scripts/sign/8.s"
+            "symbol": "route23Interactable8Main",
+            "path": "scripts/interactable/8.s"
           }
-        }
+        },
+        "id": "interactable-8"
       },
       {
         "type": "trigger",
+        "x": 13,
+        "y": 149,
+        "z": 3,
         "data": {
-          "x": 13,
-          "y": 149,
-          "height": 3,
           "variable": 16479,
           "value": 1,
           "script": {
             "symbol": "route23Trigger0Main",
             "path": "scripts/trigger/0.s"
           }
-        }
+        },
+        "id": "trigger-0"
       },
       {
         "type": "trigger",
+        "x": 7,
+        "y": 140,
+        "z": 3,
         "data": {
-          "x": 7,
-          "y": 140,
-          "height": 3,
           "variable": 16479,
           "value": 2,
           "script": {
             "symbol": "route23Trigger1Main",
             "path": "scripts/trigger/1.s"
           }
-        }
+        },
+        "id": "trigger-1"
       },
       {
         "type": "trigger",
+        "x": 12,
+        "y": 123,
+        "z": 3,
         "data": {
-          "x": 12,
-          "y": 123,
-          "height": 3,
           "variable": 16479,
           "value": 3,
           "script": {
             "symbol": "route23Trigger2Main",
             "path": "scripts/trigger/2.s"
           }
-        }
+        },
+        "id": "trigger-2"
       },
       {
         "type": "trigger",
+        "x": 11,
+        "y": 111,
+        "z": 0,
         "data": {
-          "x": 11,
-          "y": 111,
-          "height": 0,
           "variable": 16479,
           "value": 4,
           "script": {
             "symbol": "route23Trigger3Main",
             "path": "scripts/trigger/3.s"
           }
-        }
+        },
+        "id": "trigger-3"
       },
       {
         "type": "trigger",
+        "x": 9,
+        "y": 94,
+        "z": 1,
         "data": {
-          "x": 9,
-          "y": 94,
-          "height": 1,
           "variable": 16479,
           "value": 5,
           "script": {
             "symbol": "route23Trigger4Main",
             "path": "scripts/trigger/4.s"
           }
-        }
+        },
+        "id": "trigger-4"
       },
       {
         "type": "trigger",
+        "x": 12,
+        "y": 61,
+        "z": 3,
         "data": {
-          "x": 12,
-          "y": 61,
-          "height": 3,
           "variable": 16479,
           "value": 6,
           "script": {
             "symbol": "route23Trigger5Main",
             "path": "scripts/trigger/5.s"
           }
-        }
+        },
+        "id": "trigger-5"
       },
       {
         "type": "trigger",
+        "x": 1,
+        "y": 35,
+        "z": 0,
         "data": {
-          "x": 1,
-          "y": 35,
-          "height": 0,
           "variable": 16479,
           "value": 7,
           "script": {
             "symbol": "route23Trigger6Main",
             "path": "scripts/trigger/6.s"
           }
-        }
+        },
+        "id": "trigger-6"
       },
       {
         "type": "trigger",
+        "x": 1,
+        "y": 34,
+        "z": 0,
         "data": {
-          "x": 1,
-          "y": 34,
-          "height": 0,
           "variable": 16479,
           "value": 7,
           "script": {
             "symbol": "route23Trigger7Main",
             "path": "scripts/trigger/7.s"
           }
-        }
+        },
+        "id": "trigger-7"
       },
       {
         "type": "trigger",
+        "x": 1,
+        "y": 32,
+        "z": 3,
         "data": {
-          "x": 1,
-          "y": 32,
-          "height": 3,
           "variable": 16479,
           "value": 7,
           "script": {
             "symbol": "route23Trigger8Main",
             "path": "scripts/trigger/8.s"
           }
-        }
+        },
+        "id": "trigger-8"
       },
       {
         "type": "trigger",
+        "x": 1,
+        "y": 33,
+        "z": 0,
         "data": {
-          "x": 1,
-          "y": 33,
-          "height": 0,
           "variable": 16479,
           "value": 7,
           "script": {
             "symbol": "route23Trigger9Main",
             "path": "scripts/trigger/9.s"
           }
-        }
+        },
+        "id": "trigger-9"
       },
       {
         "type": "trigger",
+        "x": 1,
+        "y": 31,
+        "z": 0,
         "data": {
-          "x": 1,
-          "y": 31,
-          "height": 0,
           "variable": 16479,
           "value": 7,
           "script": {
             "symbol": "route23Trigger10Main",
             "path": "scripts/trigger/10.s"
           }
-        }
+        },
+        "id": "trigger-10"
       },
       {
         "type": "trigger",
+        "x": 1,
+        "y": 36,
+        "z": 0,
         "data": {
-          "x": 1,
-          "y": 36,
-          "height": 0,
           "variable": 16479,
           "value": 7,
           "script": {
             "symbol": "route23Trigger11Main",
             "path": "scripts/trigger/11.s"
           }
-        }
+        },
+        "id": "trigger-11"
       },
       {
         "type": "trigger",
+        "x": 5,
+        "y": 35,
+        "z": 3,
         "data": {
-          "x": 5,
-          "y": 35,
-          "height": 3,
           "variable": 16479,
           "value": 7,
           "script": {
             "symbol": "route23Trigger12Main",
             "path": "scripts/trigger/12.s"
           }
-        }
+        },
+        "id": "trigger-12"
       },
       {
         "type": "trigger",
+        "x": 4,
+        "y": 35,
+        "z": 3,
         "data": {
-          "x": 4,
-          "y": 35,
-          "height": 3,
           "variable": 16479,
           "value": 7,
           "script": {
             "symbol": "route23Trigger13Main",
             "path": "scripts/trigger/13.s"
           }
-        }
+        },
+        "id": "trigger-13"
       },
       {
         "type": "trigger",
+        "x": 10,
+        "y": 60,
+        "z": 0,
         "data": {
-          "x": 10,
-          "y": 60,
-          "height": 0,
           "variable": 16479,
           "value": 6,
           "script": {
             "symbol": "route23Trigger14Main",
             "path": "scripts/trigger/14.s"
           }
-        }
+        },
+        "id": "trigger-14"
       },
       {
         "type": "trigger",
+        "x": 13,
+        "y": 61,
+        "z": 3,
         "data": {
-          "x": 13,
-          "y": 61,
-          "height": 3,
           "variable": 16479,
           "value": 6,
           "script": {
             "symbol": "route23Trigger15Main",
             "path": "scripts/trigger/15.s"
           }
-        }
+        },
+        "id": "trigger-15"
       },
       {
         "type": "trigger",
+        "x": 11,
+        "y": 60,
+        "z": 0,
         "data": {
-          "x": 11,
-          "y": 60,
-          "height": 0,
           "variable": 16479,
           "value": 6,
           "script": {
             "symbol": "route23Trigger16Main",
             "path": "scripts/trigger/16.s"
           }
-        }
+        },
+        "id": "trigger-16"
       },
       {
         "type": "trigger",
+        "x": 8,
+        "y": 94,
+        "z": 1,
         "data": {
-          "x": 8,
-          "y": 94,
-          "height": 1,
           "variable": 16479,
           "value": 5,
           "script": {
             "symbol": "route23Trigger17Main",
             "path": "scripts/trigger/17.s"
           }
-        }
+        },
+        "id": "trigger-17"
       },
       {
         "type": "trigger",
+        "x": 5,
+        "y": 92,
+        "z": 1,
         "data": {
-          "x": 5,
-          "y": 92,
-          "height": 1,
           "variable": 16479,
           "value": 5,
           "script": {
             "symbol": "route23Trigger18Main",
             "path": "scripts/trigger/18.s"
           }
-        }
+        },
+        "id": "trigger-18"
       },
       {
         "type": "trigger",
+        "x": 7,
+        "y": 94,
+        "z": 1,
         "data": {
-          "x": 7,
-          "y": 94,
-          "height": 1,
           "variable": 16479,
           "value": 5,
           "script": {
             "symbol": "route23Trigger19Main",
             "path": "scripts/trigger/19.s"
           }
-        }
+        },
+        "id": "trigger-19"
       },
       {
         "type": "trigger",
+        "x": 4,
+        "y": 92,
+        "z": 1,
         "data": {
-          "x": 4,
-          "y": 92,
-          "height": 1,
           "variable": 16479,
           "value": 5,
           "script": {
             "symbol": "route23Trigger20Main",
             "path": "scripts/trigger/20.s"
           }
-        }
+        },
+        "id": "trigger-20"
       },
       {
         "type": "trigger",
+        "x": 3,
+        "y": 92,
+        "z": 1,
         "data": {
-          "x": 3,
-          "y": 92,
-          "height": 1,
           "variable": 16479,
           "value": 5,
           "script": {
             "symbol": "route23Trigger21Main",
             "path": "scripts/trigger/21.s"
           }
-        }
+        },
+        "id": "trigger-21"
       },
       {
         "type": "trigger",
+        "x": 2,
+        "y": 92,
+        "z": 1,
         "data": {
-          "x": 2,
-          "y": 92,
-          "height": 1,
           "variable": 16479,
           "value": 5,
           "script": {
             "symbol": "route23Trigger22Main",
             "path": "scripts/trigger/22.s"
           }
-        }
+        },
+        "id": "trigger-22"
       },
       {
         "type": "trigger",
+        "x": 4,
+        "y": 139,
+        "z": 0,
         "data": {
-          "x": 4,
-          "y": 139,
-          "height": 0,
           "variable": 16479,
           "value": 2,
           "script": {
             "symbol": "route23Trigger23Main",
             "path": "scripts/trigger/23.s"
           }
-        }
+        },
+        "id": "trigger-23"
       },
       {
         "type": "trigger",
+        "x": 5,
+        "y": 139,
+        "z": 0,
         "data": {
-          "x": 5,
-          "y": 139,
-          "height": 0,
           "variable": 16479,
           "value": 2,
           "script": {
             "symbol": "route23Trigger24Main",
             "path": "scripts/trigger/24.s"
           }
-        }
+        },
+        "id": "trigger-24"
       },
       {
         "type": "trigger",
+        "x": 6,
+        "y": 140,
+        "z": 3,
         "data": {
-          "x": 6,
-          "y": 140,
-          "height": 3,
           "variable": 16479,
           "value": 2,
           "script": {
             "symbol": "route23Trigger25Main",
             "path": "scripts/trigger/25.s"
           }
-        }
+        },
+        "id": "trigger-25"
       },
       {
         "type": "trigger",
+        "x": 10,
+        "y": 122,
+        "z": 0,
         "data": {
-          "x": 10,
-          "y": 122,
-          "height": 0,
           "variable": 16479,
           "value": 3,
           "script": {
             "symbol": "route23Trigger26Main",
             "path": "scripts/trigger/26.s"
           }
-        }
+        },
+        "id": "trigger-26"
       },
       {
         "type": "trigger",
+        "x": 11,
+        "y": 122,
+        "z": 0,
         "data": {
-          "x": 11,
-          "y": 122,
-          "height": 0,
           "variable": 16479,
           "value": 3,
           "script": {
             "symbol": "route23Trigger27Main",
             "path": "scripts/trigger/27.s"
           }
-        }
+        },
+        "id": "trigger-27"
       },
       {
         "type": "trigger",
+        "x": 13,
+        "y": 123,
+        "z": 3,
         "data": {
-          "x": 13,
-          "y": 123,
-          "height": 3,
           "variable": 16479,
           "value": 3,
           "script": {
             "symbol": "route23Trigger28Main",
             "path": "scripts/trigger/28.s"
           }
-        }
+        },
+        "id": "trigger-28"
       },
       {
         "type": "trigger",
+        "x": 8,
+        "y": 109,
+        "z": 1,
         "data": {
-          "x": 8,
-          "y": 109,
-          "height": 1,
           "variable": 16479,
           "value": 4,
           "script": {
             "symbol": "route23Trigger29Main",
             "path": "scripts/trigger/29.s"
           }
-        }
+        },
+        "id": "trigger-29"
       },
       {
         "type": "trigger",
+        "x": 9,
+        "y": 109,
+        "z": 1,
         "data": {
-          "x": 9,
-          "y": 109,
-          "height": 1,
           "variable": 16479,
           "value": 4,
           "script": {
             "symbol": "route23Trigger30Main",
             "path": "scripts/trigger/30.s"
           }
-        }
+        },
+        "id": "trigger-30"
       },
       {
         "type": "trigger",
+        "x": 10,
+        "y": 109,
+        "z": 1,
         "data": {
-          "x": 10,
-          "y": 109,
-          "height": 1,
           "variable": 16479,
           "value": 4,
           "script": {
             "symbol": "route23Trigger31Main",
             "path": "scripts/trigger/31.s"
           }
-        }
+        },
+        "id": "trigger-31"
       },
       {
         "type": "trigger",
+        "x": 11,
+        "y": 109,
+        "z": 1,
         "data": {
-          "x": 11,
-          "y": 109,
-          "height": 1,
           "variable": 16479,
           "value": 4,
           "script": {
             "symbol": "route23Trigger32Main",
             "path": "scripts/trigger/32.s"
           }
-        }
+        },
+        "id": "trigger-32"
       },
       {
         "type": "trigger",
+        "x": 12,
+        "y": 109,
+        "z": 1,
         "data": {
-          "x": 12,
-          "y": 109,
-          "height": 1,
           "variable": 16479,
           "value": 4,
           "script": {
             "symbol": "route23Trigger33Main",
             "path": "scripts/trigger/33.s"
           }
-        }
+        },
+        "id": "trigger-33"
       },
       {
         "type": "trigger",
+        "x": 12,
+        "y": 111,
+        "z": 0,
         "data": {
-          "x": 12,
-          "y": 111,
-          "height": 0,
           "variable": 16479,
           "value": 4,
           "script": {
             "symbol": "route23Trigger34Main",
             "path": "scripts/trigger/34.s"
           }
-        }
+        },
+        "id": "trigger-34"
       },
       {
         "type": "trigger",
+        "x": 14,
+        "y": 112,
+        "z": 1,
         "data": {
-          "x": 14,
-          "y": 112,
-          "height": 1,
           "variable": 16479,
           "value": 4,
           "script": {
             "symbol": "route23Trigger35Main",
             "path": "scripts/trigger/35.s"
           }
-        }
+        },
+        "id": "trigger-35"
       },
       {
         "type": "trigger",
+        "x": 13,
+        "y": 112,
+        "z": 1,
         "data": {
-          "x": 13,
-          "y": 112,
-          "height": 1,
           "variable": 16479,
           "value": 4,
           "script": {
             "symbol": "route23Trigger36Main",
             "path": "scripts/trigger/36.s"
           }
-        }
+        },
+        "id": "trigger-36"
       },
       {
         "type": "trigger",
+        "x": 15,
+        "y": 112,
+        "z": 1,
         "data": {
-          "x": 15,
-          "y": 112,
-          "height": 1,
           "variable": 16479,
           "value": 4,
           "script": {
             "symbol": "route23Trigger37Main",
             "path": "scripts/trigger/37.s"
           }
-        }
+        },
+        "id": "trigger-37"
       },
       {
         "type": "trigger",
+        "x": 12,
+        "y": 148,
+        "z": 0,
         "data": {
-          "x": 12,
-          "y": 148,
-          "height": 0,
           "variable": 16479,
           "value": 1,
           "script": {
             "symbol": "route23Trigger38Main",
             "path": "scripts/trigger/38.s"
           }
-        }
+        },
+        "id": "trigger-38"
       },
       {
         "type": "trigger",
+        "x": 11,
+        "y": 148,
+        "z": 0,
         "data": {
-          "x": 11,
-          "y": 148,
-          "height": 0,
           "variable": 16479,
           "value": 1,
           "script": {
             "symbol": "route23Trigger39Main",
             "path": "scripts/trigger/39.s"
           }
-        }
+        },
+        "id": "trigger-39"
       },
       {
         "type": "trigger",
+        "x": 14,
+        "y": 149,
+        "z": 3,
         "data": {
-          "x": 14,
-          "y": 149,
-          "height": 3,
           "variable": 16479,
           "value": 1,
           "script": {
             "symbol": "route23Trigger40Main",
             "path": "scripts/trigger/40.s"
           }
-        }
+        },
+        "id": "trigger-40"
       },
       {
         "type": "trigger",
+        "x": 10,
+        "y": 148,
+        "z": 0,
         "data": {
-          "x": 10,
-          "y": 148,
-          "height": 0,
           "variable": 16479,
           "value": 1,
           "script": {
             "symbol": "route23Trigger41Main",
             "path": "scripts/trigger/41.s"
           }
-        }
+        },
+        "id": "trigger-41"
+      },
+      {
+        "type": "object",
+        "x": 15,
+        "y": 149,
+        "z": 3,
+        "data": {
+          "sprite": 60,
+          "replacement": 0,
+          "behavior": 8,
+          "boundary": {
+            "x": 1,
+            "y": 1
+          },
+          "property": 0,
+          "viewRadius": 0,
+          "script": {
+            "symbol": "route23Object0Main",
+            "path": "scripts/object/0.s"
+          },
+          "flag": 0
+        },
+        "id": "object-1"
+      },
+      {
+        "type": "object",
+        "x": 8,
+        "y": 140,
+        "z": 3,
+        "data": {
+          "sprite": 60,
+          "replacement": 0,
+          "behavior": 8,
+          "boundary": {
+            "x": 1,
+            "y": 1
+          },
+          "property": 0,
+          "viewRadius": 0,
+          "script": {
+            "symbol": "route23Object1Main",
+            "path": "scripts/object/1.s"
+          },
+          "flag": 0
+        },
+        "id": "object-2"
+      },
+      {
+        "type": "object",
+        "x": 14,
+        "y": 123,
+        "z": 3,
+        "data": {
+          "sprite": 60,
+          "replacement": 0,
+          "behavior": 8,
+          "boundary": {
+            "x": 1,
+            "y": 1
+          },
+          "property": 0,
+          "viewRadius": 0,
+          "script": {
+            "symbol": "route23Object2Main",
+            "path": "scripts/object/2.s"
+          },
+          "flag": 0
+        },
+        "id": "object-3"
+      },
+      {
+        "type": "object",
+        "x": 16,
+        "y": 112,
+        "z": 3,
+        "data": {
+          "sprite": 60,
+          "replacement": 0,
+          "behavior": 8,
+          "boundary": {
+            "x": 1,
+            "y": 1
+          },
+          "property": 0,
+          "viewRadius": 0,
+          "script": {
+            "symbol": "route23Object3Main",
+            "path": "scripts/object/3.s"
+          },
+          "flag": 0
+        },
+        "id": "object-4"
+      },
+      {
+        "type": "object",
+        "x": 10,
+        "y": 94,
+        "z": 3,
+        "data": {
+          "sprite": 60,
+          "replacement": 0,
+          "behavior": 8,
+          "boundary": {
+            "x": 1,
+            "y": 1
+          },
+          "property": 0,
+          "viewRadius": 0,
+          "script": {
+            "symbol": "route23Object4Main",
+            "path": "scripts/object/4.s"
+          },
+          "flag": 0
+        },
+        "id": "object-5"
+      },
+      {
+        "type": "object",
+        "x": 14,
+        "y": 61,
+        "z": 3,
+        "data": {
+          "sprite": 60,
+          "replacement": 0,
+          "behavior": 8,
+          "boundary": {
+            "x": 1,
+            "y": 1
+          },
+          "property": 0,
+          "viewRadius": 0,
+          "script": {
+            "symbol": "route23Object5Main",
+            "path": "scripts/object/5.s"
+          },
+          "flag": 0
+        },
+        "id": "object-6"
+      },
+      {
+        "type": "object",
+        "x": 6,
+        "y": 35,
+        "z": 3,
+        "data": {
+          "sprite": 60,
+          "replacement": 0,
+          "behavior": 8,
+          "boundary": {
+            "x": 1,
+            "y": 1
+          },
+          "property": 0,
+          "viewRadius": 0,
+          "script": {
+            "symbol": "route23Object6Main",
+            "path": "scripts/object/6.s"
+          },
+          "flag": 0
+        },
+        "id": "object-7"
       }
     ]
   }

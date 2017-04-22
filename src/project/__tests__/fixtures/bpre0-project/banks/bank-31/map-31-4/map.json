@@ -12,14 +12,6 @@
     "linked": {
       "id": "map-5-5"
     },
-    "blocksets": {
-      "primary": {
-        "id": "blockset-0"
-      },
-      "secondary": {
-        "id": "blockset-44"
-      }
-    },
     "scripts": [
       {
         "type": "handler_env1",
@@ -169,138 +161,141 @@
     "connections": [],
     "entities": [
       {
-        "type": "npc",
+        "type": "warp",
+        "x": 1,
+        "y": 6,
+        "z": 4,
         "data": {
-          "id": 1,
+          "target": {
+            "warp": "warp-1",
+            "map": {
+              "id": "map-31-3"
+            }
+          }
+        },
+        "id": "warp-0"
+      },
+      {
+        "type": "warp",
+        "x": 5,
+        "y": 1,
+        "z": 0,
+        "data": {
+          "target": {
+            "warp": "warp-0",
+            "map": {
+              "id": "map-0-4"
+            }
+          }
+        },
+        "id": "warp-1"
+      },
+      {
+        "type": "warp",
+        "x": 9,
+        "y": 1,
+        "z": 0,
+        "data": {
+          "target": {
+            "warp": "warp-0",
+            "map": {
+              "id": "map-0-1"
+            }
+          }
+        },
+        "id": "warp-2"
+      },
+      {
+        "type": "object",
+        "x": 6,
+        "y": 2,
+        "z": 3,
+        "data": {
           "sprite": 65,
           "replacement": 0,
-          "x": 6,
-          "y": 2,
-          "height": 3,
           "behavior": 8,
           "boundary": {
             "x": 0,
             "y": 0
           },
           "property": 0,
-          "view_radius": 0,
+          "viewRadius": 0,
           "script": {
-            "symbol": "sevenIsland5Npc0Main",
-            "path": "scripts/npc/0.s"
+            "symbol": "sevenIsland5Object0Main",
+            "path": "scripts/object/0.s"
           },
           "flag": 0
-        }
+        },
+        "id": "object-1"
       },
       {
-        "type": "npc",
+        "type": "object",
+        "x": 2,
+        "y": 2,
+        "z": 3,
         "data": {
-          "id": 2,
           "sprite": 65,
           "replacement": 0,
-          "x": 2,
-          "y": 2,
-          "height": 3,
           "behavior": 8,
           "boundary": {
             "x": 0,
             "y": 0
           },
           "property": 0,
-          "view_radius": 0,
+          "viewRadius": 0,
           "script": {
-            "symbol": "sevenIsland5Npc1Main",
-            "path": "scripts/npc/1.s"
+            "symbol": "sevenIsland5Object1Main",
+            "path": "scripts/object/1.s"
           },
           "flag": 0
-        }
+        },
+        "id": "object-2"
       },
       {
-        "type": "npc",
+        "type": "object",
+        "x": 10,
+        "y": 2,
+        "z": 3,
         "data": {
-          "id": 3,
           "sprite": 65,
           "replacement": 0,
-          "x": 10,
-          "y": 2,
-          "height": 3,
           "behavior": 8,
           "boundary": {
             "x": 0,
             "y": 0
           },
           "property": 0,
-          "view_radius": 0,
+          "viewRadius": 0,
           "script": {
-            "symbol": "sevenIsland5Npc2Main",
-            "path": "scripts/npc/2.s"
+            "symbol": "sevenIsland5Object2Main",
+            "path": "scripts/object/2.s"
           },
           "flag": 0
-        }
+        },
+        "id": "object-3"
       },
       {
-        "type": "npc",
+        "type": "object",
+        "x": 1,
+        "y": 2,
+        "z": 3,
         "data": {
-          "id": 4,
           "sprite": 69,
           "replacement": 0,
-          "x": 1,
-          "y": 2,
-          "height": 3,
           "behavior": 8,
           "boundary": {
             "x": 1,
             "y": 1
           },
           "property": 0,
-          "view_radius": 0,
+          "viewRadius": 0,
           "script": {
-            "symbol": "sevenIsland5Npc3Main",
-            "path": "scripts/npc/3.s"
+            "symbol": "sevenIsland5Object3Main",
+            "path": "scripts/object/3.s"
           },
           "flag": 112
-        }
-      },
-      {
-        "type": "warp",
-        "data": {
-          "x": 1,
-          "y": 6,
-          "height": 4,
-          "target": {
-            "warp": 1,
-            "map": {
-              "id": "map-31-3"
-            }
-          }
-        }
-      },
-      {
-        "type": "warp",
-        "data": {
-          "x": 5,
-          "y": 1,
-          "height": 0,
-          "target": {
-            "warp": 0,
-            "map": {
-              "id": "map-0-4"
-            }
-          }
-        }
-      },
-      {
-        "type": "warp",
-        "data": {
-          "x": 9,
-          "y": 1,
-          "height": 0,
-          "target": {
-            "warp": 0,
-            "map": {
-              "id": "map-0-1"
-            }
-          }
-        }
+        },
+        "id": "object-4"
       }
     ]
   }

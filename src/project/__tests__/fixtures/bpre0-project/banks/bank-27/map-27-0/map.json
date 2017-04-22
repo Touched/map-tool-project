@@ -12,14 +12,6 @@
     "linked": {
       "id": "map-6-4"
     },
-    "blocksets": {
-      "primary": {
-        "id": "blockset-0"
-      },
-      "secondary": {
-        "id": "blockset-8"
-      }
-    },
     "scripts": [],
     "connections": [],
     "entities": []

@@ -1505,175 +1505,179 @@
     "connections": [],
     "entities": [
       {
-        "type": "npc",
+        "type": "warp",
+        "x": 10,
+        "y": 19,
+        "z": 3,
         "data": {
-          "id": 1,
+          "target": {
+            "warp": "warp-0",
+            "map": {
+              "id": "map-3-4"
+            }
+          }
+        },
+        "id": "warp-0"
+      },
+      {
+        "type": "warp",
+        "x": 11,
+        "y": 18,
+        "z": 3,
+        "data": {
+          "target": {
+            "warp": "warp-0",
+            "map": {
+              "id": "map-3-4"
+            }
+          }
+        },
+        "id": "warp-1"
+      },
+      {
+        "type": "warp",
+        "x": 12,
+        "y": 19,
+        "z": 3,
+        "data": {
+          "target": {
+            "warp": "warp-0",
+            "map": {
+              "id": "map-3-4"
+            }
+          }
+        },
+        "id": "warp-2"
+      },
+      {
+        "type": "warp",
+        "x": 18,
+        "y": 9,
+        "z": 3,
+        "data": {
+          "target": {
+            "warp": "warp-1",
+            "map": {
+              "id": "map-1-89"
+            }
+          }
+        },
+        "id": "warp-3"
+      },
+      {
+        "type": "object",
+        "x": 18,
+        "y": 13,
+        "z": 3,
+        "data": {
           "sprite": 48,
           "replacement": 0,
-          "x": 18,
-          "y": 13,
-          "height": 3,
           "behavior": 7,
           "boundary": {
             "x": 1,
             "y": 1
           },
           "property": 0,
-          "view_radius": 0,
+          "viewRadius": 0,
           "script": {
-            "symbol": "pokひmonTowerNpc0Main",
-            "path": "scripts/npc/0.s"
+            "symbol": "pokひmonTowerObject0Main",
+            "path": "scripts/object/0.s"
           },
           "flag": 0
-        }
+        },
+        "id": "object-1"
       },
       {
-        "type": "npc",
+        "type": "object",
+        "x": 18,
+        "y": 7,
+        "z": 3,
         "data": {
-          "id": 2,
           "sprite": 58,
           "replacement": 0,
-          "x": 18,
-          "y": 7,
-          "height": 3,
           "behavior": 9,
           "boundary": {
             "x": 1,
             "y": 1
           },
           "property": 0,
-          "view_radius": 0,
+          "viewRadius": 0,
           "script": {
-            "symbol": "pokひmonTowerNpc1Main",
-            "path": "scripts/npc/1.s"
+            "symbol": "pokひmonTowerObject1Main",
+            "path": "scripts/object/1.s"
           },
           "flag": 0
-        }
+        },
+        "id": "object-2"
       },
       {
-        "type": "npc",
+        "type": "object",
+        "x": 15,
+        "y": 6,
+        "z": 3,
         "data": {
-          "id": 3,
           "sprite": 28,
           "replacement": 0,
-          "x": 15,
-          "y": 6,
-          "height": 3,
           "behavior": 7,
           "boundary": {
             "x": 1,
             "y": 1
           },
           "property": 0,
-          "view_radius": 0,
+          "viewRadius": 0,
           "script": {
-            "symbol": "pokひmonTowerNpc2Main",
-            "path": "scripts/npc/2.s"
+            "symbol": "pokひmonTowerObject2Main",
+            "path": "scripts/object/2.s"
           },
           "flag": 0
-        }
+        },
+        "id": "object-3"
       },
       {
-        "type": "npc",
+        "type": "object",
+        "x": 7,
+        "y": 8,
+        "z": 3,
         "data": {
-          "id": 4,
           "sprite": 31,
           "replacement": 0,
-          "x": 7,
-          "y": 8,
-          "height": 3,
           "behavior": 2,
           "boundary": {
             "x": 1,
             "y": 1
           },
           "property": 0,
-          "view_radius": 0,
+          "viewRadius": 0,
           "script": {
-            "symbol": "pokひmonTowerNpc3Main",
-            "path": "scripts/npc/3.s"
+            "symbol": "pokひmonTowerObject3Main",
+            "path": "scripts/object/3.s"
           },
           "flag": 0
-        }
+        },
+        "id": "object-4"
       },
       {
-        "type": "npc",
+        "type": "object",
+        "x": 8,
+        "y": 12,
+        "z": 3,
         "data": {
-          "id": 5,
           "sprite": 30,
           "replacement": 0,
-          "x": 8,
-          "y": 12,
-          "height": 3,
           "behavior": 2,
           "boundary": {
             "x": 2,
             "y": 2
           },
           "property": 0,
-          "view_radius": 0,
+          "viewRadius": 0,
           "script": {
-            "symbol": "pokひmonTowerNpc4Main",
-            "path": "scripts/npc/4.s"
+            "symbol": "pokひmonTowerObject4Main",
+            "path": "scripts/object/4.s"
           },
           "flag": 0
-        }
-      },
-      {
-        "type": "warp",
-        "data": {
-          "x": 10,
-          "y": 19,
-          "height": 3,
-          "target": {
-            "warp": 0,
-            "map": {
-              "id": "map-3-4"
-            }
-          }
-        }
-      },
-      {
-        "type": "warp",
-        "data": {
-          "x": 11,
-          "y": 18,
-          "height": 3,
-          "target": {
-            "warp": 0,
-            "map": {
-              "id": "map-3-4"
-            }
-          }
-        }
-      },
-      {
-        "type": "warp",
-        "data": {
-          "x": 12,
-          "y": 19,
-          "height": 3,
-          "target": {
-            "warp": 0,
-            "map": {
-              "id": "map-3-4"
-            }
-          }
-        }
-      },
-      {
-        "type": "warp",
-        "data": {
-          "x": 18,
-          "y": 9,
-          "height": 3,
-          "target": {
-            "warp": 1,
-            "map": {
-              "id": "map-1-89"
-            }
-          }
-        }
+        },
+        "id": "object-5"
       }
     ]
   }

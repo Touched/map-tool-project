@@ -12,66 +12,60 @@
     "linked": {
       "id": "map-23-2"
     },
-    "blocksets": {
-      "primary": {
-        "id": "blockset-0"
-      },
-      "secondary": {
-        "id": "blockset-8"
-      }
-    },
     "scripts": [],
     "connections": [],
     "entities": [
       {
-        "type": "npc",
+        "type": "warp",
+        "x": 3,
+        "y": 7,
+        "z": 3,
         "data": {
-          "id": 1,
+          "target": {
+            "warp": "warp-0",
+            "map": {
+              "id": "map-3-60"
+            }
+          }
+        },
+        "id": "warp-0"
+      },
+      {
+        "type": "interactable",
+        "x": 9,
+        "y": 1,
+        "z": 0,
+        "data": {
+          "type": "script",
+          "script": {
+            "symbol": "waterPath1Interactable0Main",
+            "path": "scripts/interactable/0.s"
+          }
+        },
+        "id": "interactable-0"
+      },
+      {
+        "type": "object",
+        "x": 3,
+        "y": 4,
+        "z": 3,
+        "data": {
           "sprite": 29,
           "replacement": 0,
-          "x": 3,
-          "y": 4,
-          "height": 3,
           "behavior": 8,
           "boundary": {
             "x": 1,
             "y": 1
           },
           "property": 0,
-          "view_radius": 0,
+          "viewRadius": 0,
           "script": {
-            "symbol": "waterPath1Npc0Main",
-            "path": "scripts/npc/0.s"
+            "symbol": "waterPath1Object0Main",
+            "path": "scripts/object/0.s"
           },
           "flag": 0
-        }
-      },
-      {
-        "type": "warp",
-        "data": {
-          "x": 3,
-          "y": 7,
-          "height": 3,
-          "target": {
-            "warp": 0,
-            "map": {
-              "id": "map-3-60"
-            }
-          }
-        }
-      },
-      {
-        "type": "sign",
-        "data": {
-          "x": 9,
-          "y": 1,
-          "height": 0,
-          "type": "script",
-          "script": {
-            "symbol": "waterPath1Sign0Main",
-            "path": "scripts/sign/0.s"
-          }
-        }
+        },
+        "id": "object-1"
       }
     ]
   }

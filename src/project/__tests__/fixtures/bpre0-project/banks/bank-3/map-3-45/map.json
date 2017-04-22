@@ -10145,739 +10145,744 @@
     ],
     "entities": [
       {
-        "type": "npc",
+        "type": "warp",
+        "x": 11,
+        "y": 6,
+        "z": 3,
         "data": {
-          "id": 1,
+          "target": {
+            "warp": "warp-0",
+            "map": {
+              "id": "map-1-97"
+            }
+          }
+        },
+        "id": "warp-0"
+      },
+      {
+        "type": "warp",
+        "x": 12,
+        "y": 6,
+        "z": 3,
+        "data": {
+          "target": {
+            "warp": "warp-1",
+            "map": {
+              "id": "map-1-97"
+            }
+          }
+        },
+        "id": "warp-1"
+      },
+      {
+        "type": "warp",
+        "x": 15,
+        "y": 58,
+        "z": 3,
+        "data": {
+          "target": {
+            "warp": "warp-0",
+            "map": {
+              "id": "map-2-57"
+            }
+          }
+        },
+        "id": "warp-2"
+      },
+      {
+        "type": "interactable",
+        "x": 13,
+        "y": 59,
+        "z": 0,
+        "data": {
+          "type": "script",
+          "script": {
+            "symbol": "kindleRoadInteractable0Main",
+            "path": "scripts/interactable/0.s"
+          }
+        },
+        "id": "interactable-0"
+      },
+      {
+        "type": "interactable",
+        "x": 8,
+        "y": 115,
+        "z": 0,
+        "data": {
+          "type": "script",
+          "script": {
+            "symbol": "kindleRoadInteractable1Main",
+            "path": "scripts/interactable/1.s"
+          }
+        },
+        "id": "interactable-1"
+      },
+      {
+        "type": "object",
+        "x": 11,
+        "y": 32,
+        "z": 1,
+        "data": {
           "sprite": 44,
           "replacement": 0,
-          "x": 11,
-          "y": 32,
-          "height": 1,
           "behavior": 14,
           "boundary": {
             "x": 1,
             "y": 1
           },
           "property": 1,
-          "view_radius": 4,
+          "viewRadius": 4,
           "script": {
-            "symbol": "kindleRoadNpc0Main",
-            "path": "scripts/npc/0.s"
+            "symbol": "kindleRoadObject0Main",
+            "path": "scripts/object/0.s"
           },
           "flag": 0
-        }
+        },
+        "id": "object-1"
       },
       {
-        "type": "npc",
+        "type": "object",
+        "x": 17,
+        "y": 132,
+        "z": 3,
         "data": {
-          "id": 2,
           "sprite": 46,
           "replacement": 0,
-          "x": 17,
-          "y": 132,
-          "height": 3,
           "behavior": 8,
           "boundary": {
             "x": 1,
             "y": 1
           },
           "property": 1,
-          "view_radius": 2,
+          "viewRadius": 2,
           "script": {
-            "symbol": "kindleRoadNpc1Main",
-            "path": "scripts/npc/1.s"
+            "symbol": "kindleRoadObject1Main",
+            "path": "scripts/object/1.s"
           },
           "flag": 0
-        }
+        },
+        "id": "object-2"
       },
       {
-        "type": "npc",
+        "type": "object",
+        "x": 7,
+        "y": 39,
+        "z": 1,
         "data": {
-          "id": 3,
           "sprite": 43,
           "replacement": 0,
-          "x": 7,
-          "y": 39,
-          "height": 1,
           "behavior": 52,
           "boundary": {
             "x": 6,
             "y": 3
           },
           "property": 1,
-          "view_radius": 1,
+          "viewRadius": 1,
           "script": {
-            "symbol": "kindleRoadNpc2Main",
-            "path": "scripts/npc/2.s"
+            "symbol": "kindleRoadObject2Main",
+            "path": "scripts/object/2.s"
           },
           "flag": 0
-        }
+        },
+        "id": "object-3"
       },
       {
-        "type": "npc",
+        "type": "object",
+        "x": 19,
+        "y": 79,
+        "z": 3,
         "data": {
-          "id": 4,
           "sprite": 45,
           "replacement": 0,
-          "x": 19,
-          "y": 79,
-          "height": 3,
           "behavior": 8,
           "boundary": {
             "x": 1,
             "y": 1
           },
           "property": 1,
-          "view_radius": 1,
+          "viewRadius": 1,
           "script": {
-            "symbol": "kindleRoadNpc3Main",
-            "path": "scripts/npc/3.s"
+            "symbol": "kindleRoadObject3Main",
+            "path": "scripts/object/3.s"
           },
           "flag": 0
-        }
+        },
+        "id": "object-4"
       },
       {
-        "type": "npc",
+        "type": "object",
+        "x": 15,
+        "y": 25,
+        "z": 3,
         "data": {
-          "id": 5,
           "sprite": 57,
           "replacement": 0,
-          "x": 15,
-          "y": 25,
-          "height": 3,
           "behavior": 9,
           "boundary": {
             "x": 1,
             "y": 1
           },
           "property": 1,
-          "view_radius": 0,
+          "viewRadius": 0,
           "script": {
-            "symbol": "kindleRoadNpc4Main",
-            "path": "scripts/npc/4.s"
+            "symbol": "kindleRoadObject4Main",
+            "path": "scripts/object/4.s"
           },
           "flag": 0
-        }
+        },
+        "id": "object-5"
       },
       {
-        "type": "npc",
+        "type": "object",
+        "x": 9,
+        "y": 53,
+        "z": 3,
         "data": {
-          "id": 6,
           "sprite": 24,
           "replacement": 0,
-          "x": 9,
-          "y": 53,
-          "height": 3,
           "behavior": 26,
           "boundary": {
             "x": 1,
             "y": 7
           },
           "property": 1,
-          "view_radius": 1,
+          "viewRadius": 1,
           "script": {
-            "symbol": "kindleRoadNpc5Main",
-            "path": "scripts/npc/5.s"
+            "symbol": "kindleRoadObject5Main",
+            "path": "scripts/object/5.s"
           },
           "flag": 0
-        }
+        },
+        "id": "object-6"
       },
       {
-        "type": "npc",
+        "type": "object",
+        "x": 18,
+        "y": 105,
+        "z": 4,
         "data": {
-          "id": 7,
           "sprite": 24,
           "replacement": 0,
-          "x": 18,
-          "y": 105,
-          "height": 4,
           "behavior": 50,
           "boundary": {
             "x": 1,
             "y": 4
           },
           "property": 1,
-          "view_radius": 1,
+          "viewRadius": 1,
           "script": {
-            "symbol": "kindleRoadNpc6Main",
-            "path": "scripts/npc/6.s"
+            "symbol": "kindleRoadObject6Main",
+            "path": "scripts/object/6.s"
           },
           "flag": 0
-        }
+        },
+        "id": "object-7"
       },
       {
-        "type": "npc",
+        "type": "object",
+        "x": 16,
+        "y": 64,
+        "z": 3,
         "data": {
-          "id": 8,
           "sprite": 54,
           "replacement": 0,
-          "x": 16,
-          "y": 64,
-          "height": 3,
           "behavior": 27,
           "boundary": {
             "x": 2,
             "y": 1
           },
           "property": 1,
-          "view_radius": 1,
+          "viewRadius": 1,
           "script": {
-            "symbol": "kindleRoadNpc7Main",
-            "path": "scripts/npc/7.s"
+            "symbol": "kindleRoadObject7Main",
+            "path": "scripts/object/7.s"
           },
           "flag": 0
-        }
+        },
+        "id": "object-8"
       },
       {
-        "type": "npc",
+        "type": "object",
+        "x": 11,
+        "y": 64,
+        "z": 3,
         "data": {
-          "id": 9,
           "sprite": 54,
           "replacement": 0,
-          "x": 11,
-          "y": 64,
-          "height": 3,
           "behavior": 28,
           "boundary": {
             "x": 2,
             "y": 1
           },
           "property": 1,
-          "view_radius": 1,
+          "viewRadius": 1,
           "script": {
-            "symbol": "kindleRoadNpc8Main",
-            "path": "scripts/npc/8.s"
+            "symbol": "kindleRoadObject8Main",
+            "path": "scripts/object/8.s"
           },
           "flag": 0
-        }
+        },
+        "id": "object-9"
       },
       {
-        "type": "npc",
+        "type": "object",
+        "x": 11,
+        "y": 89,
+        "z": 3,
         "data": {
-          "id": 10,
           "sprite": 39,
           "replacement": 0,
-          "x": 11,
-          "y": 89,
-          "height": 3,
           "behavior": 14,
           "boundary": {
             "x": 1,
             "y": 1
           },
           "property": 1,
-          "view_radius": 3,
+          "viewRadius": 3,
           "script": {
-            "symbol": "kindleRoadNpc9Main",
-            "path": "scripts/npc/9.s"
+            "symbol": "kindleRoadObject9Main",
+            "path": "scripts/object/9.s"
           },
           "flag": 0
-        }
+        },
+        "id": "object-10"
       },
       {
-        "type": "npc",
+        "type": "object",
+        "x": 9,
+        "y": 108,
+        "z": 3,
         "data": {
-          "id": 11,
           "sprite": 40,
           "replacement": 0,
-          "x": 9,
-          "y": 108,
-          "height": 3,
           "behavior": 1,
           "boundary": {
             "x": 1,
             "y": 1
           },
           "property": 1,
-          "view_radius": 1,
+          "viewRadius": 1,
           "script": {
-            "symbol": "kindleRoadNpc10Main",
-            "path": "scripts/npc/10.s"
+            "symbol": "kindleRoadObject10Main",
+            "path": "scripts/object/10.s"
           },
           "flag": 0
-        }
+        },
+        "id": "object-11"
       },
       {
-        "type": "npc",
+        "type": "object",
+        "x": 8,
+        "y": 68,
+        "z": 3,
         "data": {
-          "id": 12,
           "sprite": 54,
           "replacement": 0,
-          "x": 8,
-          "y": 68,
-          "height": 3,
           "behavior": 8,
           "boundary": {
             "x": 1,
             "y": 1
           },
           "property": 1,
-          "view_radius": 1,
+          "viewRadius": 1,
           "script": {
-            "symbol": "kindleRoadNpc11Main",
-            "path": "scripts/npc/11.s"
+            "symbol": "kindleRoadObject11Main",
+            "path": "scripts/object/11.s"
           },
           "flag": 0
-        }
+        },
+        "id": "object-12"
       },
       {
-        "type": "npc",
+        "type": "object",
+        "x": 9,
+        "y": 68,
+        "z": 3,
         "data": {
-          "id": 13,
           "sprite": 24,
           "replacement": 0,
-          "x": 9,
-          "y": 68,
-          "height": 3,
           "behavior": 8,
           "boundary": {
             "x": 1,
             "y": 1
           },
           "property": 1,
-          "view_radius": 1,
+          "viewRadius": 1,
           "script": {
-            "symbol": "kindleRoadNpc12Main",
-            "path": "scripts/npc/12.s"
+            "symbol": "kindleRoadObject12Main",
+            "path": "scripts/object/12.s"
           },
           "flag": 0
-        }
+        },
+        "id": "object-13"
       },
       {
-        "type": "npc",
+        "type": "object",
+        "x": 8,
+        "y": 104,
+        "z": 3,
         "data": {
-          "id": 14,
           "sprite": 96,
           "replacement": 0,
-          "x": 8,
-          "y": 104,
-          "height": 3,
           "behavior": 1,
           "boundary": {
             "x": 1,
             "y": 1
           },
           "property": 0,
-          "view_radius": 0,
+          "viewRadius": 0,
           "script": {
-            "symbol": "kindleRoadNpc13Main",
-            "path": "scripts/npc/13.s"
+            "symbol": "kindleRoadObject13Main",
+            "path": "scripts/object/13.s"
           },
           "flag": 19
-        }
+        },
+        "id": "object-14"
       },
       {
-        "type": "npc",
+        "type": "object",
+        "x": 11,
+        "y": 95,
+        "z": 3,
         "data": {
-          "id": 15,
           "sprite": 96,
           "replacement": 0,
-          "x": 11,
-          "y": 95,
-          "height": 3,
           "behavior": 1,
           "boundary": {
             "x": 1,
             "y": 1
           },
           "property": 0,
-          "view_radius": 0,
+          "viewRadius": 0,
           "script": {
-            "symbol": "kindleRoadNpc14Main",
-            "path": "scripts/npc/14.s"
+            "symbol": "kindleRoadObject14Main",
+            "path": "scripts/object/14.s"
           },
           "flag": 21
-        }
+        },
+        "id": "object-15"
       },
       {
-        "type": "npc",
+        "type": "object",
+        "x": 12,
+        "y": 96,
+        "z": 3,
         "data": {
-          "id": 16,
           "sprite": 96,
           "replacement": 0,
-          "x": 12,
-          "y": 96,
-          "height": 3,
           "behavior": 1,
           "boundary": {
             "x": 1,
             "y": 1
           },
           "property": 0,
-          "view_radius": 0,
+          "viewRadius": 0,
           "script": {
-            "symbol": "kindleRoadNpc15Main",
-            "path": "scripts/npc/15.s"
+            "symbol": "kindleRoadObject15Main",
+            "path": "scripts/object/15.s"
           },
           "flag": 22
-        }
+        },
+        "id": "object-16"
       },
       {
-        "type": "npc",
+        "type": "object",
+        "x": 10,
+        "y": 95,
+        "z": 3,
         "data": {
-          "id": 17,
           "sprite": 96,
           "replacement": 0,
-          "x": 10,
-          "y": 95,
-          "height": 3,
           "behavior": 1,
           "boundary": {
             "x": 1,
             "y": 1
           },
           "property": 0,
-          "view_radius": 0,
+          "viewRadius": 0,
           "script": {
-            "symbol": "kindleRoadNpc16Main",
-            "path": "scripts/npc/16.s"
+            "symbol": "kindleRoadObject16Main",
+            "path": "scripts/object/16.s"
           },
           "flag": 23
-        }
+        },
+        "id": "object-17"
       },
       {
-        "type": "npc",
+        "type": "object",
+        "x": 9,
+        "y": 105,
+        "z": 3,
         "data": {
-          "id": 18,
           "sprite": 96,
           "replacement": 0,
-          "x": 9,
-          "y": 105,
-          "height": 3,
           "behavior": 1,
           "boundary": {
             "x": 1,
             "y": 1
           },
           "property": 0,
-          "view_radius": 0,
+          "viewRadius": 0,
           "script": {
-            "symbol": "kindleRoadNpc17Main",
-            "path": "scripts/npc/17.s"
+            "symbol": "kindleRoadObject17Main",
+            "path": "scripts/object/17.s"
           },
           "flag": 24
-        }
+        },
+        "id": "object-18"
       },
       {
-        "type": "npc",
+        "type": "object",
+        "x": 15,
+        "y": 75,
+        "z": 3,
         "data": {
-          "id": 19,
           "sprite": 96,
           "replacement": 0,
-          "x": 15,
-          "y": 75,
-          "height": 3,
           "behavior": 1,
           "boundary": {
             "x": 1,
             "y": 1
           },
           "property": 0,
-          "view_radius": 0,
+          "viewRadius": 0,
           "script": {
-            "symbol": "kindleRoadNpc18Main",
-            "path": "scripts/npc/18.s"
+            "symbol": "kindleRoadObject18Main",
+            "path": "scripts/object/18.s"
           },
           "flag": 25
-        }
+        },
+        "id": "object-19"
       },
       {
-        "type": "npc",
+        "type": "object",
+        "x": 9,
+        "y": 84,
+        "z": 3,
         "data": {
-          "id": 20,
           "sprite": 96,
           "replacement": 0,
-          "x": 9,
-          "y": 84,
-          "height": 3,
           "behavior": 1,
           "boundary": {
             "x": 1,
             "y": 1
           },
           "property": 0,
-          "view_radius": 0,
+          "viewRadius": 0,
           "script": {
-            "symbol": "kindleRoadNpc19Main",
-            "path": "scripts/npc/19.s"
+            "symbol": "kindleRoadObject19Main",
+            "path": "scripts/object/19.s"
           },
           "flag": 26
-        }
+        },
+        "id": "object-20"
       },
       {
-        "type": "npc",
+        "type": "object",
+        "x": 15,
+        "y": 74,
+        "z": 3,
         "data": {
-          "id": 21,
           "sprite": 96,
           "replacement": 0,
-          "x": 15,
-          "y": 74,
-          "height": 3,
           "behavior": 1,
           "boundary": {
             "x": 1,
             "y": 1
           },
           "property": 0,
-          "view_radius": 0,
+          "viewRadius": 0,
           "script": {
-            "symbol": "kindleRoadNpc20Main",
-            "path": "scripts/npc/20.s"
+            "symbol": "kindleRoadObject20Main",
+            "path": "scripts/object/20.s"
           },
           "flag": 27
-        }
+        },
+        "id": "object-21"
       },
       {
-        "type": "npc",
+        "type": "object",
+        "x": 15,
+        "y": 73,
+        "z": 3,
         "data": {
-          "id": 22,
           "sprite": 96,
           "replacement": 0,
-          "x": 15,
-          "y": 73,
-          "height": 3,
           "behavior": 1,
           "boundary": {
             "x": 1,
             "y": 1
           },
           "property": 0,
-          "view_radius": 0,
+          "viewRadius": 0,
           "script": {
-            "symbol": "kindleRoadNpc21Main",
-            "path": "scripts/npc/21.s"
+            "symbol": "kindleRoadObject21Main",
+            "path": "scripts/object/21.s"
           },
           "flag": 28
-        }
+        },
+        "id": "object-22"
       },
       {
-        "type": "npc",
+        "type": "object",
+        "x": 18,
+        "y": 111,
+        "z": 4,
         "data": {
-          "id": 23,
           "sprite": 96,
           "replacement": 0,
-          "x": 18,
-          "y": 111,
-          "height": 4,
           "behavior": 1,
           "boundary": {
             "x": 1,
             "y": 1
           },
           "property": 0,
-          "view_radius": 0,
+          "viewRadius": 0,
           "script": {
-            "symbol": "kindleRoadNpc22Main",
-            "path": "scripts/npc/22.s"
+            "symbol": "kindleRoadObject22Main",
+            "path": "scripts/object/22.s"
           },
           "flag": 29
-        }
+        },
+        "id": "object-23"
       },
       {
-        "type": "npc",
+        "type": "object",
+        "x": 10,
+        "y": 86,
+        "z": 3,
         "data": {
-          "id": 24,
           "sprite": 96,
           "replacement": 0,
-          "x": 10,
-          "y": 86,
-          "height": 3,
           "behavior": 1,
           "boundary": {
             "x": 1,
             "y": 1
           },
           "property": 0,
-          "view_radius": 0,
+          "viewRadius": 0,
           "script": {
-            "symbol": "kindleRoadNpc23Main",
-            "path": "scripts/npc/23.s"
+            "symbol": "kindleRoadObject23Main",
+            "path": "scripts/object/23.s"
           },
           "flag": 30
-        }
+        },
+        "id": "object-24"
       },
       {
-        "type": "npc",
+        "type": "object",
+        "x": 9,
+        "y": 110,
+        "z": 3,
         "data": {
-          "id": 25,
           "sprite": 96,
           "replacement": 0,
-          "x": 9,
-          "y": 110,
-          "height": 3,
           "behavior": 1,
           "boundary": {
             "x": 1,
             "y": 1
           },
           "property": 0,
-          "view_radius": 0,
+          "viewRadius": 0,
           "script": {
-            "symbol": "kindleRoadNpc24Main",
-            "path": "scripts/npc/24.s"
+            "symbol": "kindleRoadObject24Main",
+            "path": "scripts/object/24.s"
           },
           "flag": 31
-        }
+        },
+        "id": "object-25"
       },
       {
-        "type": "npc",
+        "type": "object",
+        "x": 18,
+        "y": 112,
+        "z": 4,
         "data": {
-          "id": 26,
           "sprite": 96,
           "replacement": 0,
-          "x": 18,
-          "y": 112,
-          "height": 4,
           "behavior": 1,
           "boundary": {
             "x": 1,
             "y": 1
           },
           "property": 0,
-          "view_radius": 0,
+          "viewRadius": 0,
           "script": {
-            "symbol": "kindleRoadNpc25Main",
-            "path": "scripts/npc/25.s"
+            "symbol": "kindleRoadObject25Main",
+            "path": "scripts/object/25.s"
           },
           "flag": 17
-        }
+        },
+        "id": "object-26"
       },
       {
-        "type": "npc",
+        "type": "object",
+        "x": 15,
+        "y": 70,
+        "z": 3,
         "data": {
-          "id": 27,
           "sprite": 92,
           "replacement": 0,
-          "x": 15,
-          "y": 70,
-          "height": 3,
           "behavior": 8,
           "boundary": {
             "x": 1,
             "y": 1
           },
           "property": 0,
-          "view_radius": 0,
+          "viewRadius": 0,
           "script": {
-            "symbol": "kindleRoadNpc26Main",
-            "path": "scripts/npc/26.s"
+            "symbol": "kindleRoadObject26Main",
+            "path": "scripts/object/26.s"
           },
           "flag": 475
-        }
+        },
+        "id": "object-27"
       },
       {
-        "type": "npc",
+        "type": "object",
+        "x": 17,
+        "y": 103,
+        "z": 3,
         "data": {
-          "id": 28,
           "sprite": 92,
           "replacement": 0,
-          "x": 17,
-          "y": 103,
-          "height": 3,
           "behavior": 8,
           "boundary": {
             "x": 1,
             "y": 1
           },
           "property": 0,
-          "view_radius": 0,
+          "viewRadius": 0,
           "script": {
-            "symbol": "kindleRoadNpc27Main",
-            "path": "scripts/npc/27.s"
+            "symbol": "kindleRoadObject27Main",
+            "path": "scripts/object/27.s"
           },
           "flag": 476
-        }
+        },
+        "id": "object-28"
       },
       {
-        "type": "npc",
+        "type": "object",
+        "x": 18,
+        "y": 114,
+        "z": 4,
         "data": {
-          "id": 29,
           "sprite": 92,
           "replacement": 0,
-          "x": 18,
-          "y": 114,
-          "height": 4,
           "behavior": 8,
           "boundary": {
             "x": 1,
             "y": 1
           },
           "property": 0,
-          "view_radius": 0,
+          "viewRadius": 0,
           "script": {
-            "symbol": "kindleRoadNpc28Main",
-            "path": "scripts/npc/28.s"
+            "symbol": "kindleRoadObject28Main",
+            "path": "scripts/object/28.s"
           },
           "flag": 477
-        }
-      },
-      {
-        "type": "warp",
-        "data": {
-          "x": 11,
-          "y": 6,
-          "height": 3,
-          "target": {
-            "warp": 0,
-            "map": {
-              "id": "map-1-97"
-            }
-          }
-        }
-      },
-      {
-        "type": "warp",
-        "data": {
-          "x": 12,
-          "y": 6,
-          "height": 3,
-          "target": {
-            "warp": 1,
-            "map": {
-              "id": "map-1-97"
-            }
-          }
-        }
-      },
-      {
-        "type": "warp",
-        "data": {
-          "x": 15,
-          "y": 58,
-          "height": 3,
-          "target": {
-            "warp": 0,
-            "map": {
-              "id": "map-2-57"
-            }
-          }
-        }
-      },
-      {
-        "type": "sign",
-        "data": {
-          "x": 13,
-          "y": 59,
-          "height": 0,
-          "type": "script",
-          "script": {
-            "symbol": "kindleRoadSign0Main",
-            "path": "scripts/sign/0.s"
-          }
-        }
-      },
-      {
-        "type": "sign",
-        "data": {
-          "x": 8,
-          "y": 115,
-          "height": 0,
-          "type": "script",
-          "script": {
-            "symbol": "kindleRoadSign1Main",
-            "path": "scripts/sign/1.s"
-          }
-        }
+        },
+        "id": "object-29"
       }
     ]
   }

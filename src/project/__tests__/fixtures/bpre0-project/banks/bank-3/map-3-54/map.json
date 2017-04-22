@@ -4412,289 +4412,284 @@
     ],
     "entities": [
       {
-        "type": "npc",
+        "type": "warp",
+        "x": 64,
+        "y": 13,
+        "z": 3,
         "data": {
-          "id": 1,
+          "target": {
+            "warp": "warp-0",
+            "map": {
+              "id": "map-2-12"
+            }
+          }
+        },
+        "id": "warp-0"
+      },
+      {
+        "type": "warp",
+        "x": 39,
+        "y": 8,
+        "z": 0,
+        "data": {
+          "target": {
+            "warp": "warp-0",
+            "map": {
+              "id": "map-39-0"
+            }
+          }
+        },
+        "id": "warp-1"
+      },
+      {
+        "type": "interactable",
+        "x": 10,
+        "y": 7,
+        "z": 3,
+        "data": {
+          "type": "hiddenItem",
+          "item": 8,
+          "hiddenItemId": 174,
+          "quantity": 1
+        },
+        "id": "interactable-0"
+      },
+      {
+        "type": "interactable",
+        "x": 27,
+        "y": 11,
+        "z": 3,
+        "data": {
+          "type": "hiddenItem",
+          "item": 108,
+          "hiddenItemId": 175,
+          "quantity": 1
+        },
+        "id": "interactable-1"
+      },
+      {
+        "type": "interactable",
+        "x": 40,
+        "y": 12,
+        "z": 3,
+        "data": {
+          "type": "hiddenItem",
+          "item": 109,
+          "hiddenItemId": 176,
+          "quantity": 1
+        },
+        "id": "interactable-2"
+      },
+      {
+        "type": "interactable",
+        "x": 27,
+        "y": 5,
+        "z": 3,
+        "data": {
+          "type": "hiddenItem",
+          "item": 108,
+          "hiddenItemId": 177,
+          "quantity": 1
+        },
+        "id": "interactable-3"
+      },
+      {
+        "type": "interactable",
+        "x": 42,
+        "y": 9,
+        "z": 0,
+        "data": {
+          "type": "script",
+          "script": {
+            "symbol": "resortGorgeousInteractable4Main",
+            "path": "scripts/interactable/4.s"
+          }
+        },
+        "id": "interactable-4"
+      },
+      {
+        "type": "object",
+        "x": 44,
+        "y": 10,
+        "z": 3,
+        "data": {
           "sprite": 22,
           "replacement": 0,
-          "x": 44,
-          "y": 10,
-          "height": 3,
           "behavior": 18,
           "boundary": {
             "x": 1,
             "y": 1
           },
           "property": 1,
-          "view_radius": 3,
+          "viewRadius": 3,
           "script": {
-            "symbol": "resortGorgeousNpc0Main",
-            "path": "scripts/npc/0.s"
+            "symbol": "resortGorgeousObject0Main",
+            "path": "scripts/object/0.s"
           },
           "flag": 0
-        }
+        },
+        "id": "object-1"
       },
       {
-        "type": "npc",
+        "type": "object",
+        "x": 33,
+        "y": 12,
+        "z": 3,
         "data": {
-          "id": 2,
           "sprite": 22,
           "replacement": 0,
-          "x": 33,
-          "y": 12,
-          "height": 3,
           "behavior": 7,
           "boundary": {
             "x": 1,
             "y": 1
           },
           "property": 1,
-          "view_radius": 4,
+          "viewRadius": 4,
           "script": {
-            "symbol": "resortGorgeousNpc1Main",
-            "path": "scripts/npc/1.s"
+            "symbol": "resortGorgeousObject1Main",
+            "path": "scripts/object/1.s"
           },
           "flag": 0
-        }
+        },
+        "id": "object-2"
       },
       {
-        "type": "npc",
+        "type": "object",
+        "x": 12,
+        "y": 10,
+        "z": 3,
         "data": {
-          "id": 3,
           "sprite": 22,
           "replacement": 0,
-          "x": 12,
-          "y": 10,
-          "height": 3,
           "behavior": 8,
           "boundary": {
             "x": 1,
             "y": 1
           },
           "property": 1,
-          "view_radius": 1,
+          "viewRadius": 1,
           "script": {
-            "symbol": "resortGorgeousNpc2Main",
-            "path": "scripts/npc/2.s"
+            "symbol": "resortGorgeousObject2Main",
+            "path": "scripts/object/2.s"
           },
           "flag": 0
-        }
+        },
+        "id": "object-3"
       },
       {
-        "type": "npc",
+        "type": "object",
+        "x": 23,
+        "y": 9,
+        "z": 3,
         "data": {
-          "id": 4,
           "sprite": 28,
           "replacement": 0,
-          "x": 23,
-          "y": 9,
-          "height": 3,
           "behavior": 2,
           "boundary": {
             "x": 2,
             "y": 1
           },
           "property": 1,
-          "view_radius": 1,
+          "viewRadius": 1,
           "script": {
-            "symbol": "resortGorgeousNpc3Main",
-            "path": "scripts/npc/3.s"
+            "symbol": "resortGorgeousObject3Main",
+            "path": "scripts/object/3.s"
           },
           "flag": 0
-        }
+        },
+        "id": "object-4"
       },
       {
-        "type": "npc",
+        "type": "object",
+        "x": 33,
+        "y": 8,
+        "z": 3,
         "data": {
-          "id": 5,
           "sprite": 28,
           "replacement": 0,
-          "x": 33,
-          "y": 8,
-          "height": 3,
           "behavior": 8,
           "boundary": {
             "x": 1,
             "y": 1
           },
           "property": 1,
-          "view_radius": 1,
+          "viewRadius": 1,
           "script": {
-            "symbol": "resortGorgeousNpc4Main",
-            "path": "scripts/npc/4.s"
+            "symbol": "resortGorgeousObject4Main",
+            "path": "scripts/object/4.s"
           },
           "flag": 0
-        }
+        },
+        "id": "object-5"
       },
       {
-        "type": "npc",
+        "type": "object",
+        "x": 33,
+        "y": 3,
+        "z": 3,
         "data": {
-          "id": 6,
           "sprite": 18,
           "replacement": 0,
-          "x": 33,
-          "y": 3,
-          "height": 3,
           "behavior": 46,
           "boundary": {
             "x": 10,
             "y": 1
           },
           "property": 1,
-          "view_radius": 1,
+          "viewRadius": 1,
           "script": {
-            "symbol": "resortGorgeousNpc5Main",
-            "path": "scripts/npc/5.s"
+            "symbol": "resortGorgeousObject5Main",
+            "path": "scripts/object/5.s"
           },
           "flag": 0
-        }
+        },
+        "id": "object-6"
       },
       {
-        "type": "npc",
+        "type": "object",
+        "x": 56,
+        "y": 7,
+        "z": 1,
         "data": {
-          "id": 7,
           "sprite": 43,
           "replacement": 0,
-          "x": 56,
-          "y": 7,
-          "height": 1,
           "behavior": 1,
           "boundary": {
             "x": 1,
             "y": 1
           },
           "property": 1,
-          "view_radius": 1,
+          "viewRadius": 1,
           "script": {
-            "symbol": "resortGorgeousNpc6Main",
-            "path": "scripts/npc/6.s"
+            "symbol": "resortGorgeousObject6Main",
+            "path": "scripts/object/6.s"
           },
           "flag": 0
-        }
+        },
+        "id": "object-7"
       },
       {
-        "type": "npc",
+        "type": "object",
+        "x": 39,
+        "y": 9,
+        "z": 3,
         "data": {
-          "id": 8,
           "sprite": 28,
           "replacement": 0,
-          "x": 39,
-          "y": 9,
-          "height": 3,
           "behavior": 8,
           "boundary": {
             "x": 1,
             "y": 1
           },
           "property": 0,
-          "view_radius": 0,
+          "viewRadius": 0,
           "script": {
-            "symbol": "resortGorgeousNpc7Main",
-            "path": "scripts/npc/7.s"
+            "symbol": "resortGorgeousObject7Main",
+            "path": "scripts/object/7.s"
           },
           "flag": 148
-        }
-      },
-      {
-        "type": "warp",
-        "data": {
-          "x": 64,
-          "y": 13,
-          "height": 3,
-          "target": {
-            "warp": 0,
-            "map": {
-              "id": "map-2-12"
-            }
-          }
-        }
-      },
-      {
-        "type": "warp",
-        "data": {
-          "x": 39,
-          "y": 8,
-          "height": 0,
-          "target": {
-            "warp": 0,
-            "map": {
-              "id": "map-39-0"
-            }
-          }
-        }
-      },
-      {
-        "type": "sign",
-        "data": {
-          "x": 10,
-          "y": 7,
-          "height": 3,
-          "type": "hidden_item2",
-          "item": 8,
-          "id": 174,
-          "data": {
-            "amount": 1,
-            "exact_required": 0
-          }
-        }
-      },
-      {
-        "type": "sign",
-        "data": {
-          "x": 27,
-          "y": 11,
-          "height": 3,
-          "type": "hidden_item2",
-          "item": 108,
-          "id": 175,
-          "data": {
-            "amount": 1,
-            "exact_required": 0
-          }
-        }
-      },
-      {
-        "type": "sign",
-        "data": {
-          "x": 40,
-          "y": 12,
-          "height": 3,
-          "type": "hidden_item2",
-          "item": 109,
-          "id": 176,
-          "data": {
-            "amount": 1,
-            "exact_required": 0
-          }
-        }
-      },
-      {
-        "type": "sign",
-        "data": {
-          "x": 27,
-          "y": 5,
-          "height": 3,
-          "type": "hidden_item2",
-          "item": 108,
-          "id": 177,
-          "data": {
-            "amount": 1,
-            "exact_required": 0
-          }
-        }
-      },
-      {
-        "type": "sign",
-        "data": {
-          "x": 42,
-          "y": 9,
-          "height": 0,
-          "type": "script",
-          "script": {
-            "symbol": "resortGorgeousSign4Main",
-            "path": "scripts/sign/4.s"
-          }
-        }
+        },
+        "id": "object-8"
       }
     ]
   }

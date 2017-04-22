@@ -5840,441 +5840,458 @@
     ],
     "entities": [
       {
-        "type": "npc",
-        "data": {
-          "id": 1,
-          "sprite": 22,
-          "replacement": 0,
-          "x": 6,
-          "y": 15,
-          "height": 3,
-          "behavior": 1,
-          "boundary": {
-            "x": 1,
-            "y": 1
-          },
-          "property": 0,
-          "view_radius": 0,
-          "script": {
-            "symbol": "pewterCityNpc0Main",
-            "path": "scripts/npc/0.s"
-          },
-          "flag": 0
-        }
-      },
-      {
-        "type": "npc",
-        "data": {
-          "id": 2,
-          "sprite": 25,
-          "replacement": 0,
-          "x": 33,
-          "y": 17,
-          "height": 3,
-          "behavior": 1,
-          "boundary": {
-            "x": 1,
-            "y": 1
-          },
-          "property": 0,
-          "view_radius": 0,
-          "script": {
-            "symbol": "pewterCityNpc1Main",
-            "path": "scripts/npc/1.s"
-          },
-          "flag": 80
-        }
-      },
-      {
-        "type": "npc",
-        "data": {
-          "id": 3,
-          "sprite": 27,
-          "replacement": 0,
-          "x": 21,
-          "y": 28,
-          "height": 3,
-          "behavior": 8,
-          "boundary": {
-            "x": 1,
-            "y": 1
-          },
-          "property": 0,
-          "view_radius": 0,
-          "script": {
-            "symbol": "pewterCityNpc2Main",
-            "path": "scripts/npc/2.s"
-          },
-          "flag": 0
-        }
-      },
-      {
-        "type": "npc",
-        "data": {
-          "id": 4,
-          "sprite": 20,
-          "replacement": 0,
-          "x": 33,
-          "y": 27,
-          "height": 3,
-          "behavior": 5,
-          "boundary": {
-            "x": 2,
-            "y": 1
-          },
-          "property": 0,
-          "view_radius": 0,
-          "script": {
-            "symbol": "pewterCityNpc3Main",
-            "path": "scripts/npc/3.s"
-          },
-          "flag": 0
-        }
-      },
-      {
-        "type": "npc",
-        "data": {
-          "id": 5,
-          "sprite": 19,
-          "replacement": 0,
-          "x": 42,
-          "y": 20,
-          "height": 3,
-          "behavior": 8,
-          "boundary": {
-            "x": 1,
-            "y": 1
-          },
-          "property": 0,
-          "view_radius": 0,
-          "script": {
-            "symbol": "pewterCityNpc4Main",
-            "path": "scripts/npc/4.s"
-          },
-          "flag": 46
-        }
-      },
-      {
-        "type": "npc",
-        "data": {
-          "id": 6,
-          "sprite": 95,
-          "replacement": 0,
-          "x": 30,
-          "y": 5,
-          "height": 3,
-          "behavior": 8,
-          "boundary": {
-            "x": 1,
-            "y": 1
-          },
-          "property": 0,
-          "view_radius": 0,
-          "script": {
-            "symbol": "pewterCityNpc5Main",
-            "path": "scripts/npc/5.s"
-          },
-          "flag": 18
-        }
-      },
-      {
-        "type": "npc",
-        "data": {
-          "id": 7,
-          "sprite": 55,
-          "replacement": 0,
-          "x": 46,
-          "y": 20,
-          "height": 3,
-          "behavior": 10,
-          "boundary": {
-            "x": 1,
-            "y": 1
-          },
-          "property": 0,
-          "view_radius": 0,
-          "script": {
-            "symbol": "pewterCityNpc6Main",
-            "path": "scripts/npc/6.s"
-          },
-          "flag": 146
-        }
-      },
-      {
         "type": "warp",
+        "x": 17,
+        "y": 6,
+        "z": 0,
         "data": {
-          "x": 17,
-          "y": 6,
-          "height": 0,
           "target": {
-            "warp": 1,
+            "warp": "warp-1",
             "map": {
               "id": "map-6-0"
             }
           }
-        }
+        },
+        "id": "warp-0"
       },
       {
         "type": "warp",
+        "x": 25,
+        "y": 4,
+        "z": 0,
         "data": {
-          "x": 25,
-          "y": 4,
-          "height": 0,
           "target": {
-            "warp": 3,
+            "warp": "warp-3",
             "map": {
               "id": "map-6-0"
             }
           }
-        }
+        },
+        "id": "warp-1"
       },
       {
         "type": "warp",
+        "x": 15,
+        "y": 16,
+        "z": 0,
         "data": {
-          "x": 15,
-          "y": 16,
-          "height": 0,
           "target": {
-            "warp": 1,
+            "warp": "warp-1",
             "map": {
               "id": "map-6-2"
             }
           }
-        }
+        },
+        "id": "warp-2"
       },
       {
         "type": "warp",
+        "x": 28,
+        "y": 18,
+        "z": 0,
         "data": {
-          "x": 28,
-          "y": 18,
-          "height": 0,
           "target": {
-            "warp": 1,
+            "warp": "warp-1",
             "map": {
               "id": "map-6-3"
             }
           }
-        }
+        },
+        "id": "warp-3"
       },
       {
         "type": "warp",
+        "x": 33,
+        "y": 11,
+        "z": 0,
         "data": {
-          "x": 33,
-          "y": 11,
-          "height": 0,
           "target": {
-            "warp": 1,
+            "warp": "warp-1",
             "map": {
               "id": "map-6-4"
             }
           }
-        }
+        },
+        "id": "warp-4"
       },
       {
         "type": "warp",
+        "x": 17,
+        "y": 25,
+        "z": 0,
         "data": {
-          "x": 17,
-          "y": 25,
-          "height": 0,
           "target": {
-            "warp": 1,
+            "warp": "warp-1",
             "map": {
               "id": "map-6-5"
             }
           }
-        }
+        },
+        "id": "warp-5"
       },
       {
         "type": "warp",
+        "x": 9,
+        "y": 30,
+        "z": 0,
         "data": {
-          "x": 9,
-          "y": 30,
-          "height": 0,
           "target": {
-            "warp": 1,
+            "warp": "warp-1",
             "map": {
               "id": "map-6-7"
             }
           }
-        }
+        },
+        "id": "warp-6"
       },
       {
-        "type": "sign",
+        "type": "interactable",
+        "x": 19,
+        "y": 7,
+        "z": 0,
         "data": {
-          "x": 19,
-          "y": 7,
-          "height": 0,
           "type": "script",
           "script": {
-            "symbol": "pewterCitySign0Main",
-            "path": "scripts/sign/0.s"
+            "symbol": "pewterCityInteractable0Main",
+            "path": "scripts/interactable/0.s"
           }
-        }
+        },
+        "id": "interactable-0"
       },
       {
-        "type": "sign",
+        "type": "interactable",
+        "x": 39,
+        "y": 19,
+        "z": 0,
         "data": {
-          "x": 39,
-          "y": 19,
-          "height": 0,
           "type": "script",
           "script": {
-            "symbol": "pewterCitySign1Main",
-            "path": "scripts/sign/1.s"
+            "symbol": "pewterCityInteractable1Main",
+            "path": "scripts/interactable/1.s"
           }
-        }
+        },
+        "id": "interactable-1"
       },
       {
-        "type": "sign",
+        "type": "interactable",
+        "x": 11,
+        "y": 16,
+        "z": 0,
         "data": {
-          "x": 11,
-          "y": 16,
-          "height": 0,
           "type": "script",
           "script": {
-            "symbol": "pewterCitySign2Main",
-            "path": "scripts/sign/2.s"
+            "symbol": "pewterCityInteractable2Main",
+            "path": "scripts/interactable/2.s"
           }
-        }
+        },
+        "id": "interactable-2"
       },
       {
-        "type": "sign",
+        "type": "interactable",
+        "x": 20,
+        "y": 30,
+        "z": 0,
         "data": {
-          "x": 20,
-          "y": 30,
-          "height": 0,
           "type": "script",
           "script": {
-            "symbol": "pewterCitySign3Main",
-            "path": "scripts/sign/3.s"
+            "symbol": "pewterCityInteractable3Main",
+            "path": "scripts/interactable/3.s"
           }
-        }
+        },
+        "id": "interactable-3"
       },
       {
-        "type": "sign",
+        "type": "interactable",
+        "x": 31,
+        "y": 25,
+        "z": 0,
         "data": {
-          "x": 31,
-          "y": 25,
-          "height": 0,
           "type": "script",
           "script": {
-            "symbol": "pewterCitySign4Main",
-            "path": "scripts/sign/4.s"
+            "symbol": "pewterCityInteractable4Main",
+            "path": "scripts/interactable/4.s"
           }
-        }
+        },
+        "id": "interactable-4"
       },
       {
-        "type": "sign",
+        "type": "interactable",
+        "x": 6,
+        "y": 3,
+        "z": 3,
         "data": {
-          "x": 6,
-          "y": 3,
-          "height": 3,
-          "type": "hidden_item2",
+          "type": "hiddenItem",
           "item": 4,
-          "id": 112,
-          "data": {
-            "amount": 1,
-            "exact_required": 0
-          }
-        }
+          "hiddenItemId": 112,
+          "quantity": 1
+        },
+        "id": "interactable-5"
       },
       {
         "type": "trigger",
+        "x": 42,
+        "y": 21,
+        "z": 3,
         "data": {
-          "x": 42,
-          "y": 21,
-          "height": 3,
           "variable": 16492,
           "value": 0,
           "script": {
             "symbol": "pewterCityTrigger0Main",
             "path": "scripts/trigger/0.s"
           }
-        }
+        },
+        "id": "trigger-0"
       },
       {
         "type": "trigger",
+        "x": 42,
+        "y": 22,
+        "z": 3,
         "data": {
-          "x": 42,
-          "y": 22,
-          "height": 3,
           "variable": 16492,
           "value": 0,
           "script": {
             "symbol": "pewterCityTrigger1Main",
             "path": "scripts/trigger/1.s"
           }
-        }
+        },
+        "id": "trigger-1"
       },
       {
         "type": "trigger",
+        "x": 42,
+        "y": 23,
+        "z": 3,
         "data": {
-          "x": 42,
-          "y": 23,
-          "height": 3,
           "variable": 16492,
           "value": 0,
           "script": {
             "symbol": "pewterCityTrigger2Main",
             "path": "scripts/trigger/2.s"
           }
-        }
+        },
+        "id": "trigger-2"
       },
       {
         "type": "trigger",
+        "x": 43,
+        "y": 23,
+        "z": 3,
         "data": {
-          "x": 43,
-          "y": 23,
-          "height": 3,
           "variable": 16492,
           "value": 0,
           "script": {
             "symbol": "pewterCityTrigger3Main",
             "path": "scripts/trigger/3.s"
           }
-        }
+        },
+        "id": "trigger-3"
       },
       {
         "type": "trigger",
+        "x": 46,
+        "y": 21,
+        "z": 3,
         "data": {
-          "x": 46,
-          "y": 21,
-          "height": 3,
           "variable": 16492,
           "value": 1,
           "script": {
             "symbol": "pewterCityTrigger4Main",
             "path": "scripts/trigger/4.s"
           }
-        }
+        },
+        "id": "trigger-4"
       },
       {
         "type": "trigger",
+        "x": 46,
+        "y": 22,
+        "z": 3,
         "data": {
-          "x": 46,
-          "y": 22,
-          "height": 3,
           "variable": 16492,
           "value": 1,
           "script": {
             "symbol": "pewterCityTrigger5Main",
             "path": "scripts/trigger/5.s"
           }
-        }
+        },
+        "id": "trigger-5"
       },
       {
         "type": "trigger",
+        "x": 46,
+        "y": 23,
+        "z": 3,
         "data": {
-          "x": 46,
-          "y": 23,
-          "height": 3,
           "variable": 16492,
           "value": 1,
           "script": {
             "symbol": "pewterCityTrigger6Main",
             "path": "scripts/trigger/6.s"
           }
-        }
+        },
+        "id": "trigger-6"
+      },
+      {
+        "type": "object",
+        "x": 6,
+        "y": 15,
+        "z": 3,
+        "data": {
+          "sprite": 22,
+          "replacement": 0,
+          "behavior": 1,
+          "boundary": {
+            "x": 1,
+            "y": 1
+          },
+          "property": 0,
+          "viewRadius": 0,
+          "script": {
+            "symbol": "pewterCityObject0Main",
+            "path": "scripts/object/0.s"
+          },
+          "flag": 0
+        },
+        "id": "object-1"
+      },
+      {
+        "type": "object",
+        "x": 33,
+        "y": 17,
+        "z": 3,
+        "data": {
+          "sprite": 25,
+          "replacement": 0,
+          "behavior": 1,
+          "boundary": {
+            "x": 1,
+            "y": 1
+          },
+          "property": 0,
+          "viewRadius": 0,
+          "script": {
+            "symbol": "pewterCityObject1Main",
+            "path": "scripts/object/1.s"
+          },
+          "flag": 80
+        },
+        "id": "object-2"
+      },
+      {
+        "type": "object",
+        "x": 21,
+        "y": 28,
+        "z": 3,
+        "data": {
+          "sprite": 27,
+          "replacement": 0,
+          "behavior": 8,
+          "boundary": {
+            "x": 1,
+            "y": 1
+          },
+          "property": 0,
+          "viewRadius": 0,
+          "script": {
+            "symbol": "pewterCityObject2Main",
+            "path": "scripts/object/2.s"
+          },
+          "flag": 0
+        },
+        "id": "object-3"
+      },
+      {
+        "type": "object",
+        "x": 33,
+        "y": 27,
+        "z": 3,
+        "data": {
+          "sprite": 20,
+          "replacement": 0,
+          "behavior": 5,
+          "boundary": {
+            "x": 2,
+            "y": 1
+          },
+          "property": 0,
+          "viewRadius": 0,
+          "script": {
+            "symbol": "pewterCityObject3Main",
+            "path": "scripts/object/3.s"
+          },
+          "flag": 0
+        },
+        "id": "object-4"
+      },
+      {
+        "type": "object",
+        "x": 42,
+        "y": 20,
+        "z": 3,
+        "data": {
+          "sprite": 19,
+          "replacement": 0,
+          "behavior": 8,
+          "boundary": {
+            "x": 1,
+            "y": 1
+          },
+          "property": 0,
+          "viewRadius": 0,
+          "script": {
+            "symbol": "pewterCityObject4Main",
+            "path": "scripts/object/4.s"
+          },
+          "flag": 46
+        },
+        "id": "object-5"
+      },
+      {
+        "type": "object",
+        "x": 30,
+        "y": 5,
+        "z": 3,
+        "data": {
+          "sprite": 95,
+          "replacement": 0,
+          "behavior": 8,
+          "boundary": {
+            "x": 1,
+            "y": 1
+          },
+          "property": 0,
+          "viewRadius": 0,
+          "script": {
+            "symbol": "pewterCityObject5Main",
+            "path": "scripts/object/5.s"
+          },
+          "flag": 18
+        },
+        "id": "object-6"
+      },
+      {
+        "type": "object",
+        "x": 46,
+        "y": 20,
+        "z": 3,
+        "data": {
+          "sprite": 55,
+          "replacement": 0,
+          "behavior": 10,
+          "boundary": {
+            "x": 1,
+            "y": 1
+          },
+          "property": 0,
+          "viewRadius": 0,
+          "script": {
+            "symbol": "pewterCityObject6Main",
+            "path": "scripts/object/6.s"
+          },
+          "flag": 146
+        },
+        "id": "object-7"
       }
     ]
   }

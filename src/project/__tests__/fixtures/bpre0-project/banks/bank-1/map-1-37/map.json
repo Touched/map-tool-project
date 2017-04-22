@@ -20466,31 +20466,33 @@
     "entities": [
       {
         "type": "warp",
+        "x": 3,
+        "y": 3,
+        "z": 3,
         "data": {
-          "x": 3,
-          "y": 3,
-          "height": 3,
           "target": {
-            "warp": 0,
+            "warp": "warp-0",
             "map": {
               "id": "map-1-36"
             }
           }
-        }
+        },
+        "id": "warp-0"
       },
       {
         "type": "warp",
+        "x": 82,
+        "y": 71,
+        "z": 3,
         "data": {
-          "x": 82,
-          "y": 71,
-          "height": 3,
           "target": {
-            "warp": 1,
+            "warp": "warp-1",
             "map": {
               "id": "map-1-38"
             }
           }
-        }
+        },
+        "id": "warp-1"
       }
     ]
   }

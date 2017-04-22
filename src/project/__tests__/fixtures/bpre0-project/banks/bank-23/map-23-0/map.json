@@ -486,97 +486,102 @@
     "connections": [],
     "entities": [
       {
-        "type": "npc",
+        "type": "warp",
+        "x": 5,
+        "y": 1,
+        "z": 3,
         "data": {
-          "id": 1,
+          "target": {
+            "warp": "warp-1",
+            "map": {
+              "id": "map-3-30"
+            }
+          }
+        },
+        "id": "warp-0"
+      },
+      {
+        "type": "warp",
+        "x": 6,
+        "y": 1,
+        "z": 0,
+        "data": {
+          "target": {
+            "warp": "warp-2",
+            "map": {
+              "id": "map-3-30"
+            }
+          }
+        },
+        "id": "warp-1"
+      },
+      {
+        "type": "warp",
+        "x": 5,
+        "y": 11,
+        "z": 3,
+        "data": {
+          "target": {
+            "warp": "warp-3",
+            "map": {
+              "id": "map-3-30"
+            }
+          }
+        },
+        "id": "warp-2"
+      },
+      {
+        "type": "warp",
+        "x": 6,
+        "y": 11,
+        "z": 3,
+        "data": {
+          "target": {
+            "warp": "warp-3",
+            "map": {
+              "id": "map-3-30"
+            }
+          }
+        },
+        "id": "warp-3"
+      },
+      {
+        "type": "warp",
+        "x": 8,
+        "y": 10,
+        "z": 3,
+        "data": {
+          "target": {
+            "warp": "warp-0",
+            "map": {
+              "id": "map-23-1"
+            }
+          }
+        },
+        "id": "warp-4"
+      },
+      {
+        "type": "object",
+        "x": 1,
+        "y": 5,
+        "z": 3,
+        "data": {
           "sprite": 60,
           "replacement": 0,
-          "x": 1,
-          "y": 5,
-          "height": 3,
           "behavior": 10,
           "boundary": {
             "x": 1,
             "y": 1
           },
           "property": 0,
-          "view_radius": 0,
+          "viewRadius": 0,
           "script": {
-            "symbol": "route121Npc0Main",
-            "path": "scripts/npc/0.s"
+            "symbol": "route121Object0Main",
+            "path": "scripts/object/0.s"
           },
           "flag": 0
-        }
-      },
-      {
-        "type": "warp",
-        "data": {
-          "x": 5,
-          "y": 1,
-          "height": 3,
-          "target": {
-            "warp": 1,
-            "map": {
-              "id": "map-3-30"
-            }
-          }
-        }
-      },
-      {
-        "type": "warp",
-        "data": {
-          "x": 6,
-          "y": 1,
-          "height": 0,
-          "target": {
-            "warp": 2,
-            "map": {
-              "id": "map-3-30"
-            }
-          }
-        }
-      },
-      {
-        "type": "warp",
-        "data": {
-          "x": 5,
-          "y": 11,
-          "height": 3,
-          "target": {
-            "warp": 3,
-            "map": {
-              "id": "map-3-30"
-            }
-          }
-        }
-      },
-      {
-        "type": "warp",
-        "data": {
-          "x": 6,
-          "y": 11,
-          "height": 3,
-          "target": {
-            "warp": 3,
-            "map": {
-              "id": "map-3-30"
-            }
-          }
-        }
-      },
-      {
-        "type": "warp",
-        "data": {
-          "x": 8,
-          "y": 10,
-          "height": 3,
-          "target": {
-            "warp": 0,
-            "map": {
-              "id": "map-23-1"
-            }
-          }
-        }
+        },
+        "id": "object-1"
       }
     ]
   }

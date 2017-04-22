@@ -594,59 +594,63 @@
     "entities": [
       {
         "type": "warp",
+        "x": 6,
+        "y": 9,
+        "z": 3,
         "data": {
-          "x": 6,
-          "y": 9,
-          "height": 3,
           "target": {
-            "warp": 0,
+            "warp": "warp-0",
             "map": {
               "id": "map-3-61"
             }
           }
-        }
+        },
+        "id": "warp-0"
       },
       {
         "type": "warp",
+        "x": 6,
+        "y": 5,
+        "z": 3,
         "data": {
-          "x": 6,
-          "y": 5,
-          "height": 3,
           "target": {
-            "warp": 0,
+            "warp": "warp-0",
             "map": {
               "id": "map-1-116"
             }
           }
-        }
+        },
+        "id": "warp-1"
       },
       {
         "type": "warp",
+        "x": 13,
+        "y": 5,
+        "z": 3,
         "data": {
-          "x": 13,
-          "y": 5,
-          "height": 3,
           "target": {
-            "warp": 0,
+            "warp": "warp-0",
             "map": {
               "id": "map-1-120"
             }
           }
-        }
+        },
+        "id": "warp-2"
       },
       {
         "type": "warp",
+        "x": 6,
+        "y": 7,
+        "z": 3,
         "data": {
-          "x": 6,
-          "y": 7,
-          "height": 3,
           "target": {
-            "warp": 2,
+            "warp": "warp-2",
             "map": {
               "id": "map-1-116"
             }
           }
-        }
+        },
+        "id": "warp-3"
       }
     ]
   }

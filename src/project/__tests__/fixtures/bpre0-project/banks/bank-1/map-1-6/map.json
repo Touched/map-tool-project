@@ -1689,218 +1689,230 @@
     "connections": [],
     "entities": [
       {
-        "type": "npc",
-        "data": {
-          "id": 1,
-          "sprite": 72,
-          "replacement": 0,
-          "x": 30,
-          "y": 2,
-          "height": 3,
-          "behavior": 9,
-          "boundary": {
-            "x": 1,
-            "y": 1
-          },
-          "property": 0,
-          "view_radius": 0,
-          "script": {
-            "symbol": "s。s。Anne2Npc0Main",
-            "path": "scripts/npc/0.s"
-          },
-          "flag": 61
-        }
-      },
-      {
-        "type": "npc",
-        "data": {
-          "id": 2,
-          "sprite": 62,
-          "replacement": 0,
-          "x": 2,
-          "y": 7,
-          "height": 3,
-          "behavior": 3,
-          "boundary": {
-            "x": 1,
-            "y": 2
-          },
-          "property": 0,
-          "view_radius": 0,
-          "script": {
-            "symbol": "s。s。Anne2Npc1Main",
-            "path": "scripts/npc/1.s"
-          },
-          "flag": 0
-        }
-      },
-      {
         "type": "warp",
+        "x": 2,
+        "y": 2,
+        "z": 3,
         "data": {
-          "x": 2,
-          "y": 2,
-          "height": 3,
           "target": {
-            "warp": 0,
+            "warp": "warp-0",
             "map": {
               "id": "map-1-5"
             }
           }
-        }
+        },
+        "id": "warp-0"
       },
       {
         "type": "warp",
+        "x": 3,
+        "y": 12,
+        "z": 3,
         "data": {
-          "x": 3,
-          "y": 12,
-          "height": 3,
           "target": {
-            "warp": 1,
+            "warp": "warp-1",
             "map": {
               "id": "map-1-7"
             }
           }
-        }
+        },
+        "id": "warp-1"
       },
       {
         "type": "warp",
+        "x": 30,
+        "y": 2,
+        "z": 3,
         "data": {
-          "x": 30,
-          "y": 2,
-          "height": 3,
           "target": {
-            "warp": 0,
+            "warp": "warp-0",
             "map": {
               "id": "map-1-11"
             }
           }
-        }
+        },
+        "id": "warp-2"
       },
       {
         "type": "warp",
+        "x": 6,
+        "y": 10,
+        "z": 0,
         "data": {
-          "x": 6,
-          "y": 10,
-          "height": 0,
           "target": {
-            "warp": 0,
+            "warp": "warp-0",
             "map": {
               "id": "map-1-18"
             }
           }
-        }
+        },
+        "id": "warp-3"
       },
       {
         "type": "warp",
+        "x": 10,
+        "y": 10,
+        "z": 0,
         "data": {
-          "x": 10,
-          "y": 10,
-          "height": 0,
           "target": {
-            "warp": 0,
+            "warp": "warp-0",
             "map": {
               "id": "map-1-19"
             }
           }
-        }
+        },
+        "id": "warp-4"
       },
       {
         "type": "warp",
+        "x": 14,
+        "y": 10,
+        "z": 0,
         "data": {
-          "x": 14,
-          "y": 10,
-          "height": 0,
           "target": {
-            "warp": 0,
+            "warp": "warp-0",
             "map": {
               "id": "map-1-20"
             }
           }
-        }
+        },
+        "id": "warp-5"
       },
       {
         "type": "warp",
+        "x": 18,
+        "y": 10,
+        "z": 0,
         "data": {
-          "x": 18,
-          "y": 10,
-          "height": 0,
           "target": {
-            "warp": 0,
+            "warp": "warp-0",
             "map": {
               "id": "map-1-21"
             }
           }
-        }
+        },
+        "id": "warp-6"
       },
       {
         "type": "warp",
+        "x": 22,
+        "y": 10,
+        "z": 0,
         "data": {
-          "x": 22,
-          "y": 10,
-          "height": 0,
           "target": {
-            "warp": 0,
+            "warp": "warp-0",
             "map": {
               "id": "map-1-22"
             }
           }
-        }
+        },
+        "id": "warp-7"
       },
       {
         "type": "warp",
+        "x": 26,
+        "y": 10,
+        "z": 0,
         "data": {
-          "x": 26,
-          "y": 10,
-          "height": 0,
           "target": {
-            "warp": 0,
+            "warp": "warp-0",
             "map": {
               "id": "map-1-23"
             }
           }
-        }
+        },
+        "id": "warp-8"
       },
       {
         "type": "trigger",
+        "x": 30,
+        "y": 6,
+        "z": 3,
         "data": {
-          "x": 30,
-          "y": 6,
-          "height": 3,
           "variable": 16475,
           "value": 0,
           "script": {
             "symbol": "s。s。Anne2Trigger0Main",
             "path": "scripts/trigger/0.s"
           }
-        }
+        },
+        "id": "trigger-0"
       },
       {
         "type": "trigger",
+        "x": 31,
+        "y": 6,
+        "z": 3,
         "data": {
-          "x": 31,
-          "y": 6,
-          "height": 3,
           "variable": 16475,
           "value": 0,
           "script": {
             "symbol": "s。s。Anne2Trigger1Main",
             "path": "scripts/trigger/1.s"
           }
-        }
+        },
+        "id": "trigger-1"
       },
       {
         "type": "trigger",
+        "x": 32,
+        "y": 6,
+        "z": 3,
         "data": {
-          "x": 32,
-          "y": 6,
-          "height": 3,
           "variable": 16475,
           "value": 0,
           "script": {
             "symbol": "s。s。Anne2Trigger2Main",
             "path": "scripts/trigger/2.s"
           }
-        }
+        },
+        "id": "trigger-2"
+      },
+      {
+        "type": "object",
+        "x": 30,
+        "y": 2,
+        "z": 3,
+        "data": {
+          "sprite": 72,
+          "replacement": 0,
+          "behavior": 9,
+          "boundary": {
+            "x": 1,
+            "y": 1
+          },
+          "property": 0,
+          "viewRadius": 0,
+          "script": {
+            "symbol": "s。s。Anne2Object0Main",
+            "path": "scripts/object/0.s"
+          },
+          "flag": 61
+        },
+        "id": "object-1"
+      },
+      {
+        "type": "object",
+        "x": 2,
+        "y": 7,
+        "z": 3,
+        "data": {
+          "sprite": 62,
+          "replacement": 0,
+          "behavior": 3,
+          "boundary": {
+            "x": 1,
+            "y": 2
+          },
+          "property": 0,
+          "viewRadius": 0,
+          "script": {
+            "symbol": "s。s。Anne2Object1Main",
+            "path": "scripts/object/1.s"
+          },
+          "flag": 0
+        },
+        "id": "object-2"
       }
     ]
   }

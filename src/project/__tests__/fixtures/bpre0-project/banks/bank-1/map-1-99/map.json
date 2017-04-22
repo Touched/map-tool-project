@@ -6681,239 +6681,241 @@
     "connections": [],
     "entities": [
       {
-        "type": "npc",
-        "data": {
-          "id": 1,
-          "sprite": 96,
-          "replacement": 0,
-          "x": 40,
-          "y": 7,
-          "height": 3,
-          "behavior": 1,
-          "boundary": {
-            "x": 1,
-            "y": 1
-          },
-          "property": 0,
-          "view_radius": 0,
-          "script": {
-            "symbol": "mt。Ember3Npc0Main",
-            "path": "scripts/npc/0.s"
-          },
-          "flag": 18
-        }
-      },
-      {
-        "type": "npc",
-        "data": {
-          "id": 2,
-          "sprite": 96,
-          "replacement": 0,
-          "x": 33,
-          "y": 5,
-          "height": 3,
-          "behavior": 1,
-          "boundary": {
-            "x": 1,
-            "y": 1
-          },
-          "property": 0,
-          "view_radius": 0,
-          "script": {
-            "symbol": "mt。Ember3Npc1Main",
-            "path": "scripts/npc/1.s"
-          },
-          "flag": 19
-        }
-      },
-      {
-        "type": "npc",
-        "data": {
-          "id": 3,
-          "sprite": 96,
-          "replacement": 0,
-          "x": 15,
-          "y": 19,
-          "height": 3,
-          "behavior": 1,
-          "boundary": {
-            "x": 1,
-            "y": 1
-          },
-          "property": 0,
-          "view_radius": 0,
-          "script": {
-            "symbol": "mt。Ember3Npc2Main",
-            "path": "scripts/npc/2.s"
-          },
-          "flag": 20
-        }
-      },
-      {
-        "type": "npc",
-        "data": {
-          "id": 4,
-          "sprite": 96,
-          "replacement": 0,
-          "x": 13,
-          "y": 23,
-          "height": 3,
-          "behavior": 1,
-          "boundary": {
-            "x": 1,
-            "y": 1
-          },
-          "property": 0,
-          "view_radius": 0,
-          "script": {
-            "symbol": "mt。Ember3Npc3Main",
-            "path": "scripts/npc/3.s"
-          },
-          "flag": 21
-        }
-      },
-      {
-        "type": "npc",
-        "data": {
-          "id": 5,
-          "sprite": 96,
-          "replacement": 0,
-          "x": 13,
-          "y": 21,
-          "height": 3,
-          "behavior": 1,
-          "boundary": {
-            "x": 1,
-            "y": 1
-          },
-          "property": 0,
-          "view_radius": 0,
-          "script": {
-            "symbol": "mt。Ember3Npc4Main",
-            "path": "scripts/npc/4.s"
-          },
-          "flag": 22
-        }
-      },
-      {
-        "type": "npc",
-        "data": {
-          "id": 6,
-          "sprite": 96,
-          "replacement": 0,
-          "x": 7,
-          "y": 38,
-          "height": 3,
-          "behavior": 1,
-          "boundary": {
-            "x": 1,
-            "y": 1
-          },
-          "property": 0,
-          "view_radius": 0,
-          "script": {
-            "symbol": "mt。Ember3Npc5Main",
-            "path": "scripts/npc/5.s"
-          },
-          "flag": 23
-        }
-      },
-      {
-        "type": "npc",
-        "data": {
-          "id": 7,
-          "sprite": 96,
-          "replacement": 0,
-          "x": 9,
-          "y": 35,
-          "height": 3,
-          "behavior": 1,
-          "boundary": {
-            "x": 1,
-            "y": 1
-          },
-          "property": 0,
-          "view_radius": 0,
-          "script": {
-            "symbol": "mt。Ember3Npc6Main",
-            "path": "scripts/npc/6.s"
-          },
-          "flag": 24
-        }
-      },
-      {
-        "type": "npc",
-        "data": {
-          "id": 8,
-          "sprite": 96,
-          "replacement": 0,
-          "x": 7,
-          "y": 34,
-          "height": 3,
-          "behavior": 1,
-          "boundary": {
-            "x": 1,
-            "y": 1
-          },
-          "property": 0,
-          "view_radius": 0,
-          "script": {
-            "symbol": "mt。Ember3Npc7Main",
-            "path": "scripts/npc/7.s"
-          },
-          "flag": 25
-        }
-      },
-      {
-        "type": "npc",
-        "data": {
-          "id": 9,
-          "sprite": 96,
-          "replacement": 0,
-          "x": 15,
-          "y": 26,
-          "height": 3,
-          "behavior": 1,
-          "boundary": {
-            "x": 1,
-            "y": 1
-          },
-          "property": 0,
-          "view_radius": 0,
-          "script": {
-            "symbol": "mt。Ember3Npc8Main",
-            "path": "scripts/npc/8.s"
-          },
-          "flag": 26
-        }
-      },
-      {
         "type": "warp",
+        "x": 8,
+        "y": 39,
+        "z": 0,
         "data": {
-          "x": 8,
-          "y": 39,
-          "height": 0,
           "target": {
-            "warp": 1,
+            "warp": "warp-1",
             "map": {
               "id": "map-1-98"
             }
           }
-        }
+        },
+        "id": "warp-0"
       },
       {
         "type": "warp",
+        "x": 39,
+        "y": 6,
+        "z": 3,
         "data": {
-          "x": 39,
-          "y": 6,
-          "height": 3,
           "target": {
-            "warp": 0,
+            "warp": "warp-0",
             "map": {
               "id": "map-1-100"
             }
           }
-        }
+        },
+        "id": "warp-1"
+      },
+      {
+        "type": "object",
+        "x": 40,
+        "y": 7,
+        "z": 3,
+        "data": {
+          "sprite": 96,
+          "replacement": 0,
+          "behavior": 1,
+          "boundary": {
+            "x": 1,
+            "y": 1
+          },
+          "property": 0,
+          "viewRadius": 0,
+          "script": {
+            "symbol": "mt。Ember3Object0Main",
+            "path": "scripts/object/0.s"
+          },
+          "flag": 18
+        },
+        "id": "object-1"
+      },
+      {
+        "type": "object",
+        "x": 33,
+        "y": 5,
+        "z": 3,
+        "data": {
+          "sprite": 96,
+          "replacement": 0,
+          "behavior": 1,
+          "boundary": {
+            "x": 1,
+            "y": 1
+          },
+          "property": 0,
+          "viewRadius": 0,
+          "script": {
+            "symbol": "mt。Ember3Object1Main",
+            "path": "scripts/object/1.s"
+          },
+          "flag": 19
+        },
+        "id": "object-2"
+      },
+      {
+        "type": "object",
+        "x": 15,
+        "y": 19,
+        "z": 3,
+        "data": {
+          "sprite": 96,
+          "replacement": 0,
+          "behavior": 1,
+          "boundary": {
+            "x": 1,
+            "y": 1
+          },
+          "property": 0,
+          "viewRadius": 0,
+          "script": {
+            "symbol": "mt。Ember3Object2Main",
+            "path": "scripts/object/2.s"
+          },
+          "flag": 20
+        },
+        "id": "object-3"
+      },
+      {
+        "type": "object",
+        "x": 13,
+        "y": 23,
+        "z": 3,
+        "data": {
+          "sprite": 96,
+          "replacement": 0,
+          "behavior": 1,
+          "boundary": {
+            "x": 1,
+            "y": 1
+          },
+          "property": 0,
+          "viewRadius": 0,
+          "script": {
+            "symbol": "mt。Ember3Object3Main",
+            "path": "scripts/object/3.s"
+          },
+          "flag": 21
+        },
+        "id": "object-4"
+      },
+      {
+        "type": "object",
+        "x": 13,
+        "y": 21,
+        "z": 3,
+        "data": {
+          "sprite": 96,
+          "replacement": 0,
+          "behavior": 1,
+          "boundary": {
+            "x": 1,
+            "y": 1
+          },
+          "property": 0,
+          "viewRadius": 0,
+          "script": {
+            "symbol": "mt。Ember3Object4Main",
+            "path": "scripts/object/4.s"
+          },
+          "flag": 22
+        },
+        "id": "object-5"
+      },
+      {
+        "type": "object",
+        "x": 7,
+        "y": 38,
+        "z": 3,
+        "data": {
+          "sprite": 96,
+          "replacement": 0,
+          "behavior": 1,
+          "boundary": {
+            "x": 1,
+            "y": 1
+          },
+          "property": 0,
+          "viewRadius": 0,
+          "script": {
+            "symbol": "mt。Ember3Object5Main",
+            "path": "scripts/object/5.s"
+          },
+          "flag": 23
+        },
+        "id": "object-6"
+      },
+      {
+        "type": "object",
+        "x": 9,
+        "y": 35,
+        "z": 3,
+        "data": {
+          "sprite": 96,
+          "replacement": 0,
+          "behavior": 1,
+          "boundary": {
+            "x": 1,
+            "y": 1
+          },
+          "property": 0,
+          "viewRadius": 0,
+          "script": {
+            "symbol": "mt。Ember3Object6Main",
+            "path": "scripts/object/6.s"
+          },
+          "flag": 24
+        },
+        "id": "object-7"
+      },
+      {
+        "type": "object",
+        "x": 7,
+        "y": 34,
+        "z": 3,
+        "data": {
+          "sprite": 96,
+          "replacement": 0,
+          "behavior": 1,
+          "boundary": {
+            "x": 1,
+            "y": 1
+          },
+          "property": 0,
+          "viewRadius": 0,
+          "script": {
+            "symbol": "mt。Ember3Object7Main",
+            "path": "scripts/object/7.s"
+          },
+          "flag": 25
+        },
+        "id": "object-8"
+      },
+      {
+        "type": "object",
+        "x": 15,
+        "y": 26,
+        "z": 3,
+        "data": {
+          "sprite": 96,
+          "replacement": 0,
+          "behavior": 1,
+          "boundary": {
+            "x": 1,
+            "y": 1
+          },
+          "property": 0,
+          "viewRadius": 0,
+          "script": {
+            "symbol": "mt。Ember3Object8Main",
+            "path": "scripts/object/8.s"
+          },
+          "flag": 26
+        },
+        "id": "object-9"
       }
     ]
   }

@@ -1497,70 +1497,71 @@
     "connections": [],
     "entities": [
       {
-        "type": "npc",
-        "data": {
-          "id": 1,
-          "sprite": 145,
-          "replacement": 0,
-          "x": 9,
-          "y": 6,
-          "height": 0,
-          "behavior": 8,
-          "boundary": {
-            "x": 1,
-            "y": 1
-          },
-          "property": 0,
-          "view_radius": 0,
-          "script": {
-            "symbol": "navelRock2Npc0Main",
-            "path": "scripts/npc/0.s"
-          },
-          "flag": 156
-        }
-      },
-      {
         "type": "warp",
+        "x": 10,
+        "y": 18,
+        "z": 3,
         "data": {
-          "x": 10,
-          "y": 18,
-          "height": 3,
           "target": {
-            "warp": 1,
+            "warp": "warp-1",
             "map": {
               "id": "map-2-42"
             }
           }
-        }
+        },
+        "id": "warp-0"
       },
       {
-        "type": "sign",
+        "type": "interactable",
+        "x": 9,
+        "y": 11,
+        "z": 3,
         "data": {
-          "x": 9,
-          "y": 11,
-          "height": 3,
-          "type": "hidden_item2",
+          "type": "hiddenItem",
           "item": 45,
-          "id": 160,
-          "data": {
-            "amount": 1,
-            "exact_required": 1
-          }
-        }
+          "hiddenItemId": 160,
+          "quantity": 1,
+          "itemfinderOnly": true
+        },
+        "id": "interactable-0"
       },
       {
         "type": "trigger",
+        "x": 9,
+        "y": 12,
+        "z": 3,
         "data": {
-          "x": 9,
-          "y": 12,
-          "height": 3,
           "variable": 16385,
           "value": 0,
           "script": {
             "symbol": "navelRock2Trigger0Main",
             "path": "scripts/trigger/0.s"
           }
-        }
+        },
+        "id": "trigger-0"
+      },
+      {
+        "type": "object",
+        "x": 9,
+        "y": 6,
+        "z": 0,
+        "data": {
+          "sprite": 145,
+          "replacement": 0,
+          "behavior": 8,
+          "boundary": {
+            "x": 1,
+            "y": 1
+          },
+          "property": 0,
+          "viewRadius": 0,
+          "script": {
+            "symbol": "navelRock2Object0Main",
+            "path": "scripts/object/0.s"
+          },
+          "flag": 156
+        },
+        "id": "object-1"
       }
     ]
   }

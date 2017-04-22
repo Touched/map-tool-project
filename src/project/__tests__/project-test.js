@@ -43,9 +43,10 @@ function testEntityFieldValidation(
 }
 
 describe('Project', () => {
+  const manifestPath = path.join(__dirname, '/fixtures/bpre0-project/project.json');
+
   describe('load', () => {
     it('returns a project object given a valid manifest', () => {
-      const manifestPath = path.join(__dirname, '/fixtures/bpre0-project/project.json');
       const project = Project.load(manifestPath);
 
       invariant(project);
@@ -105,6 +106,15 @@ describe('Project', () => {
         valid: [baseData.data],
         invalid: [{}],
       });
+    });
+  });
+
+  describe('lookupEntity', () => {
+    it('builds a list of entity ids', () => {
+      const project = Project.load(manifestPath);
+      invariant(project);
+
+      expect(project.lookupEntity('map', 'map-3-0').meta.id).to.equal('map-3-0');
     });
   });
 });

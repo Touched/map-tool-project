@@ -354,82 +354,86 @@
     "connections": [],
     "entities": [
       {
-        "type": "npc",
+        "type": "warp",
+        "x": 2,
+        "y": 8,
+        "z": 0,
         "data": {
-          "id": 1,
+          "target": {
+            "warp": "warp-0",
+            "map": {
+              "id": "map-3-30"
+            }
+          }
+        },
+        "id": "warp-0"
+      },
+      {
+        "type": "warp",
+        "x": 3,
+        "y": 7,
+        "z": 3,
+        "data": {
+          "target": {
+            "warp": "warp-0",
+            "map": {
+              "id": "map-3-30"
+            }
+          }
+        },
+        "id": "warp-1"
+      },
+      {
+        "type": "warp",
+        "x": 4,
+        "y": 8,
+        "z": 0,
+        "data": {
+          "target": {
+            "warp": "warp-0",
+            "map": {
+              "id": "map-3-30"
+            }
+          }
+        },
+        "id": "warp-2"
+      },
+      {
+        "type": "interactable",
+        "x": 9,
+        "y": 1,
+        "z": 0,
+        "data": {
+          "type": "script",
+          "script": {
+            "symbol": "route123Interactable0Main",
+            "path": "scripts/interactable/0.s"
+          }
+        },
+        "id": "interactable-0"
+      },
+      {
+        "type": "object",
+        "x": 4,
+        "y": 4,
+        "z": 3,
+        "data": {
           "sprite": 57,
           "replacement": 0,
-          "x": 4,
-          "y": 4,
-          "height": 3,
           "behavior": 8,
           "boundary": {
             "x": 1,
             "y": 1
           },
           "property": 0,
-          "view_radius": 0,
+          "viewRadius": 0,
           "script": {
-            "symbol": "route123Npc0Main",
-            "path": "scripts/npc/0.s"
+            "symbol": "route123Object0Main",
+            "path": "scripts/object/0.s"
           },
           "flag": 0
-        }
-      },
-      {
-        "type": "warp",
-        "data": {
-          "x": 2,
-          "y": 8,
-          "height": 0,
-          "target": {
-            "warp": 0,
-            "map": {
-              "id": "map-3-30"
-            }
-          }
-        }
-      },
-      {
-        "type": "warp",
-        "data": {
-          "x": 3,
-          "y": 7,
-          "height": 3,
-          "target": {
-            "warp": 0,
-            "map": {
-              "id": "map-3-30"
-            }
-          }
-        }
-      },
-      {
-        "type": "warp",
-        "data": {
-          "x": 4,
-          "y": 8,
-          "height": 0,
-          "target": {
-            "warp": 0,
-            "map": {
-              "id": "map-3-30"
-            }
-          }
-        }
-      },
-      {
-        "type": "sign",
-        "data": {
-          "x": 9,
-          "y": 1,
-          "height": 0,
-          "type": "script",
-          "script": {
-            "symbol": "route123Sign0Main",
-            "path": "scripts/sign/0.s"
-          }
-        }
+        },
+        "id": "object-1"
       }
     ]
   }

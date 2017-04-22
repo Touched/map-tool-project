@@ -12,53 +12,46 @@
     "linked": {
       "id": "map-1-12"
     },
-    "blocksets": {
-      "primary": {
-        "id": "blockset-3"
-      },
-      "secondary": {
-        "id": "blockset-7"
-      }
-    },
     "scripts": [],
     "connections": [],
     "entities": [
       {
-        "type": "npc",
+        "type": "warp",
+        "x": 2,
+        "y": 1,
+        "z": 0,
         "data": {
-          "id": 1,
+          "target": {
+            "warp": "warp-10",
+            "map": {
+              "id": "map-1-5"
+            }
+          }
+        },
+        "id": "warp-0"
+      },
+      {
+        "type": "object",
+        "x": 2,
+        "y": 6,
+        "z": 3,
+        "data": {
           "sprite": 61,
           "replacement": 0,
-          "x": 2,
-          "y": 6,
-          "height": 3,
           "behavior": 7,
           "boundary": {
             "x": 1,
             "y": 1
           },
           "property": 1,
-          "view_radius": 4,
+          "viewRadius": 4,
           "script": {
-            "symbol": "s。s。Anne12Npc0Main",
-            "path": "scripts/npc/0.s"
+            "symbol": "s。s。Anne12Object0Main",
+            "path": "scripts/object/0.s"
           },
           "flag": 0
-        }
-      },
-      {
-        "type": "warp",
-        "data": {
-          "x": 2,
-          "y": 1,
-          "height": 0,
-          "target": {
-            "warp": 10,
-            "map": {
-              "id": "map-1-5"
-            }
-          }
-        }
+        },
+        "id": "object-1"
       }
     ]
   }

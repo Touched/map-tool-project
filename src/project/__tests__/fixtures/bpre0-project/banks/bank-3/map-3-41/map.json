@@ -3528,152 +3528,161 @@
     ],
     "entities": [
       {
-        "type": "npc",
-        "data": {
-          "id": 1,
-          "sprite": 72,
-          "replacement": 0,
-          "x": 25,
-          "y": 4,
-          "height": 3,
-          "behavior": 10,
-          "boundary": {
-            "x": 1,
-            "y": 1
-          },
-          "property": 0,
-          "view_radius": 0,
-          "script": {
-            "symbol": "route22Npc0Main",
-            "path": "scripts/npc/0.s"
-          },
-          "flag": 79
-        }
-      },
-      {
         "type": "warp",
+        "x": 8,
+        "y": 5,
+        "z": 0,
         "data": {
-          "x": 8,
-          "y": 5,
-          "height": 0,
           "target": {
-            "warp": 2,
+            "warp": "warp-2",
             "map": {
               "id": "map-28-0"
             }
           }
-        }
+        },
+        "id": "warp-0"
       },
       {
         "type": "warp",
+        "x": 9,
+        "y": 5,
+        "z": 0,
         "data": {
-          "x": 9,
-          "y": 5,
-          "height": 0,
           "target": {
-            "warp": 2,
+            "warp": "warp-2",
             "map": {
               "id": "map-28-0"
             }
           }
-        }
+        },
+        "id": "warp-1"
       },
       {
-        "type": "sign",
+        "type": "interactable",
+        "x": 7,
+        "y": 12,
+        "z": 0,
         "data": {
-          "x": 7,
-          "y": 12,
-          "height": 0,
           "type": "script",
           "script": {
-            "symbol": "route22Sign0Main",
-            "path": "scripts/sign/0.s"
+            "symbol": "route22Interactable0Main",
+            "path": "scripts/interactable/0.s"
           }
-        }
+        },
+        "id": "interactable-0"
       },
       {
         "type": "trigger",
+        "x": 33,
+        "y": 4,
+        "z": 3,
         "data": {
-          "x": 33,
-          "y": 4,
-          "height": 3,
           "variable": 16468,
           "value": 1,
           "script": {
             "symbol": "route22Trigger0Main",
             "path": "scripts/trigger/0.s"
           }
-        }
+        },
+        "id": "trigger-0"
       },
       {
         "type": "trigger",
+        "x": 33,
+        "y": 5,
+        "z": 3,
         "data": {
-          "x": 33,
-          "y": 5,
-          "height": 3,
           "variable": 16468,
           "value": 1,
           "script": {
             "symbol": "route22Trigger1Main",
             "path": "scripts/trigger/1.s"
           }
-        }
+        },
+        "id": "trigger-1"
       },
       {
         "type": "trigger",
+        "x": 33,
+        "y": 6,
+        "z": 0,
         "data": {
-          "x": 33,
-          "y": 6,
-          "height": 0,
           "variable": 16468,
           "value": 1,
           "script": {
             "symbol": "route22Trigger2Main",
             "path": "scripts/trigger/2.s"
           }
-        }
+        },
+        "id": "trigger-2"
       },
       {
         "type": "trigger",
+        "x": 33,
+        "y": 4,
+        "z": 3,
         "data": {
-          "x": 33,
-          "y": 4,
-          "height": 3,
           "variable": 16468,
           "value": 3,
           "script": {
             "symbol": "route22Trigger3Main",
             "path": "scripts/trigger/3.s"
           }
-        }
+        },
+        "id": "trigger-3"
       },
       {
         "type": "trigger",
+        "x": 33,
+        "y": 5,
+        "z": 3,
         "data": {
-          "x": 33,
-          "y": 5,
-          "height": 3,
           "variable": 16468,
           "value": 3,
           "script": {
             "symbol": "route22Trigger4Main",
             "path": "scripts/trigger/4.s"
           }
-        }
+        },
+        "id": "trigger-4"
       },
       {
         "type": "trigger",
+        "x": 33,
+        "y": 6,
+        "z": 0,
         "data": {
-          "x": 33,
-          "y": 6,
-          "height": 0,
           "variable": 16468,
           "value": 3,
           "script": {
             "symbol": "route22Trigger5Main",
             "path": "scripts/trigger/5.s"
           }
-        }
+        },
+        "id": "trigger-5"
+      },
+      {
+        "type": "object",
+        "x": 25,
+        "y": 4,
+        "z": 3,
+        "data": {
+          "sprite": 72,
+          "replacement": 0,
+          "behavior": 10,
+          "boundary": {
+            "x": 1,
+            "y": 1
+          },
+          "property": 0,
+          "viewRadius": 0,
+          "script": {
+            "symbol": "route22Object0Main",
+            "path": "scripts/object/0.s"
+          },
+          "flag": 79
+        },
+        "id": "object-1"
       }
     ]
   }

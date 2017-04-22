@@ -2952,193 +2952,192 @@
     ],
     "entities": [
       {
-        "type": "npc",
+        "type": "interactable",
+        "x": 8,
+        "y": 29,
+        "z": 5,
         "data": {
-          "id": 1,
+          "type": "hiddenItem",
+          "item": 136,
+          "hiddenItemId": 188,
+          "quantity": 1
+        },
+        "id": "interactable-0"
+      },
+      {
+        "type": "interactable",
+        "x": 14,
+        "y": 26,
+        "z": 0,
+        "data": {
+          "type": "script",
+          "script": {
+            "symbol": "canyonEntranceInteractable1Main",
+            "path": "scripts/interactable/1.s"
+          }
+        },
+        "id": "interactable-1"
+      },
+      {
+        "type": "object",
+        "x": 12,
+        "y": 6,
+        "z": 3,
+        "data": {
           "sprite": 28,
           "replacement": 0,
-          "x": 12,
-          "y": 6,
-          "height": 3,
           "behavior": 9,
           "boundary": {
             "x": 1,
             "y": 1
           },
           "property": 1,
-          "view_radius": 5,
+          "viewRadius": 5,
           "script": {
-            "symbol": "canyonEntranceNpc0Main",
-            "path": "scripts/npc/0.s"
+            "symbol": "canyonEntranceObject0Main",
+            "path": "scripts/object/0.s"
           },
           "flag": 0
-        }
+        },
+        "id": "object-1"
       },
       {
-        "type": "npc",
+        "type": "object",
+        "x": 3,
+        "y": 34,
+        "z": 3,
         "data": {
-          "id": 2,
           "sprite": 29,
           "replacement": 0,
-          "x": 3,
-          "y": 34,
-          "height": 3,
           "behavior": 10,
           "boundary": {
             "x": 1,
             "y": 1
           },
           "property": 1,
-          "view_radius": 1,
+          "viewRadius": 1,
           "script": {
-            "symbol": "canyonEntranceNpc1Main",
-            "path": "scripts/npc/1.s"
+            "symbol": "canyonEntranceObject1Main",
+            "path": "scripts/object/1.s"
           },
           "flag": 0
-        }
+        },
+        "id": "object-2"
       },
       {
-        "type": "npc",
+        "type": "object",
+        "x": 4,
+        "y": 34,
+        "z": 3,
         "data": {
-          "id": 3,
           "sprite": 25,
           "replacement": 0,
-          "x": 4,
-          "y": 34,
-          "height": 3,
           "behavior": 9,
           "boundary": {
             "x": 1,
             "y": 1
           },
           "property": 1,
-          "view_radius": 1,
+          "viewRadius": 1,
           "script": {
-            "symbol": "canyonEntranceNpc2Main",
-            "path": "scripts/npc/2.s"
+            "symbol": "canyonEntranceObject2Main",
+            "path": "scripts/object/2.s"
           },
           "flag": 0
-        }
+        },
+        "id": "object-3"
       },
       {
-        "type": "npc",
+        "type": "object",
+        "x": 11,
+        "y": 26,
+        "z": 3,
         "data": {
-          "id": 4,
           "sprite": 39,
           "replacement": 0,
-          "x": 11,
-          "y": 26,
-          "height": 3,
           "behavior": 20,
           "boundary": {
             "x": 1,
             "y": 1
           },
           "property": 1,
-          "view_radius": 2,
+          "viewRadius": 2,
           "script": {
-            "symbol": "canyonEntranceNpc3Main",
-            "path": "scripts/npc/3.s"
+            "symbol": "canyonEntranceObject3Main",
+            "path": "scripts/object/3.s"
           },
           "flag": 0
-        }
+        },
+        "id": "object-4"
       },
       {
-        "type": "npc",
+        "type": "object",
+        "x": 10,
+        "y": 26,
+        "z": 3,
         "data": {
-          "id": 5,
           "sprite": 40,
           "replacement": 0,
-          "x": 10,
-          "y": 26,
-          "height": 3,
           "behavior": 19,
           "boundary": {
             "x": 1,
             "y": 1
           },
           "property": 1,
-          "view_radius": 2,
+          "viewRadius": 2,
           "script": {
-            "symbol": "canyonEntranceNpc4Main",
-            "path": "scripts/npc/4.s"
+            "symbol": "canyonEntranceObject4Main",
+            "path": "scripts/object/4.s"
           },
           "flag": 0
-        }
+        },
+        "id": "object-5"
       },
       {
-        "type": "npc",
+        "type": "object",
+        "x": 11,
+        "y": 17,
+        "z": 5,
         "data": {
-          "id": 6,
           "sprite": 26,
           "replacement": 0,
-          "x": 11,
-          "y": 17,
-          "height": 5,
           "behavior": 23,
           "boundary": {
             "x": 1,
             "y": 1
           },
           "property": 1,
-          "view_radius": 1,
+          "viewRadius": 1,
           "script": {
-            "symbol": "canyonEntranceNpc5Main",
-            "path": "scripts/npc/5.s"
+            "symbol": "canyonEntranceObject5Main",
+            "path": "scripts/object/5.s"
           },
           "flag": 0
-        }
+        },
+        "id": "object-6"
       },
       {
-        "type": "npc",
+        "type": "object",
+        "x": 7,
+        "y": 65534,
+        "z": 1,
         "data": {
-          "id": 7,
           "sprite": 41,
           "replacement": 255,
-          "x": 7,
-          "y": 65534,
-          "height": 1,
           "behavior": 0,
           "boundary": {
             "x": 0,
             "y": 0
           },
           "property": 17,
-          "view_radius": 3,
+          "viewRadius": 3,
           "script": {
-            "symbol": "canyonEntranceNpc6Main",
-            "path": "scripts/npc/6.s"
+            "symbol": "canyonEntranceObject6Main",
+            "path": "scripts/object/6.s"
           },
           "flag": 0
-        }
-      },
-      {
-        "type": "sign",
-        "data": {
-          "x": 8,
-          "y": 29,
-          "height": 5,
-          "type": "hidden_item2",
-          "item": 136,
-          "id": 188,
-          "data": {
-            "amount": 1,
-            "exact_required": 0
-          }
-        }
-      },
-      {
-        "type": "sign",
-        "data": {
-          "x": 14,
-          "y": 26,
-          "height": 0,
-          "type": "script",
-          "script": {
-            "symbol": "canyonEntranceSign1Main",
-            "path": "scripts/sign/1.s"
-          }
-        }
+        },
+        "id": "object-7"
       }
     ]
   }

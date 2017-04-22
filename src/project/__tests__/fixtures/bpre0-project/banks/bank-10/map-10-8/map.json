@@ -957,132 +957,138 @@
     "connections": [],
     "entities": [
       {
-        "type": "npc",
+        "type": "warp",
+        "x": 4,
+        "y": 2,
+        "z": 3,
         "data": {
-          "id": 1,
+          "target": {
+            "warp": "warp-3",
+            "map": {
+              "id": "map-10-7"
+            }
+          }
+        },
+        "id": "warp-0"
+      },
+      {
+        "type": "warp",
+        "x": 2,
+        "y": 2,
+        "z": 3,
+        "data": {
+          "target": {
+            "warp": "warp-0",
+            "map": {
+              "id": "map-10-9"
+            }
+          }
+        },
+        "id": "warp-1"
+      },
+      {
+        "type": "warp",
+        "x": 11,
+        "y": 2,
+        "z": 3,
+        "data": {
+          "target": {
+            "warp": "warp-3",
+            "map": {
+              "id": "map-10-9"
+            }
+          }
+        },
+        "id": "warp-2"
+      },
+      {
+        "type": "warp",
+        "x": 12,
+        "y": 2,
+        "z": 3,
+        "data": {
+          "target": {
+            "warp": "warp-4",
+            "map": {
+              "id": "map-10-7"
+            }
+          }
+        },
+        "id": "warp-3"
+      },
+      {
+        "type": "interactable",
+        "x": 8,
+        "y": 12,
+        "z": 0,
+        "data": {
+          "type": "script",
+          "script": {
+            "symbol": "celadonCity9Interactable0Main",
+            "path": "scripts/interactable/0.s"
+          }
+        },
+        "id": "interactable-0"
+      },
+      {
+        "type": "interactable",
+        "x": 7,
+        "y": 12,
+        "z": 0,
+        "data": {
+          "type": "script",
+          "script": {
+            "symbol": "celadonCity9Interactable1Main",
+            "path": "scripts/interactable/1.s"
+          }
+        },
+        "id": "interactable-1"
+      },
+      {
+        "type": "object",
+        "x": 6,
+        "y": 6,
+        "z": 0,
+        "data": {
           "sprite": 0,
           "replacement": 0,
-          "x": 6,
-          "y": 6,
-          "height": 0,
           "behavior": 76,
           "boundary": {
             "x": 1,
             "y": 1
           },
           "property": 0,
-          "view_radius": 0,
+          "viewRadius": 0,
           "script": {
-            "symbol": "celadonCity9Npc0Main",
-            "path": "scripts/npc/0.s"
+            "symbol": "celadonCity9Object0Main",
+            "path": "scripts/object/0.s"
           },
           "flag": 158
-        }
+        },
+        "id": "object-1"
       },
       {
-        "type": "npc",
+        "type": "object",
+        "x": 5,
+        "y": 6,
+        "z": 0,
         "data": {
-          "id": 2,
           "sprite": 0,
           "replacement": 0,
-          "x": 5,
-          "y": 6,
-          "height": 0,
           "behavior": 76,
           "boundary": {
             "x": 1,
             "y": 1
           },
           "property": 0,
-          "view_radius": 0,
+          "viewRadius": 0,
           "script": {
-            "symbol": "celadonCity9Npc1Main",
-            "path": "scripts/npc/1.s"
+            "symbol": "celadonCity9Object1Main",
+            "path": "scripts/object/1.s"
           },
           "flag": 158
-        }
-      },
-      {
-        "type": "warp",
-        "data": {
-          "x": 4,
-          "y": 2,
-          "height": 3,
-          "target": {
-            "warp": 3,
-            "map": {
-              "id": "map-10-7"
-            }
-          }
-        }
-      },
-      {
-        "type": "warp",
-        "data": {
-          "x": 2,
-          "y": 2,
-          "height": 3,
-          "target": {
-            "warp": 0,
-            "map": {
-              "id": "map-10-9"
-            }
-          }
-        }
-      },
-      {
-        "type": "warp",
-        "data": {
-          "x": 11,
-          "y": 2,
-          "height": 3,
-          "target": {
-            "warp": 3,
-            "map": {
-              "id": "map-10-9"
-            }
-          }
-        }
-      },
-      {
-        "type": "warp",
-        "data": {
-          "x": 12,
-          "y": 2,
-          "height": 3,
-          "target": {
-            "warp": 4,
-            "map": {
-              "id": "map-10-7"
-            }
-          }
-        }
-      },
-      {
-        "type": "sign",
-        "data": {
-          "x": 8,
-          "y": 12,
-          "height": 0,
-          "type": "script",
-          "script": {
-            "symbol": "celadonCity9Sign0Main",
-            "path": "scripts/sign/0.s"
-          }
-        }
-      },
-      {
-        "type": "sign",
-        "data": {
-          "x": 7,
-          "y": 12,
-          "height": 0,
-          "type": "script",
-          "script": {
-            "symbol": "celadonCity9Sign1Main",
-            "path": "scripts/sign/1.s"
-          }
-        }
+        },
+        "id": "object-2"
       }
     ]
   }

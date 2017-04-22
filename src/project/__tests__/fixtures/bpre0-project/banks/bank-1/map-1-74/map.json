@@ -2832,294 +2832,295 @@
     "connections": [],
     "entities": [
       {
-        "type": "npc",
-        "data": {
-          "id": 1,
-          "sprite": 92,
-          "replacement": 0,
-          "x": 31,
-          "y": 9,
-          "height": 4,
-          "behavior": 8,
-          "boundary": {
-            "x": 1,
-            "y": 1
-          },
-          "property": 0,
-          "view_radius": 0,
-          "script": {
-            "symbol": "ceruleanCave2Npc0Main",
-            "path": "scripts/npc/0.s"
-          },
-          "flag": 440
-        }
-      },
-      {
-        "type": "npc",
-        "data": {
-          "id": 2,
-          "sprite": 92,
-          "replacement": 0,
-          "x": 32,
-          "y": 2,
-          "height": 3,
-          "behavior": 8,
-          "boundary": {
-            "x": 1,
-            "y": 1
-          },
-          "property": 0,
-          "view_radius": 0,
-          "script": {
-            "symbol": "ceruleanCave2Npc1Main",
-            "path": "scripts/npc/1.s"
-          },
-          "flag": 439
-        }
-      },
-      {
-        "type": "npc",
-        "data": {
-          "id": 3,
-          "sprite": 139,
-          "replacement": 0,
-          "x": 7,
-          "y": 12,
-          "height": 3,
-          "behavior": 8,
-          "boundary": {
-            "x": 1,
-            "y": 1
-          },
-          "property": 0,
-          "view_radius": 0,
-          "script": {
-            "symbol": "ceruleanCave2Npc2Main",
-            "path": "scripts/npc/2.s"
-          },
-          "flag": 129
-        }
-      },
-      {
-        "type": "npc",
-        "data": {
-          "id": 4,
-          "sprite": 96,
-          "replacement": 0,
-          "x": 37,
-          "y": 1,
-          "height": 3,
-          "behavior": 1,
-          "boundary": {
-            "x": 1,
-            "y": 1
-          },
-          "property": 0,
-          "view_radius": 0,
-          "script": {
-            "symbol": "ceruleanCave2Npc3Main",
-            "path": "scripts/npc/3.s"
-          },
-          "flag": 18
-        }
-      },
-      {
-        "type": "npc",
-        "data": {
-          "id": 5,
-          "sprite": 96,
-          "replacement": 0,
-          "x": 38,
-          "y": 2,
-          "height": 3,
-          "behavior": 1,
-          "boundary": {
-            "x": 1,
-            "y": 1
-          },
-          "property": 0,
-          "view_radius": 0,
-          "script": {
-            "symbol": "ceruleanCave2Npc4Main",
-            "path": "scripts/npc/4.s"
-          },
-          "flag": 19
-        }
-      },
-      {
-        "type": "npc",
-        "data": {
-          "id": 6,
-          "sprite": 96,
-          "replacement": 0,
-          "x": 35,
-          "y": 1,
-          "height": 3,
-          "behavior": 1,
-          "boundary": {
-            "x": 1,
-            "y": 1
-          },
-          "property": 0,
-          "view_radius": 0,
-          "script": {
-            "symbol": "ceruleanCave2Npc5Main",
-            "path": "scripts/npc/5.s"
-          },
-          "flag": 20
-        }
-      },
-      {
-        "type": "npc",
-        "data": {
-          "id": 7,
-          "sprite": 96,
-          "replacement": 0,
-          "x": 37,
-          "y": 4,
-          "height": 3,
-          "behavior": 1,
-          "boundary": {
-            "x": 1,
-            "y": 1
-          },
-          "property": 0,
-          "view_radius": 0,
-          "script": {
-            "symbol": "ceruleanCave2Npc6Main",
-            "path": "scripts/npc/6.s"
-          },
-          "flag": 21
-        }
-      },
-      {
-        "type": "npc",
-        "data": {
-          "id": 8,
-          "sprite": 96,
-          "replacement": 0,
-          "x": 35,
-          "y": 5,
-          "height": 3,
-          "behavior": 1,
-          "boundary": {
-            "x": 1,
-            "y": 1
-          },
-          "property": 0,
-          "view_radius": 0,
-          "script": {
-            "symbol": "ceruleanCave2Npc7Main",
-            "path": "scripts/npc/7.s"
-          },
-          "flag": 22
-        }
-      },
-      {
-        "type": "npc",
-        "data": {
-          "id": 9,
-          "sprite": 96,
-          "replacement": 0,
-          "x": 2,
-          "y": 2,
-          "height": 3,
-          "behavior": 1,
-          "boundary": {
-            "x": 1,
-            "y": 1
-          },
-          "property": 0,
-          "view_radius": 0,
-          "script": {
-            "symbol": "ceruleanCave2Npc8Main",
-            "path": "scripts/npc/8.s"
-          },
-          "flag": 23
-        }
-      },
-      {
-        "type": "npc",
-        "data": {
-          "id": 10,
-          "sprite": 96,
-          "replacement": 0,
-          "x": 4,
-          "y": 1,
-          "height": 3,
-          "behavior": 1,
-          "boundary": {
-            "x": 1,
-            "y": 1
-          },
-          "property": 0,
-          "view_radius": 0,
-          "script": {
-            "symbol": "ceruleanCave2Npc9Main",
-            "path": "scripts/npc/9.s"
-          },
-          "flag": 24
-        }
-      },
-      {
-        "type": "npc",
-        "data": {
-          "id": 11,
-          "sprite": 96,
-          "replacement": 0,
-          "x": 6,
-          "y": 1,
-          "height": 3,
-          "behavior": 1,
-          "boundary": {
-            "x": 1,
-            "y": 1
-          },
-          "property": 0,
-          "view_radius": 0,
-          "script": {
-            "symbol": "ceruleanCave2Npc10Main",
-            "path": "scripts/npc/10.s"
-          },
-          "flag": 25
-        }
-      },
-      {
-        "type": "npc",
-        "data": {
-          "id": 12,
-          "sprite": 96,
-          "replacement": 0,
-          "x": 3,
-          "y": 4,
-          "height": 3,
-          "behavior": 1,
-          "boundary": {
-            "x": 1,
-            "y": 1
-          },
-          "property": 0,
-          "view_radius": 0,
-          "script": {
-            "symbol": "ceruleanCave2Npc11Main",
-            "path": "scripts/npc/11.s"
-          },
-          "flag": 26
-        }
-      },
-      {
         "type": "warp",
+        "x": 5,
+        "y": 7,
+        "z": 3,
         "data": {
-          "x": 5,
-          "y": 7,
-          "height": 3,
           "target": {
-            "warp": 2,
+            "warp": "warp-2",
             "map": {
               "id": "map-1-72"
             }
           }
-        }
+        },
+        "id": "warp-0"
+      },
+      {
+        "type": "object",
+        "x": 31,
+        "y": 9,
+        "z": 4,
+        "data": {
+          "sprite": 92,
+          "replacement": 0,
+          "behavior": 8,
+          "boundary": {
+            "x": 1,
+            "y": 1
+          },
+          "property": 0,
+          "viewRadius": 0,
+          "script": {
+            "symbol": "ceruleanCave2Object0Main",
+            "path": "scripts/object/0.s"
+          },
+          "flag": 440
+        },
+        "id": "object-1"
+      },
+      {
+        "type": "object",
+        "x": 32,
+        "y": 2,
+        "z": 3,
+        "data": {
+          "sprite": 92,
+          "replacement": 0,
+          "behavior": 8,
+          "boundary": {
+            "x": 1,
+            "y": 1
+          },
+          "property": 0,
+          "viewRadius": 0,
+          "script": {
+            "symbol": "ceruleanCave2Object1Main",
+            "path": "scripts/object/1.s"
+          },
+          "flag": 439
+        },
+        "id": "object-2"
+      },
+      {
+        "type": "object",
+        "x": 7,
+        "y": 12,
+        "z": 3,
+        "data": {
+          "sprite": 139,
+          "replacement": 0,
+          "behavior": 8,
+          "boundary": {
+            "x": 1,
+            "y": 1
+          },
+          "property": 0,
+          "viewRadius": 0,
+          "script": {
+            "symbol": "ceruleanCave2Object2Main",
+            "path": "scripts/object/2.s"
+          },
+          "flag": 129
+        },
+        "id": "object-3"
+      },
+      {
+        "type": "object",
+        "x": 37,
+        "y": 1,
+        "z": 3,
+        "data": {
+          "sprite": 96,
+          "replacement": 0,
+          "behavior": 1,
+          "boundary": {
+            "x": 1,
+            "y": 1
+          },
+          "property": 0,
+          "viewRadius": 0,
+          "script": {
+            "symbol": "ceruleanCave2Object3Main",
+            "path": "scripts/object/3.s"
+          },
+          "flag": 18
+        },
+        "id": "object-4"
+      },
+      {
+        "type": "object",
+        "x": 38,
+        "y": 2,
+        "z": 3,
+        "data": {
+          "sprite": 96,
+          "replacement": 0,
+          "behavior": 1,
+          "boundary": {
+            "x": 1,
+            "y": 1
+          },
+          "property": 0,
+          "viewRadius": 0,
+          "script": {
+            "symbol": "ceruleanCave2Object4Main",
+            "path": "scripts/object/4.s"
+          },
+          "flag": 19
+        },
+        "id": "object-5"
+      },
+      {
+        "type": "object",
+        "x": 35,
+        "y": 1,
+        "z": 3,
+        "data": {
+          "sprite": 96,
+          "replacement": 0,
+          "behavior": 1,
+          "boundary": {
+            "x": 1,
+            "y": 1
+          },
+          "property": 0,
+          "viewRadius": 0,
+          "script": {
+            "symbol": "ceruleanCave2Object5Main",
+            "path": "scripts/object/5.s"
+          },
+          "flag": 20
+        },
+        "id": "object-6"
+      },
+      {
+        "type": "object",
+        "x": 37,
+        "y": 4,
+        "z": 3,
+        "data": {
+          "sprite": 96,
+          "replacement": 0,
+          "behavior": 1,
+          "boundary": {
+            "x": 1,
+            "y": 1
+          },
+          "property": 0,
+          "viewRadius": 0,
+          "script": {
+            "symbol": "ceruleanCave2Object6Main",
+            "path": "scripts/object/6.s"
+          },
+          "flag": 21
+        },
+        "id": "object-7"
+      },
+      {
+        "type": "object",
+        "x": 35,
+        "y": 5,
+        "z": 3,
+        "data": {
+          "sprite": 96,
+          "replacement": 0,
+          "behavior": 1,
+          "boundary": {
+            "x": 1,
+            "y": 1
+          },
+          "property": 0,
+          "viewRadius": 0,
+          "script": {
+            "symbol": "ceruleanCave2Object7Main",
+            "path": "scripts/object/7.s"
+          },
+          "flag": 22
+        },
+        "id": "object-8"
+      },
+      {
+        "type": "object",
+        "x": 2,
+        "y": 2,
+        "z": 3,
+        "data": {
+          "sprite": 96,
+          "replacement": 0,
+          "behavior": 1,
+          "boundary": {
+            "x": 1,
+            "y": 1
+          },
+          "property": 0,
+          "viewRadius": 0,
+          "script": {
+            "symbol": "ceruleanCave2Object8Main",
+            "path": "scripts/object/8.s"
+          },
+          "flag": 23
+        },
+        "id": "object-9"
+      },
+      {
+        "type": "object",
+        "x": 4,
+        "y": 1,
+        "z": 3,
+        "data": {
+          "sprite": 96,
+          "replacement": 0,
+          "behavior": 1,
+          "boundary": {
+            "x": 1,
+            "y": 1
+          },
+          "property": 0,
+          "viewRadius": 0,
+          "script": {
+            "symbol": "ceruleanCave2Object9Main",
+            "path": "scripts/object/9.s"
+          },
+          "flag": 24
+        },
+        "id": "object-10"
+      },
+      {
+        "type": "object",
+        "x": 6,
+        "y": 1,
+        "z": 3,
+        "data": {
+          "sprite": 96,
+          "replacement": 0,
+          "behavior": 1,
+          "boundary": {
+            "x": 1,
+            "y": 1
+          },
+          "property": 0,
+          "viewRadius": 0,
+          "script": {
+            "symbol": "ceruleanCave2Object10Main",
+            "path": "scripts/object/10.s"
+          },
+          "flag": 25
+        },
+        "id": "object-11"
+      },
+      {
+        "type": "object",
+        "x": 3,
+        "y": 4,
+        "z": 3,
+        "data": {
+          "sprite": 96,
+          "replacement": 0,
+          "behavior": 1,
+          "boundary": {
+            "x": 1,
+            "y": 1
+          },
+          "property": 0,
+          "viewRadius": 0,
+          "script": {
+            "symbol": "ceruleanCave2Object11Main",
+            "path": "scripts/object/11.s"
+          },
+          "flag": 26
+        },
+        "id": "object-12"
       }
     ]
   }

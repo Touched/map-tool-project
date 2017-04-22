@@ -5825,209 +5825,206 @@
     ],
     "entities": [
       {
-        "type": "npc",
+        "type": "warp",
+        "x": 7,
+        "y": 21,
+        "z": 3,
         "data": {
-          "id": 1,
+          "target": {
+            "warp": "warp-0",
+            "map": {
+              "id": "map-1-122"
+            }
+          }
+        },
+        "id": "warp-0"
+      },
+      {
+        "type": "interactable",
+        "x": 16,
+        "y": 23,
+        "z": 3,
+        "data": {
+          "type": "hiddenItem",
+          "item": 109,
+          "hiddenItemId": 178,
+          "quantity": 1
+        },
+        "id": "interactable-0"
+      },
+      {
+        "type": "interactable",
+        "x": 6,
+        "y": 24,
+        "z": 3,
+        "data": {
+          "type": "hiddenItem",
+          "item": 6,
+          "hiddenItemId": 179,
+          "quantity": 1
+        },
+        "id": "interactable-1"
+      },
+      {
+        "type": "object",
+        "x": 9,
+        "y": 24,
+        "z": 3,
+        "data": {
           "sprite": 49,
           "replacement": 0,
-          "x": 9,
-          "y": 24,
-          "height": 3,
           "behavior": 1,
           "boundary": {
             "x": 1,
             "y": 1
           },
           "property": 1,
-          "view_radius": 1,
+          "viewRadius": 1,
           "script": {
-            "symbol": "outcastIslandNpc0Main",
-            "path": "scripts/npc/0.s"
+            "symbol": "outcastIslandObject0Main",
+            "path": "scripts/object/0.s"
           },
           "flag": 136
-        }
+        },
+        "id": "object-1"
       },
       {
-        "type": "npc",
+        "type": "object",
+        "x": 12,
+        "y": 15,
+        "z": 3,
         "data": {
-          "id": 2,
           "sprite": 57,
           "replacement": 0,
-          "x": 12,
-          "y": 15,
-          "height": 3,
           "behavior": 7,
           "boundary": {
             "x": 1,
             "y": 1
           },
           "property": 1,
-          "view_radius": 1,
+          "viewRadius": 1,
           "script": {
-            "symbol": "outcastIslandNpc1Main",
-            "path": "scripts/npc/1.s"
+            "symbol": "outcastIslandObject1Main",
+            "path": "scripts/object/1.s"
           },
           "flag": 0
-        }
+        },
+        "id": "object-2"
       },
       {
-        "type": "npc",
+        "type": "object",
+        "x": 13,
+        "y": 34,
+        "z": 1,
         "data": {
-          "id": 3,
           "sprite": 43,
           "replacement": 0,
-          "x": 13,
-          "y": 34,
-          "height": 1,
           "behavior": 1,
           "boundary": {
             "x": 1,
             "y": 1
           },
           "property": 1,
-          "view_radius": 1,
+          "viewRadius": 1,
           "script": {
-            "symbol": "outcastIslandNpc2Main",
-            "path": "scripts/npc/2.s"
+            "symbol": "outcastIslandObject2Main",
+            "path": "scripts/object/2.s"
           },
           "flag": 0
-        }
+        },
+        "id": "object-3"
       },
       {
-        "type": "npc",
+        "type": "object",
+        "x": 14,
+        "y": 61,
+        "z": 1,
         "data": {
-          "id": 4,
           "sprite": 44,
           "replacement": 0,
-          "x": 14,
-          "y": 61,
-          "height": 1,
           "behavior": 50,
           "boundary": {
             "x": 2,
             "y": 4
           },
           "property": 1,
-          "view_radius": 1,
+          "viewRadius": 1,
           "script": {
-            "symbol": "outcastIslandNpc3Main",
-            "path": "scripts/npc/3.s"
+            "symbol": "outcastIslandObject3Main",
+            "path": "scripts/object/3.s"
           },
           "flag": 0
-        }
+        },
+        "id": "object-4"
       },
       {
-        "type": "npc",
+        "type": "object",
+        "x": 10,
+        "y": 44,
+        "z": 1,
         "data": {
-          "id": 5,
           "sprite": 44,
           "replacement": 0,
-          "x": 10,
-          "y": 44,
-          "height": 1,
           "behavior": 7,
           "boundary": {
             "x": 1,
             "y": 1
           },
           "property": 1,
-          "view_radius": 1,
+          "viewRadius": 1,
           "script": {
-            "symbol": "outcastIslandNpc4Main",
-            "path": "scripts/npc/4.s"
+            "symbol": "outcastIslandObject4Main",
+            "path": "scripts/object/4.s"
           },
           "flag": 0
-        }
+        },
+        "id": "object-5"
       },
       {
-        "type": "npc",
+        "type": "object",
+        "x": 11,
+        "y": 44,
+        "z": 1,
         "data": {
-          "id": 6,
           "sprite": 36,
           "replacement": 0,
-          "x": 11,
-          "y": 44,
-          "height": 1,
           "behavior": 7,
           "boundary": {
             "x": 1,
             "y": 1
           },
           "property": 1,
-          "view_radius": 1,
+          "viewRadius": 1,
           "script": {
-            "symbol": "outcastIslandNpc5Main",
-            "path": "scripts/npc/5.s"
+            "symbol": "outcastIslandObject5Main",
+            "path": "scripts/object/5.s"
           },
           "flag": 0
-        }
+        },
+        "id": "object-6"
       },
       {
-        "type": "npc",
+        "type": "object",
+        "x": 11,
+        "y": 16,
+        "z": 3,
         "data": {
-          "id": 7,
           "sprite": 92,
           "replacement": 0,
-          "x": 11,
-          "y": 16,
-          "height": 3,
           "behavior": 8,
           "boundary": {
             "x": 1,
             "y": 1
           },
           "property": 0,
-          "view_radius": 0,
+          "viewRadius": 0,
           "script": {
-            "symbol": "outcastIslandNpc6Main",
-            "path": "scripts/npc/6.s"
+            "symbol": "outcastIslandObject6Main",
+            "path": "scripts/object/6.s"
           },
           "flag": 481
-        }
-      },
-      {
-        "type": "warp",
-        "data": {
-          "x": 7,
-          "y": 21,
-          "height": 3,
-          "target": {
-            "warp": 0,
-            "map": {
-              "id": "map-1-122"
-            }
-          }
-        }
-      },
-      {
-        "type": "sign",
-        "data": {
-          "x": 16,
-          "y": 23,
-          "height": 3,
-          "type": "hidden_item2",
-          "item": 109,
-          "id": 178,
-          "data": {
-            "amount": 1,
-            "exact_required": 0
-          }
-        }
-      },
-      {
-        "type": "sign",
-        "data": {
-          "x": 6,
-          "y": 24,
-          "height": 3,
-          "type": "hidden_item2",
-          "item": 6,
-          "id": 179,
-          "data": {
-            "amount": 1,
-            "exact_required": 0
-          }
-        }
+        },
+        "id": "object-7"
       }
     ]
   }

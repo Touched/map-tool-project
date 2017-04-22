@@ -765,382 +765,402 @@
     "connections": [],
     "entities": [
       {
-        "type": "npc",
+        "type": "warp",
+        "x": 4,
+        "y": 19,
+        "z": 3,
         "data": {
-          "id": 1,
+          "target": {
+            "warp": "warp-9",
+            "map": {
+              "id": "map-3-5"
+            }
+          }
+        },
+        "id": "warp-0"
+      },
+      {
+        "type": "warp",
+        "x": 5,
+        "y": 19,
+        "z": 3,
+        "data": {
+          "target": {
+            "warp": "warp-9",
+            "map": {
+              "id": "map-3-5"
+            }
+          }
+        },
+        "id": "warp-1"
+      },
+      {
+        "type": "warp",
+        "x": 6,
+        "y": 19,
+        "z": 3,
+        "data": {
+          "target": {
+            "warp": "warp-9",
+            "map": {
+              "id": "map-3-5"
+            }
+          }
+        },
+        "id": "warp-2"
+      },
+      {
+        "type": "interactable",
+        "x": 3,
+        "y": 17,
+        "z": 0,
+        "data": {
+          "type": "script",
+          "script": {
+            "symbol": "vermilionCity7Interactable0Main",
+            "path": "scripts/interactable/0.s"
+          }
+        },
+        "id": "interactable-0"
+      },
+      {
+        "type": "interactable",
+        "x": 7,
+        "y": 17,
+        "z": 0,
+        "data": {
+          "type": "script",
+          "script": {
+            "symbol": "vermilionCity7Interactable1Main",
+            "path": "scripts/interactable/1.s"
+          }
+        },
+        "id": "interactable-1"
+      },
+      {
+        "type": "interactable",
+        "x": 1,
+        "y": 10,
+        "z": 0,
+        "data": {
+          "type": "script",
+          "script": {
+            "symbol": "vermilionCity7Interactable2Main",
+            "path": "scripts/interactable/2.s"
+          }
+        },
+        "id": "interactable-2"
+      },
+      {
+        "type": "interactable",
+        "x": 3,
+        "y": 10,
+        "z": 0,
+        "data": {
+          "type": "script",
+          "script": {
+            "symbol": "vermilionCity7Interactable3Main",
+            "path": "scripts/interactable/3.s"
+          }
+        },
+        "id": "interactable-3"
+      },
+      {
+        "type": "interactable",
+        "x": 5,
+        "y": 10,
+        "z": 0,
+        "data": {
+          "type": "script",
+          "script": {
+            "symbol": "vermilionCity7Interactable4Main",
+            "path": "scripts/interactable/4.s"
+          }
+        },
+        "id": "interactable-4"
+      },
+      {
+        "type": "interactable",
+        "x": 7,
+        "y": 10,
+        "z": 0,
+        "data": {
+          "type": "script",
+          "script": {
+            "symbol": "vermilionCity7Interactable5Main",
+            "path": "scripts/interactable/5.s"
+          }
+        },
+        "id": "interactable-5"
+      },
+      {
+        "type": "interactable",
+        "x": 9,
+        "y": 10,
+        "z": 0,
+        "data": {
+          "type": "script",
+          "script": {
+            "symbol": "vermilionCity7Interactable6Main",
+            "path": "scripts/interactable/6.s"
+          }
+        },
+        "id": "interactable-6"
+      },
+      {
+        "type": "interactable",
+        "x": 1,
+        "y": 12,
+        "z": 0,
+        "data": {
+          "type": "script",
+          "script": {
+            "symbol": "vermilionCity7Interactable7Main",
+            "path": "scripts/interactable/7.s"
+          }
+        },
+        "id": "interactable-7"
+      },
+      {
+        "type": "interactable",
+        "x": 3,
+        "y": 12,
+        "z": 0,
+        "data": {
+          "type": "script",
+          "script": {
+            "symbol": "vermilionCity7Interactable8Main",
+            "path": "scripts/interactable/8.s"
+          }
+        },
+        "id": "interactable-8"
+      },
+      {
+        "type": "interactable",
+        "x": 5,
+        "y": 12,
+        "z": 0,
+        "data": {
+          "type": "script",
+          "script": {
+            "symbol": "vermilionCity7Interactable9Main",
+            "path": "scripts/interactable/9.s"
+          }
+        },
+        "id": "interactable-9"
+      },
+      {
+        "type": "interactable",
+        "x": 7,
+        "y": 12,
+        "z": 0,
+        "data": {
+          "type": "script",
+          "script": {
+            "symbol": "vermilionCity7Interactable10Main",
+            "path": "scripts/interactable/10.s"
+          }
+        },
+        "id": "interactable-10"
+      },
+      {
+        "type": "interactable",
+        "x": 9,
+        "y": 12,
+        "z": 0,
+        "data": {
+          "type": "script",
+          "script": {
+            "symbol": "vermilionCity7Interactable11Main",
+            "path": "scripts/interactable/11.s"
+          }
+        },
+        "id": "interactable-11"
+      },
+      {
+        "type": "interactable",
+        "x": 1,
+        "y": 14,
+        "z": 0,
+        "data": {
+          "type": "script",
+          "script": {
+            "symbol": "vermilionCity7Interactable12Main",
+            "path": "scripts/interactable/12.s"
+          }
+        },
+        "id": "interactable-12"
+      },
+      {
+        "type": "interactable",
+        "x": 3,
+        "y": 14,
+        "z": 0,
+        "data": {
+          "type": "script",
+          "script": {
+            "symbol": "vermilionCity7Interactable13Main",
+            "path": "scripts/interactable/13.s"
+          }
+        },
+        "id": "interactable-13"
+      },
+      {
+        "type": "interactable",
+        "x": 5,
+        "y": 14,
+        "z": 0,
+        "data": {
+          "type": "script",
+          "script": {
+            "symbol": "vermilionCity7Interactable14Main",
+            "path": "scripts/interactable/14.s"
+          }
+        },
+        "id": "interactable-14"
+      },
+      {
+        "type": "interactable",
+        "x": 7,
+        "y": 14,
+        "z": 0,
+        "data": {
+          "type": "script",
+          "script": {
+            "symbol": "vermilionCity7Interactable15Main",
+            "path": "scripts/interactable/15.s"
+          }
+        },
+        "id": "interactable-15"
+      },
+      {
+        "type": "interactable",
+        "x": 9,
+        "y": 14,
+        "z": 0,
+        "data": {
+          "type": "script",
+          "script": {
+            "symbol": "vermilionCity7Interactable16Main",
+            "path": "scripts/interactable/16.s"
+          }
+        },
+        "id": "interactable-16"
+      },
+      {
+        "type": "object",
+        "x": 5,
+        "y": 2,
+        "z": 3,
+        "data": {
           "sprite": 82,
           "replacement": 0,
-          "x": 5,
-          "y": 2,
-          "height": 3,
           "behavior": 8,
           "boundary": {
             "x": 1,
             "y": 1
           },
           "property": 0,
-          "view_radius": 0,
+          "viewRadius": 0,
           "script": {
-            "symbol": "vermilionCity7Npc0Main",
-            "path": "scripts/npc/0.s"
+            "symbol": "vermilionCity7Object0Main",
+            "path": "scripts/object/0.s"
           },
           "flag": 0
-        }
+        },
+        "id": "object-1"
       },
       {
-        "type": "npc",
+        "type": "object",
+        "x": 2,
+        "y": 11,
+        "z": 3,
         "data": {
-          "id": 2,
           "sprite": 30,
           "replacement": 0,
-          "x": 2,
-          "y": 11,
-          "height": 3,
           "behavior": 1,
           "boundary": {
             "x": 1,
             "y": 1
           },
           "property": 1,
-          "view_radius": 3,
+          "viewRadius": 3,
           "script": {
-            "symbol": "vermilionCity7Npc1Main",
-            "path": "scripts/npc/1.s"
+            "symbol": "vermilionCity7Object1Main",
+            "path": "scripts/object/1.s"
           },
           "flag": 0
-        }
+        },
+        "id": "object-2"
       },
       {
-        "type": "npc",
+        "type": "object",
+        "x": 8,
+        "y": 13,
+        "z": 3,
         "data": {
-          "id": 3,
           "sprite": 62,
           "replacement": 0,
-          "x": 8,
-          "y": 13,
-          "height": 3,
           "behavior": 1,
           "boundary": {
             "x": 1,
             "y": 1
           },
           "property": 1,
-          "view_radius": 3,
+          "viewRadius": 3,
           "script": {
-            "symbol": "vermilionCity7Npc2Main",
-            "path": "scripts/npc/2.s"
+            "symbol": "vermilionCity7Object2Main",
+            "path": "scripts/object/2.s"
           },
           "flag": 0
-        }
+        },
+        "id": "object-3"
       },
       {
-        "type": "npc",
+        "type": "object",
+        "x": 4,
+        "y": 17,
+        "z": 3,
         "data": {
-          "id": 4,
           "sprite": 91,
           "replacement": 0,
-          "x": 4,
-          "y": 17,
-          "height": 3,
           "behavior": 8,
           "boundary": {
             "x": 1,
             "y": 1
           },
           "property": 0,
-          "view_radius": 0,
+          "viewRadius": 0,
           "script": {
-            "symbol": "vermilionCity7Npc3Main",
-            "path": "scripts/npc/3.s"
+            "symbol": "vermilionCity7Object3Main",
+            "path": "scripts/object/3.s"
           },
           "flag": 0
-        }
+        },
+        "id": "object-4"
       },
       {
-        "type": "npc",
+        "type": "object",
+        "x": 7,
+        "y": 8,
+        "z": 3,
         "data": {
-          "id": 5,
           "sprite": 61,
           "replacement": 0,
-          "x": 7,
-          "y": 8,
-          "height": 3,
           "behavior": 9,
           "boundary": {
             "x": 1,
             "y": 1
           },
           "property": 1,
-          "view_radius": 3,
+          "viewRadius": 3,
           "script": {
-            "symbol": "vermilionCity7Npc4Main",
-            "path": "scripts/npc/4.s"
+            "symbol": "vermilionCity7Object4Main",
+            "path": "scripts/object/4.s"
           },
           "flag": 0
-        }
-      },
-      {
-        "type": "warp",
-        "data": {
-          "x": 4,
-          "y": 19,
-          "height": 3,
-          "target": {
-            "warp": 9,
-            "map": {
-              "id": "map-3-5"
-            }
-          }
-        }
-      },
-      {
-        "type": "warp",
-        "data": {
-          "x": 5,
-          "y": 19,
-          "height": 3,
-          "target": {
-            "warp": 9,
-            "map": {
-              "id": "map-3-5"
-            }
-          }
-        }
-      },
-      {
-        "type": "warp",
-        "data": {
-          "x": 6,
-          "y": 19,
-          "height": 3,
-          "target": {
-            "warp": 9,
-            "map": {
-              "id": "map-3-5"
-            }
-          }
-        }
-      },
-      {
-        "type": "sign",
-        "data": {
-          "x": 3,
-          "y": 17,
-          "height": 0,
-          "type": "script",
-          "script": {
-            "symbol": "vermilionCity7Sign0Main",
-            "path": "scripts/sign/0.s"
-          }
-        }
-      },
-      {
-        "type": "sign",
-        "data": {
-          "x": 7,
-          "y": 17,
-          "height": 0,
-          "type": "script",
-          "script": {
-            "symbol": "vermilionCity7Sign1Main",
-            "path": "scripts/sign/1.s"
-          }
-        }
-      },
-      {
-        "type": "sign",
-        "data": {
-          "x": 1,
-          "y": 10,
-          "height": 0,
-          "type": "script",
-          "script": {
-            "symbol": "vermilionCity7Sign2Main",
-            "path": "scripts/sign/2.s"
-          }
-        }
-      },
-      {
-        "type": "sign",
-        "data": {
-          "x": 3,
-          "y": 10,
-          "height": 0,
-          "type": "script",
-          "script": {
-            "symbol": "vermilionCity7Sign3Main",
-            "path": "scripts/sign/3.s"
-          }
-        }
-      },
-      {
-        "type": "sign",
-        "data": {
-          "x": 5,
-          "y": 10,
-          "height": 0,
-          "type": "script",
-          "script": {
-            "symbol": "vermilionCity7Sign4Main",
-            "path": "scripts/sign/4.s"
-          }
-        }
-      },
-      {
-        "type": "sign",
-        "data": {
-          "x": 7,
-          "y": 10,
-          "height": 0,
-          "type": "script",
-          "script": {
-            "symbol": "vermilionCity7Sign5Main",
-            "path": "scripts/sign/5.s"
-          }
-        }
-      },
-      {
-        "type": "sign",
-        "data": {
-          "x": 9,
-          "y": 10,
-          "height": 0,
-          "type": "script",
-          "script": {
-            "symbol": "vermilionCity7Sign6Main",
-            "path": "scripts/sign/6.s"
-          }
-        }
-      },
-      {
-        "type": "sign",
-        "data": {
-          "x": 1,
-          "y": 12,
-          "height": 0,
-          "type": "script",
-          "script": {
-            "symbol": "vermilionCity7Sign7Main",
-            "path": "scripts/sign/7.s"
-          }
-        }
-      },
-      {
-        "type": "sign",
-        "data": {
-          "x": 3,
-          "y": 12,
-          "height": 0,
-          "type": "script",
-          "script": {
-            "symbol": "vermilionCity7Sign8Main",
-            "path": "scripts/sign/8.s"
-          }
-        }
-      },
-      {
-        "type": "sign",
-        "data": {
-          "x": 5,
-          "y": 12,
-          "height": 0,
-          "type": "script",
-          "script": {
-            "symbol": "vermilionCity7Sign9Main",
-            "path": "scripts/sign/9.s"
-          }
-        }
-      },
-      {
-        "type": "sign",
-        "data": {
-          "x": 7,
-          "y": 12,
-          "height": 0,
-          "type": "script",
-          "script": {
-            "symbol": "vermilionCity7Sign10Main",
-            "path": "scripts/sign/10.s"
-          }
-        }
-      },
-      {
-        "type": "sign",
-        "data": {
-          "x": 9,
-          "y": 12,
-          "height": 0,
-          "type": "script",
-          "script": {
-            "symbol": "vermilionCity7Sign11Main",
-            "path": "scripts/sign/11.s"
-          }
-        }
-      },
-      {
-        "type": "sign",
-        "data": {
-          "x": 1,
-          "y": 14,
-          "height": 0,
-          "type": "script",
-          "script": {
-            "symbol": "vermilionCity7Sign12Main",
-            "path": "scripts/sign/12.s"
-          }
-        }
-      },
-      {
-        "type": "sign",
-        "data": {
-          "x": 3,
-          "y": 14,
-          "height": 0,
-          "type": "script",
-          "script": {
-            "symbol": "vermilionCity7Sign13Main",
-            "path": "scripts/sign/13.s"
-          }
-        }
-      },
-      {
-        "type": "sign",
-        "data": {
-          "x": 5,
-          "y": 14,
-          "height": 0,
-          "type": "script",
-          "script": {
-            "symbol": "vermilionCity7Sign14Main",
-            "path": "scripts/sign/14.s"
-          }
-        }
-      },
-      {
-        "type": "sign",
-        "data": {
-          "x": 7,
-          "y": 14,
-          "height": 0,
-          "type": "script",
-          "script": {
-            "symbol": "vermilionCity7Sign15Main",
-            "path": "scripts/sign/15.s"
-          }
-        }
-      },
-      {
-        "type": "sign",
-        "data": {
-          "x": 9,
-          "y": 14,
-          "height": 0,
-          "type": "script",
-          "script": {
-            "symbol": "vermilionCity7Sign16Main",
-            "path": "scripts/sign/16.s"
-          }
-        }
+        },
+        "id": "object-5"
       }
     ]
   }

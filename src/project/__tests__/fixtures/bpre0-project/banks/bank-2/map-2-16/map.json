@@ -420,83 +420,87 @@
     "connections": [],
     "entities": [
       {
-        "type": "npc",
+        "type": "warp",
+        "x": 5,
+        "y": 1,
+        "z": 3,
         "data": {
-          "id": 1,
+          "target": {
+            "warp": "warp-0",
+            "map": {
+              "id": "map-2-24"
+            }
+          }
+        },
+        "id": "warp-0"
+      },
+      {
+        "type": "warp",
+        "x": 8,
+        "y": 5,
+        "z": 3,
+        "data": {
+          "target": {
+            "warp": "warp-4",
+            "map": {
+              "id": "map-2-13"
+            }
+          }
+        },
+        "id": "warp-1"
+      },
+      {
+        "type": "warp",
+        "x": 5,
+        "y": 8,
+        "z": 3,
+        "data": {
+          "target": {
+            "warp": "warp-0",
+            "map": {
+              "id": "map-2-17"
+            }
+          }
+        },
+        "id": "warp-2"
+      },
+      {
+        "type": "warp",
+        "x": 2,
+        "y": 5,
+        "z": 3,
+        "data": {
+          "target": {
+            "warp": "warp-2",
+            "map": {
+              "id": "map-2-13"
+            }
+          }
+        },
+        "id": "warp-3"
+      },
+      {
+        "type": "object",
+        "x": 6,
+        "y": 4,
+        "z": 3,
+        "data": {
           "sprite": 23,
           "replacement": 0,
-          "x": 6,
-          "y": 4,
-          "height": 3,
           "behavior": 8,
           "boundary": {
             "x": 1,
             "y": 1
           },
           "property": 1,
-          "view_radius": 1,
+          "viewRadius": 1,
           "script": {
-            "symbol": "lostCave4Npc0Main",
-            "path": "scripts/npc/0.s"
+            "symbol": "lostCave4Object0Main",
+            "path": "scripts/object/0.s"
           },
           "flag": 0
-        }
-      },
-      {
-        "type": "warp",
-        "data": {
-          "x": 5,
-          "y": 1,
-          "height": 3,
-          "target": {
-            "warp": 0,
-            "map": {
-              "id": "map-2-24"
-            }
-          }
-        }
-      },
-      {
-        "type": "warp",
-        "data": {
-          "x": 8,
-          "y": 5,
-          "height": 3,
-          "target": {
-            "warp": 4,
-            "map": {
-              "id": "map-2-13"
-            }
-          }
-        }
-      },
-      {
-        "type": "warp",
-        "data": {
-          "x": 5,
-          "y": 8,
-          "height": 3,
-          "target": {
-            "warp": 0,
-            "map": {
-              "id": "map-2-17"
-            }
-          }
-        }
-      },
-      {
-        "type": "warp",
-        "data": {
-          "x": 2,
-          "y": 5,
-          "height": 3,
-          "target": {
-            "warp": 2,
-            "map": {
-              "id": "map-2-13"
-            }
-          }
-        }
+        },
+        "id": "object-1"
       }
     ]
   }

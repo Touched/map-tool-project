@@ -184,31 +184,33 @@
     "entities": [
       {
         "type": "warp",
+        "x": 2,
+        "y": 5,
+        "z": 3,
         "data": {
-          "x": 2,
-          "y": 5,
-          "height": 3,
           "target": {
-            "warp": 127,
+            "warp": "warp-127",
             "map": {
               "map": 127,
               "bank": 127
             }
           }
-        }
+        },
+        "id": "warp-0"
       },
       {
-        "type": "sign",
+        "type": "interactable",
+        "x": 0,
+        "y": 2,
+        "z": 0,
         "data": {
-          "x": 0,
-          "y": 2,
-          "height": 0,
           "type": "script",
           "script": {
-            "symbol": "trainerTower10Sign0Main",
-            "path": "scripts/sign/0.s"
+            "symbol": "trainerTower10Interactable0Main",
+            "path": "scripts/interactable/0.s"
           }
-        }
+        },
+        "id": "interactable-0"
       }
     ]
   }

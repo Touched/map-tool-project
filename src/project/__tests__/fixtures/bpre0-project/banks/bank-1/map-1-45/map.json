@@ -1937,283 +1937,282 @@
     "connections": [],
     "entities": [
       {
-        "type": "npc",
-        "data": {
-          "id": 1,
-          "sprite": 87,
-          "replacement": 0,
-          "x": 19,
-          "y": 4,
-          "height": 3,
-          "behavior": 8,
-          "boundary": {
-            "x": 1,
-            "y": 1
-          },
-          "property": 0,
-          "view_radius": 0,
-          "script": {
-            "symbol": "rocketHideout3Npc0Main",
-            "path": "scripts/npc/0.s"
-          },
-          "flag": 56
-        }
-      },
-      {
-        "type": "npc",
-        "data": {
-          "id": 2,
-          "sprite": 92,
-          "replacement": 0,
-          "x": 20,
-          "y": 5,
-          "height": 3,
-          "behavior": 8,
-          "boundary": {
-            "x": 1,
-            "y": 1
-          },
-          "property": 0,
-          "view_radius": 0,
-          "script": {
-            "symbol": "rocketHideout3Npc1Main",
-            "path": "scripts/npc/1.s"
-          },
-          "flag": 55
-        }
-      },
-      {
-        "type": "npc",
-        "data": {
-          "id": 3,
-          "sprite": 49,
-          "replacement": 0,
-          "x": 4,
-          "y": 2,
-          "height": 3,
-          "behavior": 8,
-          "boundary": {
-            "x": 1,
-            "y": 1
-          },
-          "property": 1,
-          "view_radius": 1,
-          "script": {
-            "symbol": "rocketHideout3Npc2Main",
-            "path": "scripts/npc/2.s"
-          },
-          "flag": 173
-        }
-      },
-      {
-        "type": "npc",
-        "data": {
-          "id": 4,
-          "sprite": 92,
-          "replacement": 0,
-          "x": 3,
-          "y": 2,
-          "height": 3,
-          "behavior": 8,
-          "boundary": {
-            "x": 1,
-            "y": 1
-          },
-          "property": 0,
-          "view_radius": 0,
-          "script": {
-            "symbol": "rocketHideout3Npc3Main",
-            "path": "scripts/npc/3.s"
-          },
-          "flag": 54
-        }
-      },
-      {
-        "type": "npc",
-        "data": {
-          "id": 5,
-          "sprite": 49,
-          "replacement": 0,
-          "x": 19,
-          "y": 14,
-          "height": 3,
-          "behavior": 8,
-          "boundary": {
-            "x": 1,
-            "y": 1
-          },
-          "property": 1,
-          "view_radius": 0,
-          "script": {
-            "symbol": "rocketHideout3Npc4Main",
-            "path": "scripts/npc/4.s"
-          },
-          "flag": 173
-        }
-      },
-      {
-        "type": "npc",
-        "data": {
-          "id": 6,
-          "sprite": 49,
-          "replacement": 0,
-          "x": 16,
-          "y": 14,
-          "height": 3,
-          "behavior": 8,
-          "boundary": {
-            "x": 1,
-            "y": 1
-          },
-          "property": 1,
-          "view_radius": 0,
-          "script": {
-            "symbol": "rocketHideout3Npc5Main",
-            "path": "scripts/npc/5.s"
-          },
-          "flag": 173
-        }
-      },
-      {
-        "type": "npc",
-        "data": {
-          "id": 7,
-          "sprite": 92,
-          "replacement": 0,
-          "x": 1,
-          "y": 6,
-          "height": 3,
-          "behavior": 8,
-          "boundary": {
-            "x": 1,
-            "y": 1
-          },
-          "property": 0,
-          "view_radius": 0,
-          "script": {
-            "symbol": "rocketHideout3Npc6Main",
-            "path": "scripts/npc/6.s"
-          },
-          "flag": 372
-        }
-      },
-      {
-        "type": "npc",
-        "data": {
-          "id": 8,
-          "sprite": 92,
-          "replacement": 0,
-          "x": 4,
-          "y": 14,
-          "height": 0,
-          "behavior": 8,
-          "boundary": {
-            "x": 1,
-            "y": 1
-          },
-          "property": 0,
-          "view_radius": 0,
-          "script": {
-            "symbol": "rocketHideout3Npc7Main",
-            "path": "scripts/npc/7.s"
-          },
-          "flag": 373
-        }
-      },
-      {
-        "type": "npc",
-        "data": {
-          "id": 9,
-          "sprite": 92,
-          "replacement": 0,
-          "x": 6,
-          "y": 23,
-          "height": 0,
-          "behavior": 8,
-          "boundary": {
-            "x": 1,
-            "y": 1
-          },
-          "property": 0,
-          "view_radius": 0,
-          "script": {
-            "symbol": "rocketHideout3Npc8Main",
-            "path": "scripts/npc/8.s"
-          },
-          "flag": 374
-        }
-      },
-      {
         "type": "warp",
+        "x": 11,
+        "y": 15,
+        "z": 3,
         "data": {
-          "x": 11,
-          "y": 15,
-          "height": 3,
           "target": {
-            "warp": 1,
+            "warp": "warp-1",
             "map": {
               "id": "map-1-44"
             }
           }
-        }
+        },
+        "id": "warp-0"
       },
       {
         "type": "warp",
+        "x": 20,
+        "y": 23,
+        "z": 0,
         "data": {
-          "x": 20,
-          "y": 23,
-          "height": 0,
           "target": {
-            "warp": 1,
+            "warp": "warp-1",
             "map": {
               "id": "map-1-46"
             }
           }
-        }
+        },
+        "id": "warp-1"
       },
       {
         "type": "warp",
+        "x": 21,
+        "y": 23,
+        "z": 0,
         "data": {
-          "x": 21,
-          "y": 23,
-          "height": 0,
           "target": {
-            "warp": 1,
+            "warp": "warp-1",
             "map": {
               "id": "map-1-46"
             }
           }
-        }
+        },
+        "id": "warp-2"
       },
       {
-        "type": "sign",
+        "type": "interactable",
+        "x": 22,
+        "y": 6,
+        "z": 3,
         "data": {
-          "x": 22,
-          "y": 6,
-          "height": 3,
-          "type": "hidden_item2",
+          "type": "hiddenItem",
           "item": 8,
-          "id": 13,
-          "data": {
-            "amount": 1,
-            "exact_required": 0
-          }
-        }
+          "hiddenItemId": 13,
+          "quantity": 1
+        },
+        "id": "interactable-0"
       },
       {
-        "type": "sign",
+        "type": "interactable",
+        "x": 16,
+        "y": 6,
+        "z": 3,
         "data": {
-          "x": 16,
-          "y": 6,
-          "height": 3,
-          "type": "hidden_item2",
+          "type": "hiddenItem",
           "item": 6,
-          "id": 134,
-          "data": {
-            "amount": 1,
-            "exact_required": 0
-          }
-        }
+          "hiddenItemId": 134,
+          "quantity": 1
+        },
+        "id": "interactable-1"
+      },
+      {
+        "type": "object",
+        "x": 19,
+        "y": 4,
+        "z": 3,
+        "data": {
+          "sprite": 87,
+          "replacement": 0,
+          "behavior": 8,
+          "boundary": {
+            "x": 1,
+            "y": 1
+          },
+          "property": 0,
+          "viewRadius": 0,
+          "script": {
+            "symbol": "rocketHideout3Object0Main",
+            "path": "scripts/object/0.s"
+          },
+          "flag": 56
+        },
+        "id": "object-1"
+      },
+      {
+        "type": "object",
+        "x": 20,
+        "y": 5,
+        "z": 3,
+        "data": {
+          "sprite": 92,
+          "replacement": 0,
+          "behavior": 8,
+          "boundary": {
+            "x": 1,
+            "y": 1
+          },
+          "property": 0,
+          "viewRadius": 0,
+          "script": {
+            "symbol": "rocketHideout3Object1Main",
+            "path": "scripts/object/1.s"
+          },
+          "flag": 55
+        },
+        "id": "object-2"
+      },
+      {
+        "type": "object",
+        "x": 4,
+        "y": 2,
+        "z": 3,
+        "data": {
+          "sprite": 49,
+          "replacement": 0,
+          "behavior": 8,
+          "boundary": {
+            "x": 1,
+            "y": 1
+          },
+          "property": 1,
+          "viewRadius": 1,
+          "script": {
+            "symbol": "rocketHideout3Object2Main",
+            "path": "scripts/object/2.s"
+          },
+          "flag": 173
+        },
+        "id": "object-3"
+      },
+      {
+        "type": "object",
+        "x": 3,
+        "y": 2,
+        "z": 3,
+        "data": {
+          "sprite": 92,
+          "replacement": 0,
+          "behavior": 8,
+          "boundary": {
+            "x": 1,
+            "y": 1
+          },
+          "property": 0,
+          "viewRadius": 0,
+          "script": {
+            "symbol": "rocketHideout3Object3Main",
+            "path": "scripts/object/3.s"
+          },
+          "flag": 54
+        },
+        "id": "object-4"
+      },
+      {
+        "type": "object",
+        "x": 19,
+        "y": 14,
+        "z": 3,
+        "data": {
+          "sprite": 49,
+          "replacement": 0,
+          "behavior": 8,
+          "boundary": {
+            "x": 1,
+            "y": 1
+          },
+          "property": 1,
+          "viewRadius": 0,
+          "script": {
+            "symbol": "rocketHideout3Object4Main",
+            "path": "scripts/object/4.s"
+          },
+          "flag": 173
+        },
+        "id": "object-5"
+      },
+      {
+        "type": "object",
+        "x": 16,
+        "y": 14,
+        "z": 3,
+        "data": {
+          "sprite": 49,
+          "replacement": 0,
+          "behavior": 8,
+          "boundary": {
+            "x": 1,
+            "y": 1
+          },
+          "property": 1,
+          "viewRadius": 0,
+          "script": {
+            "symbol": "rocketHideout3Object5Main",
+            "path": "scripts/object/5.s"
+          },
+          "flag": 173
+        },
+        "id": "object-6"
+      },
+      {
+        "type": "object",
+        "x": 1,
+        "y": 6,
+        "z": 3,
+        "data": {
+          "sprite": 92,
+          "replacement": 0,
+          "behavior": 8,
+          "boundary": {
+            "x": 1,
+            "y": 1
+          },
+          "property": 0,
+          "viewRadius": 0,
+          "script": {
+            "symbol": "rocketHideout3Object6Main",
+            "path": "scripts/object/6.s"
+          },
+          "flag": 372
+        },
+        "id": "object-7"
+      },
+      {
+        "type": "object",
+        "x": 4,
+        "y": 14,
+        "z": 0,
+        "data": {
+          "sprite": 92,
+          "replacement": 0,
+          "behavior": 8,
+          "boundary": {
+            "x": 1,
+            "y": 1
+          },
+          "property": 0,
+          "viewRadius": 0,
+          "script": {
+            "symbol": "rocketHideout3Object7Main",
+            "path": "scripts/object/7.s"
+          },
+          "flag": 373
+        },
+        "id": "object-8"
+      },
+      {
+        "type": "object",
+        "x": 6,
+        "y": 23,
+        "z": 0,
+        "data": {
+          "sprite": 92,
+          "replacement": 0,
+          "behavior": 8,
+          "boundary": {
+            "x": 1,
+            "y": 1
+          },
+          "property": 0,
+          "viewRadius": 0,
+          "script": {
+            "symbol": "rocketHideout3Object8Main",
+            "path": "scripts/object/8.s"
+          },
+          "flag": 374
+        },
+        "id": "object-9"
       }
     ]
   }

@@ -5825,395 +5825,400 @@
     "connections": [],
     "entities": [
       {
-        "type": "npc",
+        "type": "warp",
+        "x": 5,
+        "y": 6,
+        "z": 3,
         "data": {
-          "id": 1,
+          "target": {
+            "warp": "warp-0",
+            "map": {
+              "id": "map-1-2"
+            }
+          }
+        },
+        "id": "warp-0"
+      },
+      {
+        "type": "warp",
+        "x": 19,
+        "y": 14,
+        "z": 3,
+        "data": {
+          "target": {
+            "warp": "warp-1",
+            "map": {
+              "id": "map-1-2"
+            }
+          }
+        },
+        "id": "warp-1"
+      },
+      {
+        "type": "warp",
+        "x": 31,
+        "y": 16,
+        "z": 3,
+        "data": {
+          "target": {
+            "warp": "warp-2",
+            "map": {
+              "id": "map-1-2"
+            }
+          }
+        },
+        "id": "warp-2"
+      },
+      {
+        "type": "warp",
+        "x": 18,
+        "y": 37,
+        "z": 3,
+        "data": {
+          "target": {
+            "warp": "warp-0",
+            "map": {
+              "id": "map-3-22"
+            }
+          }
+        },
+        "id": "warp-3"
+      },
+      {
+        "type": "interactable",
+        "x": 19,
+        "y": 26,
+        "z": 0,
+        "data": {
+          "type": "script",
+          "script": {
+            "symbol": "mt。MoonInteractable0Main",
+            "path": "scripts/interactable/0.s"
+          }
+        },
+        "id": "interactable-0"
+      },
+      {
+        "type": "object",
+        "x": 20,
+        "y": 26,
+        "z": 3,
+        "data": {
           "sprite": 22,
           "replacement": 0,
-          "x": 20,
-          "y": 26,
-          "height": 3,
           "behavior": 8,
           "boundary": {
             "x": 1,
             "y": 1
           },
           "property": 1,
-          "view_radius": 2,
+          "viewRadius": 2,
           "script": {
-            "symbol": "mt。MoonNpc0Main",
-            "path": "scripts/npc/0.s"
+            "symbol": "mt。MoonObject0Main",
+            "path": "scripts/object/0.s"
           },
           "flag": 0
-        }
+        },
+        "id": "object-1"
       },
       {
-        "type": "npc",
+        "type": "object",
+        "x": 36,
+        "y": 30,
+        "z": 3,
         "data": {
-          "id": 2,
           "sprite": 20,
           "replacement": 0,
-          "x": 36,
-          "y": 30,
-          "height": 3,
           "behavior": 10,
           "boundary": {
             "x": 1,
             "y": 1
           },
           "property": 1,
-          "view_radius": 2,
+          "viewRadius": 2,
           "script": {
-            "symbol": "mt。MoonNpc1Main",
-            "path": "scripts/npc/1.s"
+            "symbol": "mt。MoonObject1Main",
+            "path": "scripts/object/1.s"
           },
           "flag": 0
-        }
+        },
+        "id": "object-2"
       },
       {
-        "type": "npc",
+        "type": "object",
+        "x": 30,
+        "y": 35,
+        "z": 3,
         "data": {
-          "id": 3,
           "sprite": 55,
           "replacement": 0,
-          "x": 30,
-          "y": 35,
-          "height": 3,
           "behavior": 1,
           "boundary": {
             "x": 1,
             "y": 1
           },
           "property": 1,
-          "view_radius": 4,
+          "viewRadius": 4,
           "script": {
-            "symbol": "mt。MoonNpc2Main",
-            "path": "scripts/npc/2.s"
+            "symbol": "mt。MoonObject2Main",
+            "path": "scripts/object/2.s"
           },
           "flag": 0
-        }
+        },
+        "id": "object-3"
       },
       {
-        "type": "npc",
+        "type": "object",
+        "x": 33,
+        "y": 4,
+        "z": 3,
         "data": {
-          "id": 4,
           "sprite": 22,
           "replacement": 0,
-          "x": 33,
-          "y": 4,
-          "height": 3,
           "behavior": 47,
           "boundary": {
             "x": 5,
             "y": 3
           },
           "property": 1,
-          "view_radius": 2,
+          "viewRadius": 2,
           "script": {
-            "symbol": "mt。MoonNpc3Main",
-            "path": "scripts/npc/3.s"
+            "symbol": "mt。MoonObject3Main",
+            "path": "scripts/object/3.s"
           },
           "flag": 0
-        }
+        },
+        "id": "object-4"
       },
       {
-        "type": "npc",
+        "type": "object",
+        "x": 7,
+        "y": 26,
+        "z": 3,
         "data": {
-          "id": 5,
           "sprite": 20,
           "replacement": 0,
-          "x": 7,
-          "y": 26,
-          "height": 3,
           "behavior": 8,
           "boundary": {
             "x": 1,
             "y": 1
           },
           "property": 1,
-          "view_radius": 4,
+          "viewRadius": 4,
           "script": {
-            "symbol": "mt。MoonNpc4Main",
-            "path": "scripts/npc/4.s"
+            "symbol": "mt。MoonObject4Main",
+            "path": "scripts/object/4.s"
           },
           "flag": 0
-        }
+        },
+        "id": "object-5"
       },
       {
-        "type": "npc",
+        "type": "object",
+        "x": 13,
+        "y": 17,
+        "z": 3,
         "data": {
-          "id": 6,
           "sprite": 18,
           "replacement": 0,
-          "x": 13,
-          "y": 17,
-          "height": 3,
           "behavior": 10,
           "boundary": {
             "x": 1,
             "y": 1
           },
           "property": 1,
-          "view_radius": 4,
+          "viewRadius": 4,
           "script": {
-            "symbol": "mt。MoonNpc5Main",
-            "path": "scripts/npc/5.s"
+            "symbol": "mt。MoonObject5Main",
+            "path": "scripts/object/5.s"
           },
           "flag": 0
-        }
+        },
+        "id": "object-6"
       },
       {
-        "type": "npc",
+        "type": "object",
+        "x": 7,
+        "y": 10,
+        "z": 3,
         "data": {
-          "id": 7,
           "sprite": 56,
           "replacement": 0,
-          "x": 7,
-          "y": 10,
-          "height": 3,
           "behavior": 2,
           "boundary": {
             "x": 2,
             "y": 2
           },
           "property": 1,
-          "view_radius": 1,
+          "viewRadius": 1,
           "script": {
-            "symbol": "mt。MoonNpc6Main",
-            "path": "scripts/npc/6.s"
+            "symbol": "mt。MoonObject6Main",
+            "path": "scripts/object/6.s"
           },
           "flag": 0
-        }
+        },
+        "id": "object-7"
       },
       {
-        "type": "npc",
+        "type": "object",
+        "x": 2,
+        "y": 22,
+        "z": 3,
         "data": {
-          "id": 8,
           "sprite": 92,
           "replacement": 0,
-          "x": 2,
-          "y": 22,
-          "height": 3,
           "behavior": 8,
           "boundary": {
             "x": 1,
             "y": 1
           },
           "property": 0,
-          "view_radius": 0,
+          "viewRadius": 0,
           "script": {
-            "symbol": "mt。MoonNpc7Main",
-            "path": "scripts/npc/7.s"
+            "symbol": "mt。MoonObject7Main",
+            "path": "scripts/object/7.s"
           },
           "flag": 345
-        }
+        },
+        "id": "object-8"
       },
       {
-        "type": "npc",
+        "type": "object",
+        "x": 11,
+        "y": 35,
+        "z": 3,
         "data": {
-          "id": 9,
           "sprite": 92,
           "replacement": 0,
-          "x": 11,
-          "y": 35,
-          "height": 3,
           "behavior": 8,
           "boundary": {
             "x": 1,
             "y": 1
           },
           "property": 0,
-          "view_radius": 0,
+          "viewRadius": 0,
           "script": {
-            "symbol": "mt。MoonNpc8Main",
-            "path": "scripts/npc/8.s"
+            "symbol": "mt。MoonObject8Main",
+            "path": "scripts/object/8.s"
           },
           "flag": 346
-        }
+        },
+        "id": "object-9"
       },
       {
-        "type": "npc",
+        "type": "object",
+        "x": 26,
+        "y": 32,
+        "z": 3,
         "data": {
-          "id": 10,
           "sprite": 92,
           "replacement": 0,
-          "x": 26,
-          "y": 32,
-          "height": 3,
           "behavior": 8,
           "boundary": {
             "x": 1,
             "y": 1
           },
           "property": 0,
-          "view_radius": 0,
+          "viewRadius": 0,
           "script": {
-            "symbol": "mt。MoonNpc9Main",
-            "path": "scripts/npc/9.s"
+            "symbol": "mt。MoonObject9Main",
+            "path": "scripts/object/9.s"
           },
           "flag": 347
-        }
+        },
+        "id": "object-10"
       },
       {
-        "type": "npc",
+        "type": "object",
+        "x": 42,
+        "y": 35,
+        "z": 3,
         "data": {
-          "id": 11,
           "sprite": 92,
           "replacement": 0,
-          "x": 42,
-          "y": 35,
-          "height": 3,
           "behavior": 8,
           "boundary": {
             "x": 1,
             "y": 1
           },
           "property": 0,
-          "view_radius": 0,
+          "viewRadius": 0,
           "script": {
-            "symbol": "mt。MoonNpc10Main",
-            "path": "scripts/npc/10.s"
+            "symbol": "mt。MoonObject10Main",
+            "path": "scripts/object/10.s"
           },
           "flag": 348
-        }
+        },
+        "id": "object-11"
       },
       {
-        "type": "npc",
+        "type": "object",
+        "x": 44,
+        "y": 21,
+        "z": 3,
         "data": {
-          "id": 12,
           "sprite": 92,
           "replacement": 0,
-          "x": 44,
-          "y": 21,
-          "height": 3,
           "behavior": 8,
           "boundary": {
             "x": 1,
             "y": 1
           },
           "property": 0,
-          "view_radius": 0,
+          "viewRadius": 0,
           "script": {
-            "symbol": "mt。MoonNpc11Main",
-            "path": "scripts/npc/11.s"
+            "symbol": "mt。MoonObject11Main",
+            "path": "scripts/object/11.s"
           },
           "flag": 349
-        }
+        },
+        "id": "object-12"
       },
       {
-        "type": "npc",
+        "type": "object",
+        "x": 3,
+        "y": 2,
+        "z": 3,
         "data": {
-          "id": 13,
           "sprite": 92,
           "replacement": 0,
-          "x": 3,
-          "y": 2,
-          "height": 3,
           "behavior": 8,
           "boundary": {
             "x": 1,
             "y": 1
           },
           "property": 0,
-          "view_radius": 0,
+          "viewRadius": 0,
           "script": {
-            "symbol": "mt。MoonNpc12Main",
-            "path": "scripts/npc/12.s"
+            "symbol": "mt。MoonObject12Main",
+            "path": "scripts/object/12.s"
           },
           "flag": 350
-        }
+        },
+        "id": "object-13"
       },
       {
-        "type": "npc",
+        "type": "object",
+        "x": 42,
+        "y": 7,
+        "z": 3,
         "data": {
-          "id": 14,
           "sprite": 30,
           "replacement": 0,
-          "x": 42,
-          "y": 7,
-          "height": 3,
           "behavior": 17,
           "boundary": {
             "x": 1,
             "y": 1
           },
           "property": 0,
-          "view_radius": 0,
+          "viewRadius": 0,
           "script": {
-            "symbol": "mt。MoonNpc13Main",
-            "path": "scripts/npc/13.s"
+            "symbol": "mt。MoonObject13Main",
+            "path": "scripts/object/13.s"
           },
           "flag": 0
-        }
-      },
-      {
-        "type": "warp",
-        "data": {
-          "x": 5,
-          "y": 6,
-          "height": 3,
-          "target": {
-            "warp": 0,
-            "map": {
-              "id": "map-1-2"
-            }
-          }
-        }
-      },
-      {
-        "type": "warp",
-        "data": {
-          "x": 19,
-          "y": 14,
-          "height": 3,
-          "target": {
-            "warp": 1,
-            "map": {
-              "id": "map-1-2"
-            }
-          }
-        }
-      },
-      {
-        "type": "warp",
-        "data": {
-          "x": 31,
-          "y": 16,
-          "height": 3,
-          "target": {
-            "warp": 2,
-            "map": {
-              "id": "map-1-2"
-            }
-          }
-        }
-      },
-      {
-        "type": "warp",
-        "data": {
-          "x": 18,
-          "y": 37,
-          "height": 3,
-          "target": {
-            "warp": 0,
-            "map": {
-              "id": "map-3-22"
-            }
-          }
-        }
-      },
-      {
-        "type": "sign",
-        "data": {
-          "x": 19,
-          "y": 26,
-          "height": 0,
-          "type": "script",
-          "script": {
-            "symbol": "mt。MoonSign0Main",
-            "path": "scripts/sign/0.s"
-          }
-        }
+        },
+        "id": "object-14"
       }
     ]
   }

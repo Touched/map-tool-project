@@ -777,91 +777,95 @@
     "connections": [],
     "entities": [
       {
-        "type": "npc",
-        "data": {
-          "id": 1,
-          "sprite": 100,
-          "replacement": 0,
-          "x": 7,
-          "y": 7,
-          "height": 0,
-          "behavior": 8,
-          "boundary": {
-            "x": 1,
-            "y": 1
-          },
-          "property": 0,
-          "view_radius": 0,
-          "script": {
-            "symbol": "dottedHole5Npc0Main",
-            "path": "scripts/npc/0.s"
-          },
-          "flag": 143
-        }
-      },
-      {
-        "type": "npc",
-        "data": {
-          "id": 2,
-          "sprite": 55,
-          "replacement": 0,
-          "x": 5,
-          "y": 9,
-          "height": 3,
-          "behavior": 8,
-          "boundary": {
-            "x": 1,
-            "y": 1
-          },
-          "property": 0,
-          "view_radius": 0,
-          "script": {
-            "symbol": "dottedHole5Npc1Main",
-            "path": "scripts/npc/1.s"
-          },
-          "flag": 144
-        }
-      },
-      {
         "type": "warp",
+        "x": 11,
+        "y": 7,
+        "z": 3,
         "data": {
-          "x": 11,
-          "y": 7,
-          "height": 3,
           "target": {
-            "warp": 2,
+            "warp": "warp-2",
             "map": {
               "id": "map-1-115"
             }
           }
-        }
+        },
+        "id": "warp-0"
       },
       {
         "type": "warp",
+        "x": 5,
+        "y": 9,
+        "z": 3,
         "data": {
-          "x": 5,
-          "y": 9,
-          "height": 3,
           "target": {
-            "warp": 3,
+            "warp": "warp-3",
             "map": {
               "id": "map-1-119"
             }
           }
-        }
+        },
+        "id": "warp-1"
       },
       {
-        "type": "sign",
+        "type": "interactable",
+        "x": 7,
+        "y": 2,
+        "z": 0,
         "data": {
-          "x": 7,
-          "y": 2,
-          "height": 0,
-          "type": "script_up",
+          "type": "script",
           "script": {
-            "symbol": "dottedHole5Sign0Main",
-            "path": "scripts/sign/0.s"
-          }
-        }
+            "symbol": "dottedHole5Interactable0Main",
+            "path": "scripts/interactable/0.s"
+          },
+          "direction": "up"
+        },
+        "id": "interactable-0"
+      },
+      {
+        "type": "object",
+        "x": 7,
+        "y": 7,
+        "z": 0,
+        "data": {
+          "sprite": 100,
+          "replacement": 0,
+          "behavior": 8,
+          "boundary": {
+            "x": 1,
+            "y": 1
+          },
+          "property": 0,
+          "viewRadius": 0,
+          "script": {
+            "symbol": "dottedHole5Object0Main",
+            "path": "scripts/object/0.s"
+          },
+          "flag": 143
+        },
+        "id": "object-1"
+      },
+      {
+        "type": "object",
+        "x": 5,
+        "y": 9,
+        "z": 3,
+        "data": {
+          "sprite": 55,
+          "replacement": 0,
+          "behavior": 8,
+          "boundary": {
+            "x": 1,
+            "y": 1
+          },
+          "property": 0,
+          "viewRadius": 0,
+          "script": {
+            "symbol": "dottedHole5Object1Main",
+            "path": "scripts/object/1.s"
+          },
+          "flag": 144
+        },
+        "id": "object-2"
       }
     ]
   }

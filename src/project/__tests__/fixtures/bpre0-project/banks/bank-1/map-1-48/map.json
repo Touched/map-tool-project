@@ -2441,349 +2441,363 @@
     "connections": [],
     "entities": [
       {
-        "type": "npc",
+        "type": "warp",
+        "x": 28,
+        "y": 2,
+        "z": 3,
         "data": {
-          "id": 1,
+          "target": {
+            "warp": "warp-0",
+            "map": {
+              "id": "map-1-49"
+            }
+          }
+        },
+        "id": "warp-0"
+      },
+      {
+        "type": "warp",
+        "x": 2,
+        "y": 6,
+        "z": 3,
+        "data": {
+          "target": {
+            "warp": "warp-8",
+            "map": {
+              "id": "map-1-49"
+            }
+          }
+        },
+        "id": "warp-1"
+      },
+      {
+        "type": "warp",
+        "x": 15,
+        "y": 6,
+        "z": 3,
+        "data": {
+          "target": {
+            "warp": "warp-5",
+            "map": {
+              "id": "map-1-54"
+            }
+          }
+        },
+        "id": "warp-2"
+      },
+      {
+        "type": "warp",
+        "x": 30,
+        "y": 2,
+        "z": 3,
+        "data": {
+          "target": {
+            "warp": "warp-3",
+            "map": {
+              "id": "map-1-47"
+            }
+          }
+        },
+        "id": "warp-3"
+      },
+      {
+        "type": "warp",
+        "x": 7,
+        "y": 19,
+        "z": 3,
+        "data": {
+          "target": {
+            "warp": "warp-1",
+            "map": {
+              "id": "map-1-52"
+            }
+          }
+        },
+        "id": "warp-4"
+      },
+      {
+        "type": "warp",
+        "x": 33,
+        "y": 19,
+        "z": 3,
+        "data": {
+          "target": {
+            "warp": "warp-2",
+            "map": {
+              "id": "map-1-54"
+            }
+          }
+        },
+        "id": "warp-5"
+      },
+      {
+        "type": "warp",
+        "x": 22,
+        "y": 3,
+        "z": 0,
+        "data": {
+          "target": {
+            "warp": "warp-0",
+            "map": {
+              "id": "map-1-58"
+            }
+          }
+        },
+        "id": "warp-6"
+      },
+      {
+        "type": "interactable",
+        "x": 5,
+        "y": 8,
+        "z": 0,
+        "data": {
+          "type": "script",
+          "script": {
+            "symbol": "silphCo。1Interactable0Main",
+            "path": "scripts/interactable/0.s"
+          }
+        },
+        "id": "interactable-0"
+      },
+      {
+        "type": "interactable",
+        "x": 6,
+        "y": 8,
+        "z": 0,
+        "data": {
+          "type": "script",
+          "script": {
+            "symbol": "silphCo。1Interactable1Main",
+            "path": "scripts/interactable/1.s"
+          }
+        },
+        "id": "interactable-1"
+      },
+      {
+        "type": "interactable",
+        "x": 5,
+        "y": 9,
+        "z": 0,
+        "data": {
+          "type": "script",
+          "script": {
+            "symbol": "silphCo。1Interactable2Main",
+            "path": "scripts/interactable/2.s"
+          }
+        },
+        "id": "interactable-2"
+      },
+      {
+        "type": "interactable",
+        "x": 6,
+        "y": 9,
+        "z": 0,
+        "data": {
+          "type": "script",
+          "script": {
+            "symbol": "silphCo。1Interactable3Main",
+            "path": "scripts/interactable/3.s"
+          }
+        },
+        "id": "interactable-3"
+      },
+      {
+        "type": "interactable",
+        "x": 5,
+        "y": 15,
+        "z": 0,
+        "data": {
+          "type": "script",
+          "script": {
+            "symbol": "silphCo。1Interactable4Main",
+            "path": "scripts/interactable/4.s"
+          }
+        },
+        "id": "interactable-4"
+      },
+      {
+        "type": "interactable",
+        "x": 6,
+        "y": 15,
+        "z": 0,
+        "data": {
+          "type": "script",
+          "script": {
+            "symbol": "silphCo。1Interactable5Main",
+            "path": "scripts/interactable/5.s"
+          }
+        },
+        "id": "interactable-5"
+      },
+      {
+        "type": "interactable",
+        "x": 5,
+        "y": 16,
+        "z": 0,
+        "data": {
+          "type": "script",
+          "script": {
+            "symbol": "silphCo。1Interactable6Main",
+            "path": "scripts/interactable/6.s"
+          }
+        },
+        "id": "interactable-6"
+      },
+      {
+        "type": "interactable",
+        "x": 6,
+        "y": 16,
+        "z": 0,
+        "data": {
+          "type": "script",
+          "script": {
+            "symbol": "silphCo。1Interactable7Main",
+            "path": "scripts/interactable/7.s"
+          }
+        },
+        "id": "interactable-7"
+      },
+      {
+        "type": "interactable",
+        "x": 11,
+        "y": 21,
+        "z": 0,
+        "data": {
+          "type": "hiddenItem",
+          "item": 2,
+          "hiddenItemId": 135,
+          "quantity": 1
+        },
+        "id": "interactable-8"
+      },
+      {
+        "type": "interactable",
+        "x": 29,
+        "y": 1,
+        "z": 0,
+        "data": {
+          "type": "script",
+          "script": {
+            "symbol": "silphCo。1Interactable9Main",
+            "path": "scripts/interactable/9.s"
+          }
+        },
+        "id": "interactable-9"
+      },
+      {
+        "type": "object",
+        "x": 29,
+        "y": 12,
+        "z": 3,
+        "data": {
           "sprite": 49,
           "replacement": 0,
-          "x": 29,
-          "y": 12,
-          "height": 3,
           "behavior": 7,
           "boundary": {
             "x": 1,
             "y": 1
           },
           "property": 1,
-          "view_radius": 5,
+          "viewRadius": 5,
           "script": {
-            "symbol": "silphCo。1Npc0Main",
-            "path": "scripts/npc/0.s"
+            "symbol": "silphCo。1Object0Main",
+            "path": "scripts/object/0.s"
           },
           "flag": 83
-        }
+        },
+        "id": "object-1"
       },
       {
-        "type": "npc",
+        "type": "object",
+        "x": 28,
+        "y": 18,
+        "z": 3,
         "data": {
-          "id": 2,
           "sprite": 55,
           "replacement": 0,
-          "x": 28,
-          "y": 18,
-          "height": 3,
           "behavior": 15,
           "boundary": {
             "x": 1,
             "y": 1
           },
           "property": 1,
-          "view_radius": 4,
+          "viewRadius": 4,
           "script": {
-            "symbol": "silphCo。1Npc1Main",
-            "path": "scripts/npc/1.s"
+            "symbol": "silphCo。1Object1Main",
+            "path": "scripts/object/1.s"
           },
           "flag": 83
-        }
+        },
+        "id": "object-2"
       },
       {
-        "type": "npc",
+        "type": "object",
+        "x": 20,
+        "y": 14,
+        "z": 3,
         "data": {
-          "id": 3,
           "sprite": 49,
           "replacement": 0,
-          "x": 20,
-          "y": 14,
-          "height": 3,
           "behavior": 13,
           "boundary": {
             "x": 1,
             "y": 1
           },
           "property": 1,
-          "view_radius": 3,
+          "viewRadius": 3,
           "script": {
-            "symbol": "silphCo。1Npc2Main",
-            "path": "scripts/npc/2.s"
+            "symbol": "silphCo。1Object2Main",
+            "path": "scripts/object/2.s"
           },
           "flag": 83
-        }
+        },
+        "id": "object-3"
       },
       {
-        "type": "npc",
+        "type": "object",
+        "x": 5,
+        "y": 19,
+        "z": 3,
         "data": {
-          "id": 4,
           "sprite": 55,
           "replacement": 0,
-          "x": 5,
-          "y": 19,
-          "height": 3,
           "behavior": 1,
           "boundary": {
             "x": 1,
             "y": 1
           },
           "property": 1,
-          "view_radius": 0,
+          "viewRadius": 0,
           "script": {
-            "symbol": "silphCo。1Npc3Main",
-            "path": "scripts/npc/3.s"
+            "symbol": "silphCo。1Object3Main",
+            "path": "scripts/object/3.s"
           },
           "flag": 83
-        }
+        },
+        "id": "object-4"
       },
       {
-        "type": "npc",
+        "type": "object",
+        "x": 10,
+        "y": 4,
+        "z": 0,
         "data": {
-          "id": 5,
           "sprite": 28,
           "replacement": 0,
-          "x": 10,
-          "y": 4,
-          "height": 0,
           "behavior": 7,
           "boundary": {
             "x": 1,
             "y": 1
           },
           "property": 0,
-          "view_radius": 0,
+          "viewRadius": 0,
           "script": {
-            "symbol": "silphCo。1Npc4Main",
-            "path": "scripts/npc/4.s"
+            "symbol": "silphCo。1Object4Main",
+            "path": "scripts/object/4.s"
           },
           "flag": 0
-        }
-      },
-      {
-        "type": "warp",
-        "data": {
-          "x": 28,
-          "y": 2,
-          "height": 3,
-          "target": {
-            "warp": 0,
-            "map": {
-              "id": "map-1-49"
-            }
-          }
-        }
-      },
-      {
-        "type": "warp",
-        "data": {
-          "x": 2,
-          "y": 6,
-          "height": 3,
-          "target": {
-            "warp": 8,
-            "map": {
-              "id": "map-1-49"
-            }
-          }
-        }
-      },
-      {
-        "type": "warp",
-        "data": {
-          "x": 15,
-          "y": 6,
-          "height": 3,
-          "target": {
-            "warp": 5,
-            "map": {
-              "id": "map-1-54"
-            }
-          }
-        }
-      },
-      {
-        "type": "warp",
-        "data": {
-          "x": 30,
-          "y": 2,
-          "height": 3,
-          "target": {
-            "warp": 3,
-            "map": {
-              "id": "map-1-47"
-            }
-          }
-        }
-      },
-      {
-        "type": "warp",
-        "data": {
-          "x": 7,
-          "y": 19,
-          "height": 3,
-          "target": {
-            "warp": 1,
-            "map": {
-              "id": "map-1-52"
-            }
-          }
-        }
-      },
-      {
-        "type": "warp",
-        "data": {
-          "x": 33,
-          "y": 19,
-          "height": 3,
-          "target": {
-            "warp": 2,
-            "map": {
-              "id": "map-1-54"
-            }
-          }
-        }
-      },
-      {
-        "type": "warp",
-        "data": {
-          "x": 22,
-          "y": 3,
-          "height": 0,
-          "target": {
-            "warp": 0,
-            "map": {
-              "id": "map-1-58"
-            }
-          }
-        }
-      },
-      {
-        "type": "sign",
-        "data": {
-          "x": 5,
-          "y": 8,
-          "height": 0,
-          "type": "script",
-          "script": {
-            "symbol": "silphCo。1Sign0Main",
-            "path": "scripts/sign/0.s"
-          }
-        }
-      },
-      {
-        "type": "sign",
-        "data": {
-          "x": 6,
-          "y": 8,
-          "height": 0,
-          "type": "script",
-          "script": {
-            "symbol": "silphCo。1Sign1Main",
-            "path": "scripts/sign/1.s"
-          }
-        }
-      },
-      {
-        "type": "sign",
-        "data": {
-          "x": 5,
-          "y": 9,
-          "height": 0,
-          "type": "script",
-          "script": {
-            "symbol": "silphCo。1Sign2Main",
-            "path": "scripts/sign/2.s"
-          }
-        }
-      },
-      {
-        "type": "sign",
-        "data": {
-          "x": 6,
-          "y": 9,
-          "height": 0,
-          "type": "script",
-          "script": {
-            "symbol": "silphCo。1Sign3Main",
-            "path": "scripts/sign/3.s"
-          }
-        }
-      },
-      {
-        "type": "sign",
-        "data": {
-          "x": 5,
-          "y": 15,
-          "height": 0,
-          "type": "script",
-          "script": {
-            "symbol": "silphCo。1Sign4Main",
-            "path": "scripts/sign/4.s"
-          }
-        }
-      },
-      {
-        "type": "sign",
-        "data": {
-          "x": 6,
-          "y": 15,
-          "height": 0,
-          "type": "script",
-          "script": {
-            "symbol": "silphCo。1Sign5Main",
-            "path": "scripts/sign/5.s"
-          }
-        }
-      },
-      {
-        "type": "sign",
-        "data": {
-          "x": 5,
-          "y": 16,
-          "height": 0,
-          "type": "script",
-          "script": {
-            "symbol": "silphCo。1Sign6Main",
-            "path": "scripts/sign/6.s"
-          }
-        }
-      },
-      {
-        "type": "sign",
-        "data": {
-          "x": 6,
-          "y": 16,
-          "height": 0,
-          "type": "script",
-          "script": {
-            "symbol": "silphCo。1Sign7Main",
-            "path": "scripts/sign/7.s"
-          }
-        }
-      },
-      {
-        "type": "sign",
-        "data": {
-          "x": 11,
-          "y": 21,
-          "height": 0,
-          "type": "hidden_item2",
-          "item": 2,
-          "id": 135,
-          "data": {
-            "amount": 1,
-            "exact_required": 0
-          }
-        }
-      },
-      {
-        "type": "sign",
-        "data": {
-          "x": 29,
-          "y": 1,
-          "height": 0,
-          "type": "script",
-          "script": {
-            "symbol": "silphCo。1Sign9Main",
-            "path": "scripts/sign/9.s"
-          }
-        }
+        },
+        "id": "object-5"
       }
     ]
   }

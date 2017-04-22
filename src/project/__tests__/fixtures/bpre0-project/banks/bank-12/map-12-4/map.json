@@ -552,64 +552,65 @@
     "connections": [],
     "entities": [
       {
-        "type": "npc",
+        "type": "warp",
+        "x": 7,
+        "y": 9,
+        "z": 3,
         "data": {
-          "id": 1,
+          "target": {
+            "warp": "warp-5",
+            "map": {
+              "id": "map-12-1"
+            }
+          }
+        },
+        "id": "warp-0"
+      },
+      {
+        "type": "object",
+        "x": 11,
+        "y": 8,
+        "z": 3,
+        "data": {
           "sprite": 19,
           "replacement": 0,
-          "x": 11,
-          "y": 8,
-          "height": 3,
           "behavior": 7,
           "boundary": {
             "x": 1,
             "y": 1
           },
           "property": 0,
-          "view_radius": 0,
+          "viewRadius": 0,
           "script": {
-            "symbol": "cinnabarIsland5Npc0Main",
-            "path": "scripts/npc/0.s"
+            "symbol": "cinnabarIsland5Object0Main",
+            "path": "scripts/object/0.s"
           },
           "flag": 0
-        }
+        },
+        "id": "object-1"
       },
       {
-        "type": "npc",
+        "type": "object",
+        "x": 12,
+        "y": 3,
+        "z": 3,
         "data": {
-          "id": 2,
           "sprite": 55,
           "replacement": 0,
-          "x": 12,
-          "y": 3,
-          "height": 3,
           "behavior": 2,
           "boundary": {
             "x": 1,
             "y": 1
           },
           "property": 0,
-          "view_radius": 0,
+          "viewRadius": 0,
           "script": {
-            "symbol": "cinnabarIsland5Npc1Main",
-            "path": "scripts/npc/1.s"
+            "symbol": "cinnabarIsland5Object1Main",
+            "path": "scripts/object/1.s"
           },
           "flag": 0
-        }
-      },
-      {
-        "type": "warp",
-        "data": {
-          "x": 7,
-          "y": 9,
-          "height": 3,
-          "target": {
-            "warp": 5,
-            "map": {
-              "id": "map-12-1"
-            }
-          }
-        }
+        },
+        "id": "object-2"
       }
     ]
   }

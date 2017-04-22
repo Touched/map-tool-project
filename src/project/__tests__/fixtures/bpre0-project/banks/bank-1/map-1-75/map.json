@@ -612,55 +612,57 @@
     "connections": [],
     "entities": [
       {
-        "type": "npc",
+        "type": "warp",
+        "x": 6,
+        "y": 12,
+        "z": 0,
         "data": {
-          "id": 1,
+          "target": {
+            "warp": "warp-1",
+            "map": {
+              "id": "map-13-0"
+            }
+          }
+        },
+        "id": "warp-0"
+      },
+      {
+        "type": "warp",
+        "x": 6,
+        "y": 2,
+        "z": 0,
+        "data": {
+          "target": {
+            "warp": "warp-0",
+            "map": {
+              "id": "map-1-76"
+            }
+          }
+        },
+        "id": "warp-1"
+      },
+      {
+        "type": "object",
+        "x": 6,
+        "y": 5,
+        "z": 3,
+        "data": {
           "sprite": 77,
           "replacement": 0,
-          "x": 6,
-          "y": 5,
-          "height": 3,
           "behavior": 8,
           "boundary": {
             "x": 1,
             "y": 1
           },
           "property": 0,
-          "view_radius": 0,
+          "viewRadius": 0,
           "script": {
-            "symbol": "pokひmonLeagueNpc0Main",
-            "path": "scripts/npc/0.s"
+            "symbol": "pokひmonLeagueObject0Main",
+            "path": "scripts/object/0.s"
           },
           "flag": 0
-        }
-      },
-      {
-        "type": "warp",
-        "data": {
-          "x": 6,
-          "y": 12,
-          "height": 0,
-          "target": {
-            "warp": 1,
-            "map": {
-              "id": "map-13-0"
-            }
-          }
-        }
-      },
-      {
-        "type": "warp",
-        "data": {
-          "x": 6,
-          "y": 2,
-          "height": 0,
-          "target": {
-            "warp": 0,
-            "map": {
-              "id": "map-1-76"
-            }
-          }
-        }
+        },
+        "id": "object-1"
       }
     ]
   }

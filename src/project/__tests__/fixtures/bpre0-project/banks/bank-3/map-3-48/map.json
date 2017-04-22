@@ -5825,310 +5825,308 @@
     ],
     "entities": [
       {
-        "type": "npc",
+        "type": "warp",
+        "x": 12,
+        "y": 6,
+        "z": 3,
         "data": {
-          "id": 1,
+          "target": {
+            "warp": "warp-0",
+            "map": {
+              "id": "map-1-109"
+            }
+          }
+        },
+        "id": "warp-0"
+      },
+      {
+        "type": "warp",
+        "x": 13,
+        "y": 6,
+        "z": 3,
+        "data": {
+          "target": {
+            "warp": "warp-0",
+            "map": {
+              "id": "map-1-109"
+            }
+          }
+        },
+        "id": "warp-1"
+      },
+      {
+        "type": "interactable",
+        "x": 14,
+        "y": 7,
+        "z": 0,
+        "data": {
+          "type": "script",
+          "script": {
+            "symbol": "bondBridgeInteractable0Main",
+            "path": "scripts/interactable/0.s"
+          }
+        },
+        "id": "interactable-0"
+      },
+      {
+        "type": "interactable",
+        "x": 61,
+        "y": 5,
+        "z": 0,
+        "data": {
+          "type": "hiddenItem",
+          "item": 84,
+          "hiddenItemId": 165,
+          "quantity": 1
+        },
+        "id": "interactable-1"
+      },
+      {
+        "type": "interactable",
+        "x": 44,
+        "y": 12,
+        "z": 3,
+        "data": {
+          "type": "hiddenItem",
+          "item": 106,
+          "hiddenItemId": 166,
+          "quantity": 1
+        },
+        "id": "interactable-2"
+      },
+      {
+        "type": "interactable",
+        "x": 33,
+        "y": 7,
+        "z": 3,
+        "data": {
+          "type": "hiddenItem",
+          "item": 108,
+          "hiddenItemId": 167,
+          "quantity": 1
+        },
+        "id": "interactable-3"
+      },
+      {
+        "type": "interactable",
+        "x": 91,
+        "y": 9,
+        "z": 0,
+        "data": {
+          "type": "script",
+          "script": {
+            "symbol": "bondBridgeInteractable4Main",
+            "path": "scripts/interactable/4.s"
+          }
+        },
+        "id": "interactable-4"
+      },
+      {
+        "type": "object",
+        "x": 27,
+        "y": 10,
+        "z": 3,
+        "data": {
           "sprite": 28,
           "replacement": 0,
-          "x": 27,
-          "y": 10,
-          "height": 3,
           "behavior": 2,
           "boundary": {
             "x": 1,
             "y": 1
           },
           "property": 1,
-          "view_radius": 5,
+          "viewRadius": 5,
           "script": {
-            "symbol": "bondBridgeNpc0Main",
-            "path": "scripts/npc/0.s"
+            "symbol": "bondBridgeObject0Main",
+            "path": "scripts/object/0.s"
           },
           "flag": 0
-        }
+        },
+        "id": "object-1"
       },
       {
-        "type": "npc",
+        "type": "object",
+        "x": 68,
+        "y": 10,
+        "z": 3,
         "data": {
-          "id": 2,
           "sprite": 28,
           "replacement": 0,
-          "x": 68,
-          "y": 10,
-          "height": 3,
           "behavior": 9,
           "boundary": {
             "x": 1,
             "y": 1
           },
           "property": 1,
-          "view_radius": 2,
+          "viewRadius": 2,
           "script": {
-            "symbol": "bondBridgeNpc1Main",
-            "path": "scripts/npc/1.s"
+            "symbol": "bondBridgeObject1Main",
+            "path": "scripts/object/1.s"
           },
           "flag": 0
-        }
+        },
+        "id": "object-2"
       },
       {
-        "type": "npc",
+        "type": "object",
+        "x": 33,
+        "y": 13,
+        "z": 3,
         "data": {
-          "id": 3,
           "sprite": 37,
           "replacement": 0,
-          "x": 33,
-          "y": 13,
-          "height": 3,
           "behavior": 10,
           "boundary": {
             "x": 1,
             "y": 1
           },
           "property": 1,
-          "view_radius": 1,
+          "viewRadius": 1,
           "script": {
-            "symbol": "bondBridgeNpc2Main",
-            "path": "scripts/npc/2.s"
+            "symbol": "bondBridgeObject2Main",
+            "path": "scripts/object/2.s"
           },
           "flag": 0
-        }
+        },
+        "id": "object-3"
       },
       {
-        "type": "npc",
+        "type": "object",
+        "x": 50,
+        "y": 11,
+        "z": 3,
         "data": {
-          "id": 4,
           "sprite": 37,
           "replacement": 0,
-          "x": 50,
-          "y": 11,
-          "height": 3,
           "behavior": 27,
           "boundary": {
             "x": 2,
             "y": 1
           },
           "property": 1,
-          "view_radius": 1,
+          "viewRadius": 1,
           "script": {
-            "symbol": "bondBridgeNpc3Main",
-            "path": "scripts/npc/3.s"
+            "symbol": "bondBridgeObject3Main",
+            "path": "scripts/object/3.s"
           },
           "flag": 0
-        }
+        },
+        "id": "object-4"
       },
       {
-        "type": "npc",
+        "type": "object",
+        "x": 36,
+        "y": 4,
+        "z": 1,
         "data": {
-          "id": 5,
           "sprite": 44,
           "replacement": 0,
-          "x": 36,
-          "y": 4,
-          "height": 1,
           "behavior": 1,
           "boundary": {
             "x": 1,
             "y": 1
           },
           "property": 1,
-          "view_radius": 1,
+          "viewRadius": 1,
           "script": {
-            "symbol": "bondBridgeNpc4Main",
-            "path": "scripts/npc/4.s"
+            "symbol": "bondBridgeObject4Main",
+            "path": "scripts/object/4.s"
           },
           "flag": 0
-        }
+        },
+        "id": "object-5"
       },
       {
-        "type": "npc",
+        "type": "object",
+        "x": 77,
+        "y": 5,
+        "z": 3,
         "data": {
-          "id": 6,
           "sprite": 17,
           "replacement": 0,
-          "x": 77,
-          "y": 5,
-          "height": 3,
           "behavior": 8,
           "boundary": {
             "x": 1,
             "y": 1
           },
           "property": 1,
-          "view_radius": 1,
+          "viewRadius": 1,
           "script": {
-            "symbol": "bondBridgeNpc5Main",
-            "path": "scripts/npc/5.s"
+            "symbol": "bondBridgeObject5Main",
+            "path": "scripts/object/5.s"
           },
           "flag": 0
-        }
+        },
+        "id": "object-6"
       },
       {
-        "type": "npc",
+        "type": "object",
+        "x": 78,
+        "y": 5,
+        "z": 3,
         "data": {
-          "id": 7,
           "sprite": 17,
           "replacement": 0,
-          "x": 78,
-          "y": 5,
-          "height": 3,
           "behavior": 8,
           "boundary": {
             "x": 1,
             "y": 1
           },
           "property": 1,
-          "view_radius": 1,
+          "viewRadius": 1,
           "script": {
-            "symbol": "bondBridgeNpc6Main",
-            "path": "scripts/npc/6.s"
+            "symbol": "bondBridgeObject6Main",
+            "path": "scripts/object/6.s"
           },
           "flag": 0
-        }
+        },
+        "id": "object-7"
       },
       {
-        "type": "npc",
+        "type": "object",
+        "x": 72,
+        "y": 8,
+        "z": 3,
         "data": {
-          "id": 8,
           "sprite": 95,
           "replacement": 0,
-          "x": 72,
-          "y": 8,
-          "height": 3,
           "behavior": 1,
           "boundary": {
             "x": 1,
             "y": 1
           },
           "property": 0,
-          "view_radius": 0,
+          "viewRadius": 0,
           "script": {
-            "symbol": "bondBridgeNpc7Main",
-            "path": "scripts/npc/7.s"
+            "symbol": "bondBridgeObject7Main",
+            "path": "scripts/object/7.s"
           },
           "flag": 18
-        }
+        },
+        "id": "object-8"
       },
       {
-        "type": "npc",
+        "type": "object",
+        "x": 86,
+        "y": 13,
+        "z": 3,
         "data": {
-          "id": 9,
           "sprite": 95,
           "replacement": 0,
-          "x": 86,
-          "y": 13,
-          "height": 3,
           "behavior": 1,
           "boundary": {
             "x": 1,
             "y": 1
           },
           "property": 0,
-          "view_radius": 0,
+          "viewRadius": 0,
           "script": {
-            "symbol": "bondBridgeNpc8Main",
-            "path": "scripts/npc/8.s"
+            "symbol": "bondBridgeObject8Main",
+            "path": "scripts/object/8.s"
           },
           "flag": 19
-        }
-      },
-      {
-        "type": "warp",
-        "data": {
-          "x": 12,
-          "y": 6,
-          "height": 3,
-          "target": {
-            "warp": 0,
-            "map": {
-              "id": "map-1-109"
-            }
-          }
-        }
-      },
-      {
-        "type": "warp",
-        "data": {
-          "x": 13,
-          "y": 6,
-          "height": 3,
-          "target": {
-            "warp": 0,
-            "map": {
-              "id": "map-1-109"
-            }
-          }
-        }
-      },
-      {
-        "type": "sign",
-        "data": {
-          "x": 14,
-          "y": 7,
-          "height": 0,
-          "type": "script",
-          "script": {
-            "symbol": "bondBridgeSign0Main",
-            "path": "scripts/sign/0.s"
-          }
-        }
-      },
-      {
-        "type": "sign",
-        "data": {
-          "x": 61,
-          "y": 5,
-          "height": 0,
-          "type": "hidden_item2",
-          "item": 84,
-          "id": 165,
-          "data": {
-            "amount": 1,
-            "exact_required": 0
-          }
-        }
-      },
-      {
-        "type": "sign",
-        "data": {
-          "x": 44,
-          "y": 12,
-          "height": 3,
-          "type": "hidden_item2",
-          "item": 106,
-          "id": 166,
-          "data": {
-            "amount": 1,
-            "exact_required": 0
-          }
-        }
-      },
-      {
-        "type": "sign",
-        "data": {
-          "x": 33,
-          "y": 7,
-          "height": 3,
-          "type": "hidden_item2",
-          "item": 108,
-          "id": 167,
-          "data": {
-            "amount": 1,
-            "exact_required": 0
-          }
-        }
-      },
-      {
-        "type": "sign",
-        "data": {
-          "x": 91,
-          "y": 9,
-          "height": 0,
-          "type": "script",
-          "script": {
-            "symbol": "bondBridgeSign4Main",
-            "path": "scripts/sign/4.s"
-          }
-        }
+        },
+        "id": "object-9"
       }
     ]
   }

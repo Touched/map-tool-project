@@ -8108,589 +8108,568 @@
     "connections": [],
     "entities": [
       {
-        "type": "npc",
+        "type": "warp",
+        "x": 43,
+        "y": 41,
+        "z": 3,
         "data": {
-          "id": 1,
+          "target": {
+            "warp": "warp-0",
+            "map": {
+              "id": "map-3-48"
+            }
+          }
+        },
+        "id": "warp-0"
+      },
+      {
+        "type": "warp",
+        "x": 42,
+        "y": 41,
+        "z": 3,
+        "data": {
+          "target": {
+            "warp": "warp-0",
+            "map": {
+              "id": "map-3-48"
+            }
+          }
+        },
+        "id": "warp-1"
+      },
+      {
+        "type": "warp",
+        "x": 44,
+        "y": 41,
+        "z": 3,
+        "data": {
+          "target": {
+            "warp": "warp-1",
+            "map": {
+              "id": "map-3-48"
+            }
+          }
+        },
+        "id": "warp-2"
+      },
+      {
+        "type": "interactable",
+        "x": 7,
+        "y": 27,
+        "z": 0,
+        "data": {
+          "type": "script",
+          "script": {
+            "symbol": "berryForestInteractable0Main",
+            "path": "scripts/interactable/0.s"
+          }
+        },
+        "id": "interactable-0"
+      },
+      {
+        "type": "interactable",
+        "x": 39,
+        "y": 35,
+        "z": 0,
+        "data": {
+          "type": "script",
+          "script": {
+            "symbol": "berryForestInteractable1Main",
+            "path": "scripts/interactable/1.s"
+          }
+        },
+        "id": "interactable-1"
+      },
+      {
+        "type": "interactable",
+        "x": 31,
+        "y": 25,
+        "z": 3,
+        "data": {
+          "type": "hiddenItem",
+          "item": 148,
+          "hiddenItemId": 90,
+          "quantity": 1
+        },
+        "id": "interactable-2"
+      },
+      {
+        "type": "interactable",
+        "x": 15,
+        "y": 15,
+        "z": 3,
+        "data": {
+          "type": "hiddenItem",
+          "item": 149,
+          "hiddenItemId": 91,
+          "quantity": 1
+        },
+        "id": "interactable-3"
+      },
+      {
+        "type": "interactable",
+        "x": 25,
+        "y": 24,
+        "z": 3,
+        "data": {
+          "type": "hiddenItem",
+          "item": 150,
+          "hiddenItemId": 92,
+          "quantity": 1
+        },
+        "id": "interactable-4"
+      },
+      {
+        "type": "interactable",
+        "x": 11,
+        "y": 24,
+        "z": 3,
+        "data": {
+          "type": "hiddenItem",
+          "item": 151,
+          "hiddenItemId": 93,
+          "quantity": 1
+        },
+        "id": "interactable-5"
+      },
+      {
+        "type": "interactable",
+        "x": 37,
+        "y": 18,
+        "z": 3,
+        "data": {
+          "type": "hiddenItem",
+          "item": 139,
+          "hiddenItemId": 94,
+          "quantity": 1
+        },
+        "id": "interactable-6"
+      },
+      {
+        "type": "interactable",
+        "x": 14,
+        "y": 23,
+        "z": 3,
+        "data": {
+          "type": "hiddenItem",
+          "item": 133,
+          "hiddenItemId": 95,
+          "quantity": 1
+        },
+        "id": "interactable-7"
+      },
+      {
+        "type": "interactable",
+        "x": 47,
+        "y": 5,
+        "z": 3,
+        "data": {
+          "type": "hiddenItem",
+          "item": 134,
+          "hiddenItemId": 96,
+          "quantity": 1
+        },
+        "id": "interactable-8"
+      },
+      {
+        "type": "interactable",
+        "x": 7,
+        "y": 30,
+        "z": 3,
+        "data": {
+          "type": "hiddenItem",
+          "item": 135,
+          "hiddenItemId": 97,
+          "quantity": 1
+        },
+        "id": "interactable-9"
+      },
+      {
+        "type": "interactable",
+        "x": 16,
+        "y": 5,
+        "z": 3,
+        "data": {
+          "type": "hiddenItem",
+          "item": 136,
+          "hiddenItemId": 98,
+          "quantity": 1
+        },
+        "id": "interactable-10"
+      },
+      {
+        "type": "interactable",
+        "x": 25,
+        "y": 6,
+        "z": 3,
+        "data": {
+          "type": "hiddenItem",
+          "item": 137,
+          "hiddenItemId": 99,
+          "quantity": 1
+        },
+        "id": "interactable-11"
+      },
+      {
+        "type": "interactable",
+        "x": 46,
+        "y": 32,
+        "z": 3,
+        "data": {
+          "type": "hiddenItem",
+          "item": 140,
+          "hiddenItemId": 100,
+          "quantity": 1
+        },
+        "id": "interactable-12"
+      },
+      {
+        "type": "interactable",
+        "x": 43,
+        "y": 16,
+        "z": 3,
+        "data": {
+          "type": "hiddenItem",
+          "item": 152,
+          "hiddenItemId": 101,
+          "quantity": 1
+        },
+        "id": "interactable-13"
+      },
+      {
+        "type": "interactable",
+        "x": 8,
+        "y": 5,
+        "z": 3,
+        "data": {
+          "type": "hiddenItem",
+          "item": 141,
+          "hiddenItemId": 102,
+          "quantity": 1
+        },
+        "id": "interactable-14"
+      },
+      {
+        "type": "object",
+        "x": 4,
+        "y": 8,
+        "z": 3,
+        "data": {
           "sprite": 17,
           "replacement": 0,
-          "x": 4,
-          "y": 8,
-          "height": 3,
           "behavior": 1,
           "boundary": {
             "x": 1,
             "y": 1
           },
           "property": 0,
-          "view_radius": 0,
+          "viewRadius": 0,
           "script": {
-            "symbol": "berryForestNpc0Main",
-            "path": "scripts/npc/0.s"
+            "symbol": "berryForestObject0Main",
+            "path": "scripts/object/0.s"
           },
           "flag": 122
-        }
+        },
+        "id": "object-1"
       },
       {
-        "type": "npc",
+        "type": "object",
+        "x": 12,
+        "y": 11,
+        "z": 3,
         "data": {
-          "id": 2,
           "sprite": 95,
           "replacement": 0,
-          "x": 12,
-          "y": 11,
-          "height": 3,
           "behavior": 1,
           "boundary": {
             "x": 1,
             "y": 1
           },
           "property": 0,
-          "view_radius": 0,
+          "viewRadius": 0,
           "script": {
-            "symbol": "berryForestNpc1Main",
-            "path": "scripts/npc/1.s"
+            "symbol": "berryForestObject1Main",
+            "path": "scripts/object/1.s"
           },
           "flag": 18
-        }
+        },
+        "id": "object-2"
       },
       {
-        "type": "npc",
+        "type": "object",
+        "x": 19,
+        "y": 7,
+        "z": 3,
         "data": {
-          "id": 3,
           "sprite": 95,
           "replacement": 0,
-          "x": 19,
-          "y": 7,
-          "height": 3,
           "behavior": 1,
           "boundary": {
             "x": 1,
             "y": 1
           },
           "property": 0,
-          "view_radius": 0,
+          "viewRadius": 0,
           "script": {
-            "symbol": "berryForestNpc2Main",
-            "path": "scripts/npc/2.s"
+            "symbol": "berryForestObject2Main",
+            "path": "scripts/object/2.s"
           },
           "flag": 19
-        }
+        },
+        "id": "object-3"
       },
       {
-        "type": "npc",
+        "type": "object",
+        "x": 23,
+        "y": 17,
+        "z": 3,
         "data": {
-          "id": 4,
           "sprite": 95,
           "replacement": 0,
-          "x": 23,
-          "y": 17,
-          "height": 3,
           "behavior": 1,
           "boundary": {
             "x": 1,
             "y": 1
           },
           "property": 0,
-          "view_radius": 0,
+          "viewRadius": 0,
           "script": {
-            "symbol": "berryForestNpc3Main",
-            "path": "scripts/npc/3.s"
+            "symbol": "berryForestObject3Main",
+            "path": "scripts/object/3.s"
           },
           "flag": 20
-        }
+        },
+        "id": "object-4"
       },
       {
-        "type": "npc",
+        "type": "object",
+        "x": 38,
+        "y": 23,
+        "z": 3,
         "data": {
-          "id": 5,
           "sprite": 95,
           "replacement": 0,
-          "x": 38,
-          "y": 23,
-          "height": 3,
           "behavior": 1,
           "boundary": {
             "x": 1,
             "y": 1
           },
           "property": 0,
-          "view_radius": 0,
+          "viewRadius": 0,
           "script": {
-            "symbol": "berryForestNpc4Main",
-            "path": "scripts/npc/4.s"
+            "symbol": "berryForestObject4Main",
+            "path": "scripts/object/4.s"
           },
           "flag": 21
-        }
+        },
+        "id": "object-5"
       },
       {
-        "type": "npc",
+        "type": "object",
+        "x": 44,
+        "y": 23,
+        "z": 3,
         "data": {
-          "id": 6,
           "sprite": 95,
           "replacement": 0,
-          "x": 44,
-          "y": 23,
-          "height": 3,
           "behavior": 1,
           "boundary": {
             "x": 1,
             "y": 1
           },
           "property": 0,
-          "view_radius": 0,
+          "viewRadius": 0,
           "script": {
-            "symbol": "berryForestNpc5Main",
-            "path": "scripts/npc/5.s"
+            "symbol": "berryForestObject5Main",
+            "path": "scripts/object/5.s"
           },
           "flag": 22
-        }
+        },
+        "id": "object-6"
       },
       {
-        "type": "npc",
+        "type": "object",
+        "x": 44,
+        "y": 29,
+        "z": 3,
         "data": {
-          "id": 7,
           "sprite": 95,
           "replacement": 0,
-          "x": 44,
-          "y": 29,
-          "height": 3,
           "behavior": 1,
           "boundary": {
             "x": 1,
             "y": 1
           },
           "property": 0,
-          "view_radius": 0,
+          "viewRadius": 0,
           "script": {
-            "symbol": "berryForestNpc6Main",
-            "path": "scripts/npc/6.s"
+            "symbol": "berryForestObject6Main",
+            "path": "scripts/object/6.s"
           },
           "flag": 23
-        }
+        },
+        "id": "object-7"
       },
       {
-        "type": "npc",
+        "type": "object",
+        "x": 16,
+        "y": 43,
+        "z": 3,
         "data": {
-          "id": 8,
           "sprite": 95,
           "replacement": 0,
-          "x": 16,
-          "y": 43,
-          "height": 3,
           "behavior": 1,
           "boundary": {
             "x": 1,
             "y": 1
           },
           "property": 0,
-          "view_radius": 0,
+          "viewRadius": 0,
           "script": {
-            "symbol": "berryForestNpc7Main",
-            "path": "scripts/npc/7.s"
+            "symbol": "berryForestObject7Main",
+            "path": "scripts/object/7.s"
           },
           "flag": 24
-        }
+        },
+        "id": "object-8"
       },
       {
-        "type": "npc",
+        "type": "object",
+        "x": 17,
+        "y": 39,
+        "z": 3,
         "data": {
-          "id": 9,
           "sprite": 95,
           "replacement": 0,
-          "x": 17,
-          "y": 39,
-          "height": 3,
           "behavior": 1,
           "boundary": {
             "x": 1,
             "y": 1
           },
           "property": 0,
-          "view_radius": 0,
+          "viewRadius": 0,
           "script": {
-            "symbol": "berryForestNpc8Main",
-            "path": "scripts/npc/8.s"
+            "symbol": "berryForestObject8Main",
+            "path": "scripts/object/8.s"
           },
           "flag": 25
-        }
+        },
+        "id": "object-9"
       },
       {
-        "type": "npc",
+        "type": "object",
+        "x": 14,
+        "y": 39,
+        "z": 3,
         "data": {
-          "id": 10,
           "sprite": 95,
           "replacement": 0,
-          "x": 14,
-          "y": 39,
-          "height": 3,
           "behavior": 1,
           "boundary": {
             "x": 1,
             "y": 1
           },
           "property": 0,
-          "view_radius": 0,
+          "viewRadius": 0,
           "script": {
-            "symbol": "berryForestNpc9Main",
-            "path": "scripts/npc/9.s"
+            "symbol": "berryForestObject9Main",
+            "path": "scripts/object/9.s"
           },
           "flag": 26
-        }
+        },
+        "id": "object-10"
       },
       {
-        "type": "npc",
+        "type": "object",
+        "x": 11,
+        "y": 39,
+        "z": 3,
         "data": {
-          "id": 11,
           "sprite": 95,
           "replacement": 0,
-          "x": 11,
-          "y": 39,
-          "height": 3,
           "behavior": 1,
           "boundary": {
             "x": 1,
             "y": 1
           },
           "property": 0,
-          "view_radius": 0,
+          "viewRadius": 0,
           "script": {
-            "symbol": "berryForestNpc10Main",
-            "path": "scripts/npc/10.s"
+            "symbol": "berryForestObject10Main",
+            "path": "scripts/object/10.s"
           },
           "flag": 27
-        }
+        },
+        "id": "object-11"
       },
       {
-        "type": "npc",
+        "type": "object",
+        "x": 12,
+        "y": 5,
+        "z": 3,
         "data": {
-          "id": 12,
           "sprite": 92,
           "replacement": 0,
-          "x": 12,
-          "y": 5,
-          "height": 3,
           "behavior": 8,
           "boundary": {
             "x": 1,
             "y": 1
           },
           "property": 0,
-          "view_radius": 0,
+          "viewRadius": 0,
           "script": {
-            "symbol": "berryForestNpc11Main",
-            "path": "scripts/npc/11.s"
+            "symbol": "berryForestObject11Main",
+            "path": "scripts/object/11.s"
           },
           "flag": 490
-        }
+        },
+        "id": "object-12"
       },
       {
-        "type": "npc",
+        "type": "object",
+        "x": 27,
+        "y": 11,
+        "z": 3,
         "data": {
-          "id": 13,
           "sprite": 92,
           "replacement": 0,
-          "x": 27,
-          "y": 11,
-          "height": 3,
           "behavior": 8,
           "boundary": {
             "x": 1,
             "y": 1
           },
           "property": 0,
-          "view_radius": 0,
+          "viewRadius": 0,
           "script": {
-            "symbol": "berryForestNpc12Main",
-            "path": "scripts/npc/12.s"
+            "symbol": "berryForestObject12Main",
+            "path": "scripts/object/12.s"
           },
           "flag": 491
-        }
+        },
+        "id": "object-13"
       },
       {
-        "type": "npc",
+        "type": "object",
+        "x": 12,
+        "y": 43,
+        "z": 3,
         "data": {
-          "id": 14,
           "sprite": 92,
           "replacement": 0,
-          "x": 12,
-          "y": 43,
-          "height": 3,
           "behavior": 8,
           "boundary": {
             "x": 1,
             "y": 1
           },
           "property": 0,
-          "view_radius": 0,
+          "viewRadius": 0,
           "script": {
-            "symbol": "berryForestNpc13Main",
-            "path": "scripts/npc/13.s"
+            "symbol": "berryForestObject13Main",
+            "path": "scripts/object/13.s"
           },
           "flag": 492
-        }
-      },
-      {
-        "type": "warp",
-        "data": {
-          "x": 43,
-          "y": 41,
-          "height": 3,
-          "target": {
-            "warp": 0,
-            "map": {
-              "id": "map-3-48"
-            }
-          }
-        }
-      },
-      {
-        "type": "warp",
-        "data": {
-          "x": 42,
-          "y": 41,
-          "height": 3,
-          "target": {
-            "warp": 0,
-            "map": {
-              "id": "map-3-48"
-            }
-          }
-        }
-      },
-      {
-        "type": "warp",
-        "data": {
-          "x": 44,
-          "y": 41,
-          "height": 3,
-          "target": {
-            "warp": 1,
-            "map": {
-              "id": "map-3-48"
-            }
-          }
-        }
-      },
-      {
-        "type": "sign",
-        "data": {
-          "x": 7,
-          "y": 27,
-          "height": 0,
-          "type": "script",
-          "script": {
-            "symbol": "berryForestSign0Main",
-            "path": "scripts/sign/0.s"
-          }
-        }
-      },
-      {
-        "type": "sign",
-        "data": {
-          "x": 39,
-          "y": 35,
-          "height": 0,
-          "type": "script",
-          "script": {
-            "symbol": "berryForestSign1Main",
-            "path": "scripts/sign/1.s"
-          }
-        }
-      },
-      {
-        "type": "sign",
-        "data": {
-          "x": 31,
-          "y": 25,
-          "height": 3,
-          "type": "hidden_item2",
-          "item": 148,
-          "id": 90,
-          "data": {
-            "amount": 1,
-            "exact_required": 0
-          }
-        }
-      },
-      {
-        "type": "sign",
-        "data": {
-          "x": 15,
-          "y": 15,
-          "height": 3,
-          "type": "hidden_item2",
-          "item": 149,
-          "id": 91,
-          "data": {
-            "amount": 1,
-            "exact_required": 0
-          }
-        }
-      },
-      {
-        "type": "sign",
-        "data": {
-          "x": 25,
-          "y": 24,
-          "height": 3,
-          "type": "hidden_item2",
-          "item": 150,
-          "id": 92,
-          "data": {
-            "amount": 1,
-            "exact_required": 0
-          }
-        }
-      },
-      {
-        "type": "sign",
-        "data": {
-          "x": 11,
-          "y": 24,
-          "height": 3,
-          "type": "hidden_item2",
-          "item": 151,
-          "id": 93,
-          "data": {
-            "amount": 1,
-            "exact_required": 0
-          }
-        }
-      },
-      {
-        "type": "sign",
-        "data": {
-          "x": 37,
-          "y": 18,
-          "height": 3,
-          "type": "hidden_item2",
-          "item": 139,
-          "id": 94,
-          "data": {
-            "amount": 1,
-            "exact_required": 0
-          }
-        }
-      },
-      {
-        "type": "sign",
-        "data": {
-          "x": 14,
-          "y": 23,
-          "height": 3,
-          "type": "hidden_item2",
-          "item": 133,
-          "id": 95,
-          "data": {
-            "amount": 1,
-            "exact_required": 0
-          }
-        }
-      },
-      {
-        "type": "sign",
-        "data": {
-          "x": 47,
-          "y": 5,
-          "height": 3,
-          "type": "hidden_item2",
-          "item": 134,
-          "id": 96,
-          "data": {
-            "amount": 1,
-            "exact_required": 0
-          }
-        }
-      },
-      {
-        "type": "sign",
-        "data": {
-          "x": 7,
-          "y": 30,
-          "height": 3,
-          "type": "hidden_item2",
-          "item": 135,
-          "id": 97,
-          "data": {
-            "amount": 1,
-            "exact_required": 0
-          }
-        }
-      },
-      {
-        "type": "sign",
-        "data": {
-          "x": 16,
-          "y": 5,
-          "height": 3,
-          "type": "hidden_item2",
-          "item": 136,
-          "id": 98,
-          "data": {
-            "amount": 1,
-            "exact_required": 0
-          }
-        }
-      },
-      {
-        "type": "sign",
-        "data": {
-          "x": 25,
-          "y": 6,
-          "height": 3,
-          "type": "hidden_item2",
-          "item": 137,
-          "id": 99,
-          "data": {
-            "amount": 1,
-            "exact_required": 0
-          }
-        }
-      },
-      {
-        "type": "sign",
-        "data": {
-          "x": 46,
-          "y": 32,
-          "height": 3,
-          "type": "hidden_item2",
-          "item": 140,
-          "id": 100,
-          "data": {
-            "amount": 1,
-            "exact_required": 0
-          }
-        }
-      },
-      {
-        "type": "sign",
-        "data": {
-          "x": 43,
-          "y": 16,
-          "height": 3,
-          "type": "hidden_item2",
-          "item": 152,
-          "id": 101,
-          "data": {
-            "amount": 1,
-            "exact_required": 0
-          }
-        }
-      },
-      {
-        "type": "sign",
-        "data": {
-          "x": 8,
-          "y": 5,
-          "height": 3,
-          "type": "hidden_item2",
-          "item": 141,
-          "id": 102,
-          "data": {
-            "amount": 1,
-            "exact_required": 0
-          }
-        }
+        },
+        "id": "object-14"
       }
     ]
   }

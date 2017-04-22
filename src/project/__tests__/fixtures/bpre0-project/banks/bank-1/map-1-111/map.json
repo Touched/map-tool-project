@@ -1285,134 +1285,140 @@
     "connections": [],
     "entities": [
       {
-        "type": "npc",
-        "data": {
-          "id": 1,
-          "sprite": 92,
-          "replacement": 0,
-          "x": 11,
-          "y": 7,
-          "height": 3,
-          "behavior": 8,
-          "boundary": {
-            "x": 1,
-            "y": 1
-          },
-          "property": 0,
-          "view_radius": 0,
-          "script": {
-            "symbol": "icefallCave1Npc0Main",
-            "path": "scripts/npc/0.s"
-          },
-          "flag": 496
-        }
-      },
-      {
-        "type": "npc",
-        "data": {
-          "id": 2,
-          "sprite": 92,
-          "replacement": 0,
-          "x": 12,
-          "y": 16,
-          "height": 3,
-          "behavior": 8,
-          "boundary": {
-            "x": 1,
-            "y": 1
-          },
-          "property": 0,
-          "view_radius": 0,
-          "script": {
-            "symbol": "icefallCave1Npc1Main",
-            "path": "scripts/npc/1.s"
-          },
-          "flag": 497
-        }
-      },
-      {
         "type": "warp",
+        "x": 3,
+        "y": 17,
+        "z": 0,
         "data": {
-          "x": 3,
-          "y": 17,
-          "height": 0,
           "target": {
-            "warp": 1,
+            "warp": "warp-1",
             "map": {
               "id": "map-1-110"
             }
           }
-        }
+        },
+        "id": "warp-0"
       },
       {
         "type": "warp",
+        "x": 2,
+        "y": 8,
+        "z": 3,
         "data": {
-          "x": 2,
-          "y": 8,
-          "height": 3,
           "target": {
-            "warp": 2,
+            "warp": "warp-2",
             "map": {
               "id": "map-1-110"
             }
           }
-        }
+        },
+        "id": "warp-1"
       },
       {
         "type": "warp",
+        "x": 12,
+        "y": 12,
+        "z": 3,
         "data": {
-          "x": 12,
-          "y": 12,
-          "height": 3,
           "target": {
-            "warp": 0,
+            "warp": "warp-0",
             "map": {
               "id": "map-1-112"
             }
           }
-        }
+        },
+        "id": "warp-2"
       },
       {
         "type": "warp",
+        "x": 12,
+        "y": 3,
+        "z": 3,
         "data": {
-          "x": 12,
-          "y": 3,
-          "height": 3,
           "target": {
-            "warp": 1,
+            "warp": "warp-1",
             "map": {
               "id": "map-1-112"
             }
           }
-        }
+        },
+        "id": "warp-3"
       },
       {
         "type": "warp",
+        "x": 15,
+        "y": 16,
+        "z": 3,
         "data": {
-          "x": 15,
-          "y": 16,
-          "height": 3,
           "target": {
-            "warp": 2,
+            "warp": "warp-2",
             "map": {
               "id": "map-1-112"
             }
           }
-        }
+        },
+        "id": "warp-4"
       },
       {
         "type": "warp",
+        "x": 3,
+        "y": 6,
+        "z": 3,
         "data": {
-          "x": 3,
-          "y": 6,
-          "height": 3,
           "target": {
-            "warp": 0,
+            "warp": "warp-0",
             "map": {
               "id": "map-1-113"
             }
           }
-        }
+        },
+        "id": "warp-5"
+      },
+      {
+        "type": "object",
+        "x": 11,
+        "y": 7,
+        "z": 3,
+        "data": {
+          "sprite": 92,
+          "replacement": 0,
+          "behavior": 8,
+          "boundary": {
+            "x": 1,
+            "y": 1
+          },
+          "property": 0,
+          "viewRadius": 0,
+          "script": {
+            "symbol": "icefallCave1Object0Main",
+            "path": "scripts/object/0.s"
+          },
+          "flag": 496
+        },
+        "id": "object-1"
+      },
+      {
+        "type": "object",
+        "x": 12,
+        "y": 16,
+        "z": 3,
+        "data": {
+          "sprite": 92,
+          "replacement": 0,
+          "behavior": 8,
+          "boundary": {
+            "x": 1,
+            "y": 1
+          },
+          "property": 0,
+          "viewRadius": 0,
+          "script": {
+            "symbol": "icefallCave1Object1Main",
+            "path": "scripts/object/1.s"
+          },
+          "flag": 497
+        },
+        "id": "object-2"
       }
     ]
   }

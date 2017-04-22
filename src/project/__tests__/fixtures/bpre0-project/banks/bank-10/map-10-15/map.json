@@ -327,161 +327,164 @@
     "connections": [],
     "entities": [
       {
-        "type": "npc",
+        "type": "warp",
+        "x": 3,
+        "y": 9,
+        "z": 0,
         "data": {
-          "id": 1,
+          "target": {
+            "warp": "warp-5",
+            "map": {
+              "id": "map-3-6"
+            }
+          }
+        },
+        "id": "warp-0"
+      },
+      {
+        "type": "warp",
+        "x": 4,
+        "y": 8,
+        "z": 3,
+        "data": {
+          "target": {
+            "warp": "warp-5",
+            "map": {
+              "id": "map-3-6"
+            }
+          }
+        },
+        "id": "warp-1"
+      },
+      {
+        "type": "warp",
+        "x": 5,
+        "y": 9,
+        "z": 0,
+        "data": {
+          "target": {
+            "warp": "warp-5",
+            "map": {
+              "id": "map-3-6"
+            }
+          }
+        },
+        "id": "warp-2"
+      },
+      {
+        "type": "object",
+        "x": 2,
+        "y": 6,
+        "z": 3,
+        "data": {
           "sprite": 30,
           "replacement": 0,
-          "x": 2,
-          "y": 6,
-          "height": 3,
           "behavior": 2,
           "boundary": {
             "x": 1,
             "y": 1
           },
           "property": 0,
-          "view_radius": 0,
+          "viewRadius": 0,
           "script": {
-            "symbol": "celadonCity16Npc0Main",
-            "path": "scripts/npc/0.s"
+            "symbol": "celadonCity16Object0Main",
+            "path": "scripts/object/0.s"
           },
           "flag": 0
-        }
+        },
+        "id": "object-1"
       },
       {
-        "type": "npc",
+        "type": "object",
+        "x": 6,
+        "y": 7,
+        "z": 3,
         "data": {
-          "id": 2,
           "sprite": 33,
           "replacement": 0,
-          "x": 6,
-          "y": 7,
-          "height": 3,
           "behavior": 1,
           "boundary": {
             "x": 1,
             "y": 1
           },
           "property": 0,
-          "view_radius": 0,
+          "viewRadius": 0,
           "script": {
-            "symbol": "celadonCity16Npc1Main",
-            "path": "scripts/npc/1.s"
+            "symbol": "celadonCity16Object1Main",
+            "path": "scripts/object/1.s"
           },
           "flag": 0
-        }
+        },
+        "id": "object-2"
       },
       {
-        "type": "npc",
+        "type": "object",
+        "x": 4,
+        "y": 2,
+        "z": 3,
         "data": {
-          "id": 3,
           "sprite": 47,
           "replacement": 0,
-          "x": 4,
-          "y": 2,
-          "height": 3,
           "behavior": 8,
           "boundary": {
             "x": 1,
             "y": 1
           },
           "property": 0,
-          "view_radius": 0,
+          "viewRadius": 0,
           "script": {
-            "symbol": "celadonCity16Npc2Main",
-            "path": "scripts/npc/2.s"
+            "symbol": "celadonCity16Object2Main",
+            "path": "scripts/object/2.s"
           },
           "flag": 0
-        }
+        },
+        "id": "object-3"
       },
       {
-        "type": "npc",
+        "type": "object",
+        "x": 6,
+        "y": 2,
+        "z": 3,
         "data": {
-          "id": 4,
           "sprite": 47,
           "replacement": 0,
-          "x": 6,
-          "y": 2,
-          "height": 3,
           "behavior": 8,
           "boundary": {
             "x": 1,
             "y": 1
           },
           "property": 0,
-          "view_radius": 0,
+          "viewRadius": 0,
           "script": {
-            "symbol": "celadonCity16Npc3Main",
-            "path": "scripts/npc/3.s"
+            "symbol": "celadonCity16Object3Main",
+            "path": "scripts/object/3.s"
           },
           "flag": 0
-        }
+        },
+        "id": "object-4"
       },
       {
-        "type": "npc",
+        "type": "object",
+        "x": 2,
+        "y": 2,
+        "z": 3,
         "data": {
-          "id": 5,
           "sprite": 47,
           "replacement": 0,
-          "x": 2,
-          "y": 2,
-          "height": 3,
           "behavior": 8,
           "boundary": {
             "x": 1,
             "y": 1
           },
           "property": 0,
-          "view_radius": 0,
+          "viewRadius": 0,
           "script": {
-            "symbol": "celadonCity16Npc4Main",
-            "path": "scripts/npc/4.s"
+            "symbol": "celadonCity16Object4Main",
+            "path": "scripts/object/4.s"
           },
           "flag": 0
-        }
-      },
-      {
-        "type": "warp",
-        "data": {
-          "x": 3,
-          "y": 9,
-          "height": 0,
-          "target": {
-            "warp": 5,
-            "map": {
-              "id": "map-3-6"
-            }
-          }
-        }
-      },
-      {
-        "type": "warp",
-        "data": {
-          "x": 4,
-          "y": 8,
-          "height": 3,
-          "target": {
-            "warp": 5,
-            "map": {
-              "id": "map-3-6"
-            }
-          }
-        }
-      },
-      {
-        "type": "warp",
-        "data": {
-          "x": 5,
-          "y": 9,
-          "height": 0,
-          "target": {
-            "warp": 5,
-            "map": {
-              "id": "map-3-6"
-            }
-          }
-        }
+        },
+        "id": "object-5"
       }
     ]
   }

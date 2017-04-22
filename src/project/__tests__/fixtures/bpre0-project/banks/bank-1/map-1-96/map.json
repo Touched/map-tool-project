@@ -922,369 +922,423 @@
     "entities": [
       {
         "type": "warp",
+        "x": 14,
+        "y": 14,
+        "z": 3,
         "data": {
-          "x": 14,
-          "y": 14,
-          "height": 3,
           "target": {
-            "warp": 0,
+            "warp": "warp-0",
             "map": {
               "id": "map-1-102"
             }
           }
-        }
+        },
+        "id": "warp-0"
       },
       {
         "type": "warp",
+        "x": 4,
+        "y": 2,
+        "z": 3,
         "data": {
-          "x": 4,
-          "y": 2,
-          "height": 3,
           "target": {
-            "warp": 2,
+            "warp": "warp-2",
             "map": {
               "id": "map-1-106"
             }
           }
-        }
+        },
+        "id": "warp-1"
       },
       {
-        "type": "sign",
+        "type": "interactable",
+        "x": 3,
+        "y": 7,
+        "z": 0,
         "data": {
-          "x": 3,
-          "y": 7,
-          "height": 0,
-          "type": "script_up",
+          "type": "script",
           "script": {
-            "symbol": "mt。EmberSign0Main",
-            "path": "scripts/sign/0.s"
-          }
-        }
+            "symbol": "mt。EmberInteractable0Main",
+            "path": "scripts/interactable/0.s"
+          },
+          "direction": "up"
+        },
+        "id": "interactable-0"
       },
       {
-        "type": "sign",
+        "type": "interactable",
+        "x": 4,
+        "y": 7,
+        "z": 0,
         "data": {
-          "x": 4,
-          "y": 7,
-          "height": 0,
-          "type": "script_up",
+          "type": "script",
           "script": {
-            "symbol": "mt。EmberSign1Main",
-            "path": "scripts/sign/1.s"
-          }
-        }
+            "symbol": "mt。EmberInteractable1Main",
+            "path": "scripts/interactable/1.s"
+          },
+          "direction": "up"
+        },
+        "id": "interactable-1"
       },
       {
-        "type": "sign",
+        "type": "interactable",
+        "x": 5,
+        "y": 7,
+        "z": 0,
         "data": {
-          "x": 5,
-          "y": 7,
-          "height": 0,
-          "type": "script_up",
+          "type": "script",
           "script": {
-            "symbol": "mt。EmberSign2Main",
-            "path": "scripts/sign/2.s"
-          }
-        }
+            "symbol": "mt。EmberInteractable2Main",
+            "path": "scripts/interactable/2.s"
+          },
+          "direction": "up"
+        },
+        "id": "interactable-2"
       },
       {
-        "type": "sign",
+        "type": "interactable",
+        "x": 4,
+        "y": 9,
+        "z": 0,
         "data": {
-          "x": 4,
-          "y": 9,
-          "height": 0,
-          "type": "script_up",
+          "type": "script",
           "script": {
-            "symbol": "mt。EmberSign3Main",
-            "path": "scripts/sign/3.s"
-          }
-        }
+            "symbol": "mt。EmberInteractable3Main",
+            "path": "scripts/interactable/3.s"
+          },
+          "direction": "up"
+        },
+        "id": "interactable-3"
       },
       {
-        "type": "sign",
+        "type": "interactable",
+        "x": 3,
+        "y": 9,
+        "z": 0,
         "data": {
-          "x": 3,
-          "y": 9,
-          "height": 0,
-          "type": "script_up",
+          "type": "script",
           "script": {
-            "symbol": "mt。EmberSign4Main",
-            "path": "scripts/sign/4.s"
-          }
-        }
+            "symbol": "mt。EmberInteractable4Main",
+            "path": "scripts/interactable/4.s"
+          },
+          "direction": "up"
+        },
+        "id": "interactable-4"
       },
       {
-        "type": "sign",
+        "type": "interactable",
+        "x": 5,
+        "y": 9,
+        "z": 0,
         "data": {
-          "x": 5,
-          "y": 9,
-          "height": 0,
-          "type": "script_up",
+          "type": "script",
           "script": {
-            "symbol": "mt。EmberSign5Main",
-            "path": "scripts/sign/5.s"
-          }
-        }
+            "symbol": "mt。EmberInteractable5Main",
+            "path": "scripts/interactable/5.s"
+          },
+          "direction": "up"
+        },
+        "id": "interactable-5"
       },
       {
-        "type": "sign",
+        "type": "interactable",
+        "x": 3,
+        "y": 11,
+        "z": 0,
         "data": {
-          "x": 3,
-          "y": 11,
-          "height": 0,
-          "type": "script_up",
+          "type": "script",
           "script": {
-            "symbol": "mt。EmberSign6Main",
-            "path": "scripts/sign/6.s"
-          }
-        }
+            "symbol": "mt。EmberInteractable6Main",
+            "path": "scripts/interactable/6.s"
+          },
+          "direction": "up"
+        },
+        "id": "interactable-6"
       },
       {
-        "type": "sign",
+        "type": "interactable",
+        "x": 4,
+        "y": 11,
+        "z": 0,
         "data": {
-          "x": 4,
-          "y": 11,
-          "height": 0,
-          "type": "script_up",
+          "type": "script",
           "script": {
-            "symbol": "mt。EmberSign7Main",
-            "path": "scripts/sign/7.s"
-          }
-        }
+            "symbol": "mt。EmberInteractable7Main",
+            "path": "scripts/interactable/7.s"
+          },
+          "direction": "up"
+        },
+        "id": "interactable-7"
       },
       {
-        "type": "sign",
+        "type": "interactable",
+        "x": 5,
+        "y": 11,
+        "z": 0,
         "data": {
-          "x": 5,
-          "y": 11,
-          "height": 0,
-          "type": "script_up",
+          "type": "script",
           "script": {
-            "symbol": "mt。EmberSign8Main",
-            "path": "scripts/sign/8.s"
-          }
-        }
+            "symbol": "mt。EmberInteractable8Main",
+            "path": "scripts/interactable/8.s"
+          },
+          "direction": "up"
+        },
+        "id": "interactable-8"
       },
       {
-        "type": "sign",
+        "type": "interactable",
+        "x": 3,
+        "y": 13,
+        "z": 0,
         "data": {
-          "x": 3,
-          "y": 13,
-          "height": 0,
-          "type": "script_up",
+          "type": "script",
           "script": {
-            "symbol": "mt。EmberSign9Main",
-            "path": "scripts/sign/9.s"
-          }
-        }
+            "symbol": "mt。EmberInteractable9Main",
+            "path": "scripts/interactable/9.s"
+          },
+          "direction": "up"
+        },
+        "id": "interactable-9"
       },
       {
-        "type": "sign",
+        "type": "interactable",
+        "x": 4,
+        "y": 13,
+        "z": 0,
         "data": {
-          "x": 4,
-          "y": 13,
-          "height": 0,
-          "type": "script_up",
+          "type": "script",
           "script": {
-            "symbol": "mt。EmberSign10Main",
-            "path": "scripts/sign/10.s"
-          }
-        }
+            "symbol": "mt。EmberInteractable10Main",
+            "path": "scripts/interactable/10.s"
+          },
+          "direction": "up"
+        },
+        "id": "interactable-10"
       },
       {
-        "type": "sign",
+        "type": "interactable",
+        "x": 5,
+        "y": 13,
+        "z": 0,
         "data": {
-          "x": 5,
-          "y": 13,
-          "height": 0,
-          "type": "script_up",
+          "type": "script",
           "script": {
-            "symbol": "mt。EmberSign11Main",
-            "path": "scripts/sign/11.s"
-          }
-        }
+            "symbol": "mt。EmberInteractable11Main",
+            "path": "scripts/interactable/11.s"
+          },
+          "direction": "up"
+        },
+        "id": "interactable-11"
       },
       {
-        "type": "sign",
+        "type": "interactable",
+        "x": 7,
+        "y": 7,
+        "z": 0,
         "data": {
-          "x": 7,
-          "y": 7,
-          "height": 0,
-          "type": "script_up",
+          "type": "script",
           "script": {
-            "symbol": "mt。EmberSign12Main",
-            "path": "scripts/sign/12.s"
-          }
-        }
+            "symbol": "mt。EmberInteractable12Main",
+            "path": "scripts/interactable/12.s"
+          },
+          "direction": "up"
+        },
+        "id": "interactable-12"
       },
       {
-        "type": "sign",
+        "type": "interactable",
+        "x": 8,
+        "y": 7,
+        "z": 0,
         "data": {
-          "x": 8,
-          "y": 7,
-          "height": 0,
-          "type": "script_up",
+          "type": "script",
           "script": {
-            "symbol": "mt。EmberSign13Main",
-            "path": "scripts/sign/13.s"
-          }
-        }
+            "symbol": "mt。EmberInteractable13Main",
+            "path": "scripts/interactable/13.s"
+          },
+          "direction": "up"
+        },
+        "id": "interactable-13"
       },
       {
-        "type": "sign",
+        "type": "interactable",
+        "x": 9,
+        "y": 7,
+        "z": 0,
         "data": {
-          "x": 9,
-          "y": 7,
-          "height": 0,
-          "type": "script_up",
+          "type": "script",
           "script": {
-            "symbol": "mt。EmberSign14Main",
-            "path": "scripts/sign/14.s"
-          }
-        }
+            "symbol": "mt。EmberInteractable14Main",
+            "path": "scripts/interactable/14.s"
+          },
+          "direction": "up"
+        },
+        "id": "interactable-14"
       },
       {
-        "type": "sign",
+        "type": "interactable",
+        "x": 7,
+        "y": 9,
+        "z": 0,
         "data": {
-          "x": 7,
-          "y": 9,
-          "height": 0,
-          "type": "script_up",
+          "type": "script",
           "script": {
-            "symbol": "mt。EmberSign15Main",
-            "path": "scripts/sign/15.s"
-          }
-        }
+            "symbol": "mt。EmberInteractable15Main",
+            "path": "scripts/interactable/15.s"
+          },
+          "direction": "up"
+        },
+        "id": "interactable-15"
       },
       {
-        "type": "sign",
+        "type": "interactable",
+        "x": 8,
+        "y": 9,
+        "z": 0,
         "data": {
-          "x": 8,
-          "y": 9,
-          "height": 0,
-          "type": "script_up",
+          "type": "script",
           "script": {
-            "symbol": "mt。EmberSign16Main",
-            "path": "scripts/sign/16.s"
-          }
-        }
+            "symbol": "mt。EmberInteractable16Main",
+            "path": "scripts/interactable/16.s"
+          },
+          "direction": "up"
+        },
+        "id": "interactable-16"
       },
       {
-        "type": "sign",
+        "type": "interactable",
+        "x": 9,
+        "y": 9,
+        "z": 0,
         "data": {
-          "x": 9,
-          "y": 9,
-          "height": 0,
-          "type": "script_up",
+          "type": "script",
           "script": {
-            "symbol": "mt。EmberSign17Main",
-            "path": "scripts/sign/17.s"
-          }
-        }
+            "symbol": "mt。EmberInteractable17Main",
+            "path": "scripts/interactable/17.s"
+          },
+          "direction": "up"
+        },
+        "id": "interactable-17"
       },
       {
-        "type": "sign",
+        "type": "interactable",
+        "x": 7,
+        "y": 11,
+        "z": 0,
         "data": {
-          "x": 7,
-          "y": 11,
-          "height": 0,
-          "type": "script_up",
+          "type": "script",
           "script": {
-            "symbol": "mt。EmberSign18Main",
-            "path": "scripts/sign/18.s"
-          }
-        }
+            "symbol": "mt。EmberInteractable18Main",
+            "path": "scripts/interactable/18.s"
+          },
+          "direction": "up"
+        },
+        "id": "interactable-18"
       },
       {
-        "type": "sign",
+        "type": "interactable",
+        "x": 11,
+        "y": 7,
+        "z": 0,
         "data": {
-          "x": 11,
-          "y": 7,
-          "height": 0,
-          "type": "script_up",
+          "type": "script",
           "script": {
-            "symbol": "mt。EmberSign19Main",
-            "path": "scripts/sign/19.s"
-          }
-        }
+            "symbol": "mt。EmberInteractable19Main",
+            "path": "scripts/interactable/19.s"
+          },
+          "direction": "up"
+        },
+        "id": "interactable-19"
       },
       {
-        "type": "sign",
+        "type": "interactable",
+        "x": 11,
+        "y": 9,
+        "z": 0,
         "data": {
-          "x": 11,
-          "y": 9,
-          "height": 0,
-          "type": "script_up",
+          "type": "script",
           "script": {
-            "symbol": "mt。EmberSign20Main",
-            "path": "scripts/sign/20.s"
-          }
-        }
+            "symbol": "mt。EmberInteractable20Main",
+            "path": "scripts/interactable/20.s"
+          },
+          "direction": "up"
+        },
+        "id": "interactable-20"
       },
       {
-        "type": "sign",
+        "type": "interactable",
+        "x": 8,
+        "y": 11,
+        "z": 0,
         "data": {
-          "x": 8,
-          "y": 11,
-          "height": 0,
-          "type": "script_up",
+          "type": "script",
           "script": {
-            "symbol": "mt。EmberSign21Main",
-            "path": "scripts/sign/21.s"
-          }
-        }
+            "symbol": "mt。EmberInteractable21Main",
+            "path": "scripts/interactable/21.s"
+          },
+          "direction": "up"
+        },
+        "id": "interactable-21"
       },
       {
-        "type": "sign",
+        "type": "interactable",
+        "x": 9,
+        "y": 11,
+        "z": 0,
         "data": {
-          "x": 9,
-          "y": 11,
-          "height": 0,
-          "type": "script_up",
+          "type": "script",
           "script": {
-            "symbol": "mt。EmberSign22Main",
-            "path": "scripts/sign/22.s"
-          }
-        }
+            "symbol": "mt。EmberInteractable22Main",
+            "path": "scripts/interactable/22.s"
+          },
+          "direction": "up"
+        },
+        "id": "interactable-22"
       },
       {
-        "type": "sign",
+        "type": "interactable",
+        "x": 7,
+        "y": 13,
+        "z": 0,
         "data": {
-          "x": 7,
-          "y": 13,
-          "height": 0,
-          "type": "script_up",
+          "type": "script",
           "script": {
-            "symbol": "mt。EmberSign23Main",
-            "path": "scripts/sign/23.s"
-          }
-        }
+            "symbol": "mt。EmberInteractable23Main",
+            "path": "scripts/interactable/23.s"
+          },
+          "direction": "up"
+        },
+        "id": "interactable-23"
       },
       {
-        "type": "sign",
+        "type": "interactable",
+        "x": 9,
+        "y": 13,
+        "z": 0,
         "data": {
-          "x": 9,
-          "y": 13,
-          "height": 0,
-          "type": "script_up",
+          "type": "script",
           "script": {
-            "symbol": "mt。EmberSign24Main",
-            "path": "scripts/sign/24.s"
-          }
-        }
+            "symbol": "mt。EmberInteractable24Main",
+            "path": "scripts/interactable/24.s"
+          },
+          "direction": "up"
+        },
+        "id": "interactable-24"
       },
       {
-        "type": "sign",
+        "type": "interactable",
+        "x": 8,
+        "y": 13,
+        "z": 0,
         "data": {
-          "x": 8,
-          "y": 13,
-          "height": 0,
-          "type": "script_up",
+          "type": "script",
           "script": {
-            "symbol": "mt。EmberSign25Main",
-            "path": "scripts/sign/25.s"
-          }
-        }
+            "symbol": "mt。EmberInteractable25Main",
+            "path": "scripts/interactable/25.s"
+          },
+          "direction": "up"
+        },
+        "id": "interactable-25"
       }
     ]
   }

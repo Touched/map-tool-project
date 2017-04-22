@@ -103,7 +103,7 @@ const ConnectionTable = new StructureSchema([
   ['connections', new PointerSchema(new ArraySchema(Connection, 'count'))]
 ]);
 
-const NpcEntity = new StructureSchema([
+const ObjectEntity = new StructureSchema([
   ['id', Byte],
   ['sprite', Byte],
   ['replacement', Byte],
@@ -119,7 +119,7 @@ const NpcEntity = new StructureSchema([
   [null, Byte],
   ['property', Byte],
   [null, Byte],
-  ['view_radius', HalfWord],
+  ['viewRadius', HalfWord],
   ['script', Word],
   ['flag', HalfWord],
   [null, new PaddingSchema(2)],
@@ -146,7 +146,7 @@ const TriggerEntity = new StructureSchema([
   ['script', Word],
 ]);
 
-const SignEntity = new StructureSchema([
+const InteractableEntity = new StructureSchema([
   ['x', HalfWord],
   ['y', HalfWord],
   ['height', Byte],
@@ -190,7 +190,7 @@ const SignEntity = new StructureSchema([
       ['id', Byte],
       ['data', new BitfieldSchema([
         ['amount', 7],
-        ['exact_required', 1],
+        ['itemfinder', 1],
       ])],
     ]),
   }, {
@@ -203,14 +203,14 @@ const SignEntity = new StructureSchema([
 ]);
 
 const EntityTable = new StructureSchema([
-  [null, new NamedValueSchema('npc_count', Byte)],
+  [null, new NamedValueSchema('object_count', Byte)],
   [null, new NamedValueSchema('warp_count', Byte)],
   [null, new NamedValueSchema('trigger_count', Byte)],
-  [null, new NamedValueSchema('sign_count', Byte)],
-  ['npcs', new PointerSchema(new ArraySchema(NpcEntity, 'npc_count'))],
+  [null, new NamedValueSchema('interactable_count', Byte)],
+  ['objects', new PointerSchema(new ArraySchema(ObjectEntity, 'object_count'))],
   ['warps', new PointerSchema(new ArraySchema(WarpEntity, 'warp_count'))],
   ['triggers', new PointerSchema(new ArraySchema(TriggerEntity, 'trigger_count'))],
-  ['signs', new PointerSchema(new ArraySchema(SignEntity, 'sign_count'))],
+  ['interactables', new PointerSchema(new ArraySchema(InteractableEntity, 'interactable_count'))],
 ]);
 
 const ScriptTableEntry = new StructureSchema([

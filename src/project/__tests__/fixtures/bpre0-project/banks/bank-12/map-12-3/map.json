@@ -552,90 +552,93 @@
     "connections": [],
     "entities": [
       {
-        "type": "npc",
-        "data": {
-          "id": 1,
-          "sprite": 52,
-          "replacement": 0,
-          "x": 5,
-          "y": 4,
-          "height": 3,
-          "behavior": 2,
-          "boundary": {
-            "x": 1,
-            "y": 1
-          },
-          "property": 0,
-          "view_radius": 0,
-          "script": {
-            "symbol": "cinnabarIsland4Npc0Main",
-            "path": "scripts/npc/0.s"
-          },
-          "flag": 0
-        }
-      },
-      {
-        "type": "npc",
-        "data": {
-          "id": 2,
-          "sprite": 55,
-          "replacement": 0,
-          "x": 10,
-          "y": 3,
-          "height": 3,
-          "behavior": 2,
-          "boundary": {
-            "x": 1,
-            "y": 1
-          },
-          "property": 0,
-          "view_radius": 0,
-          "script": {
-            "symbol": "cinnabarIsland4Npc1Main",
-            "path": "scripts/npc/1.s"
-          },
-          "flag": 0
-        }
-      },
-      {
         "type": "warp",
+        "x": 7,
+        "y": 9,
+        "z": 3,
         "data": {
-          "x": 7,
-          "y": 9,
-          "height": 3,
           "target": {
-            "warp": 4,
+            "warp": "warp-4",
             "map": {
               "id": "map-12-1"
             }
           }
-        }
+        },
+        "id": "warp-0"
       },
       {
-        "type": "sign",
+        "type": "interactable",
+        "x": 6,
+        "y": 1,
+        "z": 0,
         "data": {
-          "x": 6,
-          "y": 1,
-          "height": 0,
           "type": "script",
           "script": {
-            "symbol": "cinnabarIsland4Sign0Main",
-            "path": "scripts/sign/0.s"
+            "symbol": "cinnabarIsland4Interactable0Main",
+            "path": "scripts/interactable/0.s"
           }
-        }
+        },
+        "id": "interactable-0"
       },
       {
-        "type": "sign",
+        "type": "interactable",
+        "x": 3,
+        "y": 1,
+        "z": 0,
         "data": {
-          "x": 3,
-          "y": 1,
-          "height": 0,
           "type": "script",
           "script": {
-            "symbol": "cinnabarIsland4Sign1Main",
-            "path": "scripts/sign/1.s"
+            "symbol": "cinnabarIsland4Interactable1Main",
+            "path": "scripts/interactable/1.s"
           }
-        }
+        },
+        "id": "interactable-1"
+      },
+      {
+        "type": "object",
+        "x": 5,
+        "y": 4,
+        "z": 3,
+        "data": {
+          "sprite": 52,
+          "replacement": 0,
+          "behavior": 2,
+          "boundary": {
+            "x": 1,
+            "y": 1
+          },
+          "property": 0,
+          "viewRadius": 0,
+          "script": {
+            "symbol": "cinnabarIsland4Object0Main",
+            "path": "scripts/object/0.s"
+          },
+          "flag": 0
+        },
+        "id": "object-1"
+      },
+      {
+        "type": "object",
+        "x": 10,
+        "y": 3,
+        "z": 3,
+        "data": {
+          "sprite": 55,
+          "replacement": 0,
+          "behavior": 2,
+          "boundary": {
+            "x": 1,
+            "y": 1
+          },
+          "property": 0,
+          "viewRadius": 0,
+          "script": {
+            "symbol": "cinnabarIsland4Object1Main",
+            "path": "scripts/object/1.s"
+          },
+          "flag": 0
+        },
+        "id": "object-2"
       }
     ]
   }

@@ -2015,152 +2015,156 @@
     "connections": [],
     "entities": [
       {
-        "type": "npc",
-        "data": {
-          "id": 1,
-          "sprite": 49,
-          "replacement": 0,
-          "x": 11,
-          "y": 14,
-          "height": 3,
-          "behavior": 8,
-          "boundary": {
-            "x": 1,
-            "y": 1
-          },
-          "property": 0,
-          "view_radius": 0,
-          "script": {
-            "symbol": "icefallCave3Npc0Main",
-            "path": "scripts/npc/0.s"
-          },
-          "flag": 141
-        }
-      },
-      {
-        "type": "npc",
-        "data": {
-          "id": 2,
-          "sprite": 49,
-          "replacement": 0,
-          "x": 13,
-          "y": 14,
-          "height": 3,
-          "behavior": 8,
-          "boundary": {
-            "x": 1,
-            "y": 1
-          },
-          "property": 0,
-          "view_radius": 0,
-          "script": {
-            "symbol": "icefallCave3Npc1Main",
-            "path": "scripts/npc/1.s"
-          },
-          "flag": 141
-        }
-      },
-      {
-        "type": "npc",
-        "data": {
-          "id": 3,
-          "sprite": 77,
-          "replacement": 0,
-          "x": 12,
-          "y": 16,
-          "height": 3,
-          "behavior": 7,
-          "boundary": {
-            "x": 1,
-            "y": 1
-          },
-          "property": 0,
-          "view_radius": 0,
-          "script": {
-            "symbol": "icefallCave3Npc2Main",
-            "path": "scripts/npc/2.s"
-          },
-          "flag": 139
-        }
-      },
-      {
-        "type": "npc",
-        "data": {
-          "id": 4,
-          "sprite": 49,
-          "replacement": 0,
-          "x": 10,
-          "y": 15,
-          "height": 3,
-          "behavior": 8,
-          "boundary": {
-            "x": 1,
-            "y": 1
-          },
-          "property": 0,
-          "view_radius": 0,
-          "script": {
-            "symbol": "icefallCave3Npc3Main",
-            "path": "scripts/npc/3.s"
-          },
-          "flag": 141
-        }
-      },
-      {
         "type": "warp",
+        "x": 12,
+        "y": 23,
+        "z": 0,
         "data": {
-          "x": 12,
-          "y": 23,
-          "height": 0,
           "target": {
-            "warp": 5,
+            "warp": "warp-5",
             "map": {
               "id": "map-1-111"
             }
           }
-        }
+        },
+        "id": "warp-0"
       },
       {
         "type": "trigger",
+        "x": 11,
+        "y": 18,
+        "z": 3,
         "data": {
-          "x": 11,
-          "y": 18,
-          "height": 3,
           "variable": 16512,
           "value": 0,
           "script": {
             "symbol": "icefallCave3Trigger0Main",
             "path": "scripts/trigger/0.s"
           }
-        }
+        },
+        "id": "trigger-0"
       },
       {
         "type": "trigger",
+        "x": 12,
+        "y": 18,
+        "z": 3,
         "data": {
-          "x": 12,
-          "y": 18,
-          "height": 3,
           "variable": 16512,
           "value": 0,
           "script": {
             "symbol": "icefallCave3Trigger1Main",
             "path": "scripts/trigger/1.s"
           }
-        }
+        },
+        "id": "trigger-1"
       },
       {
         "type": "trigger",
+        "x": 13,
+        "y": 18,
+        "z": 3,
         "data": {
-          "x": 13,
-          "y": 18,
-          "height": 3,
           "variable": 16512,
           "value": 0,
           "script": {
             "symbol": "icefallCave3Trigger2Main",
             "path": "scripts/trigger/2.s"
           }
-        }
+        },
+        "id": "trigger-2"
+      },
+      {
+        "type": "object",
+        "x": 11,
+        "y": 14,
+        "z": 3,
+        "data": {
+          "sprite": 49,
+          "replacement": 0,
+          "behavior": 8,
+          "boundary": {
+            "x": 1,
+            "y": 1
+          },
+          "property": 0,
+          "viewRadius": 0,
+          "script": {
+            "symbol": "icefallCave3Object0Main",
+            "path": "scripts/object/0.s"
+          },
+          "flag": 141
+        },
+        "id": "object-1"
+      },
+      {
+        "type": "object",
+        "x": 13,
+        "y": 14,
+        "z": 3,
+        "data": {
+          "sprite": 49,
+          "replacement": 0,
+          "behavior": 8,
+          "boundary": {
+            "x": 1,
+            "y": 1
+          },
+          "property": 0,
+          "viewRadius": 0,
+          "script": {
+            "symbol": "icefallCave3Object1Main",
+            "path": "scripts/object/1.s"
+          },
+          "flag": 141
+        },
+        "id": "object-2"
+      },
+      {
+        "type": "object",
+        "x": 12,
+        "y": 16,
+        "z": 3,
+        "data": {
+          "sprite": 77,
+          "replacement": 0,
+          "behavior": 7,
+          "boundary": {
+            "x": 1,
+            "y": 1
+          },
+          "property": 0,
+          "viewRadius": 0,
+          "script": {
+            "symbol": "icefallCave3Object2Main",
+            "path": "scripts/object/2.s"
+          },
+          "flag": 139
+        },
+        "id": "object-3"
+      },
+      {
+        "type": "object",
+        "x": 10,
+        "y": 15,
+        "z": 3,
+        "data": {
+          "sprite": 49,
+          "replacement": 0,
+          "behavior": 8,
+          "boundary": {
+            "x": 1,
+            "y": 1
+          },
+          "property": 0,
+          "viewRadius": 0,
+          "script": {
+            "symbol": "icefallCave3Object3Main",
+            "path": "scripts/object/3.s"
+          },
+          "flag": 141
+        },
+        "id": "object-4"
       }
     ]
   }

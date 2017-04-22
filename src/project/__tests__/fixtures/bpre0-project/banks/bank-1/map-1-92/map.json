@@ -1497,446 +1497,463 @@
     "connections": [],
     "entities": [
       {
-        "type": "npc",
-        "data": {
-          "id": 1,
-          "sprite": 58,
-          "replacement": 0,
-          "x": 11,
-          "y": 4,
-          "height": 3,
-          "behavior": 1,
-          "boundary": {
-            "x": 1,
-            "y": 1
-          },
-          "property": 1,
-          "view_radius": 2,
-          "script": {
-            "symbol": "pokひmonTower4Npc0Main",
-            "path": "scripts/npc/0.s"
-          },
-          "flag": 0
-        }
-      },
-      {
-        "type": "npc",
-        "data": {
-          "id": 2,
-          "sprite": 58,
-          "replacement": 0,
-          "x": 19,
-          "y": 7,
-          "height": 3,
-          "behavior": 9,
-          "boundary": {
-            "x": 1,
-            "y": 1
-          },
-          "property": 1,
-          "view_radius": 3,
-          "script": {
-            "symbol": "pokひmonTower4Npc1Main",
-            "path": "scripts/npc/1.s"
-          },
-          "flag": 0
-        }
-      },
-      {
-        "type": "npc",
-        "data": {
-          "id": 3,
-          "sprite": 58,
-          "replacement": 0,
-          "x": 7,
-          "y": 12,
-          "height": 3,
-          "behavior": 10,
-          "boundary": {
-            "x": 1,
-            "y": 1
-          },
-          "property": 1,
-          "view_radius": 2,
-          "script": {
-            "symbol": "pokひmonTower4Npc2Main",
-            "path": "scripts/npc/2.s"
-          },
-          "flag": 0
-        }
-      },
-      {
-        "type": "npc",
-        "data": {
-          "id": 4,
-          "sprite": 58,
-          "replacement": 0,
-          "x": 11,
-          "y": 16,
-          "height": 3,
-          "behavior": 1,
-          "boundary": {
-            "x": 1,
-            "y": 1
-          },
-          "property": 1,
-          "view_radius": 2,
-          "script": {
-            "symbol": "pokひmonTower4Npc3Main",
-            "path": "scripts/npc/3.s"
-          },
-          "flag": 0
-        }
-      },
-      {
-        "type": "npc",
-        "data": {
-          "id": 5,
-          "sprite": 58,
-          "replacement": 0,
-          "x": 12,
-          "y": 8,
-          "height": 3,
-          "behavior": 10,
-          "boundary": {
-            "x": 1,
-            "y": 1
-          },
-          "property": 0,
-          "view_radius": 0,
-          "script": {
-            "symbol": "pokひmonTower4Npc4Main",
-            "path": "scripts/npc/4.s"
-          },
-          "flag": 0
-        }
-      },
-      {
-        "type": "npc",
-        "data": {
-          "id": 6,
-          "sprite": 92,
-          "replacement": 0,
-          "x": 6,
-          "y": 16,
-          "height": 3,
-          "behavior": 8,
-          "boundary": {
-            "x": 1,
-            "y": 1
-          },
-          "property": 0,
-          "view_radius": 0,
-          "script": {
-            "symbol": "pokひmonTower4Npc5Main",
-            "path": "scripts/npc/5.s"
-          },
-          "flag": 379
-        }
-      },
-      {
-        "type": "npc",
-        "data": {
-          "id": 7,
-          "sprite": 92,
-          "replacement": 0,
-          "x": 11,
-          "y": 9,
-          "height": 3,
-          "behavior": 8,
-          "boundary": {
-            "x": 1,
-            "y": 1
-          },
-          "property": 0,
-          "view_radius": 0,
-          "script": {
-            "symbol": "pokひmonTower4Npc6Main",
-            "path": "scripts/npc/6.s"
-          },
-          "flag": 464
-        }
-      },
-      {
         "type": "warp",
+        "x": 4,
+        "y": 10,
+        "z": 3,
         "data": {
-          "x": 4,
-          "y": 10,
-          "height": 3,
           "target": {
-            "warp": 0,
+            "warp": "warp-0",
             "map": {
               "id": "map-1-91"
             }
           }
-        }
+        },
+        "id": "warp-0"
       },
       {
         "type": "warp",
+        "x": 18,
+        "y": 10,
+        "z": 3,
         "data": {
-          "x": 18,
-          "y": 10,
-          "height": 3,
           "target": {
-            "warp": 1,
+            "warp": "warp-1",
             "map": {
               "id": "map-1-93"
             }
           }
-        }
+        },
+        "id": "warp-1"
       },
       {
-        "type": "sign",
+        "type": "interactable",
+        "x": 7,
+        "y": 3,
+        "z": 3,
         "data": {
-          "x": 7,
-          "y": 3,
-          "height": 3,
-          "type": "hidden_item2",
+          "type": "hiddenItem",
           "item": 104,
-          "id": 14,
-          "data": {
-            "amount": 1,
-            "exact_required": 0
-          }
-        }
+          "hiddenItemId": 14,
+          "quantity": 1
+        },
+        "id": "interactable-0"
       },
       {
         "type": "trigger",
+        "x": 10,
+        "y": 8,
+        "z": 3,
         "data": {
-          "x": 10,
-          "y": 8,
-          "height": 3,
           "variable": 16385,
           "value": 0,
           "script": {
             "symbol": "pokひmonTower4Trigger0Main",
             "path": "scripts/trigger/0.s"
           }
-        }
+        },
+        "id": "trigger-0"
       },
       {
         "type": "trigger",
+        "x": 11,
+        "y": 8,
+        "z": 3,
         "data": {
-          "x": 11,
-          "y": 8,
-          "height": 3,
           "variable": 16385,
           "value": 0,
           "script": {
             "symbol": "pokひmonTower4Trigger1Main",
             "path": "scripts/trigger/1.s"
           }
-        }
+        },
+        "id": "trigger-1"
       },
       {
         "type": "trigger",
+        "x": 12,
+        "y": 8,
+        "z": 3,
         "data": {
-          "x": 12,
-          "y": 8,
-          "height": 3,
           "variable": 16385,
           "value": 0,
           "script": {
             "symbol": "pokひmonTower4Trigger2Main",
             "path": "scripts/trigger/2.s"
           }
-        }
+        },
+        "id": "trigger-2"
       },
       {
         "type": "trigger",
+        "x": 10,
+        "y": 9,
+        "z": 3,
         "data": {
-          "x": 10,
-          "y": 9,
-          "height": 3,
           "variable": 16385,
           "value": 0,
           "script": {
             "symbol": "pokひmonTower4Trigger3Main",
             "path": "scripts/trigger/3.s"
           }
-        }
+        },
+        "id": "trigger-3"
       },
       {
         "type": "trigger",
+        "x": 9,
+        "y": 8,
+        "z": 3,
         "data": {
-          "x": 9,
-          "y": 8,
-          "height": 3,
           "variable": 16385,
           "value": 1,
           "script": {
             "symbol": "pokひmonTower4Trigger4Main",
             "path": "scripts/trigger/4.s"
           }
-        }
+        },
+        "id": "trigger-4"
       },
       {
         "type": "trigger",
+        "x": 12,
+        "y": 9,
+        "z": 3,
         "data": {
-          "x": 12,
-          "y": 9,
-          "height": 3,
           "variable": 16385,
           "value": 0,
           "script": {
             "symbol": "pokひmonTower4Trigger5Main",
             "path": "scripts/trigger/5.s"
           }
-        }
+        },
+        "id": "trigger-5"
       },
       {
         "type": "trigger",
+        "x": 10,
+        "y": 10,
+        "z": 3,
         "data": {
-          "x": 10,
-          "y": 10,
-          "height": 3,
           "variable": 16385,
           "value": 0,
           "script": {
             "symbol": "pokひmonTower4Trigger6Main",
             "path": "scripts/trigger/6.s"
           }
-        }
+        },
+        "id": "trigger-6"
       },
       {
         "type": "trigger",
+        "x": 11,
+        "y": 10,
+        "z": 3,
         "data": {
-          "x": 11,
-          "y": 10,
-          "height": 3,
           "variable": 16385,
           "value": 0,
           "script": {
             "symbol": "pokひmonTower4Trigger7Main",
             "path": "scripts/trigger/7.s"
           }
-        }
+        },
+        "id": "trigger-7"
       },
       {
         "type": "trigger",
+        "x": 12,
+        "y": 10,
+        "z": 0,
         "data": {
-          "x": 12,
-          "y": 10,
-          "height": 0,
           "variable": 16385,
           "value": 0,
           "script": {
             "symbol": "pokひmonTower4Trigger8Main",
             "path": "scripts/trigger/8.s"
           }
-        }
+        },
+        "id": "trigger-8"
       },
       {
         "type": "trigger",
+        "x": 9,
+        "y": 9,
+        "z": 3,
         "data": {
-          "x": 9,
-          "y": 9,
-          "height": 3,
           "variable": 16385,
           "value": 1,
           "script": {
             "symbol": "pokひmonTower4Trigger9Main",
             "path": "scripts/trigger/9.s"
           }
-        }
+        },
+        "id": "trigger-9"
       },
       {
         "type": "trigger",
+        "x": 9,
+        "y": 10,
+        "z": 3,
         "data": {
-          "x": 9,
-          "y": 10,
-          "height": 3,
           "variable": 16385,
           "value": 1,
           "script": {
             "symbol": "pokひmonTower4Trigger10Main",
             "path": "scripts/trigger/10.s"
           }
-        }
+        },
+        "id": "trigger-10"
       },
       {
         "type": "trigger",
+        "x": 10,
+        "y": 11,
+        "z": 3,
         "data": {
-          "x": 10,
-          "y": 11,
-          "height": 3,
           "variable": 16385,
           "value": 1,
           "script": {
             "symbol": "pokひmonTower4Trigger11Main",
             "path": "scripts/trigger/11.s"
           }
-        }
+        },
+        "id": "trigger-11"
       },
       {
         "type": "trigger",
+        "x": 11,
+        "y": 11,
+        "z": 3,
         "data": {
-          "x": 11,
-          "y": 11,
-          "height": 3,
           "variable": 16385,
           "value": 1,
           "script": {
             "symbol": "pokひmonTower4Trigger12Main",
             "path": "scripts/trigger/12.s"
           }
-        }
+        },
+        "id": "trigger-12"
       },
       {
         "type": "trigger",
+        "x": 12,
+        "y": 11,
+        "z": 0,
         "data": {
-          "x": 12,
-          "y": 11,
-          "height": 0,
           "variable": 16385,
           "value": 1,
           "script": {
             "symbol": "pokひmonTower4Trigger13Main",
             "path": "scripts/trigger/13.s"
           }
-        }
+        },
+        "id": "trigger-13"
       },
       {
         "type": "trigger",
+        "x": 13,
+        "y": 8,
+        "z": 0,
         "data": {
-          "x": 13,
-          "y": 8,
-          "height": 0,
           "variable": 16385,
           "value": 1,
           "script": {
             "symbol": "pokひmonTower4Trigger14Main",
             "path": "scripts/trigger/14.s"
           }
-        }
+        },
+        "id": "trigger-14"
       },
       {
         "type": "trigger",
+        "x": 13,
+        "y": 9,
+        "z": 0,
         "data": {
-          "x": 13,
-          "y": 9,
-          "height": 0,
           "variable": 16385,
           "value": 1,
           "script": {
             "symbol": "pokひmonTower4Trigger15Main",
             "path": "scripts/trigger/15.s"
           }
-        }
+        },
+        "id": "trigger-15"
       },
       {
         "type": "trigger",
+        "x": 13,
+        "y": 10,
+        "z": 0,
         "data": {
-          "x": 13,
-          "y": 10,
-          "height": 0,
           "variable": 16385,
           "value": 1,
           "script": {
             "symbol": "pokひmonTower4Trigger16Main",
             "path": "scripts/trigger/16.s"
           }
-        }
+        },
+        "id": "trigger-16"
+      },
+      {
+        "type": "object",
+        "x": 11,
+        "y": 4,
+        "z": 3,
+        "data": {
+          "sprite": 58,
+          "replacement": 0,
+          "behavior": 1,
+          "boundary": {
+            "x": 1,
+            "y": 1
+          },
+          "property": 1,
+          "viewRadius": 2,
+          "script": {
+            "symbol": "pokひmonTower4Object0Main",
+            "path": "scripts/object/0.s"
+          },
+          "flag": 0
+        },
+        "id": "object-1"
+      },
+      {
+        "type": "object",
+        "x": 19,
+        "y": 7,
+        "z": 3,
+        "data": {
+          "sprite": 58,
+          "replacement": 0,
+          "behavior": 9,
+          "boundary": {
+            "x": 1,
+            "y": 1
+          },
+          "property": 1,
+          "viewRadius": 3,
+          "script": {
+            "symbol": "pokひmonTower4Object1Main",
+            "path": "scripts/object/1.s"
+          },
+          "flag": 0
+        },
+        "id": "object-2"
+      },
+      {
+        "type": "object",
+        "x": 7,
+        "y": 12,
+        "z": 3,
+        "data": {
+          "sprite": 58,
+          "replacement": 0,
+          "behavior": 10,
+          "boundary": {
+            "x": 1,
+            "y": 1
+          },
+          "property": 1,
+          "viewRadius": 2,
+          "script": {
+            "symbol": "pokひmonTower4Object2Main",
+            "path": "scripts/object/2.s"
+          },
+          "flag": 0
+        },
+        "id": "object-3"
+      },
+      {
+        "type": "object",
+        "x": 11,
+        "y": 16,
+        "z": 3,
+        "data": {
+          "sprite": 58,
+          "replacement": 0,
+          "behavior": 1,
+          "boundary": {
+            "x": 1,
+            "y": 1
+          },
+          "property": 1,
+          "viewRadius": 2,
+          "script": {
+            "symbol": "pokひmonTower4Object3Main",
+            "path": "scripts/object/3.s"
+          },
+          "flag": 0
+        },
+        "id": "object-4"
+      },
+      {
+        "type": "object",
+        "x": 12,
+        "y": 8,
+        "z": 3,
+        "data": {
+          "sprite": 58,
+          "replacement": 0,
+          "behavior": 10,
+          "boundary": {
+            "x": 1,
+            "y": 1
+          },
+          "property": 0,
+          "viewRadius": 0,
+          "script": {
+            "symbol": "pokひmonTower4Object4Main",
+            "path": "scripts/object/4.s"
+          },
+          "flag": 0
+        },
+        "id": "object-5"
+      },
+      {
+        "type": "object",
+        "x": 6,
+        "y": 16,
+        "z": 3,
+        "data": {
+          "sprite": 92,
+          "replacement": 0,
+          "behavior": 8,
+          "boundary": {
+            "x": 1,
+            "y": 1
+          },
+          "property": 0,
+          "viewRadius": 0,
+          "script": {
+            "symbol": "pokひmonTower4Object5Main",
+            "path": "scripts/object/5.s"
+          },
+          "flag": 379
+        },
+        "id": "object-6"
+      },
+      {
+        "type": "object",
+        "x": 11,
+        "y": 9,
+        "z": 3,
+        "data": {
+          "sprite": 92,
+          "replacement": 0,
+          "behavior": 8,
+          "boundary": {
+            "x": 1,
+            "y": 1
+          },
+          "property": 0,
+          "viewRadius": 0,
+          "script": {
+            "symbol": "pokひmonTower4Object6Main",
+            "path": "scripts/object/6.s"
+          },
+          "flag": 464
+        },
+        "id": "object-7"
       }
     ]
   }

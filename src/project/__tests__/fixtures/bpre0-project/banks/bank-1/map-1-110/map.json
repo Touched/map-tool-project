@@ -3306,45 +3306,48 @@
     "entities": [
       {
         "type": "warp",
+        "x": 17,
+        "y": 30,
+        "z": 3,
         "data": {
-          "x": 17,
-          "y": 30,
-          "height": 3,
           "target": {
-            "warp": 3,
+            "warp": "warp-3",
             "map": {
               "id": "map-3-15"
             }
           }
-        }
+        },
+        "id": "warp-0"
       },
       {
         "type": "warp",
+        "x": 10,
+        "y": 21,
+        "z": 3,
         "data": {
-          "x": 10,
-          "y": 21,
-          "height": 3,
           "target": {
-            "warp": 0,
+            "warp": "warp-0",
             "map": {
               "id": "map-1-111"
             }
           }
-        }
+        },
+        "id": "warp-1"
       },
       {
         "type": "warp",
+        "x": 9,
+        "y": 7,
+        "z": 3,
         "data": {
-          "x": 9,
-          "y": 7,
-          "height": 3,
           "target": {
-            "warp": 1,
+            "warp": "warp-1",
             "map": {
               "id": "map-1-111"
             }
           }
-        }
+        },
+        "id": "warp-2"
       }
     ]
   }

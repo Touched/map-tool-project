@@ -2946,47 +2946,45 @@
     "entities": [
       {
         "type": "warp",
+        "x": 12,
+        "y": 16,
+        "z": 0,
         "data": {
-          "x": 12,
-          "y": 16,
-          "height": 0,
           "target": {
-            "warp": 0,
+            "warp": "warp-0",
             "map": {
               "id": "map-40-0"
             }
           }
-        }
+        },
+        "id": "warp-0"
       },
       {
-        "type": "sign",
+        "type": "interactable",
+        "x": 16,
+        "y": 28,
+        "z": 3,
         "data": {
-          "x": 16,
-          "y": 28,
-          "height": 3,
-          "type": "hidden_item2",
+          "type": "hiddenItem",
           "item": 71,
-          "id": 161,
-          "data": {
-            "amount": 1,
-            "exact_required": 1
-          }
-        }
+          "hiddenItemId": 161,
+          "quantity": 1,
+          "itemfinderOnly": true
+        },
+        "id": "interactable-0"
       },
       {
-        "type": "sign",
+        "type": "interactable",
+        "x": 15,
+        "y": 13,
+        "z": 3,
         "data": {
-          "x": 15,
-          "y": 13,
-          "height": 3,
-          "type": "hidden_item2",
+          "type": "hiddenItem",
           "item": 68,
-          "id": 111,
-          "data": {
-            "amount": 1,
-            "exact_required": 0
-          }
-        }
+          "hiddenItemId": 111,
+          "quantity": 1
+        },
+        "id": "interactable-1"
       }
     ]
   }

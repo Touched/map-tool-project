@@ -12,99 +12,92 @@
     "linked": {
       "id": "map-1-18"
     },
-    "blocksets": {
-      "primary": {
-        "id": "blockset-3"
-      },
-      "secondary": {
-        "id": "blockset-7"
-      }
-    },
     "scripts": [],
     "connections": [],
     "entities": [
       {
-        "type": "npc",
-        "data": {
-          "id": 1,
-          "sprite": 19,
-          "replacement": 0,
-          "x": 3,
-          "y": 5,
-          "height": 3,
-          "behavior": 8,
-          "boundary": {
-            "x": 1,
-            "y": 1
-          },
-          "property": 0,
-          "view_radius": 0,
-          "script": {
-            "symbol": "s。s。Anne24Npc0Main",
-            "path": "scripts/npc/0.s"
-          },
-          "flag": 0
-        }
-      },
-      {
-        "type": "npc",
-        "data": {
-          "id": 2,
-          "sprite": 134,
-          "replacement": 0,
-          "x": 2,
-          "y": 5,
-          "height": 3,
-          "behavior": 8,
-          "boundary": {
-            "x": 1,
-            "y": 1
-          },
-          "property": 0,
-          "view_radius": 0,
-          "script": {
-            "symbol": "s。s。Anne24Npc1Main",
-            "path": "scripts/npc/1.s"
-          },
-          "flag": 0
-        }
-      },
-      {
-        "type": "npc",
-        "data": {
-          "id": 3,
-          "sprite": 92,
-          "replacement": 0,
-          "x": 2,
-          "y": 2,
-          "height": 0,
-          "behavior": 8,
-          "boundary": {
-            "x": 1,
-            "y": 1
-          },
-          "property": 0,
-          "view_radius": 0,
-          "script": {
-            "symbol": "s。s。Anne24Npc2Main",
-            "path": "scripts/npc/2.s"
-          },
-          "flag": 361
-        }
-      },
-      {
         "type": "warp",
+        "x": 4,
+        "y": 7,
+        "z": 3,
         "data": {
-          "x": 4,
-          "y": 7,
-          "height": 3,
           "target": {
-            "warp": 5,
+            "warp": "warp-5",
             "map": {
               "id": "map-1-8"
             }
           }
-        }
+        },
+        "id": "warp-0"
+      },
+      {
+        "type": "object",
+        "x": 3,
+        "y": 5,
+        "z": 3,
+        "data": {
+          "sprite": 19,
+          "replacement": 0,
+          "behavior": 8,
+          "boundary": {
+            "x": 1,
+            "y": 1
+          },
+          "property": 0,
+          "viewRadius": 0,
+          "script": {
+            "symbol": "s。s。Anne24Object0Main",
+            "path": "scripts/object/0.s"
+          },
+          "flag": 0
+        },
+        "id": "object-1"
+      },
+      {
+        "type": "object",
+        "x": 2,
+        "y": 5,
+        "z": 3,
+        "data": {
+          "sprite": 134,
+          "replacement": 0,
+          "behavior": 8,
+          "boundary": {
+            "x": 1,
+            "y": 1
+          },
+          "property": 0,
+          "viewRadius": 0,
+          "script": {
+            "symbol": "s。s。Anne24Object1Main",
+            "path": "scripts/object/1.s"
+          },
+          "flag": 0
+        },
+        "id": "object-2"
+      },
+      {
+        "type": "object",
+        "x": 2,
+        "y": 2,
+        "z": 0,
+        "data": {
+          "sprite": 92,
+          "replacement": 0,
+          "behavior": 8,
+          "boundary": {
+            "x": 1,
+            "y": 1
+          },
+          "property": 0,
+          "viewRadius": 0,
+          "script": {
+            "symbol": "s。s。Anne24Object2Main",
+            "path": "scripts/object/2.s"
+          },
+          "flag": 361
+        },
+        "id": "object-3"
       }
     ]
   }

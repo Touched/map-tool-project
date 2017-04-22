@@ -402,41 +402,42 @@
     "connections": [],
     "entities": [
       {
-        "type": "npc",
+        "type": "warp",
+        "x": 3,
+        "y": 1,
+        "z": 0,
         "data": {
-          "id": 1,
+          "target": {
+            "warp": "warp-1",
+            "map": {
+              "id": "map-31-0"
+            }
+          }
+        },
+        "id": "warp-0"
+      },
+      {
+        "type": "object",
+        "x": 6,
+        "y": 5,
+        "z": 0,
+        "data": {
           "sprite": 240,
           "replacement": 0,
-          "x": 6,
-          "y": 5,
-          "height": 0,
           "behavior": 9,
           "boundary": {
             "x": 1,
             "y": 1
           },
           "property": 0,
-          "view_radius": 0,
+          "viewRadius": 0,
           "script": {
-            "symbol": "sevenIsland2Npc0Main",
-            "path": "scripts/npc/0.s"
+            "symbol": "sevenIsland2Object0Main",
+            "path": "scripts/object/0.s"
           },
           "flag": 0
-        }
-      },
-      {
-        "type": "warp",
-        "data": {
-          "x": 3,
-          "y": 1,
-          "height": 0,
-          "target": {
-            "warp": 1,
-            "map": {
-              "id": "map-31-0"
-            }
-          }
-        }
+        },
+        "id": "object-1"
       }
     ]
   }

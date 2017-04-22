@@ -2814,283 +2814,290 @@
     "connections": [],
     "entities": [
       {
-        "type": "npc",
+        "type": "warp",
+        "x": 8,
+        "y": 14,
+        "z": 4,
         "data": {
-          "id": 1,
+          "target": {
+            "warp": "warp-0",
+            "map": {
+              "id": "map-1-85"
+            }
+          }
+        },
+        "id": "warp-0"
+      },
+      {
+        "type": "warp",
+        "x": 31,
+        "y": 4,
+        "z": 3,
+        "data": {
+          "target": {
+            "warp": "warp-1",
+            "map": {
+              "id": "map-1-85"
+            }
+          }
+        },
+        "id": "warp-1"
+      },
+      {
+        "type": "warp",
+        "x": 31,
+        "y": 16,
+        "z": 4,
+        "data": {
+          "target": {
+            "warp": "warp-2",
+            "map": {
+              "id": "map-1-85"
+            }
+          }
+        },
+        "id": "warp-2"
+      },
+      {
+        "type": "warp",
+        "x": 12,
+        "y": 9,
+        "z": 3,
+        "data": {
+          "target": {
+            "warp": "warp-0",
+            "map": {
+              "id": "map-1-87"
+            }
+          }
+        },
+        "id": "warp-3"
+      },
+      {
+        "type": "warp",
+        "x": 29,
+        "y": 5,
+        "z": 3,
+        "data": {
+          "target": {
+            "warp": "warp-1",
+            "map": {
+              "id": "map-1-87"
+            }
+          }
+        },
+        "id": "warp-4"
+      },
+      {
+        "type": "warp",
+        "x": 23,
+        "y": 9,
+        "z": 1,
+        "data": {
+          "target": {
+            "warp": "warp-7",
+            "map": {
+              "id": "map-1-85"
+            }
+          }
+        },
+        "id": "warp-5"
+      },
+      {
+        "type": "warp",
+        "x": 24,
+        "y": 9,
+        "z": 1,
+        "data": {
+          "target": {
+            "warp": "warp-8",
+            "map": {
+              "id": "map-1-85"
+            }
+          }
+        },
+        "id": "warp-6"
+      },
+      {
+        "type": "warp",
+        "x": 6,
+        "y": 18,
+        "z": 3,
+        "data": {
+          "target": {
+            "warp": "warp-2",
+            "map": {
+              "id": "map-1-87"
+            }
+          }
+        },
+        "id": "warp-7"
+      },
+      {
+        "type": "warp",
+        "x": 9,
+        "y": 18,
+        "z": 3,
+        "data": {
+          "target": {
+            "warp": "warp-3",
+            "map": {
+              "id": "map-1-87"
+            }
+          }
+        },
+        "id": "warp-8"
+      },
+      {
+        "type": "interactable",
+        "x": 5,
+        "y": 12,
+        "z": 0,
+        "data": {
+          "type": "hiddenItem",
+          "item": 110,
+          "hiddenItemId": 29,
+          "quantity": 1
+        },
+        "id": "interactable-0"
+      },
+      {
+        "type": "object",
+        "x": 23,
+        "y": 8,
+        "z": 1,
+        "data": {
           "sprite": 97,
           "replacement": 0,
-          "x": 23,
-          "y": 8,
-          "height": 1,
           "behavior": 8,
           "boundary": {
             "x": 1,
             "y": 1
           },
           "property": 0,
-          "view_radius": 0,
+          "viewRadius": 0,
           "script": {
-            "symbol": "seafoamIslands3Npc0Main",
-            "path": "scripts/npc/0.s"
+            "symbol": "seafoamIslands3Object0Main",
+            "path": "scripts/object/0.s"
           },
           "flag": 70
-        }
+        },
+        "id": "object-1"
       },
       {
-        "type": "npc",
+        "type": "object",
+        "x": 24,
+        "y": 8,
+        "z": 1,
         "data": {
-          "id": 2,
           "sprite": 97,
           "replacement": 0,
-          "x": 24,
-          "y": 8,
-          "height": 1,
           "behavior": 8,
           "boundary": {
             "x": 1,
             "y": 1
           },
           "property": 0,
-          "view_radius": 0,
+          "viewRadius": 0,
           "script": {
-            "symbol": "seafoamIslands3Npc1Main",
-            "path": "scripts/npc/1.s"
+            "symbol": "seafoamIslands3Object1Main",
+            "path": "scripts/object/1.s"
           },
           "flag": 71
-        }
+        },
+        "id": "object-2"
       },
       {
-        "type": "npc",
+        "type": "object",
+        "x": 12,
+        "y": 16,
+        "z": 3,
         "data": {
-          "id": 3,
           "sprite": 97,
           "replacement": 0,
-          "x": 12,
-          "y": 16,
-          "height": 3,
           "behavior": 8,
           "boundary": {
             "x": 0,
             "y": 0
           },
           "property": 77,
-          "view_radius": 0,
+          "viewRadius": 0,
           "script": {
-            "symbol": "seafoamIslands3Npc2Main",
-            "path": "scripts/npc/2.s"
+            "symbol": "seafoamIslands3Object2Main",
+            "path": "scripts/object/2.s"
           },
           "flag": 74
-        }
+        },
+        "id": "object-3"
       },
       {
-        "type": "npc",
+        "type": "object",
+        "x": 13,
+        "y": 16,
+        "z": 3,
         "data": {
-          "id": 4,
           "sprite": 97,
           "replacement": 0,
-          "x": 13,
-          "y": 16,
-          "height": 3,
           "behavior": 8,
           "boundary": {
             "x": 0,
             "y": 0
           },
           "property": 0,
-          "view_radius": 0,
+          "viewRadius": 0,
           "script": {
-            "symbol": "seafoamIslands3Npc3Main",
-            "path": "scripts/npc/3.s"
+            "symbol": "seafoamIslands3Object3Main",
+            "path": "scripts/object/3.s"
           },
           "flag": 75
-        }
+        },
+        "id": "object-4"
       },
       {
-        "type": "npc",
+        "type": "object",
+        "x": 9,
+        "y": 16,
+        "z": 3,
         "data": {
-          "id": 5,
           "sprite": 97,
           "replacement": 0,
-          "x": 9,
-          "y": 16,
-          "height": 3,
           "behavior": 8,
           "boundary": {
             "x": 0,
             "y": 0
           },
           "property": 0,
-          "view_radius": 0,
+          "viewRadius": 0,
           "script": {
-            "symbol": "seafoamIslands3Npc4Main",
-            "path": "scripts/npc/4.s"
+            "symbol": "seafoamIslands3Object4Main",
+            "path": "scripts/object/4.s"
           },
           "flag": 73
-        }
+        },
+        "id": "object-5"
       },
       {
-        "type": "npc",
+        "type": "object",
+        "x": 6,
+        "y": 17,
+        "z": 3,
         "data": {
-          "id": 6,
           "sprite": 97,
           "replacement": 0,
-          "x": 6,
-          "y": 17,
-          "height": 3,
           "behavior": 8,
           "boundary": {
             "x": 0,
             "y": 0
           },
           "property": 76,
-          "view_radius": 0,
+          "viewRadius": 0,
           "script": {
-            "symbol": "seafoamIslands3Npc5Main",
-            "path": "scripts/npc/5.s"
+            "symbol": "seafoamIslands3Object5Main",
+            "path": "scripts/object/5.s"
           },
           "flag": 72
-        }
-      },
-      {
-        "type": "warp",
-        "data": {
-          "x": 8,
-          "y": 14,
-          "height": 4,
-          "target": {
-            "warp": 0,
-            "map": {
-              "id": "map-1-85"
-            }
-          }
-        }
-      },
-      {
-        "type": "warp",
-        "data": {
-          "x": 31,
-          "y": 4,
-          "height": 3,
-          "target": {
-            "warp": 1,
-            "map": {
-              "id": "map-1-85"
-            }
-          }
-        }
-      },
-      {
-        "type": "warp",
-        "data": {
-          "x": 31,
-          "y": 16,
-          "height": 4,
-          "target": {
-            "warp": 2,
-            "map": {
-              "id": "map-1-85"
-            }
-          }
-        }
-      },
-      {
-        "type": "warp",
-        "data": {
-          "x": 12,
-          "y": 9,
-          "height": 3,
-          "target": {
-            "warp": 0,
-            "map": {
-              "id": "map-1-87"
-            }
-          }
-        }
-      },
-      {
-        "type": "warp",
-        "data": {
-          "x": 29,
-          "y": 5,
-          "height": 3,
-          "target": {
-            "warp": 1,
-            "map": {
-              "id": "map-1-87"
-            }
-          }
-        }
-      },
-      {
-        "type": "warp",
-        "data": {
-          "x": 23,
-          "y": 9,
-          "height": 1,
-          "target": {
-            "warp": 7,
-            "map": {
-              "id": "map-1-85"
-            }
-          }
-        }
-      },
-      {
-        "type": "warp",
-        "data": {
-          "x": 24,
-          "y": 9,
-          "height": 1,
-          "target": {
-            "warp": 8,
-            "map": {
-              "id": "map-1-85"
-            }
-          }
-        }
-      },
-      {
-        "type": "warp",
-        "data": {
-          "x": 6,
-          "y": 18,
-          "height": 3,
-          "target": {
-            "warp": 2,
-            "map": {
-              "id": "map-1-87"
-            }
-          }
-        }
-      },
-      {
-        "type": "warp",
-        "data": {
-          "x": 9,
-          "y": 18,
-          "height": 3,
-          "target": {
-            "warp": 3,
-            "map": {
-              "id": "map-1-87"
-            }
-          }
-        }
-      },
-      {
-        "type": "sign",
-        "data": {
-          "x": 5,
-          "y": 12,
-          "height": 0,
-          "type": "hidden_item2",
-          "item": 110,
-          "id": 29,
-          "data": {
-            "amount": 1,
-            "exact_required": 0
-          }
-        }
+        },
+        "id": "object-6"
       }
     ]
   }

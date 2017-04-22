@@ -2945,170 +2945,154 @@
     ],
     "entities": [
       {
-        "type": "npc",
+        "type": "interactable",
+        "x": 8,
+        "y": 20,
+        "z": 3,
         "data": {
-          "id": 1,
+          "type": "hiddenItem",
+          "item": 108,
+          "hiddenItemId": 103,
+          "quantity": 1
+        },
+        "id": "interactable-0"
+      },
+      {
+        "type": "interactable",
+        "x": 13,
+        "y": 27,
+        "z": 3,
+        "data": {
+          "type": "hiddenItem",
+          "item": 108,
+          "hiddenItemId": 104,
+          "quantity": 1
+        },
+        "id": "interactable-1"
+      },
+      {
+        "type": "interactable",
+        "x": 11,
+        "y": 31,
+        "z": 3,
+        "data": {
+          "type": "hiddenItem",
+          "item": 106,
+          "hiddenItemId": 105,
+          "quantity": 1
+        },
+        "id": "interactable-2"
+      },
+      {
+        "type": "interactable",
+        "x": 9,
+        "y": 34,
+        "z": 3,
+        "data": {
+          "type": "hiddenItem",
+          "item": 106,
+          "hiddenItemId": 106,
+          "quantity": 1
+        },
+        "id": "interactable-3"
+      },
+      {
+        "type": "interactable",
+        "x": 15,
+        "y": 22,
+        "z": 3,
+        "data": {
+          "type": "hiddenItem",
+          "item": 2,
+          "hiddenItemId": 107,
+          "quantity": 1
+        },
+        "id": "interactable-4"
+      },
+      {
+        "type": "interactable",
+        "x": 16,
+        "y": 33,
+        "z": 3,
+        "data": {
+          "type": "hiddenItem",
+          "item": 2,
+          "hiddenItemId": 108,
+          "quantity": 1
+        },
+        "id": "interactable-5"
+      },
+      {
+        "type": "interactable",
+        "x": 15,
+        "y": 29,
+        "z": 3,
+        "data": {
+          "type": "hiddenItem",
+          "item": 109,
+          "hiddenItemId": 109,
+          "quantity": 1
+        },
+        "id": "interactable-6"
+      },
+      {
+        "type": "interactable",
+        "x": 8,
+        "y": 27,
+        "z": 3,
+        "data": {
+          "type": "hiddenItem",
+          "item": 107,
+          "hiddenItemId": 110,
+          "quantity": 1
+        },
+        "id": "interactable-7"
+      },
+      {
+        "type": "object",
+        "x": 8,
+        "y": 11,
+        "z": 1,
+        "data": {
           "sprite": 44,
           "replacement": 0,
-          "x": 8,
-          "y": 11,
-          "height": 1,
           "behavior": 2,
           "boundary": {
             "x": 2,
             "y": 1
           },
           "property": 1,
-          "view_radius": 1,
+          "viewRadius": 1,
           "script": {
-            "symbol": "treasureBeachNpc0Main",
-            "path": "scripts/npc/0.s"
+            "symbol": "treasureBeachObject0Main",
+            "path": "scripts/object/0.s"
           },
           "flag": 0
-        }
+        },
+        "id": "object-1"
       },
       {
-        "type": "npc",
+        "type": "object",
+        "x": 13,
+        "y": 20,
+        "z": 3,
         "data": {
-          "id": 2,
           "sprite": 19,
           "replacement": 0,
-          "x": 13,
-          "y": 20,
-          "height": 3,
           "behavior": 2,
           "boundary": {
             "x": 1,
             "y": 1
           },
           "property": 0,
-          "view_radius": 0,
+          "viewRadius": 0,
           "script": {
-            "symbol": "treasureBeachNpc1Main",
-            "path": "scripts/npc/1.s"
+            "symbol": "treasureBeachObject1Main",
+            "path": "scripts/object/1.s"
           },
           "flag": 0
-        }
-      },
-      {
-        "type": "sign",
-        "data": {
-          "x": 8,
-          "y": 20,
-          "height": 3,
-          "type": "hidden_item2",
-          "item": 108,
-          "id": 103,
-          "data": {
-            "amount": 1,
-            "exact_required": 0
-          }
-        }
-      },
-      {
-        "type": "sign",
-        "data": {
-          "x": 13,
-          "y": 27,
-          "height": 3,
-          "type": "hidden_item2",
-          "item": 108,
-          "id": 104,
-          "data": {
-            "amount": 1,
-            "exact_required": 0
-          }
-        }
-      },
-      {
-        "type": "sign",
-        "data": {
-          "x": 11,
-          "y": 31,
-          "height": 3,
-          "type": "hidden_item2",
-          "item": 106,
-          "id": 105,
-          "data": {
-            "amount": 1,
-            "exact_required": 0
-          }
-        }
-      },
-      {
-        "type": "sign",
-        "data": {
-          "x": 9,
-          "y": 34,
-          "height": 3,
-          "type": "hidden_item2",
-          "item": 106,
-          "id": 106,
-          "data": {
-            "amount": 1,
-            "exact_required": 0
-          }
-        }
-      },
-      {
-        "type": "sign",
-        "data": {
-          "x": 15,
-          "y": 22,
-          "height": 3,
-          "type": "hidden_item2",
-          "item": 2,
-          "id": 107,
-          "data": {
-            "amount": 1,
-            "exact_required": 0
-          }
-        }
-      },
-      {
-        "type": "sign",
-        "data": {
-          "x": 16,
-          "y": 33,
-          "height": 3,
-          "type": "hidden_item2",
-          "item": 2,
-          "id": 108,
-          "data": {
-            "amount": 1,
-            "exact_required": 0
-          }
-        }
-      },
-      {
-        "type": "sign",
-        "data": {
-          "x": 15,
-          "y": 29,
-          "height": 3,
-          "type": "hidden_item2",
-          "item": 109,
-          "id": 109,
-          "data": {
-            "amount": 1,
-            "exact_required": 0
-          }
-        }
-      },
-      {
-        "type": "sign",
-        "data": {
-          "x": 8,
-          "y": 27,
-          "height": 3,
-          "type": "hidden_item2",
-          "item": 107,
-          "id": 110,
-          "data": {
-            "amount": 1,
-            "exact_required": 0
-          }
-        }
+        },
+        "id": "object-2"
       }
     ]
   }

@@ -681,165 +681,175 @@
     "connections": [],
     "entities": [
       {
-        "type": "npc",
+        "type": "warp",
+        "x": 1,
+        "y": 15,
+        "z": 0,
         "data": {
-          "id": 1,
+          "target": {
+            "warp": "warp-1",
+            "map": {
+              "id": "map-3-6"
+            }
+          }
+        },
+        "id": "warp-0"
+      },
+      {
+        "type": "warp",
+        "x": 2,
+        "y": 14,
+        "z": 3,
+        "data": {
+          "target": {
+            "warp": "warp-1",
+            "map": {
+              "id": "map-3-6"
+            }
+          }
+        },
+        "id": "warp-1"
+      },
+      {
+        "type": "warp",
+        "x": 3,
+        "y": 15,
+        "z": 0,
+        "data": {
+          "target": {
+            "warp": "warp-1",
+            "map": {
+              "id": "map-3-6"
+            }
+          }
+        },
+        "id": "warp-2"
+      },
+      {
+        "type": "warp",
+        "x": 9,
+        "y": 15,
+        "z": 0,
+        "data": {
+          "target": {
+            "warp": "warp-2",
+            "map": {
+              "id": "map-3-6"
+            }
+          }
+        },
+        "id": "warp-3"
+      },
+      {
+        "type": "warp",
+        "x": 10,
+        "y": 14,
+        "z": 3,
+        "data": {
+          "target": {
+            "warp": "warp-2",
+            "map": {
+              "id": "map-3-6"
+            }
+          }
+        },
+        "id": "warp-4"
+      },
+      {
+        "type": "warp",
+        "x": 11,
+        "y": 15,
+        "z": 0,
+        "data": {
+          "target": {
+            "warp": "warp-2",
+            "map": {
+              "id": "map-3-6"
+            }
+          }
+        },
+        "id": "warp-5"
+      },
+      {
+        "type": "warp",
+        "x": 6,
+        "y": 1,
+        "z": 0,
+        "data": {
+          "target": {
+            "warp": "warp-0",
+            "map": {
+              "id": "map-10-6"
+            }
+          }
+        },
+        "id": "warp-6"
+      },
+      {
+        "type": "warp",
+        "x": 4,
+        "y": 2,
+        "z": 3,
+        "data": {
+          "target": {
+            "warp": "warp-1",
+            "map": {
+              "id": "map-10-1"
+            }
+          }
+        },
+        "id": "warp-7"
+      },
+      {
+        "type": "interactable",
+        "x": 9,
+        "y": 11,
+        "z": 0,
+        "data": {
+          "type": "script",
+          "script": {
+            "symbol": "celadonCity1Interactable0Main",
+            "path": "scripts/interactable/0.s"
+          }
+        },
+        "id": "interactable-0"
+      },
+      {
+        "type": "interactable",
+        "x": 8,
+        "y": 1,
+        "z": 0,
+        "data": {
+          "type": "script",
+          "script": {
+            "symbol": "celadonCity1Interactable1Main",
+            "path": "scripts/interactable/1.s"
+          }
+        },
+        "id": "interactable-1"
+      },
+      {
+        "type": "object",
+        "x": 6,
+        "y": 10,
+        "z": 3,
+        "data": {
           "sprite": 48,
           "replacement": 0,
-          "x": 6,
-          "y": 10,
-          "height": 3,
           "behavior": 8,
           "boundary": {
             "x": 1,
             "y": 1
           },
           "property": 0,
-          "view_radius": 0,
+          "viewRadius": 0,
           "script": {
-            "symbol": "celadonCity1Npc0Main",
-            "path": "scripts/npc/0.s"
+            "symbol": "celadonCity1Object0Main",
+            "path": "scripts/object/0.s"
           },
           "flag": 0
-        }
-      },
-      {
-        "type": "warp",
-        "data": {
-          "x": 1,
-          "y": 15,
-          "height": 0,
-          "target": {
-            "warp": 1,
-            "map": {
-              "id": "map-3-6"
-            }
-          }
-        }
-      },
-      {
-        "type": "warp",
-        "data": {
-          "x": 2,
-          "y": 14,
-          "height": 3,
-          "target": {
-            "warp": 1,
-            "map": {
-              "id": "map-3-6"
-            }
-          }
-        }
-      },
-      {
-        "type": "warp",
-        "data": {
-          "x": 3,
-          "y": 15,
-          "height": 0,
-          "target": {
-            "warp": 1,
-            "map": {
-              "id": "map-3-6"
-            }
-          }
-        }
-      },
-      {
-        "type": "warp",
-        "data": {
-          "x": 9,
-          "y": 15,
-          "height": 0,
-          "target": {
-            "warp": 2,
-            "map": {
-              "id": "map-3-6"
-            }
-          }
-        }
-      },
-      {
-        "type": "warp",
-        "data": {
-          "x": 10,
-          "y": 14,
-          "height": 3,
-          "target": {
-            "warp": 2,
-            "map": {
-              "id": "map-3-6"
-            }
-          }
-        }
-      },
-      {
-        "type": "warp",
-        "data": {
-          "x": 11,
-          "y": 15,
-          "height": 0,
-          "target": {
-            "warp": 2,
-            "map": {
-              "id": "map-3-6"
-            }
-          }
-        }
-      },
-      {
-        "type": "warp",
-        "data": {
-          "x": 6,
-          "y": 1,
-          "height": 0,
-          "target": {
-            "warp": 0,
-            "map": {
-              "id": "map-10-6"
-            }
-          }
-        }
-      },
-      {
-        "type": "warp",
-        "data": {
-          "x": 4,
-          "y": 2,
-          "height": 3,
-          "target": {
-            "warp": 1,
-            "map": {
-              "id": "map-10-1"
-            }
-          }
-        }
-      },
-      {
-        "type": "sign",
-        "data": {
-          "x": 9,
-          "y": 11,
-          "height": 0,
-          "type": "script",
-          "script": {
-            "symbol": "celadonCity1Sign0Main",
-            "path": "scripts/sign/0.s"
-          }
-        }
-      },
-      {
-        "type": "sign",
-        "data": {
-          "x": 8,
-          "y": 1,
-          "height": 0,
-          "type": "script",
-          "script": {
-            "symbol": "celadonCity1Sign1Main",
-            "path": "scripts/sign/1.s"
-          }
-        }
+        },
+        "id": "object-1"
       }
     ]
   }

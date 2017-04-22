@@ -420,41 +420,42 @@
     "connections": [],
     "entities": [
       {
-        "type": "npc",
+        "type": "warp",
+        "x": 8,
+        "y": 5,
+        "z": 3,
         "data": {
-          "id": 1,
+          "target": {
+            "warp": "warp-4",
+            "map": {
+              "id": "map-2-13"
+            }
+          }
+        },
+        "id": "warp-0"
+      },
+      {
+        "type": "object",
+        "x": 5,
+        "y": 5,
+        "z": 3,
+        "data": {
           "sprite": 92,
           "replacement": 0,
-          "x": 5,
-          "y": 5,
-          "height": 3,
           "behavior": 8,
           "boundary": {
             "x": 1,
             "y": 1
           },
           "property": 0,
-          "view_radius": 0,
+          "viewRadius": 0,
           "script": {
-            "symbol": "lostCave14Npc0Main",
-            "path": "scripts/npc/0.s"
+            "symbol": "lostCave14Object0Main",
+            "path": "scripts/object/0.s"
           },
           "flag": 508
-        }
-      },
-      {
-        "type": "warp",
-        "data": {
-          "x": 8,
-          "y": 5,
-          "height": 3,
-          "target": {
-            "warp": 4,
-            "map": {
-              "id": "map-2-13"
-            }
-          }
-        }
+        },
+        "id": "object-1"
       }
     ]
   }

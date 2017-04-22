@@ -2233,134 +2233,137 @@
     ],
     "entities": [
       {
-        "type": "npc",
+        "type": "warp",
+        "x": 11,
+        "y": 23,
+        "z": 3,
         "data": {
-          "id": 1,
+          "target": {
+            "warp": "warp-0",
+            "map": {
+              "id": "map-37-2"
+            }
+          }
+        },
+        "id": "warp-0"
+      },
+      {
+        "type": "warp",
+        "x": 11,
+        "y": 11,
+        "z": 0,
+        "data": {
+          "target": {
+            "warp": "warp-0",
+            "map": {
+              "id": "map-37-0"
+            }
+          }
+        },
+        "id": "warp-1"
+      },
+      {
+        "type": "warp",
+        "x": 16,
+        "y": 17,
+        "z": 0,
+        "data": {
+          "target": {
+            "warp": "warp-0",
+            "map": {
+              "id": "map-37-3"
+            }
+          }
+        },
+        "id": "warp-2"
+      },
+      {
+        "type": "warp",
+        "x": 20,
+        "y": 11,
+        "z": 0,
+        "data": {
+          "target": {
+            "warp": "warp-0",
+            "map": {
+              "id": "map-37-4"
+            }
+          }
+        },
+        "id": "warp-3"
+      },
+      {
+        "type": "interactable",
+        "x": 9,
+        "y": 17,
+        "z": 0,
+        "data": {
+          "type": "script",
+          "script": {
+            "symbol": "sixIslandInteractable0Main",
+            "path": "scripts/interactable/0.s"
+          }
+        },
+        "id": "interactable-0"
+      },
+      {
+        "type": "interactable",
+        "x": 9,
+        "y": 7,
+        "z": 3,
+        "data": {
+          "type": "hiddenItem",
+          "item": 138,
+          "hiddenItemId": 184,
+          "quantity": 1
+        },
+        "id": "interactable-1"
+      },
+      {
+        "type": "object",
+        "x": 10,
+        "y": 15,
+        "z": 3,
+        "data": {
           "sprite": 19,
           "replacement": 0,
-          "x": 10,
-          "y": 15,
-          "height": 3,
           "behavior": 9,
           "boundary": {
             "x": 1,
             "y": 1
           },
           "property": 0,
-          "view_radius": 0,
+          "viewRadius": 0,
           "script": {
-            "symbol": "sixIslandNpc0Main",
-            "path": "scripts/npc/0.s"
+            "symbol": "sixIslandObject0Main",
+            "path": "scripts/object/0.s"
           },
           "flag": 0
-        }
+        },
+        "id": "object-1"
       },
       {
-        "type": "npc",
+        "type": "object",
+        "x": 15,
+        "y": 13,
+        "z": 3,
         "data": {
-          "id": 2,
           "sprite": 56,
           "replacement": 0,
-          "x": 15,
-          "y": 13,
-          "height": 3,
           "behavior": 18,
           "boundary": {
             "x": 1,
             "y": 1
           },
           "property": 0,
-          "view_radius": 0,
+          "viewRadius": 0,
           "script": {
-            "symbol": "sixIslandNpc1Main",
-            "path": "scripts/npc/1.s"
+            "symbol": "sixIslandObject1Main",
+            "path": "scripts/object/1.s"
           },
           "flag": 0
-        }
-      },
-      {
-        "type": "warp",
-        "data": {
-          "x": 11,
-          "y": 23,
-          "height": 3,
-          "target": {
-            "warp": 0,
-            "map": {
-              "id": "map-37-2"
-            }
-          }
-        }
-      },
-      {
-        "type": "warp",
-        "data": {
-          "x": 11,
-          "y": 11,
-          "height": 0,
-          "target": {
-            "warp": 0,
-            "map": {
-              "id": "map-37-0"
-            }
-          }
-        }
-      },
-      {
-        "type": "warp",
-        "data": {
-          "x": 16,
-          "y": 17,
-          "height": 0,
-          "target": {
-            "warp": 0,
-            "map": {
-              "id": "map-37-3"
-            }
-          }
-        }
-      },
-      {
-        "type": "warp",
-        "data": {
-          "x": 20,
-          "y": 11,
-          "height": 0,
-          "target": {
-            "warp": 0,
-            "map": {
-              "id": "map-37-4"
-            }
-          }
-        }
-      },
-      {
-        "type": "sign",
-        "data": {
-          "x": 9,
-          "y": 17,
-          "height": 0,
-          "type": "script",
-          "script": {
-            "symbol": "sixIslandSign0Main",
-            "path": "scripts/sign/0.s"
-          }
-        }
-      },
-      {
-        "type": "sign",
-        "data": {
-          "x": 9,
-          "y": 7,
-          "height": 3,
-          "type": "hidden_item2",
-          "item": 138,
-          "id": 184,
-          "data": {
-            "amount": 1,
-            "exact_required": 0
-          }
-        }
+        },
+        "id": "object-2"
       }
     ]
   }

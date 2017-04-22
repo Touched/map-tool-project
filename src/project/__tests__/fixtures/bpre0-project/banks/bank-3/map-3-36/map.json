@@ -3693,127 +3693,131 @@
     ],
     "entities": [
       {
-        "type": "npc",
+        "type": "warp",
+        "x": 41,
+        "y": 9,
+        "z": 3,
         "data": {
-          "id": 1,
+          "target": {
+            "warp": "warp-0",
+            "map": {
+              "id": "map-26-0"
+            }
+          }
+        },
+        "id": "warp-0"
+      },
+      {
+        "type": "warp",
+        "x": 48,
+        "y": 9,
+        "z": 3,
+        "data": {
+          "target": {
+            "warp": "warp-1",
+            "map": {
+              "id": "map-26-0"
+            }
+          }
+        },
+        "id": "warp-1"
+      },
+      {
+        "type": "interactable",
+        "x": 37,
+        "y": 7,
+        "z": 0,
+        "data": {
+          "type": "script",
+          "script": {
+            "symbol": "route18Interactable0Main",
+            "path": "scripts/interactable/0.s"
+          }
+        },
+        "id": "interactable-0"
+      },
+      {
+        "type": "interactable",
+        "x": 52,
+        "y": 7,
+        "z": 0,
+        "data": {
+          "type": "script",
+          "script": {
+            "symbol": "route18Interactable1Main",
+            "path": "scripts/interactable/1.s"
+          }
+        },
+        "id": "interactable-1"
+      },
+      {
+        "type": "object",
+        "x": 46,
+        "y": 14,
+        "z": 3,
+        "data": {
           "sprite": 26,
           "replacement": 0,
-          "x": 46,
-          "y": 14,
-          "height": 3,
           "behavior": 9,
           "boundary": {
             "x": 1,
             "y": 1
           },
           "property": 1,
-          "view_radius": 4,
+          "viewRadius": 4,
           "script": {
-            "symbol": "route18Npc0Main",
-            "path": "scripts/npc/0.s"
+            "symbol": "route18Object0Main",
+            "path": "scripts/object/0.s"
           },
           "flag": 0
-        }
+        },
+        "id": "object-1"
       },
       {
-        "type": "npc",
+        "type": "object",
+        "x": 41,
+        "y": 15,
+        "z": 3,
         "data": {
-          "id": 2,
           "sprite": 26,
           "replacement": 0,
-          "x": 41,
-          "y": 15,
-          "height": 3,
           "behavior": 1,
           "boundary": {
             "x": 1,
             "y": 1
           },
           "property": 1,
-          "view_radius": 1,
+          "viewRadius": 1,
           "script": {
-            "symbol": "route18Npc1Main",
-            "path": "scripts/npc/1.s"
+            "symbol": "route18Object1Main",
+            "path": "scripts/object/1.s"
           },
           "flag": 0
-        }
+        },
+        "id": "object-2"
       },
       {
-        "type": "npc",
+        "type": "object",
+        "x": 39,
+        "y": 12,
+        "z": 3,
         "data": {
-          "id": 3,
           "sprite": 26,
           "replacement": 0,
-          "x": 39,
-          "y": 12,
-          "height": 3,
           "behavior": 10,
           "boundary": {
             "x": 1,
             "y": 1
           },
           "property": 1,
-          "view_radius": 6,
+          "viewRadius": 6,
           "script": {
-            "symbol": "route18Npc2Main",
-            "path": "scripts/npc/2.s"
+            "symbol": "route18Object2Main",
+            "path": "scripts/object/2.s"
           },
           "flag": 0
-        }
-      },
-      {
-        "type": "warp",
-        "data": {
-          "x": 41,
-          "y": 9,
-          "height": 3,
-          "target": {
-            "warp": 0,
-            "map": {
-              "id": "map-26-0"
-            }
-          }
-        }
-      },
-      {
-        "type": "warp",
-        "data": {
-          "x": 48,
-          "y": 9,
-          "height": 3,
-          "target": {
-            "warp": 1,
-            "map": {
-              "id": "map-26-0"
-            }
-          }
-        }
-      },
-      {
-        "type": "sign",
-        "data": {
-          "x": 37,
-          "y": 7,
-          "height": 0,
-          "type": "script",
-          "script": {
-            "symbol": "route18Sign0Main",
-            "path": "scripts/sign/0.s"
-          }
-        }
-      },
-      {
-        "type": "sign",
-        "data": {
-          "x": 52,
-          "y": 7,
-          "height": 0,
-          "type": "script",
-          "script": {
-            "symbol": "route18Sign1Main",
-            "path": "scripts/sign/1.s"
-          }
-        }
+        },
+        "id": "object-3"
       }
     ]
   }

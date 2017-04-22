@@ -7279,310 +7279,308 @@
     ],
     "entities": [
       {
-        "type": "npc",
+        "type": "warp",
+        "x": 5,
+        "y": 13,
+        "z": 0,
         "data": {
-          "id": 1,
+          "target": {
+            "warp": "warp-0",
+            "map": {
+              "id": "map-41-0"
+            }
+          }
+        },
+        "id": "warp-0"
+      },
+      {
+        "type": "warp",
+        "x": 11,
+        "y": 19,
+        "z": 0,
+        "data": {
+          "target": {
+            "warp": "warp-0",
+            "map": {
+              "id": "map-41-1"
+            }
+          }
+        },
+        "id": "warp-1"
+      },
+      {
+        "type": "interactable",
+        "x": 8,
+        "y": 14,
+        "z": 0,
+        "data": {
+          "type": "script",
+          "script": {
+            "symbol": "waterPathInteractable0Main",
+            "path": "scripts/interactable/0.s"
+          }
+        },
+        "id": "interactable-0"
+      },
+      {
+        "type": "interactable",
+        "x": 15,
+        "y": 76,
+        "z": 3,
+        "data": {
+          "type": "hiddenItem",
+          "item": 137,
+          "hiddenItemId": 181,
+          "quantity": 1
+        },
+        "id": "interactable-1"
+      },
+      {
+        "type": "interactable",
+        "x": 3,
+        "y": 8,
+        "z": 3,
+        "data": {
+          "type": "hiddenItem",
+          "item": 139,
+          "hiddenItemId": 182,
+          "quantity": 1
+        },
+        "id": "interactable-2"
+      },
+      {
+        "type": "interactable",
+        "x": 13,
+        "y": 63,
+        "z": 3,
+        "data": {
+          "type": "hiddenItem",
+          "item": 152,
+          "hiddenItemId": 183,
+          "quantity": 1
+        },
+        "id": "interactable-3"
+      },
+      {
+        "type": "interactable",
+        "x": 12,
+        "y": 54,
+        "z": 0,
+        "data": {
+          "type": "script",
+          "script": {
+            "symbol": "waterPathInteractable4Main",
+            "path": "scripts/interactable/4.s"
+          }
+        },
+        "id": "interactable-4"
+      },
+      {
+        "type": "object",
+        "x": 12,
+        "y": 13,
+        "z": 3,
+        "data": {
           "sprite": 28,
           "replacement": 0,
-          "x": 12,
-          "y": 13,
-          "height": 3,
           "behavior": 19,
           "boundary": {
             "x": 1,
             "y": 1
           },
           "property": 1,
-          "view_radius": 3,
+          "viewRadius": 3,
           "script": {
-            "symbol": "waterPathNpc0Main",
-            "path": "scripts/npc/0.s"
+            "symbol": "waterPathObject0Main",
+            "path": "scripts/object/0.s"
           },
           "flag": 0
-        }
+        },
+        "id": "object-1"
       },
       {
-        "type": "npc",
+        "type": "object",
+        "x": 11,
+        "y": 52,
+        "z": 3,
         "data": {
-          "id": 2,
           "sprite": 26,
           "replacement": 0,
-          "x": 11,
-          "y": 52,
-          "height": 3,
           "behavior": 7,
           "boundary": {
             "x": 1,
             "y": 1
           },
           "property": 1,
-          "view_radius": 3,
+          "viewRadius": 3,
           "script": {
-            "symbol": "waterPathNpc1Main",
-            "path": "scripts/npc/1.s"
+            "symbol": "waterPathObject1Main",
+            "path": "scripts/object/1.s"
           },
           "flag": 0
-        }
+        },
+        "id": "object-2"
       },
       {
-        "type": "npc",
+        "type": "object",
+        "x": 13,
+        "y": 35,
+        "z": 1,
         "data": {
-          "id": 3,
           "sprite": 43,
           "replacement": 0,
-          "x": 13,
-          "y": 35,
-          "height": 1,
           "behavior": 1,
           "boundary": {
             "x": 1,
             "y": 1
           },
           "property": 1,
-          "view_radius": 4,
+          "viewRadius": 4,
           "script": {
-            "symbol": "waterPathNpc2Main",
-            "path": "scripts/npc/2.s"
+            "symbol": "waterPathObject2Main",
+            "path": "scripts/object/2.s"
           },
           "flag": 0
-        }
+        },
+        "id": "object-3"
       },
       {
-        "type": "npc",
+        "type": "object",
+        "x": 15,
+        "y": 45,
+        "z": 1,
         "data": {
-          "id": 4,
           "sprite": 44,
           "replacement": 0,
-          "x": 15,
-          "y": 45,
-          "height": 1,
           "behavior": 2,
           "boundary": {
             "x": 1,
             "y": 1
           },
           "property": 1,
-          "view_radius": 1,
+          "viewRadius": 1,
           "script": {
-            "symbol": "waterPathNpc3Main",
-            "path": "scripts/npc/3.s"
+            "symbol": "waterPathObject3Main",
+            "path": "scripts/object/3.s"
           },
           "flag": 0
-        }
+        },
+        "id": "object-4"
       },
       {
-        "type": "npc",
+        "type": "object",
+        "x": 6,
+        "y": 21,
+        "z": 3,
         "data": {
-          "id": 5,
           "sprite": 17,
           "replacement": 0,
-          "x": 6,
-          "y": 21,
-          "height": 3,
           "behavior": 8,
           "boundary": {
             "x": 1,
             "y": 1
           },
           "property": 1,
-          "view_radius": 1,
+          "viewRadius": 1,
           "script": {
-            "symbol": "waterPathNpc4Main",
-            "path": "scripts/npc/4.s"
+            "symbol": "waterPathObject4Main",
+            "path": "scripts/object/4.s"
           },
           "flag": 0
-        }
+        },
+        "id": "object-5"
       },
       {
-        "type": "npc",
+        "type": "object",
+        "x": 7,
+        "y": 21,
+        "z": 3,
         "data": {
-          "id": 6,
           "sprite": 17,
           "replacement": 0,
-          "x": 7,
-          "y": 21,
-          "height": 3,
           "behavior": 8,
           "boundary": {
             "x": 1,
             "y": 1
           },
           "property": 1,
-          "view_radius": 1,
+          "viewRadius": 1,
           "script": {
-            "symbol": "waterPathNpc5Main",
-            "path": "scripts/npc/5.s"
+            "symbol": "waterPathObject5Main",
+            "path": "scripts/object/5.s"
           },
           "flag": 0
-        }
+        },
+        "id": "object-6"
       },
       {
-        "type": "npc",
+        "type": "object",
+        "x": 11,
+        "y": 76,
+        "z": 3,
         "data": {
-          "id": 7,
           "sprite": 56,
           "replacement": 0,
-          "x": 11,
-          "y": 76,
-          "height": 3,
           "behavior": 15,
           "boundary": {
             "x": 1,
             "y": 1
           },
           "property": 1,
-          "view_radius": 4,
+          "viewRadius": 4,
           "script": {
-            "symbol": "waterPathNpc6Main",
-            "path": "scripts/npc/6.s"
+            "symbol": "waterPathObject6Main",
+            "path": "scripts/object/6.s"
           },
           "flag": 0
-        }
+        },
+        "id": "object-7"
       },
       {
-        "type": "npc",
+        "type": "object",
+        "x": 17,
+        "y": 19,
+        "z": 0,
         "data": {
-          "id": 8,
           "sprite": 92,
           "replacement": 0,
-          "x": 17,
-          "y": 19,
-          "height": 0,
           "behavior": 8,
           "boundary": {
             "x": 1,
             "y": 1
           },
           "property": 0,
-          "view_radius": 0,
+          "viewRadius": 0,
           "script": {
-            "symbol": "waterPathNpc7Main",
-            "path": "scripts/npc/7.s"
+            "symbol": "waterPathObject7Main",
+            "path": "scripts/object/7.s"
           },
           "flag": 482
-        }
+        },
+        "id": "object-8"
       },
       {
-        "type": "npc",
+        "type": "object",
+        "x": 17,
+        "y": 87,
+        "z": 3,
         "data": {
-          "id": 9,
           "sprite": 92,
           "replacement": 0,
-          "x": 17,
-          "y": 87,
-          "height": 3,
           "behavior": 8,
           "boundary": {
             "x": 1,
             "y": 1
           },
           "property": 0,
-          "view_radius": 0,
+          "viewRadius": 0,
           "script": {
-            "symbol": "waterPathNpc8Main",
-            "path": "scripts/npc/8.s"
+            "symbol": "waterPathObject8Main",
+            "path": "scripts/object/8.s"
           },
           "flag": 483
-        }
-      },
-      {
-        "type": "warp",
-        "data": {
-          "x": 5,
-          "y": 13,
-          "height": 0,
-          "target": {
-            "warp": 0,
-            "map": {
-              "id": "map-41-0"
-            }
-          }
-        }
-      },
-      {
-        "type": "warp",
-        "data": {
-          "x": 11,
-          "y": 19,
-          "height": 0,
-          "target": {
-            "warp": 0,
-            "map": {
-              "id": "map-41-1"
-            }
-          }
-        }
-      },
-      {
-        "type": "sign",
-        "data": {
-          "x": 8,
-          "y": 14,
-          "height": 0,
-          "type": "script",
-          "script": {
-            "symbol": "waterPathSign0Main",
-            "path": "scripts/sign/0.s"
-          }
-        }
-      },
-      {
-        "type": "sign",
-        "data": {
-          "x": 15,
-          "y": 76,
-          "height": 3,
-          "type": "hidden_item2",
-          "item": 137,
-          "id": 181,
-          "data": {
-            "amount": 1,
-            "exact_required": 0
-          }
-        }
-      },
-      {
-        "type": "sign",
-        "data": {
-          "x": 3,
-          "y": 8,
-          "height": 3,
-          "type": "hidden_item2",
-          "item": 139,
-          "id": 182,
-          "data": {
-            "amount": 1,
-            "exact_required": 0
-          }
-        }
-      },
-      {
-        "type": "sign",
-        "data": {
-          "x": 13,
-          "y": 63,
-          "height": 3,
-          "type": "hidden_item2",
-          "item": 152,
-          "id": 183,
-          "data": {
-            "amount": 1,
-            "exact_required": 0
-          }
-        }
-      },
-      {
-        "type": "sign",
-        "data": {
-          "x": 12,
-          "y": 54,
-          "height": 0,
-          "type": "script",
-          "script": {
-            "symbol": "waterPathSign4Main",
-            "path": "scripts/sign/4.s"
-          }
-        }
+        },
+        "id": "object-9"
       }
     ]
   }

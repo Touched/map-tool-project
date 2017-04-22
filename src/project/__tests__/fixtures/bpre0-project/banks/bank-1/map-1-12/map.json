@@ -201,41 +201,42 @@
     "connections": [],
     "entities": [
       {
-        "type": "npc",
+        "type": "warp",
+        "x": 2,
+        "y": 1,
+        "z": 0,
         "data": {
-          "id": 1,
+          "target": {
+            "warp": "warp-6",
+            "map": {
+              "id": "map-1-5"
+            }
+          }
+        },
+        "id": "warp-0"
+      },
+      {
+        "type": "object",
+        "x": 2,
+        "y": 5,
+        "z": 3,
+        "data": {
           "sprite": 61,
           "replacement": 0,
-          "x": 2,
-          "y": 5,
-          "height": 3,
           "behavior": 5,
           "boundary": {
             "x": 2,
             "y": 1
           },
           "property": 0,
-          "view_radius": 0,
+          "viewRadius": 0,
           "script": {
-            "symbol": "s。s。Anne8Npc0Main",
-            "path": "scripts/npc/0.s"
+            "symbol": "s。s。Anne8Object0Main",
+            "path": "scripts/object/0.s"
           },
           "flag": 0
-        }
-      },
-      {
-        "type": "warp",
-        "data": {
-          "x": 2,
-          "y": 1,
-          "height": 0,
-          "target": {
-            "warp": 6,
-            "map": {
-              "id": "map-1-5"
-            }
-          }
-        }
+        },
+        "id": "object-1"
       }
     ]
   }

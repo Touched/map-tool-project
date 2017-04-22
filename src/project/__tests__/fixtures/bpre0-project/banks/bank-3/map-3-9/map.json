@@ -1526,64 +1526,65 @@
     ],
     "entities": [
       {
-        "type": "npc",
-        "data": {
-          "id": 1,
-          "sprite": 72,
-          "replacement": 0,
-          "x": 11,
-          "y": 6,
-          "height": 0,
-          "behavior": 8,
-          "boundary": {
-            "x": 1,
-            "y": 1
-          },
-          "property": 0,
-          "view_radius": 0,
-          "script": {
-            "symbol": "indigoPlateauNpc0Main",
-            "path": "scripts/npc/0.s"
-          },
-          "flag": 163
-        }
-      },
-      {
-        "type": "npc",
-        "data": {
-          "id": 2,
-          "sprite": 71,
-          "replacement": 0,
-          "x": 11,
-          "y": 6,
-          "height": 0,
-          "behavior": 8,
-          "boundary": {
-            "x": 1,
-            "y": 1
-          },
-          "property": 0,
-          "view_radius": 0,
-          "script": {
-            "symbol": "indigoPlateauNpc1Main",
-            "path": "scripts/npc/1.s"
-          },
-          "flag": 164
-        }
-      },
-      {
         "type": "warp",
+        "x": 11,
+        "y": 6,
+        "z": 0,
         "data": {
-          "x": 11,
-          "y": 6,
-          "height": 0,
           "target": {
-            "warp": 0,
+            "warp": "warp-0",
             "map": {
               "id": "map-13-0"
             }
           }
-        }
+        },
+        "id": "warp-0"
+      },
+      {
+        "type": "object",
+        "x": 11,
+        "y": 6,
+        "z": 0,
+        "data": {
+          "sprite": 72,
+          "replacement": 0,
+          "behavior": 8,
+          "boundary": {
+            "x": 1,
+            "y": 1
+          },
+          "property": 0,
+          "viewRadius": 0,
+          "script": {
+            "symbol": "indigoPlateauObject0Main",
+            "path": "scripts/object/0.s"
+          },
+          "flag": 163
+        },
+        "id": "object-1"
+      },
+      {
+        "type": "object",
+        "x": 11,
+        "y": 6,
+        "z": 0,
+        "data": {
+          "sprite": 71,
+          "replacement": 0,
+          "behavior": 8,
+          "boundary": {
+            "x": 1,
+            "y": 1
+          },
+          "property": 0,
+          "viewRadius": 0,
+          "script": {
+            "symbol": "indigoPlateauObject1Main",
+            "path": "scripts/object/1.s"
+          },
+          "flag": 164
+        },
+        "id": "object-2"
       }
     ]
   }

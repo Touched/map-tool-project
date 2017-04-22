@@ -875,805 +875,832 @@
     "connections": [],
     "entities": [
       {
-        "type": "npc",
+        "type": "warp",
+        "x": 9,
+        "y": 13,
+        "z": 0,
         "data": {
-          "id": 1,
+          "target": {
+            "warp": "warp-0",
+            "map": {
+              "id": "map-3-6"
+            }
+          }
+        },
+        "id": "warp-0"
+      },
+      {
+        "type": "warp",
+        "x": 10,
+        "y": 13,
+        "z": 0,
+        "data": {
+          "target": {
+            "warp": "warp-0",
+            "map": {
+              "id": "map-3-6"
+            }
+          }
+        },
+        "id": "warp-1"
+      },
+      {
+        "type": "warp",
+        "x": 11,
+        "y": 13,
+        "z": 0,
+        "data": {
+          "target": {
+            "warp": "warp-0",
+            "map": {
+              "id": "map-3-6"
+            }
+          }
+        },
+        "id": "warp-2"
+      },
+      {
+        "type": "warp",
+        "x": 15,
+        "y": 2,
+        "z": 3,
+        "data": {
+          "target": {
+            "warp": "warp-0",
+            "map": {
+              "id": "map-1-42"
+            }
+          }
+        },
+        "id": "warp-3"
+      },
+      {
+        "type": "interactable",
+        "x": 2,
+        "y": 4,
+        "z": 3,
+        "data": {
+          "type": "hiddenItem",
+          "item": 0,
+          "hiddenItemId": 51,
+          "quantity": 10
+        },
+        "id": "interactable-0"
+      },
+      {
+        "type": "interactable",
+        "x": 3,
+        "y": 8,
+        "z": 3,
+        "data": {
+          "type": "hiddenItem",
+          "item": 0,
+          "hiddenItemId": 52,
+          "quantity": 10
+        },
+        "id": "interactable-1"
+      },
+      {
+        "type": "interactable",
+        "x": 2,
+        "y": 11,
+        "z": 3,
+        "data": {
+          "type": "hiddenItem",
+          "item": 0,
+          "hiddenItemId": 53,
+          "quantity": 20
+        },
+        "id": "interactable-2"
+      },
+      {
+        "type": "interactable",
+        "x": 6,
+        "y": 12,
+        "z": 3,
+        "data": {
+          "type": "hiddenItem",
+          "item": 0,
+          "hiddenItemId": 54,
+          "quantity": 10
+        },
+        "id": "interactable-3"
+      },
+      {
+        "type": "interactable",
+        "x": 9,
+        "y": 9,
+        "z": 3,
+        "data": {
+          "type": "hiddenItem",
+          "item": 0,
+          "hiddenItemId": 55,
+          "quantity": 10
+        },
+        "id": "interactable-4"
+      },
+      {
+        "type": "interactable",
+        "x": 8,
+        "y": 5,
+        "z": 3,
+        "data": {
+          "type": "hiddenItem",
+          "item": 0,
+          "hiddenItemId": 56,
+          "quantity": 20
+        },
+        "id": "interactable-5"
+      },
+      {
+        "type": "interactable",
+        "x": 10,
+        "y": 4,
+        "z": 3,
+        "data": {
+          "type": "hiddenItem",
+          "item": 0,
+          "hiddenItemId": 57,
+          "quantity": 10
+        },
+        "id": "interactable-6"
+      },
+      {
+        "type": "interactable",
+        "x": 13,
+        "y": 3,
+        "z": 3,
+        "data": {
+          "type": "hiddenItem",
+          "item": 0,
+          "hiddenItemId": 58,
+          "quantity": 10
+        },
+        "id": "interactable-7"
+      },
+      {
+        "type": "interactable",
+        "x": 15,
+        "y": 5,
+        "z": 3,
+        "data": {
+          "type": "hiddenItem",
+          "item": 0,
+          "hiddenItemId": 59,
+          "quantity": 10
+        },
+        "id": "interactable-8"
+      },
+      {
+        "type": "interactable",
+        "x": 17,
+        "y": 5,
+        "z": 3,
+        "data": {
+          "type": "hiddenItem",
+          "item": 0,
+          "hiddenItemId": 60,
+          "quantity": 40
+        },
+        "id": "interactable-9"
+      },
+      {
+        "type": "interactable",
+        "x": 15,
+        "y": 13,
+        "z": 3,
+        "data": {
+          "type": "hiddenItem",
+          "item": 0,
+          "hiddenItemId": 61,
+          "quantity": 100
+        },
+        "id": "interactable-10"
+      },
+      {
+        "type": "interactable",
+        "x": 12,
+        "y": 12,
+        "z": 3,
+        "data": {
+          "type": "hiddenItem",
+          "item": 0,
+          "hiddenItemId": 62,
+          "quantity": 10
+        },
+        "id": "interactable-11"
+      },
+      {
+        "type": "interactable",
+        "x": 0,
+        "y": 7,
+        "z": 0,
+        "data": {
+          "type": "script",
+          "script": {
+            "symbol": "celadonCity15Interactable12Main",
+            "path": "scripts/interactable/12.s"
+          },
+          "direction": "left"
+        },
+        "id": "interactable-12"
+      },
+      {
+        "type": "interactable",
+        "x": 0,
+        "y": 9,
+        "z": 0,
+        "data": {
+          "type": "script",
+          "script": {
+            "symbol": "celadonCity15Interactable13Main",
+            "path": "scripts/interactable/13.s"
+          },
+          "direction": "left"
+        },
+        "id": "interactable-13"
+      },
+      {
+        "type": "interactable",
+        "x": 0,
+        "y": 10,
+        "z": 0,
+        "data": {
+          "type": "script",
+          "script": {
+            "symbol": "celadonCity15Interactable14Main",
+            "path": "scripts/interactable/14.s"
+          },
+          "direction": "left"
+        },
+        "id": "interactable-14"
+      },
+      {
+        "type": "interactable",
+        "x": 5,
+        "y": 6,
+        "z": 0,
+        "data": {
+          "type": "script",
+          "script": {
+            "symbol": "celadonCity15Interactable15Main",
+            "path": "scripts/interactable/15.s"
+          },
+          "direction": "right"
+        },
+        "id": "interactable-15"
+      },
+      {
+        "type": "interactable",
+        "x": 5,
+        "y": 8,
+        "z": 0,
+        "data": {
+          "type": "script",
+          "script": {
+            "symbol": "celadonCity15Interactable16Main",
+            "path": "scripts/interactable/16.s"
+          },
+          "direction": "right"
+        },
+        "id": "interactable-16"
+      },
+      {
+        "type": "interactable",
+        "x": 5,
+        "y": 9,
+        "z": 0,
+        "data": {
+          "type": "script",
+          "script": {
+            "symbol": "celadonCity15Interactable17Main",
+            "path": "scripts/interactable/17.s"
+          },
+          "direction": "right"
+        },
+        "id": "interactable-17"
+      },
+      {
+        "type": "interactable",
+        "x": 5,
+        "y": 10,
+        "z": 0,
+        "data": {
+          "type": "script",
+          "script": {
+            "symbol": "celadonCity15Interactable18Main",
+            "path": "scripts/interactable/18.s"
+          },
+          "direction": "right"
+        },
+        "id": "interactable-18"
+      },
+      {
+        "type": "interactable",
+        "x": 6,
+        "y": 6,
+        "z": 0,
+        "data": {
+          "type": "script",
+          "script": {
+            "symbol": "celadonCity15Interactable19Main",
+            "path": "scripts/interactable/19.s"
+          },
+          "direction": "left"
+        },
+        "id": "interactable-19"
+      },
+      {
+        "type": "interactable",
+        "x": 6,
+        "y": 7,
+        "z": 0,
+        "data": {
+          "type": "script",
+          "script": {
+            "symbol": "celadonCity15Interactable20Main",
+            "path": "scripts/interactable/20.s"
+          },
+          "direction": "left"
+        },
+        "id": "interactable-20"
+      },
+      {
+        "type": "interactable",
+        "x": 6,
+        "y": 9,
+        "z": 0,
+        "data": {
+          "type": "script",
+          "script": {
+            "symbol": "celadonCity15Interactable21Main",
+            "path": "scripts/interactable/21.s"
+          },
+          "direction": "left"
+        },
+        "id": "interactable-21"
+      },
+      {
+        "type": "interactable",
+        "x": 11,
+        "y": 6,
+        "z": 0,
+        "data": {
+          "type": "script",
+          "script": {
+            "symbol": "celadonCity15Interactable22Main",
+            "path": "scripts/interactable/22.s"
+          },
+          "direction": "right"
+        },
+        "id": "interactable-22"
+      },
+      {
+        "type": "interactable",
+        "x": 11,
+        "y": 7,
+        "z": 0,
+        "data": {
+          "type": "script",
+          "script": {
+            "symbol": "celadonCity15Interactable23Main",
+            "path": "scripts/interactable/23.s"
+          },
+          "direction": "right"
+        },
+        "id": "interactable-23"
+      },
+      {
+        "type": "interactable",
+        "x": 11,
+        "y": 8,
+        "z": 0,
+        "data": {
+          "type": "script",
+          "script": {
+            "symbol": "celadonCity15Interactable24Main",
+            "path": "scripts/interactable/24.s"
+          },
+          "direction": "right"
+        },
+        "id": "interactable-24"
+      },
+      {
+        "type": "interactable",
+        "x": 11,
+        "y": 10,
+        "z": 0,
+        "data": {
+          "type": "script",
+          "script": {
+            "symbol": "celadonCity15Interactable25Main",
+            "path": "scripts/interactable/25.s"
+          },
+          "direction": "right"
+        },
+        "id": "interactable-25"
+      },
+      {
+        "type": "interactable",
+        "x": 12,
+        "y": 6,
+        "z": 0,
+        "data": {
+          "type": "script",
+          "script": {
+            "symbol": "celadonCity15Interactable26Main",
+            "path": "scripts/interactable/26.s"
+          },
+          "direction": "left"
+        },
+        "id": "interactable-26"
+      },
+      {
+        "type": "interactable",
+        "x": 12,
+        "y": 8,
+        "z": 0,
+        "data": {
+          "type": "script",
+          "script": {
+            "symbol": "celadonCity15Interactable27Main",
+            "path": "scripts/interactable/27.s"
+          },
+          "direction": "left"
+        },
+        "id": "interactable-27"
+      },
+      {
+        "type": "interactable",
+        "x": 12,
+        "y": 9,
+        "z": 0,
+        "data": {
+          "type": "script",
+          "script": {
+            "symbol": "celadonCity15Interactable28Main",
+            "path": "scripts/interactable/28.s"
+          },
+          "direction": "left"
+        },
+        "id": "interactable-28"
+      },
+      {
+        "type": "interactable",
+        "x": 12,
+        "y": 10,
+        "z": 0,
+        "data": {
+          "type": "script",
+          "script": {
+            "symbol": "celadonCity15Interactable29Main",
+            "path": "scripts/interactable/29.s"
+          },
+          "direction": "left"
+        },
+        "id": "interactable-29"
+      },
+      {
+        "type": "interactable",
+        "x": 17,
+        "y": 6,
+        "z": 0,
+        "data": {
+          "type": "script",
+          "script": {
+            "symbol": "celadonCity15Interactable30Main",
+            "path": "scripts/interactable/30.s"
+          },
+          "direction": "right"
+        },
+        "id": "interactable-30"
+      },
+      {
+        "type": "interactable",
+        "x": 17,
+        "y": 7,
+        "z": 0,
+        "data": {
+          "type": "script",
+          "script": {
+            "symbol": "celadonCity15Interactable31Main",
+            "path": "scripts/interactable/31.s"
+          },
+          "direction": "right"
+        },
+        "id": "interactable-31"
+      },
+      {
+        "type": "interactable",
+        "x": 17,
+        "y": 8,
+        "z": 0,
+        "data": {
+          "type": "script",
+          "script": {
+            "symbol": "celadonCity15Interactable32Main",
+            "path": "scripts/interactable/32.s"
+          },
+          "direction": "right"
+        },
+        "id": "interactable-32"
+      },
+      {
+        "type": "interactable",
+        "x": 17,
+        "y": 9,
+        "z": 0,
+        "data": {
+          "type": "script",
+          "script": {
+            "symbol": "celadonCity15Interactable33Main",
+            "path": "scripts/interactable/33.s"
+          },
+          "direction": "right"
+        },
+        "id": "interactable-33"
+      },
+      {
+        "type": "interactable",
+        "x": 11,
+        "y": 1,
+        "z": 0,
+        "data": {
+          "type": "script",
+          "script": {
+            "symbol": "celadonCity15Interactable34Main",
+            "path": "scripts/interactable/34.s"
+          }
+        },
+        "id": "interactable-34"
+      },
+      {
+        "type": "interactable",
+        "x": 17,
+        "y": 13,
+        "z": 0,
+        "data": {
+          "type": "script",
+          "script": {
+            "symbol": "celadonCity15Interactable35Main",
+            "path": "scripts/interactable/35.s"
+          },
+          "direction": "right"
+        },
+        "id": "interactable-35"
+      },
+      {
+        "type": "object",
+        "x": 4,
+        "y": 2,
+        "z": 3,
+        "data": {
           "sprite": 48,
           "replacement": 0,
-          "x": 4,
-          "y": 2,
-          "height": 3,
           "behavior": 8,
           "boundary": {
             "x": 1,
             "y": 1
           },
           "property": 0,
-          "view_radius": 0,
+          "viewRadius": 0,
           "script": {
-            "symbol": "celadonCity15Npc0Main",
-            "path": "scripts/npc/0.s"
+            "symbol": "celadonCity15Object0Main",
+            "path": "scripts/object/0.s"
           },
           "flag": 0
-        }
+        },
+        "id": "object-1"
       },
       {
-        "type": "npc",
+        "type": "object",
+        "x": 6,
+        "y": 2,
+        "z": 3,
         "data": {
-          "id": 2,
           "sprite": 47,
           "replacement": 0,
-          "x": 6,
-          "y": 2,
-          "height": 3,
           "behavior": 8,
           "boundary": {
             "x": 1,
             "y": 1
           },
           "property": 0,
-          "view_radius": 0,
+          "viewRadius": 0,
           "script": {
-            "symbol": "celadonCity15Npc1Main",
-            "path": "scripts/npc/1.s"
+            "symbol": "celadonCity15Object1Main",
+            "path": "scripts/object/1.s"
           },
           "flag": 0
-        }
+        },
+        "id": "object-2"
       },
       {
-        "type": "npc",
+        "type": "object",
+        "x": 1,
+        "y": 6,
+        "z": 3,
         "data": {
-          "id": 3,
           "sprite": 30,
           "replacement": 0,
-          "x": 1,
-          "y": 6,
-          "height": 3,
           "behavior": 9,
           "boundary": {
             "x": 1,
             "y": 1
           },
           "property": 0,
-          "view_radius": 0,
+          "viewRadius": 0,
           "script": {
-            "symbol": "celadonCity15Npc2Main",
-            "path": "scripts/npc/2.s"
+            "symbol": "celadonCity15Object2Main",
+            "path": "scripts/object/2.s"
           },
           "flag": 0
-        }
+        },
+        "id": "object-3"
       },
       {
-        "type": "npc",
+        "type": "object",
+        "x": 1,
+        "y": 8,
+        "z": 3,
         "data": {
-          "id": 4,
           "sprite": 28,
           "replacement": 0,
-          "x": 1,
-          "y": 8,
-          "height": 3,
           "behavior": 9,
           "boundary": {
             "x": 1,
             "y": 1
           },
           "property": 0,
-          "view_radius": 0,
+          "viewRadius": 0,
           "script": {
-            "symbol": "celadonCity15Npc3Main",
-            "path": "scripts/npc/3.s"
+            "symbol": "celadonCity15Object3Main",
+            "path": "scripts/object/3.s"
           },
           "flag": 0
-        }
+        },
+        "id": "object-4"
       },
       {
-        "type": "npc",
+        "type": "object",
+        "x": 4,
+        "y": 7,
+        "z": 3,
         "data": {
-          "id": 5,
           "sprite": 57,
           "replacement": 0,
-          "x": 4,
-          "y": 7,
-          "height": 3,
           "behavior": 10,
           "boundary": {
             "x": 1,
             "y": 1
           },
           "property": 0,
-          "view_radius": 0,
+          "viewRadius": 0,
           "script": {
-            "symbol": "celadonCity15Npc4Main",
-            "path": "scripts/npc/4.s"
+            "symbol": "celadonCity15Object4Main",
+            "path": "scripts/object/4.s"
           },
           "flag": 0
-        }
+        },
+        "id": "object-5"
       },
       {
-        "type": "npc",
+        "type": "object",
+        "x": 7,
+        "y": 10,
+        "z": 3,
         "data": {
-          "id": 6,
           "sprite": 91,
           "replacement": 0,
-          "x": 7,
-          "y": 10,
-          "height": 3,
           "behavior": 9,
           "boundary": {
             "x": 1,
             "y": 1
           },
           "property": 0,
-          "view_radius": 0,
+          "viewRadius": 0,
           "script": {
-            "symbol": "celadonCity15Npc5Main",
-            "path": "scripts/npc/5.s"
+            "symbol": "celadonCity15Object5Main",
+            "path": "scripts/object/5.s"
           },
           "flag": 0
-        }
+        },
+        "id": "object-6"
       },
       {
-        "type": "npc",
+        "type": "object",
+        "x": 7,
+        "y": 8,
+        "z": 3,
         "data": {
-          "id": 7,
           "sprite": 23,
           "replacement": 0,
-          "x": 7,
-          "y": 8,
-          "height": 3,
           "behavior": 9,
           "boundary": {
             "x": 1,
             "y": 1
           },
           "property": 0,
-          "view_radius": 0,
+          "viewRadius": 0,
           "script": {
-            "symbol": "celadonCity15Npc6Main",
-            "path": "scripts/npc/6.s"
+            "symbol": "celadonCity15Object6Main",
+            "path": "scripts/object/6.s"
           },
           "flag": 0
-        }
+        },
+        "id": "object-7"
       },
       {
-        "type": "npc",
+        "type": "object",
+        "x": 10,
+        "y": 9,
+        "z": 3,
         "data": {
-          "id": 8,
           "sprite": 33,
           "replacement": 0,
-          "x": 10,
-          "y": 9,
-          "height": 3,
           "behavior": 10,
           "boundary": {
             "x": 1,
             "y": 1
           },
           "property": 0,
-          "view_radius": 0,
+          "viewRadius": 0,
           "script": {
-            "symbol": "celadonCity15Npc7Main",
-            "path": "scripts/npc/7.s"
+            "symbol": "celadonCity15Object7Main",
+            "path": "scripts/object/7.s"
           },
           "flag": 0
-        }
+        },
+        "id": "object-8"
       },
       {
-        "type": "npc",
+        "type": "object",
+        "x": 13,
+        "y": 7,
+        "z": 3,
         "data": {
-          "id": 9,
           "sprite": 55,
           "replacement": 0,
-          "x": 13,
-          "y": 7,
-          "height": 3,
           "behavior": 9,
           "boundary": {
             "x": 1,
             "y": 1
           },
           "property": 0,
-          "view_radius": 0,
+          "viewRadius": 0,
           "script": {
-            "symbol": "celadonCity15Npc8Main",
-            "path": "scripts/npc/8.s"
+            "symbol": "celadonCity15Object8Main",
+            "path": "scripts/object/8.s"
           },
           "flag": 0
-        }
+        },
+        "id": "object-9"
       },
       {
-        "type": "npc",
+        "type": "object",
+        "x": 16,
+        "y": 10,
+        "z": 3,
         "data": {
-          "id": 10,
           "sprite": 61,
           "replacement": 0,
-          "x": 16,
-          "y": 10,
-          "height": 3,
           "behavior": 10,
           "boundary": {
             "x": 1,
             "y": 1
           },
           "property": 0,
-          "view_radius": 0,
+          "viewRadius": 0,
           "script": {
-            "symbol": "celadonCity15Npc9Main",
-            "path": "scripts/npc/9.s"
+            "symbol": "celadonCity15Object9Main",
+            "path": "scripts/object/9.s"
           },
           "flag": 0
-        }
+        },
+        "id": "object-10"
       },
       {
-        "type": "npc",
+        "type": "object",
+        "x": 11,
+        "y": 2,
+        "z": 3,
         "data": {
-          "id": 11,
           "sprite": 49,
           "replacement": 0,
-          "x": 11,
-          "y": 2,
-          "height": 3,
           "behavior": 7,
           "boundary": {
             "x": 1,
             "y": 1
           },
           "property": 1,
-          "view_radius": 0,
+          "viewRadius": 0,
           "script": {
-            "symbol": "celadonCity15Npc10Main",
-            "path": "scripts/npc/10.s"
+            "symbol": "celadonCity15Object10Main",
+            "path": "scripts/object/10.s"
           },
           "flag": 91
-        }
-      },
-      {
-        "type": "warp",
-        "data": {
-          "x": 9,
-          "y": 13,
-          "height": 0,
-          "target": {
-            "warp": 0,
-            "map": {
-              "id": "map-3-6"
-            }
-          }
-        }
-      },
-      {
-        "type": "warp",
-        "data": {
-          "x": 10,
-          "y": 13,
-          "height": 0,
-          "target": {
-            "warp": 0,
-            "map": {
-              "id": "map-3-6"
-            }
-          }
-        }
-      },
-      {
-        "type": "warp",
-        "data": {
-          "x": 11,
-          "y": 13,
-          "height": 0,
-          "target": {
-            "warp": 0,
-            "map": {
-              "id": "map-3-6"
-            }
-          }
-        }
-      },
-      {
-        "type": "warp",
-        "data": {
-          "x": 15,
-          "y": 2,
-          "height": 3,
-          "target": {
-            "warp": 0,
-            "map": {
-              "id": "map-1-42"
-            }
-          }
-        }
-      },
-      {
-        "type": "sign",
-        "data": {
-          "x": 2,
-          "y": 4,
-          "height": 3,
-          "type": "hidden_item2",
-          "item": 0,
-          "id": 51,
-          "data": {
-            "amount": 10,
-            "exact_required": 0
-          }
-        }
-      },
-      {
-        "type": "sign",
-        "data": {
-          "x": 3,
-          "y": 8,
-          "height": 3,
-          "type": "hidden_item2",
-          "item": 0,
-          "id": 52,
-          "data": {
-            "amount": 10,
-            "exact_required": 0
-          }
-        }
-      },
-      {
-        "type": "sign",
-        "data": {
-          "x": 2,
-          "y": 11,
-          "height": 3,
-          "type": "hidden_item2",
-          "item": 0,
-          "id": 53,
-          "data": {
-            "amount": 20,
-            "exact_required": 0
-          }
-        }
-      },
-      {
-        "type": "sign",
-        "data": {
-          "x": 6,
-          "y": 12,
-          "height": 3,
-          "type": "hidden_item2",
-          "item": 0,
-          "id": 54,
-          "data": {
-            "amount": 10,
-            "exact_required": 0
-          }
-        }
-      },
-      {
-        "type": "sign",
-        "data": {
-          "x": 9,
-          "y": 9,
-          "height": 3,
-          "type": "hidden_item2",
-          "item": 0,
-          "id": 55,
-          "data": {
-            "amount": 10,
-            "exact_required": 0
-          }
-        }
-      },
-      {
-        "type": "sign",
-        "data": {
-          "x": 8,
-          "y": 5,
-          "height": 3,
-          "type": "hidden_item2",
-          "item": 0,
-          "id": 56,
-          "data": {
-            "amount": 20,
-            "exact_required": 0
-          }
-        }
-      },
-      {
-        "type": "sign",
-        "data": {
-          "x": 10,
-          "y": 4,
-          "height": 3,
-          "type": "hidden_item2",
-          "item": 0,
-          "id": 57,
-          "data": {
-            "amount": 10,
-            "exact_required": 0
-          }
-        }
-      },
-      {
-        "type": "sign",
-        "data": {
-          "x": 13,
-          "y": 3,
-          "height": 3,
-          "type": "hidden_item2",
-          "item": 0,
-          "id": 58,
-          "data": {
-            "amount": 10,
-            "exact_required": 0
-          }
-        }
-      },
-      {
-        "type": "sign",
-        "data": {
-          "x": 15,
-          "y": 5,
-          "height": 3,
-          "type": "hidden_item2",
-          "item": 0,
-          "id": 59,
-          "data": {
-            "amount": 10,
-            "exact_required": 0
-          }
-        }
-      },
-      {
-        "type": "sign",
-        "data": {
-          "x": 17,
-          "y": 5,
-          "height": 3,
-          "type": "hidden_item2",
-          "item": 0,
-          "id": 60,
-          "data": {
-            "amount": 40,
-            "exact_required": 0
-          }
-        }
-      },
-      {
-        "type": "sign",
-        "data": {
-          "x": 15,
-          "y": 13,
-          "height": 3,
-          "type": "hidden_item2",
-          "item": 0,
-          "id": 61,
-          "data": {
-            "amount": 100,
-            "exact_required": 0
-          }
-        }
-      },
-      {
-        "type": "sign",
-        "data": {
-          "x": 12,
-          "y": 12,
-          "height": 3,
-          "type": "hidden_item2",
-          "item": 0,
-          "id": 62,
-          "data": {
-            "amount": 10,
-            "exact_required": 0
-          }
-        }
-      },
-      {
-        "type": "sign",
-        "data": {
-          "x": 0,
-          "y": 7,
-          "height": 0,
-          "type": "script_left",
-          "script": {
-            "symbol": "celadonCity15Sign12Main",
-            "path": "scripts/sign/12.s"
-          }
-        }
-      },
-      {
-        "type": "sign",
-        "data": {
-          "x": 0,
-          "y": 9,
-          "height": 0,
-          "type": "script_left",
-          "script": {
-            "symbol": "celadonCity15Sign13Main",
-            "path": "scripts/sign/13.s"
-          }
-        }
-      },
-      {
-        "type": "sign",
-        "data": {
-          "x": 0,
-          "y": 10,
-          "height": 0,
-          "type": "script_left",
-          "script": {
-            "symbol": "celadonCity15Sign14Main",
-            "path": "scripts/sign/14.s"
-          }
-        }
-      },
-      {
-        "type": "sign",
-        "data": {
-          "x": 5,
-          "y": 6,
-          "height": 0,
-          "type": "script_right",
-          "script": {
-            "symbol": "celadonCity15Sign15Main",
-            "path": "scripts/sign/15.s"
-          }
-        }
-      },
-      {
-        "type": "sign",
-        "data": {
-          "x": 5,
-          "y": 8,
-          "height": 0,
-          "type": "script_right",
-          "script": {
-            "symbol": "celadonCity15Sign16Main",
-            "path": "scripts/sign/16.s"
-          }
-        }
-      },
-      {
-        "type": "sign",
-        "data": {
-          "x": 5,
-          "y": 9,
-          "height": 0,
-          "type": "script_right",
-          "script": {
-            "symbol": "celadonCity15Sign17Main",
-            "path": "scripts/sign/17.s"
-          }
-        }
-      },
-      {
-        "type": "sign",
-        "data": {
-          "x": 5,
-          "y": 10,
-          "height": 0,
-          "type": "script_right",
-          "script": {
-            "symbol": "celadonCity15Sign18Main",
-            "path": "scripts/sign/18.s"
-          }
-        }
-      },
-      {
-        "type": "sign",
-        "data": {
-          "x": 6,
-          "y": 6,
-          "height": 0,
-          "type": "script_left",
-          "script": {
-            "symbol": "celadonCity15Sign19Main",
-            "path": "scripts/sign/19.s"
-          }
-        }
-      },
-      {
-        "type": "sign",
-        "data": {
-          "x": 6,
-          "y": 7,
-          "height": 0,
-          "type": "script_left",
-          "script": {
-            "symbol": "celadonCity15Sign20Main",
-            "path": "scripts/sign/20.s"
-          }
-        }
-      },
-      {
-        "type": "sign",
-        "data": {
-          "x": 6,
-          "y": 9,
-          "height": 0,
-          "type": "script_left",
-          "script": {
-            "symbol": "celadonCity15Sign21Main",
-            "path": "scripts/sign/21.s"
-          }
-        }
-      },
-      {
-        "type": "sign",
-        "data": {
-          "x": 11,
-          "y": 6,
-          "height": 0,
-          "type": "script_right",
-          "script": {
-            "symbol": "celadonCity15Sign22Main",
-            "path": "scripts/sign/22.s"
-          }
-        }
-      },
-      {
-        "type": "sign",
-        "data": {
-          "x": 11,
-          "y": 7,
-          "height": 0,
-          "type": "script_right",
-          "script": {
-            "symbol": "celadonCity15Sign23Main",
-            "path": "scripts/sign/23.s"
-          }
-        }
-      },
-      {
-        "type": "sign",
-        "data": {
-          "x": 11,
-          "y": 8,
-          "height": 0,
-          "type": "script_right",
-          "script": {
-            "symbol": "celadonCity15Sign24Main",
-            "path": "scripts/sign/24.s"
-          }
-        }
-      },
-      {
-        "type": "sign",
-        "data": {
-          "x": 11,
-          "y": 10,
-          "height": 0,
-          "type": "script_right",
-          "script": {
-            "symbol": "celadonCity15Sign25Main",
-            "path": "scripts/sign/25.s"
-          }
-        }
-      },
-      {
-        "type": "sign",
-        "data": {
-          "x": 12,
-          "y": 6,
-          "height": 0,
-          "type": "script_left",
-          "script": {
-            "symbol": "celadonCity15Sign26Main",
-            "path": "scripts/sign/26.s"
-          }
-        }
-      },
-      {
-        "type": "sign",
-        "data": {
-          "x": 12,
-          "y": 8,
-          "height": 0,
-          "type": "script_left",
-          "script": {
-            "symbol": "celadonCity15Sign27Main",
-            "path": "scripts/sign/27.s"
-          }
-        }
-      },
-      {
-        "type": "sign",
-        "data": {
-          "x": 12,
-          "y": 9,
-          "height": 0,
-          "type": "script_left",
-          "script": {
-            "symbol": "celadonCity15Sign28Main",
-            "path": "scripts/sign/28.s"
-          }
-        }
-      },
-      {
-        "type": "sign",
-        "data": {
-          "x": 12,
-          "y": 10,
-          "height": 0,
-          "type": "script_left",
-          "script": {
-            "symbol": "celadonCity15Sign29Main",
-            "path": "scripts/sign/29.s"
-          }
-        }
-      },
-      {
-        "type": "sign",
-        "data": {
-          "x": 17,
-          "y": 6,
-          "height": 0,
-          "type": "script_right",
-          "script": {
-            "symbol": "celadonCity15Sign30Main",
-            "path": "scripts/sign/30.s"
-          }
-        }
-      },
-      {
-        "type": "sign",
-        "data": {
-          "x": 17,
-          "y": 7,
-          "height": 0,
-          "type": "script_right",
-          "script": {
-            "symbol": "celadonCity15Sign31Main",
-            "path": "scripts/sign/31.s"
-          }
-        }
-      },
-      {
-        "type": "sign",
-        "data": {
-          "x": 17,
-          "y": 8,
-          "height": 0,
-          "type": "script_right",
-          "script": {
-            "symbol": "celadonCity15Sign32Main",
-            "path": "scripts/sign/32.s"
-          }
-        }
-      },
-      {
-        "type": "sign",
-        "data": {
-          "x": 17,
-          "y": 9,
-          "height": 0,
-          "type": "script_right",
-          "script": {
-            "symbol": "celadonCity15Sign33Main",
-            "path": "scripts/sign/33.s"
-          }
-        }
-      },
-      {
-        "type": "sign",
-        "data": {
-          "x": 11,
-          "y": 1,
-          "height": 0,
-          "type": "script",
-          "script": {
-            "symbol": "celadonCity15Sign34Main",
-            "path": "scripts/sign/34.s"
-          }
-        }
-      },
-      {
-        "type": "sign",
-        "data": {
-          "x": 17,
-          "y": 13,
-          "height": 0,
-          "type": "script_right",
-          "script": {
-            "symbol": "celadonCity15Sign35Main",
-            "path": "scripts/sign/35.s"
-          }
-        }
+        },
+        "id": "object-11"
       }
     ]
   }

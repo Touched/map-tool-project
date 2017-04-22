@@ -381,151 +381,152 @@
     "connections": [],
     "entities": [
       {
-        "type": "npc",
-        "data": {
-          "id": 1,
-          "sprite": 132,
-          "replacement": 0,
-          "x": 6,
-          "y": 8,
-          "height": 3,
-          "behavior": 2,
-          "boundary": {
-            "x": 1,
-            "y": 1
-          },
-          "property": 0,
-          "view_radius": 0,
-          "script": {
-            "symbol": "saffronCity3Npc0Main",
-            "path": "scripts/npc/0.s"
-          },
-          "flag": 0
-        }
-      },
-      {
-        "type": "npc",
-        "data": {
-          "id": 2,
-          "sprite": 120,
-          "replacement": 0,
-          "x": 4,
-          "y": 6,
-          "height": 3,
-          "behavior": 8,
-          "boundary": {
-            "x": 1,
-            "y": 1
-          },
-          "property": 0,
-          "view_radius": 0,
-          "script": {
-            "symbol": "saffronCity3Npc1Main",
-            "path": "scripts/npc/1.s"
-          },
-          "flag": 0
-        }
-      },
-      {
-        "type": "npc",
-        "data": {
-          "id": 3,
-          "sprite": 115,
-          "replacement": 0,
-          "x": 7,
-          "y": 2,
-          "height": 3,
-          "behavior": 8,
-          "boundary": {
-            "x": 1,
-            "y": 1
-          },
-          "property": 0,
-          "view_radius": 0,
-          "script": {
-            "symbol": "saffronCity3Npc2Main",
-            "path": "scripts/npc/2.s"
-          },
-          "flag": 0
-        }
-      },
-      {
-        "type": "npc",
-        "data": {
-          "id": 4,
-          "sprite": 17,
-          "replacement": 0,
-          "x": 9,
-          "y": 6,
-          "height": 3,
-          "behavior": 2,
-          "boundary": {
-            "x": 1,
-            "y": 1
-          },
-          "property": 0,
-          "view_radius": 0,
-          "script": {
-            "symbol": "saffronCity3Npc3Main",
-            "path": "scripts/npc/3.s"
-          },
-          "flag": 0
-        }
-      },
-      {
         "type": "warp",
+        "x": 10,
+        "y": 2,
+        "z": 3,
         "data": {
-          "x": 10,
-          "y": 2,
-          "height": 3,
           "target": {
-            "warp": 3,
+            "warp": "warp-3",
             "map": {
               "id": "map-14-0"
             }
           }
-        }
+        },
+        "id": "warp-0"
       },
       {
-        "type": "sign",
+        "type": "interactable",
+        "x": 1,
+        "y": 1,
+        "z": 0,
         "data": {
-          "x": 1,
-          "y": 1,
-          "height": 0,
           "type": "script",
           "script": {
-            "symbol": "saffronCity3Sign0Main",
-            "path": "scripts/sign/0.s"
+            "symbol": "saffronCity3Interactable0Main",
+            "path": "scripts/interactable/0.s"
           }
-        }
+        },
+        "id": "interactable-0"
       },
       {
-        "type": "sign",
+        "type": "interactable",
+        "x": 3,
+        "y": 5,
+        "z": 0,
         "data": {
-          "x": 3,
-          "y": 5,
-          "height": 0,
           "type": "script",
           "script": {
-            "symbol": "saffronCity3Sign1Main",
-            "path": "scripts/sign/1.s"
+            "symbol": "saffronCity3Interactable1Main",
+            "path": "scripts/interactable/1.s"
           }
-        }
+        },
+        "id": "interactable-1"
       },
       {
-        "type": "sign",
+        "type": "interactable",
+        "x": 2,
+        "y": 1,
+        "z": 0,
         "data": {
-          "x": 2,
-          "y": 1,
-          "height": 0,
-          "type": "hidden_item2",
+          "type": "hiddenItem",
           "item": 110,
-          "id": 26,
-          "data": {
-            "amount": 1,
-            "exact_required": 0
-          }
-        }
+          "hiddenItemId": 26,
+          "quantity": 1
+        },
+        "id": "interactable-2"
+      },
+      {
+        "type": "object",
+        "x": 6,
+        "y": 8,
+        "z": 3,
+        "data": {
+          "sprite": 132,
+          "replacement": 0,
+          "behavior": 2,
+          "boundary": {
+            "x": 1,
+            "y": 1
+          },
+          "property": 0,
+          "viewRadius": 0,
+          "script": {
+            "symbol": "saffronCity3Object0Main",
+            "path": "scripts/object/0.s"
+          },
+          "flag": 0
+        },
+        "id": "object-1"
+      },
+      {
+        "type": "object",
+        "x": 4,
+        "y": 6,
+        "z": 3,
+        "data": {
+          "sprite": 120,
+          "replacement": 0,
+          "behavior": 8,
+          "boundary": {
+            "x": 1,
+            "y": 1
+          },
+          "property": 0,
+          "viewRadius": 0,
+          "script": {
+            "symbol": "saffronCity3Object1Main",
+            "path": "scripts/object/1.s"
+          },
+          "flag": 0
+        },
+        "id": "object-2"
+      },
+      {
+        "type": "object",
+        "x": 7,
+        "y": 2,
+        "z": 3,
+        "data": {
+          "sprite": 115,
+          "replacement": 0,
+          "behavior": 8,
+          "boundary": {
+            "x": 1,
+            "y": 1
+          },
+          "property": 0,
+          "viewRadius": 0,
+          "script": {
+            "symbol": "saffronCity3Object2Main",
+            "path": "scripts/object/2.s"
+          },
+          "flag": 0
+        },
+        "id": "object-3"
+      },
+      {
+        "type": "object",
+        "x": 9,
+        "y": 6,
+        "z": 3,
+        "data": {
+          "sprite": 17,
+          "replacement": 0,
+          "behavior": 2,
+          "boundary": {
+            "x": 1,
+            "y": 1
+          },
+          "property": 0,
+          "viewRadius": 0,
+          "script": {
+            "symbol": "saffronCity3Object3Main",
+            "path": "scripts/object/3.s"
+          },
+          "flag": 0
+        },
+        "id": "object-4"
       }
     ]
   }

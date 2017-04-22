@@ -1003,189 +1003,194 @@
     "connections": [],
     "entities": [
       {
-        "type": "npc",
-        "data": {
-          "id": 1,
-          "sprite": 70,
-          "replacement": 0,
-          "x": 9,
-          "y": 7,
-          "height": 3,
-          "behavior": 8,
-          "boundary": {
-            "x": 1,
-            "y": 1
-          },
-          "property": 0,
-          "view_radius": 0,
-          "script": {
-            "symbol": "trainerTowerNpc0Main",
-            "path": "scripts/npc/0.s"
-          },
-          "flag": 6
-        }
-      },
-      {
-        "type": "npc",
-        "data": {
-          "id": 2,
-          "sprite": 240,
-          "replacement": 0,
-          "x": 11,
-          "y": 10,
-          "height": 3,
-          "behavior": 8,
-          "boundary": {
-            "x": 1,
-            "y": 1
-          },
-          "property": 0,
-          "view_radius": 0,
-          "script": {
-            "symbol": "trainerTowerNpc1Main",
-            "path": "scripts/npc/1.s"
-          },
-          "flag": 2
-        }
-      },
-      {
-        "type": "npc",
-        "data": {
-          "id": 3,
-          "sprite": 241,
-          "replacement": 0,
-          "x": 15,
-          "y": 13,
-          "height": 3,
-          "behavior": 9,
-          "boundary": {
-            "x": 1,
-            "y": 1
-          },
-          "property": 0,
-          "view_radius": 0,
-          "script": {
-            "symbol": "trainerTowerNpc2Main",
-            "path": "scripts/npc/2.s"
-          },
-          "flag": 3
-        }
-      },
-      {
-        "type": "npc",
-        "data": {
-          "id": 4,
-          "sprite": 242,
-          "replacement": 0,
-          "x": 10,
-          "y": 16,
-          "height": 3,
-          "behavior": 7,
-          "boundary": {
-            "x": 1,
-            "y": 1
-          },
-          "property": 0,
-          "view_radius": 0,
-          "script": {
-            "symbol": "trainerTowerNpc3Main",
-            "path": "scripts/npc/3.s"
-          },
-          "flag": 4
-        }
-      },
-      {
-        "type": "npc",
-        "data": {
-          "id": 5,
-          "sprite": 243,
-          "replacement": 0,
-          "x": 10,
-          "y": 10,
-          "height": 3,
-          "behavior": 8,
-          "boundary": {
-            "x": 1,
-            "y": 1
-          },
-          "property": 0,
-          "view_radius": 0,
-          "script": {
-            "symbol": "trainerTowerNpc4Main",
-            "path": "scripts/npc/4.s"
-          },
-          "flag": 5
-        }
-      },
-      {
         "type": "warp",
+        "x": 15,
+        "y": 6,
+        "z": 3,
         "data": {
-          "x": 15,
-          "y": 6,
-          "height": 3,
           "target": {
-            "warp": 1,
+            "warp": "warp-1",
             "map": {
               "id": "map-2-2"
             }
           }
-        }
+        },
+        "id": "warp-0"
       },
       {
         "type": "warp",
+        "x": 4,
+        "y": 6,
+        "z": 3,
         "data": {
-          "x": 4,
-          "y": 6,
-          "height": 3,
           "target": {
-            "warp": 0,
+            "warp": "warp-0",
             "map": {
               "id": "map-2-10"
             }
           }
-        }
+        },
+        "id": "warp-1"
       },
       {
         "type": "trigger",
+        "x": 10,
+        "y": 13,
+        "z": 3,
         "data": {
-          "x": 10,
-          "y": 13,
-          "height": 3,
           "variable": 16398,
           "value": 0,
           "script": {
             "symbol": "trainerTowerTrigger0Main",
             "path": "scripts/trigger/0.s"
           }
-        }
+        },
+        "id": "trigger-0"
       },
       {
         "type": "trigger",
+        "x": 9,
+        "y": 12,
+        "z": 0,
         "data": {
-          "x": 9,
-          "y": 12,
-          "height": 0,
           "variable": 16399,
           "value": 0,
           "script": {
             "symbol": "trainerTowerTrigger1Main",
             "path": "scripts/trigger/1.s"
           }
-        }
+        },
+        "id": "trigger-1"
       },
       {
         "type": "trigger",
+        "x": 9,
+        "y": 13,
+        "z": 3,
         "data": {
-          "x": 9,
-          "y": 13,
-          "height": 3,
           "variable": 16399,
           "value": 0,
           "script": {
             "symbol": "trainerTowerTrigger2Main",
             "path": "scripts/trigger/2.s"
           }
-        }
+        },
+        "id": "trigger-2"
+      },
+      {
+        "type": "object",
+        "x": 9,
+        "y": 7,
+        "z": 3,
+        "data": {
+          "sprite": 70,
+          "replacement": 0,
+          "behavior": 8,
+          "boundary": {
+            "x": 1,
+            "y": 1
+          },
+          "property": 0,
+          "viewRadius": 0,
+          "script": {
+            "symbol": "trainerTowerObject0Main",
+            "path": "scripts/object/0.s"
+          },
+          "flag": 6
+        },
+        "id": "object-1"
+      },
+      {
+        "type": "object",
+        "x": 11,
+        "y": 10,
+        "z": 3,
+        "data": {
+          "sprite": 240,
+          "replacement": 0,
+          "behavior": 8,
+          "boundary": {
+            "x": 1,
+            "y": 1
+          },
+          "property": 0,
+          "viewRadius": 0,
+          "script": {
+            "symbol": "trainerTowerObject1Main",
+            "path": "scripts/object/1.s"
+          },
+          "flag": 2
+        },
+        "id": "object-2"
+      },
+      {
+        "type": "object",
+        "x": 15,
+        "y": 13,
+        "z": 3,
+        "data": {
+          "sprite": 241,
+          "replacement": 0,
+          "behavior": 9,
+          "boundary": {
+            "x": 1,
+            "y": 1
+          },
+          "property": 0,
+          "viewRadius": 0,
+          "script": {
+            "symbol": "trainerTowerObject2Main",
+            "path": "scripts/object/2.s"
+          },
+          "flag": 3
+        },
+        "id": "object-3"
+      },
+      {
+        "type": "object",
+        "x": 10,
+        "y": 16,
+        "z": 3,
+        "data": {
+          "sprite": 242,
+          "replacement": 0,
+          "behavior": 7,
+          "boundary": {
+            "x": 1,
+            "y": 1
+          },
+          "property": 0,
+          "viewRadius": 0,
+          "script": {
+            "symbol": "trainerTowerObject3Main",
+            "path": "scripts/object/3.s"
+          },
+          "flag": 4
+        },
+        "id": "object-4"
+      },
+      {
+        "type": "object",
+        "x": 10,
+        "y": 10,
+        "z": 3,
+        "data": {
+          "sprite": 243,
+          "replacement": 0,
+          "behavior": 8,
+          "boundary": {
+            "x": 1,
+            "y": 1
+          },
+          "property": 0,
+          "viewRadius": 0,
+          "script": {
+            "symbol": "trainerTowerObject4Main",
+            "path": "scripts/object/4.s"
+          },
+          "flag": 5
+        },
+        "id": "object-5"
       }
     ]
   }

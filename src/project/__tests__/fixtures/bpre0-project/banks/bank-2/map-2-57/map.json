@@ -3216,170 +3216,172 @@
     "connections": [],
     "entities": [
       {
-        "type": "npc",
-        "data": {
-          "id": 1,
-          "sprite": 32,
-          "replacement": 0,
-          "x": 11,
-          "y": 13,
-          "height": 3,
-          "behavior": 8,
-          "boundary": {
-            "x": 1,
-            "y": 1
-          },
-          "property": 0,
-          "view_radius": 0,
-          "script": {
-            "symbol": "emberSpaNpc0Main",
-            "path": "scripts/npc/0.s"
-          },
-          "flag": 0
-        }
-      },
-      {
-        "type": "npc",
-        "data": {
-          "id": 2,
-          "sprite": 30,
-          "replacement": 0,
-          "x": 15,
-          "y": 11,
-          "height": 3,
-          "behavior": 18,
-          "boundary": {
-            "x": 1,
-            "y": 1
-          },
-          "property": 0,
-          "view_radius": 0,
-          "script": {
-            "symbol": "emberSpaNpc1Main",
-            "path": "scripts/npc/1.s"
-          },
-          "flag": 0
-        }
-      },
-      {
-        "type": "npc",
-        "data": {
-          "id": 3,
-          "sprite": 54,
-          "replacement": 0,
-          "x": 6,
-          "y": 8,
-          "height": 3,
-          "behavior": 5,
-          "boundary": {
-            "x": 2,
-            "y": 1
-          },
-          "property": 0,
-          "view_radius": 0,
-          "script": {
-            "symbol": "emberSpaNpc2Main",
-            "path": "scripts/npc/2.s"
-          },
-          "flag": 157
-        }
-      },
-      {
-        "type": "npc",
-        "data": {
-          "id": 4,
-          "sprite": 35,
-          "replacement": 0,
-          "x": 20,
-          "y": 7,
-          "height": 3,
-          "behavior": 8,
-          "boundary": {
-            "x": 1,
-            "y": 1
-          },
-          "property": 0,
-          "view_radius": 0,
-          "script": {
-            "symbol": "emberSpaNpc3Main",
-            "path": "scripts/npc/3.s"
-          },
-          "flag": 0
-        }
-      },
-      {
-        "type": "npc",
-        "data": {
-          "id": 5,
-          "sprite": 32,
-          "replacement": 0,
-          "x": 10,
-          "y": 5,
-          "height": 3,
-          "behavior": 8,
-          "boundary": {
-            "x": 1,
-            "y": 1
-          },
-          "property": 0,
-          "view_radius": 0,
-          "script": {
-            "symbol": "emberSpaNpc4Main",
-            "path": "scripts/npc/4.s"
-          },
-          "flag": 0
-        }
-      },
-      {
-        "type": "npc",
-        "data": {
-          "id": 6,
-          "sprite": 30,
-          "replacement": 0,
-          "x": 11,
-          "y": 20,
-          "height": 3,
-          "behavior": 5,
-          "boundary": {
-            "x": 1,
-            "y": 1
-          },
-          "property": 0,
-          "view_radius": 0,
-          "script": {
-            "symbol": "emberSpaNpc5Main",
-            "path": "scripts/npc/5.s"
-          },
-          "flag": 0
-        }
-      },
-      {
         "type": "warp",
+        "x": 13,
+        "y": 36,
+        "z": 3,
         "data": {
-          "x": 13,
-          "y": 36,
-          "height": 3,
           "target": {
-            "warp": 2,
+            "warp": "warp-2",
             "map": {
               "id": "map-3-45"
             }
           }
-        }
+        },
+        "id": "warp-0"
       },
       {
         "type": "trigger",
+        "x": 13,
+        "y": 13,
+        "z": 3,
         "data": {
-          "x": 13,
-          "y": 13,
-          "height": 3,
           "variable": 16385,
           "value": 0,
           "script": {
             "symbol": "emberSpaTrigger0Main",
             "path": "scripts/trigger/0.s"
           }
-        }
+        },
+        "id": "trigger-0"
+      },
+      {
+        "type": "object",
+        "x": 11,
+        "y": 13,
+        "z": 3,
+        "data": {
+          "sprite": 32,
+          "replacement": 0,
+          "behavior": 8,
+          "boundary": {
+            "x": 1,
+            "y": 1
+          },
+          "property": 0,
+          "viewRadius": 0,
+          "script": {
+            "symbol": "emberSpaObject0Main",
+            "path": "scripts/object/0.s"
+          },
+          "flag": 0
+        },
+        "id": "object-1"
+      },
+      {
+        "type": "object",
+        "x": 15,
+        "y": 11,
+        "z": 3,
+        "data": {
+          "sprite": 30,
+          "replacement": 0,
+          "behavior": 18,
+          "boundary": {
+            "x": 1,
+            "y": 1
+          },
+          "property": 0,
+          "viewRadius": 0,
+          "script": {
+            "symbol": "emberSpaObject1Main",
+            "path": "scripts/object/1.s"
+          },
+          "flag": 0
+        },
+        "id": "object-2"
+      },
+      {
+        "type": "object",
+        "x": 6,
+        "y": 8,
+        "z": 3,
+        "data": {
+          "sprite": 54,
+          "replacement": 0,
+          "behavior": 5,
+          "boundary": {
+            "x": 2,
+            "y": 1
+          },
+          "property": 0,
+          "viewRadius": 0,
+          "script": {
+            "symbol": "emberSpaObject2Main",
+            "path": "scripts/object/2.s"
+          },
+          "flag": 157
+        },
+        "id": "object-3"
+      },
+      {
+        "type": "object",
+        "x": 20,
+        "y": 7,
+        "z": 3,
+        "data": {
+          "sprite": 35,
+          "replacement": 0,
+          "behavior": 8,
+          "boundary": {
+            "x": 1,
+            "y": 1
+          },
+          "property": 0,
+          "viewRadius": 0,
+          "script": {
+            "symbol": "emberSpaObject3Main",
+            "path": "scripts/object/3.s"
+          },
+          "flag": 0
+        },
+        "id": "object-4"
+      },
+      {
+        "type": "object",
+        "x": 10,
+        "y": 5,
+        "z": 3,
+        "data": {
+          "sprite": 32,
+          "replacement": 0,
+          "behavior": 8,
+          "boundary": {
+            "x": 1,
+            "y": 1
+          },
+          "property": 0,
+          "viewRadius": 0,
+          "script": {
+            "symbol": "emberSpaObject4Main",
+            "path": "scripts/object/4.s"
+          },
+          "flag": 0
+        },
+        "id": "object-5"
+      },
+      {
+        "type": "object",
+        "x": 11,
+        "y": 20,
+        "z": 3,
+        "data": {
+          "sprite": 30,
+          "replacement": 0,
+          "behavior": 5,
+          "boundary": {
+            "x": 1,
+            "y": 1
+          },
+          "property": 0,
+          "viewRadius": 0,
+          "script": {
+            "symbol": "emberSpaObject5Main",
+            "path": "scripts/object/5.s"
+          },
+          "flag": 0
+        },
+        "id": "object-6"
       }
     ]
   }

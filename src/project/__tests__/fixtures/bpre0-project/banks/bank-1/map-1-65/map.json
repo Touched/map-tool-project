@@ -6903,320 +6903,338 @@
     "connections": [],
     "entities": [
       {
-        "type": "npc",
-        "data": {
-          "id": 1,
-          "sprite": 92,
-          "replacement": 0,
-          "x": 33,
-          "y": 5,
-          "height": 3,
-          "behavior": 8,
-          "boundary": {
-            "x": 1,
-            "y": 1
-          },
-          "property": 0,
-          "view_radius": 0,
-          "script": {
-            "symbol": "safariZone2Npc0Main",
-            "path": "scripts/npc/0.s"
-          },
-          "flag": 390
-        }
-      },
-      {
-        "type": "npc",
-        "data": {
-          "id": 2,
-          "sprite": 92,
-          "replacement": 0,
-          "x": 28,
-          "y": 9,
-          "height": 3,
-          "behavior": 8,
-          "boundary": {
-            "x": 1,
-            "y": 1
-          },
-          "property": 0,
-          "view_radius": 0,
-          "script": {
-            "symbol": "safariZone2Npc1Main",
-            "path": "scripts/npc/1.s"
-          },
-          "flag": 391
-        }
-      },
-      {
-        "type": "npc",
-        "data": {
-          "id": 3,
-          "sprite": 92,
-          "replacement": 0,
-          "x": 29,
-          "y": 17,
-          "height": 3,
-          "behavior": 8,
-          "boundary": {
-            "x": 1,
-            "y": 1
-          },
-          "property": 0,
-          "view_radius": 0,
-          "script": {
-            "symbol": "safariZone2Npc2Main",
-            "path": "scripts/npc/2.s"
-          },
-          "flag": 467
-        }
-      },
-      {
         "type": "warp",
+        "x": 10,
+        "y": 34,
+        "z": 3,
         "data": {
-          "x": 10,
-          "y": 34,
-          "height": 3,
           "target": {
-            "warp": 0,
+            "warp": "warp-0",
             "map": {
               "id": "map-1-66"
             }
           }
-        }
+        },
+        "id": "warp-0"
       },
       {
         "type": "warp",
+        "x": 11,
+        "y": 34,
+        "z": 3,
         "data": {
-          "x": 11,
-          "y": 34,
-          "height": 3,
           "target": {
-            "warp": 1,
+            "warp": "warp-1",
             "map": {
               "id": "map-1-66"
             }
           }
-        }
+        },
+        "id": "warp-1"
       },
       {
         "type": "warp",
+        "x": 12,
+        "y": 34,
+        "z": 0,
         "data": {
-          "x": 12,
-          "y": 34,
-          "height": 0,
           "target": {
-            "warp": 2,
+            "warp": "warp-2",
             "map": {
               "id": "map-1-66"
             }
           }
-        }
+        },
+        "id": "warp-2"
       },
       {
         "type": "warp",
+        "x": 20,
+        "y": 34,
+        "z": 3,
         "data": {
-          "x": 20,
-          "y": 34,
-          "height": 3,
           "target": {
-            "warp": 3,
+            "warp": "warp-3",
             "map": {
               "id": "map-1-66"
             }
           }
-        }
+        },
+        "id": "warp-3"
       },
       {
         "type": "warp",
+        "x": 21,
+        "y": 34,
+        "z": 3,
         "data": {
-          "x": 21,
-          "y": 34,
-          "height": 3,
           "target": {
-            "warp": 4,
+            "warp": "warp-4",
             "map": {
               "id": "map-1-66"
             }
           }
-        }
+        },
+        "id": "warp-4"
       },
       {
         "type": "warp",
+        "x": 22,
+        "y": 34,
+        "z": 0,
         "data": {
-          "x": 22,
-          "y": 34,
-          "height": 0,
           "target": {
-            "warp": 5,
+            "warp": "warp-5",
             "map": {
               "id": "map-1-66"
             }
           }
-        }
+        },
+        "id": "warp-5"
       },
       {
         "type": "warp",
+        "x": 48,
+        "y": 31,
+        "z": 3,
         "data": {
-          "x": 48,
-          "y": 31,
-          "height": 3,
           "target": {
-            "warp": 0,
+            "warp": "warp-0",
             "map": {
               "id": "map-1-64"
             }
           }
-        }
+        },
+        "id": "warp-6"
       },
       {
         "type": "warp",
+        "x": 48,
+        "y": 32,
+        "z": 3,
         "data": {
-          "x": 48,
-          "y": 32,
-          "height": 3,
           "target": {
-            "warp": 1,
+            "warp": "warp-1",
             "map": {
               "id": "map-1-64"
             }
           }
-        }
+        },
+        "id": "warp-7"
       },
       {
         "type": "warp",
+        "x": 48,
+        "y": 33,
+        "z": 0,
         "data": {
-          "x": 48,
-          "y": 33,
-          "height": 0,
           "target": {
-            "warp": 2,
+            "warp": "warp-2",
             "map": {
               "id": "map-1-64"
             }
           }
-        }
+        },
+        "id": "warp-8"
       },
       {
         "type": "warp",
+        "x": 30,
+        "y": 34,
+        "z": 3,
         "data": {
-          "x": 30,
-          "y": 34,
-          "height": 3,
           "target": {
-            "warp": 3,
+            "warp": "warp-3",
             "map": {
               "id": "map-1-63"
             }
           }
-        }
+        },
+        "id": "warp-9"
       },
       {
         "type": "warp",
+        "x": 31,
+        "y": 34,
+        "z": 3,
         "data": {
-          "x": 31,
-          "y": 34,
-          "height": 3,
           "target": {
-            "warp": 4,
+            "warp": "warp-4",
             "map": {
               "id": "map-1-63"
             }
           }
-        }
+        },
+        "id": "warp-10"
       },
       {
         "type": "warp",
+        "x": 32,
+        "y": 34,
+        "z": 0,
         "data": {
-          "x": 32,
-          "y": 34,
-          "height": 0,
           "target": {
-            "warp": 5,
+            "warp": "warp-5",
             "map": {
               "id": "map-1-63"
             }
           }
-        }
+        },
+        "id": "warp-11"
       },
       {
         "type": "warp",
+        "x": 43,
+        "y": 8,
+        "z": 0,
         "data": {
-          "x": 43,
-          "y": 8,
-          "height": 0,
           "target": {
-            "warp": 1,
+            "warp": "warp-1",
             "map": {
               "id": "map-1-69"
             }
           }
-        }
+        },
+        "id": "warp-12"
       },
       {
-        "type": "sign",
+        "type": "interactable",
+        "x": 13,
+        "y": 27,
+        "z": 0,
         "data": {
-          "x": 13,
-          "y": 27,
-          "height": 0,
           "type": "script",
           "script": {
-            "symbol": "safariZone2Sign0Main",
-            "path": "scripts/sign/0.s"
+            "symbol": "safariZone2Interactable0Main",
+            "path": "scripts/interactable/0.s"
           }
-        }
+        },
+        "id": "interactable-0"
       },
       {
-        "type": "sign",
+        "type": "interactable",
+        "x": 23,
+        "y": 31,
+        "z": 0,
         "data": {
-          "x": 23,
-          "y": 31,
-          "height": 0,
           "type": "script",
           "script": {
-            "symbol": "safariZone2Sign1Main",
-            "path": "scripts/sign/1.s"
+            "symbol": "safariZone2Interactable1Main",
+            "path": "scripts/interactable/1.s"
           }
-        }
+        },
+        "id": "interactable-1"
       },
       {
-        "type": "sign",
+        "type": "interactable",
+        "x": 29,
+        "y": 32,
+        "z": 0,
         "data": {
-          "x": 29,
-          "y": 32,
-          "height": 0,
           "type": "script",
           "script": {
-            "symbol": "safariZone2Sign2Main",
-            "path": "scripts/sign/2.s"
+            "symbol": "safariZone2Interactable2Main",
+            "path": "scripts/interactable/2.s"
           }
-        }
+        },
+        "id": "interactable-2"
       },
       {
-        "type": "sign",
+        "type": "interactable",
+        "x": 34,
+        "y": 28,
+        "z": 0,
         "data": {
-          "x": 34,
-          "y": 28,
-          "height": 0,
           "type": "script",
           "script": {
-            "symbol": "safariZone2Sign3Main",
-            "path": "scripts/sign/3.s"
+            "symbol": "safariZone2Interactable3Main",
+            "path": "scripts/interactable/3.s"
           }
-        }
+        },
+        "id": "interactable-3"
       },
       {
-        "type": "sign",
+        "type": "interactable",
+        "x": 44,
+        "y": 9,
+        "z": 0,
         "data": {
-          "x": 44,
-          "y": 9,
-          "height": 0,
           "type": "script",
           "script": {
-            "symbol": "safariZone2Sign4Main",
-            "path": "scripts/sign/4.s"
+            "symbol": "safariZone2Interactable4Main",
+            "path": "scripts/interactable/4.s"
           }
-        }
+        },
+        "id": "interactable-4"
+      },
+      {
+        "type": "object",
+        "x": 33,
+        "y": 5,
+        "z": 3,
+        "data": {
+          "sprite": 92,
+          "replacement": 0,
+          "behavior": 8,
+          "boundary": {
+            "x": 1,
+            "y": 1
+          },
+          "property": 0,
+          "viewRadius": 0,
+          "script": {
+            "symbol": "safariZone2Object0Main",
+            "path": "scripts/object/0.s"
+          },
+          "flag": 390
+        },
+        "id": "object-1"
+      },
+      {
+        "type": "object",
+        "x": 28,
+        "y": 9,
+        "z": 3,
+        "data": {
+          "sprite": 92,
+          "replacement": 0,
+          "behavior": 8,
+          "boundary": {
+            "x": 1,
+            "y": 1
+          },
+          "property": 0,
+          "viewRadius": 0,
+          "script": {
+            "symbol": "safariZone2Object1Main",
+            "path": "scripts/object/1.s"
+          },
+          "flag": 391
+        },
+        "id": "object-2"
+      },
+      {
+        "type": "object",
+        "x": 29,
+        "y": 17,
+        "z": 3,
+        "data": {
+          "sprite": 92,
+          "replacement": 0,
+          "behavior": 8,
+          "boundary": {
+            "x": 1,
+            "y": 1
+          },
+          "property": 0,
+          "viewRadius": 0,
+          "script": {
+            "symbol": "safariZone2Object2Main",
+            "path": "scripts/object/2.s"
+          },
+          "flag": 467
+        },
+        "id": "object-3"
       }
     ]
   }

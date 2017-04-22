@@ -2232,699 +2232,734 @@
     "connections": [],
     "entities": [
       {
-        "type": "npc",
+        "type": "warp",
+        "x": 13,
+        "y": 23,
+        "z": 3,
         "data": {
-          "id": 1,
+          "target": {
+            "warp": "warp-3",
+            "map": {
+              "id": "map-3-10"
+            }
+          }
+        },
+        "id": "warp-0"
+      },
+      {
+        "type": "warp",
+        "x": 14,
+        "y": 23,
+        "z": 3,
+        "data": {
+          "target": {
+            "warp": "warp-3",
+            "map": {
+              "id": "map-3-10"
+            }
+          }
+        },
+        "id": "warp-1"
+      },
+      {
+        "type": "warp",
+        "x": 15,
+        "y": 23,
+        "z": 3,
+        "data": {
+          "target": {
+            "warp": "warp-3",
+            "map": {
+              "id": "map-3-10"
+            }
+          }
+        },
+        "id": "warp-2"
+      },
+      {
+        "type": "warp",
+        "x": 18,
+        "y": 20,
+        "z": 3,
+        "data": {
+          "target": {
+            "warp": "warp-32",
+            "map": {
+              "id": "map-14-3"
+            }
+          }
+        },
+        "id": "warp-3"
+      },
+      {
+        "type": "warp",
+        "x": 0,
+        "y": 4,
+        "z": 3,
+        "data": {
+          "target": {
+            "warp": "warp-22",
+            "map": {
+              "id": "map-14-3"
+            }
+          }
+        },
+        "id": "warp-4"
+      },
+      {
+        "type": "warp",
+        "x": 0,
+        "y": 7,
+        "z": 3,
+        "data": {
+          "target": {
+            "warp": "warp-20",
+            "map": {
+              "id": "map-14-3"
+            }
+          }
+        },
+        "id": "warp-5"
+      },
+      {
+        "type": "warp",
+        "x": 0,
+        "y": 12,
+        "z": 3,
+        "data": {
+          "target": {
+            "warp": "warp-30",
+            "map": {
+              "id": "map-14-3"
+            }
+          }
+        },
+        "id": "warp-6"
+      },
+      {
+        "type": "warp",
+        "x": 0,
+        "y": 15,
+        "z": 3,
+        "data": {
+          "target": {
+            "warp": "warp-11",
+            "map": {
+              "id": "map-14-3"
+            }
+          }
+        },
+        "id": "warp-7"
+      },
+      {
+        "type": "warp",
+        "x": 0,
+        "y": 20,
+        "z": 3,
+        "data": {
+          "target": {
+            "warp": "warp-28",
+            "map": {
+              "id": "map-14-3"
+            }
+          }
+        },
+        "id": "warp-8"
+      },
+      {
+        "type": "warp",
+        "x": 0,
+        "y": 23,
+        "z": 3,
+        "data": {
+          "target": {
+            "warp": "warp-19",
+            "map": {
+              "id": "map-14-3"
+            }
+          }
+        },
+        "id": "warp-9"
+      },
+      {
+        "type": "warp",
+        "x": 8,
+        "y": 4,
+        "z": 3,
+        "data": {
+          "target": {
+            "warp": "warp-18",
+            "map": {
+              "id": "map-14-3"
+            }
+          }
+        },
+        "id": "warp-10"
+      },
+      {
+        "type": "warp",
+        "x": 8,
+        "y": 7,
+        "z": 3,
+        "data": {
+          "target": {
+            "warp": "warp-7",
+            "map": {
+              "id": "map-14-3"
+            }
+          }
+        },
+        "id": "warp-11"
+      },
+      {
+        "type": "warp",
+        "x": 8,
+        "y": 12,
+        "z": 3,
+        "data": {
+          "target": {
+            "warp": "warp-17",
+            "map": {
+              "id": "map-14-3"
+            }
+          }
+        },
+        "id": "warp-12"
+      },
+      {
+        "type": "warp",
+        "x": 8,
+        "y": 15,
+        "z": 3,
+        "data": {
+          "target": {
+            "warp": "warp-15",
+            "map": {
+              "id": "map-14-3"
+            }
+          }
+        },
+        "id": "warp-13"
+      },
+      {
+        "type": "warp",
+        "x": 8,
+        "y": 20,
+        "z": 3,
+        "data": {
+          "target": {
+            "warp": "warp-26",
+            "map": {
+              "id": "map-14-3"
+            }
+          }
+        },
+        "id": "warp-14"
+      },
+      {
+        "type": "warp",
+        "x": 8,
+        "y": 23,
+        "z": 3,
+        "data": {
+          "target": {
+            "warp": "warp-13",
+            "map": {
+              "id": "map-14-3"
+            }
+          }
+        },
+        "id": "warp-15"
+      },
+      {
+        "type": "warp",
+        "x": 12,
+        "y": 4,
+        "z": 3,
+        "data": {
+          "target": {
+            "warp": "warp-24",
+            "map": {
+              "id": "map-14-3"
+            }
+          }
+        },
+        "id": "warp-16"
+      },
+      {
+        "type": "warp",
+        "x": 12,
+        "y": 7,
+        "z": 3,
+        "data": {
+          "target": {
+            "warp": "warp-12",
+            "map": {
+              "id": "map-14-3"
+            }
+          }
+        },
+        "id": "warp-17"
+      },
+      {
+        "type": "warp",
+        "x": 16,
+        "y": 4,
+        "z": 3,
+        "data": {
+          "target": {
+            "warp": "warp-10",
+            "map": {
+              "id": "map-14-3"
+            }
+          }
+        },
+        "id": "warp-18"
+      },
+      {
+        "type": "warp",
+        "x": 16,
+        "y": 7,
+        "z": 3,
+        "data": {
+          "target": {
+            "warp": "warp-9",
+            "map": {
+              "id": "map-14-3"
+            }
+          }
+        },
+        "id": "warp-19"
+      },
+      {
+        "type": "warp",
+        "x": 18,
+        "y": 15,
+        "z": 3,
+        "data": {
+          "target": {
+            "warp": "warp-5",
+            "map": {
+              "id": "map-14-3"
+            }
+          }
+        },
+        "id": "warp-20"
+      },
+      {
+        "type": "warp",
+        "x": 20,
+        "y": 4,
+        "z": 3,
+        "data": {
+          "target": {
+            "warp": "warp-23",
+            "map": {
+              "id": "map-14-3"
+            }
+          }
+        },
+        "id": "warp-21"
+      },
+      {
+        "type": "warp",
+        "x": 20,
+        "y": 7,
+        "z": 3,
+        "data": {
+          "target": {
+            "warp": "warp-4",
+            "map": {
+              "id": "map-14-3"
+            }
+          }
+        },
+        "id": "warp-22"
+      },
+      {
+        "type": "warp",
+        "x": 20,
+        "y": 12,
+        "z": 3,
+        "data": {
+          "target": {
+            "warp": "warp-21",
+            "map": {
+              "id": "map-14-3"
+            }
+          }
+        },
+        "id": "warp-23"
+      },
+      {
+        "type": "warp",
+        "x": 20,
+        "y": 15,
+        "z": 3,
+        "data": {
+          "target": {
+            "warp": "warp-16",
+            "map": {
+              "id": "map-14-3"
+            }
+          }
+        },
+        "id": "warp-24"
+      },
+      {
+        "type": "warp",
+        "x": 20,
+        "y": 20,
+        "z": 3,
+        "data": {
+          "target": {
+            "warp": "warp-27",
+            "map": {
+              "id": "map-14-3"
+            }
+          }
+        },
+        "id": "warp-25"
+      },
+      {
+        "type": "warp",
+        "x": 20,
+        "y": 23,
+        "z": 3,
+        "data": {
+          "target": {
+            "warp": "warp-14",
+            "map": {
+              "id": "map-14-3"
+            }
+          }
+        },
+        "id": "warp-26"
+      },
+      {
+        "type": "warp",
+        "x": 28,
+        "y": 4,
+        "z": 3,
+        "data": {
+          "target": {
+            "warp": "warp-25",
+            "map": {
+              "id": "map-14-3"
+            }
+          }
+        },
+        "id": "warp-27"
+      },
+      {
+        "type": "warp",
+        "x": 28,
+        "y": 7,
+        "z": 3,
+        "data": {
+          "target": {
+            "warp": "warp-8",
+            "map": {
+              "id": "map-14-3"
+            }
+          }
+        },
+        "id": "warp-28"
+      },
+      {
+        "type": "warp",
+        "x": 28,
+        "y": 12,
+        "z": 3,
+        "data": {
+          "target": {
+            "warp": "warp-31",
+            "map": {
+              "id": "map-14-3"
+            }
+          }
+        },
+        "id": "warp-29"
+      },
+      {
+        "type": "warp",
+        "x": 28,
+        "y": 15,
+        "z": 3,
+        "data": {
+          "target": {
+            "warp": "warp-6",
+            "map": {
+              "id": "map-14-3"
+            }
+          }
+        },
+        "id": "warp-30"
+      },
+      {
+        "type": "warp",
+        "x": 28,
+        "y": 20,
+        "z": 3,
+        "data": {
+          "target": {
+            "warp": "warp-29",
+            "map": {
+              "id": "map-14-3"
+            }
+          }
+        },
+        "id": "warp-31"
+      },
+      {
+        "type": "warp",
+        "x": 28,
+        "y": 23,
+        "z": 3,
+        "data": {
+          "target": {
+            "warp": "warp-3",
+            "map": {
+              "id": "map-14-3"
+            }
+          }
+        },
+        "id": "warp-32"
+      },
+      {
+        "type": "interactable",
+        "x": 12,
+        "y": 20,
+        "z": 0,
+        "data": {
+          "type": "script",
+          "script": {
+            "symbol": "saffronCity5Interactable0Main",
+            "path": "scripts/interactable/0.s"
+          }
+        },
+        "id": "interactable-0"
+      },
+      {
+        "type": "interactable",
+        "x": 16,
+        "y": 20,
+        "z": 0,
+        "data": {
+          "type": "script",
+          "script": {
+            "symbol": "saffronCity5Interactable1Main",
+            "path": "scripts/interactable/1.s"
+          }
+        },
+        "id": "interactable-1"
+      },
+      {
+        "type": "object",
+        "x": 24,
+        "y": 18,
+        "z": 3,
+        "data": {
           "sprite": 41,
           "replacement": 0,
-          "x": 24,
-          "y": 18,
-          "height": 3,
           "behavior": 8,
           "boundary": {
             "x": 1,
             "y": 1
           },
           "property": 1,
-          "view_radius": 3,
+          "viewRadius": 3,
           "script": {
-            "symbol": "saffronCity5Npc0Main",
-            "path": "scripts/npc/0.s"
+            "symbol": "saffronCity5Object0Main",
+            "path": "scripts/object/0.s"
           },
           "flag": 0
-        }
+        },
+        "id": "object-1"
       },
       {
-        "type": "npc",
+        "type": "object",
+        "x": 24,
+        "y": 2,
+        "z": 3,
         "data": {
-          "id": 2,
           "sprite": 41,
           "replacement": 0,
-          "x": 24,
-          "y": 2,
-          "height": 3,
           "behavior": 8,
           "boundary": {
             "x": 1,
             "y": 1
           },
           "property": 1,
-          "view_radius": 3,
+          "viewRadius": 3,
           "script": {
-            "symbol": "saffronCity5Npc1Main",
-            "path": "scripts/npc/1.s"
+            "symbol": "saffronCity5Object1Main",
+            "path": "scripts/object/1.s"
           },
           "flag": 0
-        }
+        },
+        "id": "object-2"
       },
       {
-        "type": "npc",
+        "type": "object",
+        "x": 4,
+        "y": 2,
+        "z": 3,
         "data": {
-          "id": 3,
           "sprite": 41,
           "replacement": 0,
-          "x": 4,
-          "y": 2,
-          "height": 3,
           "behavior": 8,
           "boundary": {
             "x": 1,
             "y": 1
           },
           "property": 1,
-          "view_radius": 3,
+          "viewRadius": 3,
           "script": {
-            "symbol": "saffronCity5Npc2Main",
-            "path": "scripts/npc/2.s"
+            "symbol": "saffronCity5Object2Main",
+            "path": "scripts/object/2.s"
           },
           "flag": 0
-        }
+        },
+        "id": "object-3"
       },
       {
-        "type": "npc",
+        "type": "object",
+        "x": 14,
+        "y": 2,
+        "z": 3,
         "data": {
-          "id": 4,
           "sprite": 58,
           "replacement": 0,
-          "x": 14,
-          "y": 2,
-          "height": 3,
           "behavior": 8,
           "boundary": {
             "x": 1,
             "y": 1
           },
           "property": 1,
-          "view_radius": 3,
+          "viewRadius": 3,
           "script": {
-            "symbol": "saffronCity5Npc3Main",
-            "path": "scripts/npc/3.s"
+            "symbol": "saffronCity5Object3Main",
+            "path": "scripts/object/3.s"
           },
           "flag": 0
-        }
+        },
+        "id": "object-4"
       },
       {
-        "type": "npc",
+        "type": "object",
+        "x": 4,
+        "y": 10,
+        "z": 3,
         "data": {
-          "id": 5,
           "sprite": 58,
           "replacement": 0,
-          "x": 4,
-          "y": 10,
-          "height": 3,
           "behavior": 8,
           "boundary": {
             "x": 1,
             "y": 1
           },
           "property": 1,
-          "view_radius": 3,
+          "viewRadius": 3,
           "script": {
-            "symbol": "saffronCity5Npc4Main",
-            "path": "scripts/npc/4.s"
+            "symbol": "saffronCity5Object4Main",
+            "path": "scripts/object/4.s"
           },
           "flag": 0
-        }
+        },
+        "id": "object-5"
       },
       {
-        "type": "npc",
+        "type": "object",
+        "x": 4,
+        "y": 18,
+        "z": 3,
         "data": {
-          "id": 6,
           "sprite": 58,
           "replacement": 0,
-          "x": 4,
-          "y": 18,
-          "height": 3,
           "behavior": 8,
           "boundary": {
             "x": 1,
             "y": 1
           },
           "property": 1,
-          "view_radius": 3,
+          "viewRadius": 3,
           "script": {
-            "symbol": "saffronCity5Npc5Main",
-            "path": "scripts/npc/5.s"
+            "symbol": "saffronCity5Object5Main",
+            "path": "scripts/object/5.s"
           },
           "flag": 0
-        }
+        },
+        "id": "object-6"
       },
       {
-        "type": "npc",
+        "type": "object",
+        "x": 14,
+        "y": 11,
+        "z": 3,
         "data": {
-          "id": 7,
           "sprite": 85,
           "replacement": 0,
-          "x": 14,
-          "y": 11,
-          "height": 3,
           "behavior": 8,
           "boundary": {
             "x": 1,
             "y": 1
           },
           "property": 0,
-          "view_radius": 0,
+          "viewRadius": 0,
           "script": {
-            "symbol": "saffronCity5Npc6Main",
-            "path": "scripts/npc/6.s"
+            "symbol": "saffronCity5Object6Main",
+            "path": "scripts/object/6.s"
           },
           "flag": 0
-        }
+        },
+        "id": "object-7"
       },
       {
-        "type": "npc",
+        "type": "object",
+        "x": 24,
+        "y": 10,
+        "z": 3,
         "data": {
-          "id": 8,
           "sprite": 41,
           "replacement": 0,
-          "x": 24,
-          "y": 10,
-          "height": 3,
           "behavior": 8,
           "boundary": {
             "x": 1,
             "y": 1
           },
           "property": 1,
-          "view_radius": 3,
+          "viewRadius": 3,
           "script": {
-            "symbol": "saffronCity5Npc7Main",
-            "path": "scripts/npc/7.s"
+            "symbol": "saffronCity5Object7Main",
+            "path": "scripts/object/7.s"
           },
           "flag": 0
-        }
+        },
+        "id": "object-8"
       },
       {
-        "type": "npc",
+        "type": "object",
+        "x": 15,
+        "y": 20,
+        "z": 3,
         "data": {
-          "id": 9,
           "sprite": 91,
           "replacement": 0,
-          "x": 15,
-          "y": 20,
-          "height": 3,
           "behavior": 8,
           "boundary": {
             "x": 1,
             "y": 1
           },
           "property": 0,
-          "view_radius": 0,
+          "viewRadius": 0,
           "script": {
-            "symbol": "saffronCity5Npc8Main",
-            "path": "scripts/npc/8.s"
+            "symbol": "saffronCity5Object8Main",
+            "path": "scripts/object/8.s"
           },
           "flag": 0
-        }
-      },
-      {
-        "type": "warp",
-        "data": {
-          "x": 13,
-          "y": 23,
-          "height": 3,
-          "target": {
-            "warp": 3,
-            "map": {
-              "id": "map-3-10"
-            }
-          }
-        }
-      },
-      {
-        "type": "warp",
-        "data": {
-          "x": 14,
-          "y": 23,
-          "height": 3,
-          "target": {
-            "warp": 3,
-            "map": {
-              "id": "map-3-10"
-            }
-          }
-        }
-      },
-      {
-        "type": "warp",
-        "data": {
-          "x": 15,
-          "y": 23,
-          "height": 3,
-          "target": {
-            "warp": 3,
-            "map": {
-              "id": "map-3-10"
-            }
-          }
-        }
-      },
-      {
-        "type": "warp",
-        "data": {
-          "x": 18,
-          "y": 20,
-          "height": 3,
-          "target": {
-            "warp": 32,
-            "map": {
-              "id": "map-14-3"
-            }
-          }
-        }
-      },
-      {
-        "type": "warp",
-        "data": {
-          "x": 0,
-          "y": 4,
-          "height": 3,
-          "target": {
-            "warp": 22,
-            "map": {
-              "id": "map-14-3"
-            }
-          }
-        }
-      },
-      {
-        "type": "warp",
-        "data": {
-          "x": 0,
-          "y": 7,
-          "height": 3,
-          "target": {
-            "warp": 20,
-            "map": {
-              "id": "map-14-3"
-            }
-          }
-        }
-      },
-      {
-        "type": "warp",
-        "data": {
-          "x": 0,
-          "y": 12,
-          "height": 3,
-          "target": {
-            "warp": 30,
-            "map": {
-              "id": "map-14-3"
-            }
-          }
-        }
-      },
-      {
-        "type": "warp",
-        "data": {
-          "x": 0,
-          "y": 15,
-          "height": 3,
-          "target": {
-            "warp": 11,
-            "map": {
-              "id": "map-14-3"
-            }
-          }
-        }
-      },
-      {
-        "type": "warp",
-        "data": {
-          "x": 0,
-          "y": 20,
-          "height": 3,
-          "target": {
-            "warp": 28,
-            "map": {
-              "id": "map-14-3"
-            }
-          }
-        }
-      },
-      {
-        "type": "warp",
-        "data": {
-          "x": 0,
-          "y": 23,
-          "height": 3,
-          "target": {
-            "warp": 19,
-            "map": {
-              "id": "map-14-3"
-            }
-          }
-        }
-      },
-      {
-        "type": "warp",
-        "data": {
-          "x": 8,
-          "y": 4,
-          "height": 3,
-          "target": {
-            "warp": 18,
-            "map": {
-              "id": "map-14-3"
-            }
-          }
-        }
-      },
-      {
-        "type": "warp",
-        "data": {
-          "x": 8,
-          "y": 7,
-          "height": 3,
-          "target": {
-            "warp": 7,
-            "map": {
-              "id": "map-14-3"
-            }
-          }
-        }
-      },
-      {
-        "type": "warp",
-        "data": {
-          "x": 8,
-          "y": 12,
-          "height": 3,
-          "target": {
-            "warp": 17,
-            "map": {
-              "id": "map-14-3"
-            }
-          }
-        }
-      },
-      {
-        "type": "warp",
-        "data": {
-          "x": 8,
-          "y": 15,
-          "height": 3,
-          "target": {
-            "warp": 15,
-            "map": {
-              "id": "map-14-3"
-            }
-          }
-        }
-      },
-      {
-        "type": "warp",
-        "data": {
-          "x": 8,
-          "y": 20,
-          "height": 3,
-          "target": {
-            "warp": 26,
-            "map": {
-              "id": "map-14-3"
-            }
-          }
-        }
-      },
-      {
-        "type": "warp",
-        "data": {
-          "x": 8,
-          "y": 23,
-          "height": 3,
-          "target": {
-            "warp": 13,
-            "map": {
-              "id": "map-14-3"
-            }
-          }
-        }
-      },
-      {
-        "type": "warp",
-        "data": {
-          "x": 12,
-          "y": 4,
-          "height": 3,
-          "target": {
-            "warp": 24,
-            "map": {
-              "id": "map-14-3"
-            }
-          }
-        }
-      },
-      {
-        "type": "warp",
-        "data": {
-          "x": 12,
-          "y": 7,
-          "height": 3,
-          "target": {
-            "warp": 12,
-            "map": {
-              "id": "map-14-3"
-            }
-          }
-        }
-      },
-      {
-        "type": "warp",
-        "data": {
-          "x": 16,
-          "y": 4,
-          "height": 3,
-          "target": {
-            "warp": 10,
-            "map": {
-              "id": "map-14-3"
-            }
-          }
-        }
-      },
-      {
-        "type": "warp",
-        "data": {
-          "x": 16,
-          "y": 7,
-          "height": 3,
-          "target": {
-            "warp": 9,
-            "map": {
-              "id": "map-14-3"
-            }
-          }
-        }
-      },
-      {
-        "type": "warp",
-        "data": {
-          "x": 18,
-          "y": 15,
-          "height": 3,
-          "target": {
-            "warp": 5,
-            "map": {
-              "id": "map-14-3"
-            }
-          }
-        }
-      },
-      {
-        "type": "warp",
-        "data": {
-          "x": 20,
-          "y": 4,
-          "height": 3,
-          "target": {
-            "warp": 23,
-            "map": {
-              "id": "map-14-3"
-            }
-          }
-        }
-      },
-      {
-        "type": "warp",
-        "data": {
-          "x": 20,
-          "y": 7,
-          "height": 3,
-          "target": {
-            "warp": 4,
-            "map": {
-              "id": "map-14-3"
-            }
-          }
-        }
-      },
-      {
-        "type": "warp",
-        "data": {
-          "x": 20,
-          "y": 12,
-          "height": 3,
-          "target": {
-            "warp": 21,
-            "map": {
-              "id": "map-14-3"
-            }
-          }
-        }
-      },
-      {
-        "type": "warp",
-        "data": {
-          "x": 20,
-          "y": 15,
-          "height": 3,
-          "target": {
-            "warp": 16,
-            "map": {
-              "id": "map-14-3"
-            }
-          }
-        }
-      },
-      {
-        "type": "warp",
-        "data": {
-          "x": 20,
-          "y": 20,
-          "height": 3,
-          "target": {
-            "warp": 27,
-            "map": {
-              "id": "map-14-3"
-            }
-          }
-        }
-      },
-      {
-        "type": "warp",
-        "data": {
-          "x": 20,
-          "y": 23,
-          "height": 3,
-          "target": {
-            "warp": 14,
-            "map": {
-              "id": "map-14-3"
-            }
-          }
-        }
-      },
-      {
-        "type": "warp",
-        "data": {
-          "x": 28,
-          "y": 4,
-          "height": 3,
-          "target": {
-            "warp": 25,
-            "map": {
-              "id": "map-14-3"
-            }
-          }
-        }
-      },
-      {
-        "type": "warp",
-        "data": {
-          "x": 28,
-          "y": 7,
-          "height": 3,
-          "target": {
-            "warp": 8,
-            "map": {
-              "id": "map-14-3"
-            }
-          }
-        }
-      },
-      {
-        "type": "warp",
-        "data": {
-          "x": 28,
-          "y": 12,
-          "height": 3,
-          "target": {
-            "warp": 31,
-            "map": {
-              "id": "map-14-3"
-            }
-          }
-        }
-      },
-      {
-        "type": "warp",
-        "data": {
-          "x": 28,
-          "y": 15,
-          "height": 3,
-          "target": {
-            "warp": 6,
-            "map": {
-              "id": "map-14-3"
-            }
-          }
-        }
-      },
-      {
-        "type": "warp",
-        "data": {
-          "x": 28,
-          "y": 20,
-          "height": 3,
-          "target": {
-            "warp": 29,
-            "map": {
-              "id": "map-14-3"
-            }
-          }
-        }
-      },
-      {
-        "type": "warp",
-        "data": {
-          "x": 28,
-          "y": 23,
-          "height": 3,
-          "target": {
-            "warp": 3,
-            "map": {
-              "id": "map-14-3"
-            }
-          }
-        }
-      },
-      {
-        "type": "sign",
-        "data": {
-          "x": 12,
-          "y": 20,
-          "height": 0,
-          "type": "script",
-          "script": {
-            "symbol": "saffronCity5Sign0Main",
-            "path": "scripts/sign/0.s"
-          }
-        }
-      },
-      {
-        "type": "sign",
-        "data": {
-          "x": 16,
-          "y": 20,
-          "height": 0,
-          "type": "script",
-          "script": {
-            "symbol": "saffronCity5Sign1Main",
-            "path": "scripts/sign/1.s"
-          }
-        }
+        },
+        "id": "object-9"
       }
     ]
   }

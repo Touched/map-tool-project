@@ -354,128 +354,132 @@
     "connections": [],
     "entities": [
       {
-        "type": "npc",
+        "type": "warp",
+        "x": 3,
+        "y": 7,
+        "z": 0,
         "data": {
-          "id": 1,
+          "target": {
+            "warp": "warp-1",
+            "map": {
+              "id": "map-3-1"
+            }
+          }
+        },
+        "id": "warp-0"
+      },
+      {
+        "type": "warp",
+        "x": 4,
+        "y": 7,
+        "z": 0,
+        "data": {
+          "target": {
+            "warp": "warp-1",
+            "map": {
+              "id": "map-3-1"
+            }
+          }
+        },
+        "id": "warp-1"
+      },
+      {
+        "type": "warp",
+        "x": 5,
+        "y": 7,
+        "z": 3,
+        "data": {
+          "target": {
+            "warp": "warp-1",
+            "map": {
+              "id": "map-3-1"
+            }
+          }
+        },
+        "id": "warp-2"
+      },
+      {
+        "type": "interactable",
+        "x": 7,
+        "y": 1,
+        "z": 0,
+        "data": {
+          "type": "script",
+          "script": {
+            "symbol": "viridianCity1Interactable0Main",
+            "path": "scripts/interactable/0.s"
+          }
+        },
+        "id": "interactable-0"
+      },
+      {
+        "type": "object",
+        "x": 7,
+        "y": 4,
+        "z": 3,
+        "data": {
           "sprite": 30,
           "replacement": 0,
-          "x": 7,
-          "y": 4,
-          "height": 3,
           "behavior": 9,
           "boundary": {
             "x": 1,
             "y": 1
           },
           "property": 0,
-          "view_radius": 0,
+          "viewRadius": 0,
           "script": {
-            "symbol": "viridianCity1Npc0Main",
-            "path": "scripts/npc/0.s"
+            "symbol": "viridianCity1Object0Main",
+            "path": "scripts/object/0.s"
           },
           "flag": 0
-        }
+        },
+        "id": "object-1"
       },
       {
-        "type": "npc",
+        "type": "object",
+        "x": 2,
+        "y": 5,
+        "z": 3,
         "data": {
-          "id": 2,
           "sprite": 17,
           "replacement": 0,
-          "x": 2,
-          "y": 5,
-          "height": 3,
           "behavior": 3,
           "boundary": {
             "x": 1,
             "y": 2
           },
           "property": 0,
-          "view_radius": 0,
+          "viewRadius": 0,
           "script": {
-            "symbol": "viridianCity1Npc1Main",
-            "path": "scripts/npc/1.s"
+            "symbol": "viridianCity1Object1Main",
+            "path": "scripts/object/1.s"
           },
           "flag": 0
-        }
+        },
+        "id": "object-2"
       },
       {
-        "type": "npc",
+        "type": "object",
+        "x": 6,
+        "y": 6,
+        "z": 3,
         "data": {
-          "id": 3,
           "sprite": 110,
           "replacement": 0,
-          "x": 6,
-          "y": 6,
-          "height": 3,
           "behavior": 5,
           "boundary": {
             "x": 4,
             "y": 1
           },
           "property": 0,
-          "view_radius": 0,
+          "viewRadius": 0,
           "script": {
-            "symbol": "viridianCity1Npc2Main",
-            "path": "scripts/npc/2.s"
+            "symbol": "viridianCity1Object2Main",
+            "path": "scripts/object/2.s"
           },
           "flag": 0
-        }
-      },
-      {
-        "type": "warp",
-        "data": {
-          "x": 3,
-          "y": 7,
-          "height": 0,
-          "target": {
-            "warp": 1,
-            "map": {
-              "id": "map-3-1"
-            }
-          }
-        }
-      },
-      {
-        "type": "warp",
-        "data": {
-          "x": 4,
-          "y": 7,
-          "height": 0,
-          "target": {
-            "warp": 1,
-            "map": {
-              "id": "map-3-1"
-            }
-          }
-        }
-      },
-      {
-        "type": "warp",
-        "data": {
-          "x": 5,
-          "y": 7,
-          "height": 3,
-          "target": {
-            "warp": 1,
-            "map": {
-              "id": "map-3-1"
-            }
-          }
-        }
-      },
-      {
-        "type": "sign",
-        "data": {
-          "x": 7,
-          "y": 1,
-          "height": 0,
-          "type": "script",
-          "script": {
-            "symbol": "viridianCity1Sign0Main",
-            "path": "scripts/sign/0.s"
-          }
-        }
+        },
+        "id": "object-3"
       }
     ]
   }

@@ -14473,135 +14473,132 @@
     ],
     "entities": [
       {
-        "type": "npc",
+        "type": "warp",
+        "x": 58,
+        "y": 7,
+        "z": 3,
         "data": {
-          "id": 1,
+          "target": {
+            "warp": "warp-1",
+            "map": {
+              "id": "map-2-10"
+            }
+          }
+        },
+        "id": "warp-0"
+      },
+      {
+        "type": "interactable",
+        "x": 49,
+        "y": 27,
+        "z": 3,
+        "data": {
+          "type": "hiddenItem",
+          "item": 107,
+          "hiddenItemId": 185,
+          "quantity": 1
+        },
+        "id": "interactable-0"
+      },
+      {
+        "type": "interactable",
+        "x": 47,
+        "y": 30,
+        "z": 3,
+        "data": {
+          "type": "hiddenItem",
+          "item": 106,
+          "hiddenItemId": 186,
+          "quantity": 1
+        },
+        "id": "interactable-1"
+      },
+      {
+        "type": "interactable",
+        "x": 59,
+        "y": 32,
+        "z": 3,
+        "data": {
+          "type": "hiddenItem",
+          "item": 150,
+          "hiddenItemId": 187,
+          "quantity": 1
+        },
+        "id": "interactable-2"
+      },
+      {
+        "type": "interactable",
+        "x": 56,
+        "y": 8,
+        "z": 0,
+        "data": {
+          "type": "script",
+          "script": {
+            "symbol": "trainerTower11Interactable3Main",
+            "path": "scripts/interactable/3.s"
+          }
+        },
+        "id": "interactable-3"
+      },
+      {
+        "type": "interactable",
+        "x": 50,
+        "y": 30,
+        "z": 0,
+        "data": {
+          "type": "script",
+          "script": {
+            "symbol": "trainerTower11Interactable4Main",
+            "path": "scripts/interactable/4.s"
+          }
+        },
+        "id": "interactable-4"
+      },
+      {
+        "type": "object",
+        "x": 56,
+        "y": 26,
+        "z": 3,
+        "data": {
           "sprite": 19,
           "replacement": 0,
-          "x": 56,
-          "y": 26,
-          "height": 3,
           "behavior": 7,
           "boundary": {
             "x": 1,
             "y": 1
           },
           "property": 1,
-          "view_radius": 1,
+          "viewRadius": 1,
           "script": {
-            "symbol": "trainerTower11Npc0Main",
-            "path": "scripts/npc/0.s"
+            "symbol": "trainerTower11Object0Main",
+            "path": "scripts/object/0.s"
           },
           "flag": 0
-        }
+        },
+        "id": "object-1"
       },
       {
-        "type": "npc",
+        "type": "object",
+        "x": 56,
+        "y": 29,
+        "z": 3,
         "data": {
-          "id": 2,
           "sprite": 23,
           "replacement": 0,
-          "x": 56,
-          "y": 29,
-          "height": 3,
           "behavior": 8,
           "boundary": {
             "x": 1,
             "y": 1
           },
           "property": 1,
-          "view_radius": 1,
+          "viewRadius": 1,
           "script": {
-            "symbol": "trainerTower11Npc1Main",
-            "path": "scripts/npc/1.s"
+            "symbol": "trainerTower11Object1Main",
+            "path": "scripts/object/1.s"
           },
           "flag": 0
-        }
-      },
-      {
-        "type": "warp",
-        "data": {
-          "x": 58,
-          "y": 7,
-          "height": 3,
-          "target": {
-            "warp": 1,
-            "map": {
-              "id": "map-2-10"
-            }
-          }
-        }
-      },
-      {
-        "type": "sign",
-        "data": {
-          "x": 49,
-          "y": 27,
-          "height": 3,
-          "type": "hidden_item2",
-          "item": 107,
-          "id": 185,
-          "data": {
-            "amount": 1,
-            "exact_required": 0
-          }
-        }
-      },
-      {
-        "type": "sign",
-        "data": {
-          "x": 47,
-          "y": 30,
-          "height": 3,
-          "type": "hidden_item2",
-          "item": 106,
-          "id": 186,
-          "data": {
-            "amount": 1,
-            "exact_required": 0
-          }
-        }
-      },
-      {
-        "type": "sign",
-        "data": {
-          "x": 59,
-          "y": 32,
-          "height": 3,
-          "type": "hidden_item2",
-          "item": 150,
-          "id": 187,
-          "data": {
-            "amount": 1,
-            "exact_required": 0
-          }
-        }
-      },
-      {
-        "type": "sign",
-        "data": {
-          "x": 56,
-          "y": 8,
-          "height": 0,
-          "type": "script",
-          "script": {
-            "symbol": "trainerTower11Sign3Main",
-            "path": "scripts/sign/3.s"
-          }
-        }
-      },
-      {
-        "type": "sign",
-        "data": {
-          "x": 50,
-          "y": 30,
-          "height": 0,
-          "type": "script",
-          "script": {
-            "symbol": "trainerTower11Sign4Main",
-            "path": "scripts/sign/4.s"
-          }
-        }
+        },
+        "id": "object-2"
       }
     ]
   }

@@ -12,53 +12,46 @@
     "linked": {
       "id": "map-7-2"
     },
-    "blocksets": {
-      "primary": {
-        "id": "blockset-0"
-      },
-      "secondary": {
-        "id": "blockset-39"
-      }
-    },
     "scripts": [],
     "connections": [],
     "entities": [
       {
-        "type": "npc",
+        "type": "warp",
+        "x": 4,
+        "y": 7,
+        "z": 3,
         "data": {
-          "id": 1,
+          "target": {
+            "warp": "warp-12",
+            "map": {
+              "id": "map-3-3"
+            }
+          }
+        },
+        "id": "warp-0"
+      },
+      {
+        "type": "object",
+        "x": 5,
+        "y": 3,
+        "z": 3,
+        "data": {
           "sprite": 32,
           "replacement": 0,
-          "x": 5,
-          "y": 3,
-          "height": 3,
           "behavior": 7,
           "boundary": {
             "x": 1,
             "y": 1
           },
           "property": 0,
-          "view_radius": 0,
+          "viewRadius": 0,
           "script": {
-            "symbol": "ceruleanCity9Npc0Main",
-            "path": "scripts/npc/0.s"
+            "symbol": "ceruleanCity9Object0Main",
+            "path": "scripts/object/0.s"
           },
           "flag": 0
-        }
-      },
-      {
-        "type": "warp",
-        "data": {
-          "x": 4,
-          "y": 7,
-          "height": 3,
-          "target": {
-            "warp": 12,
-            "map": {
-              "id": "map-3-3"
-            }
-          }
-        }
+        },
+        "id": "object-1"
       }
     ]
   }

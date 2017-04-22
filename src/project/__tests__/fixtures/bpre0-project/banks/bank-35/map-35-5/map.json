@@ -12,76 +12,69 @@
     "linked": {
       "id": "map-2-58"
     },
-    "blocksets": {
-      "primary": {
-        "id": "blockset-3"
-      },
-      "secondary": {
-        "id": "blockset-28"
-      }
-    },
     "scripts": [],
     "connections": [],
     "entities": [
       {
-        "type": "npc",
+        "type": "warp",
+        "x": 8,
+        "y": 2,
+        "z": 3,
         "data": {
-          "id": 1,
+          "target": {
+            "warp": "warp-6",
+            "map": {
+              "id": "map-3-15"
+            }
+          }
+        },
+        "id": "warp-0"
+      },
+      {
+        "type": "object",
+        "x": 8,
+        "y": 9,
+        "z": 0,
+        "data": {
           "sprite": 108,
           "replacement": 0,
-          "x": 8,
-          "y": 9,
-          "height": 0,
           "behavior": 8,
           "boundary": {
             "x": 1,
             "y": 1
           },
           "property": 0,
-          "view_radius": 0,
+          "viewRadius": 0,
           "script": {
-            "symbol": "fourIsland6Npc0Main",
-            "path": "scripts/npc/0.s"
+            "symbol": "fourIsland6Object0Main",
+            "path": "scripts/object/0.s"
           },
           "flag": 0
-        }
+        },
+        "id": "object-1"
       },
       {
-        "type": "npc",
+        "type": "object",
+        "x": 8,
+        "y": 6,
+        "z": 3,
         "data": {
-          "id": 2,
           "sprite": 62,
           "replacement": 0,
-          "x": 8,
-          "y": 6,
-          "height": 3,
           "behavior": 7,
           "boundary": {
             "x": 1,
             "y": 1
           },
           "property": 0,
-          "view_radius": 0,
+          "viewRadius": 0,
           "script": {
-            "symbol": "fourIsland6Npc1Main",
-            "path": "scripts/npc/1.s"
+            "symbol": "fourIsland6Object1Main",
+            "path": "scripts/object/1.s"
           },
           "flag": 0
-        }
-      },
-      {
-        "type": "warp",
-        "data": {
-          "x": 8,
-          "y": 2,
-          "height": 3,
-          "target": {
-            "warp": 6,
-            "map": {
-              "id": "map-3-15"
-            }
-          }
-        }
+        },
+        "id": "object-2"
       }
     ]
   }

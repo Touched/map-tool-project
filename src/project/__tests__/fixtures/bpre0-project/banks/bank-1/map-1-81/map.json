@@ -5825,331 +5825,338 @@
     "connections": [],
     "entities": [
       {
-        "type": "npc",
+        "type": "warp",
+        "x": 17,
+        "y": 2,
+        "z": 3,
         "data": {
-          "id": 1,
+          "target": {
+            "warp": "warp-0",
+            "map": {
+              "id": "map-3-28"
+            }
+          }
+        },
+        "id": "warp-0"
+      },
+      {
+        "type": "warp",
+        "x": 45,
+        "y": 2,
+        "z": 3,
+        "data": {
+          "target": {
+            "warp": "warp-0",
+            "map": {
+              "id": "map-1-82"
+            }
+          }
+        },
+        "id": "warp-1"
+      },
+      {
+        "type": "warp",
+        "x": 4,
+        "y": 2,
+        "z": 3,
+        "data": {
+          "target": {
+            "warp": "warp-1",
+            "map": {
+              "id": "map-1-82"
+            }
+          }
+        },
+        "id": "warp-2"
+      },
+      {
+        "type": "warp",
+        "x": 20,
+        "y": 13,
+        "z": 3,
+        "data": {
+          "target": {
+            "warp": "warp-2",
+            "map": {
+              "id": "map-1-82"
+            }
+          }
+        },
+        "id": "warp-3"
+      },
+      {
+        "type": "warp",
+        "x": 45,
+        "y": 21,
+        "z": 3,
+        "data": {
+          "target": {
+            "warp": "warp-3",
+            "map": {
+              "id": "map-1-82"
+            }
+          }
+        },
+        "id": "warp-4"
+      },
+      {
+        "type": "warp",
+        "x": 18,
+        "y": 37,
+        "z": 3,
+        "data": {
+          "target": {
+            "warp": "warp-1",
+            "map": {
+              "id": "map-3-28"
+            }
+          }
+        },
+        "id": "warp-5"
+      },
+      {
+        "type": "interactable",
+        "x": 14,
+        "y": 33,
+        "z": 3,
+        "data": {
+          "type": "script",
+          "script": {
+            "symbol": "rockTunnelInteractable0Main",
+            "path": "scripts/interactable/0.s"
+          }
+        },
+        "id": "interactable-0"
+      },
+      {
+        "type": "object",
+        "x": 26,
+        "y": 28,
+        "z": 3,
+        "data": {
           "sprite": 40,
           "replacement": 0,
-          "x": 26,
-          "y": 28,
-          "height": 3,
           "behavior": 8,
           "boundary": {
             "x": 1,
             "y": 1
           },
           "property": 1,
-          "view_radius": 3,
+          "viewRadius": 3,
           "script": {
-            "symbol": "rockTunnelNpc0Main",
-            "path": "scripts/npc/0.s"
+            "symbol": "rockTunnelObject0Main",
+            "path": "scripts/object/0.s"
           },
           "flag": 0
-        }
+        },
+        "id": "object-1"
       },
       {
-        "type": "npc",
+        "type": "object",
+        "x": 39,
+        "y": 27,
+        "z": 3,
         "data": {
-          "id": 2,
           "sprite": 40,
           "replacement": 0,
-          "x": 39,
-          "y": 27,
-          "height": 3,
           "behavior": 10,
           "boundary": {
             "x": 1,
             "y": 1
           },
           "property": 1,
-          "view_radius": 4,
+          "viewRadius": 4,
           "script": {
-            "symbol": "rockTunnelNpc1Main",
-            "path": "scripts/npc/1.s"
+            "symbol": "rockTunnelObject1Main",
+            "path": "scripts/object/1.s"
           },
           "flag": 0
-        }
+        },
+        "id": "object-2"
       },
       {
-        "type": "npc",
+        "type": "object",
+        "x": 45,
+        "y": 24,
+        "z": 3,
         "data": {
-          "id": 3,
           "sprite": 40,
           "replacement": 0,
-          "x": 45,
-          "y": 24,
-          "height": 3,
           "behavior": 9,
           "boundary": {
             "x": 1,
             "y": 1
           },
           "property": 1,
-          "view_radius": 5,
+          "viewRadius": 5,
           "script": {
-            "symbol": "rockTunnelNpc2Main",
-            "path": "scripts/npc/2.s"
+            "symbol": "rockTunnelObject2Main",
+            "path": "scripts/object/2.s"
           },
           "flag": 0
-        }
+        },
+        "id": "object-3"
       },
       {
-        "type": "npc",
+        "type": "object",
+        "x": 20,
+        "y": 17,
+        "z": 3,
         "data": {
-          "id": 4,
           "sprite": 56,
           "replacement": 0,
-          "x": 20,
-          "y": 17,
-          "height": 3,
           "behavior": 9,
           "boundary": {
             "x": 1,
             "y": 1
           },
           "property": 1,
-          "view_radius": 4,
+          "viewRadius": 4,
           "script": {
-            "symbol": "rockTunnelNpc3Main",
-            "path": "scripts/npc/3.s"
+            "symbol": "rockTunnelObject3Main",
+            "path": "scripts/object/3.s"
           },
           "flag": 0
-        }
+        },
+        "id": "object-4"
       },
       {
-        "type": "npc",
+        "type": "object",
+        "x": 5,
+        "y": 20,
+        "z": 3,
         "data": {
-          "id": 5,
           "sprite": 56,
           "replacement": 0,
-          "x": 5,
-          "y": 20,
-          "height": 3,
           "behavior": 8,
           "boundary": {
             "x": 1,
             "y": 1
           },
           "property": 1,
-          "view_radius": 4,
+          "viewRadius": 4,
           "script": {
-            "symbol": "rockTunnelNpc4Main",
-            "path": "scripts/npc/4.s"
+            "symbol": "rockTunnelObject4Main",
+            "path": "scripts/object/4.s"
           },
           "flag": 0
-        }
+        },
+        "id": "object-5"
       },
       {
-        "type": "npc",
+        "type": "object",
+        "x": 7,
+        "y": 5,
+        "z": 3,
         "data": {
-          "id": 6,
           "sprite": 56,
           "replacement": 0,
-          "x": 7,
-          "y": 5,
-          "height": 3,
           "behavior": 8,
           "boundary": {
             "x": 1,
             "y": 1
           },
           "property": 1,
-          "view_radius": 4,
+          "viewRadius": 4,
           "script": {
-            "symbol": "rockTunnelNpc5Main",
-            "path": "scripts/npc/5.s"
+            "symbol": "rockTunnelObject5Main",
+            "path": "scripts/object/5.s"
           },
           "flag": 0
-        }
+        },
+        "id": "object-6"
       },
       {
-        "type": "npc",
+        "type": "object",
+        "x": 27,
+        "y": 10,
+        "z": 3,
         "data": {
-          "id": 7,
           "sprite": 52,
           "replacement": 0,
-          "x": 27,
-          "y": 10,
-          "height": 3,
           "behavior": 9,
           "boundary": {
             "x": 1,
             "y": 1
           },
           "property": 1,
-          "view_radius": 3,
+          "viewRadius": 3,
           "script": {
-            "symbol": "rockTunnelNpc6Main",
-            "path": "scripts/npc/6.s"
+            "symbol": "rockTunnelObject6Main",
+            "path": "scripts/object/6.s"
           },
           "flag": 0
-        }
+        },
+        "id": "object-7"
       },
       {
-        "type": "npc",
+        "type": "object",
+        "x": 37,
+        "y": 5,
+        "z": 3,
         "data": {
-          "id": 8,
           "sprite": 92,
           "replacement": 0,
-          "x": 37,
-          "y": 5,
-          "height": 3,
           "behavior": 1,
           "boundary": {
             "x": 1,
             "y": 1
           },
           "property": 0,
-          "view_radius": 0,
+          "viewRadius": 0,
           "script": {
-            "symbol": "rockTunnelNpc7Main",
-            "path": "scripts/npc/7.s"
+            "symbol": "rockTunnelObject7Main",
+            "path": "scripts/object/7.s"
           },
           "flag": 451
-        }
+        },
+        "id": "object-8"
       },
       {
-        "type": "npc",
+        "type": "object",
+        "x": 33,
+        "y": 22,
+        "z": 3,
         "data": {
-          "id": 9,
           "sprite": 92,
           "replacement": 0,
-          "x": 33,
-          "y": 22,
-          "height": 3,
           "behavior": 1,
           "boundary": {
             "x": 1,
             "y": 1
           },
           "property": 0,
-          "view_radius": 0,
+          "viewRadius": 0,
           "script": {
-            "symbol": "rockTunnelNpc8Main",
-            "path": "scripts/npc/8.s"
+            "symbol": "rockTunnelObject8Main",
+            "path": "scripts/object/8.s"
           },
           "flag": 452
-        }
+        },
+        "id": "object-9"
       },
       {
-        "type": "npc",
+        "type": "object",
+        "x": 22,
+        "y": 22,
+        "z": 3,
         "data": {
-          "id": 10,
           "sprite": 92,
           "replacement": 0,
-          "x": 22,
-          "y": 22,
-          "height": 3,
           "behavior": 1,
           "boundary": {
             "x": 1,
             "y": 1
           },
           "property": 0,
-          "view_radius": 0,
+          "viewRadius": 0,
           "script": {
-            "symbol": "rockTunnelNpc9Main",
-            "path": "scripts/npc/9.s"
+            "symbol": "rockTunnelObject9Main",
+            "path": "scripts/object/9.s"
           },
           "flag": 453
-        }
-      },
-      {
-        "type": "warp",
-        "data": {
-          "x": 17,
-          "y": 2,
-          "height": 3,
-          "target": {
-            "warp": 0,
-            "map": {
-              "id": "map-3-28"
-            }
-          }
-        }
-      },
-      {
-        "type": "warp",
-        "data": {
-          "x": 45,
-          "y": 2,
-          "height": 3,
-          "target": {
-            "warp": 0,
-            "map": {
-              "id": "map-1-82"
-            }
-          }
-        }
-      },
-      {
-        "type": "warp",
-        "data": {
-          "x": 4,
-          "y": 2,
-          "height": 3,
-          "target": {
-            "warp": 1,
-            "map": {
-              "id": "map-1-82"
-            }
-          }
-        }
-      },
-      {
-        "type": "warp",
-        "data": {
-          "x": 20,
-          "y": 13,
-          "height": 3,
-          "target": {
-            "warp": 2,
-            "map": {
-              "id": "map-1-82"
-            }
-          }
-        }
-      },
-      {
-        "type": "warp",
-        "data": {
-          "x": 45,
-          "y": 21,
-          "height": 3,
-          "target": {
-            "warp": 3,
-            "map": {
-              "id": "map-1-82"
-            }
-          }
-        }
-      },
-      {
-        "type": "warp",
-        "data": {
-          "x": 18,
-          "y": 37,
-          "height": 3,
-          "target": {
-            "warp": 1,
-            "map": {
-              "id": "map-3-28"
-            }
-          }
-        }
-      },
-      {
-        "type": "sign",
-        "data": {
-          "x": 14,
-          "y": 33,
-          "height": 3,
-          "type": "script",
-          "script": {
-            "symbol": "rockTunnelSign0Main",
-            "path": "scripts/sign/0.s"
-          }
-        }
+        },
+        "id": "object-10"
       }
     ]
   }

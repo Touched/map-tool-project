@@ -429,31 +429,33 @@
     "entities": [
       {
         "type": "warp",
+        "x": 5,
+        "y": 8,
+        "z": 3,
         "data": {
-          "x": 5,
-          "y": 8,
-          "height": 3,
           "target": {
-            "warp": 0,
+            "warp": "warp-0",
             "map": {
               "id": "map-3-54"
             }
           }
-        }
+        },
+        "id": "warp-0"
       },
       {
         "type": "warp",
+        "x": 5,
+        "y": 5,
+        "z": 3,
         "data": {
-          "x": 5,
-          "y": 5,
-          "height": 3,
           "target": {
-            "warp": 0,
+            "warp": "warp-0",
             "map": {
               "id": "map-2-13"
             }
           }
-        }
+        },
+        "id": "warp-1"
       }
     ]
   }

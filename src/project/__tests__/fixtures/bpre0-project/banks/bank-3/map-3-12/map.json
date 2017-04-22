@@ -1533,155 +1533,161 @@
     ],
     "entities": [
       {
-        "type": "npc",
+        "type": "warp",
+        "x": 14,
+        "y": 5,
+        "z": 0,
         "data": {
-          "id": 1,
+          "target": {
+            "warp": "warp-0",
+            "map": {
+              "id": "map-32-0"
+            }
+          }
+        },
+        "id": "warp-0"
+      },
+      {
+        "type": "warp",
+        "x": 19,
+        "y": 9,
+        "z": 0,
+        "data": {
+          "target": {
+            "warp": "warp-0",
+            "map": {
+              "id": "map-32-2"
+            }
+          }
+        },
+        "id": "warp-1"
+      },
+      {
+        "type": "warp",
+        "x": 8,
+        "y": 11,
+        "z": 0,
+        "data": {
+          "target": {
+            "warp": "warp-0",
+            "map": {
+              "id": "map-32-3"
+            }
+          }
+        },
+        "id": "warp-2"
+      },
+      {
+        "type": "warp",
+        "x": 12,
+        "y": 18,
+        "z": 3,
+        "data": {
+          "target": {
+            "warp": "warp-0",
+            "map": {
+              "id": "map-32-4"
+            }
+          }
+        },
+        "id": "warp-3"
+      },
+      {
+        "type": "interactable",
+        "x": 14,
+        "y": 13,
+        "z": 0,
+        "data": {
+          "type": "script",
+          "script": {
+            "symbol": "oneIslandInteractable0Main",
+            "path": "scripts/interactable/0.s"
+          }
+        },
+        "id": "interactable-0"
+      },
+      {
+        "type": "interactable",
+        "x": 15,
+        "y": 6,
+        "z": 0,
+        "data": {
+          "type": "script",
+          "script": {
+            "symbol": "oneIslandInteractable1Main",
+            "path": "scripts/interactable/1.s"
+          }
+        },
+        "id": "interactable-1"
+      },
+      {
+        "type": "object",
+        "x": 12,
+        "y": 16,
+        "z": 3,
+        "data": {
           "sprite": 73,
           "replacement": 0,
-          "x": 12,
-          "y": 16,
-          "height": 3,
           "behavior": 8,
           "boundary": {
             "x": 1,
             "y": 1
           },
           "property": 0,
-          "view_radius": 0,
+          "viewRadius": 0,
           "script": {
-            "symbol": "oneIslandNpc0Main",
-            "path": "scripts/npc/0.s"
+            "symbol": "oneIslandObject0Main",
+            "path": "scripts/object/0.s"
           },
           "flag": 113
-        }
+        },
+        "id": "object-1"
       },
       {
-        "type": "npc",
+        "type": "object",
+        "x": 16,
+        "y": 12,
+        "z": 3,
         "data": {
-          "id": 2,
           "sprite": 32,
           "replacement": 0,
-          "x": 16,
-          "y": 12,
-          "height": 3,
           "behavior": 2,
           "boundary": {
             "x": 1,
             "y": 1
           },
           "property": 0,
-          "view_radius": 0,
+          "viewRadius": 0,
           "script": {
-            "symbol": "oneIslandNpc1Main",
-            "path": "scripts/npc/1.s"
+            "symbol": "oneIslandObject1Main",
+            "path": "scripts/object/1.s"
           },
           "flag": 0
-        }
+        },
+        "id": "object-2"
       },
       {
-        "type": "npc",
+        "type": "object",
+        "x": 13,
+        "y": 9,
+        "z": 3,
         "data": {
-          "id": 3,
           "sprite": 30,
           "replacement": 0,
-          "x": 13,
-          "y": 9,
-          "height": 3,
           "behavior": 13,
           "boundary": {
             "x": 1,
             "y": 1
           },
           "property": 0,
-          "view_radius": 0,
+          "viewRadius": 0,
           "script": {
-            "symbol": "oneIslandNpc2Main",
-            "path": "scripts/npc/2.s"
+            "symbol": "oneIslandObject2Main",
+            "path": "scripts/object/2.s"
           },
           "flag": 0
-        }
-      },
-      {
-        "type": "warp",
-        "data": {
-          "x": 14,
-          "y": 5,
-          "height": 0,
-          "target": {
-            "warp": 0,
-            "map": {
-              "id": "map-32-0"
-            }
-          }
-        }
-      },
-      {
-        "type": "warp",
-        "data": {
-          "x": 19,
-          "y": 9,
-          "height": 0,
-          "target": {
-            "warp": 0,
-            "map": {
-              "id": "map-32-2"
-            }
-          }
-        }
-      },
-      {
-        "type": "warp",
-        "data": {
-          "x": 8,
-          "y": 11,
-          "height": 0,
-          "target": {
-            "warp": 0,
-            "map": {
-              "id": "map-32-3"
-            }
-          }
-        }
-      },
-      {
-        "type": "warp",
-        "data": {
-          "x": 12,
-          "y": 18,
-          "height": 3,
-          "target": {
-            "warp": 0,
-            "map": {
-              "id": "map-32-4"
-            }
-          }
-        }
-      },
-      {
-        "type": "sign",
-        "data": {
-          "x": 14,
-          "y": 13,
-          "height": 0,
-          "type": "script",
-          "script": {
-            "symbol": "oneIslandSign0Main",
-            "path": "scripts/sign/0.s"
-          }
-        }
-      },
-      {
-        "type": "sign",
-        "data": {
-          "x": 15,
-          "y": 6,
-          "height": 0,
-          "type": "script",
-          "script": {
-            "symbol": "oneIslandSign1Main",
-            "path": "scripts/sign/1.s"
-          }
-        }
+        },
+        "id": "object-3"
       }
     ]
   }

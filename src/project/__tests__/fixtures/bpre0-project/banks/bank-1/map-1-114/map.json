@@ -2421,619 +2421,643 @@
     "connections": [],
     "entities": [
       {
-        "type": "npc",
-        "data": {
-          "id": 1,
-          "sprite": 49,
-          "replacement": 0,
-          "x": 15,
-          "y": 11,
-          "height": 3,
-          "behavior": 17,
-          "boundary": {
-            "x": 1,
-            "y": 1
-          },
-          "property": 1,
-          "view_radius": 1,
-          "script": {
-            "symbol": "rocketWarehouseNpc0Main",
-            "path": "scripts/npc/0.s"
-          },
-          "flag": 136
-        }
-      },
-      {
-        "type": "npc",
-        "data": {
-          "id": 2,
-          "sprite": 49,
-          "replacement": 0,
-          "x": 17,
-          "y": 15,
-          "height": 3,
-          "behavior": 10,
-          "boundary": {
-            "x": 1,
-            "y": 1
-          },
-          "property": 1,
-          "view_radius": 1,
-          "script": {
-            "symbol": "rocketWarehouseNpc1Main",
-            "path": "scripts/npc/1.s"
-          },
-          "flag": 136
-        }
-      },
-      {
-        "type": "npc",
-        "data": {
-          "id": 3,
-          "sprite": 50,
-          "replacement": 0,
-          "x": 27,
-          "y": 16,
-          "height": 3,
-          "behavior": 9,
-          "boundary": {
-            "x": 1,
-            "y": 1
-          },
-          "property": 1,
-          "view_radius": 3,
-          "script": {
-            "symbol": "rocketWarehouseNpc2Main",
-            "path": "scripts/npc/2.s"
-          },
-          "flag": 136
-        }
-      },
-      {
-        "type": "npc",
-        "data": {
-          "id": 4,
-          "sprite": 49,
-          "replacement": 0,
-          "x": 25,
-          "y": 11,
-          "height": 3,
-          "behavior": 10,
-          "boundary": {
-            "x": 1,
-            "y": 1
-          },
-          "property": 1,
-          "view_radius": 3,
-          "script": {
-            "symbol": "rocketWarehouseNpc3Main",
-            "path": "scripts/npc/3.s"
-          },
-          "flag": 136
-        }
-      },
-      {
-        "type": "npc",
-        "data": {
-          "id": 5,
-          "sprite": 50,
-          "replacement": 0,
-          "x": 6,
-          "y": 6,
-          "height": 3,
-          "behavior": 16,
-          "boundary": {
-            "x": 1,
-            "y": 1
-          },
-          "property": 1,
-          "view_radius": 3,
-          "script": {
-            "symbol": "rocketWarehouseNpc4Main",
-            "path": "scripts/npc/4.s"
-          },
-          "flag": 136
-        }
-      },
-      {
-        "type": "npc",
-        "data": {
-          "id": 6,
-          "sprite": 55,
-          "replacement": 0,
-          "x": 27,
-          "y": 4,
-          "height": 3,
-          "behavior": 9,
-          "boundary": {
-            "x": 1,
-            "y": 1
-          },
-          "property": 1,
-          "view_radius": 0,
-          "script": {
-            "symbol": "rocketWarehouseNpc5Main",
-            "path": "scripts/npc/5.s"
-          },
-          "flag": 0
-        }
-      },
-      {
-        "type": "npc",
-        "data": {
-          "id": 7,
-          "sprite": 92,
-          "replacement": 0,
-          "x": 8,
-          "y": 25,
-          "height": 3,
-          "behavior": 8,
-          "boundary": {
-            "x": 1,
-            "y": 1
-          },
-          "property": 0,
-          "view_radius": 0,
-          "script": {
-            "symbol": "rocketWarehouseNpc6Main",
-            "path": "scripts/npc/6.s"
-          },
-          "flag": 500
-        }
-      },
-      {
-        "type": "npc",
-        "data": {
-          "id": 8,
-          "sprite": 92,
-          "replacement": 0,
-          "x": 17,
-          "y": 3,
-          "height": 0,
-          "behavior": 8,
-          "boundary": {
-            "x": 1,
-            "y": 1
-          },
-          "property": 0,
-          "view_radius": 0,
-          "script": {
-            "symbol": "rocketWarehouseNpc7Main",
-            "path": "scripts/npc/7.s"
-          },
-          "flag": 501
-        }
-      },
-      {
-        "type": "npc",
-        "data": {
-          "id": 9,
-          "sprite": 92,
-          "replacement": 0,
-          "x": 1,
-          "y": 16,
-          "height": 3,
-          "behavior": 8,
-          "boundary": {
-            "x": 1,
-            "y": 1
-          },
-          "property": 0,
-          "view_radius": 0,
-          "script": {
-            "symbol": "rocketWarehouseNpc8Main",
-            "path": "scripts/npc/8.s"
-          },
-          "flag": 502
-        }
-      },
-      {
-        "type": "npc",
-        "data": {
-          "id": 10,
-          "sprite": 92,
-          "replacement": 0,
-          "x": 4,
-          "y": 5,
-          "height": 3,
-          "behavior": 8,
-          "boundary": {
-            "x": 1,
-            "y": 1
-          },
-          "property": 0,
-          "view_radius": 0,
-          "script": {
-            "symbol": "rocketWarehouseNpc9Main",
-            "path": "scripts/npc/9.s"
-          },
-          "flag": 503
-        }
-      },
-      {
         "type": "warp",
+        "x": 24,
+        "y": 25,
+        "z": 3,
         "data": {
-          "x": 24,
-          "y": 25,
-          "height": 3,
           "target": {
-            "warp": 0,
+            "warp": "warp-0",
             "map": {
               "id": "map-3-56"
             }
           }
-        }
+        },
+        "id": "warp-0"
       },
       {
-        "type": "sign",
+        "type": "interactable",
+        "x": 11,
+        "y": 2,
+        "z": 0,
         "data": {
-          "x": 11,
-          "y": 2,
-          "height": 0,
           "type": "script",
           "script": {
-            "symbol": "rocketWarehouseSign0Main",
-            "path": "scripts/sign/0.s"
+            "symbol": "rocketWarehouseInteractable0Main",
+            "path": "scripts/interactable/0.s"
           }
-        }
+        },
+        "id": "interactable-0"
       },
       {
-        "type": "sign",
+        "type": "interactable",
+        "x": 26,
+        "y": 11,
+        "z": 0,
         "data": {
-          "x": 26,
-          "y": 11,
-          "height": 0,
-          "type": "script_right",
+          "type": "script",
           "script": {
-            "symbol": "rocketWarehouseSign1Main",
-            "path": "scripts/sign/1.s"
-          }
-        }
+            "symbol": "rocketWarehouseInteractable1Main",
+            "path": "scripts/interactable/1.s"
+          },
+          "direction": "right"
+        },
+        "id": "interactable-1"
       },
       {
-        "type": "sign",
+        "type": "interactable",
+        "x": 27,
+        "y": 2,
+        "z": 0,
         "data": {
-          "x": 27,
-          "y": 2,
-          "height": 0,
-          "type": "hidden_item2",
+          "type": "hiddenItem",
           "item": 8,
-          "id": 68,
-          "data": {
-            "amount": 1,
-            "exact_required": 0
-          }
-        }
+          "hiddenItemId": 68,
+          "quantity": 1
+        },
+        "id": "interactable-2"
       },
       {
-        "type": "sign",
+        "type": "interactable",
+        "x": 7,
+        "y": 16,
+        "z": 0,
         "data": {
-          "x": 7,
-          "y": 16,
-          "height": 0,
-          "type": "hidden_item2",
+          "type": "hiddenItem",
           "item": 6,
-          "id": 69,
-          "data": {
-            "amount": 1,
-            "exact_required": 0
-          }
-        }
+          "hiddenItemId": 69,
+          "quantity": 1
+        },
+        "id": "interactable-3"
       },
       {
-        "type": "sign",
+        "type": "interactable",
+        "x": 12,
+        "y": 2,
+        "z": 0,
         "data": {
-          "x": 12,
-          "y": 2,
-          "height": 0,
           "type": "script",
           "script": {
-            "symbol": "rocketWarehouseSign4Main",
-            "path": "scripts/sign/4.s"
+            "symbol": "rocketWarehouseInteractable4Main",
+            "path": "scripts/interactable/4.s"
           }
-        }
+        },
+        "id": "interactable-4"
       },
       {
-        "type": "sign",
+        "type": "interactable",
+        "x": 10,
+        "y": 2,
+        "z": 0,
         "data": {
-          "x": 10,
-          "y": 2,
-          "height": 0,
           "type": "script",
           "script": {
-            "symbol": "rocketWarehouseSign5Main",
-            "path": "scripts/sign/5.s"
+            "symbol": "rocketWarehouseInteractable5Main",
+            "path": "scripts/interactable/5.s"
           }
-        }
+        },
+        "id": "interactable-5"
       },
       {
-        "type": "sign",
+        "type": "interactable",
+        "x": 9,
+        "y": 2,
+        "z": 0,
         "data": {
-          "x": 9,
-          "y": 2,
-          "height": 0,
           "type": "script",
           "script": {
-            "symbol": "rocketWarehouseSign6Main",
-            "path": "scripts/sign/6.s"
+            "symbol": "rocketWarehouseInteractable6Main",
+            "path": "scripts/interactable/6.s"
           }
-        }
+        },
+        "id": "interactable-6"
       },
       {
-        "type": "sign",
+        "type": "interactable",
+        "x": 8,
+        "y": 2,
+        "z": 0,
         "data": {
-          "x": 8,
-          "y": 2,
-          "height": 0,
           "type": "script",
           "script": {
-            "symbol": "rocketWarehouseSign7Main",
-            "path": "scripts/sign/7.s"
+            "symbol": "rocketWarehouseInteractable7Main",
+            "path": "scripts/interactable/7.s"
           }
-        }
+        },
+        "id": "interactable-7"
       },
       {
-        "type": "sign",
+        "type": "interactable",
+        "x": 7,
+        "y": 2,
+        "z": 0,
         "data": {
-          "x": 7,
-          "y": 2,
-          "height": 0,
           "type": "script",
           "script": {
-            "symbol": "rocketWarehouseSign8Main",
-            "path": "scripts/sign/8.s"
+            "symbol": "rocketWarehouseInteractable8Main",
+            "path": "scripts/interactable/8.s"
           }
-        }
+        },
+        "id": "interactable-8"
       },
       {
-        "type": "sign",
+        "type": "interactable",
+        "x": 11,
+        "y": 5,
+        "z": 0,
         "data": {
-          "x": 11,
-          "y": 5,
-          "height": 0,
           "type": "script",
           "script": {
-            "symbol": "rocketWarehouseSign9Main",
-            "path": "scripts/sign/9.s"
+            "symbol": "rocketWarehouseInteractable9Main",
+            "path": "scripts/interactable/9.s"
           }
-        }
+        },
+        "id": "interactable-9"
       },
       {
-        "type": "sign",
+        "type": "interactable",
+        "x": 10,
+        "y": 5,
+        "z": 0,
         "data": {
-          "x": 10,
-          "y": 5,
-          "height": 0,
           "type": "script",
           "script": {
-            "symbol": "rocketWarehouseSign10Main",
-            "path": "scripts/sign/10.s"
+            "symbol": "rocketWarehouseInteractable10Main",
+            "path": "scripts/interactable/10.s"
           }
-        }
+        },
+        "id": "interactable-10"
       },
       {
-        "type": "sign",
+        "type": "interactable",
+        "x": 11,
+        "y": 4,
+        "z": 0,
         "data": {
-          "x": 11,
-          "y": 4,
-          "height": 0,
           "type": "script",
           "script": {
-            "symbol": "rocketWarehouseSign11Main",
-            "path": "scripts/sign/11.s"
+            "symbol": "rocketWarehouseInteractable11Main",
+            "path": "scripts/interactable/11.s"
           }
-        }
+        },
+        "id": "interactable-11"
       },
       {
-        "type": "sign",
+        "type": "interactable",
+        "x": 10,
+        "y": 4,
+        "z": 0,
         "data": {
-          "x": 10,
-          "y": 4,
-          "height": 0,
           "type": "script",
           "script": {
-            "symbol": "rocketWarehouseSign12Main",
-            "path": "scripts/sign/12.s"
+            "symbol": "rocketWarehouseInteractable12Main",
+            "path": "scripts/interactable/12.s"
           }
-        }
+        },
+        "id": "interactable-12"
       },
       {
-        "type": "sign",
+        "type": "interactable",
+        "x": 8,
+        "y": 4,
+        "z": 0,
         "data": {
-          "x": 8,
-          "y": 4,
-          "height": 0,
           "type": "script",
           "script": {
-            "symbol": "rocketWarehouseSign13Main",
-            "path": "scripts/sign/13.s"
+            "symbol": "rocketWarehouseInteractable13Main",
+            "path": "scripts/interactable/13.s"
           }
-        }
+        },
+        "id": "interactable-13"
       },
       {
-        "type": "sign",
+        "type": "interactable",
+        "x": 7,
+        "y": 4,
+        "z": 0,
         "data": {
-          "x": 7,
-          "y": 4,
-          "height": 0,
           "type": "script",
           "script": {
-            "symbol": "rocketWarehouseSign14Main",
-            "path": "scripts/sign/14.s"
+            "symbol": "rocketWarehouseInteractable14Main",
+            "path": "scripts/interactable/14.s"
           }
-        }
+        },
+        "id": "interactable-14"
       },
       {
-        "type": "sign",
+        "type": "interactable",
+        "x": 8,
+        "y": 5,
+        "z": 0,
         "data": {
-          "x": 8,
-          "y": 5,
-          "height": 0,
           "type": "script",
           "script": {
-            "symbol": "rocketWarehouseSign15Main",
-            "path": "scripts/sign/15.s"
+            "symbol": "rocketWarehouseInteractable15Main",
+            "path": "scripts/interactable/15.s"
           }
-        }
+        },
+        "id": "interactable-15"
       },
       {
-        "type": "sign",
+        "type": "interactable",
+        "x": 7,
+        "y": 5,
+        "z": 0,
         "data": {
-          "x": 7,
-          "y": 5,
-          "height": 0,
           "type": "script",
           "script": {
-            "symbol": "rocketWarehouseSign16Main",
-            "path": "scripts/sign/16.s"
+            "symbol": "rocketWarehouseInteractable16Main",
+            "path": "scripts/interactable/16.s"
           }
-        }
+        },
+        "id": "interactable-16"
       },
       {
-        "type": "sign",
+        "type": "interactable",
+        "x": 5,
+        "y": 3,
+        "z": 0,
         "data": {
-          "x": 5,
-          "y": 3,
-          "height": 0,
           "type": "script",
           "script": {
-            "symbol": "rocketWarehouseSign17Main",
-            "path": "scripts/sign/17.s"
+            "symbol": "rocketWarehouseInteractable17Main",
+            "path": "scripts/interactable/17.s"
           }
-        }
+        },
+        "id": "interactable-17"
       },
       {
-        "type": "sign",
+        "type": "interactable",
+        "x": 4,
+        "y": 3,
+        "z": 0,
         "data": {
-          "x": 4,
-          "y": 3,
-          "height": 0,
           "type": "script",
           "script": {
-            "symbol": "rocketWarehouseSign18Main",
-            "path": "scripts/sign/18.s"
+            "symbol": "rocketWarehouseInteractable18Main",
+            "path": "scripts/interactable/18.s"
           }
-        }
+        },
+        "id": "interactable-18"
       },
       {
-        "type": "sign",
+        "type": "interactable",
+        "x": 5,
+        "y": 4,
+        "z": 0,
         "data": {
-          "x": 5,
-          "y": 4,
-          "height": 0,
           "type": "script",
           "script": {
-            "symbol": "rocketWarehouseSign19Main",
-            "path": "scripts/sign/19.s"
+            "symbol": "rocketWarehouseInteractable19Main",
+            "path": "scripts/interactable/19.s"
           }
-        }
+        },
+        "id": "interactable-19"
       },
       {
-        "type": "sign",
+        "type": "interactable",
+        "x": 4,
+        "y": 4,
+        "z": 0,
         "data": {
-          "x": 4,
-          "y": 4,
-          "height": 0,
           "type": "script",
           "script": {
-            "symbol": "rocketWarehouseSign20Main",
-            "path": "scripts/sign/20.s"
+            "symbol": "rocketWarehouseInteractable20Main",
+            "path": "scripts/interactable/20.s"
           }
-        }
+        },
+        "id": "interactable-20"
       },
       {
-        "type": "sign",
+        "type": "interactable",
+        "x": 3,
+        "y": 4,
+        "z": 0,
         "data": {
-          "x": 3,
-          "y": 4,
-          "height": 0,
           "type": "script",
           "script": {
-            "symbol": "rocketWarehouseSign21Main",
-            "path": "scripts/sign/21.s"
+            "symbol": "rocketWarehouseInteractable21Main",
+            "path": "scripts/interactable/21.s"
           }
-        }
+        },
+        "id": "interactable-21"
       },
       {
-        "type": "sign",
+        "type": "interactable",
+        "x": 2,
+        "y": 4,
+        "z": 0,
         "data": {
-          "x": 2,
-          "y": 4,
-          "height": 0,
           "type": "script",
           "script": {
-            "symbol": "rocketWarehouseSign22Main",
-            "path": "scripts/sign/22.s"
+            "symbol": "rocketWarehouseInteractable22Main",
+            "path": "scripts/interactable/22.s"
           }
-        }
+        },
+        "id": "interactable-22"
       },
       {
-        "type": "sign",
+        "type": "interactable",
+        "x": 2,
+        "y": 5,
+        "z": 0,
         "data": {
-          "x": 2,
-          "y": 5,
-          "height": 0,
           "type": "script",
           "script": {
-            "symbol": "rocketWarehouseSign23Main",
-            "path": "scripts/sign/23.s"
+            "symbol": "rocketWarehouseInteractable23Main",
+            "path": "scripts/interactable/23.s"
           }
-        }
+        },
+        "id": "interactable-23"
       },
       {
-        "type": "sign",
+        "type": "interactable",
+        "x": 3,
+        "y": 5,
+        "z": 0,
         "data": {
-          "x": 3,
-          "y": 5,
-          "height": 0,
           "type": "script",
           "script": {
-            "symbol": "rocketWarehouseSign24Main",
-            "path": "scripts/sign/24.s"
+            "symbol": "rocketWarehouseInteractable24Main",
+            "path": "scripts/interactable/24.s"
           }
-        }
+        },
+        "id": "interactable-24"
       },
       {
         "type": "trigger",
+        "x": 22,
+        "y": 11,
+        "z": 3,
         "data": {
-          "x": 22,
-          "y": 11,
-          "height": 3,
           "variable": 16520,
           "value": 0,
           "script": {
             "symbol": "rocketWarehouseTrigger0Main",
             "path": "scripts/trigger/0.s"
           }
-        }
+        },
+        "id": "trigger-0"
       },
       {
         "type": "trigger",
+        "x": 23,
+        "y": 11,
+        "z": 3,
         "data": {
-          "x": 23,
-          "y": 11,
-          "height": 3,
           "variable": 16520,
           "value": 0,
           "script": {
             "symbol": "rocketWarehouseTrigger1Main",
             "path": "scripts/trigger/1.s"
           }
-        }
+        },
+        "id": "trigger-1"
       },
       {
         "type": "trigger",
+        "x": 24,
+        "y": 11,
+        "z": 3,
         "data": {
-          "x": 24,
-          "y": 11,
-          "height": 3,
           "variable": 16520,
           "value": 0,
           "script": {
             "symbol": "rocketWarehouseTrigger2Main",
             "path": "scripts/trigger/2.s"
           }
-        }
+        },
+        "id": "trigger-2"
+      },
+      {
+        "type": "object",
+        "x": 15,
+        "y": 11,
+        "z": 3,
+        "data": {
+          "sprite": 49,
+          "replacement": 0,
+          "behavior": 17,
+          "boundary": {
+            "x": 1,
+            "y": 1
+          },
+          "property": 1,
+          "viewRadius": 1,
+          "script": {
+            "symbol": "rocketWarehouseObject0Main",
+            "path": "scripts/object/0.s"
+          },
+          "flag": 136
+        },
+        "id": "object-1"
+      },
+      {
+        "type": "object",
+        "x": 17,
+        "y": 15,
+        "z": 3,
+        "data": {
+          "sprite": 49,
+          "replacement": 0,
+          "behavior": 10,
+          "boundary": {
+            "x": 1,
+            "y": 1
+          },
+          "property": 1,
+          "viewRadius": 1,
+          "script": {
+            "symbol": "rocketWarehouseObject1Main",
+            "path": "scripts/object/1.s"
+          },
+          "flag": 136
+        },
+        "id": "object-2"
+      },
+      {
+        "type": "object",
+        "x": 27,
+        "y": 16,
+        "z": 3,
+        "data": {
+          "sprite": 50,
+          "replacement": 0,
+          "behavior": 9,
+          "boundary": {
+            "x": 1,
+            "y": 1
+          },
+          "property": 1,
+          "viewRadius": 3,
+          "script": {
+            "symbol": "rocketWarehouseObject2Main",
+            "path": "scripts/object/2.s"
+          },
+          "flag": 136
+        },
+        "id": "object-3"
+      },
+      {
+        "type": "object",
+        "x": 25,
+        "y": 11,
+        "z": 3,
+        "data": {
+          "sprite": 49,
+          "replacement": 0,
+          "behavior": 10,
+          "boundary": {
+            "x": 1,
+            "y": 1
+          },
+          "property": 1,
+          "viewRadius": 3,
+          "script": {
+            "symbol": "rocketWarehouseObject3Main",
+            "path": "scripts/object/3.s"
+          },
+          "flag": 136
+        },
+        "id": "object-4"
+      },
+      {
+        "type": "object",
+        "x": 6,
+        "y": 6,
+        "z": 3,
+        "data": {
+          "sprite": 50,
+          "replacement": 0,
+          "behavior": 16,
+          "boundary": {
+            "x": 1,
+            "y": 1
+          },
+          "property": 1,
+          "viewRadius": 3,
+          "script": {
+            "symbol": "rocketWarehouseObject4Main",
+            "path": "scripts/object/4.s"
+          },
+          "flag": 136
+        },
+        "id": "object-5"
+      },
+      {
+        "type": "object",
+        "x": 27,
+        "y": 4,
+        "z": 3,
+        "data": {
+          "sprite": 55,
+          "replacement": 0,
+          "behavior": 9,
+          "boundary": {
+            "x": 1,
+            "y": 1
+          },
+          "property": 1,
+          "viewRadius": 0,
+          "script": {
+            "symbol": "rocketWarehouseObject5Main",
+            "path": "scripts/object/5.s"
+          },
+          "flag": 0
+        },
+        "id": "object-6"
+      },
+      {
+        "type": "object",
+        "x": 8,
+        "y": 25,
+        "z": 3,
+        "data": {
+          "sprite": 92,
+          "replacement": 0,
+          "behavior": 8,
+          "boundary": {
+            "x": 1,
+            "y": 1
+          },
+          "property": 0,
+          "viewRadius": 0,
+          "script": {
+            "symbol": "rocketWarehouseObject6Main",
+            "path": "scripts/object/6.s"
+          },
+          "flag": 500
+        },
+        "id": "object-7"
+      },
+      {
+        "type": "object",
+        "x": 17,
+        "y": 3,
+        "z": 0,
+        "data": {
+          "sprite": 92,
+          "replacement": 0,
+          "behavior": 8,
+          "boundary": {
+            "x": 1,
+            "y": 1
+          },
+          "property": 0,
+          "viewRadius": 0,
+          "script": {
+            "symbol": "rocketWarehouseObject7Main",
+            "path": "scripts/object/7.s"
+          },
+          "flag": 501
+        },
+        "id": "object-8"
+      },
+      {
+        "type": "object",
+        "x": 1,
+        "y": 16,
+        "z": 3,
+        "data": {
+          "sprite": 92,
+          "replacement": 0,
+          "behavior": 8,
+          "boundary": {
+            "x": 1,
+            "y": 1
+          },
+          "property": 0,
+          "viewRadius": 0,
+          "script": {
+            "symbol": "rocketWarehouseObject8Main",
+            "path": "scripts/object/8.s"
+          },
+          "flag": 502
+        },
+        "id": "object-9"
+      },
+      {
+        "type": "object",
+        "x": 4,
+        "y": 5,
+        "z": 3,
+        "data": {
+          "sprite": 92,
+          "replacement": 0,
+          "behavior": 8,
+          "boundary": {
+            "x": 1,
+            "y": 1
+          },
+          "property": 0,
+          "viewRadius": 0,
+          "script": {
+            "symbol": "rocketWarehouseObject9Main",
+            "path": "scripts/object/9.s"
+          },
+          "flag": 503
+        },
+        "id": "object-10"
       }
     ]
   }

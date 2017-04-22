@@ -4392,124 +4392,128 @@
     ],
     "entities": [
       {
-        "type": "npc",
+        "type": "warp",
+        "x": 63,
+        "y": 10,
+        "z": 3,
         "data": {
-          "id": 1,
+          "target": {
+            "warp": "warp-1",
+            "map": {
+              "id": "map-1-121"
+            }
+          }
+        },
+        "id": "warp-0"
+      },
+      {
+        "type": "warp",
+        "x": 64,
+        "y": 10,
+        "z": 3,
+        "data": {
+          "target": {
+            "warp": "warp-1",
+            "map": {
+              "id": "map-1-121"
+            }
+          }
+        },
+        "id": "warp-1"
+      },
+      {
+        "type": "warp",
+        "x": 45,
+        "y": 10,
+        "z": 3,
+        "data": {
+          "target": {
+            "warp": "warp-4",
+            "map": {
+              "id": "map-1-121"
+            }
+          }
+        },
+        "id": "warp-2"
+      },
+      {
+        "type": "warp",
+        "x": 46,
+        "y": 10,
+        "z": 3,
+        "data": {
+          "target": {
+            "warp": "warp-4",
+            "map": {
+              "id": "map-1-121"
+            }
+          }
+        },
+        "id": "warp-3"
+      },
+      {
+        "type": "interactable",
+        "x": 40,
+        "y": 10,
+        "z": 0,
+        "data": {
+          "type": "script",
+          "script": {
+            "symbol": "greenPathInteractable0Main",
+            "path": "scripts/interactable/0.s"
+          }
+        },
+        "id": "interactable-0"
+      },
+      {
+        "type": "interactable",
+        "x": 69,
+        "y": 10,
+        "z": 0,
+        "data": {
+          "type": "script",
+          "script": {
+            "symbol": "greenPathInteractable1Main",
+            "path": "scripts/interactable/1.s"
+          }
+        },
+        "id": "interactable-1"
+      },
+      {
+        "type": "interactable",
+        "x": 12,
+        "y": 9,
+        "z": 3,
+        "data": {
+          "type": "hiddenItem",
+          "item": 2,
+          "hiddenItemId": 180,
+          "quantity": 1
+        },
+        "id": "interactable-2"
+      },
+      {
+        "type": "object",
+        "x": 11,
+        "y": 8,
+        "z": 3,
+        "data": {
           "sprite": 23,
           "replacement": 0,
-          "x": 11,
-          "y": 8,
-          "height": 3,
           "behavior": 20,
           "boundary": {
             "x": 1,
             "y": 1
           },
           "property": 1,
-          "view_radius": 2,
+          "viewRadius": 2,
           "script": {
-            "symbol": "greenPathNpc0Main",
-            "path": "scripts/npc/0.s"
+            "symbol": "greenPathObject0Main",
+            "path": "scripts/object/0.s"
           },
           "flag": 0
-        }
-      },
-      {
-        "type": "warp",
-        "data": {
-          "x": 63,
-          "y": 10,
-          "height": 3,
-          "target": {
-            "warp": 1,
-            "map": {
-              "id": "map-1-121"
-            }
-          }
-        }
-      },
-      {
-        "type": "warp",
-        "data": {
-          "x": 64,
-          "y": 10,
-          "height": 3,
-          "target": {
-            "warp": 1,
-            "map": {
-              "id": "map-1-121"
-            }
-          }
-        }
-      },
-      {
-        "type": "warp",
-        "data": {
-          "x": 45,
-          "y": 10,
-          "height": 3,
-          "target": {
-            "warp": 4,
-            "map": {
-              "id": "map-1-121"
-            }
-          }
-        }
-      },
-      {
-        "type": "warp",
-        "data": {
-          "x": 46,
-          "y": 10,
-          "height": 3,
-          "target": {
-            "warp": 4,
-            "map": {
-              "id": "map-1-121"
-            }
-          }
-        }
-      },
-      {
-        "type": "sign",
-        "data": {
-          "x": 40,
-          "y": 10,
-          "height": 0,
-          "type": "script",
-          "script": {
-            "symbol": "greenPathSign0Main",
-            "path": "scripts/sign/0.s"
-          }
-        }
-      },
-      {
-        "type": "sign",
-        "data": {
-          "x": 69,
-          "y": 10,
-          "height": 0,
-          "type": "script",
-          "script": {
-            "symbol": "greenPathSign1Main",
-            "path": "scripts/sign/1.s"
-          }
-        }
-      },
-      {
-        "type": "sign",
-        "data": {
-          "x": 12,
-          "y": 9,
-          "height": 3,
-          "type": "hidden_item2",
-          "item": 2,
-          "id": 180,
-          "data": {
-            "amount": 1,
-            "exact_required": 0
-          }
-        }
+        },
+        "id": "object-1"
       }
     ]
   }

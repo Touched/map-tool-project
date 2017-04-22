@@ -154,10 +154,11 @@ async function decompileScript(symbol, mapPath, scriptPath, address) {
   };
 }
 
-async function processNpcEntity(symbol, mapPath, scriptPath, npcData) {
-  return Object.assign(npcData, {
-    script: await decompileScript(symbol, mapPath, scriptPath, npcData.script),
-  });
+async function processObjectEntity(symbol, mapPath, scriptPath, objectData) {
+  return {
+    ...objectData,
+    script: await decompileScript(symbol, mapPath, scriptPath, objectData.script),
+  };
 }
 
 async function processWarpEntity(symbol, mapPath, scriptPath, { x, y, height, warp, map, bank }) {
@@ -166,7 +167,7 @@ async function processWarpEntity(symbol, mapPath, scriptPath, { x, y, height, wa
     y,
     height,
     target: {
-      warp,
+      warp: `warp-${warp}`,
 
       // You should be able to specify either a target map ID or just the map and bank
       // directly. 127.127 is special-cased to allow redirecting the warp target so
@@ -181,11 +182,60 @@ async function processWarpEntity(symbol, mapPath, scriptPath, { x, y, height, wa
   };
 }
 
-async function processSignEntity(symbol, mapPath, scriptPath, signData) {
+async function processInteractableEntity(symbol, mapPath, scriptPath, signData) {
   const { x, y, height, type, data: { value } } = signData;
-  return Object.assign({ x, y, height, type }, value, value.script ? {
-    script: await decompileScript(symbol, mapPath, scriptPath, value.script),
-  }: {});
+
+  let typeSpecificData = {};
+
+  if (type.match(/^script.*$/)) {
+    const direction = /^script_?(.*)$/.exec(type);
+
+    typeSpecificData = {
+      type: 'script',
+      script: await decompileScript(symbol, mapPath, scriptPath, value.script),
+    };
+
+    if (direction[1] !== '') {
+      typeSpecificData.direction = direction[1];
+    }
+  } else if (type.match(/^hidden_item.*$/)) {
+    invariant(type === 'hidden_item2', 'Unexpected hidden item type');
+
+    typeSpecificData = {
+      item: value.item,
+
+      // Item flag 0x3E8 + id in FRLG and 0x1F4 + id in Emerald
+      hiddenItemId: value.id,
+
+      // FRLG Only
+      quantity: value.data.amount || 1,
+
+      // The hidden item types all behave the same
+      type: 'hiddenItem',
+    };
+
+    // FRLG Only
+    // http://bulbapedia.bulbagarden.net/wiki/Dowsing_Machine#Generation_III
+    if (value.data.itemfinder) {
+      typeSpecificData['itemfinderOnly'] = true;
+    }
+  } else if (type.match(/^secret_base.*$/)) {
+    // RSE Only
+    typeSpecificData = {
+      type: 'secretBase',
+      secretBaseId: value.id,
+    };
+  } else {
+    throw new Error(`Invalid sign type '${type}'`);
+  }
+
+  return {
+    x,
+    y,
+    height,
+    type,
+    ...typeSpecificData,
+  };
 }
 
 async function processTriggerEntity(symbol, mapPath, scriptPath, triggerData) {
@@ -211,13 +261,39 @@ async function processEntities(symbol, mapPath, scriptPath, entityData) {
   }
 
   const entities = {
-    npc: await process(processNpcEntity, 'npcs', 'Npc'),
     warp: await process(processWarpEntity, 'warps', 'Warp'),
-    sign: await process(processSignEntity, 'signs', 'Sign'),
+
+    // AdvanceMap (and therefore the other editors) calls this a sign, but they
+    // don't have to be signposts (they can be hidden items, secret bases, etc.).
+    // In fact, the only thing that they have in common is you can press A on them
+    // to activate them (actually, for the itemfinder only items you can't even do that,
+    // but I digress). Therefore 'iteractable' is a better name.
+    interactable: await process(processInteractableEntity, 'interactables', 'Interactable'),
+
     trigger: await process(processTriggerEntity, 'triggers', 'Trigger'),
+
+    // Again, AdvanceMap called these NPCs, but they actuall include far more things
+    // than just people: vehicles, berry trees, items (visible). Therefore "object"
+    // is a better name as it is closer to the GBA terminology (i.e. hardware sprites
+    // or objects)
+    object: await process(processObjectEntity, 'objects', 'Object'),
   };
 
-  const result = Object.keys(entities).map(type => entities[type].map(data => ({ type, data })));
+  const result = Object.keys(entities).map(type => entities[type].map(
+    ({ x, y, height: z, ...data }, n) => {
+      const id = data.id || n;
+      delete data.id;
+
+      return {
+        type,
+        x,
+        y,
+        z,
+        data,
+        id: `${type}-${id}`,
+      };
+    },
+  ));
 
   return flatten(result);
 }
@@ -298,6 +374,14 @@ async function dumpMap(meta, info) {
       height: data.data.target.height,
       data: simplifyObjectArray(flatten(data.data.target.data.target)),
     },
+    blocksets: {
+      primary: {
+        id: primaryBlocksetId
+      },
+      secondary: {
+        id: secondaryBlocksetId,
+      },
+    },
   } : {
     linked: {
       id: linkedId
@@ -316,14 +400,6 @@ async function dumpMap(meta, info) {
     },
     data: {
       ...mapBlockData,
-      blocksets: {
-        primary: {
-          id: primaryBlocksetId
-        },
-        secondary: {
-          id: secondaryBlocksetId,
-        },
-      },
       scripts: await Promise.all(
         pointerToMaybeArray(data.scripts).map((script, n) => processMapScript(
           scriptSymbolPrefix,

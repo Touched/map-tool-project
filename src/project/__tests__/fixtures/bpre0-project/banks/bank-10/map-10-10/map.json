@@ -1024,71 +1024,76 @@
     "entities": [
       {
         "type": "warp",
+        "x": 4,
+        "y": 2,
+        "z": 3,
         "data": {
-          "x": 4,
-          "y": 2,
-          "height": 3,
           "target": {
-            "warp": 1,
+            "warp": "warp-1",
             "map": {
               "id": "map-10-9"
             }
           }
-        }
+        },
+        "id": "warp-0"
       },
       {
         "type": "warp",
+        "x": 10,
+        "y": 2,
+        "z": 3,
         "data": {
-          "x": 10,
-          "y": 2,
-          "height": 3,
           "target": {
-            "warp": 2,
+            "warp": "warp-2",
             "map": {
               "id": "map-10-9"
             }
           }
-        }
+        },
+        "id": "warp-1"
       },
       {
         "type": "warp",
+        "x": 2,
+        "y": 12,
+        "z": 3,
         "data": {
-          "x": 2,
-          "y": 12,
-          "height": 3,
           "target": {
-            "warp": 1,
+            "warp": "warp-1",
             "map": {
               "id": "map-10-11"
             }
           }
-        }
+        },
+        "id": "warp-2"
       },
       {
-        "type": "sign",
+        "type": "interactable",
+        "x": 4,
+        "y": 12,
+        "z": 0,
         "data": {
-          "x": 4,
-          "y": 12,
-          "height": 0,
           "type": "script",
           "script": {
-            "symbol": "celadonCity11Sign0Main",
-            "path": "scripts/sign/0.s"
+            "symbol": "celadonCity11Interactable0Main",
+            "path": "scripts/interactable/0.s"
           }
-        }
+        },
+        "id": "interactable-0"
       },
       {
-        "type": "sign",
+        "type": "interactable",
+        "x": 3,
+        "y": 12,
+        "z": 0,
         "data": {
-          "x": 3,
-          "y": 12,
-          "height": 0,
           "type": "script",
           "script": {
-            "symbol": "celadonCity11Sign1Main",
-            "path": "scripts/sign/1.s"
+            "symbol": "celadonCity11Interactable1Main",
+            "path": "scripts/interactable/1.s"
           }
-        }
+        },
+        "id": "interactable-1"
       }
     ]
   }

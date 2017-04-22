@@ -1578,136 +1578,124 @@
     "entities": [
       {
         "type": "warp",
+        "x": 4,
+        "y": 3,
+        "z": 3,
         "data": {
-          "x": 4,
-          "y": 3,
-          "height": 3,
           "target": {
-            "warp": 3,
+            "warp": "warp-3",
             "map": {
               "id": "map-1-30"
             }
           }
-        }
+        },
+        "id": "warp-0"
       },
       {
         "type": "warp",
+        "x": 3,
+        "y": 60,
+        "z": 3,
         "data": {
-          "x": 3,
-          "y": 60,
-          "height": 3,
           "target": {
-            "warp": 3,
+            "warp": "warp-3",
             "map": {
               "id": "map-1-32"
             }
           }
-        }
+        },
+        "id": "warp-1"
       },
       {
-        "type": "sign",
+        "type": "interactable",
+        "x": 5,
+        "y": 30,
+        "z": 3,
         "data": {
-          "x": 5,
-          "y": 30,
-          "height": 3,
-          "type": "hidden_item2",
+          "type": "hiddenItem",
           "item": 13,
-          "id": 70,
-          "data": {
-            "amount": 1,
-            "exact_required": 0
-          }
-        }
+          "hiddenItemId": 70,
+          "quantity": 1
+        },
+        "id": "interactable-0"
       },
       {
-        "type": "sign",
+        "type": "interactable",
+        "x": 5,
+        "y": 6,
+        "z": 3,
         "data": {
-          "x": 5,
-          "y": 6,
-          "height": 3,
-          "type": "hidden_item2",
+          "type": "hiddenItem",
           "item": 14,
-          "id": 71,
-          "data": {
-            "amount": 1,
-            "exact_required": 0
-          }
-        }
+          "hiddenItemId": 71,
+          "quantity": 1
+        },
+        "id": "interactable-1"
       },
       {
-        "type": "sign",
+        "type": "interactable",
+        "x": 2,
+        "y": 57,
+        "z": 3,
         "data": {
-          "x": 2,
-          "y": 57,
-          "height": 3,
-          "type": "hidden_item2",
+          "type": "hiddenItem",
           "item": 15,
-          "id": 74,
-          "data": {
-            "amount": 1,
-            "exact_required": 0
-          }
-        }
+          "hiddenItemId": 74,
+          "quantity": 1
+        },
+        "id": "interactable-2"
       },
       {
-        "type": "sign",
+        "type": "interactable",
+        "x": 1,
+        "y": 24,
+        "z": 3,
         "data": {
-          "x": 1,
-          "y": 24,
-          "height": 3,
-          "type": "hidden_item2",
+          "type": "hiddenItem",
           "item": 17,
-          "id": 73,
-          "data": {
-            "amount": 1,
-            "exact_required": 0
-          }
-        }
+          "hiddenItemId": 73,
+          "quantity": 1
+        },
+        "id": "interactable-3"
       },
       {
-        "type": "sign",
+        "type": "interactable",
+        "x": 6,
+        "y": 53,
+        "z": 3,
         "data": {
-          "x": 6,
-          "y": 53,
-          "height": 3,
-          "type": "hidden_item2",
+          "type": "hiddenItem",
           "item": 16,
-          "id": 75,
-          "data": {
-            "amount": 1,
-            "exact_required": 0
-          }
-        }
+          "hiddenItemId": 75,
+          "quantity": 1
+        },
+        "id": "interactable-4"
       },
       {
-        "type": "sign",
+        "type": "interactable",
+        "x": 3,
+        "y": 15,
+        "z": 3,
         "data": {
-          "x": 3,
-          "y": 15,
-          "height": 3,
-          "type": "hidden_item2",
+          "type": "hiddenItem",
           "item": 18,
-          "id": 72,
-          "data": {
-            "amount": 1,
-            "exact_required": 0
-          }
-        }
+          "hiddenItemId": 72,
+          "quantity": 1
+        },
+        "id": "interactable-5"
       },
       {
-        "type": "sign",
+        "type": "interactable",
+        "x": 3,
+        "y": 39,
+        "z": 3,
         "data": {
-          "x": 3,
-          "y": 39,
-          "height": 3,
-          "type": "hidden_item2",
+          "type": "hiddenItem",
           "item": 34,
-          "id": 76,
-          "data": {
-            "amount": 1,
-            "exact_required": 0
-          }
-        }
+          "hiddenItemId": 76,
+          "quantity": 1
+        },
+        "id": "interactable-6"
       }
     ]
   }

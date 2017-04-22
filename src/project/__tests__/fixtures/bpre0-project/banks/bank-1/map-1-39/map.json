@@ -3240,237 +3240,236 @@
     "connections": [],
     "entities": [
       {
-        "type": "npc",
-        "data": {
-          "id": 1,
-          "sprite": 41,
-          "replacement": 0,
-          "x": 5,
-          "y": 2,
-          "height": 3,
-          "behavior": 8,
-          "boundary": {
-            "x": 1,
-            "y": 1
-          },
-          "property": 1,
-          "view_radius": 4,
-          "script": {
-            "symbol": "victoryRoadNpc0Main",
-            "path": "scripts/npc/0.s"
-          },
-          "flag": 0
-        }
-      },
-      {
-        "type": "npc",
-        "data": {
-          "id": 2,
-          "sprite": 42,
-          "replacement": 0,
-          "x": 14,
-          "y": 6,
-          "height": 4,
-          "behavior": 8,
-          "boundary": {
-            "x": 1,
-            "y": 1
-          },
-          "property": 1,
-          "view_radius": 4,
-          "script": {
-            "symbol": "victoryRoadNpc1Main",
-            "path": "scripts/npc/1.s"
-          },
-          "flag": 0
-        }
-      },
-      {
-        "type": "npc",
-        "data": {
-          "id": 3,
-          "sprite": 92,
-          "replacement": 0,
-          "x": 12,
-          "y": 3,
-          "height": 3,
-          "behavior": 8,
-          "boundary": {
-            "x": 1,
-            "y": 1
-          },
-          "property": 0,
-          "view_radius": 0,
-          "script": {
-            "symbol": "victoryRoadNpc2Main",
-            "path": "scripts/npc/2.s"
-          },
-          "flag": 425
-        }
-      },
-      {
-        "type": "npc",
-        "data": {
-          "id": 4,
-          "sprite": 92,
-          "replacement": 0,
-          "x": 14,
-          "y": 1,
-          "height": 3,
-          "behavior": 8,
-          "boundary": {
-            "x": 1,
-            "y": 1
-          },
-          "property": 0,
-          "view_radius": 0,
-          "script": {
-            "symbol": "victoryRoadNpc3Main",
-            "path": "scripts/npc/3.s"
-          },
-          "flag": 426
-        }
-      },
-      {
-        "type": "npc",
-        "data": {
-          "id": 5,
-          "sprite": 97,
-          "replacement": 0,
-          "x": 7,
-          "y": 18,
-          "height": 3,
-          "behavior": 8,
-          "boundary": {
-            "x": 0,
-            "y": 0
-          },
-          "property": 0,
-          "view_radius": 0,
-          "script": {
-            "symbol": "victoryRoadNpc4Main",
-            "path": "scripts/npc/4.s"
-          },
-          "flag": 0
-        }
-      },
-      {
-        "type": "npc",
-        "data": {
-          "id": 6,
-          "sprite": 97,
-          "replacement": 0,
-          "x": 4,
-          "y": 12,
-          "height": 3,
-          "behavior": 8,
-          "boundary": {
-            "x": 0,
-            "y": 0
-          },
-          "property": 0,
-          "view_radius": 0,
-          "script": {
-            "symbol": "victoryRoadNpc5Main",
-            "path": "scripts/npc/5.s"
-          },
-          "flag": 0
-        }
-      },
-      {
-        "type": "npc",
-        "data": {
-          "id": 7,
-          "sprite": 97,
-          "replacement": 0,
-          "x": 16,
-          "y": 3,
-          "height": 3,
-          "behavior": 8,
-          "boundary": {
-            "x": 0,
-            "y": 0
-          },
-          "property": 0,
-          "view_radius": 0,
-          "script": {
-            "symbol": "victoryRoadNpc6Main",
-            "path": "scripts/npc/6.s"
-          },
-          "flag": 0
-        }
-      },
-      {
         "type": "warp",
+        "x": 3,
+        "y": 2,
+        "z": 3,
         "data": {
-          "x": 3,
-          "y": 2,
-          "height": 3,
           "target": {
-            "warp": 0,
+            "warp": "warp-0",
             "map": {
               "id": "map-1-40"
             }
           }
-        }
+        },
+        "id": "warp-0"
       },
       {
         "type": "warp",
+        "x": 11,
+        "y": 20,
+        "z": 3,
         "data": {
-          "x": 11,
-          "y": 20,
-          "height": 3,
           "target": {
-            "warp": 0,
+            "warp": "warp-0",
             "map": {
               "id": "map-3-42"
             }
           }
-        }
+        },
+        "id": "warp-1"
       },
       {
-        "type": "sign",
+        "type": "interactable",
+        "x": 12,
+        "y": 12,
+        "z": 0,
         "data": {
-          "x": 12,
-          "y": 12,
-          "height": 0,
-          "type": "hidden_item2",
+          "type": "hiddenItem",
           "item": 2,
-          "id": 37,
-          "data": {
-            "amount": 1,
-            "exact_required": 0
-          }
-        }
+          "hiddenItemId": 37,
+          "quantity": 1
+        },
+        "id": "interactable-0"
       },
       {
-        "type": "sign",
+        "type": "interactable",
+        "x": 16,
+        "y": 1,
+        "z": 0,
         "data": {
-          "x": 16,
-          "y": 1,
-          "height": 0,
-          "type": "hidden_item2",
+          "type": "hiddenItem",
           "item": 19,
-          "id": 38,
-          "data": {
-            "amount": 1,
-            "exact_required": 0
-          }
-        }
+          "hiddenItemId": 38,
+          "quantity": 1
+        },
+        "id": "interactable-1"
       },
       {
         "type": "trigger",
+        "x": 20,
+        "y": 16,
+        "z": 3,
         "data": {
-          "x": 20,
-          "y": 16,
-          "height": 3,
           "variable": 16484,
           "value": 99,
           "script": {
             "symbol": "victoryRoadTrigger0Main",
             "path": "scripts/trigger/0.s"
           }
-        }
+        },
+        "id": "trigger-0"
+      },
+      {
+        "type": "object",
+        "x": 5,
+        "y": 2,
+        "z": 3,
+        "data": {
+          "sprite": 41,
+          "replacement": 0,
+          "behavior": 8,
+          "boundary": {
+            "x": 1,
+            "y": 1
+          },
+          "property": 1,
+          "viewRadius": 4,
+          "script": {
+            "symbol": "victoryRoadObject0Main",
+            "path": "scripts/object/0.s"
+          },
+          "flag": 0
+        },
+        "id": "object-1"
+      },
+      {
+        "type": "object",
+        "x": 14,
+        "y": 6,
+        "z": 4,
+        "data": {
+          "sprite": 42,
+          "replacement": 0,
+          "behavior": 8,
+          "boundary": {
+            "x": 1,
+            "y": 1
+          },
+          "property": 1,
+          "viewRadius": 4,
+          "script": {
+            "symbol": "victoryRoadObject1Main",
+            "path": "scripts/object/1.s"
+          },
+          "flag": 0
+        },
+        "id": "object-2"
+      },
+      {
+        "type": "object",
+        "x": 12,
+        "y": 3,
+        "z": 3,
+        "data": {
+          "sprite": 92,
+          "replacement": 0,
+          "behavior": 8,
+          "boundary": {
+            "x": 1,
+            "y": 1
+          },
+          "property": 0,
+          "viewRadius": 0,
+          "script": {
+            "symbol": "victoryRoadObject2Main",
+            "path": "scripts/object/2.s"
+          },
+          "flag": 425
+        },
+        "id": "object-3"
+      },
+      {
+        "type": "object",
+        "x": 14,
+        "y": 1,
+        "z": 3,
+        "data": {
+          "sprite": 92,
+          "replacement": 0,
+          "behavior": 8,
+          "boundary": {
+            "x": 1,
+            "y": 1
+          },
+          "property": 0,
+          "viewRadius": 0,
+          "script": {
+            "symbol": "victoryRoadObject3Main",
+            "path": "scripts/object/3.s"
+          },
+          "flag": 426
+        },
+        "id": "object-4"
+      },
+      {
+        "type": "object",
+        "x": 7,
+        "y": 18,
+        "z": 3,
+        "data": {
+          "sprite": 97,
+          "replacement": 0,
+          "behavior": 8,
+          "boundary": {
+            "x": 0,
+            "y": 0
+          },
+          "property": 0,
+          "viewRadius": 0,
+          "script": {
+            "symbol": "victoryRoadObject4Main",
+            "path": "scripts/object/4.s"
+          },
+          "flag": 0
+        },
+        "id": "object-5"
+      },
+      {
+        "type": "object",
+        "x": 4,
+        "y": 12,
+        "z": 3,
+        "data": {
+          "sprite": 97,
+          "replacement": 0,
+          "behavior": 8,
+          "boundary": {
+            "x": 0,
+            "y": 0
+          },
+          "property": 0,
+          "viewRadius": 0,
+          "script": {
+            "symbol": "victoryRoadObject5Main",
+            "path": "scripts/object/5.s"
+          },
+          "flag": 0
+        },
+        "id": "object-6"
+      },
+      {
+        "type": "object",
+        "x": 16,
+        "y": 3,
+        "z": 3,
+        "data": {
+          "sprite": 97,
+          "replacement": 0,
+          "behavior": 8,
+          "boundary": {
+            "x": 0,
+            "y": 0
+          },
+          "property": 0,
+          "viewRadius": 0,
+          "script": {
+            "symbol": "victoryRoadObject6Main",
+            "path": "scripts/object/6.s"
+          },
+          "flag": 0
+        },
+        "id": "object-7"
       }
     ]
   }

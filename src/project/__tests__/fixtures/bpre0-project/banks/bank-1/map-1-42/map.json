@@ -2928,264 +2928,268 @@
     "connections": [],
     "entities": [
       {
-        "type": "npc",
+        "type": "warp",
+        "x": 12,
+        "y": 2,
+        "z": 3,
         "data": {
-          "id": 1,
+          "target": {
+            "warp": "warp-3",
+            "map": {
+              "id": "map-10-14"
+            }
+          }
+        },
+        "id": "warp-0"
+      },
+      {
+        "type": "warp",
+        "x": 17,
+        "y": 2,
+        "z": 3,
+        "data": {
+          "target": {
+            "warp": "warp-1",
+            "map": {
+              "id": "map-1-43"
+            }
+          }
+        },
+        "id": "warp-1"
+      },
+      {
+        "type": "warp",
+        "x": 15,
+        "y": 30,
+        "z": 3,
+        "data": {
+          "target": {
+            "warp": "warp-2",
+            "map": {
+              "id": "map-1-43"
+            }
+          }
+        },
+        "id": "warp-2"
+      },
+      {
+        "type": "warp",
+        "x": 23,
+        "y": 25,
+        "z": 0,
+        "data": {
+          "target": {
+            "warp": "warp-1",
+            "map": {
+              "id": "map-1-46"
+            }
+          }
+        },
+        "id": "warp-3"
+      },
+      {
+        "type": "warp",
+        "x": 24,
+        "y": 25,
+        "z": 0,
+        "data": {
+          "target": {
+            "warp": "warp-1",
+            "map": {
+              "id": "map-1-46"
+            }
+          }
+        },
+        "id": "warp-4"
+      },
+      {
+        "type": "warp",
+        "x": 25,
+        "y": 25,
+        "z": 0,
+        "data": {
+          "target": {
+            "warp": "warp-1",
+            "map": {
+              "id": "map-1-46"
+            }
+          }
+        },
+        "id": "warp-5"
+      },
+      {
+        "type": "interactable",
+        "x": 16,
+        "y": 17,
+        "z": 0,
+        "data": {
+          "type": "hiddenItem",
+          "item": 69,
+          "hiddenItemId": 11,
+          "quantity": 1
+        },
+        "id": "interactable-0"
+      },
+      {
+        "type": "object",
+        "x": 4,
+        "y": 9,
+        "z": 3,
+        "data": {
           "sprite": 49,
           "replacement": 0,
-          "x": 4,
-          "y": 9,
-          "height": 3,
           "behavior": 10,
           "boundary": {
             "x": 1,
             "y": 1
           },
           "property": 1,
-          "view_radius": 5,
+          "viewRadius": 5,
           "script": {
-            "symbol": "rocketHideoutNpc0Main",
-            "path": "scripts/npc/0.s"
+            "symbol": "rocketHideoutObject0Main",
+            "path": "scripts/object/0.s"
           },
           "flag": 173
-        }
+        },
+        "id": "object-1"
       },
       {
-        "type": "npc",
+        "type": "object",
+        "x": 24,
+        "y": 12,
+        "z": 3,
         "data": {
-          "id": 2,
           "sprite": 49,
           "replacement": 0,
-          "x": 24,
-          "y": 12,
-          "height": 3,
           "behavior": 9,
           "boundary": {
             "x": 1,
             "y": 1
           },
           "property": 1,
-          "view_radius": 2,
+          "viewRadius": 2,
           "script": {
-            "symbol": "rocketHideoutNpc1Main",
-            "path": "scripts/npc/1.s"
+            "symbol": "rocketHideoutObject1Main",
+            "path": "scripts/object/1.s"
           },
           "flag": 173
-        }
+        },
+        "id": "object-2"
       },
       {
-        "type": "npc",
+        "type": "object",
+        "x": 6,
+        "y": 32,
+        "z": 3,
         "data": {
-          "id": 3,
           "sprite": 49,
           "replacement": 0,
-          "x": 6,
-          "y": 32,
-          "height": 3,
           "behavior": 10,
           "boundary": {
             "x": 1,
             "y": 1
           },
           "property": 1,
-          "view_radius": 4,
+          "viewRadius": 4,
           "script": {
-            "symbol": "rocketHideoutNpc2Main",
-            "path": "scripts/npc/2.s"
+            "symbol": "rocketHideoutObject2Main",
+            "path": "scripts/object/2.s"
           },
           "flag": 173
-        }
+        },
+        "id": "object-3"
       },
       {
-        "type": "npc",
+        "type": "object",
+        "x": 10,
+        "y": 22,
+        "z": 3,
         "data": {
-          "id": 4,
           "sprite": 49,
           "replacement": 0,
-          "x": 10,
-          "y": 22,
-          "height": 3,
           "behavior": 8,
           "boundary": {
             "x": 1,
             "y": 1
           },
           "property": 1,
-          "view_radius": 3,
+          "viewRadius": 3,
           "script": {
-            "symbol": "rocketHideoutNpc3Main",
-            "path": "scripts/npc/3.s"
+            "symbol": "rocketHideoutObject3Main",
+            "path": "scripts/object/3.s"
           },
           "flag": 173
-        }
+        },
+        "id": "object-4"
       },
       {
-        "type": "npc",
+        "type": "object",
+        "x": 21,
+        "y": 27,
+        "z": 3,
         "data": {
-          "id": 5,
           "sprite": 49,
           "replacement": 0,
-          "x": 21,
-          "y": 27,
-          "height": 3,
           "behavior": 16,
           "boundary": {
             "x": 1,
             "y": 1
           },
           "property": 1,
-          "view_radius": 3,
+          "viewRadius": 3,
           "script": {
-            "symbol": "rocketHideoutNpc4Main",
-            "path": "scripts/npc/4.s"
+            "symbol": "rocketHideoutObject4Main",
+            "path": "scripts/object/4.s"
           },
           "flag": 173
-        }
+        },
+        "id": "object-5"
       },
       {
-        "type": "npc",
+        "type": "object",
+        "x": 5,
+        "y": 16,
+        "z": 0,
         "data": {
-          "id": 6,
           "sprite": 92,
           "replacement": 0,
-          "x": 5,
-          "y": 16,
-          "height": 0,
           "behavior": 8,
           "boundary": {
             "x": 1,
             "y": 1
           },
           "property": 0,
-          "view_radius": 0,
+          "viewRadius": 0,
           "script": {
-            "symbol": "rocketHideoutNpc5Main",
-            "path": "scripts/npc/5.s"
+            "symbol": "rocketHideoutObject5Main",
+            "path": "scripts/object/5.s"
           },
           "flag": 364
-        }
+        },
+        "id": "object-6"
       },
       {
-        "type": "npc",
+        "type": "object",
+        "x": 1,
+        "y": 22,
+        "z": 3,
         "data": {
-          "id": 7,
           "sprite": 92,
           "replacement": 0,
-          "x": 1,
-          "y": 22,
-          "height": 3,
           "behavior": 8,
           "boundary": {
             "x": 1,
             "y": 1
           },
           "property": 0,
-          "view_radius": 0,
+          "viewRadius": 0,
           "script": {
-            "symbol": "rocketHideoutNpc6Main",
-            "path": "scripts/npc/6.s"
+            "symbol": "rocketHideoutObject6Main",
+            "path": "scripts/object/6.s"
           },
           "flag": 365
-        }
-      },
-      {
-        "type": "warp",
-        "data": {
-          "x": 12,
-          "y": 2,
-          "height": 3,
-          "target": {
-            "warp": 3,
-            "map": {
-              "id": "map-10-14"
-            }
-          }
-        }
-      },
-      {
-        "type": "warp",
-        "data": {
-          "x": 17,
-          "y": 2,
-          "height": 3,
-          "target": {
-            "warp": 1,
-            "map": {
-              "id": "map-1-43"
-            }
-          }
-        }
-      },
-      {
-        "type": "warp",
-        "data": {
-          "x": 15,
-          "y": 30,
-          "height": 3,
-          "target": {
-            "warp": 2,
-            "map": {
-              "id": "map-1-43"
-            }
-          }
-        }
-      },
-      {
-        "type": "warp",
-        "data": {
-          "x": 23,
-          "y": 25,
-          "height": 0,
-          "target": {
-            "warp": 1,
-            "map": {
-              "id": "map-1-46"
-            }
-          }
-        }
-      },
-      {
-        "type": "warp",
-        "data": {
-          "x": 24,
-          "y": 25,
-          "height": 0,
-          "target": {
-            "warp": 1,
-            "map": {
-              "id": "map-1-46"
-            }
-          }
-        }
-      },
-      {
-        "type": "warp",
-        "data": {
-          "x": 25,
-          "y": 25,
-          "height": 0,
-          "target": {
-            "warp": 1,
-            "map": {
-              "id": "map-1-46"
-            }
-          }
-        }
-      },
-      {
-        "type": "sign",
-        "data": {
-          "x": 16,
-          "y": 17,
-          "height": 0,
-          "type": "hidden_item2",
-          "item": 69,
-          "id": 11,
-          "data": {
-            "amount": 1,
-            "exact_required": 0
-          }
-        }
+        },
+        "id": "object-7"
       }
     ]
   }

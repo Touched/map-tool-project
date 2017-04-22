@@ -597,97 +597,102 @@
     "connections": [],
     "entities": [
       {
-        "type": "npc",
-        "data": {
-          "id": 1,
-          "sprite": 60,
-          "replacement": 0,
-          "x": 8,
-          "y": 2,
-          "height": 3,
-          "behavior": 8,
-          "boundary": {
-            "x": 1,
-            "y": 1
-          },
-          "property": 0,
-          "view_radius": 0,
-          "script": {
-            "symbol": "route221Npc0Main",
-            "path": "scripts/npc/0.s"
-          },
-          "flag": 0
-        }
-      },
-      {
         "type": "warp",
+        "x": 7,
+        "y": 1,
+        "z": 3,
         "data": {
-          "x": 7,
-          "y": 1,
-          "height": 3,
           "target": {
-            "warp": 2,
+            "warp": "warp-2",
             "map": {
               "id": "map-3-42"
             }
           }
-        }
+        },
+        "id": "warp-0"
       },
       {
         "type": "warp",
+        "x": 6,
+        "y": 10,
+        "z": 3,
         "data": {
-          "x": 6,
-          "y": 10,
-          "height": 3,
           "target": {
-            "warp": 0,
+            "warp": "warp-0",
             "map": {
               "id": "map-3-41"
             }
           }
-        }
+        },
+        "id": "warp-1"
       },
       {
         "type": "warp",
+        "x": 7,
+        "y": 10,
+        "z": 3,
         "data": {
-          "x": 7,
-          "y": 10,
-          "height": 3,
           "target": {
-            "warp": 0,
+            "warp": "warp-0",
             "map": {
               "id": "map-3-41"
             }
           }
-        }
+        },
+        "id": "warp-2"
       },
       {
         "type": "warp",
+        "x": 8,
+        "y": 10,
+        "z": 3,
         "data": {
-          "x": 8,
-          "y": 10,
-          "height": 3,
           "target": {
-            "warp": 0,
+            "warp": "warp-0",
             "map": {
               "id": "map-3-41"
             }
           }
-        }
+        },
+        "id": "warp-3"
       },
       {
         "type": "trigger",
+        "x": 7,
+        "y": 2,
+        "z": 3,
         "data": {
-          "x": 7,
-          "y": 2,
-          "height": 3,
           "variable": 16479,
           "value": 0,
           "script": {
             "symbol": "route221Trigger0Main",
             "path": "scripts/trigger/0.s"
           }
-        }
+        },
+        "id": "trigger-0"
+      },
+      {
+        "type": "object",
+        "x": 8,
+        "y": 2,
+        "z": 3,
+        "data": {
+          "sprite": 60,
+          "replacement": 0,
+          "behavior": 8,
+          "boundary": {
+            "x": 1,
+            "y": 1
+          },
+          "property": 0,
+          "viewRadius": 0,
+          "script": {
+            "symbol": "route221Object0Main",
+            "path": "scripts/object/0.s"
+          },
+          "flag": 0
+        },
+        "id": "object-1"
       }
     ]
   }

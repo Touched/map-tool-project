@@ -2960,192 +2960,194 @@
     ],
     "entities": [
       {
-        "type": "npc",
+        "type": "warp",
+        "x": 12,
+        "y": 21,
+        "z": 0,
         "data": {
-          "id": 1,
+          "target": {
+            "warp": "warp-0",
+            "map": {
+              "id": "map-1-114"
+            }
+          }
+        },
+        "id": "warp-0"
+      },
+      {
+        "type": "interactable",
+        "x": 12,
+        "y": 21,
+        "z": 0,
+        "data": {
+          "type": "script",
+          "script": {
+            "symbol": "fiveIsleMeadowInteractable0Main",
+            "path": "scripts/interactable/0.s"
+          }
+        },
+        "id": "interactable-0"
+      },
+      {
+        "type": "object",
+        "x": 18,
+        "y": 18,
+        "z": 3,
+        "data": {
           "sprite": 50,
           "replacement": 0,
-          "x": 18,
-          "y": 18,
-          "height": 3,
           "behavior": 2,
           "boundary": {
             "x": 1,
             "y": 1
           },
           "property": 1,
-          "view_radius": 1,
+          "viewRadius": 1,
           "script": {
-            "symbol": "fiveIsleMeadowNpc0Main",
-            "path": "scripts/npc/0.s"
+            "symbol": "fiveIsleMeadowObject0Main",
+            "path": "scripts/object/0.s"
           },
           "flag": 136
-        }
+        },
+        "id": "object-1"
       },
       {
-        "type": "npc",
+        "type": "object",
+        "x": 17,
+        "y": 5,
+        "z": 3,
         "data": {
-          "id": 2,
           "sprite": 49,
           "replacement": 0,
-          "x": 17,
-          "y": 5,
-          "height": 3,
           "behavior": 17,
           "boundary": {
             "x": 1,
             "y": 1
           },
           "property": 1,
-          "view_radius": 5,
+          "viewRadius": 5,
           "script": {
-            "symbol": "fiveIsleMeadowNpc1Main",
-            "path": "scripts/npc/1.s"
+            "symbol": "fiveIsleMeadowObject1Main",
+            "path": "scripts/object/1.s"
           },
           "flag": 136
-        }
+        },
+        "id": "object-2"
       },
       {
-        "type": "npc",
+        "type": "object",
+        "x": 11,
+        "y": 27,
+        "z": 3,
         "data": {
-          "id": 3,
           "sprite": 49,
           "replacement": 0,
-          "x": 11,
-          "y": 27,
-          "height": 3,
           "behavior": 10,
           "boundary": {
             "x": 1,
             "y": 1
           },
           "property": 1,
-          "view_radius": 3,
+          "viewRadius": 3,
           "script": {
-            "symbol": "fiveIsleMeadowNpc2Main",
-            "path": "scripts/npc/2.s"
+            "symbol": "fiveIsleMeadowObject2Main",
+            "path": "scripts/object/2.s"
           },
           "flag": 136
-        }
+        },
+        "id": "object-3"
       },
       {
-        "type": "npc",
+        "type": "object",
+        "x": 8,
+        "y": 9,
+        "z": 3,
         "data": {
-          "id": 4,
           "sprite": 95,
           "replacement": 0,
-          "x": 8,
-          "y": 9,
-          "height": 3,
           "behavior": 1,
           "boundary": {
             "x": 1,
             "y": 1
           },
           "property": 0,
-          "view_radius": 0,
+          "viewRadius": 0,
           "script": {
-            "symbol": "fiveIsleMeadowNpc3Main",
-            "path": "scripts/npc/3.s"
+            "symbol": "fiveIsleMeadowObject3Main",
+            "path": "scripts/object/3.s"
           },
           "flag": 18
-        }
+        },
+        "id": "object-4"
       },
       {
-        "type": "npc",
+        "type": "object",
+        "x": 19,
+        "y": 12,
+        "z": 3,
         "data": {
-          "id": 5,
           "sprite": 95,
           "replacement": 0,
-          "x": 19,
-          "y": 12,
-          "height": 3,
           "behavior": 1,
           "boundary": {
             "x": 1,
             "y": 1
           },
           "property": 0,
-          "view_radius": 0,
+          "viewRadius": 0,
           "script": {
-            "symbol": "fiveIsleMeadowNpc4Main",
-            "path": "scripts/npc/4.s"
+            "symbol": "fiveIsleMeadowObject4Main",
+            "path": "scripts/object/4.s"
           },
           "flag": 19
-        }
+        },
+        "id": "object-5"
       },
       {
-        "type": "npc",
+        "type": "object",
+        "x": 12,
+        "y": 11,
+        "z": 3,
         "data": {
-          "id": 6,
           "sprite": 92,
           "replacement": 0,
-          "x": 12,
-          "y": 11,
-          "height": 3,
           "behavior": 8,
           "boundary": {
             "x": 1,
             "y": 1
           },
           "property": 0,
-          "view_radius": 0,
+          "viewRadius": 0,
           "script": {
-            "symbol": "fiveIsleMeadowNpc5Main",
-            "path": "scripts/npc/5.s"
+            "symbol": "fiveIsleMeadowObject5Main",
+            "path": "scripts/object/5.s"
           },
           "flag": 478
-        }
+        },
+        "id": "object-6"
       },
       {
-        "type": "npc",
+        "type": "object",
+        "x": 3,
+        "y": 22,
+        "z": 3,
         "data": {
-          "id": 7,
           "sprite": 92,
           "replacement": 0,
-          "x": 3,
-          "y": 22,
-          "height": 3,
           "behavior": 8,
           "boundary": {
             "x": 1,
             "y": 1
           },
           "property": 0,
-          "view_radius": 0,
+          "viewRadius": 0,
           "script": {
-            "symbol": "fiveIsleMeadowNpc6Main",
-            "path": "scripts/npc/6.s"
+            "symbol": "fiveIsleMeadowObject6Main",
+            "path": "scripts/object/6.s"
           },
           "flag": 479
-        }
-      },
-      {
-        "type": "warp",
-        "data": {
-          "x": 12,
-          "y": 21,
-          "height": 0,
-          "target": {
-            "warp": 0,
-            "map": {
-              "id": "map-1-114"
-            }
-          }
-        }
-      },
-      {
-        "type": "sign",
-        "data": {
-          "x": 12,
-          "y": 21,
-          "height": 0,
-          "type": "script",
-          "script": {
-            "symbol": "fiveIsleMeadowSign0Main",
-            "path": "scripts/sign/0.s"
-          }
-        }
+        },
+        "id": "object-7"
       }
     ]
   }

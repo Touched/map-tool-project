@@ -1520,142 +1520,147 @@
     ],
     "entities": [
       {
-        "type": "npc",
+        "type": "warp",
+        "x": 12,
+        "y": 14,
+        "z": 3,
         "data": {
-          "id": 1,
+          "target": {
+            "warp": "warp-0",
+            "map": {
+              "id": "map-36-2"
+            }
+          }
+        },
+        "id": "warp-0"
+      },
+      {
+        "type": "warp",
+        "x": 18,
+        "y": 6,
+        "z": 0,
+        "data": {
+          "target": {
+            "warp": "warp-0",
+            "map": {
+              "id": "map-36-0"
+            }
+          }
+        },
+        "id": "warp-1"
+      },
+      {
+        "type": "warp",
+        "x": 12,
+        "y": 6,
+        "z": 0,
+        "data": {
+          "target": {
+            "warp": "warp-0",
+            "map": {
+              "id": "map-36-3"
+            }
+          }
+        },
+        "id": "warp-2"
+      },
+      {
+        "type": "warp",
+        "x": 22,
+        "y": 9,
+        "z": 0,
+        "data": {
+          "target": {
+            "warp": "warp-0",
+            "map": {
+              "id": "map-36-4"
+            }
+          }
+        },
+        "id": "warp-3"
+      },
+      {
+        "type": "interactable",
+        "x": 20,
+        "y": 8,
+        "z": 0,
+        "data": {
+          "type": "script",
+          "script": {
+            "symbol": "fiveIslandInteractable0Main",
+            "path": "scripts/interactable/0.s"
+          }
+        },
+        "id": "interactable-0"
+      },
+      {
+        "type": "object",
+        "x": 8,
+        "y": 5,
+        "z": 3,
+        "data": {
           "sprite": 57,
           "replacement": 0,
-          "x": 8,
-          "y": 5,
-          "height": 3,
           "behavior": 9,
           "boundary": {
             "x": 1,
             "y": 1
           },
           "property": 0,
-          "view_radius": 0,
+          "viewRadius": 0,
           "script": {
-            "symbol": "fiveIslandNpc0Main",
-            "path": "scripts/npc/0.s"
+            "symbol": "fiveIslandObject0Main",
+            "path": "scripts/object/0.s"
           },
           "flag": 0
-        }
+        },
+        "id": "object-1"
       },
       {
-        "type": "npc",
+        "type": "object",
+        "x": 16,
+        "y": 10,
+        "z": 3,
         "data": {
-          "id": 2,
           "sprite": 20,
           "replacement": 0,
-          "x": 16,
-          "y": 10,
-          "height": 3,
           "behavior": 2,
           "boundary": {
             "x": 1,
             "y": 1
           },
           "property": 0,
-          "view_radius": 0,
+          "viewRadius": 0,
           "script": {
-            "symbol": "fiveIslandNpc1Main",
-            "path": "scripts/npc/1.s"
+            "symbol": "fiveIslandObject1Main",
+            "path": "scripts/object/1.s"
           },
           "flag": 0
-        }
+        },
+        "id": "object-2"
       },
       {
-        "type": "npc",
+        "type": "object",
+        "x": 32,
+        "y": 9,
+        "z": 4,
         "data": {
-          "id": 3,
           "sprite": 95,
           "replacement": 255,
-          "x": 32,
-          "y": 9,
-          "height": 4,
           "behavior": 0,
           "boundary": {
             "x": 0,
             "y": 0
           },
           "property": 56,
-          "view_radius": 3,
+          "viewRadius": 3,
           "script": {
-            "symbol": "fiveIslandNpc2Main",
-            "path": "scripts/npc/2.s"
+            "symbol": "fiveIslandObject2Main",
+            "path": "scripts/object/2.s"
           },
           "flag": 0
-        }
-      },
-      {
-        "type": "warp",
-        "data": {
-          "x": 12,
-          "y": 14,
-          "height": 3,
-          "target": {
-            "warp": 0,
-            "map": {
-              "id": "map-36-2"
-            }
-          }
-        }
-      },
-      {
-        "type": "warp",
-        "data": {
-          "x": 18,
-          "y": 6,
-          "height": 0,
-          "target": {
-            "warp": 0,
-            "map": {
-              "id": "map-36-0"
-            }
-          }
-        }
-      },
-      {
-        "type": "warp",
-        "data": {
-          "x": 12,
-          "y": 6,
-          "height": 0,
-          "target": {
-            "warp": 0,
-            "map": {
-              "id": "map-36-3"
-            }
-          }
-        }
-      },
-      {
-        "type": "warp",
-        "data": {
-          "x": 22,
-          "y": 9,
-          "height": 0,
-          "target": {
-            "warp": 0,
-            "map": {
-              "id": "map-36-4"
-            }
-          }
-        }
-      },
-      {
-        "type": "sign",
-        "data": {
-          "x": 20,
-          "y": 8,
-          "height": 0,
-          "type": "script",
-          "script": {
-            "symbol": "fiveIslandSign0Main",
-            "path": "scripts/sign/0.s"
-          }
-        }
+        },
+        "id": "object-3"
       }
     ]
   }

@@ -4392,50 +4392,50 @@
     ],
     "entities": [
       {
-        "type": "npc",
+        "type": "object",
+        "x": 14,
+        "y": 11,
+        "z": 3,
         "data": {
-          "id": 1,
           "sprite": 61,
           "replacement": 0,
-          "x": 14,
-          "y": 11,
-          "height": 3,
           "behavior": 8,
           "boundary": {
             "x": 1,
             "y": 1
           },
           "property": 0,
-          "view_radius": 0,
+          "viewRadius": 0,
           "script": {
-            "symbol": "waterLabyrinthNpc0Main",
-            "path": "scripts/npc/0.s"
+            "symbol": "waterLabyrinthObject0Main",
+            "path": "scripts/object/0.s"
           },
           "flag": 0
-        }
+        },
+        "id": "object-1"
       },
       {
-        "type": "npc",
+        "type": "object",
+        "x": 9,
+        "y": 7,
+        "z": 3,
         "data": {
-          "id": 2,
           "sprite": 28,
           "replacement": 0,
-          "x": 9,
-          "y": 7,
-          "height": 3,
           "behavior": 2,
           "boundary": {
             "x": 1,
             "y": 1
           },
           "property": 1,
-          "view_radius": 1,
+          "viewRadius": 1,
           "script": {
-            "symbol": "waterLabyrinthNpc1Main",
-            "path": "scripts/npc/1.s"
+            "symbol": "waterLabyrinthObject1Main",
+            "path": "scripts/object/1.s"
           },
           "flag": 0
-        }
+        },
+        "id": "object-2"
       }
     ]
   }

@@ -12,14 +12,6 @@
     "linked": {
       "id": "map-5-4"
     },
-    "blocksets": {
-      "primary": {
-        "id": "blockset-0"
-      },
-      "secondary": {
-        "id": "blockset-44"
-      }
-    },
     "scripts": [
       {
         "type": "onmapenter",
@@ -39,150 +31,156 @@
     "connections": [],
     "entities": [
       {
-        "type": "npc",
+        "type": "warp",
+        "x": 7,
+        "y": 8,
+        "z": 3,
         "data": {
-          "id": 1,
+          "target": {
+            "warp": "warp-0",
+            "map": {
+              "id": "map-3-15"
+            }
+          }
+        },
+        "id": "warp-0"
+      },
+      {
+        "type": "warp",
+        "x": 1,
+        "y": 6,
+        "z": 4,
+        "data": {
+          "target": {
+            "warp": "warp-0",
+            "map": {
+              "id": "map-35-2"
+            }
+          }
+        },
+        "id": "warp-1"
+      },
+      {
+        "type": "interactable",
+        "x": 3,
+        "y": 1,
+        "z": 0,
+        "data": {
+          "type": "script",
+          "script": {
+            "symbol": "fourIsland2Interactable0Main",
+            "path": "scripts/interactable/0.s"
+          },
+          "direction": "up"
+        },
+        "id": "interactable-0"
+      },
+      {
+        "type": "interactable",
+        "x": 2,
+        "y": 1,
+        "z": 0,
+        "data": {
+          "type": "script",
+          "script": {
+            "symbol": "fourIsland2Interactable1Main",
+            "path": "scripts/interactable/1.s"
+          },
+          "direction": "up"
+        },
+        "id": "interactable-1"
+      },
+      {
+        "type": "object",
+        "x": 7,
+        "y": 2,
+        "z": 3,
+        "data": {
           "sprite": 64,
           "replacement": 0,
-          "x": 7,
-          "y": 2,
-          "height": 3,
           "behavior": 8,
           "boundary": {
             "x": 1,
             "y": 1
           },
           "property": 0,
-          "view_radius": 0,
+          "viewRadius": 0,
           "script": {
-            "symbol": "fourIsland2Npc0Main",
-            "path": "scripts/npc/0.s"
+            "symbol": "fourIsland2Object0Main",
+            "path": "scripts/object/0.s"
           },
           "flag": 0
-        }
+        },
+        "id": "object-1"
       },
       {
-        "type": "npc",
+        "type": "object",
+        "x": 10,
+        "y": 6,
+        "z": 3,
         "data": {
-          "id": 2,
           "sprite": 25,
           "replacement": 0,
-          "x": 10,
-          "y": 6,
-          "height": 3,
           "behavior": 2,
           "boundary": {
             "x": 1,
             "y": 1
           },
           "property": 0,
-          "view_radius": 0,
+          "viewRadius": 0,
           "script": {
-            "symbol": "fourIsland2Npc1Main",
-            "path": "scripts/npc/1.s"
+            "symbol": "fourIsland2Object1Main",
+            "path": "scripts/object/1.s"
           },
           "flag": 0
-        }
+        },
+        "id": "object-2"
       },
       {
-        "type": "npc",
+        "type": "object",
+        "x": 5,
+        "y": 5,
+        "z": 3,
         "data": {
-          "id": 3,
           "sprite": 31,
           "replacement": 0,
-          "x": 5,
-          "y": 5,
-          "height": 3,
           "behavior": 13,
           "boundary": {
             "x": 1,
             "y": 1
           },
           "property": 0,
-          "view_radius": 0,
+          "viewRadius": 0,
           "script": {
-            "symbol": "fourIsland2Npc2Main",
-            "path": "scripts/npc/2.s"
+            "symbol": "fourIsland2Object2Main",
+            "path": "scripts/object/2.s"
           },
           "flag": 0
-        }
+        },
+        "id": "object-3"
       },
       {
-        "type": "npc",
+        "type": "object",
+        "x": 2,
+        "y": 2,
+        "z": 3,
         "data": {
-          "id": 4,
           "sprite": 61,
           "replacement": 0,
-          "x": 2,
-          "y": 2,
-          "height": 3,
           "behavior": 7,
           "boundary": {
             "x": 1,
             "y": 1
           },
           "property": 0,
-          "view_radius": 0,
+          "viewRadius": 0,
           "script": {
-            "symbol": "fourIsland2Npc3Main",
-            "path": "scripts/npc/3.s"
+            "symbol": "fourIsland2Object3Main",
+            "path": "scripts/object/3.s"
           },
           "flag": 0
-        }
-      },
-      {
-        "type": "warp",
-        "data": {
-          "x": 7,
-          "y": 8,
-          "height": 3,
-          "target": {
-            "warp": 0,
-            "map": {
-              "id": "map-3-15"
-            }
-          }
-        }
-      },
-      {
-        "type": "warp",
-        "data": {
-          "x": 1,
-          "y": 6,
-          "height": 4,
-          "target": {
-            "warp": 0,
-            "map": {
-              "id": "map-35-2"
-            }
-          }
-        }
-      },
-      {
-        "type": "sign",
-        "data": {
-          "x": 3,
-          "y": 1,
-          "height": 0,
-          "type": "script_up",
-          "script": {
-            "symbol": "fourIsland2Sign0Main",
-            "path": "scripts/sign/0.s"
-          }
-        }
-      },
-      {
-        "type": "sign",
-        "data": {
-          "x": 2,
-          "y": 1,
-          "height": 0,
-          "type": "script_up",
-          "script": {
-            "symbol": "fourIsland2Sign1Main",
-            "path": "scripts/sign/1.s"
-          }
-        }
+        },
+        "id": "object-4"
       }
     ]
   }

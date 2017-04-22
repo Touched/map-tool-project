@@ -421,59 +421,63 @@
     "entities": [
       {
         "type": "warp",
+        "x": 5,
+        "y": 1,
+        "z": 3,
         "data": {
-          "x": 5,
-          "y": 1,
-          "height": 3,
           "target": {
-            "warp": 3,
+            "warp": "warp-3",
             "map": {
               "id": "map-2-13"
             }
           }
-        }
+        },
+        "id": "warp-0"
       },
       {
         "type": "warp",
+        "x": 8,
+        "y": 5,
+        "z": 3,
         "data": {
-          "x": 8,
-          "y": 5,
-          "height": 3,
           "target": {
-            "warp": 3,
+            "warp": "warp-3",
             "map": {
               "id": "map-2-18"
             }
           }
-        }
+        },
+        "id": "warp-1"
       },
       {
         "type": "warp",
+        "x": 5,
+        "y": 8,
+        "z": 3,
         "data": {
-          "x": 5,
-          "y": 8,
-          "height": 3,
           "target": {
-            "warp": 1,
+            "warp": "warp-1",
             "map": {
               "id": "map-2-13"
             }
           }
-        }
+        },
+        "id": "warp-2"
       },
       {
         "type": "warp",
+        "x": 2,
+        "y": 5,
+        "z": 3,
         "data": {
-          "x": 2,
-          "y": 5,
-          "height": 3,
           "target": {
-            "warp": 2,
+            "warp": "warp-2",
             "map": {
               "id": "map-2-13"
             }
           }
-        }
+        },
+        "id": "warp-3"
       }
     ]
   }

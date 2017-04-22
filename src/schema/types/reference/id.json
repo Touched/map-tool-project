@@ -1,0 +1,11 @@
+{
+  "id": "http://example.com/schema/entity/types/reference/id",
+  "type": "object",
+  "required": ["id"],
+  "additionalProperties": false,
+  "properties": {
+    "id": {
+      "type": "string"
+    }
+  }
+}

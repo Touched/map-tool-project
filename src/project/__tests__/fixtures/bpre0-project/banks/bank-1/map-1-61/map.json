@@ -4055,249 +4055,258 @@
     "connections": [],
     "entities": [
       {
-        "type": "npc",
+        "type": "warp",
+        "x": 8,
+        "y": 3,
+        "z": 3,
         "data": {
-          "id": 1,
+          "target": {
+            "warp": "warp-0",
+            "map": {
+              "id": "map-1-60"
+            }
+          }
+        },
+        "id": "warp-0"
+      },
+      {
+        "type": "warp",
+        "x": 34,
+        "y": 18,
+        "z": 3,
+        "data": {
+          "target": {
+            "warp": "warp-1",
+            "map": {
+              "id": "map-1-60"
+            }
+          }
+        },
+        "id": "warp-1"
+      },
+      {
+        "type": "warp",
+        "x": 11,
+        "y": 11,
+        "z": 3,
+        "data": {
+          "target": {
+            "warp": "warp-3",
+            "map": {
+              "id": "map-1-60"
+            }
+          }
+        },
+        "id": "warp-2"
+      },
+      {
+        "type": "warp",
+        "x": 18,
+        "y": 18,
+        "z": 3,
+        "data": {
+          "target": {
+            "warp": "warp-7",
+            "map": {
+              "id": "map-1-59"
+            }
+          }
+        },
+        "id": "warp-3"
+      },
+      {
+        "type": "warp",
+        "x": 19,
+        "y": 18,
+        "z": 3,
+        "data": {
+          "target": {
+            "warp": "warp-8",
+            "map": {
+              "id": "map-1-59"
+            }
+          }
+        },
+        "id": "warp-4"
+      },
+      {
+        "type": "warp",
+        "x": 23,
+        "y": 18,
+        "z": 3,
+        "data": {
+          "target": {
+            "warp": "warp-4",
+            "map": {
+              "id": "map-1-60"
+            }
+          }
+        },
+        "id": "warp-5"
+      },
+      {
+        "type": "warp",
+        "x": 20,
+        "y": 18,
+        "z": 3,
+        "data": {
+          "target": {
+            "warp": "warp-8",
+            "map": {
+              "id": "map-1-59"
+            }
+          }
+        },
+        "id": "warp-6"
+      },
+      {
+        "type": "warp",
+        "x": 24,
+        "y": 18,
+        "z": 3,
+        "data": {
+          "target": {
+            "warp": "warp-4",
+            "map": {
+              "id": "map-1-60"
+            }
+          }
+        },
+        "id": "warp-7"
+      },
+      {
+        "type": "interactable",
+        "x": 8,
+        "y": 16,
+        "z": 0,
+        "data": {
+          "type": "script",
+          "script": {
+            "symbol": "pokひmonMansion2Interactable0Main",
+            "path": "scripts/interactable/0.s"
+          }
+        },
+        "id": "interactable-0"
+      },
+      {
+        "type": "interactable",
+        "x": 12,
+        "y": 5,
+        "z": 0,
+        "data": {
+          "type": "script",
+          "script": {
+            "symbol": "pokひmonMansion2Interactable1Main",
+            "path": "scripts/interactable/1.s"
+          },
+          "direction": "up"
+        },
+        "id": "interactable-1"
+      },
+      {
+        "type": "interactable",
+        "x": 36,
+        "y": 13,
+        "z": 3,
+        "data": {
+          "type": "hiddenItem",
+          "item": 68,
+          "hiddenItemId": 32,
+          "quantity": 1
+        },
+        "id": "interactable-2"
+      },
+      {
+        "type": "object",
+        "x": 7,
+        "y": 13,
+        "z": 3,
+        "data": {
           "sprite": 52,
           "replacement": 0,
-          "x": 7,
-          "y": 13,
-          "height": 3,
           "behavior": 2,
           "boundary": {
             "x": 1,
             "y": 1
           },
           "property": 1,
-          "view_radius": 1,
+          "viewRadius": 1,
           "script": {
-            "symbol": "pokひmonMansion2Npc0Main",
-            "path": "scripts/npc/0.s"
+            "symbol": "pokひmonMansion2Object0Main",
+            "path": "scripts/object/0.s"
           },
           "flag": 0
-        }
+        },
+        "id": "object-1"
       },
       {
-        "type": "npc",
+        "type": "object",
+        "x": 22,
+        "y": 13,
+        "z": 3,
         "data": {
-          "id": 2,
           "sprite": 55,
           "replacement": 0,
-          "x": 22,
-          "y": 13,
-          "height": 3,
           "behavior": 8,
           "boundary": {
             "x": 1,
             "y": 1
           },
           "property": 1,
-          "view_radius": 1,
+          "viewRadius": 1,
           "script": {
-            "symbol": "pokひmonMansion2Npc1Main",
-            "path": "scripts/npc/1.s"
+            "symbol": "pokひmonMansion2Object1Main",
+            "path": "scripts/object/1.s"
           },
           "flag": 0
-        }
+        },
+        "id": "object-2"
       },
       {
-        "type": "npc",
+        "type": "object",
+        "x": 9,
+        "y": 19,
+        "z": 3,
         "data": {
-          "id": 3,
           "sprite": 92,
           "replacement": 0,
-          "x": 9,
-          "y": 19,
-          "height": 3,
           "behavior": 8,
           "boundary": {
             "x": 1,
             "y": 1
           },
           "property": 0,
-          "view_radius": 0,
+          "viewRadius": 0,
           "script": {
-            "symbol": "pokひmonMansion2Npc2Main",
-            "path": "scripts/npc/2.s"
+            "symbol": "pokひmonMansion2Object2Main",
+            "path": "scripts/object/2.s"
           },
           "flag": 418
-        }
+        },
+        "id": "object-3"
       },
       {
-        "type": "npc",
+        "type": "object",
+        "x": 32,
+        "y": 6,
+        "z": 3,
         "data": {
-          "id": 4,
           "sprite": 92,
           "replacement": 0,
-          "x": 32,
-          "y": 6,
-          "height": 3,
           "behavior": 8,
           "boundary": {
             "x": 1,
             "y": 1
           },
           "property": 0,
-          "view_radius": 0,
+          "viewRadius": 0,
           "script": {
-            "symbol": "pokひmonMansion2Npc3Main",
-            "path": "scripts/npc/3.s"
+            "symbol": "pokひmonMansion2Object3Main",
+            "path": "scripts/object/3.s"
           },
           "flag": 419
-        }
-      },
-      {
-        "type": "warp",
-        "data": {
-          "x": 8,
-          "y": 3,
-          "height": 3,
-          "target": {
-            "warp": 0,
-            "map": {
-              "id": "map-1-60"
-            }
-          }
-        }
-      },
-      {
-        "type": "warp",
-        "data": {
-          "x": 34,
-          "y": 18,
-          "height": 3,
-          "target": {
-            "warp": 1,
-            "map": {
-              "id": "map-1-60"
-            }
-          }
-        }
-      },
-      {
-        "type": "warp",
-        "data": {
-          "x": 11,
-          "y": 11,
-          "height": 3,
-          "target": {
-            "warp": 3,
-            "map": {
-              "id": "map-1-60"
-            }
-          }
-        }
-      },
-      {
-        "type": "warp",
-        "data": {
-          "x": 18,
-          "y": 18,
-          "height": 3,
-          "target": {
-            "warp": 7,
-            "map": {
-              "id": "map-1-59"
-            }
-          }
-        }
-      },
-      {
-        "type": "warp",
-        "data": {
-          "x": 19,
-          "y": 18,
-          "height": 3,
-          "target": {
-            "warp": 8,
-            "map": {
-              "id": "map-1-59"
-            }
-          }
-        }
-      },
-      {
-        "type": "warp",
-        "data": {
-          "x": 23,
-          "y": 18,
-          "height": 3,
-          "target": {
-            "warp": 4,
-            "map": {
-              "id": "map-1-60"
-            }
-          }
-        }
-      },
-      {
-        "type": "warp",
-        "data": {
-          "x": 20,
-          "y": 18,
-          "height": 3,
-          "target": {
-            "warp": 8,
-            "map": {
-              "id": "map-1-59"
-            }
-          }
-        }
-      },
-      {
-        "type": "warp",
-        "data": {
-          "x": 24,
-          "y": 18,
-          "height": 3,
-          "target": {
-            "warp": 4,
-            "map": {
-              "id": "map-1-60"
-            }
-          }
-        }
-      },
-      {
-        "type": "sign",
-        "data": {
-          "x": 8,
-          "y": 16,
-          "height": 0,
-          "type": "script",
-          "script": {
-            "symbol": "pokひmonMansion2Sign0Main",
-            "path": "scripts/sign/0.s"
-          }
-        }
-      },
-      {
-        "type": "sign",
-        "data": {
-          "x": 12,
-          "y": 5,
-          "height": 0,
-          "type": "script_up",
-          "script": {
-            "symbol": "pokひmonMansion2Sign1Main",
-            "path": "scripts/sign/1.s"
-          }
-        }
-      },
-      {
-        "type": "sign",
-        "data": {
-          "x": 36,
-          "y": 13,
-          "height": 3,
-          "type": "hidden_item2",
-          "item": 68,
-          "id": 32,
-          "data": {
-            "amount": 1,
-            "exact_required": 0
-          }
-        }
+        },
+        "id": "object-4"
       }
     ]
   }

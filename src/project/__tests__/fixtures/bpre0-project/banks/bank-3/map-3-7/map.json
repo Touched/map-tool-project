@@ -5847,684 +5847,704 @@
     ],
     "entities": [
       {
-        "type": "npc",
+        "type": "warp",
+        "x": 24,
+        "y": 5,
+        "z": 0,
         "data": {
-          "id": 1,
+          "target": {
+            "warp": "warp-2",
+            "map": {
+              "id": "map-11-0"
+            }
+          }
+        },
+        "id": "warp-0"
+      },
+      {
+        "type": "warp",
+        "x": 33,
+        "y": 31,
+        "z": 0,
+        "data": {
+          "target": {
+            "warp": "warp-1",
+            "map": {
+              "id": "map-11-7"
+            }
+          }
+        },
+        "id": "warp-1"
+      },
+      {
+        "type": "warp",
+        "x": 11,
+        "y": 15,
+        "z": 0,
+        "data": {
+          "target": {
+            "warp": "warp-1",
+            "map": {
+              "id": "map-11-1"
+            }
+          }
+        },
+        "id": "warp-2"
+      },
+      {
+        "type": "warp",
+        "x": 28,
+        "y": 16,
+        "z": 0,
+        "data": {
+          "target": {
+            "warp": "warp-1",
+            "map": {
+              "id": "map-11-2"
+            }
+          }
+        },
+        "id": "warp-3"
+      },
+      {
+        "type": "warp",
+        "x": 9,
+        "y": 32,
+        "z": 0,
+        "data": {
+          "target": {
+            "warp": "warp-1",
+            "map": {
+              "id": "map-11-3"
+            }
+          }
+        },
+        "id": "warp-4"
+      },
+      {
+        "type": "warp",
+        "x": 14,
+        "y": 31,
+        "z": 0,
+        "data": {
+          "target": {
+            "warp": "warp-1",
+            "map": {
+              "id": "map-11-4"
+            }
+          }
+        },
+        "id": "warp-5"
+      },
+      {
+        "type": "warp",
+        "x": 25,
+        "y": 31,
+        "z": 3,
+        "data": {
+          "target": {
+            "warp": "warp-1",
+            "map": {
+              "id": "map-11-5"
+            }
+          }
+        },
+        "id": "warp-6"
+      },
+      {
+        "type": "warp",
+        "x": 38,
+        "y": 31,
+        "z": 0,
+        "data": {
+          "target": {
+            "warp": "warp-1",
+            "map": {
+              "id": "map-11-8"
+            }
+          }
+        },
+        "id": "warp-7"
+      },
+      {
+        "type": "warp",
+        "x": 39,
+        "y": 28,
+        "z": 3,
+        "data": {
+          "target": {
+            "warp": "warp-3",
+            "map": {
+              "id": "map-11-8"
+            }
+          }
+        },
+        "id": "warp-8"
+      },
+      {
+        "type": "warp",
+        "x": 39,
+        "y": 29,
+        "z": 3,
+        "data": {
+          "target": {
+            "warp": "warp-3",
+            "map": {
+              "id": "map-11-8"
+            }
+          }
+        },
+        "id": "warp-9"
+      },
+      {
+        "type": "warp",
+        "x": 19,
+        "y": 31,
+        "z": 0,
+        "data": {
+          "target": {
+            "warp": "warp-0",
+            "map": {
+              "id": "map-11-9"
+            }
+          }
+        },
+        "id": "warp-10"
+      },
+      {
+        "type": "interactable",
+        "x": 31,
+        "y": 18,
+        "z": 3,
+        "data": {
+          "type": "script",
+          "script": {
+            "symbol": "fuchsiaCityInteractable0Main",
+            "path": "scripts/interactable/0.s"
+          }
+        },
+        "id": "interactable-0"
+      },
+      {
+        "type": "interactable",
+        "x": 26,
+        "y": 18,
+        "z": 0,
+        "data": {
+          "type": "script",
+          "script": {
+            "symbol": "fuchsiaCityInteractable1Main",
+            "path": "scripts/interactable/1.s"
+          }
+        },
+        "id": "interactable-1"
+      },
+      {
+        "type": "interactable",
+        "x": 5,
+        "y": 32,
+        "z": 0,
+        "data": {
+          "type": "script",
+          "script": {
+            "symbol": "fuchsiaCityInteractable2Main",
+            "path": "scripts/interactable/2.s"
+          }
+        },
+        "id": "interactable-2"
+      },
+      {
+        "type": "interactable",
+        "x": 31,
+        "y": 31,
+        "z": 0,
+        "data": {
+          "type": "script",
+          "script": {
+            "symbol": "fuchsiaCityInteractable3Main",
+            "path": "scripts/interactable/3.s"
+          }
+        },
+        "id": "interactable-3"
+      },
+      {
+        "type": "interactable",
+        "x": 35,
+        "y": 10,
+        "z": 0,
+        "data": {
+          "type": "script",
+          "script": {
+            "symbol": "fuchsiaCityInteractable4Main",
+            "path": "scripts/interactable/4.s"
+          }
+        },
+        "id": "interactable-4"
+      },
+      {
+        "type": "interactable",
+        "x": 38,
+        "y": 16,
+        "z": 3,
+        "data": {
+          "type": "script",
+          "script": {
+            "symbol": "fuchsiaCityInteractable5Main",
+            "path": "scripts/interactable/5.s"
+          }
+        },
+        "id": "interactable-5"
+      },
+      {
+        "type": "interactable",
+        "x": 41,
+        "y": 10,
+        "z": 0,
+        "data": {
+          "type": "script",
+          "script": {
+            "symbol": "fuchsiaCityInteractable6Main",
+            "path": "scripts/interactable/6.s"
+          }
+        },
+        "id": "interactable-6"
+      },
+      {
+        "type": "interactable",
+        "x": 17,
+        "y": 10,
+        "z": 0,
+        "data": {
+          "type": "script",
+          "script": {
+            "symbol": "fuchsiaCityInteractable7Main",
+            "path": "scripts/interactable/7.s"
+          }
+        },
+        "id": "interactable-7"
+      },
+      {
+        "type": "interactable",
+        "x": 11,
+        "y": 10,
+        "z": 0,
+        "data": {
+          "type": "script",
+          "script": {
+            "symbol": "fuchsiaCityInteractable8Main",
+            "path": "scripts/interactable/8.s"
+          }
+        },
+        "id": "interactable-8"
+      },
+      {
+        "type": "interactable",
+        "x": 17,
+        "y": 18,
+        "z": 3,
+        "data": {
+          "type": "script",
+          "script": {
+            "symbol": "fuchsiaCityInteractable9Main",
+            "path": "scripts/interactable/9.s"
+          }
+        },
+        "id": "interactable-9"
+      },
+      {
+        "type": "interactable",
+        "x": 22,
+        "y": 7,
+        "z": 0,
+        "data": {
+          "type": "script",
+          "script": {
+            "symbol": "fuchsiaCityInteractable10Main",
+            "path": "scripts/interactable/10.s"
+          }
+        },
+        "id": "interactable-10"
+      },
+      {
+        "type": "interactable",
+        "x": 33,
+        "y": 26,
+        "z": 3,
+        "data": {
+          "type": "hiddenItem",
+          "item": 25,
+          "hiddenItemId": 133,
+          "quantity": 1
+        },
+        "id": "interactable-11"
+      },
+      {
+        "type": "object",
+        "x": 37,
+        "y": 17,
+        "z": 3,
+        "data": {
           "sprite": 27,
           "replacement": 0,
-          "x": 37,
-          "y": 17,
-          "height": 3,
           "behavior": 8,
           "boundary": {
             "x": 1,
             "y": 1
           },
           "property": 0,
-          "view_radius": 0,
+          "viewRadius": 0,
           "script": {
-            "symbol": "fuchsiaCityNpc0Main",
-            "path": "scripts/npc/0.s"
+            "symbol": "fuchsiaCityObject0Main",
+            "path": "scripts/object/0.s"
           },
           "flag": 0
-        }
+        },
+        "id": "object-1"
       },
       {
-        "type": "npc",
+        "type": "object",
+        "x": 36,
+        "y": 15,
+        "z": 3,
         "data": {
-          "id": 2,
           "sprite": 128,
           "replacement": 0,
-          "x": 36,
-          "y": 15,
-          "height": 3,
           "behavior": 80,
           "boundary": {
             "x": 4,
             "y": 1
           },
           "property": 0,
-          "view_radius": 0,
+          "viewRadius": 0,
           "script": {
-            "symbol": "fuchsiaCityNpc1Main",
-            "path": "scripts/npc/1.s"
+            "symbol": "fuchsiaCityObject1Main",
+            "path": "scripts/object/1.s"
           },
           "flag": 0
-        }
+        },
+        "id": "object-2"
       },
       {
-        "type": "npc",
+        "type": "object",
+        "x": 33,
+        "y": 8,
+        "z": 3,
         "data": {
-          "id": 3,
           "sprite": 127,
           "replacement": 0,
-          "x": 33,
-          "y": 8,
-          "height": 3,
           "behavior": 8,
           "boundary": {
             "x": 1,
             "y": 1
           },
           "property": 0,
-          "view_radius": 0,
+          "viewRadius": 0,
           "script": {
-            "symbol": "fuchsiaCityNpc2Main",
-            "path": "scripts/npc/2.s"
+            "symbol": "fuchsiaCityObject2Main",
+            "path": "scripts/object/2.s"
           },
           "flag": 0
-        }
+        },
+        "id": "object-3"
       },
       {
-        "type": "npc",
+        "type": "object",
+        "x": 33,
+        "y": 11,
+        "z": 3,
         "data": {
-          "id": 4,
           "sprite": 18,
           "replacement": 0,
-          "x": 33,
-          "y": 11,
-          "height": 3,
           "behavior": 7,
           "boundary": {
             "x": 1,
             "y": 1
           },
           "property": 0,
-          "view_radius": 0,
+          "viewRadius": 0,
           "script": {
-            "symbol": "fuchsiaCityNpc3Main",
-            "path": "scripts/npc/3.s"
+            "symbol": "fuchsiaCityObject3Main",
+            "path": "scripts/object/3.s"
           },
           "flag": 0
-        }
+        },
+        "id": "object-4"
       },
       {
-        "type": "npc",
+        "type": "object",
+        "x": 39,
+        "y": 8,
+        "z": 3,
         "data": {
-          "id": 5,
           "sprite": 117,
           "replacement": 0,
-          "x": 39,
-          "y": 8,
-          "height": 3,
           "behavior": 2,
           "boundary": {
             "x": 3,
             "y": 1
           },
           "property": 0,
-          "view_radius": 0,
+          "viewRadius": 0,
           "script": {
-            "symbol": "fuchsiaCityNpc4Main",
-            "path": "scripts/npc/4.s"
+            "symbol": "fuchsiaCityObject4Main",
+            "path": "scripts/object/4.s"
           },
           "flag": 0
-        }
+        },
+        "id": "object-5"
       },
       {
-        "type": "npc",
+        "type": "object",
+        "x": 14,
+        "y": 15,
+        "z": 3,
         "data": {
-          "id": 6,
           "sprite": 16,
           "replacement": 0,
-          "x": 14,
-          "y": 15,
-          "height": 3,
           "behavior": 5,
           "boundary": {
             "x": 3,
             "y": 1
           },
           "property": 0,
-          "view_radius": 0,
+          "viewRadius": 0,
           "script": {
-            "symbol": "fuchsiaCityNpc5Main",
-            "path": "scripts/npc/5.s"
+            "symbol": "fuchsiaCityObject5Main",
+            "path": "scripts/object/5.s"
           },
           "flag": 0
-        }
+        },
+        "id": "object-6"
       },
       {
-        "type": "npc",
+        "type": "object",
+        "x": 12,
+        "y": 20,
+        "z": 1,
         "data": {
-          "id": 7,
           "sprite": 135,
           "replacement": 0,
-          "x": 12,
-          "y": 20,
-          "height": 1,
           "behavior": 2,
           "boundary": {
             "x": 2,
             "y": 1
           },
           "property": 0,
-          "view_radius": 0,
+          "viewRadius": 0,
           "script": {
-            "symbol": "fuchsiaCityNpc6Main",
-            "path": "scripts/npc/6.s"
+            "symbol": "fuchsiaCityObject6Main",
+            "path": "scripts/object/6.s"
           },
           "flag": 0
-        }
+        },
+        "id": "object-7"
       },
       {
-        "type": "npc",
+        "type": "object",
+        "x": 36,
+        "y": 20,
+        "z": 3,
         "data": {
-          "id": 8,
           "sprite": 32,
           "replacement": 0,
-          "x": 36,
-          "y": 20,
-          "height": 3,
           "behavior": 5,
           "boundary": {
             "x": 4,
             "y": 1
           },
           "property": 0,
-          "view_radius": 0,
+          "viewRadius": 0,
           "script": {
-            "symbol": "fuchsiaCityNpc7Main",
-            "path": "scripts/npc/7.s"
+            "symbol": "fuchsiaCityObject7Main",
+            "path": "scripts/object/7.s"
           },
           "flag": 0
-        }
+        },
+        "id": "object-8"
       },
       {
-        "type": "npc",
+        "type": "object",
+        "x": 8,
+        "y": 8,
+        "z": 1,
         "data": {
-          "id": 9,
           "sprite": 240,
           "replacement": 0,
-          "x": 8,
-          "y": 8,
-          "height": 1,
           "behavior": 8,
           "boundary": {
             "x": 1,
             "y": 1
           },
           "property": 0,
-          "view_radius": 0,
+          "viewRadius": 0,
           "script": {
-            "symbol": "fuchsiaCityNpc8Main",
-            "path": "scripts/npc/8.s"
+            "symbol": "fuchsiaCityObject8Main",
+            "path": "scripts/object/8.s"
           },
           "flag": 0
-        }
+        },
+        "id": "object-9"
       },
       {
-        "type": "npc",
+        "type": "object",
+        "x": 16,
+        "y": 9,
+        "z": 3,
         "data": {
-          "id": 10,
           "sprite": 119,
           "replacement": 0,
-          "x": 16,
-          "y": 9,
-          "height": 3,
           "behavior": 2,
           "boundary": {
             "x": 4,
             "y": 1
           },
           "property": 0,
-          "view_radius": 0,
+          "viewRadius": 0,
           "script": {
-            "symbol": "fuchsiaCityNpc9Main",
-            "path": "scripts/npc/9.s"
+            "symbol": "fuchsiaCityObject9Main",
+            "path": "scripts/object/9.s"
           },
           "flag": 0
-        }
+        },
+        "id": "object-10"
       },
       {
-        "type": "npc",
+        "type": "object",
+        "x": 30,
+        "y": 10,
+        "z": 3,
         "data": {
-          "id": 11,
           "sprite": 95,
           "replacement": 0,
-          "x": 30,
-          "y": 10,
-          "height": 3,
           "behavior": 8,
           "boundary": {
             "x": 1,
             "y": 1
           },
           "property": 0,
-          "view_radius": 0,
+          "viewRadius": 0,
           "script": {
-            "symbol": "fuchsiaCityNpc10Main",
-            "path": "scripts/npc/10.s"
+            "symbol": "fuchsiaCityObject10Main",
+            "path": "scripts/object/10.s"
           },
           "flag": 18
-        }
+        },
+        "id": "object-11"
       },
       {
-        "type": "npc",
+        "type": "object",
+        "x": 21,
+        "y": 13,
+        "z": 3,
         "data": {
-          "id": 12,
           "sprite": 95,
           "replacement": 0,
-          "x": 21,
-          "y": 13,
-          "height": 3,
           "behavior": 8,
           "boundary": {
             "x": 1,
             "y": 1
           },
           "property": 0,
-          "view_radius": 0,
+          "viewRadius": 0,
           "script": {
-            "symbol": "fuchsiaCityNpc11Main",
-            "path": "scripts/npc/11.s"
+            "symbol": "fuchsiaCityObject11Main",
+            "path": "scripts/object/11.s"
           },
           "flag": 19
-        }
+        },
+        "id": "object-12"
       },
       {
-        "type": "npc",
+        "type": "object",
+        "x": 32,
+        "y": 16,
+        "z": 3,
         "data": {
-          "id": 13,
           "sprite": 95,
           "replacement": 0,
-          "x": 32,
-          "y": 16,
-          "height": 3,
           "behavior": 8,
           "boundary": {
             "x": 1,
             "y": 1
           },
           "property": 0,
-          "view_radius": 0,
+          "viewRadius": 0,
           "script": {
-            "symbol": "fuchsiaCityNpc12Main",
-            "path": "scripts/npc/12.s"
+            "symbol": "fuchsiaCityObject12Main",
+            "path": "scripts/object/12.s"
           },
           "flag": 20
-        }
+        },
+        "id": "object-13"
       },
       {
-        "type": "npc",
+        "type": "object",
+        "x": 24,
+        "y": 22,
+        "z": 3,
         "data": {
-          "id": 14,
           "sprite": 95,
           "replacement": 0,
-          "x": 24,
-          "y": 22,
-          "height": 3,
           "behavior": 8,
           "boundary": {
             "x": 1,
             "y": 1
           },
           "property": 0,
-          "view_radius": 0,
+          "viewRadius": 0,
           "script": {
-            "symbol": "fuchsiaCityNpc13Main",
-            "path": "scripts/npc/13.s"
+            "symbol": "fuchsiaCityObject13Main",
+            "path": "scripts/object/13.s"
           },
           "flag": 21
-        }
+        },
+        "id": "object-14"
       },
       {
-        "type": "npc",
+        "type": "object",
+        "x": 15,
+        "y": 11,
+        "z": 3,
         "data": {
-          "id": 15,
           "sprite": 20,
           "replacement": 0,
-          "x": 15,
-          "y": 11,
-          "height": 3,
           "behavior": 7,
           "boundary": {
             "x": 1,
             "y": 1
           },
           "property": 0,
-          "view_radius": 0,
+          "viewRadius": 0,
           "script": {
-            "symbol": "fuchsiaCityNpc14Main",
-            "path": "scripts/npc/14.s"
+            "symbol": "fuchsiaCityObject14Main",
+            "path": "scripts/object/14.s"
           },
           "flag": 0
-        }
+        },
+        "id": "object-15"
       },
       {
-        "type": "npc",
+        "type": "object",
+        "x": 40,
+        "y": 6,
+        "z": 3,
         "data": {
-          "id": 16,
           "sprite": 22,
           "replacement": 0,
-          "x": 40,
-          "y": 6,
-          "height": 3,
           "behavior": 8,
           "boundary": {
             "x": 1,
             "y": 1
           },
           "property": 0,
-          "view_radius": 0,
+          "viewRadius": 0,
           "script": {
-            "symbol": "fuchsiaCityNpc15Main",
-            "path": "scripts/npc/15.s"
+            "symbol": "fuchsiaCityObject15Main",
+            "path": "scripts/object/15.s"
           },
           "flag": 157
-        }
-      },
-      {
-        "type": "warp",
-        "data": {
-          "x": 24,
-          "y": 5,
-          "height": 0,
-          "target": {
-            "warp": 2,
-            "map": {
-              "id": "map-11-0"
-            }
-          }
-        }
-      },
-      {
-        "type": "warp",
-        "data": {
-          "x": 33,
-          "y": 31,
-          "height": 0,
-          "target": {
-            "warp": 1,
-            "map": {
-              "id": "map-11-7"
-            }
-          }
-        }
-      },
-      {
-        "type": "warp",
-        "data": {
-          "x": 11,
-          "y": 15,
-          "height": 0,
-          "target": {
-            "warp": 1,
-            "map": {
-              "id": "map-11-1"
-            }
-          }
-        }
-      },
-      {
-        "type": "warp",
-        "data": {
-          "x": 28,
-          "y": 16,
-          "height": 0,
-          "target": {
-            "warp": 1,
-            "map": {
-              "id": "map-11-2"
-            }
-          }
-        }
-      },
-      {
-        "type": "warp",
-        "data": {
-          "x": 9,
-          "y": 32,
-          "height": 0,
-          "target": {
-            "warp": 1,
-            "map": {
-              "id": "map-11-3"
-            }
-          }
-        }
-      },
-      {
-        "type": "warp",
-        "data": {
-          "x": 14,
-          "y": 31,
-          "height": 0,
-          "target": {
-            "warp": 1,
-            "map": {
-              "id": "map-11-4"
-            }
-          }
-        }
-      },
-      {
-        "type": "warp",
-        "data": {
-          "x": 25,
-          "y": 31,
-          "height": 3,
-          "target": {
-            "warp": 1,
-            "map": {
-              "id": "map-11-5"
-            }
-          }
-        }
-      },
-      {
-        "type": "warp",
-        "data": {
-          "x": 38,
-          "y": 31,
-          "height": 0,
-          "target": {
-            "warp": 1,
-            "map": {
-              "id": "map-11-8"
-            }
-          }
-        }
-      },
-      {
-        "type": "warp",
-        "data": {
-          "x": 39,
-          "y": 28,
-          "height": 3,
-          "target": {
-            "warp": 3,
-            "map": {
-              "id": "map-11-8"
-            }
-          }
-        }
-      },
-      {
-        "type": "warp",
-        "data": {
-          "x": 39,
-          "y": 29,
-          "height": 3,
-          "target": {
-            "warp": 3,
-            "map": {
-              "id": "map-11-8"
-            }
-          }
-        }
-      },
-      {
-        "type": "warp",
-        "data": {
-          "x": 19,
-          "y": 31,
-          "height": 0,
-          "target": {
-            "warp": 0,
-            "map": {
-              "id": "map-11-9"
-            }
-          }
-        }
-      },
-      {
-        "type": "sign",
-        "data": {
-          "x": 31,
-          "y": 18,
-          "height": 3,
-          "type": "script",
-          "script": {
-            "symbol": "fuchsiaCitySign0Main",
-            "path": "scripts/sign/0.s"
-          }
-        }
-      },
-      {
-        "type": "sign",
-        "data": {
-          "x": 26,
-          "y": 18,
-          "height": 0,
-          "type": "script",
-          "script": {
-            "symbol": "fuchsiaCitySign1Main",
-            "path": "scripts/sign/1.s"
-          }
-        }
-      },
-      {
-        "type": "sign",
-        "data": {
-          "x": 5,
-          "y": 32,
-          "height": 0,
-          "type": "script",
-          "script": {
-            "symbol": "fuchsiaCitySign2Main",
-            "path": "scripts/sign/2.s"
-          }
-        }
-      },
-      {
-        "type": "sign",
-        "data": {
-          "x": 31,
-          "y": 31,
-          "height": 0,
-          "type": "script",
-          "script": {
-            "symbol": "fuchsiaCitySign3Main",
-            "path": "scripts/sign/3.s"
-          }
-        }
-      },
-      {
-        "type": "sign",
-        "data": {
-          "x": 35,
-          "y": 10,
-          "height": 0,
-          "type": "script",
-          "script": {
-            "symbol": "fuchsiaCitySign4Main",
-            "path": "scripts/sign/4.s"
-          }
-        }
-      },
-      {
-        "type": "sign",
-        "data": {
-          "x": 38,
-          "y": 16,
-          "height": 3,
-          "type": "script",
-          "script": {
-            "symbol": "fuchsiaCitySign5Main",
-            "path": "scripts/sign/5.s"
-          }
-        }
-      },
-      {
-        "type": "sign",
-        "data": {
-          "x": 41,
-          "y": 10,
-          "height": 0,
-          "type": "script",
-          "script": {
-            "symbol": "fuchsiaCitySign6Main",
-            "path": "scripts/sign/6.s"
-          }
-        }
-      },
-      {
-        "type": "sign",
-        "data": {
-          "x": 17,
-          "y": 10,
-          "height": 0,
-          "type": "script",
-          "script": {
-            "symbol": "fuchsiaCitySign7Main",
-            "path": "scripts/sign/7.s"
-          }
-        }
-      },
-      {
-        "type": "sign",
-        "data": {
-          "x": 11,
-          "y": 10,
-          "height": 0,
-          "type": "script",
-          "script": {
-            "symbol": "fuchsiaCitySign8Main",
-            "path": "scripts/sign/8.s"
-          }
-        }
-      },
-      {
-        "type": "sign",
-        "data": {
-          "x": 17,
-          "y": 18,
-          "height": 3,
-          "type": "script",
-          "script": {
-            "symbol": "fuchsiaCitySign9Main",
-            "path": "scripts/sign/9.s"
-          }
-        }
-      },
-      {
-        "type": "sign",
-        "data": {
-          "x": 22,
-          "y": 7,
-          "height": 0,
-          "type": "script",
-          "script": {
-            "symbol": "fuchsiaCitySign10Main",
-            "path": "scripts/sign/10.s"
-          }
-        }
-      },
-      {
-        "type": "sign",
-        "data": {
-          "x": 33,
-          "y": 26,
-          "height": 3,
-          "type": "hidden_item2",
-          "item": 25,
-          "id": 133,
-          "data": {
-            "amount": 1,
-            "exact_required": 0
-          }
-        }
+        },
+        "id": "object-16"
       }
     ]
   }

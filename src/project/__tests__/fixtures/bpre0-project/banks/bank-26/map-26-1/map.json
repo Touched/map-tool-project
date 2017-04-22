@@ -12,79 +12,74 @@
     "linked": {
       "id": "map-22-1"
     },
-    "blocksets": {
-      "primary": {
-        "id": "blockset-0"
-      },
-      "secondary": {
-        "id": "blockset-8"
-      }
-    },
     "scripts": [],
     "connections": [],
     "entities": [
       {
-        "type": "npc",
+        "type": "warp",
+        "x": 10,
+        "y": 9,
+        "z": 3,
         "data": {
-          "id": 1,
+          "target": {
+            "warp": "warp-2",
+            "map": {
+              "id": "map-26-0"
+            }
+          }
+        },
+        "id": "warp-0"
+      },
+      {
+        "type": "interactable",
+        "x": 4,
+        "y": 1,
+        "z": 0,
+        "data": {
+          "type": "script",
+          "script": {
+            "symbol": "route182Interactable0Main",
+            "path": "scripts/interactable/0.s"
+          }
+        },
+        "id": "interactable-0"
+      },
+      {
+        "type": "interactable",
+        "x": 8,
+        "y": 1,
+        "z": 0,
+        "data": {
+          "type": "script",
+          "script": {
+            "symbol": "route182Interactable1Main",
+            "path": "scripts/interactable/1.s"
+          }
+        },
+        "id": "interactable-1"
+      },
+      {
+        "type": "object",
+        "x": 5,
+        "y": 3,
+        "z": 3,
+        "data": {
           "sprite": 19,
           "replacement": 0,
-          "x": 5,
-          "y": 3,
-          "height": 3,
           "behavior": 9,
           "boundary": {
             "x": 1,
             "y": 1
           },
           "property": 0,
-          "view_radius": 0,
+          "viewRadius": 0,
           "script": {
-            "symbol": "route182Npc0Main",
-            "path": "scripts/npc/0.s"
+            "symbol": "route182Object0Main",
+            "path": "scripts/object/0.s"
           },
           "flag": 0
-        }
-      },
-      {
-        "type": "warp",
-        "data": {
-          "x": 10,
-          "y": 9,
-          "height": 3,
-          "target": {
-            "warp": 2,
-            "map": {
-              "id": "map-26-0"
-            }
-          }
-        }
-      },
-      {
-        "type": "sign",
-        "data": {
-          "x": 4,
-          "y": 1,
-          "height": 0,
-          "type": "script",
-          "script": {
-            "symbol": "route182Sign0Main",
-            "path": "scripts/sign/0.s"
-          }
-        }
-      },
-      {
-        "type": "sign",
-        "data": {
-          "x": 8,
-          "y": 1,
-          "height": 0,
-          "type": "script",
-          "script": {
-            "symbol": "route182Sign1Main",
-            "path": "scripts/sign/1.s"
-          }
-        }
+        },
+        "id": "object-1"
       }
     ]
   }

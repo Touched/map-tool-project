@@ -12,99 +12,92 @@
     "linked": {
       "id": "map-1-12"
     },
-    "blocksets": {
-      "primary": {
-        "id": "blockset-3"
-      },
-      "secondary": {
-        "id": "blockset-7"
-      }
-    },
     "scripts": [],
     "connections": [],
     "entities": [
       {
-        "type": "npc",
+        "type": "warp",
+        "x": 2,
+        "y": 1,
+        "z": 0,
         "data": {
-          "id": 1,
+          "target": {
+            "warp": "warp-8",
+            "map": {
+              "id": "map-1-5"
+            }
+          }
+        },
+        "id": "warp-0"
+      },
+      {
+        "type": "object",
+        "x": 3,
+        "y": 4,
+        "z": 3,
+        "data": {
           "sprite": 17,
           "replacement": 0,
-          "x": 3,
-          "y": 4,
-          "height": 3,
           "behavior": 52,
           "boundary": {
             "x": 2,
             "y": 3
           },
           "property": 0,
-          "view_radius": 0,
+          "viewRadius": 0,
           "script": {
-            "symbol": "s。s。Anne10Npc0Main",
-            "path": "scripts/npc/0.s"
+            "symbol": "s。s。Anne10Object0Main",
+            "path": "scripts/object/0.s"
           },
           "flag": 0
-        }
+        },
+        "id": "object-1"
       },
       {
-        "type": "npc",
+        "type": "object",
+        "x": 4,
+        "y": 2,
+        "z": 3,
         "data": {
-          "id": 2,
           "sprite": 131,
           "replacement": 0,
-          "x": 4,
-          "y": 2,
-          "height": 3,
           "behavior": 8,
           "boundary": {
             "x": 1,
             "y": 1
           },
           "property": 0,
-          "view_radius": 0,
+          "viewRadius": 0,
           "script": {
-            "symbol": "s。s。Anne10Npc1Main",
-            "path": "scripts/npc/1.s"
+            "symbol": "s。s。Anne10Object1Main",
+            "path": "scripts/object/1.s"
           },
           "flag": 0
-        }
+        },
+        "id": "object-2"
       },
       {
-        "type": "npc",
+        "type": "object",
+        "x": 0,
+        "y": 4,
+        "z": 3,
         "data": {
-          "id": 3,
           "sprite": 30,
           "replacement": 0,
-          "x": 0,
-          "y": 4,
-          "height": 3,
           "behavior": 10,
           "boundary": {
             "x": 1,
             "y": 1
           },
           "property": 0,
-          "view_radius": 0,
+          "viewRadius": 0,
           "script": {
-            "symbol": "s。s。Anne10Npc2Main",
-            "path": "scripts/npc/2.s"
+            "symbol": "s。s。Anne10Object2Main",
+            "path": "scripts/object/2.s"
           },
           "flag": 0
-        }
-      },
-      {
-        "type": "warp",
-        "data": {
-          "x": 2,
-          "y": 1,
-          "height": 0,
-          "target": {
-            "warp": 8,
-            "map": {
-              "id": "map-1-5"
-            }
-          }
-        }
+        },
+        "id": "object-3"
       }
     ]
   }

@@ -12,99 +12,92 @@
     "linked": {
       "id": "map-32-2"
     },
-    "blocksets": {
-      "primary": {
-        "id": "blockset-0"
-      },
-      "secondary": {
-        "id": "blockset-8"
-      }
-    },
     "scripts": [],
     "connections": [],
     "entities": [
       {
-        "type": "npc",
-        "data": {
-          "id": 1,
-          "sprite": 30,
-          "replacement": 0,
-          "x": 2,
-          "y": 4,
-          "height": 3,
-          "behavior": 8,
-          "boundary": {
-            "x": 1,
-            "y": 1
-          },
-          "property": 0,
-          "view_radius": 0,
-          "script": {
-            "symbol": "sevaultCanyon1Npc0Main",
-            "path": "scripts/npc/0.s"
-          },
-          "flag": 0
-        }
-      },
-      {
-        "type": "npc",
-        "data": {
-          "id": 2,
-          "sprite": 117,
-          "replacement": 0,
-          "x": 4,
-          "y": 2,
-          "height": 3,
-          "behavior": 8,
-          "boundary": {
-            "x": 1,
-            "y": 1
-          },
-          "property": 0,
-          "view_radius": 0,
-          "script": {
-            "symbol": "sevaultCanyon1Npc1Main",
-            "path": "scripts/npc/1.s"
-          },
-          "flag": 0
-        }
-      },
-      {
-        "type": "npc",
-        "data": {
-          "id": 3,
-          "sprite": 92,
-          "replacement": 0,
-          "x": 6,
-          "y": 4,
-          "height": 0,
-          "behavior": 8,
-          "boundary": {
-            "x": 1,
-            "y": 1
-          },
-          "property": 0,
-          "view_radius": 0,
-          "script": {
-            "symbol": "sevaultCanyon1Npc2Main",
-            "path": "scripts/npc/2.s"
-          },
-          "flag": 509
-        }
-      },
-      {
         "type": "warp",
+        "x": 4,
+        "y": 7,
+        "z": 3,
         "data": {
-          "x": 4,
-          "y": 7,
-          "height": 3,
           "target": {
-            "warp": 1,
+            "warp": "warp-1",
             "map": {
               "id": "map-3-64"
             }
           }
-        }
+        },
+        "id": "warp-0"
+      },
+      {
+        "type": "object",
+        "x": 2,
+        "y": 4,
+        "z": 3,
+        "data": {
+          "sprite": 30,
+          "replacement": 0,
+          "behavior": 8,
+          "boundary": {
+            "x": 1,
+            "y": 1
+          },
+          "property": 0,
+          "viewRadius": 0,
+          "script": {
+            "symbol": "sevaultCanyon1Object0Main",
+            "path": "scripts/object/0.s"
+          },
+          "flag": 0
+        },
+        "id": "object-1"
+      },
+      {
+        "type": "object",
+        "x": 4,
+        "y": 2,
+        "z": 3,
+        "data": {
+          "sprite": 117,
+          "replacement": 0,
+          "behavior": 8,
+          "boundary": {
+            "x": 1,
+            "y": 1
+          },
+          "property": 0,
+          "viewRadius": 0,
+          "script": {
+            "symbol": "sevaultCanyon1Object1Main",
+            "path": "scripts/object/1.s"
+          },
+          "flag": 0
+        },
+        "id": "object-2"
+      },
+      {
+        "type": "object",
+        "x": 6,
+        "y": 4,
+        "z": 0,
+        "data": {
+          "sprite": 92,
+          "replacement": 0,
+          "behavior": 8,
+          "boundary": {
+            "x": 1,
+            "y": 1
+          },
+          "property": 0,
+          "viewRadius": 0,
+          "script": {
+            "symbol": "sevaultCanyon1Object2Main",
+            "path": "scripts/object/2.s"
+          },
+          "flag": 509
+        },
+        "id": "object-3"
       }
     ]
   }

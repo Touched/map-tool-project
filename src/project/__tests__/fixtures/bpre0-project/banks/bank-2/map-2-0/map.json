@@ -1446,31 +1446,33 @@
     "entities": [
       {
         "type": "warp",
+        "x": 9,
+        "y": 8,
+        "z": 3,
         "data": {
-          "x": 9,
-          "y": 8,
-          "height": 3,
           "target": {
-            "warp": 1,
+            "warp": "warp-1",
             "map": {
               "id": "map-2-36"
             }
           }
-        }
+        },
+        "id": "warp-0"
       },
       {
         "type": "warp",
+        "x": 9,
+        "y": 16,
+        "z": 3,
         "data": {
-          "x": 9,
-          "y": 16,
-          "height": 3,
           "target": {
-            "warp": 0,
+            "warp": "warp-0",
             "map": {
               "id": "map-2-59"
             }
           }
-        }
+        },
+        "id": "warp-1"
       }
     ]
   }

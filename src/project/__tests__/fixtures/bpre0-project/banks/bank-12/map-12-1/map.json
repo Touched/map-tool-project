@@ -989,163 +989,173 @@
     "connections": [],
     "entities": [
       {
-        "type": "npc",
+        "type": "warp",
+        "x": 3,
+        "y": 9,
+        "z": 3,
         "data": {
-          "id": 1,
+          "target": {
+            "warp": "warp-2",
+            "map": {
+              "id": "map-3-8"
+            }
+          }
+        },
+        "id": "warp-0"
+      },
+      {
+        "type": "warp",
+        "x": 4,
+        "y": 9,
+        "z": 3,
+        "data": {
+          "target": {
+            "warp": "warp-2",
+            "map": {
+              "id": "map-3-8"
+            }
+          }
+        },
+        "id": "warp-1"
+      },
+      {
+        "type": "warp",
+        "x": 5,
+        "y": 9,
+        "z": 3,
+        "data": {
+          "target": {
+            "warp": "warp-2",
+            "map": {
+              "id": "map-3-8"
+            }
+          }
+        },
+        "id": "warp-2"
+      },
+      {
+        "type": "warp",
+        "x": 13,
+        "y": 5,
+        "z": 0,
+        "data": {
+          "target": {
+            "warp": "warp-0",
+            "map": {
+              "id": "map-12-2"
+            }
+          }
+        },
+        "id": "warp-3"
+      },
+      {
+        "type": "warp",
+        "x": 19,
+        "y": 5,
+        "z": 0,
+        "data": {
+          "target": {
+            "warp": "warp-0",
+            "map": {
+              "id": "map-12-3"
+            }
+          }
+        },
+        "id": "warp-4"
+      },
+      {
+        "type": "warp",
+        "x": 25,
+        "y": 5,
+        "z": 0,
+        "data": {
+          "target": {
+            "warp": "warp-0",
+            "map": {
+              "id": "map-12-4"
+            }
+          }
+        },
+        "id": "warp-5"
+      },
+      {
+        "type": "interactable",
+        "x": 4,
+        "y": 1,
+        "z": 0,
+        "data": {
+          "type": "script",
+          "script": {
+            "symbol": "cinnabarIsland2Interactable0Main",
+            "path": "scripts/interactable/0.s"
+          }
+        },
+        "id": "interactable-0"
+      },
+      {
+        "type": "interactable",
+        "x": 12,
+        "y": 5,
+        "z": 0,
+        "data": {
+          "type": "script",
+          "script": {
+            "symbol": "cinnabarIsland2Interactable1Main",
+            "path": "scripts/interactable/1.s"
+          }
+        },
+        "id": "interactable-1"
+      },
+      {
+        "type": "interactable",
+        "x": 18,
+        "y": 5,
+        "z": 0,
+        "data": {
+          "type": "script",
+          "script": {
+            "symbol": "cinnabarIsland2Interactable2Main",
+            "path": "scripts/interactable/2.s"
+          }
+        },
+        "id": "interactable-2"
+      },
+      {
+        "type": "interactable",
+        "x": 24,
+        "y": 5,
+        "z": 0,
+        "data": {
+          "type": "script",
+          "script": {
+            "symbol": "cinnabarIsland2Interactable3Main",
+            "path": "scripts/interactable/3.s"
+          }
+        },
+        "id": "interactable-3"
+      },
+      {
+        "type": "object",
+        "x": 2,
+        "y": 4,
+        "z": 3,
+        "data": {
           "sprite": 55,
           "replacement": 0,
-          "x": 2,
-          "y": 4,
-          "height": 3,
           "behavior": 2,
           "boundary": {
             "x": 1,
             "y": 1
           },
           "property": 0,
-          "view_radius": 0,
+          "viewRadius": 0,
           "script": {
-            "symbol": "cinnabarIsland2Npc0Main",
-            "path": "scripts/npc/0.s"
+            "symbol": "cinnabarIsland2Object0Main",
+            "path": "scripts/object/0.s"
           },
           "flag": 0
-        }
-      },
-      {
-        "type": "warp",
-        "data": {
-          "x": 3,
-          "y": 9,
-          "height": 3,
-          "target": {
-            "warp": 2,
-            "map": {
-              "id": "map-3-8"
-            }
-          }
-        }
-      },
-      {
-        "type": "warp",
-        "data": {
-          "x": 4,
-          "y": 9,
-          "height": 3,
-          "target": {
-            "warp": 2,
-            "map": {
-              "id": "map-3-8"
-            }
-          }
-        }
-      },
-      {
-        "type": "warp",
-        "data": {
-          "x": 5,
-          "y": 9,
-          "height": 3,
-          "target": {
-            "warp": 2,
-            "map": {
-              "id": "map-3-8"
-            }
-          }
-        }
-      },
-      {
-        "type": "warp",
-        "data": {
-          "x": 13,
-          "y": 5,
-          "height": 0,
-          "target": {
-            "warp": 0,
-            "map": {
-              "id": "map-12-2"
-            }
-          }
-        }
-      },
-      {
-        "type": "warp",
-        "data": {
-          "x": 19,
-          "y": 5,
-          "height": 0,
-          "target": {
-            "warp": 0,
-            "map": {
-              "id": "map-12-3"
-            }
-          }
-        }
-      },
-      {
-        "type": "warp",
-        "data": {
-          "x": 25,
-          "y": 5,
-          "height": 0,
-          "target": {
-            "warp": 0,
-            "map": {
-              "id": "map-12-4"
-            }
-          }
-        }
-      },
-      {
-        "type": "sign",
-        "data": {
-          "x": 4,
-          "y": 1,
-          "height": 0,
-          "type": "script",
-          "script": {
-            "symbol": "cinnabarIsland2Sign0Main",
-            "path": "scripts/sign/0.s"
-          }
-        }
-      },
-      {
-        "type": "sign",
-        "data": {
-          "x": 12,
-          "y": 5,
-          "height": 0,
-          "type": "script",
-          "script": {
-            "symbol": "cinnabarIsland2Sign1Main",
-            "path": "scripts/sign/1.s"
-          }
-        }
-      },
-      {
-        "type": "sign",
-        "data": {
-          "x": 18,
-          "y": 5,
-          "height": 0,
-          "type": "script",
-          "script": {
-            "symbol": "cinnabarIsland2Sign2Main",
-            "path": "scripts/sign/2.s"
-          }
-        }
-      },
-      {
-        "type": "sign",
-        "data": {
-          "x": 24,
-          "y": 5,
-          "height": 0,
-          "type": "script",
-          "script": {
-            "symbol": "cinnabarIsland2Sign3Main",
-            "path": "scripts/sign/3.s"
-          }
-        }
+        },
+        "id": "object-1"
       }
     ]
   }

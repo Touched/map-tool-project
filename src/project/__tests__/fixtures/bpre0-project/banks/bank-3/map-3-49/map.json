@@ -2953,115 +2953,118 @@
     ],
     "entities": [
       {
-        "type": "npc",
+        "type": "warp",
+        "x": 16,
+        "y": 4,
+        "z": 0,
         "data": {
-          "id": 1,
+          "target": {
+            "warp": "warp-0",
+            "map": {
+              "id": "map-2-34"
+            }
+          }
+        },
+        "id": "warp-0"
+      },
+      {
+        "type": "warp",
+        "x": 38,
+        "y": 5,
+        "z": 3,
+        "data": {
+          "target": {
+            "warp": "warp-1",
+            "map": {
+              "id": "map-2-34"
+            }
+          }
+        },
+        "id": "warp-1"
+      },
+      {
+        "type": "warp",
+        "x": 12,
+        "y": 13,
+        "z": 3,
+        "data": {
+          "target": {
+            "warp": "warp-0",
+            "map": {
+              "id": "map-38-0"
+            }
+          }
+        },
+        "id": "warp-2"
+      },
+      {
+        "type": "object",
+        "x": 14,
+        "y": 9,
+        "z": 3,
+        "data": {
           "sprite": 31,
           "replacement": 0,
-          "x": 14,
-          "y": 9,
-          "height": 3,
           "behavior": 1,
           "boundary": {
             "x": 1,
             "y": 1
           },
           "property": 0,
-          "view_radius": 0,
+          "viewRadius": 0,
           "script": {
-            "symbol": "threeIslePortNpc0Main",
-            "path": "scripts/npc/0.s"
+            "symbol": "threeIslePortObject0Main",
+            "path": "scripts/object/0.s"
           },
           "flag": 0
-        }
+        },
+        "id": "object-1"
       },
       {
-        "type": "npc",
+        "type": "object",
+        "x": 8,
+        "y": 8,
+        "z": 3,
         "data": {
-          "id": 2,
           "sprite": 53,
           "replacement": 0,
-          "x": 8,
-          "y": 8,
-          "height": 3,
           "behavior": 28,
           "boundary": {
             "x": 3,
             "y": 1
           },
           "property": 0,
-          "view_radius": 0,
+          "viewRadius": 0,
           "script": {
-            "symbol": "threeIslePortNpc1Main",
-            "path": "scripts/npc/1.s"
+            "symbol": "threeIslePortObject1Main",
+            "path": "scripts/object/1.s"
           },
           "flag": 121
-        }
+        },
+        "id": "object-2"
       },
       {
-        "type": "npc",
+        "type": "object",
+        "x": 13,
+        "y": 10,
+        "z": 3,
         "data": {
-          "id": 3,
           "sprite": 53,
           "replacement": 0,
-          "x": 13,
-          "y": 10,
-          "height": 3,
           "behavior": 49,
           "boundary": {
             "x": 2,
             "y": 2
           },
           "property": 0,
-          "view_radius": 0,
+          "viewRadius": 0,
           "script": {
-            "symbol": "threeIslePortNpc2Main",
-            "path": "scripts/npc/2.s"
+            "symbol": "threeIslePortObject2Main",
+            "path": "scripts/object/2.s"
           },
           "flag": 121
-        }
-      },
-      {
-        "type": "warp",
-        "data": {
-          "x": 16,
-          "y": 4,
-          "height": 0,
-          "target": {
-            "warp": 0,
-            "map": {
-              "id": "map-2-34"
-            }
-          }
-        }
-      },
-      {
-        "type": "warp",
-        "data": {
-          "x": 38,
-          "y": 5,
-          "height": 3,
-          "target": {
-            "warp": 1,
-            "map": {
-              "id": "map-2-34"
-            }
-          }
-        }
-      },
-      {
-        "type": "warp",
-        "data": {
-          "x": 12,
-          "y": 13,
-          "height": 3,
-          "target": {
-            "warp": 0,
-            "map": {
-              "id": "map-38-0"
-            }
-          }
-        }
+        },
+        "id": "object-3"
       }
     ]
   }

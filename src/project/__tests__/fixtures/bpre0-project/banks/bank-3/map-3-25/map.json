@@ -1512,83 +1512,84 @@
     ],
     "entities": [
       {
-        "type": "npc",
+        "type": "warp",
+        "x": 7,
+        "y": 14,
+        "z": 0,
         "data": {
-          "id": 1,
+          "target": {
+            "warp": "warp-1",
+            "map": {
+              "id": "map-1-33"
+            }
+          }
+        },
+        "id": "warp-0"
+      },
+      {
+        "type": "warp",
+        "x": 15,
+        "y": 10,
+        "z": 3,
+        "data": {
+          "target": {
+            "warp": "warp-0",
+            "map": {
+              "id": "map-19-0"
+            }
+          }
+        },
+        "id": "warp-1"
+      },
+      {
+        "type": "interactable",
+        "x": 5,
+        "y": 14,
+        "z": 0,
+        "data": {
+          "type": "script",
+          "script": {
+            "symbol": "route7Interactable0Main",
+            "path": "scripts/interactable/0.s"
+          }
+        },
+        "id": "interactable-0"
+      },
+      {
+        "type": "interactable",
+        "x": 16,
+        "y": 15,
+        "z": 3,
+        "data": {
+          "type": "hiddenItem",
+          "item": 151,
+          "hiddenItemId": 152,
+          "quantity": 1
+        },
+        "id": "interactable-1"
+      },
+      {
+        "type": "object",
+        "x": 65528,
+        "y": 12,
+        "z": 10,
+        "data": {
           "sprite": 95,
           "replacement": 255,
-          "x": 65528,
-          "y": 12,
-          "height": 10,
           "behavior": 0,
           "boundary": {
             "x": 0,
             "y": 0
           },
           "property": 6,
-          "view_radius": 3,
+          "viewRadius": 3,
           "script": {
-            "symbol": "route7Npc0Main",
-            "path": "scripts/npc/0.s"
+            "symbol": "route7Object0Main",
+            "path": "scripts/object/0.s"
           },
           "flag": 0
-        }
-      },
-      {
-        "type": "warp",
-        "data": {
-          "x": 7,
-          "y": 14,
-          "height": 0,
-          "target": {
-            "warp": 1,
-            "map": {
-              "id": "map-1-33"
-            }
-          }
-        }
-      },
-      {
-        "type": "warp",
-        "data": {
-          "x": 15,
-          "y": 10,
-          "height": 3,
-          "target": {
-            "warp": 0,
-            "map": {
-              "id": "map-19-0"
-            }
-          }
-        }
-      },
-      {
-        "type": "sign",
-        "data": {
-          "x": 5,
-          "y": 14,
-          "height": 0,
-          "type": "script",
-          "script": {
-            "symbol": "route7Sign0Main",
-            "path": "scripts/sign/0.s"
-          }
-        }
-      },
-      {
-        "type": "sign",
-        "data": {
-          "x": 16,
-          "y": 15,
-          "height": 3,
-          "type": "hidden_item2",
-          "item": 151,
-          "id": 152,
-          "data": {
-            "amount": 1,
-            "exact_required": 0
-          }
-        }
+        },
+        "id": "object-1"
       }
     ]
   }

@@ -2953,306 +2953,313 @@
     ],
     "entities": [
       {
-        "type": "npc",
+        "type": "warp",
+        "x": 39,
+        "y": 9,
+        "z": 0,
         "data": {
-          "id": 1,
+          "target": {
+            "warp": "warp-0",
+            "map": {
+              "id": "map-33-0"
+            }
+          }
+        },
+        "id": "warp-0"
+      },
+      {
+        "type": "warp",
+        "x": 33,
+        "y": 9,
+        "z": 0,
+        "data": {
+          "target": {
+            "warp": "warp-0",
+            "map": {
+              "id": "map-33-1"
+            }
+          }
+        },
+        "id": "warp-1"
+      },
+      {
+        "type": "warp",
+        "x": 21,
+        "y": 7,
+        "z": 0,
+        "data": {
+          "target": {
+            "warp": "warp-0",
+            "map": {
+              "id": "map-33-2"
+            }
+          }
+        },
+        "id": "warp-2"
+      },
+      {
+        "type": "warp",
+        "x": 10,
+        "y": 8,
+        "z": 3,
+        "data": {
+          "target": {
+            "warp": "warp-0",
+            "map": {
+              "id": "map-33-4"
+            }
+          }
+        },
+        "id": "warp-3"
+      },
+      {
+        "type": "interactable",
+        "x": 29,
+        "y": 8,
+        "z": 0,
+        "data": {
+          "type": "script",
+          "script": {
+            "symbol": "twoIslandInteractable0Main",
+            "path": "scripts/interactable/0.s"
+          }
+        },
+        "id": "interactable-0"
+      },
+      {
+        "type": "interactable",
+        "x": 40,
+        "y": 10,
+        "z": 0,
+        "data": {
+          "type": "script",
+          "script": {
+            "symbol": "twoIslandInteractable1Main",
+            "path": "scripts/interactable/1.s"
+          }
+        },
+        "id": "interactable-1"
+      },
+      {
+        "type": "interactable",
+        "x": 8,
+        "y": 3,
+        "z": 0,
+        "data": {
+          "type": "script",
+          "script": {
+            "symbol": "twoIslandInteractable2Main",
+            "path": "scripts/interactable/2.s"
+          }
+        },
+        "id": "interactable-2"
+      },
+      {
+        "type": "object",
+        "x": 28,
+        "y": 4,
+        "z": 3,
+        "data": {
           "sprite": 68,
           "replacement": 0,
-          "x": 28,
-          "y": 4,
-          "height": 3,
           "behavior": 8,
           "boundary": {
             "x": 1,
             "y": 2
           },
           "property": 0,
-          "view_radius": 0,
+          "viewRadius": 0,
           "script": {
-            "symbol": "twoIslandNpc0Main",
-            "path": "scripts/npc/0.s"
+            "symbol": "twoIslandObject0Main",
+            "path": "scripts/object/0.s"
           },
           "flag": 0
-        }
+        },
+        "id": "object-1"
       },
       {
-        "type": "npc",
+        "type": "object",
+        "x": 31,
+        "y": 6,
+        "z": 3,
         "data": {
-          "id": 2,
           "sprite": 23,
           "replacement": 0,
-          "x": 31,
-          "y": 6,
-          "height": 3,
           "behavior": 7,
           "boundary": {
             "x": 1,
             "y": 1
           },
           "property": 0,
-          "view_radius": 0,
+          "viewRadius": 0,
           "script": {
-            "symbol": "twoIslandNpc1Main",
-            "path": "scripts/npc/1.s"
+            "symbol": "twoIslandObject1Main",
+            "path": "scripts/object/1.s"
           },
           "flag": 123
-        }
+        },
+        "id": "object-2"
       },
       {
-        "type": "npc",
+        "type": "object",
+        "x": 30,
+        "y": 11,
+        "z": 3,
         "data": {
-          "id": 3,
           "sprite": 29,
           "replacement": 0,
-          "x": 30,
-          "y": 11,
-          "height": 3,
           "behavior": 7,
           "boundary": {
             "x": 1,
             "y": 1
           },
           "property": 0,
-          "view_radius": 0,
+          "viewRadius": 0,
           "script": {
-            "symbol": "twoIslandNpc2Main",
-            "path": "scripts/npc/2.s"
+            "symbol": "twoIslandObject2Main",
+            "path": "scripts/object/2.s"
           },
           "flag": 124
-        }
+        },
+        "id": "object-3"
       },
       {
-        "type": "npc",
+        "type": "object",
+        "x": 26,
+        "y": 5,
+        "z": 3,
         "data": {
-          "id": 4,
           "sprite": 62,
           "replacement": 0,
-          "x": 26,
-          "y": 5,
-          "height": 3,
           "behavior": 10,
           "boundary": {
             "x": 1,
             "y": 1
           },
           "property": 0,
-          "view_radius": 0,
+          "viewRadius": 0,
           "script": {
-            "symbol": "twoIslandNpc3Main",
-            "path": "scripts/npc/3.s"
+            "symbol": "twoIslandObject3Main",
+            "path": "scripts/object/3.s"
           },
           "flag": 0
-        }
+        },
+        "id": "object-4"
       },
       {
-        "type": "npc",
+        "type": "object",
+        "x": 27,
+        "y": 6,
+        "z": 3,
         "data": {
-          "id": 5,
           "sprite": 52,
           "replacement": 0,
-          "x": 27,
-          "y": 6,
-          "height": 3,
           "behavior": 10,
           "boundary": {
             "x": 1,
             "y": 1
           },
           "property": 0,
-          "view_radius": 0,
+          "viewRadius": 0,
           "script": {
-            "symbol": "twoIslandNpc4Main",
-            "path": "scripts/npc/4.s"
+            "symbol": "twoIslandObject4Main",
+            "path": "scripts/object/4.s"
           },
           "flag": 125
-        }
+        },
+        "id": "object-5"
       },
       {
-        "type": "npc",
+        "type": "object",
+        "x": 30,
+        "y": 16,
+        "z": 3,
         "data": {
-          "id": 6,
           "sprite": 95,
           "replacement": 0,
-          "x": 30,
-          "y": 16,
-          "height": 3,
           "behavior": 1,
           "boundary": {
             "x": 1,
             "y": 1
           },
           "property": 0,
-          "view_radius": 0,
+          "viewRadius": 0,
           "script": {
-            "symbol": "twoIslandNpc5Main",
-            "path": "scripts/npc/5.s"
+            "symbol": "twoIslandObject5Main",
+            "path": "scripts/object/5.s"
           },
           "flag": 18
-        }
+        },
+        "id": "object-6"
       },
       {
-        "type": "npc",
+        "type": "object",
+        "x": 39,
+        "y": 16,
+        "z": 3,
         "data": {
-          "id": 7,
           "sprite": 92,
           "replacement": 0,
-          "x": 39,
-          "y": 16,
-          "height": 3,
           "behavior": 8,
           "boundary": {
             "x": 1,
             "y": 1
           },
           "property": 0,
-          "view_radius": 0,
+          "viewRadius": 0,
           "script": {
-            "symbol": "twoIslandNpc6Main",
-            "path": "scripts/npc/6.s"
+            "symbol": "twoIslandObject6Main",
+            "path": "scripts/object/6.s"
           },
           "flag": 442
-        }
+        },
+        "id": "object-7"
       },
       {
-        "type": "npc",
+        "type": "object",
+        "x": 37,
+        "y": 12,
+        "z": 3,
         "data": {
-          "id": 8,
           "sprite": 16,
           "replacement": 0,
-          "x": 37,
-          "y": 12,
-          "height": 3,
           "behavior": 8,
           "boundary": {
             "x": 1,
             "y": 1
           },
           "property": 0,
-          "view_radius": 0,
+          "viewRadius": 0,
           "script": {
-            "symbol": "twoIslandNpc7Main",
-            "path": "scripts/npc/7.s"
+            "symbol": "twoIslandObject7Main",
+            "path": "scripts/object/7.s"
           },
           "flag": 0
-        }
+        },
+        "id": "object-8"
       },
       {
-        "type": "npc",
+        "type": "object",
+        "x": 24,
+        "y": 12,
+        "z": 3,
         "data": {
-          "id": 9,
           "sprite": 19,
           "replacement": 0,
-          "x": 24,
-          "y": 12,
-          "height": 3,
           "behavior": 2,
           "boundary": {
             "x": 1,
             "y": 1
           },
           "property": 0,
-          "view_radius": 0,
+          "viewRadius": 0,
           "script": {
-            "symbol": "twoIslandNpc8Main",
-            "path": "scripts/npc/8.s"
+            "symbol": "twoIslandObject8Main",
+            "path": "scripts/object/8.s"
           },
           "flag": 0
-        }
-      },
-      {
-        "type": "warp",
-        "data": {
-          "x": 39,
-          "y": 9,
-          "height": 0,
-          "target": {
-            "warp": 0,
-            "map": {
-              "id": "map-33-0"
-            }
-          }
-        }
-      },
-      {
-        "type": "warp",
-        "data": {
-          "x": 33,
-          "y": 9,
-          "height": 0,
-          "target": {
-            "warp": 0,
-            "map": {
-              "id": "map-33-1"
-            }
-          }
-        }
-      },
-      {
-        "type": "warp",
-        "data": {
-          "x": 21,
-          "y": 7,
-          "height": 0,
-          "target": {
-            "warp": 0,
-            "map": {
-              "id": "map-33-2"
-            }
-          }
-        }
-      },
-      {
-        "type": "warp",
-        "data": {
-          "x": 10,
-          "y": 8,
-          "height": 3,
-          "target": {
-            "warp": 0,
-            "map": {
-              "id": "map-33-4"
-            }
-          }
-        }
-      },
-      {
-        "type": "sign",
-        "data": {
-          "x": 29,
-          "y": 8,
-          "height": 0,
-          "type": "script",
-          "script": {
-            "symbol": "twoIslandSign0Main",
-            "path": "scripts/sign/0.s"
-          }
-        }
-      },
-      {
-        "type": "sign",
-        "data": {
-          "x": 40,
-          "y": 10,
-          "height": 0,
-          "type": "script",
-          "script": {
-            "symbol": "twoIslandSign1Main",
-            "path": "scripts/sign/1.s"
-          }
-        }
-      },
-      {
-        "type": "sign",
-        "data": {
-          "x": 8,
-          "y": 3,
-          "height": 0,
-          "type": "script",
-          "script": {
-            "symbol": "twoIslandSign2Main",
-            "path": "scripts/sign/2.s"
-          }
-        }
+        },
+        "id": "object-9"
       }
     ]
   }

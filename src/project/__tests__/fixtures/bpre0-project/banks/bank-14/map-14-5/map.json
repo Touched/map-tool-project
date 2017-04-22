@@ -12,127 +12,122 @@
     "linked": {
       "id": "map-5-3"
     },
-    "blocksets": {
-      "primary": {
-        "id": "blockset-0"
-      },
-      "secondary": {
-        "id": "blockset-43"
-      }
-    },
     "scripts": [],
     "connections": [],
     "entities": [
       {
-        "type": "npc",
+        "type": "warp",
+        "x": 3,
+        "y": 7,
+        "z": 3,
         "data": {
-          "id": 1,
+          "target": {
+            "warp": "warp-5",
+            "map": {
+              "id": "map-3-10"
+            }
+          }
+        },
+        "id": "warp-0"
+      },
+      {
+        "type": "warp",
+        "x": 4,
+        "y": 7,
+        "z": 3,
+        "data": {
+          "target": {
+            "warp": "warp-5",
+            "map": {
+              "id": "map-3-10"
+            }
+          }
+        },
+        "id": "warp-1"
+      },
+      {
+        "type": "warp",
+        "x": 5,
+        "y": 7,
+        "z": 3,
+        "data": {
+          "target": {
+            "warp": "warp-5",
+            "map": {
+              "id": "map-3-10"
+            }
+          }
+        },
+        "id": "warp-2"
+      },
+      {
+        "type": "object",
+        "x": 2,
+        "y": 3,
+        "z": 0,
+        "data": {
           "sprite": 68,
           "replacement": 0,
-          "x": 2,
-          "y": 3,
-          "height": 0,
           "behavior": 10,
           "boundary": {
             "x": 1,
             "y": 1
           },
           "property": 0,
-          "view_radius": 0,
+          "viewRadius": 0,
           "script": {
-            "symbol": "saffronCity7Npc0Main",
-            "path": "scripts/npc/0.s"
+            "symbol": "saffronCity7Object0Main",
+            "path": "scripts/object/0.s"
           },
           "flag": 0
-        }
+        },
+        "id": "object-1"
       },
       {
-        "type": "npc",
+        "type": "object",
+        "x": 1,
+        "y": 7,
+        "z": 3,
         "data": {
-          "id": 2,
           "sprite": 18,
           "replacement": 0,
-          "x": 1,
-          "y": 7,
-          "height": 3,
           "behavior": 10,
           "boundary": {
             "x": 1,
             "y": 1
           },
           "property": 0,
-          "view_radius": 0,
+          "viewRadius": 0,
           "script": {
-            "symbol": "saffronCity7Npc1Main",
-            "path": "scripts/npc/1.s"
+            "symbol": "saffronCity7Object1Main",
+            "path": "scripts/object/1.s"
           },
           "flag": 0
-        }
+        },
+        "id": "object-2"
       },
       {
-        "type": "npc",
+        "type": "object",
+        "x": 9,
+        "y": 5,
+        "z": 3,
         "data": {
-          "id": 3,
           "sprite": 22,
           "replacement": 0,
-          "x": 9,
-          "y": 5,
-          "height": 3,
           "behavior": 3,
           "boundary": {
             "x": 1,
             "y": 1
           },
           "property": 0,
-          "view_radius": 0,
+          "viewRadius": 0,
           "script": {
-            "symbol": "saffronCity7Npc2Main",
-            "path": "scripts/npc/2.s"
+            "symbol": "saffronCity7Object2Main",
+            "path": "scripts/object/2.s"
           },
           "flag": 0
-        }
-      },
-      {
-        "type": "warp",
-        "data": {
-          "x": 3,
-          "y": 7,
-          "height": 3,
-          "target": {
-            "warp": 5,
-            "map": {
-              "id": "map-3-10"
-            }
-          }
-        }
-      },
-      {
-        "type": "warp",
-        "data": {
-          "x": 4,
-          "y": 7,
-          "height": 3,
-          "target": {
-            "warp": 5,
-            "map": {
-              "id": "map-3-10"
-            }
-          }
-        }
-      },
-      {
-        "type": "warp",
-        "data": {
-          "x": 5,
-          "y": 7,
-          "height": 3,
-          "target": {
-            "warp": 5,
-            "map": {
-              "id": "map-3-10"
-            }
-          }
-        }
+        },
+        "id": "object-3"
       }
     ]
   }

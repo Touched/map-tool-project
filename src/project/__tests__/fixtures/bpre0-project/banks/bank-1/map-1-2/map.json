@@ -5938,205 +5938,201 @@
     "entities": [
       {
         "type": "warp",
+        "x": 3,
+        "y": 3,
+        "z": 3,
         "data": {
-          "x": 3,
-          "y": 3,
-          "height": 3,
           "target": {
-            "warp": 0,
+            "warp": "warp-0",
             "map": {
               "id": "map-1-1"
             }
           }
-        }
+        },
+        "id": "warp-0"
       },
       {
         "type": "warp",
+        "x": 25,
+        "y": 4,
+        "z": 3,
         "data": {
-          "x": 25,
-          "y": 4,
-          "height": 3,
           "target": {
-            "warp": 1,
+            "warp": "warp-1",
             "map": {
               "id": "map-1-1"
             }
           }
-        }
+        },
+        "id": "warp-1"
       },
       {
         "type": "warp",
+        "x": 43,
+        "y": 21,
+        "z": 3,
         "data": {
-          "x": 43,
-          "y": 21,
-          "height": 3,
           "target": {
-            "warp": 2,
+            "warp": "warp-2",
             "map": {
               "id": "map-1-1"
             }
           }
-        }
+        },
+        "id": "warp-2"
       },
       {
         "type": "warp",
+        "x": 22,
+        "y": 18,
+        "z": 3,
         "data": {
-          "x": 22,
-          "y": 18,
-          "height": 3,
           "target": {
-            "warp": 0,
+            "warp": "warp-0",
             "map": {
               "id": "map-1-3"
             }
           }
-        }
+        },
+        "id": "warp-3"
       },
       {
         "type": "warp",
+        "x": 17,
+        "y": 5,
+        "z": 3,
         "data": {
-          "x": 17,
-          "y": 5,
-          "height": 3,
           "target": {
-            "warp": 1,
+            "warp": "warp-1",
             "map": {
               "id": "map-1-3"
             }
           }
-        }
+        },
+        "id": "warp-4"
       },
       {
         "type": "warp",
+        "x": 26,
+        "y": 36,
+        "z": 3,
         "data": {
-          "x": 26,
-          "y": 36,
-          "height": 3,
           "target": {
-            "warp": 2,
+            "warp": "warp-2",
             "map": {
               "id": "map-1-3"
             }
           }
-        }
+        },
+        "id": "warp-5"
       },
       {
         "type": "warp",
+        "x": 39,
+        "y": 4,
+        "z": 3,
         "data": {
-          "x": 39,
-          "y": 4,
-          "height": 3,
           "target": {
-            "warp": 3,
+            "warp": "warp-3",
             "map": {
               "id": "map-1-3"
             }
           }
-        }
+        },
+        "id": "warp-6"
       },
       {
         "type": "warp",
+        "x": 45,
+        "y": 4,
+        "z": 3,
         "data": {
-          "x": 45,
-          "y": 4,
-          "height": 3,
           "target": {
-            "warp": 1,
+            "warp": "warp-1",
             "map": {
               "id": "map-3-22"
             }
           }
-        }
+        },
+        "id": "warp-7"
       },
       {
-        "type": "sign",
+        "type": "interactable",
+        "x": 46,
+        "y": 2,
+        "z": 0,
         "data": {
-          "x": 46,
-          "y": 2,
-          "height": 0,
-          "type": "hidden_item2",
+          "type": "hiddenItem",
           "item": 103,
-          "id": 84,
-          "data": {
-            "amount": 1,
-            "exact_required": 0
-          }
-        }
+          "hiddenItemId": 84,
+          "quantity": 1
+        },
+        "id": "interactable-0"
       },
       {
-        "type": "sign",
+        "type": "interactable",
+        "x": 26,
+        "y": 2,
+        "z": 0,
         "data": {
-          "x": 26,
-          "y": 2,
-          "height": 0,
-          "type": "hidden_item2",
+          "type": "hiddenItem",
           "item": 103,
-          "id": 85,
-          "data": {
-            "amount": 1,
-            "exact_required": 0
-          }
-        }
+          "hiddenItemId": 85,
+          "quantity": 1
+        },
+        "id": "interactable-1"
       },
       {
-        "type": "sign",
+        "type": "interactable",
+        "x": 39,
+        "y": 34,
+        "z": 0,
         "data": {
-          "x": 39,
-          "y": 34,
-          "height": 0,
-          "type": "hidden_item2",
+          "type": "hiddenItem",
           "item": 103,
-          "id": 86,
-          "data": {
-            "amount": 1,
-            "exact_required": 0
-          }
-        }
+          "hiddenItemId": 86,
+          "quantity": 1
+        },
+        "id": "interactable-2"
       },
       {
-        "type": "sign",
+        "type": "interactable",
+        "x": 24,
+        "y": 35,
+        "z": 0,
         "data": {
-          "x": 24,
-          "y": 35,
-          "height": 0,
-          "type": "hidden_item2",
+          "type": "hiddenItem",
           "item": 104,
-          "id": 87,
-          "data": {
-            "amount": 1,
-            "exact_required": 0
-          }
-        }
+          "hiddenItemId": 87,
+          "quantity": 1
+        },
+        "id": "interactable-3"
       },
       {
-        "type": "sign",
+        "type": "interactable",
+        "x": 6,
+        "y": 12,
+        "z": 0,
         "data": {
-          "x": 6,
-          "y": 12,
-          "height": 0,
-          "type": "hidden_item2",
+          "type": "hiddenItem",
           "item": 104,
-          "id": 88,
-          "data": {
-            "amount": 1,
-            "exact_required": 0
-          }
-        }
+          "hiddenItemId": 88,
+          "quantity": 1
+        },
+        "id": "interactable-4"
       },
       {
-        "type": "sign",
+        "type": "interactable",
+        "x": 25,
+        "y": 34,
+        "z": 0,
         "data": {
-          "x": 25,
-          "y": 34,
-          "height": 0,
-          "type": "hidden_item2",
+          "type": "hiddenItem",
           "item": 104,
-          "id": 89,
-          "data": {
-            "amount": 1,
-            "exact_required": 0
-          }
-        }
+          "hiddenItemId": 89,
+          "quantity": 1
+        },
+        "id": "interactable-5"
       }
     ]
   }

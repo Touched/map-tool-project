@@ -2952,63 +2952,64 @@
     ],
     "entities": [
       {
-        "type": "npc",
+        "type": "interactable",
+        "x": 9,
+        "y": 31,
+        "z": 0,
         "data": {
-          "id": 1,
+          "type": "script",
+          "script": {
+            "symbol": "route1Interactable0Main",
+            "path": "scripts/interactable/0.s"
+          }
+        },
+        "id": "interactable-0"
+      },
+      {
+        "type": "object",
+        "x": 6,
+        "y": 28,
+        "z": 3,
+        "data": {
           "sprite": 68,
           "replacement": 0,
-          "x": 6,
-          "y": 28,
-          "height": 3,
           "behavior": 3,
           "boundary": {
             "x": 1,
             "y": 1
           },
           "property": 0,
-          "view_radius": 0,
+          "viewRadius": 0,
           "script": {
-            "symbol": "route1Npc0Main",
-            "path": "scripts/npc/0.s"
+            "symbol": "route1Object0Main",
+            "path": "scripts/object/0.s"
           },
           "flag": 0
-        }
+        },
+        "id": "object-1"
       },
       {
-        "type": "npc",
+        "type": "object",
+        "x": 19,
+        "y": 16,
+        "z": 3,
         "data": {
-          "id": 2,
           "sprite": 19,
           "replacement": 0,
-          "x": 19,
-          "y": 16,
-          "height": 3,
           "behavior": 5,
           "boundary": {
             "x": 1,
             "y": 3
           },
           "property": 0,
-          "view_radius": 0,
+          "viewRadius": 0,
           "script": {
-            "symbol": "route1Npc1Main",
-            "path": "scripts/npc/1.s"
+            "symbol": "route1Object1Main",
+            "path": "scripts/object/1.s"
           },
           "flag": 0
-        }
-      },
-      {
-        "type": "sign",
-        "data": {
-          "x": 9,
-          "y": 31,
-          "height": 0,
-          "type": "script",
-          "script": {
-            "symbol": "route1Sign0Main",
-            "path": "scripts/sign/0.s"
-          }
-        }
+        },
+        "id": "object-2"
       }
     ]
   }

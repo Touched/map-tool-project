@@ -2960,592 +2960,608 @@
     ],
     "entities": [
       {
-        "type": "npc",
-        "data": {
-          "id": 1,
-          "sprite": 25,
-          "replacement": 0,
-          "x": 7,
-          "y": 24,
-          "height": 3,
-          "behavior": 10,
-          "boundary": {
-            "x": 1,
-            "y": 1
-          },
-          "property": 0,
-          "view_radius": 0,
-          "script": {
-            "symbol": "threeIslandNpc0Main",
-            "path": "scripts/npc/0.s"
-          },
-          "flag": 126
-        }
-      },
-      {
-        "type": "npc",
-        "data": {
-          "id": 2,
-          "sprite": 25,
-          "replacement": 0,
-          "x": 8,
-          "y": 23,
-          "height": 3,
-          "behavior": 10,
-          "boundary": {
-            "x": 1,
-            "y": 1
-          },
-          "property": 0,
-          "view_radius": 0,
-          "script": {
-            "symbol": "threeIslandNpc1Main",
-            "path": "scripts/npc/1.s"
-          },
-          "flag": 126
-        }
-      },
-      {
-        "type": "npc",
-        "data": {
-          "id": 3,
-          "sprite": 53,
-          "replacement": 0,
-          "x": 8,
-          "y": 24,
-          "height": 3,
-          "behavior": 9,
-          "boundary": {
-            "x": 1,
-            "y": 1
-          },
-          "property": 0,
-          "view_radius": 0,
-          "script": {
-            "symbol": "threeIslandNpc2Main",
-            "path": "scripts/npc/2.s"
-          },
-          "flag": 145
-        }
-      },
-      {
-        "type": "npc",
-        "data": {
-          "id": 4,
-          "sprite": 53,
-          "replacement": 0,
-          "x": 9,
-          "y": 23,
-          "height": 3,
-          "behavior": 9,
-          "boundary": {
-            "x": 1,
-            "y": 1
-          },
-          "property": 0,
-          "view_radius": 0,
-          "script": {
-            "symbol": "threeIslandNpc3Main",
-            "path": "scripts/npc/3.s"
-          },
-          "flag": 121
-        }
-      },
-      {
-        "type": "npc",
-        "data": {
-          "id": 5,
-          "sprite": 53,
-          "replacement": 0,
-          "x": 9,
-          "y": 24,
-          "height": 3,
-          "behavior": 9,
-          "boundary": {
-            "x": 1,
-            "y": 1
-          },
-          "property": 0,
-          "view_radius": 0,
-          "script": {
-            "symbol": "threeIslandNpc4Main",
-            "path": "scripts/npc/4.s"
-          },
-          "flag": 121
-        }
-      },
-      {
-        "type": "npc",
-        "data": {
-          "id": 6,
-          "sprite": 53,
-          "replacement": 0,
-          "x": 10,
-          "y": 22,
-          "height": 3,
-          "behavior": 9,
-          "boundary": {
-            "x": 1,
-            "y": 1
-          },
-          "property": 0,
-          "view_radius": 0,
-          "script": {
-            "symbol": "threeIslandNpc5Main",
-            "path": "scripts/npc/5.s"
-          },
-          "flag": 121
-        }
-      },
-      {
-        "type": "npc",
-        "data": {
-          "id": 7,
-          "sprite": 53,
-          "replacement": 0,
-          "x": 10,
-          "y": 24,
-          "height": 3,
-          "behavior": 9,
-          "boundary": {
-            "x": 1,
-            "y": 1
-          },
-          "property": 0,
-          "view_radius": 0,
-          "script": {
-            "symbol": "threeIslandNpc6Main",
-            "path": "scripts/npc/6.s"
-          },
-          "flag": 121
-        }
-      },
-      {
-        "type": "npc",
-        "data": {
-          "id": 8,
-          "sprite": 53,
-          "replacement": 0,
-          "x": 11,
-          "y": 23,
-          "height": 3,
-          "behavior": 9,
-          "boundary": {
-            "x": 1,
-            "y": 1
-          },
-          "property": 0,
-          "view_radius": 0,
-          "script": {
-            "symbol": "threeIslandNpc7Main",
-            "path": "scripts/npc/7.s"
-          },
-          "flag": 121
-        }
-      },
-      {
-        "type": "npc",
-        "data": {
-          "id": 9,
-          "sprite": 95,
-          "replacement": 0,
-          "x": 20,
-          "y": 7,
-          "height": 3,
-          "behavior": 1,
-          "boundary": {
-            "x": 1,
-            "y": 1
-          },
-          "property": 0,
-          "view_radius": 0,
-          "script": {
-            "symbol": "threeIslandNpc8Main",
-            "path": "scripts/npc/8.s"
-          },
-          "flag": 18
-        }
-      },
-      {
-        "type": "npc",
-        "data": {
-          "id": 10,
-          "sprite": 92,
-          "replacement": 0,
-          "x": 18,
-          "y": 17,
-          "height": 3,
-          "behavior": 8,
-          "boundary": {
-            "x": 1,
-            "y": 1
-          },
-          "property": 0,
-          "view_radius": 0,
-          "script": {
-            "symbol": "threeIslandNpc9Main",
-            "path": "scripts/npc/9.s"
-          },
-          "flag": 443
-        }
-      },
-      {
-        "type": "npc",
-        "data": {
-          "id": 11,
-          "sprite": 23,
-          "replacement": 0,
-          "x": 15,
-          "y": 7,
-          "height": 3,
-          "behavior": 5,
-          "boundary": {
-            "x": 1,
-            "y": 1
-          },
-          "property": 0,
-          "view_radius": 0,
-          "script": {
-            "symbol": "threeIslandNpc10Main",
-            "path": "scripts/npc/10.s"
-          },
-          "flag": 0
-        }
-      },
-      {
-        "type": "npc",
-        "data": {
-          "id": 12,
-          "sprite": 16,
-          "replacement": 0,
-          "x": 14,
-          "y": 14,
-          "height": 3,
-          "behavior": 10,
-          "boundary": {
-            "x": 1,
-            "y": 1
-          },
-          "property": 0,
-          "view_radius": 0,
-          "script": {
-            "symbol": "threeIslandNpc11Main",
-            "path": "scripts/npc/11.s"
-          },
-          "flag": 0
-        }
-      },
-      {
-        "type": "npc",
-        "data": {
-          "id": 13,
-          "sprite": 132,
-          "replacement": 0,
-          "x": 15,
-          "y": 14,
-          "height": 3,
-          "behavior": 9,
-          "boundary": {
-            "x": 1,
-            "y": 1
-          },
-          "property": 0,
-          "view_radius": 0,
-          "script": {
-            "symbol": "threeIslandNpc12Main",
-            "path": "scripts/npc/12.s"
-          },
-          "flag": 0
-        }
-      },
-      {
-        "type": "npc",
-        "data": {
-          "id": 14,
-          "sprite": 53,
-          "replacement": 0,
-          "x": 15,
-          "y": 31,
-          "height": 3,
-          "behavior": 5,
-          "boundary": {
-            "x": 1,
-            "y": 1
-          },
-          "property": 0,
-          "view_radius": 0,
-          "script": {
-            "symbol": "threeIslandNpc13Main",
-            "path": "scripts/npc/13.s"
-          },
-          "flag": 121
-        }
-      },
-      {
         "type": "warp",
+        "x": 3,
+        "y": 31,
+        "z": 0,
         "data": {
-          "x": 3,
-          "y": 31,
-          "height": 0,
           "target": {
-            "warp": 0,
+            "warp": "warp-0",
             "map": {
               "id": "map-34-0"
             }
           }
-        }
+        },
+        "id": "warp-0"
       },
       {
         "type": "warp",
+        "x": 14,
+        "y": 27,
+        "z": 0,
         "data": {
-          "x": 14,
-          "y": 27,
-          "height": 0,
           "target": {
-            "warp": 0,
+            "warp": "warp-0",
             "map": {
               "id": "map-34-1"
             }
           }
-        }
+        },
+        "id": "warp-1"
       },
       {
         "type": "warp",
+        "x": 18,
+        "y": 12,
+        "z": 0,
         "data": {
-          "x": 18,
-          "y": 12,
-          "height": 0,
           "target": {
-            "warp": 0,
+            "warp": "warp-0",
             "map": {
               "id": "map-34-3"
             }
           }
-        }
+        },
+        "id": "warp-2"
       },
       {
         "type": "warp",
+        "x": 4,
+        "y": 6,
+        "z": 0,
         "data": {
-          "x": 4,
-          "y": 6,
-          "height": 0,
           "target": {
-            "warp": 0,
+            "warp": "warp-0",
             "map": {
               "id": "map-34-4"
             }
           }
-        }
+        },
+        "id": "warp-3"
       },
       {
         "type": "warp",
+        "x": 12,
+        "y": 6,
+        "z": 0,
         "data": {
-          "x": 12,
-          "y": 6,
-          "height": 0,
           "target": {
-            "warp": 0,
+            "warp": "warp-0",
             "map": {
               "id": "map-34-5"
             }
           }
-        }
+        },
+        "id": "warp-4"
       },
       {
         "type": "warp",
+        "x": 12,
+        "y": 12,
+        "z": 0,
         "data": {
-          "x": 12,
-          "y": 12,
-          "height": 0,
           "target": {
-            "warp": 0,
+            "warp": "warp-0",
             "map": {
               "id": "map-34-6"
             }
           }
-        }
+        },
+        "id": "warp-5"
       },
       {
         "type": "warp",
+        "x": 13,
+        "y": 19,
+        "z": 0,
         "data": {
-          "x": 13,
-          "y": 19,
-          "height": 0,
           "target": {
-            "warp": 0,
+            "warp": "warp-0",
             "map": {
               "id": "map-34-7"
             }
           }
-        }
+        },
+        "id": "warp-6"
       },
       {
-        "type": "sign",
+        "type": "interactable",
+        "x": 12,
+        "y": 31,
+        "z": 0,
         "data": {
-          "x": 12,
-          "y": 31,
-          "height": 0,
           "type": "script",
           "script": {
-            "symbol": "threeIslandSign0Main",
-            "path": "scripts/sign/0.s"
+            "symbol": "threeIslandInteractable0Main",
+            "path": "scripts/interactable/0.s"
           }
-        }
+        },
+        "id": "interactable-0"
       },
       {
-        "type": "sign",
+        "type": "interactable",
+        "x": 5,
+        "y": 13,
+        "z": 3,
         "data": {
-          "x": 5,
-          "y": 13,
-          "height": 3,
-          "type": "hidden_item2",
+          "type": "hiddenItem",
           "item": 69,
-          "id": 164,
-          "data": {
-            "amount": 1,
-            "exact_required": 0
-          }
-        }
+          "hiddenItemId": 164,
+          "quantity": 1
+        },
+        "id": "interactable-1"
       },
       {
         "type": "trigger",
+        "x": 7,
+        "y": 27,
+        "z": 3,
         "data": {
-          "x": 7,
-          "y": 27,
-          "height": 3,
           "variable": 16507,
           "value": 2,
           "script": {
             "symbol": "threeIslandTrigger0Main",
             "path": "scripts/trigger/0.s"
           }
-        }
+        },
+        "id": "trigger-0"
       },
       {
         "type": "trigger",
+        "x": 8,
+        "y": 27,
+        "z": 3,
         "data": {
-          "x": 8,
-          "y": 27,
-          "height": 3,
           "variable": 16507,
           "value": 2,
           "script": {
             "symbol": "threeIslandTrigger1Main",
             "path": "scripts/trigger/1.s"
           }
-        }
+        },
+        "id": "trigger-1"
       },
       {
         "type": "trigger",
+        "x": 9,
+        "y": 27,
+        "z": 3,
         "data": {
-          "x": 9,
-          "y": 27,
-          "height": 3,
           "variable": 16507,
           "value": 2,
           "script": {
             "symbol": "threeIslandTrigger2Main",
             "path": "scripts/trigger/2.s"
           }
-        }
+        },
+        "id": "trigger-2"
       },
       {
         "type": "trigger",
+        "x": 10,
+        "y": 27,
+        "z": 3,
         "data": {
-          "x": 10,
-          "y": 27,
-          "height": 3,
           "variable": 16507,
           "value": 2,
           "script": {
             "symbol": "threeIslandTrigger3Main",
             "path": "scripts/trigger/3.s"
           }
-        }
+        },
+        "id": "trigger-3"
       },
       {
         "type": "trigger",
+        "x": 7,
+        "y": 26,
+        "z": 3,
         "data": {
-          "x": 7,
-          "y": 26,
-          "height": 3,
           "variable": 16507,
           "value": 3,
           "script": {
             "symbol": "threeIslandTrigger4Main",
             "path": "scripts/trigger/4.s"
           }
-        }
+        },
+        "id": "trigger-4"
       },
       {
         "type": "trigger",
+        "x": 8,
+        "y": 26,
+        "z": 3,
         "data": {
-          "x": 8,
-          "y": 26,
-          "height": 3,
           "variable": 16507,
           "value": 3,
           "script": {
             "symbol": "threeIslandTrigger5Main",
             "path": "scripts/trigger/5.s"
           }
-        }
+        },
+        "id": "trigger-5"
       },
       {
         "type": "trigger",
+        "x": 9,
+        "y": 26,
+        "z": 3,
         "data": {
-          "x": 9,
-          "y": 26,
-          "height": 3,
           "variable": 16507,
           "value": 3,
           "script": {
             "symbol": "threeIslandTrigger6Main",
             "path": "scripts/trigger/6.s"
           }
-        }
+        },
+        "id": "trigger-6"
       },
       {
         "type": "trigger",
+        "x": 11,
+        "y": 27,
+        "z": 3,
         "data": {
-          "x": 11,
-          "y": 27,
-          "height": 3,
           "variable": 16507,
           "value": 2,
           "script": {
             "symbol": "threeIslandTrigger7Main",
             "path": "scripts/trigger/7.s"
           }
-        }
+        },
+        "id": "trigger-7"
       },
       {
         "type": "trigger",
+        "x": 10,
+        "y": 26,
+        "z": 3,
         "data": {
-          "x": 10,
-          "y": 26,
-          "height": 3,
           "variable": 16507,
           "value": 3,
           "script": {
             "symbol": "threeIslandTrigger8Main",
             "path": "scripts/trigger/8.s"
           }
-        }
+        },
+        "id": "trigger-8"
       },
       {
         "type": "trigger",
+        "x": 11,
+        "y": 26,
+        "z": 3,
         "data": {
-          "x": 11,
-          "y": 26,
-          "height": 3,
           "variable": 16507,
           "value": 3,
           "script": {
             "symbol": "threeIslandTrigger9Main",
             "path": "scripts/trigger/9.s"
           }
-        }
+        },
+        "id": "trigger-9"
+      },
+      {
+        "type": "object",
+        "x": 7,
+        "y": 24,
+        "z": 3,
+        "data": {
+          "sprite": 25,
+          "replacement": 0,
+          "behavior": 10,
+          "boundary": {
+            "x": 1,
+            "y": 1
+          },
+          "property": 0,
+          "viewRadius": 0,
+          "script": {
+            "symbol": "threeIslandObject0Main",
+            "path": "scripts/object/0.s"
+          },
+          "flag": 126
+        },
+        "id": "object-1"
+      },
+      {
+        "type": "object",
+        "x": 8,
+        "y": 23,
+        "z": 3,
+        "data": {
+          "sprite": 25,
+          "replacement": 0,
+          "behavior": 10,
+          "boundary": {
+            "x": 1,
+            "y": 1
+          },
+          "property": 0,
+          "viewRadius": 0,
+          "script": {
+            "symbol": "threeIslandObject1Main",
+            "path": "scripts/object/1.s"
+          },
+          "flag": 126
+        },
+        "id": "object-2"
+      },
+      {
+        "type": "object",
+        "x": 8,
+        "y": 24,
+        "z": 3,
+        "data": {
+          "sprite": 53,
+          "replacement": 0,
+          "behavior": 9,
+          "boundary": {
+            "x": 1,
+            "y": 1
+          },
+          "property": 0,
+          "viewRadius": 0,
+          "script": {
+            "symbol": "threeIslandObject2Main",
+            "path": "scripts/object/2.s"
+          },
+          "flag": 145
+        },
+        "id": "object-3"
+      },
+      {
+        "type": "object",
+        "x": 9,
+        "y": 23,
+        "z": 3,
+        "data": {
+          "sprite": 53,
+          "replacement": 0,
+          "behavior": 9,
+          "boundary": {
+            "x": 1,
+            "y": 1
+          },
+          "property": 0,
+          "viewRadius": 0,
+          "script": {
+            "symbol": "threeIslandObject3Main",
+            "path": "scripts/object/3.s"
+          },
+          "flag": 121
+        },
+        "id": "object-4"
+      },
+      {
+        "type": "object",
+        "x": 9,
+        "y": 24,
+        "z": 3,
+        "data": {
+          "sprite": 53,
+          "replacement": 0,
+          "behavior": 9,
+          "boundary": {
+            "x": 1,
+            "y": 1
+          },
+          "property": 0,
+          "viewRadius": 0,
+          "script": {
+            "symbol": "threeIslandObject4Main",
+            "path": "scripts/object/4.s"
+          },
+          "flag": 121
+        },
+        "id": "object-5"
+      },
+      {
+        "type": "object",
+        "x": 10,
+        "y": 22,
+        "z": 3,
+        "data": {
+          "sprite": 53,
+          "replacement": 0,
+          "behavior": 9,
+          "boundary": {
+            "x": 1,
+            "y": 1
+          },
+          "property": 0,
+          "viewRadius": 0,
+          "script": {
+            "symbol": "threeIslandObject5Main",
+            "path": "scripts/object/5.s"
+          },
+          "flag": 121
+        },
+        "id": "object-6"
+      },
+      {
+        "type": "object",
+        "x": 10,
+        "y": 24,
+        "z": 3,
+        "data": {
+          "sprite": 53,
+          "replacement": 0,
+          "behavior": 9,
+          "boundary": {
+            "x": 1,
+            "y": 1
+          },
+          "property": 0,
+          "viewRadius": 0,
+          "script": {
+            "symbol": "threeIslandObject6Main",
+            "path": "scripts/object/6.s"
+          },
+          "flag": 121
+        },
+        "id": "object-7"
+      },
+      {
+        "type": "object",
+        "x": 11,
+        "y": 23,
+        "z": 3,
+        "data": {
+          "sprite": 53,
+          "replacement": 0,
+          "behavior": 9,
+          "boundary": {
+            "x": 1,
+            "y": 1
+          },
+          "property": 0,
+          "viewRadius": 0,
+          "script": {
+            "symbol": "threeIslandObject7Main",
+            "path": "scripts/object/7.s"
+          },
+          "flag": 121
+        },
+        "id": "object-8"
+      },
+      {
+        "type": "object",
+        "x": 20,
+        "y": 7,
+        "z": 3,
+        "data": {
+          "sprite": 95,
+          "replacement": 0,
+          "behavior": 1,
+          "boundary": {
+            "x": 1,
+            "y": 1
+          },
+          "property": 0,
+          "viewRadius": 0,
+          "script": {
+            "symbol": "threeIslandObject8Main",
+            "path": "scripts/object/8.s"
+          },
+          "flag": 18
+        },
+        "id": "object-9"
+      },
+      {
+        "type": "object",
+        "x": 18,
+        "y": 17,
+        "z": 3,
+        "data": {
+          "sprite": 92,
+          "replacement": 0,
+          "behavior": 8,
+          "boundary": {
+            "x": 1,
+            "y": 1
+          },
+          "property": 0,
+          "viewRadius": 0,
+          "script": {
+            "symbol": "threeIslandObject9Main",
+            "path": "scripts/object/9.s"
+          },
+          "flag": 443
+        },
+        "id": "object-10"
+      },
+      {
+        "type": "object",
+        "x": 15,
+        "y": 7,
+        "z": 3,
+        "data": {
+          "sprite": 23,
+          "replacement": 0,
+          "behavior": 5,
+          "boundary": {
+            "x": 1,
+            "y": 1
+          },
+          "property": 0,
+          "viewRadius": 0,
+          "script": {
+            "symbol": "threeIslandObject10Main",
+            "path": "scripts/object/10.s"
+          },
+          "flag": 0
+        },
+        "id": "object-11"
+      },
+      {
+        "type": "object",
+        "x": 14,
+        "y": 14,
+        "z": 3,
+        "data": {
+          "sprite": 16,
+          "replacement": 0,
+          "behavior": 10,
+          "boundary": {
+            "x": 1,
+            "y": 1
+          },
+          "property": 0,
+          "viewRadius": 0,
+          "script": {
+            "symbol": "threeIslandObject11Main",
+            "path": "scripts/object/11.s"
+          },
+          "flag": 0
+        },
+        "id": "object-12"
+      },
+      {
+        "type": "object",
+        "x": 15,
+        "y": 14,
+        "z": 3,
+        "data": {
+          "sprite": 132,
+          "replacement": 0,
+          "behavior": 9,
+          "boundary": {
+            "x": 1,
+            "y": 1
+          },
+          "property": 0,
+          "viewRadius": 0,
+          "script": {
+            "symbol": "threeIslandObject12Main",
+            "path": "scripts/object/12.s"
+          },
+          "flag": 0
+        },
+        "id": "object-13"
+      },
+      {
+        "type": "object",
+        "x": 15,
+        "y": 31,
+        "z": 3,
+        "data": {
+          "sprite": 53,
+          "replacement": 0,
+          "behavior": 5,
+          "boundary": {
+            "x": 1,
+            "y": 1
+          },
+          "property": 0,
+          "viewRadius": 0,
+          "script": {
+            "symbol": "threeIslandObject13Main",
+            "path": "scripts/object/13.s"
+          },
+          "flag": 121
+        },
+        "id": "object-14"
       }
     ]
   }

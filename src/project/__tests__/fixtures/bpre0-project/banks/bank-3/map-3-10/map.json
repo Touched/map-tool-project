@@ -10955,676 +10955,700 @@
     "connections": [],
     "entities": [
       {
-        "type": "npc",
+        "type": "warp",
+        "x": 33,
+        "y": 30,
+        "z": 0,
         "data": {
-          "id": 1,
+          "target": {
+            "warp": "warp-1",
+            "map": {
+              "id": "map-1-47"
+            }
+          }
+        },
+        "id": "warp-0"
+      },
+      {
+        "type": "warp",
+        "x": 22,
+        "y": 14,
+        "z": 0,
+        "data": {
+          "target": {
+            "warp": "warp-1",
+            "map": {
+              "id": "map-14-0"
+            }
+          }
+        },
+        "id": "warp-1"
+      },
+      {
+        "type": "warp",
+        "x": 40,
+        "y": 12,
+        "z": 0,
+        "data": {
+          "target": {
+            "warp": "warp-1",
+            "map": {
+              "id": "map-14-2"
+            }
+          }
+        },
+        "id": "warp-2"
+      },
+      {
+        "type": "warp",
+        "x": 46,
+        "y": 12,
+        "z": 0,
+        "data": {
+          "target": {
+            "warp": "warp-1",
+            "map": {
+              "id": "map-14-3"
+            }
+          }
+        },
+        "id": "warp-3"
+      },
+      {
+        "type": "warp",
+        "x": 27,
+        "y": 21,
+        "z": 0,
+        "data": {
+          "target": {
+            "warp": "warp-1",
+            "map": {
+              "id": "map-14-4"
+            }
+          }
+        },
+        "id": "warp-4"
+      },
+      {
+        "type": "warp",
+        "x": 40,
+        "y": 21,
+        "z": 0,
+        "data": {
+          "target": {
+            "warp": "warp-1",
+            "map": {
+              "id": "map-14-5"
+            }
+          }
+        },
+        "id": "warp-5"
+      },
+      {
+        "type": "warp",
+        "x": 24,
+        "y": 38,
+        "z": 0,
+        "data": {
+          "target": {
+            "warp": "warp-1",
+            "map": {
+              "id": "map-14-6"
+            }
+          }
+        },
+        "id": "warp-6"
+      },
+      {
+        "type": "warp",
+        "x": 43,
+        "y": 38,
+        "z": 0,
+        "data": {
+          "target": {
+            "warp": "warp-1",
+            "map": {
+              "id": "map-14-8"
+            }
+          }
+        },
+        "id": "warp-7"
+      },
+      {
+        "type": "warp",
+        "x": 8,
+        "y": 27,
+        "z": 3,
+        "data": {
+          "target": {
+            "warp": "warp-2",
+            "map": {
+              "id": "map-19-0"
+            }
+          }
+        },
+        "id": "warp-8"
+      },
+      {
+        "type": "warp",
+        "x": 34,
+        "y": 5,
+        "z": 3,
+        "data": {
+          "target": {
+            "warp": "warp-2",
+            "map": {
+              "id": "map-17-1"
+            }
+          }
+        },
+        "id": "warp-9"
+      },
+      {
+        "type": "warp",
+        "x": 58,
+        "y": 27,
+        "z": 3,
+        "data": {
+          "target": {
+            "warp": "warp-1",
+            "map": {
+              "id": "map-20-0"
+            }
+          }
+        },
+        "id": "warp-10"
+      },
+      {
+        "type": "warp",
+        "x": 34,
+        "y": 46,
+        "z": 3,
+        "data": {
+          "target": {
+            "warp": "warp-0",
+            "map": {
+              "id": "map-18-0"
+            }
+          }
+        },
+        "id": "warp-11"
+      },
+      {
+        "type": "warp",
+        "x": 35,
+        "y": 46,
+        "z": 3,
+        "data": {
+          "target": {
+            "warp": "warp-0",
+            "map": {
+              "id": "map-18-0"
+            }
+          }
+        },
+        "id": "warp-12"
+      },
+      {
+        "type": "warp",
+        "x": 35,
+        "y": 5,
+        "z": 3,
+        "data": {
+          "target": {
+            "warp": "warp-2",
+            "map": {
+              "id": "map-17-1"
+            }
+          }
+        },
+        "id": "warp-13"
+      },
+      {
+        "type": "warp",
+        "x": 47,
+        "y": 21,
+        "z": 0,
+        "data": {
+          "target": {
+            "warp": "warp-0",
+            "map": {
+              "id": "map-14-9"
+            }
+          }
+        },
+        "id": "warp-14"
+      },
+      {
+        "type": "interactable",
+        "x": 29,
+        "y": 14,
+        "z": 0,
+        "data": {
+          "type": "script",
+          "script": {
+            "symbol": "saffronCityInteractable0Main",
+            "path": "scripts/interactable/0.s"
+          }
+        },
+        "id": "interactable-0"
+      },
+      {
+        "type": "interactable",
+        "x": 42,
+        "y": 14,
+        "z": 0,
+        "data": {
+          "type": "script",
+          "script": {
+            "symbol": "saffronCityInteractable1Main",
+            "path": "scripts/interactable/1.s"
+          }
+        },
+        "id": "interactable-1"
+      },
+      {
+        "type": "interactable",
+        "x": 13,
+        "y": 25,
+        "z": 0,
+        "data": {
+          "type": "script",
+          "script": {
+            "symbol": "saffronCityInteractable2Main",
+            "path": "scripts/interactable/2.s"
+          }
+        },
+        "id": "interactable-2"
+      },
+      {
+        "type": "interactable",
+        "x": 18,
+        "y": 30,
+        "z": 0,
+        "data": {
+          "type": "script",
+          "script": {
+            "symbol": "saffronCityInteractable3Main",
+            "path": "scripts/interactable/3.s"
+          }
+        },
+        "id": "interactable-3"
+      },
+      {
+        "type": "interactable",
+        "x": 29,
+        "y": 31,
+        "z": 0,
+        "data": {
+          "type": "script",
+          "script": {
+            "symbol": "saffronCityInteractable4Main",
+            "path": "scripts/interactable/4.s"
+          }
+        },
+        "id": "interactable-4"
+      },
+      {
+        "type": "interactable",
+        "x": 54,
+        "y": 25,
+        "z": 0,
+        "data": {
+          "type": "script",
+          "script": {
+            "symbol": "saffronCityInteractable5Main",
+            "path": "scripts/interactable/5.s"
+          }
+        },
+        "id": "interactable-5"
+      },
+      {
+        "type": "interactable",
+        "x": 50,
+        "y": 14,
+        "z": 0,
+        "data": {
+          "type": "script",
+          "script": {
+            "symbol": "saffronCityInteractable6Main",
+            "path": "scripts/interactable/6.s"
+          }
+        },
+        "id": "interactable-6"
+      },
+      {
+        "type": "interactable",
+        "x": 40,
+        "y": 38,
+        "z": 0,
+        "data": {
+          "type": "script",
+          "script": {
+            "symbol": "saffronCityInteractable7Main",
+            "path": "scripts/interactable/7.s"
+          }
+        },
+        "id": "interactable-7"
+      },
+      {
+        "type": "interactable",
+        "x": 49,
+        "y": 22,
+        "z": 0,
+        "data": {
+          "type": "script",
+          "script": {
+            "symbol": "saffronCityInteractable8Main",
+            "path": "scripts/interactable/8.s"
+          }
+        },
+        "id": "interactable-8"
+      },
+      {
+        "type": "object",
+        "x": 22,
+        "y": 15,
+        "z": 3,
+        "data": {
           "sprite": 49,
           "replacement": 0,
-          "x": 22,
-          "y": 15,
-          "height": 3,
           "behavior": 8,
           "boundary": {
             "x": 1,
             "y": 1
           },
           "property": 0,
-          "view_radius": 0,
+          "viewRadius": 0,
           "script": {
-            "symbol": "saffronCityNpc0Main",
-            "path": "scripts/npc/0.s"
+            "symbol": "saffronCityObject0Main",
+            "path": "scripts/object/0.s"
           },
           "flag": 62
-        }
+        },
+        "id": "object-1"
       },
       {
-        "type": "npc",
+        "type": "object",
+        "x": 26,
+        "y": 16,
+        "z": 3,
         "data": {
-          "id": 2,
           "sprite": 49,
           "replacement": 0,
-          "x": 26,
-          "y": 16,
-          "height": 3,
           "behavior": 5,
           "boundary": {
             "x": 4,
             "y": 1
           },
           "property": 0,
-          "view_radius": 0,
+          "viewRadius": 0,
           "script": {
-            "symbol": "saffronCityNpc1Main",
-            "path": "scripts/npc/1.s"
+            "symbol": "saffronCityObject1Main",
+            "path": "scripts/object/1.s"
           },
           "flag": 62
-        }
+        },
+        "id": "object-2"
       },
       {
-        "type": "npc",
+        "type": "object",
+        "x": 46,
+        "y": 13,
+        "z": 3,
         "data": {
-          "id": 3,
           "sprite": 49,
           "replacement": 0,
-          "x": 46,
-          "y": 13,
-          "height": 3,
           "behavior": 8,
           "boundary": {
             "x": 1,
             "y": 1
           },
           "property": 0,
-          "view_radius": 0,
+          "viewRadius": 0,
           "script": {
-            "symbol": "saffronCityNpc2Main",
-            "path": "scripts/npc/2.s"
+            "symbol": "saffronCityObject2Main",
+            "path": "scripts/object/2.s"
           },
           "flag": 62
-        }
+        },
+        "id": "object-3"
       },
       {
-        "type": "npc",
+        "type": "object",
+        "x": 27,
+        "y": 22,
+        "z": 3,
         "data": {
-          "id": 4,
           "sprite": 49,
           "replacement": 0,
-          "x": 27,
-          "y": 22,
-          "height": 3,
           "behavior": 8,
           "boundary": {
             "x": 1,
             "y": 1
           },
           "property": 0,
-          "view_radius": 0,
+          "viewRadius": 0,
           "script": {
-            "symbol": "saffronCityNpc3Main",
-            "path": "scripts/npc/3.s"
+            "symbol": "saffronCityObject3Main",
+            "path": "scripts/object/3.s"
           },
           "flag": 62
-        }
+        },
+        "id": "object-4"
       },
       {
-        "type": "npc",
+        "type": "object",
+        "x": 25,
+        "y": 33,
+        "z": 3,
         "data": {
-          "id": 5,
           "sprite": 49,
           "replacement": 0,
-          "x": 25,
-          "y": 33,
-          "height": 3,
           "behavior": 5,
           "boundary": {
             "x": 7,
             "y": 1
           },
           "property": 0,
-          "view_radius": 0,
+          "viewRadius": 0,
           "script": {
-            "symbol": "saffronCityNpc4Main",
-            "path": "scripts/npc/4.s"
+            "symbol": "saffronCityObject4Main",
+            "path": "scripts/object/4.s"
           },
           "flag": 62
-        }
+        },
+        "id": "object-5"
       },
       {
-        "type": "npc",
+        "type": "object",
+        "x": 34,
+        "y": 31,
+        "z": 3,
         "data": {
-          "id": 6,
           "sprite": 49,
           "replacement": 0,
-          "x": 34,
-          "y": 31,
-          "height": 3,
           "behavior": 8,
           "boundary": {
             "x": 1,
             "y": 1
           },
           "property": 0,
-          "view_radius": 0,
+          "viewRadius": 0,
           "script": {
-            "symbol": "saffronCityNpc5Main",
-            "path": "scripts/npc/5.s"
+            "symbol": "saffronCityObject5Main",
+            "path": "scripts/object/5.s"
           },
           "flag": 62
-        }
+        },
+        "id": "object-6"
       },
       {
-        "type": "npc",
+        "type": "object",
+        "x": 30,
+        "y": 39,
+        "z": 3,
         "data": {
-          "id": 7,
           "sprite": 49,
           "replacement": 0,
-          "x": 30,
-          "y": 39,
-          "height": 3,
           "behavior": 5,
           "boundary": {
             "x": 5,
             "y": 1
           },
           "property": 0,
-          "view_radius": 0,
+          "viewRadius": 0,
           "script": {
-            "symbol": "saffronCityNpc6Main",
-            "path": "scripts/npc/6.s"
+            "symbol": "saffronCityObject6Main",
+            "path": "scripts/object/6.s"
           },
           "flag": 62
-        }
+        },
+        "id": "object-7"
       },
       {
-        "type": "npc",
+        "type": "object",
+        "x": 48,
+        "y": 24,
+        "z": 3,
         "data": {
-          "id": 8,
           "sprite": 49,
           "replacement": 0,
-          "x": 48,
-          "y": 24,
-          "height": 3,
           "behavior": 5,
           "boundary": {
             "x": 4,
             "y": 1
           },
           "property": 0,
-          "view_radius": 0,
+          "viewRadius": 0,
           "script": {
-            "symbol": "saffronCityNpc7Main",
-            "path": "scripts/npc/7.s"
+            "symbol": "saffronCityObject7Main",
+            "path": "scripts/object/7.s"
           },
           "flag": 62
-        }
+        },
+        "id": "object-8"
       },
       {
-        "type": "npc",
+        "type": "object",
+        "x": 37,
+        "y": 32,
+        "z": 3,
         "data": {
-          "id": 9,
           "sprite": 18,
           "replacement": 0,
-          "x": 37,
-          "y": 32,
-          "height": 3,
           "behavior": 1,
           "boundary": {
             "x": 1,
             "y": 1
           },
           "property": 0,
-          "view_radius": 0,
+          "viewRadius": 0,
           "script": {
-            "symbol": "saffronCityNpc8Main",
-            "path": "scripts/npc/8.s"
+            "symbol": "saffronCityObject8Main",
+            "path": "scripts/object/8.s"
           },
           "flag": 63
-        }
+        },
+        "id": "object-9"
       },
       {
-        "type": "npc",
+        "type": "object",
+        "x": 21,
+        "y": 23,
+        "z": 3,
         "data": {
-          "id": 10,
           "sprite": 47,
           "replacement": 0,
-          "x": 21,
-          "y": 23,
-          "height": 3,
           "behavior": 2,
           "boundary": {
             "x": 1,
             "y": 1
           },
           "property": 0,
-          "view_radius": 0,
+          "viewRadius": 0,
           "script": {
-            "symbol": "saffronCityNpc9Main",
-            "path": "scripts/npc/9.s"
+            "symbol": "saffronCityObject9Main",
+            "path": "scripts/object/9.s"
           },
           "flag": 63
-        }
+        },
+        "id": "object-10"
       },
       {
-        "type": "npc",
+        "type": "object",
+        "x": 39,
+        "y": 16,
+        "z": 3,
         "data": {
-          "id": 11,
           "sprite": 25,
           "replacement": 0,
-          "x": 39,
-          "y": 16,
-          "height": 3,
           "behavior": 7,
           "boundary": {
             "x": 1,
             "y": 1
           },
           "property": 0,
-          "view_radius": 0,
+          "viewRadius": 0,
           "script": {
-            "symbol": "saffronCityNpc10Main",
-            "path": "scripts/npc/10.s"
+            "symbol": "saffronCityObject10Main",
+            "path": "scripts/object/10.s"
           },
           "flag": 63
-        }
+        },
+        "id": "object-11"
       },
       {
-        "type": "npc",
+        "type": "object",
+        "x": 44,
+        "y": 22,
+        "z": 3,
         "data": {
-          "id": 12,
           "sprite": 19,
           "replacement": 0,
-          "x": 44,
-          "y": 22,
-          "height": 3,
           "behavior": 8,
           "boundary": {
             "x": 1,
             "y": 1
           },
           "property": 0,
-          "view_radius": 0,
+          "viewRadius": 0,
           "script": {
-            "symbol": "saffronCityNpc11Main",
-            "path": "scripts/npc/11.s"
+            "symbol": "saffronCityObject11Main",
+            "path": "scripts/object/11.s"
           },
           "flag": 63
-        }
+        },
+        "id": "object-12"
       },
       {
-        "type": "npc",
+        "type": "object",
+        "x": 45,
+        "y": 22,
+        "z": 3,
         "data": {
-          "id": 13,
           "sprite": 114,
           "replacement": 0,
-          "x": 45,
-          "y": 22,
-          "height": 3,
           "behavior": 8,
           "boundary": {
             "x": 1,
             "y": 1
           },
           "property": 0,
-          "view_radius": 0,
+          "viewRadius": 0,
           "script": {
-            "symbol": "saffronCityNpc12Main",
-            "path": "scripts/npc/12.s"
+            "symbol": "saffronCityObject12Main",
+            "path": "scripts/object/12.s"
           },
           "flag": 63
-        }
+        },
+        "id": "object-13"
       },
       {
-        "type": "npc",
+        "type": "object",
+        "x": 32,
+        "y": 39,
+        "z": 3,
         "data": {
-          "id": 14,
           "sprite": 22,
           "replacement": 0,
-          "x": 32,
-          "y": 39,
-          "height": 3,
           "behavior": 5,
           "boundary": {
             "x": 5,
             "y": 1
           },
           "property": 0,
-          "view_radius": 0,
+          "viewRadius": 0,
           "script": {
-            "symbol": "saffronCityNpc13Main",
-            "path": "scripts/npc/13.s"
+            "symbol": "saffronCityObject13Main",
+            "path": "scripts/object/13.s"
           },
           "flag": 63
-        }
+        },
+        "id": "object-14"
       },
       {
-        "type": "npc",
+        "type": "object",
+        "x": 47,
+        "y": 24,
+        "z": 3,
         "data": {
-          "id": 15,
           "sprite": 24,
           "replacement": 0,
-          "x": 47,
-          "y": 24,
-          "height": 3,
           "behavior": 5,
           "boundary": {
             "x": 1,
             "y": 1
           },
           "property": 0,
-          "view_radius": 0,
+          "viewRadius": 0,
           "script": {
-            "symbol": "saffronCityNpc14Main",
-            "path": "scripts/npc/14.s"
+            "symbol": "saffronCityObject14Main",
+            "path": "scripts/object/14.s"
           },
           "flag": 157
-        }
-      },
-      {
-        "type": "warp",
-        "data": {
-          "x": 33,
-          "y": 30,
-          "height": 0,
-          "target": {
-            "warp": 1,
-            "map": {
-              "id": "map-1-47"
-            }
-          }
-        }
-      },
-      {
-        "type": "warp",
-        "data": {
-          "x": 22,
-          "y": 14,
-          "height": 0,
-          "target": {
-            "warp": 1,
-            "map": {
-              "id": "map-14-0"
-            }
-          }
-        }
-      },
-      {
-        "type": "warp",
-        "data": {
-          "x": 40,
-          "y": 12,
-          "height": 0,
-          "target": {
-            "warp": 1,
-            "map": {
-              "id": "map-14-2"
-            }
-          }
-        }
-      },
-      {
-        "type": "warp",
-        "data": {
-          "x": 46,
-          "y": 12,
-          "height": 0,
-          "target": {
-            "warp": 1,
-            "map": {
-              "id": "map-14-3"
-            }
-          }
-        }
-      },
-      {
-        "type": "warp",
-        "data": {
-          "x": 27,
-          "y": 21,
-          "height": 0,
-          "target": {
-            "warp": 1,
-            "map": {
-              "id": "map-14-4"
-            }
-          }
-        }
-      },
-      {
-        "type": "warp",
-        "data": {
-          "x": 40,
-          "y": 21,
-          "height": 0,
-          "target": {
-            "warp": 1,
-            "map": {
-              "id": "map-14-5"
-            }
-          }
-        }
-      },
-      {
-        "type": "warp",
-        "data": {
-          "x": 24,
-          "y": 38,
-          "height": 0,
-          "target": {
-            "warp": 1,
-            "map": {
-              "id": "map-14-6"
-            }
-          }
-        }
-      },
-      {
-        "type": "warp",
-        "data": {
-          "x": 43,
-          "y": 38,
-          "height": 0,
-          "target": {
-            "warp": 1,
-            "map": {
-              "id": "map-14-8"
-            }
-          }
-        }
-      },
-      {
-        "type": "warp",
-        "data": {
-          "x": 8,
-          "y": 27,
-          "height": 3,
-          "target": {
-            "warp": 2,
-            "map": {
-              "id": "map-19-0"
-            }
-          }
-        }
-      },
-      {
-        "type": "warp",
-        "data": {
-          "x": 34,
-          "y": 5,
-          "height": 3,
-          "target": {
-            "warp": 2,
-            "map": {
-              "id": "map-17-1"
-            }
-          }
-        }
-      },
-      {
-        "type": "warp",
-        "data": {
-          "x": 58,
-          "y": 27,
-          "height": 3,
-          "target": {
-            "warp": 1,
-            "map": {
-              "id": "map-20-0"
-            }
-          }
-        }
-      },
-      {
-        "type": "warp",
-        "data": {
-          "x": 34,
-          "y": 46,
-          "height": 3,
-          "target": {
-            "warp": 0,
-            "map": {
-              "id": "map-18-0"
-            }
-          }
-        }
-      },
-      {
-        "type": "warp",
-        "data": {
-          "x": 35,
-          "y": 46,
-          "height": 3,
-          "target": {
-            "warp": 0,
-            "map": {
-              "id": "map-18-0"
-            }
-          }
-        }
-      },
-      {
-        "type": "warp",
-        "data": {
-          "x": 35,
-          "y": 5,
-          "height": 3,
-          "target": {
-            "warp": 2,
-            "map": {
-              "id": "map-17-1"
-            }
-          }
-        }
-      },
-      {
-        "type": "warp",
-        "data": {
-          "x": 47,
-          "y": 21,
-          "height": 0,
-          "target": {
-            "warp": 0,
-            "map": {
-              "id": "map-14-9"
-            }
-          }
-        }
-      },
-      {
-        "type": "sign",
-        "data": {
-          "x": 29,
-          "y": 14,
-          "height": 0,
-          "type": "script",
-          "script": {
-            "symbol": "saffronCitySign0Main",
-            "path": "scripts/sign/0.s"
-          }
-        }
-      },
-      {
-        "type": "sign",
-        "data": {
-          "x": 42,
-          "y": 14,
-          "height": 0,
-          "type": "script",
-          "script": {
-            "symbol": "saffronCitySign1Main",
-            "path": "scripts/sign/1.s"
-          }
-        }
-      },
-      {
-        "type": "sign",
-        "data": {
-          "x": 13,
-          "y": 25,
-          "height": 0,
-          "type": "script",
-          "script": {
-            "symbol": "saffronCitySign2Main",
-            "path": "scripts/sign/2.s"
-          }
-        }
-      },
-      {
-        "type": "sign",
-        "data": {
-          "x": 18,
-          "y": 30,
-          "height": 0,
-          "type": "script",
-          "script": {
-            "symbol": "saffronCitySign3Main",
-            "path": "scripts/sign/3.s"
-          }
-        }
-      },
-      {
-        "type": "sign",
-        "data": {
-          "x": 29,
-          "y": 31,
-          "height": 0,
-          "type": "script",
-          "script": {
-            "symbol": "saffronCitySign4Main",
-            "path": "scripts/sign/4.s"
-          }
-        }
-      },
-      {
-        "type": "sign",
-        "data": {
-          "x": 54,
-          "y": 25,
-          "height": 0,
-          "type": "script",
-          "script": {
-            "symbol": "saffronCitySign5Main",
-            "path": "scripts/sign/5.s"
-          }
-        }
-      },
-      {
-        "type": "sign",
-        "data": {
-          "x": 50,
-          "y": 14,
-          "height": 0,
-          "type": "script",
-          "script": {
-            "symbol": "saffronCitySign6Main",
-            "path": "scripts/sign/6.s"
-          }
-        }
-      },
-      {
-        "type": "sign",
-        "data": {
-          "x": 40,
-          "y": 38,
-          "height": 0,
-          "type": "script",
-          "script": {
-            "symbol": "saffronCitySign7Main",
-            "path": "scripts/sign/7.s"
-          }
-        }
-      },
-      {
-        "type": "sign",
-        "data": {
-          "x": 49,
-          "y": 22,
-          "height": 0,
-          "type": "script",
-          "script": {
-            "symbol": "saffronCitySign8Main",
-            "path": "scripts/sign/8.s"
-          }
-        }
+        },
+        "id": "object-15"
       }
     ]
   }

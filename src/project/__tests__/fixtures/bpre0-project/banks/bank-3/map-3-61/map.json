@@ -5833,422 +5833,424 @@
     ],
     "entities": [
       {
-        "type": "npc",
+        "type": "warp",
+        "x": 24,
+        "y": 24,
+        "z": 3,
         "data": {
-          "id": 1,
+          "target": {
+            "warp": "warp-0",
+            "map": {
+              "id": "map-1-115"
+            }
+          }
+        },
+        "id": "warp-0"
+      },
+      {
+        "type": "interactable",
+        "x": 24,
+        "y": 24,
+        "z": 3,
+        "data": {
+          "type": "script",
+          "script": {
+            "symbol": "ruinValleyInteractable0Main",
+            "path": "scripts/interactable/0.s"
+          }
+        },
+        "id": "interactable-0"
+      },
+      {
+        "type": "object",
+        "x": 24,
+        "y": 25,
+        "z": 3,
+        "data": {
           "sprite": 55,
           "replacement": 0,
-          "x": 24,
-          "y": 25,
-          "height": 3,
           "behavior": 7,
           "boundary": {
             "x": 1,
             "y": 1
           },
           "property": 0,
-          "view_radius": 0,
+          "viewRadius": 0,
           "script": {
-            "symbol": "ruinValleyNpc0Main",
-            "path": "scripts/npc/0.s"
+            "symbol": "ruinValleyObject0Main",
+            "path": "scripts/object/0.s"
           },
           "flag": 142
-        }
+        },
+        "id": "object-1"
       },
       {
-        "type": "npc",
+        "type": "object",
+        "x": 32,
+        "y": 11,
+        "z": 5,
         "data": {
-          "id": 2,
           "sprite": 56,
           "replacement": 0,
-          "x": 32,
-          "y": 11,
-          "height": 5,
           "behavior": 17,
           "boundary": {
             "x": 1,
             "y": 1
           },
           "property": 1,
-          "view_radius": 4,
+          "viewRadius": 4,
           "script": {
-            "symbol": "ruinValleyNpc1Main",
-            "path": "scripts/npc/1.s"
+            "symbol": "ruinValleyObject1Main",
+            "path": "scripts/object/1.s"
           },
           "flag": 0
-        }
+        },
+        "id": "object-2"
       },
       {
-        "type": "npc",
+        "type": "object",
+        "x": 33,
+        "y": 16,
+        "z": 5,
         "data": {
-          "id": 3,
           "sprite": 56,
           "replacement": 0,
-          "x": 33,
-          "y": 16,
-          "height": 5,
           "behavior": 14,
           "boundary": {
             "x": 1,
             "y": 1
           },
           "property": 1,
-          "view_radius": 2,
+          "viewRadius": 2,
           "script": {
-            "symbol": "ruinValleyNpc2Main",
-            "path": "scripts/npc/2.s"
+            "symbol": "ruinValleyObject2Main",
+            "path": "scripts/object/2.s"
           },
           "flag": 0
-        }
+        },
+        "id": "object-3"
       },
       {
-        "type": "npc",
+        "type": "object",
+        "x": 31,
+        "y": 24,
+        "z": 5,
         "data": {
-          "id": 4,
           "sprite": 56,
           "replacement": 0,
-          "x": 31,
-          "y": 24,
-          "height": 5,
           "behavior": 9,
           "boundary": {
             "x": 1,
             "y": 1
           },
           "property": 1,
-          "view_radius": 1,
+          "viewRadius": 1,
           "script": {
-            "symbol": "ruinValleyNpc3Main",
-            "path": "scripts/npc/3.s"
+            "symbol": "ruinValleyObject3Main",
+            "path": "scripts/object/3.s"
           },
           "flag": 0
-        }
+        },
+        "id": "object-4"
       },
       {
-        "type": "npc",
+        "type": "object",
+        "x": 14,
+        "y": 10,
+        "z": 5,
         "data": {
-          "id": 5,
           "sprite": 56,
           "replacement": 0,
-          "x": 14,
-          "y": 10,
-          "height": 5,
           "behavior": 8,
           "boundary": {
             "x": 1,
             "y": 1
           },
           "property": 1,
-          "view_radius": 2,
+          "viewRadius": 2,
           "script": {
-            "symbol": "ruinValleyNpc4Main",
-            "path": "scripts/npc/4.s"
+            "symbol": "ruinValleyObject4Main",
+            "path": "scripts/object/4.s"
           },
           "flag": 0
-        }
+        },
+        "id": "object-5"
       },
       {
-        "type": "npc",
+        "type": "object",
+        "x": 21,
+        "y": 29,
+        "z": 5,
         "data": {
-          "id": 6,
           "sprite": 52,
           "replacement": 0,
-          "x": 21,
-          "y": 29,
-          "height": 5,
           "behavior": 2,
           "boundary": {
             "x": 2,
             "y": 3
           },
           "property": 1,
-          "view_radius": 1,
+          "viewRadius": 1,
           "script": {
-            "symbol": "ruinValleyNpc5Main",
-            "path": "scripts/npc/5.s"
+            "symbol": "ruinValleyObject5Main",
+            "path": "scripts/object/5.s"
           },
           "flag": 0
-        }
+        },
+        "id": "object-6"
       },
       {
-        "type": "npc",
+        "type": "object",
+        "x": 17,
+        "y": 10,
+        "z": 5,
         "data": {
-          "id": 7,
           "sprite": 97,
           "replacement": 0,
-          "x": 17,
-          "y": 10,
-          "height": 5,
           "behavior": 1,
           "boundary": {
             "x": 0,
             "y": 0
           },
           "property": 0,
-          "view_radius": 0,
+          "viewRadius": 0,
           "script": {
-            "symbol": "ruinValleyNpc6Main",
-            "path": "scripts/npc/6.s"
+            "symbol": "ruinValleyObject6Main",
+            "path": "scripts/object/6.s"
           },
           "flag": 0
-        }
+        },
+        "id": "object-7"
       },
       {
-        "type": "npc",
+        "type": "object",
+        "x": 17,
+        "y": 12,
+        "z": 5,
         "data": {
-          "id": 8,
           "sprite": 97,
           "replacement": 0,
-          "x": 17,
-          "y": 12,
-          "height": 5,
           "behavior": 1,
           "boundary": {
             "x": 0,
             "y": 0
           },
           "property": 0,
-          "view_radius": 0,
+          "viewRadius": 0,
           "script": {
-            "symbol": "ruinValleyNpc7Main",
-            "path": "scripts/npc/7.s"
+            "symbol": "ruinValleyObject7Main",
+            "path": "scripts/object/7.s"
           },
           "flag": 0
-        }
+        },
+        "id": "object-8"
       },
       {
-        "type": "npc",
+        "type": "object",
+        "x": 18,
+        "y": 11,
+        "z": 5,
         "data": {
-          "id": 9,
           "sprite": 97,
           "replacement": 0,
-          "x": 18,
-          "y": 11,
-          "height": 5,
           "behavior": 1,
           "boundary": {
             "x": 0,
             "y": 0
           },
           "property": 0,
-          "view_radius": 0,
+          "viewRadius": 0,
           "script": {
-            "symbol": "ruinValleyNpc8Main",
-            "path": "scripts/npc/8.s"
+            "symbol": "ruinValleyObject8Main",
+            "path": "scripts/object/8.s"
           },
           "flag": 0
-        }
+        },
+        "id": "object-9"
       },
       {
-        "type": "npc",
+        "type": "object",
+        "x": 6,
+        "y": 33,
+        "z": 3,
         "data": {
-          "id": 10,
           "sprite": 97,
           "replacement": 0,
-          "x": 6,
-          "y": 33,
-          "height": 3,
           "behavior": 1,
           "boundary": {
             "x": 0,
             "y": 0
           },
           "property": 0,
-          "view_radius": 0,
+          "viewRadius": 0,
           "script": {
-            "symbol": "ruinValleyNpc9Main",
-            "path": "scripts/npc/9.s"
+            "symbol": "ruinValleyObject9Main",
+            "path": "scripts/object/9.s"
           },
           "flag": 0
-        }
+        },
+        "id": "object-10"
       },
       {
-        "type": "npc",
+        "type": "object",
+        "x": 6,
+        "y": 34,
+        "z": 3,
         "data": {
-          "id": 11,
           "sprite": 97,
           "replacement": 0,
-          "x": 6,
-          "y": 34,
-          "height": 3,
           "behavior": 1,
           "boundary": {
             "x": 0,
             "y": 0
           },
           "property": 0,
-          "view_radius": 0,
+          "viewRadius": 0,
           "script": {
-            "symbol": "ruinValleyNpc10Main",
-            "path": "scripts/npc/10.s"
+            "symbol": "ruinValleyObject10Main",
+            "path": "scripts/object/10.s"
           },
           "flag": 0
-        }
+        },
+        "id": "object-11"
       },
       {
-        "type": "npc",
+        "type": "object",
+        "x": 41,
+        "y": 32,
+        "z": 3,
         "data": {
-          "id": 12,
           "sprite": 97,
           "replacement": 0,
-          "x": 41,
-          "y": 32,
-          "height": 3,
           "behavior": 1,
           "boundary": {
             "x": 0,
             "y": 0
           },
           "property": 0,
-          "view_radius": 0,
+          "viewRadius": 0,
           "script": {
-            "symbol": "ruinValleyNpc11Main",
-            "path": "scripts/npc/11.s"
+            "symbol": "ruinValleyObject11Main",
+            "path": "scripts/object/11.s"
           },
           "flag": 0
-        }
+        },
+        "id": "object-12"
       },
       {
-        "type": "npc",
+        "type": "object",
+        "x": 41,
+        "y": 33,
+        "z": 3,
         "data": {
-          "id": 13,
           "sprite": 97,
           "replacement": 0,
-          "x": 41,
-          "y": 33,
-          "height": 3,
           "behavior": 1,
           "boundary": {
             "x": 0,
             "y": 0
           },
           "property": 0,
-          "view_radius": 0,
+          "viewRadius": 0,
           "script": {
-            "symbol": "ruinValleyNpc12Main",
-            "path": "scripts/npc/12.s"
+            "symbol": "ruinValleyObject12Main",
+            "path": "scripts/object/12.s"
           },
           "flag": 0
-        }
+        },
+        "id": "object-13"
       },
       {
-        "type": "npc",
+        "type": "object",
+        "x": 42,
+        "y": 33,
+        "z": 3,
         "data": {
-          "id": 14,
           "sprite": 97,
           "replacement": 0,
-          "x": 42,
-          "y": 33,
-          "height": 3,
           "behavior": 1,
           "boundary": {
             "x": 0,
             "y": 0
           },
           "property": 0,
-          "view_radius": 0,
+          "viewRadius": 0,
           "script": {
-            "symbol": "ruinValleyNpc13Main",
-            "path": "scripts/npc/13.s"
+            "symbol": "ruinValleyObject13Main",
+            "path": "scripts/object/13.s"
           },
           "flag": 0
-        }
+        },
+        "id": "object-14"
       },
       {
-        "type": "npc",
+        "type": "object",
+        "x": 5,
+        "y": 33,
+        "z": 3,
         "data": {
-          "id": 15,
           "sprite": 92,
           "replacement": 0,
-          "x": 5,
-          "y": 33,
-          "height": 3,
           "behavior": 8,
           "boundary": {
             "x": 1,
             "y": 1
           },
           "property": 0,
-          "view_radius": 0,
+          "viewRadius": 0,
           "script": {
-            "symbol": "ruinValleyNpc14Main",
-            "path": "scripts/npc/14.s"
+            "symbol": "ruinValleyObject14Main",
+            "path": "scripts/object/14.s"
           },
           "flag": 485
-        }
+        },
+        "id": "object-15"
       },
       {
-        "type": "npc",
+        "type": "object",
+        "x": 19,
+        "y": 11,
+        "z": 5,
         "data": {
-          "id": 16,
           "sprite": 92,
           "replacement": 0,
-          "x": 19,
-          "y": 11,
-          "height": 5,
           "behavior": 8,
           "boundary": {
             "x": 1,
             "y": 1
           },
           "property": 0,
-          "view_radius": 0,
+          "viewRadius": 0,
           "script": {
-            "symbol": "ruinValleyNpc15Main",
-            "path": "scripts/npc/15.s"
+            "symbol": "ruinValleyObject15Main",
+            "path": "scripts/object/15.s"
           },
           "flag": 484
-        }
+        },
+        "id": "object-16"
       },
       {
-        "type": "npc",
+        "type": "object",
+        "x": 43,
+        "y": 32,
+        "z": 3,
         "data": {
-          "id": 17,
           "sprite": 92,
           "replacement": 0,
-          "x": 43,
-          "y": 32,
-          "height": 3,
           "behavior": 8,
           "boundary": {
             "x": 1,
             "y": 1
           },
           "property": 0,
-          "view_radius": 0,
+          "viewRadius": 0,
           "script": {
-            "symbol": "ruinValleyNpc16Main",
-            "path": "scripts/npc/16.s"
+            "symbol": "ruinValleyObject16Main",
+            "path": "scripts/object/16.s"
           },
           "flag": 486
-        }
-      },
-      {
-        "type": "warp",
-        "data": {
-          "x": 24,
-          "y": 24,
-          "height": 3,
-          "target": {
-            "warp": 0,
-            "map": {
-              "id": "map-1-115"
-            }
-          }
-        }
-      },
-      {
-        "type": "sign",
-        "data": {
-          "x": 24,
-          "y": 24,
-          "height": 3,
-          "type": "script",
-          "script": {
-            "symbol": "ruinValleySign0Main",
-            "path": "scripts/sign/0.s"
-          }
-        }
+        },
+        "id": "object-17"
       }
     ]
   }

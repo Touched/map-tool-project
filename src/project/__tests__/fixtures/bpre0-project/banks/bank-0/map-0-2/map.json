@@ -657,143 +657,151 @@
     "connections": [],
     "entities": [
       {
-        "type": "npc",
-        "data": {
-          "id": 1,
-          "sprite": 66,
-          "replacement": 0,
-          "x": 10,
-          "y": 5,
-          "height": 0,
-          "behavior": 8,
-          "boundary": {
-            "x": 0,
-            "y": 0
-          },
-          "property": 0,
-          "view_radius": 0,
-          "script": {
-            "symbol": "celadonDept。2Npc0Main",
-            "path": "scripts/npc/0.s"
-          },
-          "flag": 0
-        }
-      },
-      {
         "type": "warp",
+        "x": 8,
+        "y": 9,
+        "z": 3,
         "data": {
-          "x": 8,
-          "y": 9,
-          "height": 3,
           "target": {
-            "warp": 127,
+            "warp": "warp-127",
             "map": {
               "map": 127,
               "bank": 127
             }
           }
-        }
+        },
+        "id": "warp-0"
       },
       {
         "type": "warp",
+        "x": 9,
+        "y": 9,
+        "z": 3,
         "data": {
-          "x": 9,
-          "y": 9,
-          "height": 3,
           "target": {
-            "warp": 127,
+            "warp": "warp-127",
             "map": {
               "map": 127,
               "bank": 127
             }
           }
-        }
+        },
+        "id": "warp-1"
       },
       {
         "type": "warp",
+        "x": 11,
+        "y": 9,
+        "z": 3,
         "data": {
-          "x": 11,
-          "y": 9,
-          "height": 3,
           "target": {
-            "warp": 127,
+            "warp": "warp-127",
             "map": {
               "map": 127,
               "bank": 127
             }
           }
-        }
+        },
+        "id": "warp-2"
       },
       {
         "type": "warp",
+        "x": 10,
+        "y": 9,
+        "z": 3,
         "data": {
-          "x": 10,
-          "y": 9,
-          "height": 3,
           "target": {
-            "warp": 127,
+            "warp": "warp-127",
             "map": {
               "map": 127,
               "bank": 127
             }
           }
-        }
+        },
+        "id": "warp-3"
       },
       {
         "type": "trigger",
+        "x": 6,
+        "y": 4,
+        "z": 3,
         "data": {
-          "x": 6,
-          "y": 4,
-          "height": 3,
           "variable": 16384,
           "value": 0,
           "script": {
             "symbol": "celadonDept。2Trigger0Main",
             "path": "scripts/trigger/0.s"
           }
-        }
+        },
+        "id": "trigger-0"
       },
       {
         "type": "trigger",
+        "x": 6,
+        "y": 6,
+        "z": 3,
         "data": {
-          "x": 6,
-          "y": 6,
-          "height": 3,
           "variable": 16384,
           "value": 0,
           "script": {
             "symbol": "celadonDept。2Trigger1Main",
             "path": "scripts/trigger/1.s"
           }
-        }
+        },
+        "id": "trigger-1"
       },
       {
         "type": "trigger",
+        "x": 13,
+        "y": 4,
+        "z": 3,
         "data": {
-          "x": 13,
-          "y": 4,
-          "height": 3,
           "variable": 16384,
           "value": 0,
           "script": {
             "symbol": "celadonDept。2Trigger2Main",
             "path": "scripts/trigger/2.s"
           }
-        }
+        },
+        "id": "trigger-2"
       },
       {
         "type": "trigger",
+        "x": 13,
+        "y": 6,
+        "z": 3,
         "data": {
-          "x": 13,
-          "y": 6,
-          "height": 3,
           "variable": 16384,
           "value": 0,
           "script": {
             "symbol": "celadonDept。2Trigger3Main",
             "path": "scripts/trigger/3.s"
           }
-        }
+        },
+        "id": "trigger-3"
+      },
+      {
+        "type": "object",
+        "x": 10,
+        "y": 5,
+        "z": 0,
+        "data": {
+          "sprite": 66,
+          "replacement": 0,
+          "behavior": 8,
+          "boundary": {
+            "x": 0,
+            "y": 0
+          },
+          "property": 0,
+          "viewRadius": 0,
+          "script": {
+            "symbol": "celadonDept。2Object0Main",
+            "path": "scripts/object/0.s"
+          },
+          "flag": 0
+        },
+        "id": "object-1"
       }
     ]
   }

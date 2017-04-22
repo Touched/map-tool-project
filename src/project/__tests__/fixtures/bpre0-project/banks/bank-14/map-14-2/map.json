@@ -681,287 +681,296 @@
     "connections": [],
     "entities": [
       {
-        "type": "npc",
-        "data": {
-          "id": 1,
-          "sprite": 54,
-          "replacement": 0,
-          "x": 11,
-          "y": 10,
-          "height": 3,
-          "behavior": 9,
-          "boundary": {
-            "x": 1,
-            "y": 1
-          },
-          "property": 1,
-          "view_radius": 7,
-          "script": {
-            "symbol": "saffronCity4Npc0Main",
-            "path": "scripts/npc/0.s"
-          },
-          "flag": 0
-        }
-      },
-      {
-        "type": "npc",
-        "data": {
-          "id": 2,
-          "sprite": 54,
-          "replacement": 0,
-          "x": 1,
-          "y": 10,
-          "height": 3,
-          "behavior": 10,
-          "boundary": {
-            "x": 1,
-            "y": 1
-          },
-          "property": 1,
-          "view_radius": 7,
-          "script": {
-            "symbol": "saffronCity4Npc1Main",
-            "path": "scripts/npc/1.s"
-          },
-          "flag": 0
-        }
-      },
-      {
-        "type": "npc",
-        "data": {
-          "id": 3,
-          "sprite": 54,
-          "replacement": 0,
-          "x": 11,
-          "y": 8,
-          "height": 3,
-          "behavior": 9,
-          "boundary": {
-            "x": 1,
-            "y": 1
-          },
-          "property": 1,
-          "view_radius": 7,
-          "script": {
-            "symbol": "saffronCity4Npc2Main",
-            "path": "scripts/npc/2.s"
-          },
-          "flag": 0
-        }
-      },
-      {
-        "type": "npc",
-        "data": {
-          "id": 4,
-          "sprite": 54,
-          "replacement": 0,
-          "x": 1,
-          "y": 8,
-          "height": 3,
-          "behavior": 10,
-          "boundary": {
-            "x": 1,
-            "y": 1
-          },
-          "property": 1,
-          "view_radius": 7,
-          "script": {
-            "symbol": "saffronCity4Npc3Main",
-            "path": "scripts/npc/3.s"
-          },
-          "flag": 0
-        }
-      },
-      {
-        "type": "npc",
-        "data": {
-          "id": 5,
-          "sprite": 54,
-          "replacement": 0,
-          "x": 6,
-          "y": 5,
-          "height": 3,
-          "behavior": 8,
-          "boundary": {
-            "x": 1,
-            "y": 1
-          },
-          "property": 1,
-          "view_radius": 2,
-          "script": {
-            "symbol": "saffronCity4Npc4Main",
-            "path": "scripts/npc/4.s"
-          },
-          "flag": 0
-        }
-      },
-      {
-        "type": "npc",
-        "data": {
-          "id": 6,
-          "sprite": 92,
-          "replacement": 0,
-          "x": 5,
-          "y": 3,
-          "height": 3,
-          "behavior": 8,
-          "boundary": {
-            "x": 1,
-            "y": 1
-          },
-          "property": 0,
-          "view_radius": 0,
-          "script": {
-            "symbol": "saffronCity4Npc5Main",
-            "path": "scripts/npc/5.s"
-          },
-          "flag": 96
-        }
-      },
-      {
-        "type": "npc",
-        "data": {
-          "id": 7,
-          "sprite": 92,
-          "replacement": 0,
-          "x": 7,
-          "y": 3,
-          "height": 3,
-          "behavior": 8,
-          "boundary": {
-            "x": 1,
-            "y": 1
-          },
-          "property": 0,
-          "view_radius": 0,
-          "script": {
-            "symbol": "saffronCity4Npc6Main",
-            "path": "scripts/npc/6.s"
-          },
-          "flag": 97
-        }
-      },
-      {
         "type": "warp",
+        "x": 5,
+        "y": 14,
+        "z": 3,
         "data": {
-          "x": 5,
-          "y": 14,
-          "height": 3,
           "target": {
-            "warp": 2,
+            "warp": "warp-2",
             "map": {
               "id": "map-3-10"
             }
           }
-        }
+        },
+        "id": "warp-0"
       },
       {
         "type": "warp",
+        "x": 6,
+        "y": 14,
+        "z": 3,
         "data": {
-          "x": 6,
-          "y": 14,
-          "height": 3,
           "target": {
-            "warp": 2,
+            "warp": "warp-2",
             "map": {
               "id": "map-3-10"
             }
           }
-        }
+        },
+        "id": "warp-1"
       },
       {
         "type": "warp",
+        "x": 7,
+        "y": 14,
+        "z": 3,
         "data": {
-          "x": 7,
-          "y": 14,
-          "height": 3,
           "target": {
-            "warp": 2,
+            "warp": "warp-2",
             "map": {
               "id": "map-3-10"
             }
           }
-        }
+        },
+        "id": "warp-2"
       },
       {
-        "type": "sign",
+        "type": "interactable",
+        "x": 3,
+        "y": 13,
+        "z": 0,
         "data": {
-          "x": 3,
-          "y": 13,
-          "height": 0,
           "type": "script",
           "script": {
-            "symbol": "saffronCity4Sign0Main",
-            "path": "scripts/sign/0.s"
+            "symbol": "saffronCity4Interactable0Main",
+            "path": "scripts/interactable/0.s"
           }
-        }
+        },
+        "id": "interactable-0"
       },
       {
-        "type": "sign",
+        "type": "interactable",
+        "x": 9,
+        "y": 13,
+        "z": 0,
         "data": {
-          "x": 9,
-          "y": 13,
-          "height": 0,
           "type": "script",
           "script": {
-            "symbol": "saffronCity4Sign1Main",
-            "path": "scripts/sign/1.s"
+            "symbol": "saffronCity4Interactable1Main",
+            "path": "scripts/interactable/1.s"
           }
-        }
+        },
+        "id": "interactable-1"
       },
       {
-        "type": "sign",
+        "type": "interactable",
+        "x": 5,
+        "y": 2,
+        "z": 0,
         "data": {
-          "x": 5,
-          "y": 2,
-          "height": 0,
           "type": "script",
           "script": {
-            "symbol": "saffronCity4Sign2Main",
-            "path": "scripts/sign/2.s"
+            "symbol": "saffronCity4Interactable2Main",
+            "path": "scripts/interactable/2.s"
           }
-        }
+        },
+        "id": "interactable-2"
       },
       {
-        "type": "sign",
+        "type": "interactable",
+        "x": 7,
+        "y": 2,
+        "z": 0,
         "data": {
-          "x": 7,
-          "y": 2,
-          "height": 0,
           "type": "script",
           "script": {
-            "symbol": "saffronCity4Sign3Main",
-            "path": "scripts/sign/3.s"
+            "symbol": "saffronCity4Interactable3Main",
+            "path": "scripts/interactable/3.s"
           }
-        }
+        },
+        "id": "interactable-3"
       },
       {
         "type": "trigger",
+        "x": 5,
+        "y": 5,
+        "z": 3,
         "data": {
-          "x": 5,
-          "y": 5,
-          "height": 3,
           "variable": 16513,
           "value": 0,
           "script": {
             "symbol": "saffronCity4Trigger0Main",
             "path": "scripts/trigger/0.s"
           }
-        }
+        },
+        "id": "trigger-0"
       },
       {
         "type": "trigger",
+        "x": 7,
+        "y": 5,
+        "z": 3,
         "data": {
-          "x": 7,
-          "y": 5,
-          "height": 3,
           "variable": 16513,
           "value": 0,
           "script": {
             "symbol": "saffronCity4Trigger1Main",
             "path": "scripts/trigger/1.s"
           }
-        }
+        },
+        "id": "trigger-1"
+      },
+      {
+        "type": "object",
+        "x": 11,
+        "y": 10,
+        "z": 3,
+        "data": {
+          "sprite": 54,
+          "replacement": 0,
+          "behavior": 9,
+          "boundary": {
+            "x": 1,
+            "y": 1
+          },
+          "property": 1,
+          "viewRadius": 7,
+          "script": {
+            "symbol": "saffronCity4Object0Main",
+            "path": "scripts/object/0.s"
+          },
+          "flag": 0
+        },
+        "id": "object-1"
+      },
+      {
+        "type": "object",
+        "x": 1,
+        "y": 10,
+        "z": 3,
+        "data": {
+          "sprite": 54,
+          "replacement": 0,
+          "behavior": 10,
+          "boundary": {
+            "x": 1,
+            "y": 1
+          },
+          "property": 1,
+          "viewRadius": 7,
+          "script": {
+            "symbol": "saffronCity4Object1Main",
+            "path": "scripts/object/1.s"
+          },
+          "flag": 0
+        },
+        "id": "object-2"
+      },
+      {
+        "type": "object",
+        "x": 11,
+        "y": 8,
+        "z": 3,
+        "data": {
+          "sprite": 54,
+          "replacement": 0,
+          "behavior": 9,
+          "boundary": {
+            "x": 1,
+            "y": 1
+          },
+          "property": 1,
+          "viewRadius": 7,
+          "script": {
+            "symbol": "saffronCity4Object2Main",
+            "path": "scripts/object/2.s"
+          },
+          "flag": 0
+        },
+        "id": "object-3"
+      },
+      {
+        "type": "object",
+        "x": 1,
+        "y": 8,
+        "z": 3,
+        "data": {
+          "sprite": 54,
+          "replacement": 0,
+          "behavior": 10,
+          "boundary": {
+            "x": 1,
+            "y": 1
+          },
+          "property": 1,
+          "viewRadius": 7,
+          "script": {
+            "symbol": "saffronCity4Object3Main",
+            "path": "scripts/object/3.s"
+          },
+          "flag": 0
+        },
+        "id": "object-4"
+      },
+      {
+        "type": "object",
+        "x": 6,
+        "y": 5,
+        "z": 3,
+        "data": {
+          "sprite": 54,
+          "replacement": 0,
+          "behavior": 8,
+          "boundary": {
+            "x": 1,
+            "y": 1
+          },
+          "property": 1,
+          "viewRadius": 2,
+          "script": {
+            "symbol": "saffronCity4Object4Main",
+            "path": "scripts/object/4.s"
+          },
+          "flag": 0
+        },
+        "id": "object-5"
+      },
+      {
+        "type": "object",
+        "x": 5,
+        "y": 3,
+        "z": 3,
+        "data": {
+          "sprite": 92,
+          "replacement": 0,
+          "behavior": 8,
+          "boundary": {
+            "x": 1,
+            "y": 1
+          },
+          "property": 0,
+          "viewRadius": 0,
+          "script": {
+            "symbol": "saffronCity4Object5Main",
+            "path": "scripts/object/5.s"
+          },
+          "flag": 96
+        },
+        "id": "object-6"
+      },
+      {
+        "type": "object",
+        "x": 7,
+        "y": 3,
+        "z": 3,
+        "data": {
+          "sprite": 92,
+          "replacement": 0,
+          "behavior": 8,
+          "boundary": {
+            "x": 1,
+            "y": 1
+          },
+          "property": 0,
+          "viewRadius": 0,
+          "script": {
+            "symbol": "saffronCity4Object6Main",
+            "path": "scripts/object/6.s"
+          },
+          "flag": 97
+        },
+        "id": "object-7"
       }
     ]
   }
