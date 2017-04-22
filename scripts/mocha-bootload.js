@@ -15,6 +15,6 @@ process.on('unhandledRejection', function (error) {
 });
 
 process.on('uncaughtException', (error) => {
-  error.stack = error.stack.split(/\n/g).slice(0, 10).join('\n');
+  error.stack = error.stack ? error.stack.split(/\n/g).slice(0, 10).join('\n') : [];
   console.error(error);
 });
