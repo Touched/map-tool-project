@@ -22,6 +22,8 @@ const entityClassByType: { [EntityType]: Class<ChildEntity<*>> } = {
 };
 
 export default class Project extends ParentEntity<ProjectEntity> {
+  static type = 'project';
+
   manifestPath: string;
   projectRoot: string;
   data: ProjectEntity;
@@ -34,8 +36,6 @@ export default class Project extends ParentEntity<ProjectEntity> {
       map: path.join(this.projectRoot, 'maps'),
       bank: path.join(this.projectRoot, 'banks'),
     };
-
-    validateEntity('project', data);
   }
 
   static load(manifestPath: string): ?Project {

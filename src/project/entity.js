@@ -1,6 +1,8 @@
 /* @flow */
 
 import Project from './project';
+import validateEntity from './helpers/validator';
+import invariant from '../util/invariant';
 
 export type EntityMeta = {
   format: {
@@ -20,12 +22,20 @@ export type Entity<Data> = {
 };
 
 export class AbstractEntity<T> {
+  static type: EntityType;
   path: string;
   data: T;
 
   constructor(path: string, data: T) {
     this.path = path;
     this.data = data;
+
+    invariant(
+      this.constructor.type,
+      `Entity '${this.constructor.name}' does not have a static 'type' property`,
+    );
+
+    validateEntity(this.constructor.type, data);
   }
 }
 

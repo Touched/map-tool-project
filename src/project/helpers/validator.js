@@ -5,7 +5,7 @@ import ajvKeywords from 'ajv-keywords';
 import entityContainerSchemaDefinition from '../../schema/entity.json';
 import * as entitySchemas from '../../schema/entities';
 import * as entityTypes from '../../schema/types';
-import type { EntityType, Entity } from '../entity';
+import type { EntityType } from '../entity';
 
 const ajv = new Ajv({
   $data: true,
@@ -21,7 +21,7 @@ const entityDataValidators = Object.keys(entitySchemas).reduce((validators, type
   [type]: ajv.compile(entitySchemas[type]),
 }), {});
 
-export default function validateEntity(type: EntityType, entityData: Entity<Object>) {
+export default function validateEntity(type: EntityType, entityData: any) {
   if (!entityContainerValidate(entityData)) {
     throw new Error(entityContainerValidate.errors[0].message);
   }

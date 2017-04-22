@@ -9,4 +9,6 @@ type BankData = {
 
 type BankEntity = Entity<BankData>;
 
-export default class Bank extends ChildEntity {}
+export default class Bank extends ChildEntity {
+  static type = 'bank';
+}

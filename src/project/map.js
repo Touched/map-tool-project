@@ -9,4 +9,6 @@ type MapData = {
 
 type MapEntity = Entity<MapData>;
 
-export default class Map extends ChildEntity<MapEntity> {}
+export default class Map extends ChildEntity<MapEntity> {
+  static type = 'map';
+}
