@@ -857,9 +857,11 @@
     },
     "blocksets": {
       "primary": {
+        "type": "blockset",
         "id": "blockset-0"
       },
       "secondary": {
+        "type": "blockset",
         "id": "blockset-54"
       }
     },
@@ -883,6 +885,7 @@
           "target": {
             "warp": "warp-0",
             "map": {
+              "type": "map",
               "id": "map-3-6"
             }
           }
@@ -898,6 +901,7 @@
           "target": {
             "warp": "warp-0",
             "map": {
+              "type": "map",
               "id": "map-3-6"
             }
           }
@@ -913,6 +917,7 @@
           "target": {
             "warp": "warp-0",
             "map": {
+              "type": "map",
               "id": "map-3-6"
             }
           }
@@ -928,6 +933,7 @@
           "target": {
             "warp": "warp-0",
             "map": {
+              "type": "map",
               "id": "map-1-42"
             }
           }

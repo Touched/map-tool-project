@@ -10,6 +10,7 @@
   },
   "data": {
     "linked": {
+      "type": "map",
       "id": "map-23-2"
     },
     "scripts": [],
@@ -24,6 +25,7 @@
           "target": {
             "warp": "warp-0",
             "map": {
+              "type": "map",
               "id": "map-3-60"
             }
           }

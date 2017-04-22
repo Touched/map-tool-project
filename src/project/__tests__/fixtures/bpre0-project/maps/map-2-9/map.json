@@ -911,9 +911,11 @@
     },
     "blocksets": {
       "primary": {
+        "type": "blockset",
         "id": "blockset-0"
       },
       "secondary": {
+        "type": "blockset",
         "id": "blockset-25"
       }
     },
@@ -950,6 +952,7 @@
           "target": {
             "warp": "warp-0",
             "map": {
+              "type": "map",
               "id": "map-2-11"
             }
           }
@@ -965,6 +968,7 @@
           "target": {
             "warp": "warp-0",
             "map": {
+              "type": "map",
               "id": "map-2-8"
             }
           }

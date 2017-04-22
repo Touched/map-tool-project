@@ -7247,9 +7247,11 @@
     },
     "blocksets": {
       "primary": {
+        "type": "blockset",
         "id": "blockset-3"
       },
       "secondary": {
+        "type": "blockset",
         "id": "blockset-35"
       }
     },
@@ -7267,6 +7269,7 @@
         "direction": "left",
         "offset": 0,
         "map": {
+          "type": "map",
           "id": "map-3-8"
         }
       },
@@ -7274,6 +7277,7 @@
         "direction": "right",
         "offset": -40,
         "map": {
+          "type": "map",
           "id": "map-3-37"
         }
       }
@@ -7288,6 +7292,7 @@
           "target": {
             "warp": "warp-3",
             "map": {
+              "type": "map",
               "id": "map-1-83"
             }
           }
@@ -7303,6 +7308,7 @@
           "target": {
             "warp": "warp-4",
             "map": {
+              "type": "map",
               "id": "map-1-83"
             }
           }

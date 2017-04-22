@@ -7247,9 +7247,11 @@
     },
     "blocksets": {
       "primary": {
+        "type": "blockset",
         "id": "blockset-3"
       },
       "secondary": {
+        "type": "blockset",
         "id": "blockset-34"
       }
     },
@@ -7267,6 +7269,7 @@
         "direction": "left",
         "offset": 10,
         "map": {
+          "type": "map",
           "id": "map-3-34"
         }
       },
@@ -7274,6 +7277,7 @@
         "direction": "right",
         "offset": 10,
         "map": {
+          "type": "map",
           "id": "map-3-25"
         }
       }
@@ -7288,6 +7292,7 @@
           "target": {
             "warp": "warp-0",
             "map": {
+              "type": "map",
               "id": "map-10-14"
             }
           }
@@ -7303,6 +7308,7 @@
           "target": {
             "warp": "warp-1",
             "map": {
+              "type": "map",
               "id": "map-10-0"
             }
           }
@@ -7318,6 +7324,7 @@
           "target": {
             "warp": "warp-4",
             "map": {
+              "type": "map",
               "id": "map-10-0"
             }
           }
@@ -7333,6 +7340,7 @@
           "target": {
             "warp": "warp-1",
             "map": {
+              "type": "map",
               "id": "map-10-7"
             }
           }
@@ -7348,6 +7356,7 @@
           "target": {
             "warp": "warp-1",
             "map": {
+              "type": "map",
               "id": "map-10-12"
             }
           }
@@ -7363,6 +7372,7 @@
           "target": {
             "warp": "warp-1",
             "map": {
+              "type": "map",
               "id": "map-10-15"
             }
           }
@@ -7378,6 +7388,7 @@
           "target": {
             "warp": "warp-1",
             "map": {
+              "type": "map",
               "id": "map-10-16"
             }
           }
@@ -7393,6 +7404,7 @@
           "target": {
             "warp": "warp-1",
             "map": {
+              "type": "map",
               "id": "map-10-17"
             }
           }
@@ -7408,6 +7420,7 @@
           "target": {
             "warp": "warp-1",
             "map": {
+              "type": "map",
               "id": "map-10-18"
             }
           }
@@ -7423,6 +7436,7 @@
           "target": {
             "warp": "warp-1",
             "map": {
+              "type": "map",
               "id": "map-10-19"
             }
           }
@@ -7438,6 +7452,7 @@
           "target": {
             "warp": "warp-5",
             "map": {
+              "type": "map",
               "id": "map-10-7"
             }
           }
@@ -7453,6 +7468,7 @@
           "target": {
             "warp": "warp-5",
             "map": {
+              "type": "map",
               "id": "map-10-7"
             }
           }
@@ -7468,6 +7484,7 @@
           "target": {
             "warp": "warp-5",
             "map": {
+              "type": "map",
               "id": "map-10-7"
             }
           }

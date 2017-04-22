@@ -19,7 +19,8 @@ describe('Map', () => {
         entities: [],
         scripts: [],
         linked: {
-          id: 'other-map',
+          type: 'map',
+          id: 'other-id',
         },
       },
     };

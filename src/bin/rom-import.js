@@ -137,7 +137,8 @@ function processConnection({ direction, offset, bank, map }) {
     direction,
     offset,
     map: {
-      id: lookupMap(bank, map)
+      type: 'map',
+      id: lookupMap(bank, map),
     },
   };
 }
@@ -176,6 +177,7 @@ async function processWarpEntity(symbol, mapPath, scriptPath, { x, y, height, wa
         map,
         bank,
       } : {
+        type: 'map',
         id: lookupMap(bank, map),
       }
     }
@@ -375,14 +377,17 @@ async function dumpMap(meta, info) {
     },
     blocksets: {
       primary: {
+        type: 'blockset',
         id: primaryBlocksetId
       },
       secondary: {
+        type: 'blockset',
         id: secondaryBlocksetId,
       },
     },
   } : {
     linked: {
+      type: 'map',
       id: linkedId
     },
   };
@@ -440,6 +445,7 @@ async function dumpMap(meta, info) {
       },
       data: {
         maps: mapsForBank.map(id => ({
+          type: 'map',
           id,
         })),
       },
@@ -483,6 +489,7 @@ async function buildProjectManifest({ description, outputDirectory }) {
     },
     data: {
       banks: banks.map(id => ({
+        type: 'bank',
         id,
       })),
     },

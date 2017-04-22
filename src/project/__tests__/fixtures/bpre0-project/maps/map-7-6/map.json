@@ -377,9 +377,11 @@
     },
     "blocksets": {
       "primary": {
+        "type": "blockset",
         "id": "blockset-0"
       },
       "secondary": {
+        "type": "blockset",
         "id": "blockset-49"
       }
     },
@@ -395,6 +397,7 @@
           "target": {
             "warp": "warp-5",
             "map": {
+              "type": "map",
               "id": "map-3-3"
             }
           }
@@ -410,6 +413,7 @@
           "target": {
             "warp": "warp-5",
             "map": {
+              "type": "map",
               "id": "map-3-3"
             }
           }
@@ -425,6 +429,7 @@
           "target": {
             "warp": "warp-5",
             "map": {
+              "type": "map",
               "id": "map-3-3"
             }
           }

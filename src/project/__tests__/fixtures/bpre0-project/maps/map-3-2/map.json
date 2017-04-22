@@ -5807,9 +5807,11 @@
     },
     "blocksets": {
       "primary": {
+        "type": "blockset",
         "id": "blockset-3"
       },
       "secondary": {
+        "type": "blockset",
         "id": "blockset-31"
       }
     },
@@ -5827,6 +5829,7 @@
         "direction": "down",
         "offset": 12,
         "map": {
+          "type": "map",
           "id": "map-3-20"
         }
       },
@@ -5834,6 +5837,7 @@
         "direction": "right",
         "offset": 10,
         "map": {
+          "type": "map",
           "id": "map-3-21"
         }
       }
@@ -5848,6 +5852,7 @@
           "target": {
             "warp": "warp-1",
             "map": {
+              "type": "map",
               "id": "map-6-0"
             }
           }
@@ -5863,6 +5868,7 @@
           "target": {
             "warp": "warp-3",
             "map": {
+              "type": "map",
               "id": "map-6-0"
             }
           }
@@ -5878,6 +5884,7 @@
           "target": {
             "warp": "warp-1",
             "map": {
+              "type": "map",
               "id": "map-6-2"
             }
           }
@@ -5893,6 +5900,7 @@
           "target": {
             "warp": "warp-1",
             "map": {
+              "type": "map",
               "id": "map-6-3"
             }
           }
@@ -5908,6 +5916,7 @@
           "target": {
             "warp": "warp-1",
             "map": {
+              "type": "map",
               "id": "map-6-4"
             }
           }
@@ -5923,6 +5932,7 @@
           "target": {
             "warp": "warp-1",
             "map": {
+              "type": "map",
               "id": "map-6-5"
             }
           }
@@ -5938,6 +5948,7 @@
           "target": {
             "warp": "warp-1",
             "map": {
+              "type": "map",
               "id": "map-6-7"
             }
           }

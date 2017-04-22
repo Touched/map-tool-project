@@ -10,6 +10,7 @@
   },
   "data": {
     "linked": {
+      "type": "map",
       "id": "map-5-4"
     },
     "scripts": [
@@ -39,6 +40,7 @@
           "target": {
             "warp": "warp-6",
             "map": {
+              "type": "map",
               "id": "map-3-7"
             }
           }
@@ -54,6 +56,7 @@
           "target": {
             "warp": "warp-6",
             "map": {
+              "type": "map",
               "id": "map-3-7"
             }
           }
@@ -69,6 +72,7 @@
           "target": {
             "warp": "warp-6",
             "map": {
+              "type": "map",
               "id": "map-3-7"
             }
           }
@@ -84,6 +88,7 @@
           "target": {
             "warp": "warp-0",
             "map": {
+              "type": "map",
               "id": "map-11-6"
             }
           }

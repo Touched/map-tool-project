@@ -5807,9 +5807,11 @@
     },
     "blocksets": {
       "primary": {
+        "type": "blockset",
         "id": "blockset-3"
       },
       "secondary": {
+        "type": "blockset",
         "id": "blockset-32"
       }
     },
@@ -5827,6 +5829,7 @@
         "direction": "up",
         "offset": 12,
         "map": {
+          "type": "map",
           "id": "map-3-43"
         }
       },
@@ -5834,6 +5837,7 @@
         "direction": "down",
         "offset": 0,
         "map": {
+          "type": "map",
           "id": "map-3-23"
         }
       },
@@ -5841,6 +5845,7 @@
         "direction": "left",
         "offset": 10,
         "map": {
+          "type": "map",
           "id": "map-3-22"
         }
       },
@@ -5848,6 +5853,7 @@
         "direction": "right",
         "offset": 10,
         "map": {
+          "type": "map",
           "id": "map-3-27"
         }
       }
@@ -5862,6 +5868,7 @@
           "target": {
             "warp": "warp-1",
             "map": {
+              "type": "map",
               "id": "map-7-0"
             }
           }
@@ -5877,6 +5884,7 @@
           "target": {
             "warp": "warp-1",
             "map": {
+              "type": "map",
               "id": "map-7-1"
             }
           }
@@ -5892,6 +5900,7 @@
           "target": {
             "warp": "warp-1",
             "map": {
+              "type": "map",
               "id": "map-7-2"
             }
           }
@@ -5907,6 +5916,7 @@
           "target": {
             "warp": "warp-1",
             "map": {
+              "type": "map",
               "id": "map-7-3"
             }
           }
@@ -5922,6 +5932,7 @@
           "target": {
             "warp": "warp-1",
             "map": {
+              "type": "map",
               "id": "map-7-5"
             }
           }
@@ -5937,6 +5948,7 @@
           "target": {
             "warp": "warp-1",
             "map": {
+              "type": "map",
               "id": "map-7-6"
             }
           }
@@ -5952,6 +5964,7 @@
           "target": {
             "warp": "warp-1",
             "map": {
+              "type": "map",
               "id": "map-7-7"
             }
           }
@@ -5967,6 +5980,7 @@
           "target": {
             "warp": "warp-0",
             "map": {
+              "type": "map",
               "id": "map-1-72"
             }
           }
@@ -5982,6 +5996,7 @@
           "target": {
             "warp": "warp-3",
             "map": {
+              "type": "map",
               "id": "map-7-0"
             }
           }
@@ -5997,6 +6012,7 @@
           "target": {
             "warp": "warp-3",
             "map": {
+              "type": "map",
               "id": "map-7-1"
             }
           }
@@ -6012,6 +6028,7 @@
           "target": {
             "warp": "warp-3",
             "map": {
+              "type": "map",
               "id": "map-7-1"
             }
           }
@@ -6027,6 +6044,7 @@
           "target": {
             "warp": "warp-1",
             "map": {
+              "type": "map",
               "id": "map-7-6"
             }
           }
@@ -6042,6 +6060,7 @@
           "target": {
             "warp": "warp-0",
             "map": {
+              "type": "map",
               "id": "map-7-8"
             }
           }
@@ -6057,6 +6076,7 @@
           "target": {
             "warp": "warp-0",
             "map": {
+              "type": "map",
               "id": "map-7-9"
             }
           }

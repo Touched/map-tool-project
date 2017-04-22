@@ -11,18 +11,23 @@
   "data": {
     "maps": [
       {
+        "type": "map",
         "id": "map-36-0"
       },
       {
+        "type": "map",
         "id": "map-36-1"
       },
       {
+        "type": "map",
         "id": "map-36-2"
       },
       {
+        "type": "map",
         "id": "map-36-3"
       },
       {
+        "type": "map",
         "id": "map-36-4"
       }
     ]

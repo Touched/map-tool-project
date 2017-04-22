@@ -11,132 +11,175 @@
   "data": {
     "banks": [
       {
+        "type": "bank",
         "id": "bank-0"
       },
       {
+        "type": "bank",
         "id": "bank-1"
       },
       {
+        "type": "bank",
         "id": "bank-2"
       },
       {
+        "type": "bank",
         "id": "bank-3"
       },
       {
+        "type": "bank",
         "id": "bank-4"
       },
       {
+        "type": "bank",
         "id": "bank-5"
       },
       {
+        "type": "bank",
         "id": "bank-6"
       },
       {
+        "type": "bank",
         "id": "bank-7"
       },
       {
+        "type": "bank",
         "id": "bank-8"
       },
       {
+        "type": "bank",
         "id": "bank-9"
       },
       {
+        "type": "bank",
         "id": "bank-10"
       },
       {
+        "type": "bank",
         "id": "bank-11"
       },
       {
+        "type": "bank",
         "id": "bank-12"
       },
       {
+        "type": "bank",
         "id": "bank-13"
       },
       {
+        "type": "bank",
         "id": "bank-14"
       },
       {
+        "type": "bank",
         "id": "bank-15"
       },
       {
+        "type": "bank",
         "id": "bank-16"
       },
       {
+        "type": "bank",
         "id": "bank-17"
       },
       {
+        "type": "bank",
         "id": "bank-18"
       },
       {
+        "type": "bank",
         "id": "bank-19"
       },
       {
+        "type": "bank",
         "id": "bank-20"
       },
       {
+        "type": "bank",
         "id": "bank-21"
       },
       {
+        "type": "bank",
         "id": "bank-22"
       },
       {
+        "type": "bank",
         "id": "bank-23"
       },
       {
+        "type": "bank",
         "id": "bank-24"
       },
       {
+        "type": "bank",
         "id": "bank-25"
       },
       {
+        "type": "bank",
         "id": "bank-26"
       },
       {
+        "type": "bank",
         "id": "bank-27"
       },
       {
+        "type": "bank",
         "id": "bank-28"
       },
       {
+        "type": "bank",
         "id": "bank-29"
       },
       {
+        "type": "bank",
         "id": "bank-30"
       },
       {
+        "type": "bank",
         "id": "bank-31"
       },
       {
+        "type": "bank",
         "id": "bank-32"
       },
       {
+        "type": "bank",
         "id": "bank-33"
       },
       {
+        "type": "bank",
         "id": "bank-34"
       },
       {
+        "type": "bank",
         "id": "bank-35"
       },
       {
+        "type": "bank",
         "id": "bank-36"
       },
       {
+        "type": "bank",
         "id": "bank-37"
       },
       {
+        "type": "bank",
         "id": "bank-38"
       },
       {
+        "type": "bank",
         "id": "bank-39"
       },
       {
+        "type": "bank",
         "id": "bank-40"
       },
       {
+        "type": "bank",
         "id": "bank-41"
       },
       {
+        "type": "bank",
         "id": "bank-42"
       }
     ]

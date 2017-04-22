@@ -2927,9 +2927,11 @@
     },
     "blocksets": {
       "primary": {
+        "type": "blockset",
         "id": "blockset-3"
       },
       "secondary": {
+        "type": "blockset",
         "id": "blockset-27"
       }
     },
@@ -2939,6 +2941,7 @@
         "direction": "up",
         "offset": 0,
         "map": {
+          "type": "map",
           "id": "map-3-17"
         }
       },
@@ -2946,6 +2949,7 @@
         "direction": "right",
         "offset": 20,
         "map": {
+          "type": "map",
           "id": "map-3-64"
         }
       }

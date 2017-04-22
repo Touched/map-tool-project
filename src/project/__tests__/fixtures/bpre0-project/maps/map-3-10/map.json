@@ -10937,9 +10937,11 @@
     },
     "blocksets": {
       "primary": {
+        "type": "blockset",
         "id": "blockset-3"
       },
       "secondary": {
+        "type": "blockset",
         "id": "blockset-37"
       }
     },
@@ -10963,6 +10965,7 @@
           "target": {
             "warp": "warp-1",
             "map": {
+              "type": "map",
               "id": "map-1-47"
             }
           }
@@ -10978,6 +10981,7 @@
           "target": {
             "warp": "warp-1",
             "map": {
+              "type": "map",
               "id": "map-14-0"
             }
           }
@@ -10993,6 +10997,7 @@
           "target": {
             "warp": "warp-1",
             "map": {
+              "type": "map",
               "id": "map-14-2"
             }
           }
@@ -11008,6 +11013,7 @@
           "target": {
             "warp": "warp-1",
             "map": {
+              "type": "map",
               "id": "map-14-3"
             }
           }
@@ -11023,6 +11029,7 @@
           "target": {
             "warp": "warp-1",
             "map": {
+              "type": "map",
               "id": "map-14-4"
             }
           }
@@ -11038,6 +11045,7 @@
           "target": {
             "warp": "warp-1",
             "map": {
+              "type": "map",
               "id": "map-14-5"
             }
           }
@@ -11053,6 +11061,7 @@
           "target": {
             "warp": "warp-1",
             "map": {
+              "type": "map",
               "id": "map-14-6"
             }
           }
@@ -11068,6 +11077,7 @@
           "target": {
             "warp": "warp-1",
             "map": {
+              "type": "map",
               "id": "map-14-8"
             }
           }
@@ -11083,6 +11093,7 @@
           "target": {
             "warp": "warp-2",
             "map": {
+              "type": "map",
               "id": "map-19-0"
             }
           }
@@ -11098,6 +11109,7 @@
           "target": {
             "warp": "warp-2",
             "map": {
+              "type": "map",
               "id": "map-17-1"
             }
           }
@@ -11113,6 +11125,7 @@
           "target": {
             "warp": "warp-1",
             "map": {
+              "type": "map",
               "id": "map-20-0"
             }
           }
@@ -11128,6 +11141,7 @@
           "target": {
             "warp": "warp-0",
             "map": {
+              "type": "map",
               "id": "map-18-0"
             }
           }
@@ -11143,6 +11157,7 @@
           "target": {
             "warp": "warp-0",
             "map": {
+              "type": "map",
               "id": "map-18-0"
             }
           }
@@ -11158,6 +11173,7 @@
           "target": {
             "warp": "warp-2",
             "map": {
+              "type": "map",
               "id": "map-17-1"
             }
           }
@@ -11173,6 +11189,7 @@
           "target": {
             "warp": "warp-0",
             "map": {
+              "type": "map",
               "id": "map-14-9"
             }
           }

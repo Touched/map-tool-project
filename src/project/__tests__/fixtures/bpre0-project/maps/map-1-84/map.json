@@ -2669,9 +2669,11 @@
     },
     "blocksets": {
       "primary": {
+        "type": "blockset",
         "id": "blockset-3"
       },
       "secondary": {
+        "type": "blockset",
         "id": "blockset-18"
       }
     },
@@ -2687,6 +2689,7 @@
           "target": {
             "warp": "warp-0",
             "map": {
+              "type": "map",
               "id": "map-1-83"
             }
           }
@@ -2702,6 +2705,7 @@
           "target": {
             "warp": "warp-1",
             "map": {
+              "type": "map",
               "id": "map-1-83"
             }
           }
@@ -2717,6 +2721,7 @@
           "target": {
             "warp": "warp-2",
             "map": {
+              "type": "map",
               "id": "map-1-83"
             }
           }
@@ -2732,6 +2737,7 @@
           "target": {
             "warp": "warp-3",
             "map": {
+              "type": "map",
               "id": "map-1-85"
             }
           }
@@ -2747,6 +2753,7 @@
           "target": {
             "warp": "warp-4",
             "map": {
+              "type": "map",
               "id": "map-1-85"
             }
           }
@@ -2762,6 +2769,7 @@
           "target": {
             "warp": "warp-5",
             "map": {
+              "type": "map",
               "id": "map-1-85"
             }
           }
@@ -2777,6 +2785,7 @@
           "target": {
             "warp": "warp-6",
             "map": {
+              "type": "map",
               "id": "map-1-85"
             }
           }
@@ -2792,6 +2801,7 @@
           "target": {
             "warp": "warp-7",
             "map": {
+              "type": "map",
               "id": "map-1-85"
             }
           }
@@ -2807,6 +2817,7 @@
           "target": {
             "warp": "warp-8",
             "map": {
+              "type": "map",
               "id": "map-1-85"
             }
           }
@@ -2822,6 +2833,7 @@
           "target": {
             "warp": "warp-5",
             "map": {
+              "type": "map",
               "id": "map-1-83"
             }
           }
@@ -2837,6 +2849,7 @@
           "target": {
             "warp": "warp-6",
             "map": {
+              "type": "map",
               "id": "map-1-83"
             }
           }

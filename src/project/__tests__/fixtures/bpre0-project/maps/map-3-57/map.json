@@ -4367,9 +4367,11 @@
     },
     "blocksets": {
       "primary": {
+        "type": "blockset",
         "id": "blockset-3"
       },
       "secondary": {
+        "type": "blockset",
         "id": "blockset-38"
       }
     },
@@ -4379,6 +4381,7 @@
         "direction": "left",
         "offset": -20,
         "map": {
+          "type": "map",
           "id": "map-3-56"
         }
       }

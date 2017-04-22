@@ -7,7 +7,7 @@
     "maps": {
       "type": "array",
       "items": {
-        "$ref": "http://example.com/schema/entity/types/reference/id"
+        "$ref": "http://example.com/schema/entity/types/reference/id/map"
       }
     }
   }

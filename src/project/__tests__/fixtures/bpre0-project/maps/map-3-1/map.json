@@ -5807,9 +5807,11 @@
     },
     "blocksets": {
       "primary": {
+        "type": "blockset",
         "id": "blockset-3"
       },
       "secondary": {
+        "type": "blockset",
         "id": "blockset-30"
       }
     },
@@ -5827,6 +5829,7 @@
         "direction": "up",
         "offset": 12,
         "map": {
+          "type": "map",
           "id": "map-3-20"
         }
       },
@@ -5834,6 +5837,7 @@
         "direction": "down",
         "offset": 12,
         "map": {
+          "type": "map",
           "id": "map-3-19"
         }
       },
@@ -5841,6 +5845,7 @@
         "direction": "left",
         "offset": 10,
         "map": {
+          "type": "map",
           "id": "map-3-41"
         }
       }
@@ -5855,6 +5860,7 @@
           "target": {
             "warp": "warp-1",
             "map": {
+              "type": "map",
               "id": "map-5-4"
             }
           }
@@ -5870,6 +5876,7 @@
           "target": {
             "warp": "warp-1",
             "map": {
+              "type": "map",
               "id": "map-5-0"
             }
           }
@@ -5885,6 +5892,7 @@
           "target": {
             "warp": "warp-1",
             "map": {
+              "type": "map",
               "id": "map-5-1"
             }
           }
@@ -5900,6 +5908,7 @@
           "target": {
             "warp": "warp-1",
             "map": {
+              "type": "map",
               "id": "map-5-2"
             }
           }
@@ -5915,6 +5924,7 @@
           "target": {
             "warp": "warp-1",
             "map": {
+              "type": "map",
               "id": "map-5-3"
             }
           }

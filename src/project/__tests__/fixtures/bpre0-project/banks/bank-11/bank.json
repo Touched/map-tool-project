@@ -11,33 +11,43 @@
   "data": {
     "maps": [
       {
+        "type": "map",
         "id": "map-11-0"
       },
       {
+        "type": "map",
         "id": "map-11-1"
       },
       {
+        "type": "map",
         "id": "map-11-2"
       },
       {
+        "type": "map",
         "id": "map-11-3"
       },
       {
+        "type": "map",
         "id": "map-11-4"
       },
       {
+        "type": "map",
         "id": "map-11-5"
       },
       {
+        "type": "map",
         "id": "map-11-6"
       },
       {
+        "type": "map",
         "id": "map-11-7"
       },
       {
+        "type": "map",
         "id": "map-11-8"
       },
       {
+        "type": "map",
         "id": "map-11-9"
       }
     ]
