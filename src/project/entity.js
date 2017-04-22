@@ -1,6 +1,6 @@
 /* @flow */
 
-import Project from './project';
+import type Project from './project';
 import validateEntity from './helpers/validator';
 import invariant from '../util/invariant';
 
