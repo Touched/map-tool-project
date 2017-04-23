@@ -20,7 +20,7 @@ import {
   StructureSchema,
   TupleSchema,
   Word,
-} from '@Touched/gba-serialize';
+} from '@touched/gba-serialize';
 
 const Block = new BitfieldSchema([
   ['block', 10],

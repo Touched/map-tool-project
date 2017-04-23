@@ -1,8 +1,11 @@
 {
-  "name": "@Touched/gba-serialize",
-  "version": "0.0.1",
-  "description": "",
+  "name": "@touched/map-tool-project",
+  "version": "0.1.0",
+  "description": "Tools for managing mapping project",
   "main": "lib/index.js",
+  "bin": {
+    "import-map-project":  "lib/bin/rom-import.js"
+  },
   "scripts": {
     "lint": "eslint 'src/**/*.js' 'test/**/*.js'",
     "check": "flow check",
@@ -16,7 +19,6 @@
   },
   "author": "Touched",
   "license": "GPL-3.0",
-  "private": true,
   "devDependencies": {
     "babel-cli": "^6.18.0",
     "babel-eslint": "^7.1.1",
@@ -47,6 +49,7 @@
     "sinon-chai": "^2.8.0"
   },
   "dependencies": {
+    "@touched/gba-serialize": "^0.1.0",
     "@touched/indexed-png": "^0.1.0",
     "ajv": "^5.0.0",
     "ajv-keywords": "^2.0.0",
